@@ -9,6 +9,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ASC.Core.Common.EF.Context
 {
+    public class MSSqlMailDbContext : MailDbContext { }
     public class MySqlMailDbContext : MailDbContext { }
     public class PostgreSqlMailDbContext : MailDbContext { }
     public class MailDbContext : BaseDbContext
@@ -30,6 +31,7 @@ namespace ASC.Core.Common.EF.Context
                 {
                     { Provider.MySql, () => new MySqlMailDbContext() } ,
                     { Provider.Postgre, () => new PostgreSqlMailDbContext() } ,
+                    { Provider.MSSql, () => new MSSqlMailDbContext() } ,
                 };
             }
         }
@@ -38,8 +40,11 @@ namespace ASC.Core.Common.EF.Context
             ModelBuilderWrapper
                 .From(modelBuilder, Provider)
                 .AddMailbox()
+                .AddMailboxServer()
+                .AddApiKeys()
                 .AddMailboxProvider()
-                .AddServerServer();
+                .AddServerServer()
+                .AddGreyListingWhiteList();
         }
     }
     public static class MailDbExtension

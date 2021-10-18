@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ASC.Core.Common.EF.Context
 {
+    public class MSSqlTenantDbContext : TenantDbContext { }
     public class MySqlTenantDbContext : TenantDbContext { }
     public class PostgreSqlTenantDbContext : TenantDbContext { }
     public class TenantDbContext : BaseDbContext
@@ -35,6 +36,7 @@ namespace ASC.Core.Common.EF.Context
                 {
                     { Provider.MySql, () => new MySqlTenantDbContext() } ,
                     { Provider.Postgre, () => new PostgreSqlTenantDbContext() } ,
+                    { Provider.MSSql, () => new MSSqlTenantDbContext()  } ,
                 };
             }
         }

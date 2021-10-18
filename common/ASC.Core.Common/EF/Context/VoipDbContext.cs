@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ASC.Core.Common.EF.Context
 {
+    public class MSSqlVoipDbContext : VoipDbContext { }
     public class MySqlVoipDbContext : VoipDbContext { }
     public class PostgreSqlVoipDbContext : VoipDbContext { }
     public class VoipDbContext : BaseDbContext
@@ -23,6 +24,7 @@ namespace ASC.Core.Common.EF.Context
                 {
                     { Provider.MySql, () => new MySqlVoipDbContext() } ,
                     { Provider.Postgre, () => new PostgreSqlVoipDbContext() } ,
+                    { Provider.MSSql, () => new MSSqlVoipDbContext() } ,
                 };
             }
         }

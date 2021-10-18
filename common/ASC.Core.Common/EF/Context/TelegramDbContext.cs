@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ASC.Core.Common.EF.Context
 {
+    public class MSSqlTelegramDbContext : TelegramDbContext { }
     public class MySqlTelegramDbContext : TelegramDbContext { }
     public class PostgreSqlTelegramDbContext : TelegramDbContext { }
     public class TelegramDbContext : BaseDbContext
@@ -27,6 +28,7 @@ namespace ASC.Core.Common.EF.Context
                 {
                     { Provider.MySql, () => new MySqlTelegramDbContext() } ,
                     { Provider.Postgre, () => new PostgreSqlTelegramDbContext() } ,
+                    { Provider.MSSql, () => new MSSqlTelegramDbContext() } ,
                 };
             }
         }

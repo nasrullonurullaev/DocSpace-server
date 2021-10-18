@@ -8,15 +8,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ASC.Core.Common.EF
 {
-    public class MySqlUserDbContext : UserDbContext
-    {
-
-    }
-
-    public class PostgreUserDbContext : UserDbContext
-    {
-
-    }
+    public class MSSqlUserDbContext : UserDbContext { }
+    public class MySqlUserDbContext : UserDbContext { }
+    public class PostgreUserDbContext : UserDbContext { }
 
     public class UserDbContext : BaseDbContext
     {
@@ -37,6 +31,7 @@ namespace ASC.Core.Common.EF
                 {
                     { Provider.MySql, () => new MySqlUserDbContext() } ,
                     { Provider.Postgre, () => new PostgreUserDbContext() } ,
+                    { Provider.MSSql, () => new MSSqlUserDbContext() } ,
                 };
             }
         }

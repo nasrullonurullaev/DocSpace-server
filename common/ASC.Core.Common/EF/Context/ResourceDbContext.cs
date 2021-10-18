@@ -9,6 +9,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ASC.Core.Common.EF.Context
 {
+    public class MSSqlResourceDbContext : ResourceDbContext { }
     public class MySqlResourceDbContext : ResourceDbContext { }
     public class PostgreSqlResourceDbContext : ResourceDbContext { }
     public class ResourceDbContext : BaseDbContext

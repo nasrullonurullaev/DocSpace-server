@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ASC.Core.Common.EF.Context
 {
+    public class MSSqlWebstudioDbContext : WebstudioDbContext { }
     public class MySqlWebstudioDbContext : WebstudioDbContext { }
     public class PostgreSqlWebstudioDbContext : WebstudioDbContext { }
     public class WebstudioDbContext : BaseDbContext
@@ -23,6 +24,7 @@ namespace ASC.Core.Common.EF.Context
                 {
                     { Provider.MySql, () => new MySqlWebstudioDbContext() } ,
                     { Provider.Postgre, () => new PostgreSqlWebstudioDbContext() } ,
+                    { Provider.MSSql, () => new MSSqlWebstudioDbContext() } ,
                 };
             }
         }

@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ASC.Core.Common.EF.Context
 {
+    public class MSSqlMessagesContext : MessagesContext { }
     public class MySqlMessagesContext : MessagesContext { }
     public class PostgreSqlMessagesContext : MessagesContext { }
     public class MessagesContext : BaseDbContext
@@ -25,6 +26,7 @@ namespace ASC.Core.Common.EF.Context
                 {
                     { Provider.MySql, () => new MySqlMessagesContext() } ,
                     { Provider.Postgre, () => new PostgreSqlMessagesContext() } ,
+                    { Provider.MSSql, () => new MSSqlMessagesContext() } ,
                 };
             }
         }

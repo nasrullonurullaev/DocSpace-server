@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ASC.Core.Common.EF.Context
 {
+    public class MSSqlAccountLinkContext : AccountLinkContext { }
     public class MySqlAccountLinkContext : AccountLinkContext { }
     public class PostgreSqlAccountLinkContext : AccountLinkContext { }
     public class AccountLinkContext : BaseDbContext
@@ -22,6 +23,7 @@ namespace ASC.Core.Common.EF.Context
                 {
                     { Provider.MySql, () => new MySqlAccountLinkContext() } ,
                     { Provider.Postgre, () => new PostgreSqlAccountLinkContext() } ,
+                    { Provider.MSSql, () => new MSSqlAccountLinkContext() } ,
                 };
             }
         }

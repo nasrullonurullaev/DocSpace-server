@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ASC.Core.Common.EF.Context
 {
+    public class MSSqlFeedDbContext : FeedDbContext { }
     public class MySqlFeedDbContext : FeedDbContext { }
     public class PostgreSqlFeedDbContext : FeedDbContext { }
     public class FeedDbContext : BaseDbContext
@@ -24,6 +25,7 @@ namespace ASC.Core.Common.EF.Context
                 {
                     { Provider.MySql, () => new MySqlFeedDbContext() } ,
                     { Provider.Postgre, () => new PostgreSqlFeedDbContext() } ,
+                    { Provider.MSSql, () => new MSSqlFeedDbContext() } ,
                 };
             }
         }

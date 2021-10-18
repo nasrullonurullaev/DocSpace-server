@@ -12,7 +12,8 @@ namespace ASC.Core.Common.EF
     public enum Provider
     {
         Postgre,
-        MySql
+        MySql,
+        MSSql
     }
 
     public class BaseDbContext : DbContext
@@ -73,6 +74,9 @@ namespace ASC.Core.Common.EF
                 case Provider.Postgre:
                     optionsBuilder.UseNpgsql(ConnectionStringSettings.ConnectionString);
                     break;
+                case Provider.MSSql:
+                    optionsBuilder.UseSqlServer(ConnectionStringSettings.ConnectionString);
+                    break;
             }
            
         }
@@ -85,6 +89,8 @@ namespace ASC.Core.Common.EF
                     return Provider.MySql;
                 case "Npgsql":
                     return Provider.Postgre;
+                case "SqlServer":
+                    return Provider.MSSql;
                 default:
                     break;
             }

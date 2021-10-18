@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ASC.Core.Common.EF.Context
 {
+    public class MSSqlFilesDbContext : FilesDbContext { }
     public class MySqlFilesDbContext : FilesDbContext { }
     public class PostgreSqlFilesDbContext : FilesDbContext { }
     public class FilesDbContext : BaseDbContext
@@ -21,6 +22,7 @@ namespace ASC.Core.Common.EF.Context
                 {
                     { Provider.MySql, () => new MySqlFilesDbContext() } ,
                     { Provider.Postgre, () => new PostgreSqlFilesDbContext() } ,
+                    { Provider.MSSql, () => new MSSqlFilesDbContext() } ,
                 };
             }
         }

@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ASC.Core.Common.EF.Context
 {
+    public class MSSqlDbContext : DbContext { }
     public class MySqlDbContext : DbContext { }
     public class PostgreSqlDbContext : DbContext { }
     public class DbContext : BaseDbContext
@@ -31,6 +32,7 @@ namespace ASC.Core.Common.EF.Context
                 {
                     { Provider.MySql, () => new MySqlDbContext() } ,
                     { Provider.Postgre, () => new PostgreSqlDbContext() } ,
+                    { Provider.MSSql, () => new MSSqlDbContext() } ,
                 };
             }
         }
@@ -39,7 +41,8 @@ namespace ASC.Core.Common.EF.Context
             ModelBuilderWrapper
                    .From(modelBuilder, Provider)
                    .AddMobileAppInstall()
-                   .AddDbipLocation();
+                   .AddDbipLocation()
+                   .AddRegions();
         }
     }
 

@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ASC.Core.Common.EF.Context
 {
+    public class MSSqlNotifyDbContext : NotifyDbContext { }
     public class MySqlNotifyDbContext : NotifyDbContext { }
     public class PostgreSqlNotifyDbContext : NotifyDbContext { }
     public class NotifyDbContext : BaseDbContext
@@ -22,6 +23,7 @@ namespace ASC.Core.Common.EF.Context
                 {
                     { Provider.MySql, () => new MySqlNotifyDbContext() } ,
                     { Provider.Postgre, () => new PostgreSqlNotifyDbContext() } ,
+                    { Provider.MSSql, () => new MSSqlNotifyDbContext() } ,
                 };
             }
         }
