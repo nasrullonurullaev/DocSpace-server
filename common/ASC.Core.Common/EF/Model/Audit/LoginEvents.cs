@@ -14,7 +14,8 @@ namespace ASC.Core.Common.EF.Model
         {
             modelBuilder
                 .Add(MySqlAddLoginEvents, Provider.MySql)
-                .Add(PgSqlAddLoginEvents, Provider.Postgre);
+                .Add(PgSqlAddLoginEvents, Provider.Postgre)
+                .Add(MSSqlAddLoginEvents, Provider.MSSql);
             return modelBuilder;
         }
         public static void MySqlAddLoginEvents(this ModelBuilder modelBuilder)
@@ -130,6 +131,64 @@ namespace ASC.Core.Common.EF.Model
                     .HasColumnName("platform")
                     .HasMaxLength(200)
                     .HasDefaultValueSql("NULL");
+
+                entity.Property(e => e.TenantId).HasColumnName("tenant_id");
+
+                entity.Property(e => e.UserId)
+                    .IsRequired()
+                    .HasColumnName("user_id")
+                    .HasMaxLength(38)
+                    .IsFixedLength();
+            });
+        }
+
+        public static void MSSqlAddLoginEvents(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<LoginEvents>(entity =>
+            {
+                entity.ToTable("login_events");
+
+                entity.HasIndex(e => e.Date)
+                    .HasDatabaseName("date_login_events");
+
+                entity.HasIndex(e => new { e.UserId, e.TenantId })
+                    .HasDatabaseName("tenant_id_login_events");
+
+                entity.Property(e => e.Id).HasColumnName("id");
+
+                entity.Property(e => e.Action).HasColumnName("action");
+
+                entity.Property(e => e.Browser)
+                    .HasColumnName("browser")
+                    .HasMaxLength(200)
+                    .HasDefaultValue(null);
+
+                entity.Property(e => e.Date).HasColumnName("date");
+
+                entity.Property(e => e.Description)
+                    .HasColumnName("description")
+                    .HasMaxLength(500)
+                    .HasDefaultValue(null);
+
+                entity.Property(e => e.Ip)
+                    .HasColumnName("ip")
+                    .HasMaxLength(50)
+                    .HasDefaultValue(null);
+
+                entity.Property(e => e.Login)
+                    .HasColumnName("login")
+                    .HasMaxLength(200)
+                    .HasDefaultValue(null);
+
+                entity.Property(e => e.Page)
+                    .HasColumnName("page")
+                    .HasMaxLength(300)
+                    .HasDefaultValue(null);
+
+                entity.Property(e => e.Platform)
+                    .HasColumnName("platform")
+                    .HasMaxLength(200)
+                    .HasDefaultValue(null);
 
                 entity.Property(e => e.TenantId).HasColumnName("tenant_id");
 

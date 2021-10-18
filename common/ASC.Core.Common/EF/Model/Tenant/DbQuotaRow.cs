@@ -23,7 +23,8 @@ namespace ASC.Core.Common.EF
         {
             modelBuilder
                 .Add(MySqlAddDbQuotaRow, Provider.MySql)
-                .Add(PgSqlAddDbQuotaRow, Provider.Postgre);
+                .Add(PgSqlAddDbQuotaRow, Provider.Postgre)
+                .Add(MSSqllAddDbQuotaRow, Provider.MSSql);
             return modelBuilder;
         }
         public static void MySqlAddDbQuotaRow(this ModelBuilder modelBuilder)
@@ -67,7 +68,7 @@ namespace ASC.Core.Common.EF
                 entity.HasKey(e => new { e.Tenant, e.Path })
                     .HasName("tenants_quotarow_pkey");
 
-                entity.ToTable("tenants_quotarow", "onlyoffice");
+                entity.ToTable("tenants_quotarow");
 
                 entity.HasIndex(e => e.LastModified)
                     .HasDatabaseName("last_modified_tenants_quotarow");
@@ -90,6 +91,39 @@ namespace ASC.Core.Common.EF
                     .HasColumnName("tag")
                     .HasMaxLength(1024)
                     .HasDefaultValueSql("'0'");
+            });
+        }
+
+        public static void MSSqllAddDbQuotaRow(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<DbQuotaRow>(entity =>
+            {
+                entity.HasKey(e => new { e.Tenant, e.Path })
+                    .HasName("tenants_quotarow_pkey");
+
+                entity.ToTable("tenants_quotarow");
+
+                entity.HasIndex(e => e.LastModified)
+                    .HasDatabaseName("last_modified_tenants_quotarow");
+
+                entity.Property(e => e.Tenant).HasColumnName("tenant");
+
+                entity.Property(e => e.Path)
+                    .HasColumnName("path")
+                    .HasMaxLength(255);
+
+                entity.Property(e => e.Counter)
+                    .HasColumnName("counter")
+                    .HasDefaultValueSql("'0'");
+
+                entity.Property(e => e.LastModified)
+                    .HasColumnName("last_modified")
+                    .HasDefaultValueSql("CURRENT_TIMESTAMP");
+
+                entity.Property(e => e.Tag)
+                    .HasColumnName("tag")
+                    .HasMaxLength(1024)
+                    .HasDefaultValue("0");
             });
         }
     }

@@ -18,7 +18,8 @@ namespace ASC.Core.Common.EF.Model
         {
             modelBuilder
                 .Add(MySqlAddVoipNumber, Provider.MySql)
-                .Add(PgSqlAddVoipNumber, Provider.Postgre);
+                .Add(PgSqlAddVoipNumber, Provider.Postgre)
+                .Add(MSSqlAddVoipNumber, Provider.MSSql);
             return modelBuilder;
         }
         public static void MySqlAddVoipNumber(this ModelBuilder modelBuilder)
@@ -75,6 +76,35 @@ namespace ASC.Core.Common.EF.Model
                     .HasColumnName("alias")
                     .HasMaxLength(255)
                     .HasDefaultValueSql("NULL");
+
+                entity.Property(e => e.Number)
+                    .IsRequired()
+                    .HasColumnName("number")
+                    .HasMaxLength(50);
+
+                entity.Property(e => e.Settings).HasColumnName("settings");
+
+                entity.Property(e => e.TenantId).HasColumnName("tenant_id");
+            });
+        }
+
+        public static void MSSqlAddVoipNumber(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<VoipNumber>(entity =>
+            {
+                entity.ToTable("crm_voip_number");
+
+                entity.HasIndex(e => e.TenantId)
+                    .HasDatabaseName("tenant_id_crm_voip_number");
+
+                entity.Property(e => e.Id)
+                    .HasColumnName("id")
+                    .HasMaxLength(50);
+
+                entity.Property(e => e.Alias)
+                    .HasColumnName("alias")
+                    .HasMaxLength(255)
+                    .HasDefaultValue(null);
 
                 entity.Property(e => e.Number)
                     .IsRequired()

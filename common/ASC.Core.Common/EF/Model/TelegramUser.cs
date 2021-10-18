@@ -20,7 +20,8 @@ namespace ASC.Core.Common.EF.Model
         {
             modelBuilder
                 .Add(MySqlAddTelegramUsers, Provider.MySql)
-                .Add(PgSqlAddTelegramUsers, Provider.Postgre);
+                .Add(PgSqlAddTelegramUsers, Provider.Postgre)
+                .Add(MSSqlAddTelegramUsers, Provider.MSSql);
             return modelBuilder;
         }
         public static void MySqlAddTelegramUsers(this ModelBuilder modelBuilder)
@@ -54,6 +55,28 @@ namespace ASC.Core.Common.EF.Model
                     .HasName("telegram_users_pkey");
 
                 entity.ToTable("telegram_users", "onlyoffice");
+
+                entity.HasIndex(e => e.TelegramUserId)
+                    .HasDatabaseName("tgId");
+
+                entity.Property(e => e.TenantId).HasColumnName("tenant_id");
+
+                entity.Property(e => e.PortalUserId)
+                    .HasColumnName("portal_user_id")
+                    .HasMaxLength(38);
+
+                entity.Property(e => e.TelegramUserId).HasColumnName("telegram_user_id");
+            });
+        }
+
+        public static void MSSqlAddTelegramUsers(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<TelegramUser>(entity =>
+            {
+                entity.HasKey(e => new { e.TenantId, e.PortalUserId })
+                    .HasName("telegram_users_pkey");
+
+                entity.ToTable("telegram_users");
 
                 entity.HasIndex(e => e.TelegramUserId)
                     .HasDatabaseName("tgId");

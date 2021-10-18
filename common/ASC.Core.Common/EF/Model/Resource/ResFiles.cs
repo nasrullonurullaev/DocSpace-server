@@ -20,7 +20,8 @@ namespace ASC.Core.Common.EF.Model.Resource
         {
             modelBuilder
                 .Add(MySqlAddResFiles, Provider.MySql)
-                .Add(PgSqlAddResFiles, Provider.Postgre);
+                .Add(PgSqlAddResFiles, Provider.Postgre)
+                .Add(MSSqlAddResFiles, Provider.MSSql);
             return modelBuilder;
         }
         public static void MySqlAddResFiles(this ModelBuilder modelBuilder)
@@ -89,6 +90,47 @@ namespace ASC.Core.Common.EF.Model.Resource
                 entity.Property(e => e.IsLock)
                     .HasColumnName("isLock")
                     .HasDefaultValueSql("'0'");
+
+                entity.Property(e => e.LastUpdate)
+                    .HasColumnName("lastUpdate")
+                    .HasDefaultValueSql("CURRENT_TIMESTAMP");
+
+                entity.Property(e => e.ModuleName)
+                    .IsRequired()
+                    .HasColumnName("moduleName")
+                    .HasMaxLength(50);
+
+                entity.Property(e => e.ProjectName)
+                    .IsRequired()
+                    .HasColumnName("projectName")
+                    .HasMaxLength(50);
+
+                entity.Property(e => e.ResName)
+                    .IsRequired()
+                    .HasColumnName("resName")
+                    .HasMaxLength(50);
+            });
+        }
+
+        public static void MSSqlAddResFiles(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<ResFiles>(entity =>
+            {
+                entity.ToTable("res_files");
+
+                entity.HasIndex(e => e.ResName)
+                    .HasDatabaseName("resname")
+                    .IsUnique();
+
+                entity.Property(e => e.Id).HasColumnName("id");
+
+                entity.Property(e => e.CreationDate)
+                    .HasColumnName("creationDate")
+                    .HasDefaultValueSql("'1975-03-03 00:00:00'");
+
+                entity.Property(e => e.IsLock)
+                    .HasColumnName("isLock")
+                    .HasDefaultValue(false);
 
                 entity.Property(e => e.LastUpdate)
                     .HasColumnName("lastUpdate")

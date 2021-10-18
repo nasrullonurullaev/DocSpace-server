@@ -17,7 +17,8 @@ namespace ASC.Core.Common.EF.Model
         {
             modelBuilder
                 .Add(MySqlAddDbTenantPartner, Provider.MySql)
-                .Add(PgSqlAddDbTenantPartner, Provider.Postgre);
+                .Add(PgSqlAddDbTenantPartner, Provider.Postgre)
+                .Add(MSSqlAddDbTenantPartner, Provider.MSSql);
             return modelBuilder;
         }
         public static void MySqlAddDbTenantPartner(this ModelBuilder modelBuilder)
@@ -80,6 +81,36 @@ namespace ASC.Core.Common.EF.Model
                     .HasDefaultValueSql("NULL");
             });
 
+        }
+
+        public static void MSSqlAddDbTenantPartner(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<DbTenantPartner>(entity =>
+            {
+                entity.HasKey(e => e.TenantId)
+                    .HasName("tenants_partners_pkey");
+
+                entity.ToTable("tenants_partners");
+
+                entity.Property(e => e.TenantId)
+                    .HasColumnName("tenant_id")
+                    .ValueGeneratedNever();
+
+                entity.Property(e => e.AffiliateId)
+                    .HasColumnName("affiliate_id")
+                    .HasMaxLength(50)
+                    .HasDefaultValue(null);
+
+                entity.Property(e => e.Campaign)
+                    .HasColumnName("campaign")
+                    .HasMaxLength(50)
+                    .HasDefaultValue(null);
+
+                entity.Property(e => e.PartnerId)
+                    .HasColumnName("partner_id")
+                    .HasMaxLength(36)
+                    .HasDefaultValue(null);
+            });
         }
     }
 }

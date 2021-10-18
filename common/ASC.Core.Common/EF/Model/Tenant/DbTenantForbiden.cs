@@ -13,6 +13,7 @@ namespace ASC.Core.Common.EF.Model
             modelBuilder
                 .Add(MySqlAddDbTenantForbiden, Provider.MySql)
                 .Add(PgSqlAddDbTenantForbiden, Provider.Postgre)
+                .Add(MSSqlAddDbTenantForbiden, Provider.MSSql)
                 .HasData(
                 new DbTenantForbiden { Address = "controlpanel" },
                 new DbTenantForbiden { Address = "localhost" }
@@ -50,6 +51,21 @@ namespace ASC.Core.Common.EF.Model
                     .HasMaxLength(50);
             });
 
+        }
+
+        public static void MSSqlAddDbTenantForbiden(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<DbTenantForbiden>(entity =>
+            {
+                entity.HasKey(e => e.Address)
+                    .HasName("tenants_forbiden_pkey");
+
+                entity.ToTable("tenants_forbiden");
+
+                entity.Property(e => e.Address)
+                    .HasColumnName("address")
+                    .HasMaxLength(50);
+            });
         }
     }
 }

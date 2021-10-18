@@ -28,6 +28,7 @@ namespace ASC.Core.Common.EF
             modelBuilder
                 .Add(MySqlAddDbQuota, Provider.MySql)
                 .Add(PgSqlAddDbQuota, Provider.Postgre)
+                .Add(MSSqllAddDbQuota, Provider.MSSql)
                 .HasData(
                     new DbQuota { Tenant = -1, Name = "default", Description = null, MaxFileSize = 102400, MaxTotalSize = 10995116277760, ActiveUsers = 10000, Features = "domain,audit,controlpanel,healthcheck,ldap,sso,whitelabel,branding,ssbranding,update,support,portals:10000,discencryption,privacyroom,restore", Price = decimal.Parse("0,00"), AvangateId = "0", Visible = false }
                 );
@@ -125,6 +126,53 @@ namespace ASC.Core.Common.EF
                     .HasColumnName("price")
                     .HasColumnType("numeric(10,2)")
                     .HasDefaultValueSql("0.00");
+
+                entity.Property(e => e.Visible).HasColumnName("visible");
+            });
+        }
+
+        public static void MSSqllAddDbQuota(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<DbQuota>(entity =>
+            {
+                entity.HasKey(e => e.Tenant)
+                    .HasName("tenants_quota_pkey");
+
+                entity.ToTable("tenants_quota");
+
+                entity.Property(e => e.Tenant)
+                    .HasColumnName("tenant")
+                    .ValueGeneratedNever();
+
+                entity.Property(e => e.ActiveUsers).HasColumnName("active_users");
+
+                entity.Property(e => e.AvangateId)
+                    .HasColumnName("avangate_id")
+                    .HasMaxLength(128)
+                    .HasDefaultValue(null);
+
+                entity.Property(e => e.Description)
+                    .HasColumnName("description")
+                    .HasColumnType("varchar(128)");
+
+                entity.Property(e => e.Features).HasColumnName("features");
+
+                entity.Property(e => e.MaxFileSize)
+                    .HasColumnName("max_file_size")
+                    .HasDefaultValue(0);
+
+                entity.Property(e => e.MaxTotalSize)
+                    .HasColumnName("max_total_size")
+                    .HasDefaultValue(0);
+
+                entity.Property(e => e.Name)
+                    .HasColumnName("name")
+                    .HasColumnType("varchar(128)");
+
+                entity.Property(e => e.Price)
+                    .HasColumnName("price")
+                    .HasColumnType("decimal(10,2)")
+                    .HasDefaultValue(0.00);
 
                 entity.Property(e => e.Visible).HasColumnName("visible");
             });

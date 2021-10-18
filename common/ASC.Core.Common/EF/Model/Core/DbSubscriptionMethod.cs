@@ -24,6 +24,7 @@ namespace ASC.Core.Common.EF
             modelBuilder
                 .Add(MySqlAddSubscriptionMethod, Provider.MySql)
                 .Add(PgSqlAddSubscriptionMethod, Provider.Postgre)
+                .Add(MSSqlAddSubscriptionMethod, Provider.MSSql)
                 .HasData(
                 new DbSubscriptionMethod { Source = "asc.web.studio", Action = "send_whats_new", Recipient = "c5cc67d1-c3e8-43c0-a3ad-3928ae3e5b5e", Sender = "email.sender", Tenant = -1 },
                 new DbSubscriptionMethod { Source = "6504977c-75af-4691-9099-084d3ddeea04", Action = "new feed", Recipient = "c5cc67d1-c3e8-43c0-a3ad-3928ae3e5b5e", Sender = "email.sender|messanger.sender", Tenant = -1 },
@@ -107,6 +108,36 @@ namespace ASC.Core.Common.EF
                     .HasName("core_subscriptionmethod_pkey");
 
                 entity.ToTable("core_subscriptionmethod", "onlyoffice");
+
+                entity.Property(e => e.Tenant).HasColumnName("tenant");
+
+                entity.Property(e => e.Source)
+                    .HasColumnName("source")
+                    .HasMaxLength(38);
+
+                entity.Property(e => e.Action)
+                    .HasColumnName("action")
+                    .HasMaxLength(128);
+
+                entity.Property(e => e.Recipient)
+                    .HasColumnName("recipient")
+                    .HasMaxLength(38);
+
+                entity.Property(e => e.Sender)
+                    .IsRequired()
+                    .HasColumnName("sender")
+                    .HasMaxLength(1024);
+            });
+        }
+
+        public static void MSSqlAddSubscriptionMethod(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<DbSubscriptionMethod>(entity =>
+            {
+                entity.HasKey(e => new { e.Tenant, e.Source, e.Action, e.Recipient })
+                    .HasName("core_subscriptionmethod_pkey");
+
+                entity.ToTable("core_subscriptionmethod");
 
                 entity.Property(e => e.Tenant).HasColumnName("tenant");
 

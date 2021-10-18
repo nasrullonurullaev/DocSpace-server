@@ -25,6 +25,7 @@ namespace ASC.Core.Common.EF
             modelBuilder
                 .Add(MySqlAddSubscription, Provider.MySql)
                 .Add(PgSqlAddSubscription, Provider.Postgre)
+                .Add(MSSqlAddSubscription, Provider.MSSql)
                 .HasData(
                 new Subscription { Source = "asc.web.studio", Action = "send_whats_new", Recipient = "c5cc67d1-c3e8-43c0-a3ad-3928ae3e5b5e", Object = "", Tenant = -1 },
                 new Subscription { Source = "6504977c-75af-4691-9099-084d3ddeea04", Action = "new feed", Recipient = "c5cc67d1-c3e8-43c0-a3ad-3928ae3e5b5e", Object = "", Tenant = -1 },
@@ -97,6 +98,37 @@ namespace ASC.Core.Common.EF
                     .HasName("core_subscription_pkey");
 
                 entity.ToTable("core_subscription", "onlyoffice");
+
+                entity.Property(e => e.Tenant).HasColumnName("tenant");
+
+                entity.Property(e => e.Source)
+                    .HasColumnName("source")
+                    .HasMaxLength(38);
+
+                entity.Property(e => e.Action)
+                    .HasColumnName("action")
+                    .HasMaxLength(128);
+
+                entity.Property(e => e.Recipient)
+                    .HasColumnName("recipient")
+                    .HasMaxLength(38);
+
+                entity.Property(e => e.Object)
+                    .HasColumnName("object")
+                    .HasMaxLength(128);
+
+                entity.Property(e => e.Unsubscribed).HasColumnName("unsubscribed");
+            });
+        }
+
+        public static void MSSqlAddSubscription(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Subscription>(entity =>
+            {
+                entity.HasKey(e => new { e.Tenant, e.Source, e.Action, e.Recipient, e.Object })
+                    .HasName("core_subscription_pkey");
+
+                entity.ToTable("core_subscription");
 
                 entity.Property(e => e.Tenant).HasColumnName("tenant");
 

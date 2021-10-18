@@ -22,7 +22,8 @@ namespace ASC.Core.Common.EF
         {
             modelBuilder
                 .Add(MySqlAddDbTariff, Provider.MySql)
-                .Add(PgSqlAddDbTariff, Provider.Postgre);
+                .Add(PgSqlAddDbTariff, Provider.Postgre)
+                .Add(MSSqlAddDbTariff, Provider.MSSql);
             return modelBuilder;
         }
         public static void MySqlAddDbTariff(this ModelBuilder modelBuilder)
@@ -76,6 +77,36 @@ namespace ASC.Core.Common.EF
                     .HasColumnName("comment")
                     .HasMaxLength(255)
                     .HasDefaultValueSql("NULL");
+
+                entity.Property(e => e.CreateOn)
+                    .HasColumnName("create_on")
+                    .HasDefaultValueSql("CURRENT_TIMESTAMP");
+
+                entity.Property(e => e.Stamp).HasColumnName("stamp");
+
+                entity.Property(e => e.Quantity).HasColumnName("quantity");
+
+                entity.Property(e => e.Tariff).HasColumnName("tariff");
+
+                entity.Property(e => e.Tenant).HasColumnName("tenant");
+            });
+        }
+
+        public static void MSSqlAddDbTariff(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<DbTariff>(entity =>
+            {
+                entity.ToTable("tenants_tariff");
+
+                entity.HasIndex(e => e.Tenant)
+                    .HasDatabaseName("tenant_tenants_tariff");
+
+                entity.Property(e => e.Id).HasColumnName("id");
+
+                entity.Property(e => e.Comment)
+                    .HasColumnName("comment")
+                    .HasMaxLength(255)
+                    .HasDefaultValue(null);
 
                 entity.Property(e => e.CreateOn)
                     .HasColumnName("create_on")

@@ -22,7 +22,8 @@ namespace ASC.Core.Common.EF
         {
             modelBuilder
                 .Add(MySqlAddDbButton, Provider.MySql)
-                .Add(PgSqlAddDbButton, Provider.Postgre);
+                .Add(PgSqlAddDbButton, Provider.Postgre)
+                .Add(MSSqlAddButton, Provider.MSSql);
             return modelBuilder;
         }
         public static void MySqlAddDbButton(this ModelBuilder modelBuilder)
@@ -58,6 +59,27 @@ namespace ASC.Core.Common.EF
                     .HasName("tenants_buttons_pkey");
 
                 entity.ToTable("tenants_buttons", "onlyoffice");
+
+                entity.Property(e => e.TariffId).HasColumnName("tariff_id");
+
+                entity.Property(e => e.PartnerId)
+                    .HasColumnName("partner_id")
+                    .HasMaxLength(50);
+
+                entity.Property(e => e.ButtonUrl)
+                    .IsRequired()
+                    .HasColumnName("button_url");
+            });
+        }
+
+        public static void MSSqlAddButton(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<DbButton>(entity =>
+            {
+                entity.HasKey(e => new { e.TariffId, e.PartnerId })
+                    .HasName("tenants_buttons_pkey");
+
+                entity.ToTable("tenants_buttons");
 
                 entity.Property(e => e.TariffId).HasColumnName("tariff_id");
 

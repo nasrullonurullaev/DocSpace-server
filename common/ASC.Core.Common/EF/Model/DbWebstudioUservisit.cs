@@ -21,9 +21,10 @@ namespace ASC.Core.Common.EF.Model
             modelBuilder
                 .Add(MySqlAddWebstudioUserVisit, Provider.MySql)
                 .Add(PgSqlAddWebstudioUserVisit, Provider.Postgre)
+                .Add(MSSqlAddWebstudioUserVisit, Provider.MSSql)
                 .HasData(
-                    new DbWebstudioUserVisit { TenantId = 1, VisitDate = DateTime.UtcNow, ProductId = Guid.Parse("00000000-0000-0000-0000-000000000000"), UserId = Guid.Parse("66faa6e4-f133-11ea-b126-00ffeec8b4ef"), VisitCount = 3, FirstVisitTime = DateTime.UtcNow, LastVisitTime = DateTime.UtcNow },
-                    new DbWebstudioUserVisit { TenantId = 1, VisitDate = DateTime.UtcNow, ProductId = Guid.Parse("00000000-0000-0000-0000-000000000000"), UserId = Guid.Parse("66faa6e4-f133-11ea-b126-00ffeec8b4ef"), VisitCount = 2, FirstVisitTime = DateTime.UtcNow, LastVisitTime = DateTime.UtcNow },
+                    new DbWebstudioUserVisit { TenantId = 1, VisitDate = DateTime.UtcNow, ProductId = Guid.Empty, UserId = Guid.Parse("66faa6e4-f133-11ea-b126-00ffeec8b4ef"), VisitCount = 3, FirstVisitTime = DateTime.UtcNow, LastVisitTime = DateTime.UtcNow },
+                    new DbWebstudioUserVisit { TenantId = 1, VisitDate = DateTime.UtcNow, ProductId = Guid.Empty, UserId = Guid.Parse("66faa6e4-f133-11ea-b126-00ffeec8b4ef"), VisitCount = 2, FirstVisitTime = DateTime.UtcNow, LastVisitTime = DateTime.UtcNow },
                     new DbWebstudioUserVisit { TenantId = 1, VisitDate = DateTime.UtcNow, ProductId = Guid.Parse("e67be73d-f9ae-4ce1-8fec-1880cb518cb4"), UserId = Guid.Parse("66faa6e4-f133-11ea-b126-00ffeec8b4ef"), VisitCount = 1, FirstVisitTime = DateTime.UtcNow, LastVisitTime = DateTime.UtcNow }
                 );
 
@@ -79,6 +80,38 @@ namespace ASC.Core.Common.EF.Model
                     .HasName("webstudio_uservisit_pkey");
 
                 entity.ToTable("webstudio_uservisit", "onlyoffice");
+
+                entity.HasIndex(e => e.VisitDate)
+                    .HasDatabaseName("visitdate");
+
+                entity.Property(e => e.TenantId).HasColumnName("tenantid");
+
+                entity.Property(e => e.VisitDate).HasColumnName("visitdate");
+
+                entity.Property(e => e.ProductId)
+                    .HasColumnName("productid")
+                    .HasMaxLength(38);
+
+                entity.Property(e => e.UserId)
+                    .HasColumnName("userid")
+                    .HasMaxLength(38);
+
+                entity.Property(e => e.FirstVisitTime).HasColumnName("firstvisittime");
+
+                entity.Property(e => e.LastVisitTime).HasColumnName("lastvisittime");
+
+                entity.Property(e => e.VisitCount).HasColumnName("visitcount");
+            });
+        }
+        
+        public static void MSSqlAddWebstudioUserVisit(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<DbWebstudioUserVisit>(entity =>
+            {
+                entity.HasKey(e => new { e.TenantId, e.VisitDate, e.ProductId, e.UserId })
+                    .HasName("webstudio_uservisit_pkey");
+
+                entity.ToTable("webstudio_uservisit");
 
                 entity.HasIndex(e => e.VisitDate)
                     .HasDatabaseName("visitdate");

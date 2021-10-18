@@ -17,7 +17,8 @@ namespace ASC.Core.Common.EF.Model
         {
             modelBuilder
                 .Add(MySqlAddMobileAppInstall, Provider.MySql)
-                .Add(PgSqlAddMobileAppInstall, Provider.Postgre);
+                .Add(PgSqlAddMobileAppInstall, Provider.Postgre)
+                .Add(MSSqlAddMobileAppInstall, Provider.MSSql);
             return modelBuilder;
         }
         public static void MySqlAddMobileAppInstall(this ModelBuilder modelBuilder)
@@ -54,6 +55,27 @@ namespace ASC.Core.Common.EF.Model
                     .HasName("mobile_app_install_pkey");
 
                 entity.ToTable("mobile_app_install", "onlyoffice");
+
+                entity.Property(e => e.UserEmail)
+                    .HasColumnName("user_email")
+                    .HasMaxLength(255);
+
+                entity.Property(e => e.AppType).HasColumnName("app_type");
+
+                entity.Property(e => e.LastSign).HasColumnName("last_sign");
+
+                entity.Property(e => e.RegisteredOn).HasColumnName("registered_on");
+            });
+        }
+
+        public static void MSSqlAddMobileAppInstall(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<MobileAppInstall>(entity =>
+            {
+                entity.HasKey(e => new { e.UserEmail, e.AppType })
+                    .HasName("mobile_app_install_pkey");
+
+                entity.ToTable("mobile_app_install");
 
                 entity.Property(e => e.UserEmail)
                     .HasColumnName("user_email")

@@ -24,7 +24,8 @@ namespace ASC.Core.Common.EF.Model
         {
             modelBuilder
                 .Add(MySqlAddAccountLinks, Provider.MySql)
-                .Add(PgSqlAddAccountLinks, Provider.Postgre);
+                .Add(PgSqlAddAccountLinks, Provider.Postgre)
+                .Add(MSSqlAddAccountLinks, Provider.MSSql);
             return modelBuilder;
         }
         public static void MySqlAddAccountLinks(this ModelBuilder modelBuilder)
@@ -100,6 +101,40 @@ namespace ASC.Core.Common.EF.Model
                     .HasMaxLength(60)
                     .IsFixedLength()
                     .HasDefaultValueSql("NULL");
+            });
+        }
+
+        public static void MSSqlAddAccountLinks(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<AccountLinks>(entity =>
+            {
+                entity.HasKey(e => new { e.Id, e.UId })
+                    .HasName("account_links_pkey");
+
+                entity.ToTable("account_links");
+
+                entity.HasIndex(e => e.UId)
+                    .HasDatabaseName("uid");
+
+                entity.Property(e => e.Id)
+                    .HasColumnName("id")
+                    .HasMaxLength(200);
+
+                entity.Property(e => e.UId)
+                    .HasColumnName("uid")
+                    .HasMaxLength(200);
+
+                entity.Property(e => e.Linked).HasColumnName("linked");
+
+                entity.Property(e => e.Profile)
+                    .IsRequired()
+                    .HasColumnName("profile");
+
+                entity.Property(e => e.Provider)
+                    .HasColumnName("provider")
+                    .HasMaxLength(60)
+                    .IsFixedLength()
+                    .HasDefaultValue(null);
             });
         }
     }

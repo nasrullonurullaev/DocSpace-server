@@ -25,6 +25,7 @@ namespace ASC.Core.Common.EF
             modelBuilder
                 .Add(MySqlAddUserGroup, Provider.MySql)
                 .Add(PgSqlAddUserGroup, Provider.Postgre)
+                .Add(MSSqlAddUserGroup, Provider.MSSql)
                 .HasData(
                 new UserGroup
                 {
@@ -105,6 +106,38 @@ namespace ASC.Core.Common.EF
                 entity.Property(e => e.Removed).HasColumnName("removed");
             });
 
+        }
+
+        public static void MSSqlAddUserGroup(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<UserGroup>(entity =>
+            {
+                entity.HasKey(e => new { e.Tenant, e.UserId, e.GroupId, e.RefType })
+                    .HasName("core_usergroup_pkey");
+
+                entity.ToTable("core_usergroup");
+
+                entity.HasIndex(e => e.LastModified)
+                    .HasDatabaseName("last_modified_core_usergroup");
+
+                entity.Property(e => e.Tenant).HasColumnName("tenant");
+
+                entity.Property(e => e.UserId)
+                    .HasColumnName("userid")
+                    .HasMaxLength(38);
+
+                entity.Property(e => e.GroupId)
+                    .HasColumnName("groupid")
+                    .HasMaxLength(38);
+
+                entity.Property(e => e.RefType).HasColumnName("ref_type");
+
+                entity.Property(e => e.LastModified)
+                    .HasColumnName("last_modified")
+                    .HasDefaultValueSql("CURRENT_TIMESTAMP");
+
+                entity.Property(e => e.Removed).HasColumnName("removed");
+            });
         }
     }
 }

@@ -14,7 +14,8 @@ namespace ASC.Core.Common.EF.Model.Resource
         {
             modelBuilder
                 .Add(MySqlAddResAuthorsLang, Provider.MySql)
-                .Add(PgSqlAddResAuthorsLang, Provider.Postgre);
+                .Add(PgSqlAddResAuthorsLang, Provider.Postgre)
+                .Add(MSSqlAddResAuthorsLang, Provider.MSSql);
             return modelBuilder;
         }
         public static void MySqlAddResAuthorsLang(this ModelBuilder modelBuilder)
@@ -50,6 +51,28 @@ namespace ASC.Core.Common.EF.Model.Resource
                     .HasName("res_authorslang_pkey");
 
                 entity.ToTable("res_authorslang", "onlyoffice");
+
+                entity.HasIndex(e => e.CultureTitle)
+                    .HasDatabaseName("res_authorslang_FK2");
+
+                entity.Property(e => e.AuthorLogin)
+                    .HasColumnName("authorLogin")
+                    .HasMaxLength(50);
+
+                entity.Property(e => e.CultureTitle)
+                    .HasColumnName("cultureTitle")
+                    .HasMaxLength(50);
+            });
+        }
+
+        public static void MSSqlAddResAuthorsLang(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<ResAuthorsLang>(entity =>
+            {
+                entity.HasKey(e => new { e.AuthorLogin, e.CultureTitle })
+                    .HasName("res_authorslang_pkey");
+
+                entity.ToTable("res_authorslang");
 
                 entity.HasIndex(e => e.CultureTitle)
                     .HasDatabaseName("res_authorslang_FK2");

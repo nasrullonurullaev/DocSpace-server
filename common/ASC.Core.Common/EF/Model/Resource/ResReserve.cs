@@ -19,7 +19,8 @@ namespace ASC.Core.Common.EF.Model.Resource
         {
             modelBuilder
                 .Add(MySqlAddResReserve, Provider.MySql)
-                .Add(PgSqlAddResReserve, Provider.Postgre);
+                .Add(PgSqlAddResReserve, Provider.Postgre)
+                .Add(MSSqlAddResReserve, Provider.MSSql);
             return modelBuilder;
         }
         public static void MySqlAddResReserve(this ModelBuilder modelBuilder)
@@ -73,6 +74,35 @@ namespace ASC.Core.Common.EF.Model.Resource
                     .HasName("res_reserve_pkey");
 
                 entity.ToTable("res_reserve", "onlyoffice");
+
+                entity.Property(e => e.FileId).HasColumnName("fileid");
+
+                entity.Property(e => e.Title)
+                    .HasColumnName("title")
+                    .HasMaxLength(120);
+
+                entity.Property(e => e.CultureTitle)
+                    .HasColumnName("cultureTitle")
+                    .HasMaxLength(20);
+
+                entity.Property(e => e.Flag).HasColumnName("flag");
+
+                entity.Property(e => e.Id)
+                    .HasColumnName("id")
+                    .ValueGeneratedOnAdd();
+
+                entity.Property(e => e.TextValue).HasColumnName("textValue");
+            });
+        }
+
+        public static void MSSqlAddResReserve(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<ResReserve>(entity =>
+            {
+                entity.HasKey(e => new { e.FileId, e.Title, e.CultureTitle })
+                    .HasName("res_reserve_pkey");
+
+                entity.ToTable("res_reserve");
 
                 entity.Property(e => e.FileId).HasColumnName("fileid");
 

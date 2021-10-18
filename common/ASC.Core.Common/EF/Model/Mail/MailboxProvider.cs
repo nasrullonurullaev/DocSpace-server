@@ -17,6 +17,7 @@ namespace ASC.Core.Common.EF.Model.Mail
             modelBuilder
                 .Add(MySqlAddMailboxProvider, Provider.MySql)
                 .Add(PgSqlAddMailboxProvider, Provider.Postgre)
+                .Add(MSSqlAddMailboxProvider, Provider.MSSql)
                 .HasData(
                 new MailboxProvider { Id = 1, Name = "1und1.de", DisplayName = "1&1", DisplayShortName = "1&1", Documentation = "http://hilfe-center.1und1.de/access/search/go.php?t=e698123" },
                 new MailboxProvider { Id = 2, Name = "abc.plala.or.jp", DisplayName = "???", DisplayShortName = "???", Documentation = null },
@@ -298,6 +299,36 @@ namespace ASC.Core.Common.EF.Model.Mail
                     .HasColumnName("documentation")
                     .HasMaxLength(255)
                     .HasDefaultValueSql("NULL");
+
+                entity.Property(e => e.Name)
+                    .IsRequired()
+                    .HasColumnName("name")
+                    .HasMaxLength(255);
+            });
+        }
+
+        public static void MSSqlAddMailboxProvider(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<MailboxProvider>(entity =>
+            {
+                entity.ToTable("mail_mailbox_provider");
+
+                entity.Property(e => e.Id).HasColumnName("id");
+
+                entity.Property(e => e.DisplayName)
+                    .HasColumnName("display_name")
+                    .HasMaxLength(255)
+                    .HasDefaultValue(null);
+
+                entity.Property(e => e.DisplayShortName)
+                    .HasColumnName("display_short_name")
+                    .HasMaxLength(255)
+                    .HasDefaultValue(null);
+
+                entity.Property(e => e.Documentation)
+                    .HasColumnName("documentation")
+                    .HasMaxLength(255)
+                    .HasDefaultValue(null);
 
                 entity.Property(e => e.Name)
                     .IsRequired()

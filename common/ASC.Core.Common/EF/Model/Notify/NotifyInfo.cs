@@ -18,7 +18,8 @@ namespace ASC.Core.Common.EF.Model
         {
             modelBuilder
                 .Add(MySqlAddNotifyInfo, Provider.MySql)
-                .Add(PgSqlAddNotifyInfo, Provider.Postgre);
+                .Add(PgSqlAddNotifyInfo, Provider.Postgre)
+                .Add(MSSqlAddNotifyInfo, Provider.MSSql);
             return modelBuilder;
         }
         public static void MySqlAddNotifyInfo(this ModelBuilder modelBuilder)
@@ -54,6 +55,32 @@ namespace ASC.Core.Common.EF.Model
                     .HasName("notify_info_pkey");
 
                 entity.ToTable("notify_info", "onlyoffice");
+
+                entity.HasIndex(e => e.State)
+                    .HasDatabaseName("state");
+
+                entity.Property(e => e.NotifyId)
+                    .HasColumnName("notify_id")
+                    .ValueGeneratedNever();
+
+                entity.Property(e => e.Attempts).HasColumnName("attempts");
+
+                entity.Property(e => e.ModifyDate).HasColumnName("modify_date");
+
+                entity.Property(e => e.Priority).HasColumnName("priority");
+
+                entity.Property(e => e.State).HasColumnName("state");
+            });
+        }
+
+        public static void MSSqlAddNotifyInfo(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<NotifyInfo>(entity =>
+            {
+                entity.HasKey(e => e.NotifyId)
+                    .HasName("notify_info_pkey");
+
+                entity.ToTable("notify_info");
 
                 entity.HasIndex(e => e.State)
                     .HasDatabaseName("state");

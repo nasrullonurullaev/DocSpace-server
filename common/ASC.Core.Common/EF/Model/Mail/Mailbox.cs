@@ -45,7 +45,8 @@ namespace ASC.Core.Common.EF.Model.Mail
         {
             modelBuilder
                 .Add(MySqlAddMailbox, Provider.MySql)
-                .Add(PgSqlAddMailbox, Provider.Postgre);
+                .Add(PgSqlAddMailbox, Provider.Postgre)
+                .Add(MSSqlAddMailbox, Provider.MSSql);
             return modelBuilder;
         }
         public static void MySqlAddMailbox(this ModelBuilder modelBuilder)
@@ -312,6 +313,132 @@ namespace ASC.Core.Common.EF.Model.Mail
                 entity.Property(e => e.UserOnline)
                     .HasColumnName("user_online")
                     .HasDefaultValueSql("'0'");
+            });
+        }
+
+        public static void MSSqlAddMailbox(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Mailbox>(entity =>
+            {
+                entity.ToTable("mail_mailbox");
+
+                entity.HasIndex(e => e.Address)
+                    .HasDatabaseName("address_index");
+
+                entity.HasIndex(e => e.IdInServer)
+                    .HasDatabaseName("main_mailbox_id_in_server_mail_mailbox_server_id");
+
+                entity.HasIndex(e => e.IdSmtpServer)
+                    .HasDatabaseName("main_mailbox_id_smtp_server_mail_mailbox_server_id");
+
+                entity.HasIndex(e => new { e.DateChecked, e.DateLoginDelayExpires })
+                    .HasDatabaseName("date_login_delay_expires");
+
+                entity.HasIndex(e => new { e.Tenant, e.IdUser })
+                    .HasDatabaseName("user_id_index");
+
+                entity.Property(e => e.Id).HasColumnName("id");
+
+                entity.Property(e => e.Address)
+                    .IsRequired()
+                    .HasColumnName("address")
+                    .HasMaxLength(255);
+
+                entity.Property(e => e.BeginDate)
+                    .HasColumnName("begin_date")
+                    .HasDefaultValueSql("'1975-01-01 00:00:00'");
+
+                entity.Property(e => e.DateAuthError).HasColumnName("date_auth_error");
+
+                entity.Property(e => e.DateChecked).HasColumnName("date_checked");
+
+                entity.Property(e => e.DateCreated).HasColumnName("date_created");
+
+                entity.Property(e => e.DateLoginDelayExpires)
+                    .HasColumnName("date_login_delay_expires")
+                    .HasDefaultValueSql("'1975-01-01 00:00:00'");
+
+                entity.Property(e => e.DateModified)
+                    .HasColumnName("date_modified")
+                    .HasDefaultValueSql("CURRENT_TIMESTAMP");
+
+                entity.Property(e => e.DateUserChecked).HasColumnName("date_user_checked");
+
+                entity.Property(e => e.EmailInFolder).HasColumnName("email_in_folder");
+
+                entity.Property(e => e.Enabled)
+                    .HasColumnName("enabled")
+                    .HasDefaultValue(true);
+
+                entity.Property(e => e.IdInServer).HasColumnName("id_in_server");
+
+                entity.Property(e => e.IdSmtpServer).HasColumnName("id_smtp_server");
+
+                entity.Property(e => e.IdUser)
+                    .IsRequired()
+                    .HasColumnName("id_user")
+                    .HasMaxLength(38);
+
+                entity.Property(e => e.Imap)
+                    .HasColumnName("imap")
+                    .HasDefaultValue(false);
+
+                entity.Property(e => e.ImapIntervals).HasColumnName("imap_intervals");
+
+                entity.Property(e => e.IsDefault)
+                    .HasColumnName("is_default")
+                    .HasDefaultValue(false);
+
+                entity.Property(e => e.IsProcessed)
+                    .HasColumnName("is_processed")
+                    .HasDefaultValue(false);
+
+                entity.Property(e => e.IsRemoved)
+                    .HasColumnName("is_removed")
+                    .HasDefaultValue(false);
+
+                entity.Property(e => e.IsServerMailbox)
+                    .HasColumnName("is_server_mailbox")
+                    .HasDefaultValue(false);
+
+                entity.Property(e => e.LoginDelay)
+                    .HasColumnName("login_delay")
+                    .HasDefaultValue(30);
+
+                entity.Property(e => e.MsgCountLast).HasColumnName("msg_count_last");
+
+                entity.Property(e => e.Name)
+                    .HasColumnName("name")
+                    .HasMaxLength(255)
+                    .HasDefaultValue(null);
+
+                entity.Property(e => e.Pop3Password)
+                    .HasColumnName("pop3_password")
+                    .HasMaxLength(255)
+                    .HasDefaultValue(null);
+
+                entity.Property(e => e.QuotaError)
+                    .HasColumnName("quota_error")
+                    .HasDefaultValue(false);
+
+                entity.Property(e => e.SizeLast).HasColumnName("size_last");
+
+                entity.Property(e => e.SmtpPassword)
+                    .HasColumnName("smtp_password")
+                    .HasMaxLength(255)
+                    .HasDefaultValue(null);
+
+                entity.Property(e => e.Tenant).HasColumnName("tenant");
+
+                entity.Property(e => e.Token).HasColumnName("token");
+
+                entity.Property(e => e.TokenType)
+                    .HasColumnName("token_type")
+                    .HasDefaultValue(0);
+
+                entity.Property(e => e.UserOnline)
+                    .HasColumnName("user_online")
+                    .HasDefaultValue(false);
             });
         }
     }

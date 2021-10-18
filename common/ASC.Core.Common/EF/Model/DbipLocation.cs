@@ -27,7 +27,8 @@ namespace ASC.Core.Common.EF.Model
         {
             modelBuilder
                 .Add(MySqlAddDbipLocation, Provider.MySql)
-                .Add(PgSqlAddDbipLocation, Provider.Postgre);
+                .Add(PgSqlAddDbipLocation, Provider.Postgre)
+                .Add(MSSqlAddDbipLocation, Provider.MSSql);
             return modelBuilder;
         }
         public static void MySqlAddDbipLocation(this ModelBuilder modelBuilder)
@@ -178,6 +179,78 @@ namespace ASC.Core.Common.EF.Model
                     .HasColumnName("zipcode")
                     .HasMaxLength(255)
                     .HasDefaultValueSql("NULL");
+            });
+        }
+
+        public static void MSSqlAddDbipLocation(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<DbipLocation>(entity =>
+            {
+                entity.ToTable("dbip_location");
+
+                entity.HasIndex(e => e.IPStart)
+                    .HasDatabaseName("ip_start");
+
+                entity.Property(e => e.Id).HasColumnName("id");
+
+                entity.Property(e => e.City)
+                    .IsRequired()
+                    .HasColumnName("city")
+                    .HasMaxLength(255);
+
+                entity.Property(e => e.Country)
+                    .IsRequired()
+                    .HasColumnName("country")
+                    .HasMaxLength(2);
+
+                entity.Property(e => e.District)
+                    .HasColumnName("district")
+                    .HasMaxLength(255)
+                    .HasDefaultValue(null);
+
+                entity.Property(e => e.GeonameId).HasColumnName("geoname_id");
+
+                entity.Property(e => e.IPEnd)
+                    .IsRequired()
+                    .HasColumnName("ip_end")
+                    .HasMaxLength(39);
+
+                entity.Property(e => e.IPStart)
+                    .IsRequired()
+                    .HasColumnName("ip_start")
+                    .HasMaxLength(39);
+
+                entity.Property(e => e.Latitude).HasColumnName("latitude");
+
+                entity.Property(e => e.Longitude).HasColumnName("longitude");
+
+                entity.Property(e => e.Processed)
+                    .HasColumnName("processed")
+                    .HasDefaultValue(1);
+
+                entity.Property(e => e.StateProv)
+                    .IsRequired()
+                    .HasColumnName("stateprov")
+                    .HasMaxLength(255);
+
+                entity.Property(e => e.TimezoneName)
+                    .HasColumnName("timezone_name")
+                    .HasMaxLength(255)
+                    .HasDefaultValue(null);
+
+                entity.Property(e => e.TimezoneOffset).HasColumnName("timezone_offset");
+
+                entity.Property(e => e.ZipCode)
+                    .HasColumnName("zipcode")
+                    .HasMaxLength(255)
+                    .HasDefaultValue(null);
+
+                entity.Property(e => e.AddrType)
+                    .IsRequired()
+                    .HasColumnName("addr_type")
+                    .HasMaxLength(4);
+
+                entity.HasCheckConstraint("constraint_addr_type", "[addr_type] = 'ipv4' or [addr_type] = 'ipv6'");
             });
         }
     }

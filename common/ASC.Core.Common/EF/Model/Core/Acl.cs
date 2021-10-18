@@ -28,6 +28,7 @@ namespace ASC.Core.Common.EF
             modelBuilder
                 .Add(MySqlAddAcl, Provider.MySql)
                 .Add(PgSqlAddAcl, Provider.Postgre)
+                .Add(MSSqlAddAcl, Provider.MSSql)
                 .HasData(
                     new Acl { Tenant = -1, Subject = Guid.Parse("5d5b7260-f7f7-49f1-a1c9-95fbb6a12604"), Action = Guid.Parse("ef5e6790-f346-4b6e-b662-722bc28cb0db"), Object = "", AceType = 0 },
                     new Acl { Tenant = -1, Subject = Guid.Parse("5d5b7260-f7f7-49f1-a1c9-95fbb6a12604"), Action = Guid.Parse("f11e8f3f-46e6-4e55-90e3-09c22ec565bd"), Object = "", AceType = 0 },
@@ -141,6 +142,34 @@ namespace ASC.Core.Common.EF
                     .HasName("core_acl_pkey");
 
                 entity.ToTable("core_acl", "onlyoffice");
+
+                entity.Property(e => e.Tenant).HasColumnName("tenant");
+
+                entity.Property(e => e.Subject)
+                    .HasColumnName("subject")
+                    .HasMaxLength(38);
+
+                entity.Property(e => e.Action)
+                    .HasColumnName("action")
+                    .HasMaxLength(38);
+
+                entity.Property(e => e.Object)
+                    .HasColumnName("object")
+                    .HasMaxLength(255)
+                    .HasDefaultValueSql("''");
+
+                entity.Property(e => e.AceType).HasColumnName("acetype");
+            });
+        }
+
+        public static void MSSqlAddAcl(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Acl>(entity =>
+            {
+                entity.HasKey(e => new { e.Tenant, e.Subject, e.Action, e.Object })
+                .HasName("core_acl_pkey");
+
+                entity.ToTable("core_acl");
 
                 entity.Property(e => e.Tenant).HasColumnName("tenant");
 

@@ -30,7 +30,8 @@ namespace ASC.Core.Common.EF.Model
         {
             modelBuilder
                 .Add(MySqlAddDbVoipCall, Provider.MySql)
-                .Add(PgSqlAddDbVoipCall, Provider.Postgre);
+                .Add(PgSqlAddDbVoipCall, Provider.Postgre)
+                .Add(MSSqlAddDbVoipCall, Provider.MSSql);
             return modelBuilder;
         }
         public static void MySqlAddDbVoipCall(this ModelBuilder modelBuilder)
@@ -173,6 +174,73 @@ namespace ASC.Core.Common.EF.Model
                     .HasColumnName("record_sid")
                     .HasMaxLength(50)
                     .HasDefaultValueSql("NULL");
+
+                entity.Property(e => e.RecordUrl).HasColumnName("record_url");
+
+                entity.Property(e => e.Status).HasColumnName("status");
+
+                entity.Property(e => e.TenantId).HasColumnName("tenant_id");
+            });
+        }
+
+        public static void MSSqlAddDbVoipCall(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<DbVoipCall>(entity =>
+            {
+                entity.ToTable("crm_voip_calls");
+
+                entity.HasIndex(e => e.TenantId)
+                    .HasDatabaseName("tenant_id_crm_voip_calls");
+
+                entity.HasIndex(e => new { e.ParentCallId, e.TenantId })
+                    .HasDatabaseName("parent_call_id");
+
+                entity.Property(e => e.Id)
+                    .HasColumnName("id")
+                    .HasMaxLength(50);
+
+                entity.Property(e => e.AnsweredBy)
+                    .IsRequired()
+                    .HasColumnName("answered_by")
+                    .HasMaxLength(50)
+                    .HasDefaultValue(Guid.Empty);
+
+                entity.Property(e => e.ContactId).HasColumnName("contact_id");
+
+                entity.Property(e => e.DialDate).HasColumnName("dial_date");
+
+                entity.Property(e => e.DialDuration).HasColumnName("dial_duration");
+
+                entity.Property(e => e.NumberFrom)
+                    .IsRequired()
+                    .HasColumnName("number_from")
+                    .HasMaxLength(50);
+
+                entity.Property(e => e.NumberTo)
+                    .IsRequired()
+                    .HasColumnName("number_to")
+                    .HasMaxLength(50);
+
+                entity.Property(e => e.ParentCallId)
+                    .IsRequired()
+                    .HasColumnName("parent_call_id")
+                    .HasMaxLength(50);
+
+                entity.Property(e => e.Price)
+                    .HasColumnName("price")
+                    .HasColumnType("decimal(10,4)")
+                    .HasDefaultValue(null);
+
+                entity.Property(e => e.RecordDuration).HasColumnName("record_duration");
+
+                entity.Property(e => e.RecordPrice)
+                    .HasColumnName("record_price")
+                    .HasColumnType("decimal(10,4)");
+
+                entity.Property(e => e.RecordSid)
+                    .HasColumnName("record_sid")
+                    .HasMaxLength(50)
+                    .HasDefaultValue(null);
 
                 entity.Property(e => e.RecordUrl).HasColumnName("record_url");
 

@@ -32,7 +32,8 @@ namespace ASC.Core.Common.EF.Model
         {
             modelBuilder
                 .Add(MySqlAddCrmContact, Provider.MySql)
-                .Add(PgSqlAddCrmContact, Provider.Postgre);
+                .Add(PgSqlAddCrmContact, Provider.Postgre)
+                .Add(MSSqlAddCrmContact, Provider.MSSql);
             return modelBuilder;
         }
         public static void MySqlAddCrmContact(this ModelBuilder modelBuilder)
@@ -224,6 +225,94 @@ namespace ASC.Core.Common.EF.Model
                     .HasDefaultValueSql("NULL");
             });
 
+        }
+
+        public static void MSSqlAddCrmContact(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<CrmContact>(entity =>
+            {
+                entity.ToTable("crm_contact");
+
+                entity.HasIndex(e => e.CreateOn)
+                    .HasDatabaseName("create_on_crm_contact");
+
+                entity.HasIndex(e => new { e.LastModifedOn, e.TenantId })
+                    .HasDatabaseName("last_modifed_on_crm_contact");
+
+                entity.HasIndex(e => new { e.TenantId, e.CompanyId })
+                    .HasDatabaseName("company_id");
+
+                entity.HasIndex(e => new { e.TenantId, e.DisplayName })
+                    .HasDatabaseName("display_name");
+
+                entity.Property(e => e.Id).HasColumnName("id");
+
+                entity.Property(e => e.CompanyId).HasColumnName("company_id");
+
+                entity.Property(e => e.CompanyName)
+                    .HasColumnName("company_name")
+                    .HasMaxLength(255)
+                    .HasDefaultValue(null);
+
+                entity.Property(e => e.ContactTypeId).HasColumnName("contact_type_id");
+
+                entity.Property(e => e.CreateBy)
+                    .IsRequired()
+                    .HasColumnName("create_by")
+                    .HasMaxLength(38)
+                    .IsFixedLength();
+
+                entity.Property(e => e.CreateOn).HasColumnName("create_on");
+
+                entity.Property(e => e.Currency)
+                    .HasColumnName("currency")
+                    .HasMaxLength(3)
+                    .HasDefaultValue(null);
+
+                entity.Property(e => e.DisplayName)
+                    .HasColumnName("display_name")
+                    .HasMaxLength(255)
+                    .HasDefaultValue(null);
+
+                entity.Property(e => e.FirstName)
+                    .HasColumnName("first_name")
+                    .HasMaxLength(255)
+                    .HasDefaultValue(null);
+
+                entity.Property(e => e.Industry)
+                    .HasColumnName("industry")
+                    .HasMaxLength(255)
+                    .HasDefaultValue(null);
+
+                entity.Property(e => e.IsCompany).HasColumnName("is_company");
+
+                entity.Property(e => e.IsShared).HasColumnName("is_shared");
+
+                entity.Property(e => e.LastModifedBy)
+                    .HasColumnName("last_modifed_by")
+                    .HasMaxLength(38)
+                    .HasDefaultValue(null);
+
+                entity.Property(e => e.LastModifedOn)
+                    .HasColumnName("last_modifed_on")
+                    .HasDefaultValue(null);
+
+                entity.Property(e => e.LastName)
+                    .HasColumnName("last_name")
+                    .HasMaxLength(255)
+                    .HasDefaultValue(null);
+
+                entity.Property(e => e.Notes).HasColumnName("notes");
+
+                entity.Property(e => e.StatusId).HasColumnName("status_id");
+
+                entity.Property(e => e.TenantId).HasColumnName("tenant_id");
+
+                entity.Property(e => e.Title)
+                    .HasColumnName("title")
+                    .HasMaxLength(255)
+                    .HasDefaultValue(null);
+            });
         }
     }
 }

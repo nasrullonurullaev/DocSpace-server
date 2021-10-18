@@ -22,7 +22,8 @@ namespace ASC.Core.Common.EF
         {
             modelBuilder
                 .Add(MySqlAddUserPhoto, Provider.MySql)
-                .Add(PgSqlAddUserPhoto, Provider.Postgre);
+                .Add(PgSqlAddUserPhoto, Provider.Postgre)
+                .Add(MSSqlAddUserPhoto, Provider.MSSql);
             return modelBuilder;
         }
         public static void MySqlAddUserPhoto(this ModelBuilder modelBuilder)
@@ -59,6 +60,30 @@ namespace ASC.Core.Common.EF
                     .HasName("core_userphoto_pkey");
 
                 entity.ToTable("core_userphoto", "onlyoffice");
+
+                entity.HasIndex(e => e.Tenant)
+                    .HasDatabaseName("tenant_core_userphoto");
+
+                entity.Property(e => e.UserId)
+                    .HasColumnName("userid")
+                    .HasMaxLength(38);
+
+                entity.Property(e => e.Photo)
+                    .IsRequired()
+                    .HasColumnName("photo");
+
+                entity.Property(e => e.Tenant).HasColumnName("tenant");
+            });
+        }
+
+        public static void MSSqlAddUserPhoto(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<UserPhoto>(entity =>
+            {
+                entity.HasKey(e => e.UserId)
+                    .HasName("core_userphoto_pkey");
+
+                entity.ToTable("core_userphoto");
 
                 entity.HasIndex(e => e.Tenant)
                     .HasDatabaseName("tenant_core_userphoto");

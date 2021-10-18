@@ -18,7 +18,8 @@ namespace ASC.Core.Common.EF.Model
         {
             modelBuilder
                 .Add(MySqlAddDbTenantVersion, Provider.MySql)
-                .Add(PgSqlAddDbTenantVersion, Provider.Postgre);
+                .Add(PgSqlAddDbTenantVersion, Provider.Postgre)
+                .Add(MSSqlAddDbTenantVersion, Provider.MSSql);
             return modelBuilder;
         }
         public static void MySqlAddDbTenantVersion(this ModelBuilder modelBuilder)
@@ -74,6 +75,32 @@ namespace ASC.Core.Common.EF.Model
                 entity.Property(e => e.Visible).HasColumnName("visible");
             });
 
+        }
+
+        public static void MSSqlAddDbTenantVersion(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<DbTenantVersion>(entity =>
+            {
+                entity.ToTable("tenants_version");
+
+                entity.Property(e => e.Id)
+                    .HasColumnName("id")
+                    .ValueGeneratedNever();
+
+                entity.Property(e => e.DefaultVersion).HasColumnName("default_version");
+
+                entity.Property(e => e.Url)
+                    .IsRequired()
+                    .HasColumnName("url")
+                    .HasMaxLength(64);
+
+                entity.Property(e => e.Version)
+                    .IsRequired()
+                    .HasColumnName("version")
+                    .HasMaxLength(64);
+
+                entity.Property(e => e.Visible).HasColumnName("visible");
+            });
         }
     }
 }

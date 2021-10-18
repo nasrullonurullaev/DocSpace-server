@@ -22,6 +22,7 @@ namespace ASC.Core.Common.EF.Model
             modelBuilder
                 .Add(MySqlAddWebstudioSettings, Provider.MySql)
                 .Add(PgSqlAddWebstudioSettings, Provider.Postgre)
+                .Add(MSSqlAddWebstudioSettings, Provider.MSSql)
                 .HasData(
                 new DbWebstudioSettings { TenantId = 1, Id = Guid.Parse("9a925891-1f92-4ed7-b277-d6f649739f06"), UserId = Guid.Parse("00000000-0000-0000-0000-000000000000"), Data = "{'Completed':false}" }
                 );
@@ -69,6 +70,32 @@ namespace ASC.Core.Common.EF.Model
                     .HasName("webstudio_settings_pkey");
 
                 entity.ToTable("webstudio_settings", "onlyoffice");
+
+                entity.HasIndex(e => e.Id)
+                    .HasDatabaseName("ID");
+
+                entity.Property(e => e.TenantId).HasColumnName("TenantID");
+
+                entity.Property(e => e.Id)
+                    .HasColumnName("ID")
+                    .HasMaxLength(64);
+
+                entity.Property(e => e.UserId)
+                    .HasColumnName("UserID")
+                    .HasMaxLength(64);
+
+                entity.Property(e => e.Data).IsRequired();
+            });
+        }
+
+        public static void MSSqlAddWebstudioSettings(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<DbWebstudioSettings>(entity =>
+            {
+                entity.HasKey(e => new { e.TenantId, e.Id, e.UserId })
+                    .HasName("webstudio_settings_pkey");
+
+                entity.ToTable("webstudio_settings");
 
                 entity.HasIndex(e => e.Id)
                     .HasDatabaseName("ID");

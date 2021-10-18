@@ -30,7 +30,8 @@ namespace ASC.Core.Common.EF.Model
         {
             modelBuilder
                 .Add(MySqlAddFeedAggregate, Provider.MySql)
-                .Add(PgSqlAddFeedAggregate, Provider.Postgre);
+                .Add(PgSqlAddFeedAggregate, Provider.Postgre)
+                .Add(MSSqlAddFeedAggregate, Provider.MSSql);
             return modelBuilder;
         }
         public static void MySqlAddFeedAggregate(this ModelBuilder modelBuilder)
@@ -149,6 +150,68 @@ namespace ASC.Core.Common.EF.Model
                     .HasColumnName("group_id")
                     .HasMaxLength(70)
                     .HasDefaultValueSql("NULL");
+
+                entity.Property(e => e.Json)
+                    .IsRequired()
+                    .HasColumnName("json");
+
+                entity.Property(e => e.Keywords).HasColumnName("keywords");
+
+                entity.Property(e => e.ModifiedBy)
+                    .IsRequired()
+                    .HasColumnName("modified_by")
+                    .HasMaxLength(38)
+                    .IsFixedLength();
+
+                entity.Property(e => e.ModifiedDate).HasColumnName("modified_date");
+
+                entity.Property(e => e.Module)
+                    .IsRequired()
+                    .HasColumnName("module")
+                    .HasMaxLength(50);
+
+                entity.Property(e => e.Product)
+                    .IsRequired()
+                    .HasColumnName("product")
+                    .HasMaxLength(50);
+
+                entity.Property(e => e.Tenant).HasColumnName("tenant");
+            });
+        }
+
+        public static void MSSqlAddFeedAggregate(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<FeedAggregate>(entity =>
+            {
+                entity.ToTable("feed_aggregate");
+
+                entity.HasIndex(e => new { e.Tenant, e.AggregateDate })
+                    .HasDatabaseName("aggregated_date");
+
+                entity.HasIndex(e => new { e.Tenant, e.ModifiedDate })
+                    .HasDatabaseName("modified_date");
+
+                entity.HasIndex(e => new { e.Tenant, e.Product })
+                    .HasDatabaseName("product");
+
+                entity.Property(e => e.Id)
+                    .HasColumnName("id")
+                    .HasMaxLength(88);
+
+                entity.Property(e => e.AggregateDate).HasColumnName("aggregated_date");
+
+                entity.Property(e => e.Author)
+                    .IsRequired()
+                    .HasColumnName("author")
+                    .HasMaxLength(38)
+                    .IsFixedLength();
+
+                entity.Property(e => e.CreatedDate).HasColumnName("created_date");
+
+                entity.Property(e => e.GroupId)
+                    .HasColumnName("group_id")
+                    .HasMaxLength(70)
+                    .HasDefaultValue(null);
 
                 entity.Property(e => e.Json)
                     .IsRequired()

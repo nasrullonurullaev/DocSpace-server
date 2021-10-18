@@ -20,7 +20,8 @@ namespace ASC.Core.Common.EF.Model
         {
             modelBuilder
                 .Add(MySqlAddFeedUsers, Provider.MySql)
-                .Add(PgSqlAddFeedUsers, Provider.Postgre);
+                .Add(PgSqlAddFeedUsers, Provider.Postgre)
+                .Add(MSSqlAddFeedUsers, Provider.MSSql);
             return modelBuilder;
         }
         public static void MySqlAddFeedUsers(this ModelBuilder modelBuilder)
@@ -56,6 +57,29 @@ namespace ASC.Core.Common.EF.Model
                     .HasName("feed_users_pkey");
 
                 entity.ToTable("feed_users", "onlyoffice");
+
+                entity.HasIndex(e => e.UserId)
+                    .HasDatabaseName("user_id_feed_users");
+
+                entity.Property(e => e.FeedId)
+                    .HasColumnName("feed_id")
+                    .HasMaxLength(88);
+
+                entity.Property(e => e.UserId)
+                    .HasColumnName("user_id")
+                    .HasMaxLength(38)
+                    .IsFixedLength();
+            });
+        }
+
+        public static void MSSqlAddFeedUsers(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<FeedUsers>(entity =>
+            {
+                entity.HasKey(e => new { e.FeedId, e.UserId })
+                    .HasName("feed_users_pkey");
+
+                entity.ToTable("feed_users");
 
                 entity.HasIndex(e => e.UserId)
                     .HasDatabaseName("user_id_feed_users");

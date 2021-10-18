@@ -20,7 +20,8 @@ namespace ASC.Core.Common.EF.Model
         {
             modelBuilder
                 .Add(MySqlAddFeedLast, Provider.MySql)
-                .Add(PgSqlAddFeedLast, Provider.Postgre);
+                .Add(PgSqlAddFeedLast, Provider.Postgre)
+                .Add(MSSqlAddFeedLast, Provider.MSSql);
             return modelBuilder;
         }
         public static void MySqlAddFeedLast(this ModelBuilder modelBuilder)
@@ -51,6 +52,23 @@ namespace ASC.Core.Common.EF.Model
                     .HasName("feed_last_pkey");
 
                 entity.ToTable("feed_last", "onlyoffice");
+
+                entity.Property(e => e.LastKey)
+                    .HasColumnName("last_key")
+                    .HasMaxLength(128);
+
+                entity.Property(e => e.LastDate).HasColumnName("last_date");
+            });
+        }
+
+        public static void MSSqlAddFeedLast(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<FeedLast>(entity =>
+            {
+                entity.HasKey(e => e.LastKey)
+                    .HasName("feed_last_pkey");
+
+                entity.ToTable("feed_last");
 
                 entity.Property(e => e.LastKey)
                     .HasColumnName("last_key")

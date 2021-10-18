@@ -22,7 +22,8 @@ namespace ASC.Core.Common.EF.Model
         {
             modelBuilder
                 .Add(MySqlAddFeedReaded, Provider.MySql)
-                .Add(PgSqlAddFeedReaded, Provider.Postgre);
+                .Add(PgSqlAddFeedReaded, Provider.Postgre)
+                .Add(MSSqlAddFeedReaded, Provider.MSSql);
             return modelBuilder;
         }
         public static void MySqlAddFeedReaded(this ModelBuilder modelBuilder)
@@ -61,6 +62,29 @@ namespace ASC.Core.Common.EF.Model
                     .HasName("feed_readed_pkey");
 
                 entity.ToTable("feed_readed", "onlyoffice");
+
+                entity.Property(e => e.UserId)
+                    .HasColumnName("user_id")
+                    .HasMaxLength(38);
+
+                entity.Property(e => e.Tenant).HasColumnName("tenant_id");
+
+                entity.Property(e => e.Module)
+                    .HasColumnName("module")
+                    .HasMaxLength(50);
+
+                entity.Property(e => e.TimeStamp).HasColumnName("timestamp");
+            });
+        }
+
+        public static void MSSqlAddFeedReaded(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<FeedReaded>(entity =>
+            {
+                entity.HasKey(e => new { e.UserId, e.Tenant, e.Module })
+                    .HasName("feed_readed_pkey");
+
+                entity.ToTable("feed_readed");
 
                 entity.Property(e => e.UserId)
                     .HasColumnName("user_id")

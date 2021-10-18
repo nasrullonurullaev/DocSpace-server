@@ -19,7 +19,8 @@ namespace ASC.Core.Common.EF.Model
         {
             modelBuilder
                 .Add(MySqlAddDbWebstudioIndex, Provider.MySql)
-                .Add(PgSqlAddDbWebstudioIndex, Provider.Postgre);
+                .Add(PgSqlAddDbWebstudioIndex, Provider.Postgre)
+                .Add(MSSqlAddDbWebstudioIndex, Provider.MSSql);
             return modelBuilder;
         }
         public static void MySqlAddDbWebstudioIndex(this ModelBuilder modelBuilder)
@@ -52,6 +53,25 @@ namespace ASC.Core.Common.EF.Model
                     .HasName("webstudio_index_pkey");
 
                 entity.ToTable("webstudio_index", "onlyoffice");
+
+                entity.Property(e => e.IndexName)
+                    .HasColumnName("index_name")
+                    .HasMaxLength(50);
+
+                entity.Property(e => e.LastModified)
+                    .HasColumnName("last_modified")
+                    .HasDefaultValueSql("CURRENT_TIMESTAMP");
+            });
+        }
+
+        public static void MSSqlAddDbWebstudioIndex(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<DbWebstudioIndex>(entity =>
+            {
+                entity.HasKey(e => e.IndexName)
+                    .HasName("webstudio_index_pkey");
+
+                entity.ToTable("webstudio_index");
 
                 entity.Property(e => e.IndexName)
                     .HasColumnName("index_name")

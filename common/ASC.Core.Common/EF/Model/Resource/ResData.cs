@@ -24,7 +24,8 @@ namespace ASC.Core.Common.EF.Model.Resource
         {
             modelBuilder
                 .Add(MySqlAddResData, Provider.MySql)
-                .Add(PgSqlAddResData, Provider.Postgre);
+                .Add(PgSqlAddResData, Provider.Postgre)
+                .Add(MSSqlAddResData, Provider.MSSql);
             return modelBuilder;
         }
         public static void MySqlAddResData(this ModelBuilder modelBuilder)
@@ -157,6 +158,67 @@ namespace ASC.Core.Common.EF.Model.Resource
                     .HasColumnName("resourceType")
                     .HasMaxLength(20)
                     .HasDefaultValueSql("NULL");
+
+                entity.Property(e => e.TextValue).HasColumnName("textValue");
+
+                entity.Property(e => e.TimeChanges)
+                    .HasColumnName("timeChanges")
+                    .HasDefaultValueSql("CURRENT_TIMESTAMP");
+            });
+        }
+
+        public static void MSSqlAddResData(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<ResData>(entity =>
+            {
+                entity.HasKey(e => new { e.FileId, e.CultureTitle, e.Title })
+                    .HasName("res_data_pkey");
+
+                entity.ToTable("res_data");
+
+                entity.HasIndex(e => e.CultureTitle)
+                    .HasDatabaseName("resources_FK2");
+
+                entity.HasIndex(e => e.Id)
+                    .HasDatabaseName("id_res_data")
+                    .IsUnique();
+
+                entity.HasIndex(e => e.TimeChanges)
+                    .HasDatabaseName("dateIndex");
+
+                entity.Property(e => e.FileId).HasColumnName("fileid");
+
+                entity.Property(e => e.CultureTitle)
+                    .HasColumnName("cultureTitle")
+                    .HasMaxLength(20);
+
+                entity.Property(e => e.Title)
+                    .HasColumnName("title")
+                    .HasMaxLength(120);
+
+                entity.Property(e => e.AuthorLogin)
+                    .IsRequired()
+                    .HasColumnName("authorLogin")
+                    .HasMaxLength(50)
+                    .HasDefaultValue("Console");
+
+                entity.Property(e => e.Description).HasColumnName("description");
+
+                entity.Property(e => e.Flag).HasColumnName("flag");
+
+                entity.Property(e => e.Id)
+                    .HasColumnName("id")
+                    .ValueGeneratedOnAdd();
+
+                entity.Property(e => e.Link)
+                    .HasColumnName("link")
+                    .HasMaxLength(120)
+                    .HasDefaultValue(null);
+
+                entity.Property(e => e.ResourceType)
+                    .HasColumnName("resourceType")
+                    .HasMaxLength(20)
+                    .HasDefaultValue(null);
 
                 entity.Property(e => e.TextValue).HasColumnName("textValue");
 

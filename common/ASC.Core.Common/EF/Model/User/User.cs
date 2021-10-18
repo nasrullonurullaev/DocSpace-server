@@ -50,6 +50,7 @@ namespace ASC.Core.Common.EF
             modelBuilder
                 .Add(MySqlAddUser, Provider.MySql)
                 .Add(PgSqlAddUser, Provider.Postgre)
+                .Add(MSSqlAddUser, Provider.MSSql)
                 .HasData(
                 new User
                 {
@@ -312,6 +313,119 @@ namespace ASC.Core.Common.EF
                     .HasColumnName("title")
                     .HasMaxLength(64)
                     .HasDefaultValueSql("NULL");
+
+                entity.Property(e => e.UserName)
+                    .IsRequired()
+                    .HasColumnName("username")
+                    .HasMaxLength(255);
+
+                entity.Property(e => e.WorkFromDate).HasColumnName("workfromdate");
+            });
+        }
+
+        private static void MSSqlAddUser(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.MSSqlAddUserGroup();
+            modelBuilder.Entity<User>(entity =>
+            {
+                entity.ToTable("core_user");
+
+                entity.HasIndex(e => e.Email)
+                    .HasDatabaseName("email");
+
+                entity.HasIndex(e => e.LastModified)
+                    .HasDatabaseName("last_modified_core_user");
+
+                entity.HasIndex(e => new { e.UserName, e.Tenant })
+                    .HasDatabaseName("username");
+
+                entity.Property(e => e.Id)
+                    .HasColumnName("id")
+                    .HasMaxLength(38);
+
+                entity.Property(e => e.ActivationStatus).HasColumnName("activation_status");
+
+                entity.Property(e => e.Birthdate).HasColumnName("bithdate");
+
+                entity.Property(e => e.Contacts)
+                    .HasColumnName("contacts")
+                    .HasMaxLength(1024)
+                    .HasDefaultValue(null);
+
+                entity.Property(e => e.CreateOn)
+                    .HasColumnName("create_on")
+                    .HasDefaultValueSql("CURRENT_TIMESTAMP");
+
+                entity.Property(e => e.Culture)
+                    .HasColumnName("culture")
+                    .HasMaxLength(20)
+                    .HasDefaultValue(null);
+
+                entity.Property(e => e.Email)
+                    .HasColumnName("email")
+                    .HasMaxLength(255)
+                    .HasDefaultValue(null);
+
+                entity.Property(e => e.FirstName)
+                    .IsRequired()
+                    .HasColumnName("firstname")
+                    .HasMaxLength(64);
+
+                entity.Property(e => e.LastModified).HasColumnName("last_modified");
+
+                entity.Property(e => e.LastName)
+                    .IsRequired()
+                    .HasColumnName("lastname")
+                    .HasMaxLength(64);
+
+                entity.Property(e => e.Location)
+                    .HasColumnName("location")
+                    .HasMaxLength(255)
+                    .HasDefaultValue(null);
+
+                entity.Property(e => e.Notes)
+                    .HasColumnName("notes")
+                    .HasMaxLength(512)
+                    .HasDefaultValue(null);
+
+                entity.Property(e => e.Phone)
+                    .HasColumnName("phone")
+                    .HasMaxLength(255)
+                    .HasDefaultValue(null);
+
+                entity.Property(e => e.PhoneActivation).HasColumnName("phone_activation");
+
+                entity.Property(e => e.Removed).HasColumnName("removed");
+
+                entity.Property(e => e.Sex).HasColumnName("sex");
+
+                entity.Property(e => e.Sid)
+                    .HasColumnName("sid")
+                    .HasMaxLength(512)
+                    .HasDefaultValue(null);
+
+                entity.Property(e => e.SsoNameId)
+                    .HasColumnName("sso_name_id")
+                    .HasMaxLength(512)
+                    .HasDefaultValue(null);
+
+                entity.Property(e => e.SsoSessionId)
+                    .HasColumnName("sso_session_id")
+                    .HasMaxLength(512)
+                    .HasDefaultValue(null);
+
+                entity.Property(e => e.Status)
+                    .HasColumnName("status")
+                    .HasDefaultValueSql("1");
+
+                entity.Property(e => e.Tenant).HasColumnName("tenant");
+
+                entity.Property(e => e.TerminatedDate).HasColumnName("terminateddate");
+
+                entity.Property(e => e.Title)
+                    .HasColumnName("title")
+                    .HasMaxLength(64)
+                    .HasDefaultValue(null);
 
                 entity.Property(e => e.UserName)
                     .IsRequired()

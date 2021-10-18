@@ -15,6 +15,7 @@ namespace ASC.Core.Common.EF.Model
             modelBuilder
                 .Add(MySqlAddFilesConverts, Provider.MySql)
                 .Add(PgSqlAddFilesConverts, Provider.Postgre)
+                .Add(MSSqlAddFilesConverts, Provider.MSSql)
                 .HasData(
                new FilesConverts { Input = ".csv", Output = ".ods" },
                new FilesConverts { Input = ".csv", Output = ".pdf" },
@@ -199,6 +200,25 @@ namespace ASC.Core.Common.EF.Model
                     .HasName("files_converts_pkey");
 
                 entity.ToTable("files_converts", "onlyoffice");
+
+                entity.Property(e => e.Input)
+                    .HasColumnName("input")
+                    .HasMaxLength(50);
+
+                entity.Property(e => e.Output)
+                    .HasColumnName("output")
+                    .HasMaxLength(50);
+            });
+        }
+
+        public static void MSSqlAddFilesConverts(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<FilesConverts>(entity =>
+            {
+                entity.HasKey(e => new { e.Input, e.Output })
+                    .HasName("files_converts_pkey");
+
+                entity.ToTable("files_converts");
 
                 entity.Property(e => e.Input)
                     .HasColumnName("input")

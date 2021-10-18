@@ -42,6 +42,7 @@ namespace ASC.Core.Common.EF.Model
             modelBuilder
                 .Add(MySqlAddDbTenant, Provider.MySql)
                 .Add(PgSqlAddDbTenant, Provider.Postgre)
+                .Add(MSSqlAddDbTenant, Provider.MSSql)
                 .HasData(
                 new DbTenant
                 {
@@ -262,6 +263,104 @@ namespace ASC.Core.Common.EF.Model
                 entity.Property(e => e.Version)
                     .HasColumnName("version")
                     .HasDefaultValueSql("2");
+
+                entity.Property(e => e.Version_Changed).HasColumnName("version_changed");
+
+                entity.Ignore(c => c.StatusChangedHack);
+                entity.Ignore(c => c.VersionChanged);
+            });
+        }
+
+        public static void MSSqlAddDbTenant(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<DbTenant>(entity =>
+            {
+                entity.ToTable("tenants_tenants");
+
+                entity.HasIndex(e => e.Alias)
+                    .HasDatabaseName("alias")
+                    .IsUnique();
+
+                entity.HasIndex(e => e.LastModified)
+                    .HasDatabaseName("last_modified_tenants_tenants");
+
+                entity.HasIndex(e => e.MappedDomain)
+                    .HasDatabaseName("mappeddomain");
+
+                entity.HasIndex(e => e.Version)
+                    .HasDatabaseName("version");
+
+                entity.Property(e => e.Id).HasColumnName("id");
+
+                entity.Property(e => e.Alias)
+                    .IsRequired()
+                    .HasColumnName("alias")
+                    .HasMaxLength(100);
+
+                entity.Property(e => e.Calls)
+                    .HasColumnName("calls")
+                    .HasDefaultValue(true);
+
+                entity.Property(e => e.CreationDateTime).HasColumnName("creationdatetime");
+
+                entity.Property(e => e.Industry).HasColumnName("industry");
+
+                entity.Property(e => e.Language)
+                    .IsRequired()
+                    .HasColumnName("language")
+                    .HasMaxLength(10)
+                    .IsFixedLength()
+                    .HasDefaultValue("en-US");
+
+                entity.Property(e => e.LastModified)
+                    .HasColumnName("last_modified")
+                    .HasDefaultValueSql("CURRENT_TIMESTAMP");
+
+                entity.Property(e => e.MappedDomain)
+                    .HasColumnName("mappeddomain")
+                    .HasMaxLength(100)
+                    .HasDefaultValue(null);
+
+                entity.Property(e => e.Name)
+                    .IsRequired()
+                    .HasColumnName("name")
+                    .HasMaxLength(255);
+
+                entity.Property(e => e.OwnerId)
+                    .HasColumnName("owner_id")
+                    .HasMaxLength(38)
+                    .HasDefaultValue(null);
+
+                entity.Property(e => e.PaymentId)
+                    .HasColumnName("payment_id")
+                    .HasMaxLength(38)
+                    .HasDefaultValue(null);
+
+                entity.Property(e => e.Spam)
+                    .HasColumnName("spam")
+                    .HasDefaultValue(true);
+
+                entity.Property(e => e.Status).HasColumnName("status");
+
+                entity.Property(e => e.StatusChanged).HasColumnName("statuschanged");
+
+                entity.Property(e => e.TimeZone)
+                    .HasColumnName("timezone")
+                    .HasMaxLength(50)
+                    .HasDefaultValue(null);
+
+                entity.Property(e => e.TrustedDomains)
+                    .HasColumnName("trusteddomains")
+                    .HasMaxLength(1024)
+                    .HasDefaultValue(true);
+
+                entity.Property(e => e.TrustedDomainsEnabled)
+                    .HasColumnName("trusteddomainsenabled")
+                    .HasDefaultValueSql("1");
+
+                entity.Property(e => e.Version)
+                    .HasColumnName("version")
+                    .HasDefaultValue(2);
 
                 entity.Property(e => e.Version_Changed).HasColumnName("version_changed");
 

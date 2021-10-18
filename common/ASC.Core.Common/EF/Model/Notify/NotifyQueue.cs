@@ -25,7 +25,8 @@ namespace ASC.Core.Common.EF.Model
         {
             modelBuilder
                 .Add(MySqlAddNotifyQueue, Provider.MySql)
-                .Add(PgSqlAddNotifyQueue, Provider.Postgre);
+                .Add(PgSqlAddNotifyQueue, Provider.Postgre)
+                .Add(MSSqlAddNotifyQueue, Provider.MSSql);
             return modelBuilder;
         }
         public static void MySqlAddNotifyQueue(this ModelBuilder modelBuilder)
@@ -151,6 +152,62 @@ namespace ASC.Core.Common.EF.Model
                     .HasColumnName("subject")
                     .HasMaxLength(1024)
                     .HasDefaultValueSql("NULL");
+
+                entity.Property(e => e.TenantId).HasColumnName("tenant_id");
+            });
+        }
+
+        public static void MSSqlAddNotifyQueue(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<NotifyQueue>(entity =>
+            {
+                entity.HasKey(e => e.NotifyId)
+                    .HasName("notify_queue_pkey");
+
+                entity.ToTable("notify_queue");
+
+                entity.Property(e => e.NotifyId).HasColumnName("notify_id");
+
+                entity.Property(e => e.Attachments).HasColumnName("attachments");
+
+                entity.Property(e => e.AutoSubmitted)
+                    .HasColumnName("auto_submitted")
+                    .HasMaxLength(64)
+                    .HasDefaultValue(null);
+
+                entity.Property(e => e.Content).HasColumnName("content");
+
+                entity.Property(e => e.ContentType)
+                    .HasColumnName("content_type")
+                    .HasMaxLength(64)
+                    .HasDefaultValue(null);
+
+                entity.Property(e => e.CreationDate).HasColumnName("creation_date");
+
+                entity.Property(e => e.Reciever)
+                    .HasColumnName("reciever")
+                    .HasMaxLength(255)
+                    .HasDefaultValue(null);
+
+                entity.Property(e => e.ReplyTo)
+                    .HasColumnName("reply_to")
+                    .HasMaxLength(1024)
+                    .HasDefaultValue(null);
+
+                entity.Property(e => e.Sender)
+                    .HasColumnName("sender")
+                    .HasMaxLength(255)
+                    .HasDefaultValue(null);
+
+                entity.Property(e => e.SenderType)
+                    .HasColumnName("sender_type")
+                    .HasMaxLength(64)
+                    .HasDefaultValue(null);
+
+                entity.Property(e => e.Subject)
+                    .HasColumnName("subject")
+                    .HasMaxLength(1024)
+                    .HasDefaultValue(null);
 
                 entity.Property(e => e.TenantId).HasColumnName("tenant_id");
             });

@@ -21,6 +21,7 @@ namespace ASC.Core.Common.EF.Model.Mail
             modelBuilder
                 .Add(MySqlAddMailboxServer, Provider.MySql)
                 .Add(PgSqlAddMailboxServer, Provider.Postgre)
+                .Add(MSSqlAddMailboxServer, Provider.MSSql)
                 .HasData(
                 new MailboxServer { Id = 493, IdProvider = 1, Type = "imap", Hostname = "imap.1und1.de", Port = 993, SocketType = "SSL", UserName = "%EMAILADDRESS%", Authentication = "password-cleartext", IsUserData = bool.Parse("false") },
                 new MailboxServer { Id = 494, IdProvider = 1, Type = "imap", Hostname = "imap.1und1.de", Port = 143, SocketType = "STARTTLS", UserName = "%EMAILADDRESS%", Authentication = "password-cleartext", IsUserData = bool.Parse("false") },
@@ -623,6 +624,52 @@ namespace ASC.Core.Common.EF.Model.Mail
                     .HasColumnName("username")
                     .HasMaxLength(255)
                     .HasDefaultValueSql("NULL");
+            });
+        }
+
+        public static void MSSqlAddMailboxServer(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<MailboxServer>(entity =>
+            {
+                entity.ToTable("mail_mailbox_server");
+
+                entity.HasIndex(e => e.IdProvider)
+                    .HasDatabaseName("id_provider_mail_mailbox_server");
+
+                entity.Property(e => e.Id).HasColumnName("id");
+
+                entity.Property(e => e.Authentication)
+                    .HasColumnName("authentication")
+                    .HasMaxLength(255)
+                    .HasDefaultValue(null);
+
+                entity.Property(e => e.Hostname)
+                    .IsRequired()
+                    .HasColumnName("hostname");
+
+                entity.Property(e => e.IdProvider).HasColumnName("id_provider");
+
+                entity.Property(e => e.IsUserData)
+                    .HasColumnName("is_user_data")
+                    .HasDefaultValue(false);
+
+                entity.Property(e => e.Port).HasColumnName("port");
+
+                entity.Property(e => e.Type)
+                .HasColumnName("type")
+                .HasMaxLength(4);
+
+                entity.HasCheckConstraint("constraint_type", "[type] = 'pop3' or [type] = 'imap' or [type] = 'smtp'");
+
+                entity.Property(e => e.SocketType)
+                    .IsRequired()
+                    .HasColumnName("socket_type")
+                    .HasDefaultValue("plain");
+
+                entity.Property(e => e.UserName)
+                    .HasColumnName("username")
+                    .HasMaxLength(255)
+                    .HasDefaultValue(null);
             });
         }
     }

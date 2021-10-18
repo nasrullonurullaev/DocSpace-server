@@ -17,7 +17,8 @@ namespace ASC.Core.Common.EF.Model.Resource
         {
             modelBuilder
                 .Add(MySqlAddResCultures, Provider.MySql)
-                .Add(PgSqlAddResCultures, Provider.Postgre);
+                .Add(PgSqlAddResCultures, Provider.Postgre)
+                .Add(MSSqlAddResCultures, Provider.MSSql);
             return modelBuilder;
         }
         public static void MySqlAddResCultures(this ModelBuilder modelBuilder)
@@ -75,6 +76,32 @@ namespace ASC.Core.Common.EF.Model.Resource
                     .IsRequired()
                     .HasColumnName("value")
                     .HasColumnType("character varying");
+            });
+        }
+
+        public static void MSSqlAddResCultures(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<ResCultures>(entity =>
+            {
+                entity.HasKey(e => e.Title)
+                    .HasName("res_cultures_pkey");
+
+                entity.ToTable("res_cultures");
+
+                entity.Property(e => e.Title)
+                    .HasColumnName("title");
+
+                entity.Property(e => e.Available)
+                    .HasColumnName("available")
+                    .HasDefaultValue(false);
+
+                entity.Property(e => e.CreationDate)
+                    .HasColumnName("creationDate")
+                    .HasDefaultValueSql("CURRENT_TIMESTAMP");
+
+                entity.Property(e => e.Value)
+                    .IsRequired()
+                    .HasColumnName("value");
             });
         }
     }

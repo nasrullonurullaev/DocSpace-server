@@ -15,7 +15,8 @@ namespace ASC.Core.Common.EF.Model.Resource
         {
             modelBuilder
                 .Add(MySqlAddResAuthorsFile, Provider.MySql)
-                .Add(PgSqlAddResAuthorsFile, Provider.Postgre);
+                .Add(PgSqlAddResAuthorsFile, Provider.Postgre)
+                .Add(MSSqlAddResAuthorsFile, Provider.MSSql);
             return modelBuilder;
         }
         public static void MySqlAddResAuthorsFile(this ModelBuilder modelBuilder)
@@ -49,6 +50,28 @@ namespace ASC.Core.Common.EF.Model.Resource
                     .HasName("res_authorsfile_pkey");
 
                 entity.ToTable("res_authorsfile", "onlyoffice");
+
+                entity.HasIndex(e => e.FileId)
+                    .HasDatabaseName("res_authorsfile_FK2");
+
+                entity.Property(e => e.AuthorLogin)
+                    .HasColumnName("authorLogin")
+                    .HasMaxLength(50);
+
+                entity.Property(e => e.FileId).HasColumnName("fileid");
+
+                entity.Property(e => e.WriteAccess).HasColumnName("writeAccess");
+            });
+        }
+
+        public static void MSSqlAddResAuthorsFile(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<ResAuthorsFile>(entity =>
+            {
+                entity.HasKey(e => new { e.AuthorLogin, e.FileId })
+                    .HasName("res_authorsfile_pkey");
+
+                entity.ToTable("res_authorsfile");
 
                 entity.HasIndex(e => e.FileId)
                     .HasDatabaseName("res_authorsfile_FK2");

@@ -18,7 +18,8 @@ namespace ASC.Core.Common.EF.Model.Resource
         {
             modelBuilder
                 .Add(MySqlAddResAuthors, Provider.MySql)
-                .Add(PgSqlAddResAuthors, Provider.Postgre);
+                .Add(PgSqlAddResAuthors, Provider.Postgre)
+                .Add(MSSqlAddResAuthors, Provider.MSSql);
             return modelBuilder;
         }
         public static void MySqlAddResAuthors(this ModelBuilder modelBuilder)
@@ -60,6 +61,32 @@ namespace ASC.Core.Common.EF.Model.Resource
                     .HasName("res_authors_pkey");
 
                 entity.ToTable("res_authors", "onlyoffice");
+
+                entity.Property(e => e.Login)
+                    .HasColumnName("login")
+                    .HasMaxLength(150);
+
+                entity.Property(e => e.IsAdmin).HasColumnName("isAdmin");
+
+                entity.Property(e => e.LastVisit).HasColumnName("lastVisit");
+
+                entity.Property(e => e.Online).HasColumnName("online");
+
+                entity.Property(e => e.Password)
+                    .IsRequired()
+                    .HasColumnName("password")
+                    .HasMaxLength(50);
+            });
+        }
+
+        public static void MSSqlAddResAuthors(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<ResAuthors>(entity =>
+            {
+                entity.HasKey(e => e.Login)
+                    .HasName("res_authors_pkey");
+
+                entity.ToTable("res_authors");
 
                 entity.Property(e => e.Login)
                     .HasColumnName("login")
