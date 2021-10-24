@@ -356,7 +356,7 @@ namespace ASC.Core.Common.EF.Model
 
                 entity.Property(e => e.TrustedDomainsEnabled)
                     .HasColumnName("trusteddomainsenabled")
-                    .HasDefaultValueSql("1");
+                    .HasDefaultValue(TenantTrustedDomainsType.Custom);
 
                 entity.Property(e => e.Version)
                     .HasColumnName("version")
