@@ -30,7 +30,8 @@ namespace ASC.Files.Core.EF
         {
             modelBuilder
                 .Add(MySqlAddDbFilesSecurity, Provider.MySql)
-                .Add(PgSqlAddDbFilesSecurity, Provider.Postgre);
+                .Add(PgSqlAddDbFilesSecurity, Provider.Postgre)
+                .Add(MSSqlAddDbFilesSecurity, Provider.MSSql);
             return modelBuilder;
         }
         public static void MySqlAddDbFilesSecurity(this ModelBuilder modelBuilder)
@@ -122,5 +123,46 @@ namespace ASC.Files.Core.EF
             });
         }
 
+        public static void MSSqlAddDbFilesSecurity(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<DbFilesSecurity>(entity =>
+            {
+                entity.HasKey(e => new { e.TenantId, e.EntryId, e.EntryType, e.Subject })
+                    .HasName("files_security_pkey");
+
+                entity.ToTable("files_security");
+
+                entity.HasIndex(e => e.Owner)
+                    .HasDatabaseName("owner");
+
+                entity.HasIndex(e => new { e.EntryId, e.TenantId, e.EntryType, e.Owner })
+                    .HasDatabaseName("tenant_id_files_security");
+
+                entity.Property(e => e.TenantId).HasColumnName("tenant_id");
+
+                entity.Property(e => e.EntryId)
+                    .HasColumnName("entry_id")
+                    .HasMaxLength(50);
+
+                entity.Property(e => e.EntryType).HasColumnName("entry_type");
+
+                entity.Property(e => e.Subject)
+                    .HasColumnName("subject")
+                    .HasMaxLength(38)
+                    .IsFixedLength();
+
+                entity.Property(e => e.Owner)
+                    .IsRequired()
+                    .HasColumnName("owner")
+                    .HasMaxLength(38)
+                    .IsFixedLength();
+
+                entity.Property(e => e.Security).HasColumnName("security");
+
+                entity.Property(e => e.TimeStamp)
+                    .HasColumnName("timestamp")
+                    .HasDefaultValueSql("CURRENT_TIMESTAMP");
+            });
+        }
     }
 }

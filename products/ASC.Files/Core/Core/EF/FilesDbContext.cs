@@ -9,6 +9,7 @@ namespace ASC.Files.Core.EF
 {
     public class MySqlFilesDbContext : FilesDbContext { }
     public class PostgreSqlFilesDbContext : FilesDbContext { }
+    public class MSSqlFilesDbContext : FilesDbContext { }
     public class FilesDbContext : BaseDbContext
     {
         public DbSet<DbFile> Files { get; set; }

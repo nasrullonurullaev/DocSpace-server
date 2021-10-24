@@ -33,7 +33,8 @@ namespace ASC.Files.Core.EF
         {
             modelBuilder
                 .Add(MySqlAddDbFilesThirdpartyAccount, Provider.MySql)
-                .Add(PgSqlAddDbFilesThirdpartyAccount, Provider.Postgre);
+                .Add(PgSqlAddDbFilesThirdpartyAccount, Provider.Postgre)
+                .Add(MSSqlAddDbFilesThirdpartyAccount, Provider.MSSql);
             return modelBuilder;
         }
         public static void MySqlAddDbFilesThirdpartyAccount(this ModelBuilder modelBuilder)
@@ -128,6 +129,52 @@ namespace ASC.Files.Core.EF
                     .HasColumnName("provider")
                     .HasMaxLength(50)
                     .HasDefaultValueSql("'0'::character varying");
+
+                entity.Property(e => e.TenantId).HasColumnName("tenant_id");
+
+                entity.Property(e => e.Token).HasColumnName("token");
+
+                entity.Property(e => e.Url).HasColumnName("url");
+
+                entity.Property(e => e.UserId)
+                    .IsRequired()
+                    .HasColumnName("user_id")
+                    .HasMaxLength(38);
+
+                entity.Property(e => e.UserName)
+                    .IsRequired()
+                    .HasColumnName("user_name")
+                    .HasMaxLength(100);
+            });
+        }
+
+        public static void MSSqlAddDbFilesThirdpartyAccount(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<DbFilesThirdpartyAccount>(entity =>
+            {
+                entity.ToTable("files_thirdparty_account");
+
+                entity.Property(e => e.Id).HasColumnName("id");
+
+                entity.Property(e => e.CreateOn).HasColumnName("create_on");
+
+                entity.Property(e => e.Title)
+                    .IsRequired()
+                    .HasColumnName("customer_title")
+                    .HasMaxLength(400);
+
+                entity.Property(e => e.FolderType).HasColumnName("folder_type");
+
+                entity.Property(e => e.Password)
+                    .IsRequired()
+                    .HasColumnName("password")
+                    .HasMaxLength(100);
+
+                entity.Property(e => e.Provider)
+                    .IsRequired()
+                    .HasColumnName("provider")
+                    .HasMaxLength(50)
+                    .HasDefaultValue(null);
 
                 entity.Property(e => e.TenantId).HasColumnName("tenant_id");
 

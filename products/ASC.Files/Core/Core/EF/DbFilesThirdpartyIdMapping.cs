@@ -23,7 +23,8 @@ namespace ASC.Files.Core.EF
         {
             modelBuilder
                 .Add(MySqlAddDbFilesThirdpartyIdMapping, Provider.MySql)
-                .Add(PgSqlAddDbFilesThirdpartyIdMapping, Provider.Postgre);
+                .Add(PgSqlAddDbFilesThirdpartyIdMapping, Provider.Postgre)
+                .Add(MSSqlAddDbFilesThirdpartyIdMapping, Provider.MSSql);
             return modelBuilder;
         }
         public static void MySqlAddDbFilesThirdpartyIdMapping(this ModelBuilder modelBuilder)
@@ -62,6 +63,31 @@ namespace ASC.Files.Core.EF
                     .HasName("files_thirdparty_id_mapping_pkey");
 
                 entity.ToTable("files_thirdparty_id_mapping", "onlyoffice");
+
+                entity.HasIndex(e => new { e.TenantId, e.HashId })
+                    .HasDatabaseName("index_1");
+
+                entity.Property(e => e.HashId)
+                    .HasColumnName("hash_id")
+                    .HasMaxLength(32)
+                    .IsFixedLength();
+
+                entity.Property(e => e.Id)
+                    .IsRequired()
+                    .HasColumnName("id");
+
+                entity.Property(e => e.TenantId).HasColumnName("tenant_id");
+            });
+        }
+
+        public static void MSSqlAddDbFilesThirdpartyIdMapping(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<DbFilesThirdpartyIdMapping>(entity =>
+            {
+                entity.HasKey(e => e.HashId)
+                    .HasName("files_thirdparty_id_mapping_pkey");
+
+                entity.ToTable("files_thirdparty_id_mapping");
 
                 entity.HasIndex(e => new { e.TenantId, e.HashId })
                     .HasDatabaseName("index_1");

@@ -20,7 +20,8 @@ namespace ASC.Files.Core.EF
         {
             modelBuilder
                 .Add(MySqlAddDbFilesTag, Provider.MySql)
-                .Add(PgSqlAddDbFilesTag, Provider.Postgre);
+                .Add(PgSqlAddDbFilesTag, Provider.Postgre)
+                .Add(MSSqlAddDbFilesTag, Provider.MSSql);
             return modelBuilder;
         }
         public static void MySqlAddDbFilesTag(this ModelBuilder modelBuilder)
@@ -58,6 +59,33 @@ namespace ASC.Files.Core.EF
             modelBuilder.Entity<DbFilesTag>(entity =>
             {
                 entity.ToTable("files_tag", "onlyoffice");
+
+                entity.HasIndex(e => new { e.TenantId, e.Owner, e.Name, e.Flag })
+                    .HasDatabaseName("name_files_tag");
+
+                entity.Property(e => e.Id).HasColumnName("id");
+
+                entity.Property(e => e.Flag).HasColumnName("flag");
+
+                entity.Property(e => e.Name)
+                    .IsRequired()
+                    .HasColumnName("name")
+                    .HasMaxLength(255);
+
+                entity.Property(e => e.Owner)
+                    .IsRequired()
+                    .HasColumnName("owner")
+                    .HasMaxLength(38);
+
+                entity.Property(e => e.TenantId).HasColumnName("tenant_id");
+            });
+        }
+
+        public static void MSSqlAddDbFilesTag(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<DbFilesTag>(entity =>
+            {
+                entity.ToTable("files_tag");
 
                 entity.HasIndex(e => new { e.TenantId, e.Owner, e.Name, e.Flag })
                     .HasDatabaseName("name_files_tag");

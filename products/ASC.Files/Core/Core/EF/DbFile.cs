@@ -82,7 +82,8 @@ namespace ASC.Files.Core.EF
         {
             modelBuilder
                 .Add(MySqlAddDbFiles, Provider.MySql)
-                .Add(PgSqlAddDbFiles, Provider.Postgre);
+                .Add(PgSqlAddDbFiles, Provider.Postgre)
+                .Add(MSSqlAddDbFiles, Provider.MSSql);
             return modelBuilder;
         }
         public static void MySqlAddDbFiles(this ModelBuilder modelBuilder)
@@ -266,6 +267,91 @@ namespace ASC.Files.Core.EF
                     .HasDefaultValueSql("1");
             });
 
+        }
+
+        public static void MSSqlAddDbFiles(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<DbFile>(entity =>
+            {
+                entity.Ignore(r => r.Folders);
+                entity.Ignore(r => r.IndexName);
+                entity.Ignore(r => r.Document);
+
+                entity.HasKey(e => new { e.TenantId, e.Id, e.Version })
+                    .HasName("files_file_pkey");
+
+                entity.ToTable("files_file");
+
+                entity.HasIndex(e => e.FolderId)
+                    .HasDatabaseName("folder_id");
+
+                entity.HasIndex(e => e.Id)
+                    .HasDatabaseName("id");
+
+                entity.HasIndex(e => e.ModifiedOn)
+                    .HasDatabaseName("modified_on_files_file");
+
+                entity.Property(e => e.Id).HasColumnName("id");
+
+                entity.Property(e => e.TenantId).HasColumnName("tenant_id");
+
+                entity.Property(e => e.Version).HasColumnName("version");
+
+                entity.Property(e => e.Category).HasColumnName("category");
+
+                entity.Property(e => e.Changes).HasColumnName("changes");
+
+                entity.Property(e => e.Comment)
+                    .HasColumnName("comment")
+                    .HasMaxLength(255)
+                    .HasDefaultValue(null);
+
+                entity.Property(e => e.ContentLength)
+                    .HasColumnName("content_length")
+                    .HasDefaultValue(0);
+
+                entity.Property(e => e.ConvertedType)
+                    .HasColumnName("converted_type")
+                    .HasMaxLength(10)
+                    .HasDefaultValue(null);
+
+                entity.Property(e => e.CreateBy)
+                    .IsRequired()
+                    .HasColumnName("create_by")
+                    .HasMaxLength(38)
+                    .IsFixedLength();
+
+                entity.Property(e => e.CreateOn).HasColumnName("create_on");
+
+                entity.Property(e => e.CurrentVersion).HasColumnName("current_version");
+
+                entity.Property(e => e.Thumb).HasColumnName("thumb");
+
+                entity.Property(e => e.Encrypted).HasColumnName("encrypted");
+
+                entity.Property(e => e.FileStatus).HasColumnName("file_status");
+
+                entity.Property(e => e.FolderId).HasColumnName("folder_id");
+
+                entity.Property(e => e.Forcesave).HasColumnName("forcesave");
+
+                entity.Property(e => e.ModifiedBy)
+                    .IsRequired()
+                    .HasColumnName("modified_by")
+                    .HasMaxLength(38)
+                    .IsFixedLength();
+
+                entity.Property(e => e.ModifiedOn).HasColumnName("modified_on");
+
+                entity.Property(e => e.Title)
+                    .IsRequired()
+                    .HasColumnName("title")
+                    .HasMaxLength(400);
+
+                entity.Property(e => e.VersionGroup)
+                    .HasColumnName("version_group")
+                    .HasDefaultValue(1);
+            });
         }
     }
 }

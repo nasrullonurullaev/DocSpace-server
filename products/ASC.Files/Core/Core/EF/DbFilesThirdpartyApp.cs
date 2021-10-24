@@ -26,7 +26,8 @@ namespace ASC.Files.Core.EF
         {
             modelBuilder
                 .Add(MySqlAddDbFilesThirdpartyApp, Provider.MySql)
-                .Add(PgSqlAddDbFilesThirdpartyApp, Provider.Postgre);
+                .Add(PgSqlAddDbFilesThirdpartyApp, Provider.Postgre)
+                .Add(MSSqlAddDbFilesThirdpartyApp, Provider.MSSql);
             return modelBuilder;
         }
         public static void MySqlAddDbFilesThirdpartyApp(this ModelBuilder modelBuilder)
@@ -73,6 +74,33 @@ namespace ASC.Files.Core.EF
                     .HasName("files_thirdparty_app_pkey");
 
                 entity.ToTable("files_thirdparty_app", "onlyoffice");
+
+                entity.Property(e => e.UserId)
+                    .HasColumnName("user_id")
+                    .HasMaxLength(38);
+
+                entity.Property(e => e.App)
+                    .HasColumnName("app")
+                    .HasMaxLength(50);
+
+                entity.Property(e => e.ModifiedOn)
+                    .HasColumnName("modified_on")
+                    .HasDefaultValueSql("CURRENT_TIMESTAMP");
+
+                entity.Property(e => e.TenantId).HasColumnName("tenant_id");
+
+                entity.Property(e => e.Token).HasColumnName("token");
+            });
+        }
+
+        public static void MSSqlAddDbFilesThirdpartyApp(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<DbFilesThirdpartyApp>(entity =>
+            {
+                entity.HasKey(e => new { e.UserId, e.App })
+                    .HasName("files_thirdparty_app_pkey");
+
+                entity.ToTable("files_thirdparty_app");
 
                 entity.Property(e => e.UserId)
                     .HasColumnName("user_id")

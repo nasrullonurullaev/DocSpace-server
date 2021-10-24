@@ -24,7 +24,8 @@ namespace ASC.Files.Core.EF
         {
             modelBuilder
                 .Add(MySqlAddDbFolderTree, Provider.MySql)
-                .Add(PgSqlAddDbFolderTree, Provider.Postgre);
+                .Add(PgSqlAddDbFolderTree, Provider.Postgre)
+                .Add(MSSqlAddDbFolderTree, Provider.MSSql);
             return modelBuilder;
         }
         public static void MySqlAddDbFolderTree(this ModelBuilder modelBuilder)
@@ -65,6 +66,26 @@ namespace ASC.Files.Core.EF
                 entity.Property(e => e.Level).HasColumnName("level");
             });
 
+        }
+
+        public static void MSSqlAddDbFolderTree(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<DbFolderTree>(entity =>
+            {
+                entity.HasKey(e => new { e.ParentId, e.FolderId })
+                    .HasName("files_folder_tree_pkey");
+
+                entity.ToTable("files_folder_tree");
+
+                entity.HasIndex(e => e.FolderId)
+                    .HasDatabaseName("folder_id_files_folder_tree");
+
+                entity.Property(e => e.ParentId).HasColumnName("parent_id");
+
+                entity.Property(e => e.FolderId).HasColumnName("folder_id");
+
+                entity.Property(e => e.Level).HasColumnName("level");
+            });
         }
     }
 

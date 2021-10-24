@@ -23,7 +23,8 @@ namespace ASC.Files.Core.EF
         {
             modelBuilder
                 .Add(MySqlAddDbFilesBunchObjects, Provider.MySql)
-                .Add(PgSqlAddDbFilesBunchObjects, Provider.Postgre);
+                .Add(PgSqlAddDbFilesBunchObjects, Provider.Postgre)
+                .Add(MSSqlAddDbFilesBunchObjects, Provider.MSSql);
             return modelBuilder;
         }
         public static void MySqlAddDbFilesBunchObjects(this ModelBuilder modelBuilder)
@@ -62,6 +63,31 @@ namespace ASC.Files.Core.EF
                     .HasName("files_bunch_objects_pkey");
 
                 entity.ToTable("files_bunch_objects", "onlyoffice");
+
+                entity.HasIndex(e => e.LeftNode)
+                    .HasDatabaseName("left_node");
+
+                entity.Property(e => e.TenantId).HasColumnName("tenant_id");
+
+                entity.Property(e => e.RightNode)
+                    .HasColumnName("right_node")
+                    .HasMaxLength(255);
+
+                entity.Property(e => e.LeftNode)
+                    .IsRequired()
+                    .HasColumnName("left_node")
+                    .HasMaxLength(255);
+            });
+        }
+
+        public static void MSSqlAddDbFilesBunchObjects(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<DbFilesBunchObjects>(entity =>
+            {
+                entity.HasKey(e => new { e.TenantId, e.RightNode })
+                    .HasName("files_bunch_objects_pkey");
+
+                entity.ToTable("files_bunch_objects");
 
                 entity.HasIndex(e => e.LeftNode)
                     .HasDatabaseName("left_node");

@@ -48,7 +48,8 @@ namespace ASC.Files.Core.EF
         {
             modelBuilder
                 .Add(MySqlAddDbFolder, Provider.MySql)
-                    .Add(PgSqlAddDbFolder, Provider.Postgre);
+                .Add(PgSqlAddDbFolder, Provider.Postgre)
+                .Add(MSSqlAddDbFolder, Provider.MSSql);
             return modelBuilder;
         }
         public static void MySqlAddDbFolder(this ModelBuilder modelBuilder)
@@ -112,6 +113,53 @@ namespace ASC.Files.Core.EF
             modelBuilder.Entity<DbFolder>(entity =>
             {
                 entity.ToTable("files_folder", "onlyoffice");
+
+                entity.HasIndex(e => e.ModifiedOn)
+                    .HasDatabaseName("modified_on_files_folder");
+
+                entity.HasIndex(e => new { e.TenantId, e.ParentId })
+                    .HasDatabaseName("parent_id");
+
+                entity.Property(e => e.Id).HasColumnName("id");
+
+                entity.Property(e => e.CreateBy)
+                    .IsRequired()
+                    .HasColumnName("create_by")
+                    .HasMaxLength(38)
+                    .IsFixedLength();
+
+                entity.Property(e => e.CreateOn).HasColumnName("create_on");
+
+                entity.Property(e => e.FilesCount).HasColumnName("filesCount");
+
+                entity.Property(e => e.FolderType).HasColumnName("folder_type");
+
+                entity.Property(e => e.FoldersCount).HasColumnName("foldersCount");
+
+                entity.Property(e => e.ModifiedBy)
+                    .IsRequired()
+                    .HasColumnName("modified_by")
+                    .HasMaxLength(38)
+                    .IsFixedLength();
+
+                entity.Property(e => e.ModifiedOn).HasColumnName("modified_on");
+
+                entity.Property(e => e.ParentId).HasColumnName("parent_id");
+
+                entity.Property(e => e.TenantId).HasColumnName("tenant_id");
+
+                entity.Property(e => e.Title)
+                    .IsRequired()
+                    .HasColumnName("title")
+                    .HasMaxLength(400);
+            });
+        }
+
+        public static void MSSqlAddDbFolder(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<DbFolder>(entity =>
+            {
+                entity.ToTable("files_folder");
 
                 entity.HasIndex(e => e.ModifiedOn)
                     .HasDatabaseName("modified_on_files_folder");

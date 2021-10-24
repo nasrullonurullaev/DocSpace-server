@@ -29,7 +29,8 @@ namespace ASC.Files.Core.EF
         {
             modelBuilder
                 .Add(MySqlAddDbFilesTagLink, Provider.MySql)
-                .Add(PgSqlAddDbFilesTagLink, Provider.Postgre);
+                .Add(PgSqlAddDbFilesTagLink, Provider.Postgre)
+                .Add(MSSqlAddDbFilesTagLink, Provider.MSSql);
             return modelBuilder;
         }
         public static void MySqlAddDbFilesTagLink(this ModelBuilder modelBuilder)
@@ -72,7 +73,7 @@ namespace ASC.Files.Core.EF
                 entity.Property(e => e.TagCount).HasColumnName("tag_count");
             });
         }
-        public static void PgSqlAddDbFilesTagLink(this ModelBuilder modelBuilder)
+        public static void MSSqlAddDbFilesTagLink(this ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<DbFilesTagLink>(entity =>
             {
@@ -80,6 +81,43 @@ namespace ASC.Files.Core.EF
                     .HasName("files_tag_link_pkey");
 
                 entity.ToTable("files_tag_link", "onlyoffice");
+
+                entity.HasIndex(e => e.CreateOn)
+                    .HasDatabaseName("create_on_files_tag_link");
+
+                entity.HasIndex(e => new { e.TenantId, e.EntryId, e.EntryType })
+                    .HasDatabaseName("entry_id");
+
+                entity.Property(e => e.TenantId).HasColumnName("tenant_id");
+
+                entity.Property(e => e.TagId).HasColumnName("tag_id");
+
+                entity.Property(e => e.EntryType).HasColumnName("entry_type");
+
+                entity.Property(e => e.EntryId)
+                    .HasColumnName("entry_id")
+                    .HasMaxLength(32);
+
+                entity.Property(e => e.CreateBy)
+                    .HasColumnName("create_by")
+                    .HasMaxLength(38)
+                    .IsFixedLength()
+                    .HasDefaultValueSql("NULL::bpchar");
+
+                entity.Property(e => e.CreateOn).HasColumnName("create_on");
+
+                entity.Property(e => e.TagCount).HasColumnName("tag_count");
+            });
+        }
+
+        public static void PgSqlAddDbFilesTagLink(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<DbFilesTagLink>(entity =>
+            {
+                entity.HasKey(e => new { e.TenantId, e.TagId, e.EntryId, e.EntryType })
+                    .HasName("files_tag_link_pkey");
+
+                entity.ToTable("files_tag_link");
 
                 entity.HasIndex(e => e.CreateOn)
                     .HasDatabaseName("create_on_files_tag_link");
@@ -101,7 +139,7 @@ namespace ASC.Files.Core.EF
                     .HasColumnName("create_by")
                     .HasMaxLength(38)
                     .IsFixedLength()
-                    .HasDefaultValueSql("NULL::bpchar");
+                    .HasDefaultValue(null);
 
                 entity.Property(e => e.CreateOn).HasColumnName("create_on");
 
