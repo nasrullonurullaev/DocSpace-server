@@ -11,6 +11,7 @@ namespace ASC.Core.Common.EF.Context
 {
     public class MySqlAuditTrailContext : AuditTrailContext { }
     public class PostgreSqlAuditTrailContext : AuditTrailContext { }
+    public class MSSqlAuditTrailContext : AuditTrailContext { }
     public class AuditTrailContext : BaseDbContext
     {
         public DbSet<AuditEvent> AuditEvents { get; set; }
@@ -31,6 +32,7 @@ namespace ASC.Core.Common.EF.Context
                 {
                     { Provider.MySql, () => new MySqlCoreDbContext() } ,
                     { Provider.Postgre, () => new PostgreSqlCoreDbContext() } ,
+                    { Provider.MSSql, () => new MSSqlCoreDbContext() }
                 };
             }
         }
