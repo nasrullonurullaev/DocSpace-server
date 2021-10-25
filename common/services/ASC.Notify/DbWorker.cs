@@ -114,9 +114,11 @@ namespace ASC.Notify
                 using var dbContext = scope.ServiceProvider.GetService<DbContextManager<NotifyDbContext>>().Get(dbid);
                 using var tx = dbContext.Database.BeginTransaction();
 
+                var timeDifference = DateTime.UtcNow - TimeSpan.Parse(NotifyServiceCfg.Process.AttemptsInterval);
+
                 var q = dbContext.NotifyQueue
                     .Join(dbContext.NotifyInfo, r => r.NotifyId, r => r.NotifyId, (queue, info) => new { queue, info })
-                    .Where(r => r.info.State == (int)MailSendingState.NotSended || r.info.State == (int)MailSendingState.Error && r.info.ModifyDate < DateTime.UtcNow - TimeSpan.Parse(NotifyServiceCfg.Process.AttemptsInterval))
+                    .Where(r => r.info.State == (int)MailSendingState.NotSended || r.info.State == (int)MailSendingState.Error && r.info.ModifyDate < timeDifference)
                     .OrderBy(i => i.info.Priority)
                     .ThenBy(i => i.info.NotifyId)
                     .Take(count);
