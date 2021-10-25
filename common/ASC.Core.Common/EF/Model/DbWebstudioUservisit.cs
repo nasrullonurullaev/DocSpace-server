@@ -21,12 +21,7 @@ namespace ASC.Core.Common.EF.Model
             modelBuilder
                 .Add(MySqlAddWebstudioUserVisit, Provider.MySql)
                 .Add(PgSqlAddWebstudioUserVisit, Provider.Postgre)
-                .Add(MSSqlAddWebstudioUserVisit, Provider.MSSql)
-                .HasData(
-                    new DbWebstudioUserVisit { TenantId = 1, VisitDate = DateTime.UtcNow, ProductId = Guid.Empty, UserId = Guid.Parse("66faa6e4-f133-11ea-b126-00ffeec8b4ef"), VisitCount = 3, FirstVisitTime = DateTime.UtcNow, LastVisitTime = DateTime.UtcNow },
-                    new DbWebstudioUserVisit { TenantId = 1, VisitDate = DateTime.UtcNow, ProductId = Guid.Empty, UserId = Guid.Parse("66faa6e4-f133-11ea-b126-00ffeec8b4ef"), VisitCount = 2, FirstVisitTime = DateTime.UtcNow, LastVisitTime = DateTime.UtcNow },
-                    new DbWebstudioUserVisit { TenantId = 1, VisitDate = DateTime.UtcNow, ProductId = Guid.Parse("e67be73d-f9ae-4ce1-8fec-1880cb518cb4"), UserId = Guid.Parse("66faa6e4-f133-11ea-b126-00ffeec8b4ef"), VisitCount = 1, FirstVisitTime = DateTime.UtcNow, LastVisitTime = DateTime.UtcNow }
-                );
+                .Add(MSSqlAddWebstudioUserVisit, Provider.MSSql);
 
             return modelBuilder;
         }

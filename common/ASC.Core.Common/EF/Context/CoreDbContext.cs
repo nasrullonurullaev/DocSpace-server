@@ -15,7 +15,6 @@ namespace ASC.Core.Common.EF
     {
         public DbSet<DbTariff> Tariffs { get; set; }
         public DbSet<DbButton> Buttons { get; set; }
-        public DbSet<Acl> Acl { get; set; }
         public DbSet<DbQuota> Quotas { get; set; }
         public DbSet<DbQuotaRow> QuotaRows { get; set; }
         protected override Dictionary<Provider, Func<BaseDbContext>> ProviderContext
@@ -34,7 +33,6 @@ namespace ASC.Core.Common.EF
         {
             ModelBuilderWrapper
                   .From(modelBuilder, Provider)
-                .AddAcl()
                 .AddDbButton()
                   .AddDbQuotaRow()
                   .AddDbQuota()
