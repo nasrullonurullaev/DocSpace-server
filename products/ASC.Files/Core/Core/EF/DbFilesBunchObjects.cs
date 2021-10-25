@@ -96,11 +96,13 @@ namespace ASC.Files.Core.EF
 
                 entity.Property(e => e.RightNode)
                     .HasColumnName("right_node")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(255);
 
                 entity.Property(e => e.LeftNode)
                     .IsRequired()
                     .HasColumnName("left_node")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(255);
             });
         }

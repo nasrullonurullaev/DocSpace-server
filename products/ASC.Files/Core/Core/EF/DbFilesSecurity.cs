@@ -135,13 +135,14 @@ namespace ASC.Files.Core.EF
                 entity.HasIndex(e => e.Owner)
                     .HasDatabaseName("owner");
 
-                entity.HasIndex(e => new { e.EntryId, e.TenantId, e.EntryType, e.Owner })
+                entity.HasIndex(e => new { e.TenantId, e.EntryType, e.EntryId, e.Owner })
                     .HasDatabaseName("tenant_id_files_security");
 
                 entity.Property(e => e.TenantId).HasColumnName("tenant_id");
 
                 entity.Property(e => e.EntryId)
                     .HasColumnName("entry_id")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(50);
 
                 entity.Property(e => e.EntryType).HasColumnName("entry_type");

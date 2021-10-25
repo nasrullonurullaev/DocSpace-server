@@ -97,6 +97,7 @@ namespace ASC.Files.Core.EF
                 entity.Property(e => e.Name)
                     .IsRequired()
                     .HasColumnName("name")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(255);
 
                 entity.Property(e => e.Owner)

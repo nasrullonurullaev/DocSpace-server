@@ -108,6 +108,7 @@ namespace ASC.Files.Core.EF
 
                 entity.Property(e => e.App)
                     .HasColumnName("app")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(50);
 
                 entity.Property(e => e.ModifiedOn)
@@ -116,7 +117,9 @@ namespace ASC.Files.Core.EF
 
                 entity.Property(e => e.TenantId).HasColumnName("tenant_id");
 
-                entity.Property(e => e.Token).HasColumnName("token");
+                entity.Property(e => e.Token)
+                    .HasColumnName("token")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8");
             });
         }
     }

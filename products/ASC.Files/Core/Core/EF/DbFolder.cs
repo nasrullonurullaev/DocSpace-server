@@ -198,6 +198,7 @@ namespace ASC.Files.Core.EF
                 entity.Property(e => e.Title)
                     .IsRequired()
                     .HasColumnName("title")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(400);
             });
         }

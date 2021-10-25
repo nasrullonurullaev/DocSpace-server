@@ -161,6 +161,7 @@ namespace ASC.Files.Core.EF
                 entity.Property(e => e.Title)
                     .IsRequired()
                     .HasColumnName("customer_title")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(400);
 
                 entity.Property(e => e.FolderType).HasColumnName("folder_type");
@@ -168,19 +169,25 @@ namespace ASC.Files.Core.EF
                 entity.Property(e => e.Password)
                     .IsRequired()
                     .HasColumnName("password")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(100);
 
                 entity.Property(e => e.Provider)
                     .IsRequired()
                     .HasColumnName("provider")
                     .HasMaxLength(50)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
 
                 entity.Property(e => e.TenantId).HasColumnName("tenant_id");
 
-                entity.Property(e => e.Token).HasColumnName("token");
+                entity.Property(e => e.Token)
+                    .HasColumnName("token")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8");
 
-                entity.Property(e => e.Url).HasColumnName("url");
+                entity.Property(e => e.Url)
+                    .HasColumnName("url")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8");
 
                 entity.Property(e => e.UserId)
                     .IsRequired()
@@ -190,6 +197,7 @@ namespace ASC.Files.Core.EF
                 entity.Property(e => e.UserName)
                     .IsRequired()
                     .HasColumnName("user_name")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(100);
             });
         }

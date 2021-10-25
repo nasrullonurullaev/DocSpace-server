@@ -299,11 +299,14 @@ namespace ASC.Files.Core.EF
 
                 entity.Property(e => e.Category).HasColumnName("category");
 
-                entity.Property(e => e.Changes).HasColumnName("changes");
+                entity.Property(e => e.Changes)
+                    .HasColumnName("changes")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8");
 
                 entity.Property(e => e.Comment)
                     .HasColumnName("comment")
                     .HasMaxLength(255)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
 
                 entity.Property(e => e.ContentLength)
@@ -313,6 +316,7 @@ namespace ASC.Files.Core.EF
                 entity.Property(e => e.ConvertedType)
                     .HasColumnName("converted_type")
                     .HasMaxLength(10)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
 
                 entity.Property(e => e.CreateBy)
@@ -346,7 +350,8 @@ namespace ASC.Files.Core.EF
                 entity.Property(e => e.Title)
                     .IsRequired()
                     .HasColumnName("title")
-                    .HasMaxLength(400);
+                    .HasMaxLength(400)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8");
 
                 entity.Property(e => e.VersionGroup)
                     .HasColumnName("version_group")

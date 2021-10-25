@@ -94,11 +94,13 @@ namespace ASC.Files.Core.EF
 
                 entity.Property(e => e.HashId)
                     .HasColumnName("hash_id")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(32)
                     .IsFixedLength();
 
                 entity.Property(e => e.Id)
                     .IsRequired()
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasColumnName("id");
 
                 entity.Property(e => e.TenantId).HasColumnName("tenant_id");

@@ -31,6 +31,7 @@ namespace ASC.Files.Core.EF
                 {
                     { Provider.MySql, () => new MySqlFilesDbContext() } ,
                     { Provider.Postgre, () => new PostgreSqlFilesDbContext() } ,
+                    { Provider.MSSql, () => new MSSqlFilesDbContext() }
                 };
             }
         }
