@@ -136,11 +136,13 @@ namespace ASC.Core.Common.EF
                 entity.Property(e => e.PwdHash)
                     .HasColumnName("pwdhash")
                     .HasMaxLength(512)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
 
                 entity.Property(e => e.PwdHashSha512)
                     .HasColumnName("pwdhashsha512")
                     .HasMaxLength(512)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
 
                 entity.Property(e => e.Tenant).HasColumnName("tenant");

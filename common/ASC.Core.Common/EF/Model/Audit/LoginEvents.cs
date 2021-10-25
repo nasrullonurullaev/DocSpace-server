@@ -161,6 +161,7 @@ namespace ASC.Core.Common.EF.Model
                 entity.Property(e => e.Browser)
                     .HasColumnName("browser")
                     .HasMaxLength(200)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
 
                 entity.Property(e => e.Date).HasColumnName("date");
@@ -168,26 +169,31 @@ namespace ASC.Core.Common.EF.Model
                 entity.Property(e => e.Description)
                     .HasColumnName("description")
                     .HasMaxLength(500)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
 
                 entity.Property(e => e.Ip)
                     .HasColumnName("ip")
                     .HasMaxLength(50)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
 
                 entity.Property(e => e.Login)
                     .HasColumnName("login")
                     .HasMaxLength(200)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
 
                 entity.Property(e => e.Page)
                     .HasColumnName("page")
                     .HasMaxLength(300)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
 
                 entity.Property(e => e.Platform)
                     .HasColumnName("platform")
                     .HasMaxLength(200)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
 
                 entity.Property(e => e.TenantId).HasColumnName("tenant_id");

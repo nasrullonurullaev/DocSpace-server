@@ -2,10 +2,15 @@
 
 namespace ASC.Core.Common.EF.Model
 {
-    public class FilesConverts
+    public class FilesConverts : BaseEntity
     {
         public string Input { get; set; }
         public string Output { get; set; }
+
+        public override object[] GetKeys()
+        {
+            return new object[] { Input, Output };
+        }
     }
 
     public static class FilesConvertsExtension
@@ -222,10 +227,12 @@ namespace ASC.Core.Common.EF.Model
 
                 entity.Property(e => e.Input)
                     .HasColumnName("input")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(50);
 
                 entity.Property(e => e.Output)
                     .HasColumnName("output")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(50);
             });
         }

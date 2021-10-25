@@ -64,19 +64,19 @@ namespace ASC.Core.Common.EF.Model.Mail
 
         public static void MSSqlAddGreyListingWhiteList(this ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<GreyListingWhiteList>()
-                .HasKey(e => e.Comment)
-                .HasName("comment_pk");
-
             modelBuilder.Entity<GreyListingWhiteList>(entity =>
             {
+                entity.HasKey(e => e.Comment).HasName("comment_pk");
+
                 entity.ToTable("greylisting_whitelist");
 
                 entity.Property(e => e.Comment)
-                .HasColumnName("comment");
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
+                    .HasColumnName("comment");
 
                 entity.Property(e => e.Source)
-                .HasColumnName("source");
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
+                    .HasColumnName("source");
             });
         }
     }

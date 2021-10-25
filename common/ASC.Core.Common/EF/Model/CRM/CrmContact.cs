@@ -252,6 +252,7 @@ namespace ASC.Core.Common.EF.Model
                 entity.Property(e => e.CompanyName)
                     .HasColumnName("company_name")
                     .HasMaxLength(255)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
 
                 entity.Property(e => e.ContactTypeId).HasColumnName("contact_type_id");
@@ -267,21 +268,25 @@ namespace ASC.Core.Common.EF.Model
                 entity.Property(e => e.Currency)
                     .HasColumnName("currency")
                     .HasMaxLength(3)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
 
                 entity.Property(e => e.DisplayName)
                     .HasColumnName("display_name")
                     .HasMaxLength(255)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
 
                 entity.Property(e => e.FirstName)
                     .HasColumnName("first_name")
                     .HasMaxLength(255)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
 
                 entity.Property(e => e.Industry)
                     .HasColumnName("industry")
                     .HasMaxLength(255)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
 
                 entity.Property(e => e.IsCompany).HasColumnName("is_company");
@@ -300,9 +305,12 @@ namespace ASC.Core.Common.EF.Model
                 entity.Property(e => e.LastName)
                     .HasColumnName("last_name")
                     .HasMaxLength(255)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
 
-                entity.Property(e => e.Notes).HasColumnName("notes");
+                entity.Property(e => e.Notes)
+                    .HasColumnName("notes")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8");
 
                 entity.Property(e => e.StatusId).HasColumnName("status_id");
 
@@ -311,6 +319,7 @@ namespace ASC.Core.Common.EF.Model
                 entity.Property(e => e.Title)
                     .HasColumnName("title")
                     .HasMaxLength(255)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
             });
         }

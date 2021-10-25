@@ -350,6 +350,7 @@ namespace ASC.Core.Common.EF
                 entity.Property(e => e.Contacts)
                     .HasColumnName("contacts")
                     .HasMaxLength(1024)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
 
                 entity.Property(e => e.CreateOn)
@@ -359,16 +360,19 @@ namespace ASC.Core.Common.EF
                 entity.Property(e => e.Culture)
                     .HasColumnName("culture")
                     .HasMaxLength(20)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
 
                 entity.Property(e => e.Email)
                     .HasColumnName("email")
                     .HasMaxLength(255)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
 
                 entity.Property(e => e.FirstName)
                     .IsRequired()
                     .HasColumnName("firstname")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(64);
 
                 entity.Property(e => e.LastModified).HasColumnName("last_modified");
@@ -376,21 +380,25 @@ namespace ASC.Core.Common.EF
                 entity.Property(e => e.LastName)
                     .IsRequired()
                     .HasColumnName("lastname")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(64);
 
                 entity.Property(e => e.Location)
                     .HasColumnName("location")
                     .HasMaxLength(255)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
 
                 entity.Property(e => e.Notes)
                     .HasColumnName("notes")
                     .HasMaxLength(512)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
 
                 entity.Property(e => e.Phone)
                     .HasColumnName("phone")
                     .HasMaxLength(255)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
 
                 entity.Property(e => e.PhoneActivation).HasColumnName("phone_activation");
@@ -402,16 +410,19 @@ namespace ASC.Core.Common.EF
                 entity.Property(e => e.Sid)
                     .HasColumnName("sid")
                     .HasMaxLength(512)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
 
                 entity.Property(e => e.SsoNameId)
                     .HasColumnName("sso_name_id")
                     .HasMaxLength(512)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
 
                 entity.Property(e => e.SsoSessionId)
                     .HasColumnName("sso_session_id")
                     .HasMaxLength(512)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
 
                 entity.Property(e => e.Status)
@@ -425,11 +436,13 @@ namespace ASC.Core.Common.EF
                 entity.Property(e => e.Title)
                     .HasColumnName("title")
                     .HasMaxLength(64)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
 
                 entity.Property(e => e.UserName)
                     .IsRequired()
                     .HasColumnName("username")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(255);
 
                 entity.Property(e => e.WorkFromDate).HasColumnName("workfromdate");

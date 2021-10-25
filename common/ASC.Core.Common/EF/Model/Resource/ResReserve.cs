@@ -108,10 +108,12 @@ namespace ASC.Core.Common.EF.Model.Resource
 
                 entity.Property(e => e.Title)
                     .HasColumnName("title")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(120);
 
                 entity.Property(e => e.CultureTitle)
                     .HasColumnName("cultureTitle")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(20);
 
                 entity.Property(e => e.Flag).HasColumnName("flag");
@@ -120,7 +122,9 @@ namespace ASC.Core.Common.EF.Model.Resource
                     .HasColumnName("id")
                     .ValueGeneratedOnAdd();
 
-                entity.Property(e => e.TextValue).HasColumnName("textValue");
+                entity.Property(e => e.TextValue)
+                    .HasColumnName("textValue")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8");
             });
         }
     }

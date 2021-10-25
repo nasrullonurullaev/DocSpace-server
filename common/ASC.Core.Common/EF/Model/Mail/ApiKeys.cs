@@ -57,11 +57,11 @@ namespace ASC.Core.Common.EF.Model.Mail
             {
                 entity.ToTable("api_keys");
 
-                entity.Property(e => e.Id)
-                .HasColumnName("id");
+                entity.Property(e => e.Id).HasColumnName("id");
 
                 entity.Property(e => e.AccessToken)
-                .HasColumnName("access_token");
+                    .HasColumnName("access_token")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8");
             });
         }
     }

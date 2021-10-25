@@ -115,7 +115,9 @@ namespace ASC.Core.Common.EF.Model
                     .HasColumnName("UserID")
                     .HasMaxLength(64);
 
-                entity.Property(e => e.Data).IsRequired();
+                entity.Property(e => e.Data)
+                    .IsRequired()
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8");
             });
         }
     }

@@ -134,18 +134,22 @@ namespace ASC.Core.Common.EF
 
                 entity.Property(e => e.Source)
                     .HasColumnName("source")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(38);
 
                 entity.Property(e => e.Action)
                     .HasColumnName("action")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(128);
 
                 entity.Property(e => e.Recipient)
                     .HasColumnName("recipient")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(38);
 
                 entity.Property(e => e.Object)
                     .HasColumnName("object")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(128);
 
                 entity.Property(e => e.Unsubscribed).HasColumnName("unsubscribed");

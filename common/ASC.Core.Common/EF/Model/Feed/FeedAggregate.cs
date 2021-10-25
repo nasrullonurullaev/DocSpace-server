@@ -196,6 +196,7 @@ namespace ASC.Core.Common.EF.Model
 
                 entity.Property(e => e.Id)
                     .HasColumnName("id")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(88);
 
                 entity.Property(e => e.AggregateDate).HasColumnName("aggregated_date");
@@ -211,13 +212,17 @@ namespace ASC.Core.Common.EF.Model
                 entity.Property(e => e.GroupId)
                     .HasColumnName("group_id")
                     .HasMaxLength(70)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
 
                 entity.Property(e => e.Json)
                     .IsRequired()
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasColumnName("json");
 
-                entity.Property(e => e.Keywords).HasColumnName("keywords");
+                entity.Property(e => e.Keywords)
+                    .HasColumnName("keywords")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8");
 
                 entity.Property(e => e.ModifiedBy)
                     .IsRequired()
@@ -230,11 +235,13 @@ namespace ASC.Core.Common.EF.Model
                 entity.Property(e => e.Module)
                     .IsRequired()
                     .HasColumnName("module")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(50);
 
                 entity.Property(e => e.Product)
                     .IsRequired()
                     .HasColumnName("product")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(50);
 
                 entity.Property(e => e.Tenant).HasColumnName("tenant");

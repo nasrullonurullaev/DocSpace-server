@@ -64,6 +64,7 @@ namespace ASC.Core.Common.EF.Model
 
                 entity.Property(e => e.Address)
                     .HasColumnName("address")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(50);
             });
         }

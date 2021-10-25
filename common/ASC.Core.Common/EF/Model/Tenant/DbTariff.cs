@@ -106,6 +106,7 @@ namespace ASC.Core.Common.EF
                 entity.Property(e => e.Comment)
                     .HasColumnName("comment")
                     .HasMaxLength(255)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
 
                 entity.Property(e => e.CreateOn)

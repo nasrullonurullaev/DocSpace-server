@@ -295,6 +295,7 @@ namespace ASC.Core.Common.EF.Model
                 entity.Property(e => e.Alias)
                     .IsRequired()
                     .HasColumnName("alias")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(100);
 
                 entity.Property(e => e.Calls)
@@ -309,6 +310,7 @@ namespace ASC.Core.Common.EF.Model
                     .IsRequired()
                     .HasColumnName("language")
                     .HasMaxLength(10)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .IsFixedLength()
                     .HasDefaultValue("en-US");
 
@@ -319,11 +321,13 @@ namespace ASC.Core.Common.EF.Model
                 entity.Property(e => e.MappedDomain)
                     .HasColumnName("mappeddomain")
                     .HasMaxLength(100)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
 
                 entity.Property(e => e.Name)
                     .IsRequired()
                     .HasColumnName("name")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(255);
 
                 entity.Property(e => e.OwnerId)
@@ -334,6 +338,7 @@ namespace ASC.Core.Common.EF.Model
                 entity.Property(e => e.PaymentId)
                     .HasColumnName("payment_id")
                     .HasMaxLength(38)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
 
                 entity.Property(e => e.Spam)
@@ -347,11 +352,13 @@ namespace ASC.Core.Common.EF.Model
                 entity.Property(e => e.TimeZone)
                     .HasColumnName("timezone")
                     .HasMaxLength(50)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
 
                 entity.Property(e => e.TrustedDomains)
                     .HasColumnName("trusteddomains")
                     .HasMaxLength(1024)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(true);
 
                 entity.Property(e => e.TrustedDomainsEnabled)

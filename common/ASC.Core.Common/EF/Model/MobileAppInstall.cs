@@ -3,12 +3,17 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ASC.Core.Common.EF.Model
 {
-    public class MobileAppInstall
+    public class MobileAppInstall : BaseEntity
     {
         public string UserEmail { get; set; }
         public int AppType { get; set; }
         public DateTime RegisteredOn { get; set; }
         public DateTime LastSign { get; set; }
+
+        public override object[] GetKeys()
+        {
+            return new object[] { UserEmail, AppType };
+        }
     }
 
     public static class MobileAppInstallExtension
@@ -79,6 +84,7 @@ namespace ASC.Core.Common.EF.Model
 
                 entity.Property(e => e.UserEmail)
                     .HasColumnName("user_email")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(255);
 
                 entity.Property(e => e.AppType).HasColumnName("app_type");

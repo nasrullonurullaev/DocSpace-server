@@ -86,6 +86,7 @@ namespace ASC.Core.Common.EF.Model
 
                 entity.Property(e => e.FeedId)
                     .HasColumnName("feed_id")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(88);
 
                 entity.Property(e => e.UserId)

@@ -81,7 +81,7 @@ namespace ASC.Core.Common.EF.Model
         {
             modelBuilder.Entity<FeedReaded>(entity =>
             {
-                entity.HasKey(e => new { e.UserId, e.Tenant, e.Module })
+                entity.HasKey(e => new { e.Tenant, e.UserId, e.Module })
                     .HasName("feed_readed_pkey");
 
                 entity.ToTable("feed_readed");
@@ -94,6 +94,7 @@ namespace ASC.Core.Common.EF.Model
 
                 entity.Property(e => e.Module)
                     .HasColumnName("module")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(50);
 
                 entity.Property(e => e.TimeStamp).HasColumnName("timestamp");

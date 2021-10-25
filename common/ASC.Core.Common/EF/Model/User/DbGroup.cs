@@ -159,6 +159,7 @@ namespace ASC.Core.Common.EF
                 entity.Property(e => e.Name)
                     .IsRequired()
                     .HasColumnName("name")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(128);
 
                 entity.Property(e => e.ParentId)
@@ -171,6 +172,7 @@ namespace ASC.Core.Common.EF
                 entity.Property(e => e.Sid)
                     .HasColumnName("sid")
                     .HasMaxLength(512)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
 
                 entity.Property(e => e.Tenant).HasColumnName("tenant");

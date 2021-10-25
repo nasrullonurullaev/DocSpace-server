@@ -75,6 +75,7 @@ namespace ASC.Core.Common.EF.Model
 
                 entity.Property(e => e.IndexName)
                     .HasColumnName("index_name")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(50);
 
                 entity.Property(e => e.LastModified)

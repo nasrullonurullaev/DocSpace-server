@@ -98,6 +98,7 @@ namespace ASC.Core.Common.EF.Model.Mail
 
                 entity.Property(e => e.ConnectionString)
                     .IsRequired()
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasColumnName("connection_string");
 
                 entity.Property(e => e.ImapSettingsId).HasColumnName("imap_settings_id");
@@ -106,6 +107,7 @@ namespace ASC.Core.Common.EF.Model.Mail
                     .IsRequired()
                     .HasColumnName("mx_record")
                     .HasMaxLength(128)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(" ");
 
                 entity.Property(e => e.ServerType).HasColumnName("server_type");

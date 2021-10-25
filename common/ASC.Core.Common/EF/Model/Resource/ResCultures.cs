@@ -89,6 +89,7 @@ namespace ASC.Core.Common.EF.Model.Resource
                 entity.ToTable("res_cultures");
 
                 entity.Property(e => e.Title)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasColumnName("title");
 
                 entity.Property(e => e.Available)
@@ -101,6 +102,7 @@ namespace ASC.Core.Common.EF.Model.Resource
 
                 entity.Property(e => e.Value)
                     .IsRequired()
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasColumnName("value");
             });
         }

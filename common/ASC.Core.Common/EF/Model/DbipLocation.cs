@@ -196,16 +196,19 @@ namespace ASC.Core.Common.EF.Model
                 entity.Property(e => e.City)
                     .IsRequired()
                     .HasColumnName("city")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(255);
 
                 entity.Property(e => e.Country)
                     .IsRequired()
                     .HasColumnName("country")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(2);
 
                 entity.Property(e => e.District)
                     .HasColumnName("district")
                     .HasMaxLength(255)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
 
                 entity.Property(e => e.GeonameId).HasColumnName("geoname_id");
@@ -213,11 +216,13 @@ namespace ASC.Core.Common.EF.Model
                 entity.Property(e => e.IPEnd)
                     .IsRequired()
                     .HasColumnName("ip_end")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(39);
 
                 entity.Property(e => e.IPStart)
                     .IsRequired()
                     .HasColumnName("ip_start")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(39);
 
                 entity.Property(e => e.Latitude).HasColumnName("latitude");
@@ -231,11 +236,13 @@ namespace ASC.Core.Common.EF.Model
                 entity.Property(e => e.StateProv)
                     .IsRequired()
                     .HasColumnName("stateprov")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(255);
 
                 entity.Property(e => e.TimezoneName)
                     .HasColumnName("timezone_name")
                     .HasMaxLength(255)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
 
                 entity.Property(e => e.TimezoneOffset).HasColumnName("timezone_offset");
@@ -243,11 +250,13 @@ namespace ASC.Core.Common.EF.Model
                 entity.Property(e => e.ZipCode)
                     .HasColumnName("zipcode")
                     .HasMaxLength(255)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
 
                 entity.Property(e => e.AddrType)
                     .IsRequired()
                     .HasColumnName("addr_type")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(4);
 
                 entity.HasCheckConstraint("constraint_addr_type", "[addr_type] = 'ipv4' or [addr_type] = 'ipv6'");

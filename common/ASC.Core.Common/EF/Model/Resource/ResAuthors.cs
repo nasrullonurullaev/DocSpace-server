@@ -90,6 +90,7 @@ namespace ASC.Core.Common.EF.Model.Resource
 
                 entity.Property(e => e.Login)
                     .HasColumnName("login")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(150);
 
                 entity.Property(e => e.IsAdmin).HasColumnName("isAdmin");
@@ -101,6 +102,7 @@ namespace ASC.Core.Common.EF.Model.Resource
                 entity.Property(e => e.Password)
                     .IsRequired()
                     .HasColumnName("password")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(50);
             });
         }

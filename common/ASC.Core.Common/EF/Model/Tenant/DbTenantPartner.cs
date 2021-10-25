@@ -99,16 +99,19 @@ namespace ASC.Core.Common.EF.Model
                 entity.Property(e => e.AffiliateId)
                     .HasColumnName("affiliate_id")
                     .HasMaxLength(50)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
 
                 entity.Property(e => e.Campaign)
                     .HasColumnName("campaign")
                     .HasMaxLength(50)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
 
                 entity.Property(e => e.PartnerId)
                     .HasColumnName("partner_id")
                     .HasMaxLength(36)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
             });
         }

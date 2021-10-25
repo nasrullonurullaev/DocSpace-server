@@ -72,6 +72,7 @@ namespace ASC.Core.Common.EF.Model
 
                 entity.Property(e => e.LastKey)
                     .HasColumnName("last_key")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(128);
 
                 entity.Property(e => e.LastDate).HasColumnName("last_date");

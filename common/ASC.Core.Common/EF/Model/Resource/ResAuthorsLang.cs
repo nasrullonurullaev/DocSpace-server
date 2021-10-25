@@ -79,10 +79,12 @@ namespace ASC.Core.Common.EF.Model.Resource
 
                 entity.Property(e => e.AuthorLogin)
                     .HasColumnName("authorLogin")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(50);
 
                 entity.Property(e => e.CultureTitle)
                     .HasColumnName("cultureTitle")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(50);
             });
         }

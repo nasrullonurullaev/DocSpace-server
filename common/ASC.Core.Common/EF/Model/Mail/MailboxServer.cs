@@ -641,10 +641,12 @@ namespace ASC.Core.Common.EF.Model.Mail
                 entity.Property(e => e.Authentication)
                     .HasColumnName("authentication")
                     .HasMaxLength(255)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
 
                 entity.Property(e => e.Hostname)
                     .IsRequired()
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasColumnName("hostname");
 
                 entity.Property(e => e.IdProvider).HasColumnName("id_provider");
@@ -656,19 +658,22 @@ namespace ASC.Core.Common.EF.Model.Mail
                 entity.Property(e => e.Port).HasColumnName("port");
 
                 entity.Property(e => e.Type)
-                .HasColumnName("type")
-                .HasMaxLength(4);
+                    .HasColumnName("type")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
+                    .HasMaxLength(4);
 
                 entity.HasCheckConstraint("constraint_type", "[type] = 'pop3' or [type] = 'imap' or [type] = 'smtp'");
 
                 entity.Property(e => e.SocketType)
                     .IsRequired()
                     .HasColumnName("socket_type")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue("plain");
 
                 entity.Property(e => e.UserName)
                     .HasColumnName("username")
                     .HasMaxLength(255)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
             });
         }

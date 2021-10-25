@@ -122,18 +122,21 @@ namespace ASC.Core.Common.EF.Model
 
                 entity.Property(e => e.UId)
                     .HasColumnName("uid")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(200);
 
                 entity.Property(e => e.Linked).HasColumnName("linked");
 
                 entity.Property(e => e.Profile)
                     .IsRequired()
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasColumnName("profile");
 
                 entity.Property(e => e.Provider)
                     .HasColumnName("provider")
                     .HasMaxLength(60)
                     .IsFixedLength()
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
             });
         }

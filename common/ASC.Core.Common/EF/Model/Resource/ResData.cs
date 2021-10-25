@@ -190,19 +190,24 @@ namespace ASC.Core.Common.EF.Model.Resource
 
                 entity.Property(e => e.CultureTitle)
                     .HasColumnName("cultureTitle")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(20);
 
                 entity.Property(e => e.Title)
                     .HasColumnName("title")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(120);
 
                 entity.Property(e => e.AuthorLogin)
                     .IsRequired()
                     .HasColumnName("authorLogin")
                     .HasMaxLength(50)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue("Console");
 
-                entity.Property(e => e.Description).HasColumnName("description");
+                entity.Property(e => e.Description)
+                    .HasColumnName("description")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8");
 
                 entity.Property(e => e.Flag).HasColumnName("flag");
 
@@ -213,14 +218,18 @@ namespace ASC.Core.Common.EF.Model.Resource
                 entity.Property(e => e.Link)
                     .HasColumnName("link")
                     .HasMaxLength(120)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
 
                 entity.Property(e => e.ResourceType)
                     .HasColumnName("resourceType")
                     .HasMaxLength(20)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
 
-                entity.Property(e => e.TextValue).HasColumnName("textValue");
+                entity.Property(e => e.TextValue)
+                    .HasColumnName("textValue")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8");
 
                 entity.Property(e => e.TimeChanges)
                     .HasColumnName("timeChanges")

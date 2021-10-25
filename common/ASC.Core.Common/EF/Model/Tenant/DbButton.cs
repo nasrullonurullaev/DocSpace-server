@@ -85,10 +85,12 @@ namespace ASC.Core.Common.EF
 
                 entity.Property(e => e.PartnerId)
                     .HasColumnName("partner_id")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(50);
 
                 entity.Property(e => e.ButtonUrl)
                     .IsRequired()
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasColumnName("button_url");
             });
         }

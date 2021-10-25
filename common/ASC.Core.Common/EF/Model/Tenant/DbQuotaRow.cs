@@ -110,11 +110,12 @@ namespace ASC.Core.Common.EF
 
                 entity.Property(e => e.Path)
                     .HasColumnName("path")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(255);
 
                 entity.Property(e => e.Counter)
                     .HasColumnName("counter")
-                    .HasDefaultValueSql("'0'");
+                    .HasDefaultValue(0);
 
                 entity.Property(e => e.LastModified)
                     .HasColumnName("last_modified")
@@ -123,6 +124,7 @@ namespace ASC.Core.Common.EF
                 entity.Property(e => e.Tag)
                     .HasColumnName("tag")
                     .HasMaxLength(1024)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue("0");
             });
         }

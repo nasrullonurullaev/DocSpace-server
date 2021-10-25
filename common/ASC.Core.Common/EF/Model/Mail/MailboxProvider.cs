@@ -318,21 +318,25 @@ namespace ASC.Core.Common.EF.Model.Mail
                 entity.Property(e => e.DisplayName)
                     .HasColumnName("display_name")
                     .HasMaxLength(255)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
 
                 entity.Property(e => e.DisplayShortName)
                     .HasColumnName("display_short_name")
                     .HasMaxLength(255)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
 
                 entity.Property(e => e.Documentation)
                     .HasColumnName("documentation")
                     .HasMaxLength(255)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
 
                 entity.Property(e => e.Name)
                     .IsRequired()
                     .HasColumnName("name")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(255);
             });
         }

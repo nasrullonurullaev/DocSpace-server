@@ -342,6 +342,7 @@ namespace ASC.Core.Common.EF.Model.Mail
                 entity.Property(e => e.Address)
                     .IsRequired()
                     .HasColumnName("address")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(255);
 
                 entity.Property(e => e.BeginDate)
@@ -364,7 +365,9 @@ namespace ASC.Core.Common.EF.Model.Mail
 
                 entity.Property(e => e.DateUserChecked).HasColumnName("date_user_checked");
 
-                entity.Property(e => e.EmailInFolder).HasColumnName("email_in_folder");
+                entity.Property(e => e.EmailInFolder)
+                    .HasColumnName("email_in_folder")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8");
 
                 entity.Property(e => e.Enabled)
                     .HasColumnName("enabled")
@@ -377,13 +380,16 @@ namespace ASC.Core.Common.EF.Model.Mail
                 entity.Property(e => e.IdUser)
                     .IsRequired()
                     .HasColumnName("id_user")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(38);
 
                 entity.Property(e => e.Imap)
                     .HasColumnName("imap")
                     .HasDefaultValue(false);
 
-                entity.Property(e => e.ImapIntervals).HasColumnName("imap_intervals");
+                entity.Property(e => e.ImapIntervals)
+                    .HasColumnName("imap_intervals")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8");
 
                 entity.Property(e => e.IsDefault)
                     .HasColumnName("is_default")
@@ -410,11 +416,13 @@ namespace ASC.Core.Common.EF.Model.Mail
                 entity.Property(e => e.Name)
                     .HasColumnName("name")
                     .HasMaxLength(255)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
 
                 entity.Property(e => e.Pop3Password)
                     .HasColumnName("pop3_password")
                     .HasMaxLength(255)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
 
                 entity.Property(e => e.QuotaError)
@@ -426,11 +434,14 @@ namespace ASC.Core.Common.EF.Model.Mail
                 entity.Property(e => e.SmtpPassword)
                     .HasColumnName("smtp_password")
                     .HasMaxLength(255)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
 
                 entity.Property(e => e.Tenant).HasColumnName("tenant");
 
-                entity.Property(e => e.Token).HasColumnName("token");
+                entity.Property(e => e.Token)
+                    .HasColumnName("token")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8");
 
                 entity.Property(e => e.TokenType)
                     .HasColumnName("token_type")

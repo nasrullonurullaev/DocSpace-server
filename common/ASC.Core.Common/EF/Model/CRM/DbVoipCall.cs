@@ -197,6 +197,7 @@ namespace ASC.Core.Common.EF.Model
 
                 entity.Property(e => e.Id)
                     .HasColumnName("id")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(50);
 
                 entity.Property(e => e.AnsweredBy)
@@ -214,16 +215,19 @@ namespace ASC.Core.Common.EF.Model
                 entity.Property(e => e.NumberFrom)
                     .IsRequired()
                     .HasColumnName("number_from")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(50);
 
                 entity.Property(e => e.NumberTo)
                     .IsRequired()
                     .HasColumnName("number_to")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(50);
 
                 entity.Property(e => e.ParentCallId)
                     .IsRequired()
                     .HasColumnName("parent_call_id")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(50);
 
                 entity.Property(e => e.Price)
@@ -240,9 +244,12 @@ namespace ASC.Core.Common.EF.Model
                 entity.Property(e => e.RecordSid)
                     .HasColumnName("record_sid")
                     .HasMaxLength(50)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
 
-                entity.Property(e => e.RecordUrl).HasColumnName("record_url");
+                entity.Property(e => e.RecordUrl)
+                    .HasColumnName("record_url")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8");
 
                 entity.Property(e => e.Status).HasColumnName("status");
 

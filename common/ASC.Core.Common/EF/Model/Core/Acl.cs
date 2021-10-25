@@ -184,7 +184,8 @@ namespace ASC.Core.Common.EF
                 entity.Property(e => e.Object)
                     .HasColumnName("object")
                     .HasMaxLength(255)
-                    .HasDefaultValueSql("''");
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
+                    .HasDefaultValue(string.Empty);
 
                 entity.Property(e => e.AceType).HasColumnName("acetype");
             });

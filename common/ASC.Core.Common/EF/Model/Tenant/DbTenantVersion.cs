@@ -92,11 +92,13 @@ namespace ASC.Core.Common.EF.Model
                 entity.Property(e => e.Url)
                     .IsRequired()
                     .HasColumnName("url")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(64);
 
                 entity.Property(e => e.Version)
                     .IsRequired()
                     .HasColumnName("version")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(64);
 
                 entity.Property(e => e.Visible).HasColumnName("visible");

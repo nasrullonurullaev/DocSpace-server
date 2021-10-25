@@ -159,13 +159,17 @@ namespace ASC.Core.Common.EF
                 entity.Property(e => e.AvangateId)
                     .HasColumnName("avangate_id")
                     .HasMaxLength(128)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
 
                 entity.Property(e => e.Description)
                     .HasColumnName("description")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasColumnType("varchar(128)");
 
-                entity.Property(e => e.Features).HasColumnName("features");
+                entity.Property(e => e.Features)
+                    .HasColumnName("features")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8");
 
                 entity.Property(e => e.MaxFileSize)
                     .HasColumnName("max_file_size")
@@ -177,6 +181,7 @@ namespace ASC.Core.Common.EF
 
                 entity.Property(e => e.Name)
                     .HasColumnName("name")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasColumnType("varchar(128)");
 
                 entity.Property(e => e.Price)

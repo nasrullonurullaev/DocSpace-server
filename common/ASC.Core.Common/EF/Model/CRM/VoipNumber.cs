@@ -99,19 +99,24 @@ namespace ASC.Core.Common.EF.Model
 
                 entity.Property(e => e.Id)
                     .HasColumnName("id")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(50);
 
                 entity.Property(e => e.Alias)
                     .HasColumnName("alias")
                     .HasMaxLength(255)
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasDefaultValue(null);
 
                 entity.Property(e => e.Number)
                     .IsRequired()
                     .HasColumnName("number")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8")
                     .HasMaxLength(50);
 
-                entity.Property(e => e.Settings).HasColumnName("settings");
+                entity.Property(e => e.Settings)
+                    .HasColumnName("settings")
+                    .UseCollation("LATIN1_GENERAL_100_CI_AS_SC_UTF8");
 
                 entity.Property(e => e.TenantId).HasColumnName("tenant_id");
             });
