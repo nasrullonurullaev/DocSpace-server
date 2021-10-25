@@ -33,7 +33,7 @@ namespace ASC.Core.Common.EF
         {
             ModelBuilderWrapper
                   .From(modelBuilder, Provider)
-                .AddDbButton()
+                  .AddDbButton()
                   .AddDbQuotaRow()
                   .AddDbQuota()
                   .AddDbTariff();
