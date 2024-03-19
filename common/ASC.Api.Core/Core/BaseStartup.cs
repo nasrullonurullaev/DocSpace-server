@@ -60,7 +60,7 @@ public abstract class BaseStartup
 
     public virtual async Task ConfigureServices(IServiceCollection services)
     {
-        services.AddCustomHealthCheck(_configuration);
+        //services.AddCustomHealthCheck(_configuration);
         services.AddHttpContextAccessor();
         services.AddMemoryCache();
         services.AddHttpClient();
@@ -501,21 +501,21 @@ public abstract class BaseStartup
         {
             endpoints.MapCustomAsync(WebhooksEnabled, app.ApplicationServices).Wait();
 
-            endpoints.MapHealthChecks("/health", new HealthCheckOptions
-            {
-                Predicate = _ => true,
-                ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
-            }).ShortCircuit();
+            //endpoints.MapHealthChecks("/health", new HealthCheckOptions
+            //{
+            //    Predicate = _ => true,
+            //    ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
+            //}).ShortCircuit();
 
-            endpoints.MapHealthChecks("/ready", new HealthCheckOptions
-            {
-                Predicate = r => r.Name.Contains("services")
-            });
+            //endpoints.MapHealthChecks("/ready", new HealthCheckOptions
+            //{
+            //    Predicate = r => r.Name.Contains("services")
+            //});
 
-            endpoints.MapHealthChecks("/liveness", new HealthCheckOptions
-            {
-                Predicate = r => r.Name.Contains("self")
-            });
+            //endpoints.MapHealthChecks("/liveness", new HealthCheckOptions
+            //{
+            //    Predicate = r => r.Name.Contains("self")
+            //});
         });
 
         app.Map("/switch", appBuilder =>

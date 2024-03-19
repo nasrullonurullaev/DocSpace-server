@@ -36,6 +36,8 @@ var options = new WebApplicationOptions
 
 var builder = WebApplication.CreateBuilder(options);
 
+builder.AddServiceDefaults();
+
 builder.Configuration.AddDefaultConfiguration(builder.Environment)
                      .AddFilesConfiguration(builder.Environment)
                      .AddEnvironmentVariables()

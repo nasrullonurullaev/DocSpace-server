@@ -27,6 +27,7 @@
 		<InternalsVisibleTo Include="ASC.Files.Tests" />
 	</ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\ASC.Web.ServiceDefaults\ASC.Web.ServiceDefaults.csproj" />
     <ProjectReference Include="..\..\..\common\ASC.Api.Core\ASC.Api.Core.csproj" />
     <ProjectReference Include="..\Core\ASC.Files.Core.csproj" />
   </ItemGroup>
