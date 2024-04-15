@@ -26,11 +26,15 @@
 
 var builder = DistributedApplication.CreateBuilder(args);
 
+builder.AddRedis("redis", port: 6379);
+//builder.AddRabbitMQ("rabbitMQ", port: 5672);
+//var mySql = builder.AddMySql("rabbitMQ", port: 5672);
+
 builder.AddProject<Projects.ASC_ApiSystem>("asc-apisystem");
 
 builder.AddProject<Projects.ASC_ClearEvents>("asc-clearevents");
 
-builder.AddProject<Projects.ASC_Data_Backup>("asc-data-backup");
+builder.AddProject<Projects.ASC_Data_Backup>("asc-data-backup"));
 
 builder.AddProject<Projects.ASC_Data_Backup_BackgroundTasks>("asc-data-backup-backgroundtasks");
 
