@@ -3,12 +3,11 @@
     "Kestrel WebServer": {
       "commandName": "Project",
       "launchBrowser": false,
-      "launchUrl": "http://localhost:53980/api/2.0/modules/info",
+      "applicationUrl": "http://localhost:5000",
       "environmentVariables": {
         "$STORAGE_ROOT": "../../../Data",
         "log__dir": "../../../Logs",
         "log__name": "web.api",
-        "ASPNETCORE_URLS": "http://localhost:5000",
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },

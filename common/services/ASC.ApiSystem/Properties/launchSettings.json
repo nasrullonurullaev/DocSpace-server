@@ -3,13 +3,12 @@
     "Kestrel WebServer": {
       "commandName": "Project",
       "launchBrowser": false,
-      "launchUrl": "http://localhost:5010/portal/test",
+      "applicationUrl": "http://localhost:5010/",
       "environmentVariables": {
         "$STORAGE_ROOT": "../../../../Data",
         "log__name": "apisystem",
         "log__dir": "../../../../Logs",
-        "ASPNETCORE_ENVIRONMENT": "Development",
-        "ASPNETCORE_URLS": "http://localhost:5010"
+        "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
     "WSL 2 : Ubuntu 20.04": {

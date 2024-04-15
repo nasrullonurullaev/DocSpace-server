@@ -6,14 +6,25 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <IsAspireHost>true</IsAspireHost>
+    <UserSecretsId>843f55cc-7398-457e-a637-d5e7ef0ecc9a</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Aspire.Hosting" Version="8.0.0-preview.4.24156.9" />
+    <PackageReference Include="Aspire.Hosting.AppHost" Version="8.0.0-preview.5.24201.12" />
+    <PackageReference Include="Aspire.Hosting.NodeJs" Version="8.0.0-preview.5.24201.12" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\common\services\ASC.ApiSystem\ASC.ApiSystem.csproj" />
+    <ProjectReference Include="..\common\services\ASC.ClearEvents\ASC.ClearEvents.csproj" />
+    <ProjectReference Include="..\common\services\ASC.Data.Backup.BackgroundTasks\ASC.Data.Backup.BackgroundTasks.csproj" />
+    <ProjectReference Include="..\common\services\ASC.Data.Backup\ASC.Data.Backup.csproj" />
+    <ProjectReference Include="..\common\services\ASC.Notify\ASC.Notify.csproj" />
+    <ProjectReference Include="..\common\services\ASC.Studio.Notify\ASC.Studio.Notify.csproj" />
     <ProjectReference Include="..\products\ASC.Files\Server\ASC.Files.csproj" />
+    <ProjectReference Include="..\products\ASC.Files\Service\ASC.Files.Service.csproj" />
+    <ProjectReference Include="..\products\ASC.People\Server\ASC.People.csproj" />
+    <ProjectReference Include="..\web\ASC.Web.Api\ASC.Web.Api.csproj" />
     <ProjectReference Include="..\web\ASC.Web.Studio\ASC.Web.Studio.csproj" />
   </ItemGroup>
 
