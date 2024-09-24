@@ -1487,7 +1487,7 @@ public class EntryManager(IDaoFactory daoFactory,
                         {
                             await InitFormFillingFolders(file, room, properties, folderDao, fileDao);
                         }
-                        var resultFolder = await folderDao.GetFolderAsync(properties.FormFilling.ResultsFolderId);
+                        var resultFolder = await folderDao.GetFolderAsync(origProperties.FormFilling.ResultsFolderId);
                         var originalForm = await fileDao.GetFileAsync(properties.FormFilling.OriginalFormId);
 
                         if (resultFolder == null || resultFolder.FolderType != FolderType.FormFillingFolderDone)
