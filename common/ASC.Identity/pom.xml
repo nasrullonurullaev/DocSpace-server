@@ -70,7 +70,8 @@
         <winsw.maven.plugin.version>0.1.10</winsw.maven.plugin.version>
 
         <!-- Maven and Java Versions -->
-        <maven.compiler.plugin.vesrion>3.13.0</maven.compiler.plugin.vesrion>
+        <maven.jar.plugin.version>3.3.0</maven.jar.plugin.version>
+        <maven.compiler.plugin.version>3.13.0</maven.compiler.plugin.version>
         <maven.formatter.plugin.version>2.24</maven.formatter.plugin.version>
         <maven.surefire.plugin.version>3.2.5</maven.surefire.plugin.version>
     </properties>
@@ -199,7 +200,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>${maven.compiler.plugin.vesrion}</version>
+                <version>${maven.compiler.plugin.version}</version>
                 <configuration>
                     <release>21</release>
                 </configuration>
@@ -210,6 +211,14 @@
                 <version>${maven.surefire.plugin.version}</version>
                 <configuration>
                     <argLine>-XX:+EnableDynamicAgentLoading</argLine>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>{maven.jar.plugin.version}</version>
+                <configuration>
+                    <index>true</index>
                 </configuration>
             </plugin>
             <plugin>
