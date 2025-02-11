@@ -3,7 +3,7 @@ name: Check Comments
 on:
   pull_request:
     branches:
-      - main
+      - master
       - develop
       - release/*
       - hotfix/*
