@@ -44,15 +44,15 @@ public class SecurityContext(
     public IAccount CurrentAccount => authContext.CurrentAccount;
     public bool IsAuthenticated => authContext.IsAuthenticated;
     
-    public async Task<string> AuthenticateMeAsync(string login, string passwordHash, Func<Task<int>> funcLoginEvent = null)
+    public async Task<string> AuthenticateMeAsync(string login, string passwordHash, Func<Task<int>> funcLoginEvent = null, List<Claim> additionalClaims = null)
     {
         ArgumentNullException.ThrowIfNull(login);
         ArgumentNullException.ThrowIfNull(passwordHash);
 
-        var tenantid = await tenantManager.GetCurrentTenantIdAsync();
+        var tenantid = tenantManager.GetCurrentTenantId();
         var u = await userManager.GetUsersByPasswordHashAsync(tenantid, login, passwordHash);
 
-        return await AuthenticateMeAsync(new UserAccount(u, tenantid, userFormatter), funcLoginEvent);
+        return await AuthenticateMeAsync(new UserAccount(u, tenantid, userFormatter), funcLoginEvent, additionalClaims);
     }
 
     public async Task<bool> AuthenticateMeAsync(string cookie)
@@ -99,7 +99,7 @@ public class SecurityContext(
             return false;
         }
 
-        if (tenant != await tenantManager.GetCurrentTenantIdAsync())
+        if (tenant != tenantManager.GetCurrentTenantId())
         {
             return false;
         }
@@ -127,13 +127,18 @@ public class SecurityContext(
             if (loginEventId != 0)
             {
                 var loginEventById = await dbLoginEventsManager.GetByIdAsync(tenant, loginEventId);
-                if (loginEventById == null || !loginEventById.Active)
+                if (loginEventById is not { Active: true })
                 {
                     return false;
                 }
             }
 
-            await AuthenticateMeWithoutCookieAsync(new UserAccount(new UserInfo { Id = userid }, tenant, userFormatter));
+            var claims = new List<Claim>
+            {
+                AuthConstants.Claim_ScopeRootWrite
+            };
+
+            await AuthenticateMeWithoutCookieAsync(new UserAccount(new UserInfo { Id = userid }, tenant, userFormatter), claims);
             return true;
         }
         catch (InvalidCredentialException ice)
@@ -155,7 +160,7 @@ public class SecurityContext(
 
     public async Task<string> AuthenticateMeAsync(Guid userId, Func<Task<int>> funcLoginEvent = null, List<Claim> additionalClaims = null)
     {
-        var account = await authentication.GetAccountByIDAsync(await tenantManager.GetCurrentTenantIdAsync(), userId);
+        var account = await authentication.GetAccountByIDAsync(tenantManager.GetCurrentTenantId(), userId);
         return await AuthenticateMeAsync(account, funcLoginEvent, additionalClaims);
     }
 
@@ -173,7 +178,7 @@ public class SecurityContext(
                 loginEventId = await funcLoginEvent();
             }
 
-            cookie = await cookieStorage.EncryptCookieAsync(await tenantManager.GetCurrentTenantIdAsync(), account.ID, loginEventId);
+            cookie = await cookieStorage.EncryptCookieAsync(tenantManager.GetCurrentTenantId(), account.ID, loginEventId);
         }
 
         return cookie;
@@ -183,7 +188,7 @@ public class SecurityContext(
     {
         if (account == null || account.Equals(Constants.Guest))
         {
-            if (session == default || session == Constants.Guest.ID)
+            if (session == Guid.Empty || session == Constants.Guest.ID)
             {
                 throw new InvalidCredentialException(nameof(account));
             }
@@ -203,7 +208,7 @@ public class SecurityContext(
 
         if (account is IUserAccount)
         {
-            var tenant = await tenantManager.GetCurrentTenantAsync();
+            var tenant = tenantManager.GetCurrentTenant();
 
             var u = await userManager.GetUsersAsync(account.ID);
 
@@ -252,7 +257,7 @@ public class SecurityContext(
 
     public async Task AuthenticateMeWithoutCookieAsync(Guid userId, List<Claim> additionalClaims = null)
     {
-        await AuthenticateMeWithoutCookieAsync(await tenantManager.GetCurrentTenantIdAsync(), userId, additionalClaims);
+        await AuthenticateMeWithoutCookieAsync(tenantManager.GetCurrentTenantId(), userId, additionalClaims);
     }
 
     public async Task AuthenticateMeWithoutCookieAsync(int tenantId, Guid userId, List<Claim> additionalClaims = null)
@@ -268,7 +273,7 @@ public class SecurityContext(
 
     public async Task SetUserPasswordHashAsync(Guid userID, string passwordHash)
     {
-        var tenantid = await tenantManager.GetCurrentTenantIdAsync();
+        var tenantid = tenantManager.GetCurrentTenantId();
         var u = await userManager.GetUsersByPasswordHashAsync(tenantid, userID.ToString(), passwordHash);
         if (!Equals(u, Users.Constants.LostUser))
         {
@@ -317,7 +322,7 @@ public class PermissionContext(IPermissionResolver permissionResolver, AuthConte
 public class AuthContext(IHttpContextAccessor httpContextAccessor)
 {
     private IHttpContextAccessor HttpContextAccessor { get; } = httpContextAccessor;
-    private static readonly List<string> _typesCheck = [ConfirmType.LinkInvite.ToString(), ConfirmType.EmpInvite.ToString()];
+    private static readonly List<string> _typesCheck = [ConfirmType.LinkInvite.ToStringFast(), ConfirmType.EmpInvite.ToStringFast()];
     
     public IAccount CurrentAccount => Principal?.Identity as IAccount ?? Constants.Guest;
 
@@ -337,12 +342,15 @@ public class AuthContext(IHttpContextAccessor httpContextAccessor)
 
     internal ClaimsPrincipal Principal
     {
-        get => _principal ?? CustomSynchronizationContext.CurrentContext.CurrentPrincipal as ClaimsPrincipal ?? HttpContextAccessor?.HttpContext?.User;
+        get => _principal ?? CustomSynchronizationContext.CurrentContext?.CurrentPrincipal as ClaimsPrincipal ?? HttpContextAccessor?.HttpContext?.User;
         set
         {
             _principal = value;
 
-            CustomSynchronizationContext.CurrentContext.CurrentPrincipal = value;
+            if (CustomSynchronizationContext.CurrentContext != null)
+            {
+                CustomSynchronizationContext.CurrentContext.CurrentPrincipal = value;
+            }
 
             if (HttpContextAccessor?.HttpContext != null)
             {

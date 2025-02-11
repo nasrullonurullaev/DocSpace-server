@@ -147,7 +147,7 @@ public class EncryptionOperation(IServiceScopeFactory serviceScopeFactory) : Dis
     {
         if (!_useProgressFile)
         {
-            return new List<string>();
+            return [];
         }
 
         var encryptedFiles = new List<string>();
@@ -171,7 +171,7 @@ public class EncryptionOperation(IServiceScopeFactory serviceScopeFactory) : Dis
         return encryptedFiles;
     }
 
-    private async Task<IEnumerable<string>> GetFilesAsync(IEnumerable<string> domains, ICollection<string> progress, DiscDataStore targetStore, string targetDomain)
+    private static async Task<IEnumerable<string>> GetFilesAsync(IEnumerable<string> domains, List<string> progress, DiscDataStore targetStore, string targetDomain)
     {
         IEnumerable<string> files = await targetStore.ListFilesRelativeAsync(targetDomain, "\\", "*.*", true).ToListAsync();
 
@@ -292,11 +292,11 @@ public class EncryptionOperation(IServiceScopeFactory serviceScopeFactory) : Dis
                     {
                         if (_isEncryption)
                         {
-                            notifyHelper.SendStorageEncryptionSuccess(tenant.Id);
+                           await notifyHelper.SendStorageEncryptionSuccess(tenant.Id);
                         }
                         else
                         {
-                            notifyHelper.SendStorageDecryptionSuccess(tenant.Id);
+                           await notifyHelper.SendStorageDecryptionSuccess(tenant.Id);
                         }
                         log.DebugTenantSendStorageEncryptionSuccess(tenant.Alias);
                     }
@@ -305,11 +305,11 @@ public class EncryptionOperation(IServiceScopeFactory serviceScopeFactory) : Dis
                 {
                     if (_isEncryption)
                     {
-                        notifyHelper.SendStorageEncryptionError(tenant.Id);
+                        await notifyHelper.SendStorageEncryptionError(tenant.Id);
                     }
                     else
                     {
-                        notifyHelper.SendStorageDecryptionError(tenant.Id);
+                        await notifyHelper.SendStorageDecryptionError(tenant.Id);
                     }
 
                     log.DebugTenantSendStorageEncryptionError(tenant.Alias);
