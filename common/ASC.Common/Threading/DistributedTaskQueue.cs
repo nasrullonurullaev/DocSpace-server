@@ -33,7 +33,7 @@ public class DistributedTaskQueue(IServiceProvider serviceProvider,
     ILogger<DistributedTaskQueue> logger)
 {
     public const string QUEUE_DEFAULT_PREFIX = "asc_distributed_task_queue_";
-    public static readonly int INSTANCE_ID = Process.GetCurrentProcess().Id;
+    public static readonly int INSTANCE_ID = Environment.ProcessId;
 
     private readonly ConcurrentDictionary<string, CancellationTokenSource> _cancelations = new();
     private bool _subscribed;
@@ -43,14 +43,9 @@ public class DistributedTaskQueue(IServiceProvider serviceProvider,
     /// </summary>
     private int _maxThreadsCount = 1;
     private string _name;
-    private int _timeUntilUnregisterInSeconds;
     private TaskScheduler Scheduler { get; set; } = TaskScheduler.Default;
 
-    public int TimeUntilUnregisterInSeconds
-    {
-        get => _timeUntilUnregisterInSeconds;
-        set => _timeUntilUnregisterInSeconds = value;
-    }
+    public int TimeUntilUnregisterInSeconds { get; set; }
 
     public string Name
     {
@@ -313,7 +308,7 @@ public class DistributedTaskQueue(IServiceProvider serviceProvider,
                         }
                     });
 
-        destination.GetType().GetProperties().Where(p => p.CanWrite && !p.GetIndexParameters().Any())
+        destination.GetType().GetProperties().Where(p => p.CanWrite && p.GetIndexParameters().Length == 0)
                     .ToList()
                     .ForEach(prop =>
                     {

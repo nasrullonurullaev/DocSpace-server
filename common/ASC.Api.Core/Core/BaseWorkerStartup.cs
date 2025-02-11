@@ -25,7 +25,6 @@
 // International. See the License terms at http://creativecommons.org/licenses/by-sa/4.0/legalcode
 
 using ASC.Core.Notify.Socket;
-using ASC.MessagingSystem.Data;
 
 namespace ASC.Api.Core;
 
@@ -34,9 +33,12 @@ public class BaseWorkerStartup(IConfiguration configuration, IHostEnvironment ho
     protected IConfiguration Configuration { get; } = configuration;
     protected IHostEnvironment HostEnvironment { get; } = hostEnvironment;
     protected DIHelper DIHelper { get; } = new();
-
-    public virtual async Task ConfigureServices(IServiceCollection services)
+    
+    private bool OpenTelemetryEnabled { get; } = configuration.GetValue<bool>("openTelemetry:enable");
+    
+    public virtual async Task ConfigureServices(WebApplicationBuilder builder)
     {
+        var services = builder.Services;
         if (RuntimeInformation.IsOSPlatform(OSPlatform.Linux))
         {
             AppContext.SetSwitch("System.Net.Security.UseManagedNtlm", true);
@@ -44,7 +46,10 @@ public class BaseWorkerStartup(IConfiguration configuration, IHostEnvironment ho
         
         services.AddHttpContextAccessor();
         services.AddCustomHealthCheck(Configuration);
-
+        if (OpenTelemetryEnabled)
+        {
+            builder.ConfigureOpenTelemetry();
+        }
         services.AddSingleton<EFLoggerFactory>();
         services.AddBaseDbContextPool<AccountLinkContext>();
         services.AddBaseDbContextPool<CoreDbContext>();
@@ -94,6 +99,7 @@ public class BaseWorkerStartup(IConfiguration configuration, IHostEnvironment ho
         services.AddSingleton(svc => svc.GetRequiredService<Channel<SocketData>>().Reader);
         services.AddSingleton(svc => svc.GetRequiredService<Channel<SocketData>>().Writer);
         services.AddHostedService<SocketService>();
+        services.AddTransient<DistributedTaskProgress>();
     }
 
     protected IEnumerable<Assembly> GetAutoMapperProfileAssemblies()
