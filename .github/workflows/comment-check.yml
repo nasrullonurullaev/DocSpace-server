@@ -23,4 +23,4 @@ jobs:
           python-version: '3.9'
 
       - name: Run comment checker
-        run: python .github/scripts/check_comments.py
+        run: python .github/workflows/check_comments.py
