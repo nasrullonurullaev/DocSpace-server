@@ -11,7 +11,7 @@
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>A simple set of client side and server side REST helpers</description>
     <releaseNotes>https://github.com/JSIStudios/SimpleRestServices/releases/tag/v$version$</releaseNotes>
-    <copyright>Copyright © JSI Studios 2013</copyright>
+    <copyright>Copyright Â© JSI Studios 2013</copyright>
     <tags>REST REST_client</tags>
     <dependencies>
       <dependency id="Newtonsoft.Json" version="5.0.6" />

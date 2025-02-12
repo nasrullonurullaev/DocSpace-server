@@ -118,12 +118,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ButtonSetPassword" xml:space="preserve">
-    <value>Establecer contraseña</value>
+    <value>Establecer contraseÃ±a</value>
   </data>
   <data name="BackupNotFound" xml:space="preserve">
-    <value>El archivo de copia de seguridad no es válido. Utilice el archivo creado en el mismo portal.</value>
+    <value>El archivo de copia de seguridad no es vÃ¡lido. Utilice el archivo creado en el mismo portal.</value>
   </data>
   <data name="LargeBackup" xml:space="preserve">
-    <value>La copia de seguridad es mayor que el tamaño total del portal</value>
+    <value>La copia de seguridad es mayor que el tamaÃ±o total del portal</value>
   </data>
 </root>

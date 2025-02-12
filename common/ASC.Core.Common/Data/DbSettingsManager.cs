@@ -163,7 +163,7 @@ public class SettingsManager(
                 return Task.FromResult(settings);
             }
 
-            return LoadАFromDbAsync(tenantId, userId, def, key);
+            return LoadÐFromDbAsync(tenantId, userId, def, key);
         }
         catch (Exception ex)
         {
@@ -173,7 +173,7 @@ public class SettingsManager(
         return Task.FromResult(def);
     }
 
-    private async Task<T> LoadАFromDbAsync<T>(int tenantId, Guid userId, T def, string key) where T : class, ISettings<T>
+    private async Task<T> LoadÐFromDbAsync<T>(int tenantId, Guid userId, T def, string key) where T : class, ISettings<T>
     {
         await using var context = await dbContextFactory.CreateDbContextAsync();
         var result = await context.DataAsync(tenantId, def.ID, userId);

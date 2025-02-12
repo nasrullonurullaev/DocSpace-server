@@ -118,12 +118,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BackupNotFound" xml:space="preserve">
-    <value>ملف النسخة الاحتياطية غير صالح. من فضلك قم باستخدام ملف تم انشاءه بنسخة ONLYOFFICE v11.5 أو بعد.</value>
+    <value>Ù…Ù„Ù Ø§Ù„Ù†Ø³Ø®Ø© Ø§Ù„Ø§Ø­ØªÙŠØ§Ø·ÙŠØ© ØºÙŠØ± ØµØ§Ù„Ø­. Ù…Ù† ÙØ¶Ù„Ùƒ Ù‚Ù… Ø¨Ø§Ø³ØªØ®Ø¯Ø§Ù… Ù…Ù„Ù ØªÙ… Ø§Ù†Ø´Ø§Ø¡Ù‡ Ø¨Ù†Ø³Ø®Ø© ONLYOFFICE v11.5 Ø£Ùˆ Ø¨Ø¹Ø¯.</value>
   </data>
   <data name="ButtonSetPassword" xml:space="preserve">
-    <value>تعيين كلمة المرور</value>
+    <value>ØªØ¹ÙŠÙŠÙ† ÙƒÙ„Ù…Ø© Ø§Ù„Ù…Ø±ÙˆØ±</value>
   </data>
   <data name="LargeBackup" xml:space="preserve">
-    <value>النسخ الاحتياطي أكبر من الحجم الفعلي للبوابة</value>
+    <value>Ø§Ù„Ù†Ø³Ø® Ø§Ù„Ø§Ø­ØªÙŠØ§Ø·ÙŠ Ø£ÙƒØ¨Ø± Ù…Ù† Ø§Ù„Ø­Ø¬Ù… Ø§Ù„ÙØ¹Ù„ÙŠ Ù„Ù„Ø¨ÙˆØ§Ø¨Ø©</value>
   </data>
 </root>

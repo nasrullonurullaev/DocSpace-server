@@ -159,8 +159,8 @@ public class LoginProfile
     private string UniqueId => $"{Provider}/{Id}";
     public string HashId => HashHelper.MD5(UniqueId);
 
-    private const char KeyValueSeparator = '→';
-    private const char PairSeparator = '·';
+    private const char KeyValueSeparator = 'â†’';
+    private const char PairSeparator = 'Â·';
 
     private readonly Dictionary<string, string> _fields = new();
     

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using OpenStack.BlockStorage.v2;
 using OpenStack.Compute.v2_1;

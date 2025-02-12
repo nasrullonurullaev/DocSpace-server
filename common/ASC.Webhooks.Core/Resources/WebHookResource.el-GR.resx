@@ -118,9 +118,9 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="POST|api/2.0/files/file/{fileId}/startedit" xml:space="preserve">
-    <value>Έναρξη επεξεργασίας</value>
+    <value>ÎˆÎ½Î±ÏÎ¾Î· ÎµÏ€ÎµÎ¾ÎµÏÎ³Î±ÏƒÎ¯Î±Ï‚</value>
   </data>
   <data name="POST|api/2.0/files/file/{fileId}/startedit_Description" xml:space="preserve">
-    <value>Περιγραφή έναρξης επεξεργασίας</value>
+    <value>Î ÎµÏÎ¹Î³ÏÎ±Ï†Î® Î­Î½Î±ÏÎ¾Î·Ï‚ ÎµÏ€ÎµÎ¾ÎµÏÎ³Î±ÏƒÎ¯Î±Ï‚</value>
   </data>
 </root>

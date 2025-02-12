@@ -1,4 +1,4 @@
-﻿Imports System.Threading.Tasks
+Imports System.Threading.Tasks
 
 Public Class AsynchronousExceptionsExamples
 

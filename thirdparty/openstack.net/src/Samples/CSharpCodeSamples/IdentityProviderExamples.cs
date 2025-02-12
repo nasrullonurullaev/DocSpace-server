@@ -1,4 +1,4 @@
-﻿namespace CSharpCodeSamples
+namespace CSharpCodeSamples
 {
     using System;
     using System.Collections.Generic;

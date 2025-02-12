@@ -118,12 +118,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="TitleNewFilePresentation" xml:space="preserve">
-    <value>Նոր ներկայացում</value>
+    <value>Õ†Õ¸Ö€ Õ¶Õ¥Ö€Õ¯Õ¡ÕµÕ¡ÖÕ¸Ö‚Õ´</value>
   </data>
   <data name="TitleNewFileSpreadsheet" xml:space="preserve">
-    <value>Նոր աղյուսակաթերթ</value>
+    <value>Õ†Õ¸Ö€ Õ¡Õ²ÕµÕ¸Ö‚Õ½Õ¡Õ¯Õ¡Õ©Õ¥Ö€Õ©</value>
   </data>
   <data name="TitleNewFileText" xml:space="preserve">
-    <value>Նոր փաստաթուղթ</value>
+    <value>Õ†Õ¸Ö€ ÖƒÕ¡Õ½Õ¿Õ¡Õ©Õ¸Ö‚Õ²Õ©</value>
   </data>
 </root>

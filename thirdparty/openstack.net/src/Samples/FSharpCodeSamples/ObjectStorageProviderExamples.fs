@@ -1,4 +1,4 @@
-﻿module ObjectStorageProviderExamples
+module ObjectStorageProviderExamples
 
 open System;
 open System.Collections.Generic;

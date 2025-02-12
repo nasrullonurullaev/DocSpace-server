@@ -124,31 +124,31 @@
     <value>Procesarea datelor s-a terminat</value>
   </data>
   <data name="DumpParse" xml:space="preserve">
-    <value>Analiză baza de date</value>
+    <value>AnalizÄƒ baza de date</value>
   </data>
   <data name="GroupMigration" xml:space="preserve">
     <value>Migrare de group {0} ({1}/{2})</value>
   </data>
   <data name="MigratingUserFiles" xml:space="preserve">
-    <value>Migrare fișiere utilizator {0} ({1}/{2})</value>
+    <value>Migrare fiÈ™iere utilizator {0} ({1}/{2})</value>
   </data>
   <data name="MigrationCommonFiles" xml:space="preserve">
-    <value>Migrare fișiere comune</value>
+    <value>Migrare fiÈ™iere comune</value>
   </data>
   <data name="MigrationCompleted" xml:space="preserve">
-    <value>Migrarea a fost finalizată</value>
+    <value>Migrarea a fost finalizatÄƒ</value>
   </data>
   <data name="MigrationProgressException" xml:space="preserve">
-    <value>Nicio migrare în desfășurare</value>
+    <value>Nicio migrare Ã®n desfÄƒÈ™urare</value>
   </data>
   <data name="MigrationProjectFiles" xml:space="preserve">
-    <value>Migrare fișiere de proiect</value>
+    <value>Migrare fiÈ™iere de proiect</value>
   </data>
   <data name="MigrationNotFoundException" xml:space="preserve">
-    <value>Nu există un astfel de furnizor de migrare</value>
+    <value>Nu existÄƒ un astfel de furnizor de migrare</value>
   </data>
   <data name="PreparingForMigration" xml:space="preserve">
-    <value>Pregătire pentru migrare</value>
+    <value>PregÄƒtire pentru migrare</value>
   </data>
   <data name="StartOfDataProcessing" xml:space="preserve">
     <value>Pornire procesare de date...</value>
@@ -157,22 +157,22 @@
     <value>Decomprimare...</value>
   </data>
   <data name="UnzippingFinished" xml:space="preserve">
-    <value>Decomprimarea finalizată...</value>
+    <value>Decomprimarea finalizatÄƒ...</value>
   </data>
   <data name="UserMigration" xml:space="preserve">
     <value>Migrarea calendarului de utilizator {0} ({1}/{2})</value>
   </data>
   <data name="CanNotAddUserInGroup" xml:space="preserve">
-    <value>Nu se poate adăuga utilizatorul {0} în acest grup {1}</value>
+    <value>Nu se poate adÄƒuga utilizatorul {0} Ã®n acest grup {1}</value>
   </data>
   <data name="CanNotCreateFile" xml:space="preserve">
-    <value>Nu se poate crea fișierul {0}</value>
+    <value>Nu se poate crea fiÈ™ierul {0}</value>
   </data>
   <data name="CanNotImportUser" xml:space="preserve">
     <value>Nu se poate importa utilizatorul</value>
   </data>
   <data name="CanNotImportUserFiles" xml:space="preserve">
-    <value>Nu se poate importa fișierele utilizatorului</value>
+    <value>Nu se poate importa fiÈ™ierele utilizatorului</value>
   </data>
   <data name="CanNotParseArchive" xml:space="preserve">
     <value>Nu se poate analiza arhiva {0}</value>
@@ -184,30 +184,30 @@
     <value>Nu se poate analiza utilizatorul {0}</value>
   </data>
   <data name="CanNotReadInfoFile" xml:space="preserve">
-    <value>Nu se poate citi fișierul informații din {0}</value>
+    <value>Nu se poate citi fiÈ™ierul informaÈ›ii din {0}</value>
   </data>
   <data name="CanNotShare" xml:space="preserve">
-    <value>Nu se poate partaja intrările de la {0} până la {1}</value>
+    <value>Nu se poate partaja intrÄƒrile de la {0} pÃ¢nÄƒ la {1}</value>
   </data>
   <data name="CanNotToUnzip" xml:space="preserve">
     <value>Nu se poate dezarhiva {0}</value>
   </data>
   <data name="CreateFile" xml:space="preserve">
-    <value>Creează fișierul {0}</value>
+    <value>CreeazÄƒ fiÈ™ierul {0}</value>
   </data>
   <data name="CreateFolder" xml:space="preserve">
-    <value>Creează folderul {0}</value>
+    <value>CreeazÄƒ folderul {0}</value>
   </data>
   <data name="CreateShareRoom" xml:space="preserve">
-    <value>creează sala partajată {0}</value>
+    <value>creeazÄƒ sala partajatÄƒ {0}</value>
   </data>
-  <data name="СanNotImportCommonFiles" xml:space="preserve">
-    <value>Nu se poate importa fișiere comune</value>
+  <data name="Ð¡anNotImportCommonFiles" xml:space="preserve">
+    <value>Nu se poate importa fiÈ™iere comune</value>
   </data>
-  <data name="СanNotImportProjectFiles" xml:space="preserve">
-    <value>Nu se poate importa fișiere de proiect</value>
+  <data name="Ð¡anNotImportProjectFiles" xml:space="preserve">
+    <value>Nu se poate importa fiÈ™iere de proiect</value>
   </data>
-  <data name="СreateRootFolder" xml:space="preserve">
-    <value>Creează folder rădăcină</value>
+  <data name="Ð¡reateRootFolder" xml:space="preserve">
+    <value>CreeazÄƒ folder rÄƒdÄƒcinÄƒ</value>
   </data>
 </root>

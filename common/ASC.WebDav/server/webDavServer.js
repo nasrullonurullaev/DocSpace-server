@@ -79,7 +79,7 @@ const server = new webdav.WebDAVServer(
 setInterval(function () {
     userManager.storeUser.deleteExpiredUsers((expiredUserIds) => {
         logMessage("server.deleteExpiredUsers", expiredUserIds);
-        server.fileSystems['/'].manageResource.structСache.deleteStructs(expiredUserIds);
+        server.fileSystems['/'].manageResource.structÐ¡ache.deleteStructs(expiredUserIds);
     })
 }, usersCleanupInterval);
 

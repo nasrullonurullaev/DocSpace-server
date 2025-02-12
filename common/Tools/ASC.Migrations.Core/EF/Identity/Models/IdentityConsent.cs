@@ -1,4 +1,4 @@
-﻿namespace ASC.Migrations.Core.Identity;
+namespace ASC.Migrations.Core.Identity;
 
 public class IdentityConsent
 {

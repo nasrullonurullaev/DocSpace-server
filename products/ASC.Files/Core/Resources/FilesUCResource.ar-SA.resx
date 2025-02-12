@@ -118,48 +118,48 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Archive" xml:space="preserve">
-    <value>أرشفة</value>
+    <value>Ø£Ø±Ø´ÙØ©</value>
   </data>
   <data name="CorporateFiles" xml:space="preserve">
-    <value>شائع</value>
+    <value>Ø´Ø§Ø¦Ø¹</value>
   </data>
   <data name="Favorites" xml:space="preserve">
-    <value>المفضلة</value>
+    <value>Ø§Ù„Ù…ÙØ¶Ù„Ø©</value>
   </data>
   <data name="FilesWillBeCompressedTarGz" xml:space="preserve">
-    <value>الملفات سيتم ضغطها في {0}.tar.gz ملف{1}</value>
+    <value>Ø§Ù„Ù…Ù„ÙØ§Øª Ø³ÙŠØªÙ… Ø¶ØºØ·Ù‡Ø§ ÙÙŠ {0}.tar.gz Ù…Ù„Ù{1}</value>
   </data>
   <data name="FilesWillBeCompressedZip" xml:space="preserve">
-    <value>الملفات سيتم ضغطها في {0}.zip ملف{1}</value>
+    <value>Ø§Ù„Ù…Ù„ÙØ§Øª Ø³ÙŠØªÙ… Ø¶ØºØ·Ù‡Ø§ ÙÙŠ {0}.zip Ù…Ù„Ù{1}</value>
   </data>
   <data name="MyFiles" xml:space="preserve">
-    <value>المستندات</value>
+    <value>Ø§Ù„Ù…Ø³ØªÙ†Ø¯Ø§Øª</value>
   </data>
   <data name="Personal" xml:space="preserve">
-    <value>شخصي</value>
+    <value>Ø´Ø®ØµÙŠ</value>
   </data>
   <data name="PrivacyRoom" xml:space="preserve">
-    <value>غرفة خاصة</value>
+    <value>ØºØ±ÙØ© Ø®Ø§ØµØ©</value>
   </data>
   <data name="ProjectFiles" xml:space="preserve">
-    <value>في المشاريع</value>
+    <value>ÙÙŠ Ø§Ù„Ù…Ø´Ø§Ø±ÙŠØ¹</value>
   </data>
   <data name="Recent" xml:space="preserve">
-    <value>مؤخراً</value>
+    <value>Ù…Ø¤Ø®Ø±Ø§Ù‹</value>
   </data>
   <data name="SharedForMe" xml:space="preserve">
-    <value>تمت مشاركتها معي</value>
+    <value>ØªÙ…Øª Ù…Ø´Ø§Ø±ÙƒØªÙ‡Ø§ Ù…Ø¹ÙŠ</value>
   </data>
   <data name="Trash" xml:space="preserve">
-    <value>محذوفات</value>
+    <value>Ù…Ø­Ø°ÙˆÙØ§Øª</value>
   </data>
   <data name="VirtualRooms" xml:space="preserve">
-    <value>غرف</value>
+    <value>ØºØ±Ù</value>
   </data>
   <data name="InProcessFormFolder" xml:space="preserve">
-    <value>قيد التنفيذ</value>
+    <value>Ù‚ÙŠØ¯ Ø§Ù„ØªÙ†ÙÙŠØ°</value>
   </data>
   <data name="ReadyFormFolder" xml:space="preserve">
-    <value>أكمل</value>
+    <value>Ø£ÙƒÙ…Ù„</value>
   </data>
 </root>

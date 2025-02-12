@@ -1,4 +1,4 @@
-﻿namespace net.openstack.Core.Synchronous
+namespace net.openstack.Core.Synchronous
 {
     using System.Runtime.CompilerServices;
 

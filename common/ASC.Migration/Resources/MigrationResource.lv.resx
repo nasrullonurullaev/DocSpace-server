@@ -118,79 +118,79 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="DataProcessing" xml:space="preserve">
-    <value>Notiek datu apstrāde...</value>
+    <value>Notiek datu apstrÄde...</value>
   </data>
   <data name="DataProcessingCompleted" xml:space="preserve">
-    <value>Datu apstrāde ir pabeigta</value>
+    <value>Datu apstrÄde ir pabeigta</value>
   </data>
   <data name="DumpParse" xml:space="preserve">
-    <value>Datubāzes parsēšana</value>
+    <value>DatubÄzes parsÄ“Å¡ana</value>
   </data>
   <data name="GroupMigration" xml:space="preserve">
-    <value>Grupas migrācija {0} ({1}/{2})</value>
+    <value>Grupas migrÄcija {0} ({1}/{2})</value>
   </data>
   <data name="MigratingUserFiles" xml:space="preserve">
-    <value>Notiek lietotāja failu migrēšana {0} ({1}/{2})</value>
+    <value>Notiek lietotÄja failu migrÄ“Å¡ana {0} ({1}/{2})</value>
   </data>
   <data name="MigrationCompleted" xml:space="preserve">
-    <value>Migrācija ir pabeigta</value>
+    <value>MigrÄcija ir pabeigta</value>
   </data>
   <data name="PreparingForMigration" xml:space="preserve">
-    <value>Notiek sagatavošanās migrācijai</value>
+    <value>Notiek sagatavoÅ¡anÄs migrÄcijai</value>
   </data>
   <data name="StartOfDataProcessing" xml:space="preserve">
-    <value>Notiek datu apstrādes sākšana...</value>
+    <value>Notiek datu apstrÄdes sÄkÅ¡ana...</value>
   </data>
   <data name="Unzipping" xml:space="preserve">
-    <value>Notiek atarhivēšana...</value>
+    <value>Notiek atarhivÄ“Å¡ana...</value>
   </data>
   <data name="UnzippingFinished" xml:space="preserve">
-    <value>Atspiešana ir pabeigta...</value>
+    <value>AtspieÅ¡ana ir pabeigta...</value>
   </data>
   <data name="UserMigration" xml:space="preserve">
-    <value>Lietotāja migrācija {0} ({1}/{2})</value>
+    <value>LietotÄja migrÄcija {0} ({1}/{2})</value>
   </data>
   <data name="MigrationCommonFiles" xml:space="preserve">
-    <value>Migrācijas kopīgie faili</value>
+    <value>MigrÄcijas kopÄ«gie faili</value>
   </data>
   <data name="MigrationNotFoundException" xml:space="preserve">
-    <value>Nav šāda migrācijas nodrošinātāja</value>
+    <value>Nav Å¡Äda migrÄcijas nodroÅ¡inÄtÄja</value>
   </data>
   <data name="MigrationProgressException" xml:space="preserve">
-    <value>Migrācija nenotiek</value>
+    <value>MigrÄcija nenotiek</value>
   </data>
   <data name="MigrationProjectFiles" xml:space="preserve">
-    <value>Migrācijas projektu faili</value>
+    <value>MigrÄcijas projektu faili</value>
   </data>
   <data name="CanNotAddUserInGroup" xml:space="preserve">
-    <value>Nevarēja pievienot lietotāju {0} grupai {1}</value>
+    <value>NevarÄ“ja pievienot lietotÄju {0} grupai {1}</value>
   </data>
   <data name="CanNotCreateFile" xml:space="preserve">
-    <value>Nevarēja izveidot failu {0}</value>
+    <value>NevarÄ“ja izveidot failu {0}</value>
   </data>
   <data name="CanNotImportUser" xml:space="preserve">
-    <value>Nevarēja importēt lietotāju</value>
+    <value>NevarÄ“ja importÄ“t lietotÄju</value>
   </data>
   <data name="CanNotImportUserFiles" xml:space="preserve">
-    <value>Nevarēja importēt lietotāja failus</value>
+    <value>NevarÄ“ja importÄ“t lietotÄja failus</value>
   </data>
   <data name="CanNotParseArchive" xml:space="preserve">
-    <value>Nevarēja parsēt {0} arhīvu</value>
+    <value>NevarÄ“ja parsÄ“t {0} arhÄ«vu</value>
   </data>
   <data name="CanNotParseArchives" xml:space="preserve">
-    <value>Neizdevās parsēt arhīvus</value>
+    <value>NeizdevÄs parsÄ“t arhÄ«vus</value>
   </data>
   <data name="CanNotParseUser" xml:space="preserve">
-    <value>Nevarēja parsēt lietotāju {0}</value>
+    <value>NevarÄ“ja parsÄ“t lietotÄju {0}</value>
   </data>
   <data name="CanNotReadInfoFile" xml:space="preserve">
-    <value>Nevarēja nolasīt informācijas failu no {0}</value>
+    <value>NevarÄ“ja nolasÄ«t informÄcijas failu no {0}</value>
   </data>
   <data name="CanNotShare" xml:space="preserve">
-    <value>Nevarēja kopīgot ierakstu {0} ar {1}</value>
+    <value>NevarÄ“ja kopÄ«got ierakstu {0} ar {1}</value>
   </data>
   <data name="CanNotToUnzip" xml:space="preserve">
-    <value>Nevarēja atarhivēt {0}</value>
+    <value>NevarÄ“ja atarhivÄ“t {0}</value>
   </data>
   <data name="CreateFile" xml:space="preserve">
     <value>Izveidot failu {0}</value>
@@ -201,13 +201,13 @@
   <data name="CreateShareRoom" xml:space="preserve">
     <value>izveidot koplietotu telpu {0}</value>
   </data>
-  <data name="СanNotImportCommonFiles" xml:space="preserve">
-    <value>Nevarēja importēt kopīgos failus</value>
+  <data name="Ð¡anNotImportCommonFiles" xml:space="preserve">
+    <value>NevarÄ“ja importÄ“t kopÄ«gos failus</value>
   </data>
-  <data name="СanNotImportProjectFiles" xml:space="preserve">
-    <value>Nevarēja importēt projekta failus</value>
+  <data name="Ð¡anNotImportProjectFiles" xml:space="preserve">
+    <value>NevarÄ“ja importÄ“t projekta failus</value>
   </data>
-  <data name="СreateRootFolder" xml:space="preserve">
+  <data name="Ð¡reateRootFolder" xml:space="preserve">
     <value>Izveidot saknes mapi</value>
   </data>
 </root>

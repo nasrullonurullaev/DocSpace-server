@@ -118,28 +118,28 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="DataProcessing" xml:space="preserve">
-    <value>Tietojen käsittely...</value>
+    <value>Tietojen kÃ¤sittely...</value>
   </data>
   <data name="DataProcessingCompleted" xml:space="preserve">
-    <value>Tietojen käsittely suoritettu</value>
+    <value>Tietojen kÃ¤sittely suoritettu</value>
   </data>
   <data name="DumpParse" xml:space="preserve">
-    <value>Tietokannan jäsennys</value>
+    <value>Tietokannan jÃ¤sennys</value>
   </data>
   <data name="GroupMigration" xml:space="preserve">
-    <value>Ryhmän siirto {0} ({1}/{2})</value>
+    <value>RyhmÃ¤n siirto {0} ({1}/{2})</value>
   </data>
   <data name="MigratingUserFiles" xml:space="preserve">
-    <value>Siirretään käyttäjätiedostoja {0} ({1}/{2})</value>
+    <value>SiirretÃ¤Ã¤n kÃ¤yttÃ¤jÃ¤tiedostoja {0} ({1}/{2})</value>
   </data>
   <data name="MigrationCompleted" xml:space="preserve">
-    <value>Siirtäminen suoritettu</value>
+    <value>SiirtÃ¤minen suoritettu</value>
   </data>
   <data name="PreparingForMigration" xml:space="preserve">
     <value>Valmistaudutaan siirtoon</value>
   </data>
   <data name="StartOfDataProcessing" xml:space="preserve">
-    <value>Aloitetaan tietojenkäsittelyä...</value>
+    <value>Aloitetaan tietojenkÃ¤sittelyÃ¤...</value>
   </data>
   <data name="Unzipping" xml:space="preserve">
     <value>Puretaan...</value>
@@ -148,46 +148,46 @@
     <value>Purkaminen suoritettu...</value>
   </data>
   <data name="UserMigration" xml:space="preserve">
-    <value>Käyttäjien siirto {0} ({1}/{2})</value>
+    <value>KÃ¤yttÃ¤jien siirto {0} ({1}/{2})</value>
   </data>
   <data name="MigrationCommonFiles" xml:space="preserve">
     <value>Yleisten tiedostojen siirto</value>
   </data>
   <data name="MigrationNotFoundException" xml:space="preserve">
-    <value>Annettua siirtopalveluntarjoajaa ei löydy</value>
+    <value>Annettua siirtopalveluntarjoajaa ei lÃ¶ydy</value>
   </data>
   <data name="MigrationProgressException" xml:space="preserve">
-    <value>Siirto ei ole käynnissä</value>
+    <value>Siirto ei ole kÃ¤ynnissÃ¤</value>
   </data>
   <data name="MigrationProjectFiles" xml:space="preserve">
     <value>Siirtoprojektitiedostot</value>
   </data>
   <data name="CanNotAddUserInGroup" xml:space="preserve">
-    <value>Käyttäjän {0} lisääminen ryhmään {1} ei onnistunut</value>
+    <value>KÃ¤yttÃ¤jÃ¤n {0} lisÃ¤Ã¤minen ryhmÃ¤Ã¤n {1} ei onnistunut</value>
   </data>
   <data name="CanNotCreateFile" xml:space="preserve">
     <value>Tiedoston {0} luonti ei onnistunut</value>
   </data>
   <data name="CanNotImportUser" xml:space="preserve">
-    <value>Käyttäjän tuonti ei onnistunut</value>
+    <value>KÃ¤yttÃ¤jÃ¤n tuonti ei onnistunut</value>
   </data>
   <data name="CanNotImportUserFiles" xml:space="preserve">
-    <value>Käyttäjätiedostojen tuonti ei onnistunut</value>
+    <value>KÃ¤yttÃ¤jÃ¤tiedostojen tuonti ei onnistunut</value>
   </data>
   <data name="CanNotParseArchive" xml:space="preserve">
-    <value>Arkiston {0} jäsennys ei onnistunut</value>
+    <value>Arkiston {0} jÃ¤sennys ei onnistunut</value>
   </data>
   <data name="CanNotParseArchives" xml:space="preserve">
-    <value>Arkistojen jäsennys ei onnistunut</value>
+    <value>Arkistojen jÃ¤sennys ei onnistunut</value>
   </data>
   <data name="CanNotParseUser" xml:space="preserve">
-    <value>Käyttäjän jäsennys ei onnistunut {0}</value>
+    <value>KÃ¤yttÃ¤jÃ¤n jÃ¤sennys ei onnistunut {0}</value>
   </data>
   <data name="CanNotReadInfoFile" xml:space="preserve">
     <value>Info-tiedoston luku {0}:sta ei onnistunut</value>
   </data>
   <data name="CanNotShare" xml:space="preserve">
-    <value>{0}:sta {1}:een pääsy ei onnistunut</value>
+    <value>{0}:sta {1}:een pÃ¤Ã¤sy ei onnistunut</value>
   </data>
   <data name="CanNotToUnzip" xml:space="preserve">
     <value>Purkaminen ei onnistunut {0}</value>
@@ -201,13 +201,13 @@
   <data name="CreateShareRoom" xml:space="preserve">
     <value>luo jaettu huone {0}</value>
   </data>
-  <data name="СanNotImportCommonFiles" xml:space="preserve">
+  <data name="Ð¡anNotImportCommonFiles" xml:space="preserve">
     <value>Yleisten tiedostojen tuonti ei onnistunut</value>
   </data>
-  <data name="СanNotImportProjectFiles" xml:space="preserve">
+  <data name="Ð¡anNotImportProjectFiles" xml:space="preserve">
     <value>Projektitiedostojen tuonti ei onnistunut</value>
   </data>
-  <data name="СreateRootFolder" xml:space="preserve">
+  <data name="Ð¡reateRootFolder" xml:space="preserve">
     <value>Luo juuritiedosto</value>
   </data>
 </root>

@@ -118,96 +118,96 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="DataProcessing" xml:space="preserve">
-    <value>Обработка на данни...</value>
+    <value>ÐžÐ±Ñ€Ð°Ð±Ð¾Ñ‚ÐºÐ° Ð½Ð° Ð´Ð°Ð½Ð½Ð¸...</value>
   </data>
   <data name="DataProcessingCompleted" xml:space="preserve">
-    <value>Обработката на данните е завършена</value>
+    <value>ÐžÐ±Ñ€Ð°Ð±Ð¾Ñ‚ÐºÐ°Ñ‚Ð° Ð½Ð° Ð´Ð°Ð½Ð½Ð¸Ñ‚Ðµ Ðµ Ð·Ð°Ð²ÑŠÑ€ÑˆÐµÐ½Ð°</value>
   </data>
   <data name="DumpParse" xml:space="preserve">
-    <value>Разбор на база данни</value>
+    <value>Ð Ð°Ð·Ð±Ð¾Ñ€ Ð½Ð° Ð±Ð°Ð·Ð° Ð´Ð°Ð½Ð½Ð¸</value>
   </data>
   <data name="GroupMigration" xml:space="preserve">
-    <value>Групова миграция {0} ({1}/{2})</value>
+    <value>Ð“Ñ€ÑƒÐ¿Ð¾Ð²Ð° Ð¼Ð¸Ð³Ñ€Ð°Ñ†Ð¸Ñ {0} ({1}/{2})</value>
   </data>
   <data name="MigratingUserFiles" xml:space="preserve">
-    <value>Мигриране на потребителски файлове {0} ({1}/{2})</value>
+    <value>ÐœÐ¸Ð³Ñ€Ð¸Ñ€Ð°Ð½Ðµ Ð½Ð° Ð¿Ð¾Ñ‚Ñ€ÐµÐ±Ð¸Ñ‚ÐµÐ»ÑÐºÐ¸ Ñ„Ð°Ð¹Ð»Ð¾Ð²Ðµ {0} ({1}/{2})</value>
   </data>
   <data name="MigrationCompleted" xml:space="preserve">
-    <value>Миграцията е завършена</value>
+    <value>ÐœÐ¸Ð³Ñ€Ð°Ñ†Ð¸ÑÑ‚Ð° Ðµ Ð·Ð°Ð²ÑŠÑ€ÑˆÐµÐ½Ð°</value>
   </data>
   <data name="PreparingForMigration" xml:space="preserve">
-    <value>Подготовка за миграция</value>
+    <value>ÐŸÐ¾Ð´Ð³Ð¾Ñ‚Ð¾Ð²ÐºÐ° Ð·Ð° Ð¼Ð¸Ð³Ñ€Ð°Ñ†Ð¸Ñ</value>
   </data>
   <data name="StartOfDataProcessing" xml:space="preserve">
-    <value>Обработката на данните започва...</value>
+    <value>ÐžÐ±Ñ€Ð°Ð±Ð¾Ñ‚ÐºÐ°Ñ‚Ð° Ð½Ð° Ð´Ð°Ð½Ð½Ð¸Ñ‚Ðµ Ð·Ð°Ð¿Ð¾Ñ‡Ð²Ð°...</value>
   </data>
   <data name="Unzipping" xml:space="preserve">
-    <value>Разархивиране...</value>
+    <value>Ð Ð°Ð·Ð°Ñ€Ñ…Ð¸Ð²Ð¸Ñ€Ð°Ð½Ðµ...</value>
   </data>
   <data name="UnzippingFinished" xml:space="preserve">
-    <value>Разархивирането завърши...</value>
+    <value>Ð Ð°Ð·Ð°Ñ€Ñ…Ð¸Ð²Ð¸Ñ€Ð°Ð½ÐµÑ‚Ð¾ Ð·Ð°Ð²ÑŠÑ€ÑˆÐ¸...</value>
   </data>
   <data name="UserMigration" xml:space="preserve">
-    <value>Мигриране на потребители {0} ({1}/{2})</value>
+    <value>ÐœÐ¸Ð³Ñ€Ð¸Ñ€Ð°Ð½Ðµ Ð½Ð° Ð¿Ð¾Ñ‚Ñ€ÐµÐ±Ð¸Ñ‚ÐµÐ»Ð¸ {0} ({1}/{2})</value>
   </data>
   <data name="MigrationCommonFiles" xml:space="preserve">
-    <value>Общи файлове за миграция</value>
+    <value>ÐžÐ±Ñ‰Ð¸ Ñ„Ð°Ð¹Ð»Ð¾Ð²Ðµ Ð·Ð° Ð¼Ð¸Ð³Ñ€Ð°Ñ†Ð¸Ñ</value>
   </data>
   <data name="MigrationNotFoundException" xml:space="preserve">
-    <value>Няма такъв доставчик на миграция</value>
+    <value>ÐÑÐ¼Ð° Ñ‚Ð°ÐºÑŠÐ² Ð´Ð¾ÑÑ‚Ð°Ð²Ñ‡Ð¸Ðº Ð½Ð° Ð¼Ð¸Ð³Ñ€Ð°Ñ†Ð¸Ñ</value>
   </data>
   <data name="MigrationProgressException" xml:space="preserve">
-    <value>Не се извършва миграция</value>
+    <value>ÐÐµ ÑÐµ Ð¸Ð·Ð²ÑŠÑ€ÑˆÐ²Ð° Ð¼Ð¸Ð³Ñ€Ð°Ñ†Ð¸Ñ</value>
   </data>
   <data name="MigrationProjectFiles" xml:space="preserve">
-    <value>Проектни файлове за миграция</value>
+    <value>ÐŸÑ€Ð¾ÐµÐºÑ‚Ð½Ð¸ Ñ„Ð°Ð¹Ð»Ð¾Ð²Ðµ Ð·Ð° Ð¼Ð¸Ð³Ñ€Ð°Ñ†Ð¸Ñ</value>
   </data>
   <data name="CanNotAddUserInGroup" xml:space="preserve">
-    <value>Не можахме да добавим потребител {0} към група {1}</value>
+    <value>ÐÐµ Ð¼Ð¾Ð¶Ð°Ñ…Ð¼Ðµ Ð´Ð° Ð´Ð¾Ð±Ð°Ð²Ð¸Ð¼ Ð¿Ð¾Ñ‚Ñ€ÐµÐ±Ð¸Ñ‚ÐµÐ» {0} ÐºÑŠÐ¼ Ð³Ñ€ÑƒÐ¿Ð° {1}</value>
   </data>
   <data name="CanNotCreateFile" xml:space="preserve">
-    <value>Не можахме да се създадем файл {0}</value>
+    <value>ÐÐµ Ð¼Ð¾Ð¶Ð°Ñ…Ð¼Ðµ Ð´Ð° ÑÐµ ÑÑŠÐ·Ð´Ð°Ð´ÐµÐ¼ Ñ„Ð°Ð¹Ð» {0}</value>
   </data>
   <data name="CanNotImportUser" xml:space="preserve">
-    <value>Не можахме да импортираме потребител</value>
+    <value>ÐÐµ Ð¼Ð¾Ð¶Ð°Ñ…Ð¼Ðµ Ð´Ð° Ð¸Ð¼Ð¿Ð¾Ñ€Ñ‚Ð¸Ñ€Ð°Ð¼Ðµ Ð¿Ð¾Ñ‚Ñ€ÐµÐ±Ð¸Ñ‚ÐµÐ»</value>
   </data>
   <data name="CanNotImportUserFiles" xml:space="preserve">
-    <value>Не можахме да импортираме потребителски файлове</value>
+    <value>ÐÐµ Ð¼Ð¾Ð¶Ð°Ñ…Ð¼Ðµ Ð´Ð° Ð¸Ð¼Ð¿Ð¾Ñ€Ñ‚Ð¸Ñ€Ð°Ð¼Ðµ Ð¿Ð¾Ñ‚Ñ€ÐµÐ±Ð¸Ñ‚ÐµÐ»ÑÐºÐ¸ Ñ„Ð°Ð¹Ð»Ð¾Ð²Ðµ</value>
   </data>
   <data name="CanNotParseArchive" xml:space="preserve">
-    <value>Не можахме да анализираме {0} архив</value>
+    <value>ÐÐµ Ð¼Ð¾Ð¶Ð°Ñ…Ð¼Ðµ Ð´Ð° Ð°Ð½Ð°Ð»Ð¸Ð·Ð¸Ñ€Ð°Ð¼Ðµ {0} Ð°Ñ€Ñ…Ð¸Ð²</value>
   </data>
   <data name="CanNotParseArchives" xml:space="preserve">
-    <value>Не можахме да анализираме архиви</value>
+    <value>ÐÐµ Ð¼Ð¾Ð¶Ð°Ñ…Ð¼Ðµ Ð´Ð° Ð°Ð½Ð°Ð»Ð¸Ð·Ð¸Ñ€Ð°Ð¼Ðµ Ð°Ñ€Ñ…Ð¸Ð²Ð¸</value>
   </data>
   <data name="CanNotParseUser" xml:space="preserve">
-    <value>Не можахме да анализираме потребител {0}</value>
+    <value>ÐÐµ Ð¼Ð¾Ð¶Ð°Ñ…Ð¼Ðµ Ð´Ð° Ð°Ð½Ð°Ð»Ð¸Ð·Ð¸Ñ€Ð°Ð¼Ðµ Ð¿Ð¾Ñ‚Ñ€ÐµÐ±Ð¸Ñ‚ÐµÐ» {0}</value>
   </data>
   <data name="CanNotReadInfoFile" xml:space="preserve">
-    <value>Не можахме да прочетем информационен файл от {0}</value>
+    <value>ÐÐµ Ð¼Ð¾Ð¶Ð°Ñ…Ð¼Ðµ Ð´Ð° Ð¿Ñ€Ð¾Ñ‡ÐµÑ‚ÐµÐ¼ Ð¸Ð½Ñ„Ð¾Ñ€Ð¼Ð°Ñ†Ð¸Ð¾Ð½ÐµÐ½ Ñ„Ð°Ð¹Ð» Ð¾Ñ‚ {0}</value>
   </data>
   <data name="CanNotShare" xml:space="preserve">
-    <value>Не можахме да споделим запис {0} до {1}</value>
+    <value>ÐÐµ Ð¼Ð¾Ð¶Ð°Ñ…Ð¼Ðµ Ð´Ð° ÑÐ¿Ð¾Ð´ÐµÐ»Ð¸Ð¼ Ð·Ð°Ð¿Ð¸Ñ {0} Ð´Ð¾ {1}</value>
   </data>
   <data name="CanNotToUnzip" xml:space="preserve">
-    <value>Не можахме да разархивираме {0}</value>
+    <value>ÐÐµ Ð¼Ð¾Ð¶Ð°Ñ…Ð¼Ðµ Ð´Ð° Ñ€Ð°Ð·Ð°Ñ€Ñ…Ð¸Ð²Ð¸Ñ€Ð°Ð¼Ðµ {0}</value>
   </data>
   <data name="CreateFile" xml:space="preserve">
-    <value>Създайте файл {0}</value>
+    <value>Ð¡ÑŠÐ·Ð´Ð°Ð¹Ñ‚Ðµ Ñ„Ð°Ð¹Ð» {0}</value>
   </data>
   <data name="CreateFolder" xml:space="preserve">
-    <value>Създайте папка {0}</value>
+    <value>Ð¡ÑŠÐ·Ð´Ð°Ð¹Ñ‚Ðµ Ð¿Ð°Ð¿ÐºÐ° {0}</value>
   </data>
   <data name="CreateShareRoom" xml:space="preserve">
-    <value>създайте споделена стая {0}</value>
+    <value>ÑÑŠÐ·Ð´Ð°Ð¹Ñ‚Ðµ ÑÐ¿Ð¾Ð´ÐµÐ»ÐµÐ½Ð° ÑÑ‚Ð°Ñ {0}</value>
   </data>
-  <data name="СreateRootFolder" xml:space="preserve">
-    <value>Създайте основна папка</value>
+  <data name="Ð¡reateRootFolder" xml:space="preserve">
+    <value>Ð¡ÑŠÐ·Ð´Ð°Ð¹Ñ‚Ðµ Ð¾ÑÐ½Ð¾Ð²Ð½Ð° Ð¿Ð°Ð¿ÐºÐ°</value>
   </data>
-  <data name="СanNotImportCommonFiles" xml:space="preserve">
-    <value>Не можахме да импортираме файлове на проекта</value>
+  <data name="Ð¡anNotImportCommonFiles" xml:space="preserve">
+    <value>ÐÐµ Ð¼Ð¾Ð¶Ð°Ñ…Ð¼Ðµ Ð´Ð° Ð¸Ð¼Ð¿Ð¾Ñ€Ñ‚Ð¸Ñ€Ð°Ð¼Ðµ Ñ„Ð°Ð¹Ð»Ð¾Ð²Ðµ Ð½Ð° Ð¿Ñ€Ð¾ÐµÐºÑ‚Ð°</value>
   </data>
-  <data name="СanNotImportProjectFiles" xml:space="preserve">
-    <value>Не можахме да импортираме файлове на проекта</value>
+  <data name="Ð¡anNotImportProjectFiles" xml:space="preserve">
+    <value>ÐÐµ Ð¼Ð¾Ð¶Ð°Ñ…Ð¼Ðµ Ð´Ð° Ð¸Ð¼Ð¿Ð¾Ñ€Ñ‚Ð¸Ñ€Ð°Ð¼Ðµ Ñ„Ð°Ð¹Ð»Ð¾Ð²Ðµ Ð½Ð° Ð¿Ñ€Ð¾ÐµÐºÑ‚Ð°</value>
   </data>
 </root>

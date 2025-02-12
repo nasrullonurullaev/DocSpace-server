@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using OpenStack.Compute.v2_1;
 using OpenStack.Synchronous.Extensions;
 

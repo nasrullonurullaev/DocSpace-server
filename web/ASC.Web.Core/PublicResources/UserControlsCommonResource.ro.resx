@@ -124,18 +124,18 @@
     <value>Prenume</value>
   </data>
   <data name="LicenseException" xml:space="preserve">
-    <value>Licență expirată sau cotă de utilizatori nu corespunde cotei prevăzute de licență</value>
+    <value>LicenÈ›Äƒ expiratÄƒ sau cotÄƒ de utilizatori nu corespunde cotei prevÄƒzute de licenÈ›Äƒ</value>
   </data>
   <data name="LicenseKeyNotCorrect" xml:space="preserve">
-    <value>Cheia de licența este nevalabilă</value>
+    <value>Cheia de licenÈ›a este nevalabilÄƒ</value>
   </data>
   <data name="TariffPerMonth" xml:space="preserve">
-    <value>lună</value>
+    <value>lunÄƒ</value>
   </data>
   <data name="NewDocument" xml:space="preserve">
     <value>Document nou</value>
   </data>
   <data name="LicenseKeyNotFound" xml:space="preserve">
-    <value>Trebuie introdusă o cheie de licență</value>
+    <value>Trebuie introdusÄƒ o cheie de licenÈ›Äƒ</value>
   </data>
 </root>

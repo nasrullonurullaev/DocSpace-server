@@ -171,7 +171,7 @@ public abstract class BaseIndexer<T>(Client client,
                     .Settings(r => r.Analysis(a =>
                                     a.Analyzers(analyzers)
                                     .CharFilters(d => d.HtmlStrip(CharFilter.html.ToStringFast())
-                                    .Mapping(CharFilter.io.ToStringFast(), m => m.Mappings("ё => е", "Ё => Е"))))));
+                                    .Mapping(CharFilter.io.ToStringFast(), m => m.Mappings("Ñ‘ => Ðµ", "Ð => Ð•"))))));
 
                 _isExist = true;
             }

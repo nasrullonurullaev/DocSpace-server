@@ -201,13 +201,13 @@
   <data name="CreateShareRoom" xml:space="preserve">
     <value>maak gedeelde kamer {0}</value>
   </data>
-  <data name="СanNotImportCommonFiles" xml:space="preserve">
+  <data name="Ð¡anNotImportCommonFiles" xml:space="preserve">
     <value>Kon algemene bestanden niet importeren</value>
   </data>
-  <data name="СanNotImportProjectFiles" xml:space="preserve">
+  <data name="Ð¡anNotImportProjectFiles" xml:space="preserve">
     <value>Kan projectbestanden niet importeren</value>
   </data>
-  <data name="СreateRootFolder" xml:space="preserve">
+  <data name="Ð¡reateRootFolder" xml:space="preserve">
     <value>Hoofdmap aanmaken</value>
   </data>
 </root>

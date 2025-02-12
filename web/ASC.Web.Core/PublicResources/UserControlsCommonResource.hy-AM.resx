@@ -118,24 +118,24 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="LicenseException" xml:space="preserve">
-    <value>Լիցենզիայի ժամկետը սպառվել է կամ օգտագործողի քվոտան չի համընկնում լիցենզիայի հետ</value>
+    <value>Ô¼Õ«ÖÕ¥Õ¶Õ¦Õ«Õ¡ÕµÕ« ÕªÕ¡Õ´Õ¯Õ¥Õ¿Õ¨ Õ½ÕºÕ¡Õ¼Õ¾Õ¥Õ¬ Õ§ Õ¯Õ¡Õ´ Ö…Õ£Õ¿Õ¡Õ£Õ¸Ö€Õ®Õ¸Õ²Õ« Ö„Õ¾Õ¸Õ¿Õ¡Õ¶ Õ¹Õ« Õ°Õ¡Õ´Õ¨Õ¶Õ¯Õ¶Õ¸Ö‚Õ´ Õ¬Õ«ÖÕ¥Õ¶Õ¦Õ«Õ¡ÕµÕ« Õ°Õ¥Õ¿</value>
   </data>
   <data name="LicenseKeyNotCorrect" xml:space="preserve">
-    <value>Լիցենզիայի բանալին ճիշտ չէ</value>
+    <value>Ô¼Õ«ÖÕ¥Õ¶Õ¦Õ«Õ¡ÕµÕ« Õ¢Õ¡Õ¶Õ¡Õ¬Õ«Õ¶ Õ³Õ«Õ·Õ¿ Õ¹Õ§</value>
   </data>
   <data name="LicenseKeyNotFound" xml:space="preserve">
-    <value>Դուք պետք է մուտքագրեք լիցենզիայի բանալի</value>
+    <value>Ô´Õ¸Ö‚Ö„ ÕºÕ¥Õ¿Ö„ Õ§ Õ´Õ¸Ö‚Õ¿Ö„Õ¡Õ£Ö€Õ¥Ö„ Õ¬Õ«ÖÕ¥Õ¶Õ¦Õ«Õ¡ÕµÕ« Õ¢Õ¡Õ¶Õ¡Õ¬Õ«</value>
   </data>
   <data name="NewDocument" xml:space="preserve">
-    <value>Նոր փաստաթուղթ</value>
+    <value>Õ†Õ¸Ö€ ÖƒÕ¡Õ½Õ¿Õ¡Õ©Õ¸Ö‚Õ²Õ©</value>
   </data>
   <data name="TariffPerMonth" xml:space="preserve">
-    <value>ամիս</value>
+    <value>Õ¡Õ´Õ«Õ½</value>
   </data>
   <data name="UnknownFirstName" xml:space="preserve">
-    <value>Անուն</value>
+    <value>Ô±Õ¶Õ¸Ö‚Õ¶</value>
   </data>
   <data name="UnknownLastName" xml:space="preserve">
-    <value>Ազգանուն</value>
+    <value>Ô±Õ¦Õ£Õ¡Õ¶Õ¸Ö‚Õ¶</value>
   </data>
 </root>

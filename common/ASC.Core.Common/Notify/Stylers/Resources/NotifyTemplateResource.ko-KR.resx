@@ -162,19 +162,19 @@
             &lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr border="0" cellspacing="0" cellpadding="0"&gt;
-            &lt;td style="vertical-align: top; margin: 0; padding: 0; width: 210px; height: 16px; background: #f6f6f6;"&gt;기술적 도움이 필요하신가요?&lt;/td&gt;
-            &lt;td style="vertical-align: top; margin: 0; padding: 0; width: 180px; height: 16px; background: #f6f6f6;"&gt;영업 관련 질문&lt;/td&gt;
-            &lt;td style="vertical-align: top; margin: 0; padding: 0; width: 210px; height: 16px; background: #f6f6f6;"&gt;데모 주문&lt;/td&gt;
+            &lt;td style="vertical-align: top; margin: 0; padding: 0; width: 210px; height: 16px; background: #f6f6f6;"&gt;ê¸°ìˆ ì  ë„ì›€ì´ í•„ìš”í•˜ì‹ ê°€ìš”?&lt;/td&gt;
+            &lt;td style="vertical-align: top; margin: 0; padding: 0; width: 180px; height: 16px; background: #f6f6f6;"&gt;ì˜ì—… ê´€ë ¨ ì§ˆë¬¸&lt;/td&gt;
+            &lt;td style="vertical-align: top; margin: 0; padding: 0; width: 210px; height: 16px; background: #f6f6f6;"&gt;ë°ëª¨ ì£¼ë¬¸&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr border="0" cellspacing="0" cellpadding="0"&gt;
             &lt;td style="vertical-align: top; margin: 0; padding: 0 0 30px; width: 210px; background: #f6f6f6;-moz-border-radius-bottomleft: 6px; -webkit-border-bottom-left-radius: 6px; border-bottom-left-radius: 6px;"&gt;
-              &lt;a href="%SUPPORTURL%" target="_blank" style="color: #333;"&gt;질문 전송&lt;/a&gt;
+              &lt;a href="%SUPPORTURL%" target="_blank" style="color: #333;"&gt;ì§ˆë¬¸ ì „ì†¡&lt;/a&gt;
             &lt;/td&gt;
             &lt;td style="vertical-align: top; margin: 0; padding: 0 0 30px; width: 180px; background: #f6f6f6;"&gt;
-              &lt;a href="mailto:%SALESEMAIL%" style="color: #333;"&gt;이메일 문의&lt;/a&gt;
+              &lt;a href="mailto:%SALESEMAIL%" style="color: #333;"&gt;ì´ë©”ì¼ ë¬¸ì˜&lt;/a&gt;
             &lt;/td&gt;
             &lt;td style="vertical-align: top; margin: 0; padding: 0 0 30px; width: 210px; background: #f6f6f6;-moz-border-radius-bottomright: 6px; -webkit-border-bottom-right-radius: 6px; border-bottom-right-radius: 6px;"&gt;
-              &lt;a href="%DEMOURL%" target="_blank" style="color: #333;"&gt;요청 전송&lt;/a&gt;
+              &lt;a href="%DEMOURL%" target="_blank" style="color: #333;"&gt;ìš”ì²­ ì „ì†¡&lt;/a&gt;
             &lt;/td&gt;
         &lt;/tr&gt;</value>
   </data>
@@ -192,35 +192,35 @@
             &lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr border="0" cellspacing="0" cellpadding="0"&gt;
-            &lt;td style="vertical-align: top; margin: 0; padding: 0; width: 210px; height: 16px; background: #f6f6f6;"&gt;기술적 도움이 필요하신가요?&lt;/td&gt;
-            &lt;td style="vertical-align: top; margin: 0; padding: 0; width: 180px; height: 16px; background: #f6f6f6;"&gt;영업 관련 질문&lt;/td&gt;
-            &lt;td style="vertical-align: top; margin: 0; padding: 0; width: 210px; height: 16px; background: #f6f6f6;"&gt;데모 주문&lt;/td&gt;
+            &lt;td style="vertical-align: top; margin: 0; padding: 0; width: 210px; height: 16px; background: #f6f6f6;"&gt;ê¸°ìˆ ì  ë„ì›€ì´ í•„ìš”í•˜ì‹ ê°€ìš”?&lt;/td&gt;
+            &lt;td style="vertical-align: top; margin: 0; padding: 0; width: 180px; height: 16px; background: #f6f6f6;"&gt;ì˜ì—… ê´€ë ¨ ì§ˆë¬¸&lt;/td&gt;
+            &lt;td style="vertical-align: top; margin: 0; padding: 0; width: 210px; height: 16px; background: #f6f6f6;"&gt;ë°ëª¨ ì£¼ë¬¸&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr border="0" cellspacing="0" cellpadding="0"&gt;
             &lt;td style="vertical-align: top; margin: 0; padding: 0 0 30px; width: 210px; background: #f6f6f6;-moz-border-radius-bottomleft: 6px; -webkit-border-bottom-left-radius: 6px; border-bottom-left-radius: 6px;"&gt;
-              &lt;a href="http://dev.onlyoffice.org/" target="_blank" style="color: #333;"&gt;커뮤니티에 문의&lt;/a&gt;
+              &lt;a href="http://dev.onlyoffice.org/" target="_blank" style="color: #333;"&gt;ì»¤ë®¤ë‹ˆí‹°ì— ë¬¸ì˜&lt;/a&gt;
             &lt;/td&gt;
             &lt;td style="vertical-align: top; margin: 0; padding: 0 0 30px; width: 180px; background: #f6f6f6;"&gt;
-              &lt;a href="mailto:sales@onlyoffice.com" style="color: #333;"&gt;이메일 문의&lt;/a&gt;
+              &lt;a href="mailto:sales@onlyoffice.com" style="color: #333;"&gt;ì´ë©”ì¼ ë¬¸ì˜&lt;/a&gt;
             &lt;/td&gt;
             &lt;td style="vertical-align: top; margin: 0; padding: 0 0 30px; width: 210px; background: #f6f6f6;-moz-border-radius-bottomright: 6px; -webkit-border-bottom-right-radius: 6px; border-bottom-right-radius: 6px;"&gt;
-              &lt;a href="https://www.onlyoffice.com/demo-order.aspx" target="_blank" style="color: #333;"&gt;요청 전송&lt;/a&gt;
+              &lt;a href="https://www.onlyoffice.com/demo-order.aspx" target="_blank" style="color: #333;"&gt;ìš”ì²­ ì „ì†¡&lt;/a&gt;
             &lt;/td&gt;
         &lt;/tr&gt;</value>
   </data>
   <data name="TextForFooterUnsubsribe" xml:space="preserve">
     <value>&lt;tr border="0" cellspacing="0" cellpadding="0"&gt;
     &lt;td class="fol" style="color: #666666; font-family: 'Open Sans', Helvetica, Arial, Tahoma, sans-serif; font-size: 13px; line-height: 20px; margin: 0; padding: 40px 0 8px; vertical-align: top;"&gt;
-        구매에 관한 질문이 있는 경우 &lt;a style="color: #FF6F3D; text-decoration: underline;" target="_blank" href="mailto:%SALESEMAIL%"&gt;%SALESEMAIL%&lt;/a&gt;으로 이메일을 보내주세요.
+        êµ¬ë§¤ì— ê´€í•œ ì§ˆë¬¸ì´ ìžˆëŠ” ê²½ìš° &lt;a style="color: #FF6F3D; text-decoration: underline;" target="_blank" href="mailto:%SALESEMAIL%"&gt;%SALESEMAIL%&lt;/a&gt;ìœ¼ë¡œ ì´ë©”ì¼ì„ ë³´ë‚´ì£¼ì„¸ìš”.
     &lt;/td&gt;
 &lt;tr border="0" cellspacing="0" cellpadding="0"&gt;
     &lt;td class="fol" style="color: #666666; font-family: 'Open Sans', Helvetica, Arial, Tahoma, sans-serif; font-size: 13px; line-height: 20px; margin: 0; padding: 0; vertical-align: top;"&gt;
-        기술적인 문제가 발생한 경우 &lt;a style="color: #FF6F3D; text-decoration: underline;" target="_blank" href="%SUPPORTURL%"&gt;지원팀&lt;/a&gt; 에 문의하세요.
+        ê¸°ìˆ ì ì¸ ë¬¸ì œê°€ ë°œìƒí•œ ê²½ìš° &lt;a style="color: #FF6F3D; text-decoration: underline;" target="_blank" href="%SUPPORTURL%"&gt;ì§€ì›íŒ€&lt;/a&gt; ì— ë¬¸ì˜í•˜ì„¸ìš”.
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr border="0" cellspacing="0" cellpadding="0"&gt;
     &lt;td class="fol" style="font-family: 'Open Sans', Helvetica, Arial, Tahoma, sans-serif; font-size: 13px; line-height: 20px; margin: 0; padding: 8px 0 0; vertical-align: top;"&gt;
-        &lt;a href="{1}" style="color: #FF6F3D; text-decoration: underline; white-space: nowrap;" target="_blank"&gt;구독을 취소하려면 여기를 클릭하세요&lt;/a&gt;
+        &lt;a href="{1}" style="color: #FF6F3D; text-decoration: underline; white-space: nowrap;" target="_blank"&gt;êµ¬ë…ì„ ì·¨ì†Œí•˜ë ¤ë©´ ì—¬ê¸°ë¥¼ í´ë¦­í•˜ì„¸ìš”&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;</value>
   </data>

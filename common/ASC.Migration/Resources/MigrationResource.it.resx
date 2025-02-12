@@ -130,7 +130,7 @@
     <value>Migrazione gruppo {0} ({1}/{2})</value>
   </data>
   <data name="MigratingUserFiles" xml:space="preserve">
-    <value>Migrazione dei file dell’utente {0} ({1}/{2})</value>
+    <value>Migrazione dei file dellâ€™utente {0} ({1}/{2})</value>
   </data>
   <data name="MigrationCompleted" xml:space="preserve">
     <value>Migrazione completata</value>
@@ -157,7 +157,7 @@
     <value>Nessun fornitore di migrazione di questo tipo</value>
   </data>
   <data name="MigrationProgressException" xml:space="preserve">
-    <value>Non è in corso alcuna migrazione</value>
+    <value>Non Ã¨ in corso alcuna migrazione</value>
   </data>
   <data name="MigrationProjectFiles" xml:space="preserve">
     <value>File di progetto di migrazione</value>
@@ -172,7 +172,7 @@
     <value>Impossibile importare l'utente</value>
   </data>
   <data name="CanNotImportUserFiles" xml:space="preserve">
-    <value>Impossibile importare i file dell’utente</value>
+    <value>Impossibile importare i file dellâ€™utente</value>
   </data>
   <data name="CanNotParseArchive" xml:space="preserve">
     <value>Impossibile analizzare l'archivio {0}</value>
@@ -198,13 +198,13 @@
   <data name="CreateShareRoom" xml:space="preserve">
     <value>crea stanza condivisa {0}</value>
   </data>
-  <data name="СanNotImportCommonFiles" xml:space="preserve">
+  <data name="Ð¡anNotImportCommonFiles" xml:space="preserve">
     <value>Impossibile importare file comuni</value>
   </data>
-  <data name="СanNotImportProjectFiles" xml:space="preserve">
+  <data name="Ð¡anNotImportProjectFiles" xml:space="preserve">
     <value>Impossibile importare i file di progetto</value>
   </data>
-  <data name="СreateRootFolder" xml:space="preserve">
+  <data name="Ð¡reateRootFolder" xml:space="preserve">
     <value>Crea la cartella principale</value>
   </data>
   <data name="CanNotShare" xml:space="preserve">

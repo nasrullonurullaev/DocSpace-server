@@ -39,13 +39,13 @@ public static class StringExtension
     }
 
     /// <summary>
-    /// Replace ' on ′
+    /// Replace ' on â€²
     /// </summary>
     /// <param name="str"></param>
     /// <returns></returns>
     public static string ReplaceSingleQuote(this string str)
     {
-        return str?.Replace('\'', '′');
+        return str?.Replace('\'', 'â€²');
     }
 
     public static bool TestEmailRegex(this string emailAddress)

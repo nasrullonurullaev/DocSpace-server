@@ -118,6 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="EmailNotSpecified" xml:space="preserve">
-    <value>이메일이 지정되지 않았습니다</value>
+    <value>ì´ë©”ì¼ì´ ì§€ì •ë˜ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤</value>
   </data>
 </root>

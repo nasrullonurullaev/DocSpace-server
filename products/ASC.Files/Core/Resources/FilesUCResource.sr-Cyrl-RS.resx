@@ -118,48 +118,48 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Archive" xml:space="preserve">
-    <value>Архива</value>
+    <value>ÐÑ€Ñ…Ð¸Ð²Ð°</value>
   </data>
   <data name="CorporateFiles" xml:space="preserve">
-    <value>Заједничко</value>
+    <value>Ð—Ð°Ñ˜ÐµÐ´Ð½Ð¸Ñ‡ÐºÐ¾</value>
   </data>
   <data name="Favorites" xml:space="preserve">
-    <value>Омиљено</value>
+    <value>ÐžÐ¼Ð¸Ñ™ÐµÐ½Ð¾</value>
   </data>
   <data name="FilesWillBeCompressedTarGz" xml:space="preserve">
-    <value>Датотеке ће бити компресоване у {0}.tar.gz датотеку {1}</value>
+    <value>Ð”Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐµ Ñ›Ðµ Ð±Ð¸Ñ‚Ð¸ ÐºÐ¾Ð¼Ð¿Ñ€ÐµÑÐ¾Ð²Ð°Ð½Ðµ Ñƒ {0}.tar.gz Ð´Ð°Ñ‚Ð¾Ñ‚ÐµÐºÑƒ {1}</value>
   </data>
   <data name="FilesWillBeCompressedZip" xml:space="preserve">
-    <value>Датотеке ће бити компресоване у {0}.zip датотеку {1}</value>
+    <value>Ð”Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐµ Ñ›Ðµ Ð±Ð¸Ñ‚Ð¸ ÐºÐ¾Ð¼Ð¿Ñ€ÐµÑÐ¾Ð²Ð°Ð½Ðµ Ñƒ {0}.zip Ð´Ð°Ñ‚Ð¾Ñ‚ÐµÐºÑƒ {1}</value>
   </data>
   <data name="InProcessFormFolder" xml:space="preserve">
-    <value>У процесу</value>
+    <value>Ð£ Ð¿Ñ€Ð¾Ñ†ÐµÑÑƒ</value>
   </data>
   <data name="MyFiles" xml:space="preserve">
-    <value>Документи</value>
+    <value>Ð”Ð¾ÐºÑƒÐ¼ÐµÐ½Ñ‚Ð¸</value>
   </data>
   <data name="Personal" xml:space="preserve">
-    <value>Лично</value>
+    <value>Ð›Ð¸Ñ‡Ð½Ð¾</value>
   </data>
   <data name="PrivacyRoom" xml:space="preserve">
-    <value>Приватна соба</value>
+    <value>ÐŸÑ€Ð¸Ð²Ð°Ñ‚Ð½Ð° ÑÐ¾Ð±Ð°</value>
   </data>
   <data name="ProjectFiles" xml:space="preserve">
-    <value>У пројектима</value>
+    <value>Ð£ Ð¿Ñ€Ð¾Ñ˜ÐµÐºÑ‚Ð¸Ð¼Ð°</value>
   </data>
   <data name="Recent" xml:space="preserve">
-    <value>Скорашње</value>
+    <value>Ð¡ÐºÐ¾Ñ€Ð°ÑˆÑšÐµ</value>
   </data>
   <data name="SharedForMe" xml:space="preserve">
-    <value>Дељено са мном</value>
+    <value>Ð”ÐµÑ™ÐµÐ½Ð¾ ÑÐ° Ð¼Ð½Ð¾Ð¼</value>
   </data>
   <data name="Trash" xml:space="preserve">
-    <value>Отпад</value>
+    <value>ÐžÑ‚Ð¿Ð°Ð´</value>
   </data>
   <data name="VirtualRooms" xml:space="preserve">
-    <value>Собе</value>
+    <value>Ð¡Ð¾Ð±Ðµ</value>
   </data>
   <data name="ReadyFormFolder" xml:space="preserve">
-    <value>Спремно</value>
+    <value>Ð¡Ð¿Ñ€ÐµÐ¼Ð½Ð¾</value>
   </data>
 </root>

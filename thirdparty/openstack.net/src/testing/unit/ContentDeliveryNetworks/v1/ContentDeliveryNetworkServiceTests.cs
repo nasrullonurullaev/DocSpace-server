@@ -1,4 +1,4 @@
-﻿using Flurl.Http.Testing;
+using Flurl.Http.Testing;
 using OpenStack.Synchronous;
 using Xunit;
 using HttpTest = OpenStack.Testing.HttpTest;

@@ -118,24 +118,24 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="LicenseException" xml:space="preserve">
-    <value>Лиценца истекла или се корисничка квота не поклапа са лиценцом</value>
+    <value>Ð›Ð¸Ñ†ÐµÐ½Ñ†Ð° Ð¸ÑÑ‚ÐµÐºÐ»Ð° Ð¸Ð»Ð¸ ÑÐµ ÐºÐ¾Ñ€Ð¸ÑÐ½Ð¸Ñ‡ÐºÐ° ÐºÐ²Ð¾Ñ‚Ð° Ð½Ðµ Ð¿Ð¾ÐºÐ»Ð°Ð¿Ð° ÑÐ° Ð»Ð¸Ñ†ÐµÐ½Ñ†Ð¾Ð¼</value>
   </data>
   <data name="LicenseKeyNotCorrect" xml:space="preserve">
-    <value>Кључ лиценце није исправан</value>
+    <value>ÐšÑ™ÑƒÑ‡ Ð»Ð¸Ñ†ÐµÐ½Ñ†Ðµ Ð½Ð¸Ñ˜Ðµ Ð¸ÑÐ¿Ñ€Ð°Ð²Ð°Ð½</value>
   </data>
   <data name="LicenseKeyNotFound" xml:space="preserve">
-    <value>Морате унети кључ лиценце</value>
+    <value>ÐœÐ¾Ñ€Ð°Ñ‚Ðµ ÑƒÐ½ÐµÑ‚Ð¸ ÐºÑ™ÑƒÑ‡ Ð»Ð¸Ñ†ÐµÐ½Ñ†Ðµ</value>
   </data>
   <data name="NewDocument" xml:space="preserve">
-    <value>Нови документ</value>
+    <value>ÐÐ¾Ð²Ð¸ Ð´Ð¾ÐºÑƒÐ¼ÐµÐ½Ñ‚</value>
   </data>
   <data name="TariffPerMonth" xml:space="preserve">
-    <value>месец</value>
+    <value>Ð¼ÐµÑÐµÑ†</value>
   </data>
   <data name="UnknownFirstName" xml:space="preserve">
-    <value>Име</value>
+    <value>Ð˜Ð¼Ðµ</value>
   </data>
   <data name="UnknownLastName" xml:space="preserve">
-    <value>Презиме</value>
+    <value>ÐŸÑ€ÐµÐ·Ð¸Ð¼Ðµ</value>
   </data>
 </root>

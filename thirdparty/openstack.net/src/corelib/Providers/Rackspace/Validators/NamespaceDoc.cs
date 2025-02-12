@@ -1,4 +1,4 @@
-﻿namespace net.openstack.Providers.Rackspace.Validators
+namespace net.openstack.Providers.Rackspace.Validators
 {
     using System.Runtime.CompilerServices;
 

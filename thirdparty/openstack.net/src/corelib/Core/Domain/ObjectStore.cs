@@ -1,4 +1,4 @@
-﻿namespace net.openstack.Core.Domain
+namespace net.openstack.Core.Domain
 {
     using net.openstack.Core.Providers;
 

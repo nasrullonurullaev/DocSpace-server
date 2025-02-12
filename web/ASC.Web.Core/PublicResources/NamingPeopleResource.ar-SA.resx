@@ -118,102 +118,102 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="CommonAddUsers" xml:space="preserve">
-    <value>إضافة مستخدم</value>
+    <value>Ø¥Ø¶Ø§ÙØ© Ù…Ø³ØªØ®Ø¯Ù…</value>
   </data>
   <data name="CommonGroup" xml:space="preserve">
-    <value>مجموعة</value>
+    <value>Ù…Ø¬Ù…ÙˆØ¹Ø©</value>
   </data>
   <data name="CommonGroupHead" xml:space="preserve">
-    <value>مسئول</value>
+    <value>Ù…Ø³Ø¦ÙˆÙ„</value>
   </data>
   <data name="CommonGroups" xml:space="preserve">
-    <value>المجموعات</value>
+    <value>Ø§Ù„Ù…Ø¬Ù…ÙˆØ¹Ø§Øª</value>
   </data>
   <data name="CommonGuest" xml:space="preserve">
-    <value>ضيف</value>
+    <value>Ø¶ÙŠÙ</value>
   </data>
   <data name="CommonGuests" xml:space="preserve">
-    <value>ضيوف</value>
+    <value>Ø¶ÙŠÙˆÙ</value>
   </data>
   <data name="CommonRegDate" xml:space="preserve">
-    <value>تاريخ التسجيل</value>
+    <value>ØªØ§Ø±ÙŠØ® Ø§Ù„ØªØ³Ø¬ÙŠÙ„</value>
   </data>
   <data name="CommonSchemaName" xml:space="preserve">
-    <value>شائع</value>
+    <value>Ø´Ø§Ø¦Ø¹</value>
   </data>
   <data name="CommonUser" xml:space="preserve">
-    <value>مستخدم</value>
+    <value>Ù…Ø³ØªØ®Ø¯Ù…</value>
   </data>
   <data name="CommonUsers" xml:space="preserve">
-    <value>مستخدمين</value>
+    <value>Ù…Ø³ØªØ®Ø¯Ù…ÙŠÙ†</value>
   </data>
   <data name="CommonUserTitle" xml:space="preserve">
-    <value>اللقب</value>
+    <value>Ø§Ù„Ù„Ù‚Ø¨</value>
   </data>
   <data name="DefaultAddUsers" xml:space="preserve">
-    <value>إضافة موظفين</value>
+    <value>Ø¥Ø¶Ø§ÙØ© Ù…ÙˆØ¸ÙÙŠÙ†</value>
   </data>
   <data name="DefaultGroup" xml:space="preserve">
-    <value>قسم</value>
+    <value>Ù‚Ø³Ù…</value>
   </data>
   <data name="DefaultGroupHead" xml:space="preserve">
-    <value>مسئول</value>
+    <value>Ù…Ø³Ø¦ÙˆÙ„</value>
   </data>
   <data name="DefaultGroups" xml:space="preserve">
-    <value>أقسام</value>
+    <value>Ø£Ù‚Ø³Ø§Ù…</value>
   </data>
   <data name="DefaultGuest" xml:space="preserve">
-    <value>ضيف</value>
+    <value>Ø¶ÙŠÙ</value>
   </data>
   <data name="DefaultGuests" xml:space="preserve">
-    <value>ضيوف</value>
+    <value>Ø¶ÙŠÙˆÙ</value>
   </data>
   <data name="DefaultRegDate" xml:space="preserve">
-    <value>تاريخ بداية التوظيف</value>
+    <value>ØªØ§Ø±ÙŠØ® Ø¨Ø¯Ø§ÙŠØ© Ø§Ù„ØªÙˆØ¸ÙŠÙ</value>
   </data>
   <data name="DefaultSchemaName" xml:space="preserve">
-    <value>اسم الشركة</value>
+    <value>Ø§Ø³Ù… Ø§Ù„Ø´Ø±ÙƒØ©</value>
   </data>
   <data name="DefaultUser" xml:space="preserve">
-    <value>الموظف</value>
+    <value>Ø§Ù„Ù…ÙˆØ¸Ù</value>
   </data>
   <data name="DefaultUsers" xml:space="preserve">
-    <value>الموظفين</value>
+    <value>Ø§Ù„Ù…ÙˆØ¸ÙÙŠÙ†</value>
   </data>
   <data name="DefaultUserTitle" xml:space="preserve">
-    <value>المنصب</value>
+    <value>Ø§Ù„Ù…Ù†ØµØ¨</value>
   </data>
   <data name="EducationAddUsers" xml:space="preserve">
-    <value>إضافة معلم/طالب</value>
+    <value>Ø¥Ø¶Ø§ÙØ© Ù…Ø¹Ù„Ù…/Ø·Ø§Ù„Ø¨</value>
   </data>
   <data name="EducationGroup" xml:space="preserve">
-    <value>مجموعة</value>
+    <value>Ù…Ø¬Ù…ÙˆØ¹Ø©</value>
   </data>
   <data name="EducationGroupHead" xml:space="preserve">
-    <value>مسئول المجموعة</value>
+    <value>Ù…Ø³Ø¦ÙˆÙ„ Ø§Ù„Ù…Ø¬Ù…ÙˆØ¹Ø©</value>
   </data>
   <data name="EducationGroups" xml:space="preserve">
-    <value>المجموعات</value>
+    <value>Ø§Ù„Ù…Ø¬Ù…ÙˆØ¹Ø§Øª</value>
   </data>
   <data name="EducationGuest" xml:space="preserve">
-    <value>ضيف</value>
+    <value>Ø¶ÙŠÙ</value>
   </data>
   <data name="EducationGuests" xml:space="preserve">
-    <value>ضيوف</value>
+    <value>Ø¶ÙŠÙˆÙ</value>
   </data>
   <data name="EducationRegDate" xml:space="preserve">
-    <value>تاريخ التسجيل</value>
+    <value>ØªØ§Ø±ÙŠØ® Ø§Ù„ØªØ³Ø¬ÙŠÙ„</value>
   </data>
   <data name="EducationSchemaName" xml:space="preserve">
-    <value>المؤسسة التعليمية</value>
+    <value>Ø§Ù„Ù…Ø¤Ø³Ø³Ø© Ø§Ù„ØªØ¹Ù„ÙŠÙ…ÙŠØ©</value>
   </data>
   <data name="EducationUser" xml:space="preserve">
-    <value>مدرس/طالب</value>
+    <value>Ù…Ø¯Ø±Ø³/Ø·Ø§Ù„Ø¨</value>
   </data>
   <data name="EducationUsers" xml:space="preserve">
-    <value>مدرسين/طلاب</value>
+    <value>Ù…Ø¯Ø±Ø³ÙŠÙ†/Ø·Ù„Ø§Ø¨</value>
   </data>
   <data name="EducationUserTitle" xml:space="preserve">
-    <value>اللقب</value>
+    <value>Ø§Ù„Ù„Ù‚Ø¨</value>
   </data>
 </root>

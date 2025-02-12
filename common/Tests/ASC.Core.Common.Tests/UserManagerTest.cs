@@ -59,25 +59,25 @@ namespace ASC.Core.Common.Tests
             users = userManager.Search("  ", EmployeeStatus.Active);
             Assert.AreEqual(0, users.Length);
 
-            users = userManager.Search("АбРаМсКй", EmployeeStatus.Active);
+            users = userManager.Search("ÐÐ±Ð Ð°ÐœÑÐšÐ¹", EmployeeStatus.Active);
             Assert.AreEqual(0, users.Length);
 
-            users = userManager.Search("АбРаМсКий", EmployeeStatus.Active);
-            Assert.AreEqual(0, users.Length);//Абрамский уволился
+            users = userManager.Search("ÐÐ±Ð Ð°ÐœÑÐšÐ¸Ð¹", EmployeeStatus.Active);
+            Assert.AreEqual(0, users.Length);//ÐÐ±Ñ€Ð°Ð¼ÑÐºÐ¸Ð¹ ÑƒÐ²Ð¾Ð»Ð¸Ð»ÑÑ
 
-            users = userManager.Search("АбРаМсКий", EmployeeStatus.All);
+            users = userManager.Search("ÐÐ±Ð Ð°ÐœÑÐšÐ¸Ð¹", EmployeeStatus.All);
             Assert.AreNotEqual(0, users.Length);
 
-            users = userManager.Search("иванов николай", EmployeeStatus.Active);
+            users = userManager.Search("Ð¸Ð²Ð°Ð½Ð¾Ð² Ð½Ð¸ÐºÐ¾Ð»Ð°Ð¹", EmployeeStatus.Active);
             Assert.AreNotEqual(0, users.Length);
 
-            users = userManager.Search("ведущий програм", EmployeeStatus.Active);
+            users = userManager.Search("Ð²ÐµÐ´ÑƒÑ‰Ð¸Ð¹ Ð¿Ñ€Ð¾Ð³Ñ€Ð°Ð¼", EmployeeStatus.Active);
             Assert.AreNotEqual(0, users.Length);
 
-            users = userManager.Search("баннов лев", EmployeeStatus.Active, new Guid("613fc896-3ddd-4de1-a567-edbbc6cf1fc8"));
+            users = userManager.Search("Ð±Ð°Ð½Ð½Ð¾Ð² Ð»ÐµÐ²", EmployeeStatus.Active, new Guid("613fc896-3ddd-4de1-a567-edbbc6cf1fc8"));
             Assert.AreNotEqual(0, users.Length);
 
-            users = userManager.Search("иванов николай", EmployeeStatus.Active, new Guid("613fc896-3ddd-4de1-a567-edbbc6cf1fc8"));
+            users = userManager.Search("Ð¸Ð²Ð°Ð½Ð¾Ð² Ð½Ð¸ÐºÐ¾Ð»Ð°Ð¹", EmployeeStatus.Active, new Guid("613fc896-3ddd-4de1-a567-edbbc6cf1fc8"));
             Assert.AreEqual(0, users);
         }
 

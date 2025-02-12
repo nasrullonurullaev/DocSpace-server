@@ -1,4 +1,4 @@
-﻿namespace net.openstack.Providers.Rackspace.Objects
+namespace net.openstack.Providers.Rackspace.Objects
 {
     using System.Runtime.CompilerServices;
 

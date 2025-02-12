@@ -118,102 +118,102 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="CommonAddUsers" xml:space="preserve">
-    <value>Додај кориснике</value>
+    <value>Ð”Ð¾Ð´Ð°Ñ˜ ÐºÐ¾Ñ€Ð¸ÑÐ½Ð¸ÐºÐµ</value>
   </data>
   <data name="CommonGroup" xml:space="preserve">
-    <value>Група</value>
+    <value>Ð“Ñ€ÑƒÐ¿Ð°</value>
   </data>
   <data name="CommonGroupHead" xml:space="preserve">
-    <value>Вођа</value>
+    <value>Ð’Ð¾Ñ’Ð°</value>
   </data>
   <data name="CommonGroups" xml:space="preserve">
-    <value>Групе</value>
+    <value>Ð“Ñ€ÑƒÐ¿Ðµ</value>
   </data>
   <data name="CommonGuest" xml:space="preserve">
-    <value>Гост</value>
+    <value>Ð“Ð¾ÑÑ‚</value>
   </data>
   <data name="EducationGuest" xml:space="preserve">
-    <value>Гост</value>
+    <value>Ð“Ð¾ÑÑ‚</value>
   </data>
   <data name="CommonGuests" xml:space="preserve">
-    <value>Гости</value>
+    <value>Ð“Ð¾ÑÑ‚Ð¸</value>
   </data>
   <data name="EducationGuests" xml:space="preserve">
-    <value>Гости</value>
+    <value>Ð“Ð¾ÑÑ‚Ð¸</value>
   </data>
   <data name="EducationGroups" xml:space="preserve">
-    <value>Групе</value>
+    <value>Ð“Ñ€ÑƒÐ¿Ðµ</value>
   </data>
   <data name="EducationGroup" xml:space="preserve">
-    <value>Група</value>
+    <value>Ð“Ñ€ÑƒÐ¿Ð°</value>
   </data>
   <data name="CommonRegDate" xml:space="preserve">
-    <value>Датум регистрације</value>
+    <value>Ð”Ð°Ñ‚ÑƒÐ¼ Ñ€ÐµÐ³Ð¸ÑÑ‚Ñ€Ð°Ñ†Ð¸Ñ˜Ðµ</value>
   </data>
   <data name="CommonSchemaName" xml:space="preserve">
-    <value>Заједничко</value>
+    <value>Ð—Ð°Ñ˜ÐµÐ´Ð½Ð¸Ñ‡ÐºÐ¾</value>
   </data>
   <data name="CommonUser" xml:space="preserve">
-    <value>Корисник</value>
+    <value>ÐšÐ¾Ñ€Ð¸ÑÐ½Ð¸Ðº</value>
   </data>
   <data name="CommonUsers" xml:space="preserve">
-    <value>Корисници</value>
+    <value>ÐšÐ¾Ñ€Ð¸ÑÐ½Ð¸Ñ†Ð¸</value>
   </data>
   <data name="CommonUserTitle" xml:space="preserve">
-    <value>Звање</value>
+    <value>Ð—Ð²Ð°ÑšÐµ</value>
   </data>
   <data name="DefaultAddUsers" xml:space="preserve">
-    <value>Додај запослене</value>
+    <value>Ð”Ð¾Ð´Ð°Ñ˜ Ð·Ð°Ð¿Ð¾ÑÐ»ÐµÐ½Ðµ</value>
   </data>
   <data name="DefaultGroup" xml:space="preserve">
-    <value>Одељење</value>
+    <value>ÐžÐ´ÐµÑ™ÐµÑšÐµ</value>
   </data>
   <data name="DefaultGroupHead" xml:space="preserve">
-    <value>Вођа</value>
+    <value>Ð’Ð¾Ñ’Ð°</value>
   </data>
   <data name="DefaultGroups" xml:space="preserve">
-    <value>Одељење</value>
+    <value>ÐžÐ´ÐµÑ™ÐµÑšÐµ</value>
   </data>
   <data name="DefaultGuest" xml:space="preserve">
-    <value>Гост</value>
+    <value>Ð“Ð¾ÑÑ‚</value>
   </data>
   <data name="DefaultGuests" xml:space="preserve">
-    <value>Гости</value>
+    <value>Ð“Ð¾ÑÑ‚Ð¸</value>
   </data>
   <data name="EducationGroupHead" xml:space="preserve">
-    <value>Лидер групе</value>
+    <value>Ð›Ð¸Ð´ÐµÑ€ Ð³Ñ€ÑƒÐ¿Ðµ</value>
   </data>
   <data name="EducationRegDate" xml:space="preserve">
-    <value>Датум регистрације</value>
+    <value>Ð”Ð°Ñ‚ÑƒÐ¼ Ñ€ÐµÐ³Ð¸ÑÑ‚Ñ€Ð°Ñ†Ð¸Ñ˜Ðµ</value>
   </data>
   <data name="EducationSchemaName" xml:space="preserve">
-    <value>Образовна институција</value>
+    <value>ÐžÐ±Ñ€Ð°Ð·Ð¾Ð²Ð½Ð° Ð¸Ð½ÑÑ‚Ð¸Ñ‚ÑƒÑ†Ð¸Ñ˜Ð°</value>
   </data>
   <data name="EducationUser" xml:space="preserve">
-    <value>Учитељ/Студент</value>
+    <value>Ð£Ñ‡Ð¸Ñ‚ÐµÑ™/Ð¡Ñ‚ÑƒÐ´ÐµÐ½Ñ‚</value>
   </data>
   <data name="EducationUsers" xml:space="preserve">
-    <value>Учитељи/Студенти</value>
+    <value>Ð£Ñ‡Ð¸Ñ‚ÐµÑ™Ð¸/Ð¡Ñ‚ÑƒÐ´ÐµÐ½Ñ‚Ð¸</value>
   </data>
   <data name="DefaultRegDate" xml:space="preserve">
-    <value>Запослен дана</value>
+    <value>Ð—Ð°Ð¿Ð¾ÑÐ»ÐµÐ½ Ð´Ð°Ð½Ð°</value>
   </data>
   <data name="DefaultSchemaName" xml:space="preserve">
-    <value>Корпоративни</value>
+    <value>ÐšÐ¾Ñ€Ð¿Ð¾Ñ€Ð°Ñ‚Ð¸Ð²Ð½Ð¸</value>
   </data>
   <data name="DefaultUser" xml:space="preserve">
-    <value>Запослени</value>
+    <value>Ð—Ð°Ð¿Ð¾ÑÐ»ÐµÐ½Ð¸</value>
   </data>
   <data name="DefaultUsers" xml:space="preserve">
-    <value>Запослени</value>
+    <value>Ð—Ð°Ð¿Ð¾ÑÐ»ÐµÐ½Ð¸</value>
   </data>
   <data name="DefaultUserTitle" xml:space="preserve">
-    <value>Позиција</value>
+    <value>ÐŸÐ¾Ð·Ð¸Ñ†Ð¸Ñ˜Ð°</value>
   </data>
   <data name="EducationAddUsers" xml:space="preserve">
-    <value>Додај учитеље/студенте</value>
+    <value>Ð”Ð¾Ð´Ð°Ñ˜ ÑƒÑ‡Ð¸Ñ‚ÐµÑ™Ðµ/ÑÑ‚ÑƒÐ´ÐµÐ½Ñ‚Ðµ</value>
   </data>
   <data name="EducationUserTitle" xml:space="preserve">
-    <value>Звање</value>
+    <value>Ð—Ð²Ð°ÑšÐµ</value>
   </data>
 </root>

@@ -121,16 +121,16 @@
     <value>Razpakiranje...</value>
   </data>
   <data name="UnzippingFinished" xml:space="preserve">
-    <value>Razpakiranje zaključeno...</value>
+    <value>Razpakiranje zakljuÄeno...</value>
   </data>
   <data name="StartOfDataProcessing" xml:space="preserve">
-    <value>Začetek procesiranja podatkov...</value>
+    <value>ZaÄetek procesiranja podatkov...</value>
   </data>
   <data name="PreparingForMigration" xml:space="preserve">
     <value>Priprava na migracijo</value>
   </data>
   <data name="MigrationCompleted" xml:space="preserve">
-    <value>Migracija zaključena</value>
+    <value>Migracija zakljuÄena</value>
   </data>
   <data name="MigratingUserFiles" xml:space="preserve">
     <value>Migracija uporabnikovih datotek {0} ({1}/{2})</value>
@@ -139,13 +139,13 @@
     <value>Migracija skupine {0} ({1}/{2})</value>
   </data>
   <data name="DumpParse" xml:space="preserve">
-    <value>Razčlenjevanje baze podatkov</value>
+    <value>RazÄlenjevanje baze podatkov</value>
   </data>
   <data name="DataProcessing" xml:space="preserve">
     <value>Procesiranje podatkov...</value>
   </data>
   <data name="DataProcessingCompleted" xml:space="preserve">
-    <value>Procesiranje podatkov zaključeno</value>
+    <value>Procesiranje podatkov zakljuÄeno</value>
   </data>
   <data name="UserMigration" xml:space="preserve">
     <value>Migracija uporabnika {0} ({1}/{2})</value>
@@ -163,51 +163,51 @@
     <value>Migracija projektnih datotek</value>
   </data>
   <data name="CanNotToUnzip" xml:space="preserve">
-    <value>{0} ni bilo mogoče razpakirati</value>
+    <value>{0} ni bilo mogoÄe razpakirati</value>
   </data>
   <data name="CanNotImportUser" xml:space="preserve">
-    <value>Ni bilo mogoče uvoziti uporabnika</value>
+    <value>Ni bilo mogoÄe uvoziti uporabnika</value>
   </data>
-  <data name="СreateRootFolder" xml:space="preserve">
+  <data name="Ð¡reateRootFolder" xml:space="preserve">
     <value>Ustvari korensko mapo</value>
   </data>
   <data name="CanNotAddUserInGroup" xml:space="preserve">
-    <value>Uporabnika {0} ni bilo mogoče dodati v skupino {1}</value>
+    <value>Uporabnika {0} ni bilo mogoÄe dodati v skupino {1}</value>
   </data>
   <data name="CreateFile" xml:space="preserve">
     <value>Ustvari datoteko {0}</value>
   </data>
-  <data name="СanNotImportCommonFiles" xml:space="preserve">
-    <value>Ni bilo mogoče uvoziti skupnih datotek</value>
+  <data name="Ð¡anNotImportCommonFiles" xml:space="preserve">
+    <value>Ni bilo mogoÄe uvoziti skupnih datotek</value>
   </data>
   <data name="CanNotParseUser" xml:space="preserve">
-    <value>Ni bilo mogoče razčleniti uporabnika {0}</value>
+    <value>Ni bilo mogoÄe razÄleniti uporabnika {0}</value>
   </data>
   <data name="CanNotShare" xml:space="preserve">
-    <value>Vnosa {0} ni bilo mogoče dati v skupno rabo z {1}</value>
+    <value>Vnosa {0} ni bilo mogoÄe dati v skupno rabo z {1}</value>
   </data>
   <data name="CanNotImportUserFiles" xml:space="preserve">
-    <value>Ni bilo mogoče uvoziti uporabnikovih datotek</value>
+    <value>Ni bilo mogoÄe uvoziti uporabnikovih datotek</value>
   </data>
   <data name="CanNotCreateFile" xml:space="preserve">
-    <value>Ni bilo mogoče ustvariti datoteke {0}</value>
+    <value>Ni bilo mogoÄe ustvariti datoteke {0}</value>
   </data>
   <data name="CanNotParseArchives" xml:space="preserve">
-    <value>Ni bilo mogoče razčleniti arhivov</value>
+    <value>Ni bilo mogoÄe razÄleniti arhivov</value>
   </data>
   <data name="CreateShareRoom" xml:space="preserve">
     <value>ustvari deljeno sobo {0}</value>
   </data>
   <data name="CanNotReadInfoFile" xml:space="preserve">
-    <value>Ni bilo mogoče prebrati informacijske datoteke od {0}</value>
+    <value>Ni bilo mogoÄe prebrati informacijske datoteke od {0}</value>
   </data>
   <data name="CanNotParseArchive" xml:space="preserve">
-    <value>Arhiva {0} ni bilo mogoče razčleniti</value>
+    <value>Arhiva {0} ni bilo mogoÄe razÄleniti</value>
   </data>
   <data name="CreateFolder" xml:space="preserve">
     <value>Ustvari mapo {0}</value>
   </data>
-  <data name="СanNotImportProjectFiles" xml:space="preserve">
-    <value>Projektnih datotek ni bilo mogoče uvoziti</value>
+  <data name="Ð¡anNotImportProjectFiles" xml:space="preserve">
+    <value>Projektnih datotek ni bilo mogoÄe uvoziti</value>
   </data>
 </root>

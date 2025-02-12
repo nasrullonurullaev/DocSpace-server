@@ -1,4 +1,4 @@
-﻿namespace net.openstack.Core
+namespace net.openstack.Core
 {
     using System;
     using System.Collections.Generic;

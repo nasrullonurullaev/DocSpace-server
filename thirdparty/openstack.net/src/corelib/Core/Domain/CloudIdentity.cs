@@ -1,4 +1,4 @@
-﻿namespace net.openstack.Core.Domain
+namespace net.openstack.Core.Domain
 {
     /// <summary>
     /// Represents a set of credentials used for accessing a cloud account. Individual providers

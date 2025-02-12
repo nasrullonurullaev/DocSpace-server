@@ -1,4 +1,4 @@
-﻿namespace net.openstack.Providers.Rackspace.Objects.LoadBalancers
+namespace net.openstack.Providers.Rackspace.Objects.LoadBalancers
 {
     using System;
     using Newtonsoft.Json;

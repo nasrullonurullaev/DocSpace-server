@@ -120,11 +120,11 @@
   <data name="TextForFooterUnsubsribe" xml:space="preserve">
     <value>&lt;tr border="0" cellspacing="0" cellpadding="0"&gt;
     &lt;td class="fol" style="color: #666666; font-family: 'Open Sans', Helvetica, Arial, Tahoma, sans-serif; font-size: 13px; line-height: 20px; margin: 0; padding: 40px 0 8px; vertical-align: top;"&gt;
-        Za bilo koja pitanja o kupovini, pošaljite nam email na &lt;a style="color: #FF6F3D; text-decoration: underline;" target="_blank" href="mailto:%SALESEMAIL%"&gt;%SALESEMAIL%&lt;/a&gt;.
+        Za bilo koja pitanja o kupovini, poÅ¡aljite nam email na &lt;a style="color: #FF6F3D; text-decoration: underline;" target="_blank" href="mailto:%SALESEMAIL%"&gt;%SALESEMAIL%&lt;/a&gt;.
     &lt;/td&gt;
 &lt;tr border="0" cellspacing="0" cellpadding="0"&gt;
     &lt;td class="fol" style="color: #666666; font-family: 'Open Sans', Helvetica, Arial, Tahoma, sans-serif; font-size: 13px; line-height: 20px; margin: 0; padding: 0; vertical-align: top;"&gt;
-        U slučaju tehničkih problema molimo kontaktirajte naš &lt;a style="color: #FF6F3D; text-decoration: underline;" target="_blank" href="%SUPPORTURL%"&gt;tim za podršku&lt;/a&gt;.
+        U sluÄaju tehniÄkih problema molimo kontaktirajte naÅ¡ &lt;a style="color: #FF6F3D; text-decoration: underline;" target="_blank" href="%SUPPORTURL%"&gt;tim za podrÅ¡ku&lt;/a&gt;.
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr border="0" cellspacing="0" cellpadding="0"&gt;
@@ -147,19 +147,19 @@
             &lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr border="0" cellspacing="0" cellpadding="0"&gt;
-            &lt;td style="vertical-align: top; margin: 0; padding: 0; width: 210px; height: 16px; background: #f6f6f6;"&gt;Potrebna tehnička pomoć?&lt;/td&gt;
+            &lt;td style="vertical-align: top; margin: 0; padding: 0; width: 210px; height: 16px; background: #f6f6f6;"&gt;Potrebna tehniÄka pomoÄ‡?&lt;/td&gt;
             &lt;td style="vertical-align: top; margin: 0; padding: 0; width: 180px; height: 16px; background: #f6f6f6;"&gt;Prodajna Pitanja&lt;/td&gt;
-            &lt;td style="vertical-align: top; margin: 0; padding: 0; width: 210px; height: 16px; background: #f6f6f6;"&gt;Naručite Demo&lt;/td&gt;
+            &lt;td style="vertical-align: top; margin: 0; padding: 0; width: 210px; height: 16px; background: #f6f6f6;"&gt;NaruÄite Demo&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr border="0" cellspacing="0" cellpadding="0"&gt;
             &lt;td style="vertical-align: top; margin: 0; padding: 0 0 30px; width: 210px; background: #f6f6f6;-moz-border-radius-bottomleft: 6px; -webkit-border-bottom-left-radius: 6px; border-bottom-left-radius: 6px;"&gt;
-              &lt;a href="%SUPPORTURL%" target="_blank" style="color: #333;"&gt;Pošaljite svoje pitanje&lt;/a&gt;
+              &lt;a href="%SUPPORTURL%" target="_blank" style="color: #333;"&gt;PoÅ¡aljite svoje pitanje&lt;/a&gt;
             &lt;/td&gt;
             &lt;td style="vertical-align: top; margin: 0; padding: 0 0 30px; width: 180px; background: #f6f6f6;"&gt;
-              &lt;a href="mailto:%SALESEMAIL%" style="color: #333;"&gt;Pošaljite nam email&lt;/a&gt;
+              &lt;a href="mailto:%SALESEMAIL%" style="color: #333;"&gt;PoÅ¡aljite nam email&lt;/a&gt;
             &lt;/td&gt;
             &lt;td style="vertical-align: top; margin: 0; padding: 0 0 30px; width: 210px; background: #f6f6f6;-moz-border-radius-bottomright: 6px; -webkit-border-bottom-right-radius: 6px; border-bottom-right-radius: 6px;"&gt;
-              &lt;a href="%DEMOURL%" target="_blank" style="color: #333;"&gt;Pošaljite zahtev&lt;/a&gt;
+              &lt;a href="%DEMOURL%" target="_blank" style="color: #333;"&gt;PoÅ¡aljite zahtev&lt;/a&gt;
             &lt;/td&gt;
         &lt;/tr&gt;</value>
   </data>
@@ -177,19 +177,19 @@
             &lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr border="0" cellspacing="0" cellpadding="0"&gt;
-            &lt;td style="vertical-align: top; margin: 0; padding: 0; width: 210px; height: 16px; background: #f6f6f6;"&gt;Potrebna tehnička pomoć?&lt;/td&gt;
+            &lt;td style="vertical-align: top; margin: 0; padding: 0; width: 210px; height: 16px; background: #f6f6f6;"&gt;Potrebna tehniÄka pomoÄ‡?&lt;/td&gt;
             &lt;td style="vertical-align: top; margin: 0; padding: 0; width: 180px; height: 16px; background: #f6f6f6;"&gt;Prodajna Pitanja&lt;/td&gt;
-            &lt;td style="vertical-align: top; margin: 0; padding: 0; width: 210px; height: 16px; background: #f6f6f6;"&gt;Naručite Demo&lt;/td&gt;
+            &lt;td style="vertical-align: top; margin: 0; padding: 0; width: 210px; height: 16px; background: #f6f6f6;"&gt;NaruÄite Demo&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr border="0" cellspacing="0" cellpadding="0"&gt;
             &lt;td style="vertical-align: top; margin: 0; padding: 0 0 30px; width: 210px; background: #f6f6f6;-moz-border-radius-bottomleft: 6px; -webkit-border-bottom-left-radius: 6px; border-bottom-left-radius: 6px;"&gt;
               &lt;a href="http://dev.onlyoffice.org/" target="_blank" style="color: #333;"&gt;Pitaj Zajednicu&lt;/a&gt;
             &lt;/td&gt;
             &lt;td style="vertical-align: top; margin: 0; padding: 0 0 30px; width: 180px; background: #f6f6f6;"&gt;
-              &lt;a href="mailto:sales@onlyoffice.com" style="color: #333;"&gt;Pošaljite nam email&lt;/a&gt;
+              &lt;a href="mailto:sales@onlyoffice.com" style="color: #333;"&gt;PoÅ¡aljite nam email&lt;/a&gt;
             &lt;/td&gt;
             &lt;td style="vertical-align: top; margin: 0; padding: 0 0 30px; width: 210px; background: #f6f6f6;-moz-border-radius-bottomright: 6px; -webkit-border-bottom-right-radius: 6px; border-bottom-right-radius: 6px;"&gt;
-              &lt;a href="https://www.onlyoffice.com/demo-order.aspx" target="_blank" style="color: #333;"&gt;Pošaljite zahtev&lt;/a&gt;
+              &lt;a href="https://www.onlyoffice.com/demo-order.aspx" target="_blank" style="color: #333;"&gt;PoÅ¡aljite zahtev&lt;/a&gt;
             &lt;/td&gt;
         &lt;/tr&gt;</value>
   </data>

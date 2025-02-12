@@ -121,22 +121,22 @@
     <value>Obrada podataka...</value>
   </data>
   <data name="DataProcessingCompleted" xml:space="preserve">
-    <value>Obrada podataka završena</value>
+    <value>Obrada podataka zavrÅ¡ena</value>
   </data>
   <data name="DumpParse" xml:space="preserve">
-    <value>Raščlanjivanje baze podataka</value>
+    <value>RaÅ¡Älanjivanje baze podataka</value>
   </data>
   <data name="GroupMigration" xml:space="preserve">
     <value>Migracija grupe {0} ({1}/{2})</value>
   </data>
   <data name="MigratingUserFiles" xml:space="preserve">
-    <value>Migracija korisničkih datoteka {0} ({1}/{2})</value>
+    <value>Migracija korisniÄkih datoteka {0} ({1}/{2})</value>
   </data>
   <data name="MigrationCommonFiles" xml:space="preserve">
-    <value>Migracija zajedničkih datoteka</value>
+    <value>Migracija zajedniÄkih datoteka</value>
   </data>
   <data name="MigrationCompleted" xml:space="preserve">
-    <value>Migracija završena</value>
+    <value>Migracija zavrÅ¡ena</value>
   </data>
   <data name="MigrationNotFoundException" xml:space="preserve">
     <value>Ne postoji takav provajder migracije</value>
@@ -151,46 +151,46 @@
     <value>Priprema za migraciju</value>
   </data>
   <data name="StartOfDataProcessing" xml:space="preserve">
-    <value>Početak obrade podataka...</value>
+    <value>PoÄetak obrade podataka...</value>
   </data>
   <data name="Unzipping" xml:space="preserve">
-    <value>Razrešavanje (dekompresovanje)...</value>
+    <value>RazreÅ¡avanje (dekompresovanje)...</value>
   </data>
   <data name="UserMigration" xml:space="preserve">
     <value>Migracija korisnika {0} ({1}/{2})</value>
   </data>
   <data name="UnzippingFinished" xml:space="preserve">
-    <value>Razrešavanje (dekompresovanje) završeno...</value>
+    <value>RazreÅ¡avanje (dekompresovanje) zavrÅ¡eno...</value>
   </data>
   <data name="CanNotAddUserInGroup" xml:space="preserve">
-    <value>Nije moguće dodati korisnika {0} u grupu {1}</value>
+    <value>Nije moguÄ‡e dodati korisnika {0} u grupu {1}</value>
   </data>
   <data name="CanNotCreateFile" xml:space="preserve">
-    <value>Nije moguće kreirati datoteku {0}</value>
+    <value>Nije moguÄ‡e kreirati datoteku {0}</value>
   </data>
   <data name="CanNotImportUser" xml:space="preserve">
-    <value>Nije moguće uvesti korisnika</value>
+    <value>Nije moguÄ‡e uvesti korisnika</value>
   </data>
   <data name="CanNotImportUserFiles" xml:space="preserve">
-    <value>Nije moguće uvesti korisničke datoteke</value>
+    <value>Nije moguÄ‡e uvesti korisniÄke datoteke</value>
   </data>
   <data name="CanNotParseArchive" xml:space="preserve">
-    <value>Nije moguće obraditi {0} arhivu</value>
+    <value>Nije moguÄ‡e obraditi {0} arhivu</value>
   </data>
   <data name="CanNotParseArchives" xml:space="preserve">
-    <value>Nije moguće obraditi arhive</value>
+    <value>Nije moguÄ‡e obraditi arhive</value>
   </data>
   <data name="CanNotParseUser" xml:space="preserve">
-    <value>Nije moguće obraditi korisnika {0}</value>
+    <value>Nije moguÄ‡e obraditi korisnika {0}</value>
   </data>
   <data name="CanNotReadInfoFile" xml:space="preserve">
-    <value>Nije moguće čitati informativnu datoteku sa {0}</value>
+    <value>Nije moguÄ‡e Äitati informativnu datoteku sa {0}</value>
   </data>
   <data name="CanNotShare" xml:space="preserve">
-    <value>Nije moguće podeliti unos {0} na {1}</value>
+    <value>Nije moguÄ‡e podeliti unos {0} na {1}</value>
   </data>
   <data name="CanNotToUnzip" xml:space="preserve">
-    <value>Nije moguće raspakovati {0}</value>
+    <value>Nije moguÄ‡e raspakovati {0}</value>
   </data>
   <data name="CreateFile" xml:space="preserve">
     <value>Kreiraj datoteku {0}</value>
@@ -199,15 +199,15 @@
     <value>Kreiraj folder {0}</value>
   </data>
   <data name="CreateShareRoom" xml:space="preserve">
-    <value>kreiraj zajedničku prostoriju {0}</value>
+    <value>kreiraj zajedniÄku prostoriju {0}</value>
   </data>
-  <data name="СanNotImportCommonFiles" xml:space="preserve">
-    <value>Nije moguće uvesti zajedničke datoteke</value>
+  <data name="Ð¡anNotImportCommonFiles" xml:space="preserve">
+    <value>Nije moguÄ‡e uvesti zajedniÄke datoteke</value>
   </data>
-  <data name="СanNotImportProjectFiles" xml:space="preserve">
-    <value>Nije moguće uvesti datoteke projekta</value>
+  <data name="Ð¡anNotImportProjectFiles" xml:space="preserve">
+    <value>Nije moguÄ‡e uvesti datoteke projekta</value>
   </data>
-  <data name="СreateRootFolder" xml:space="preserve">
+  <data name="Ð¡reateRootFolder" xml:space="preserve">
     <value>Kreiraj root folder</value>
   </data>
 </root>

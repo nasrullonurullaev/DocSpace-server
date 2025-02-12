@@ -1,4 +1,4 @@
-﻿namespace OpenStack.ContentDeliveryNetworks.v1
+namespace OpenStack.ContentDeliveryNetworks.v1
 {
     using System.Runtime.CompilerServices;
 

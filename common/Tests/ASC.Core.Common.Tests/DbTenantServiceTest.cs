@@ -132,7 +132,7 @@ namespace ASC.Core.Common.Tests
         {
             ValidateDomain("12345", typeof(TenantTooShortException));
             ValidateDomain("123456", null);
-            ValidateDomain("трала   лалала", typeof(TenantIncorrectCharsException));
+            ValidateDomain("Ñ‚Ñ€Ð°Ð»Ð°   Ð»Ð°Ð»Ð°Ð»Ð°", typeof(TenantIncorrectCharsException));
             ValidateDomain("abc.defg", typeof(TenantIncorrectCharsException));
             ValidateDomain("abcdef", null);
 

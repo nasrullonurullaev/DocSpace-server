@@ -1,4 +1,4 @@
-﻿namespace net.openstack.Core.Domain.Mapping
+namespace net.openstack.Core.Domain.Mapping
 {
     using System.Runtime.CompilerServices;
 

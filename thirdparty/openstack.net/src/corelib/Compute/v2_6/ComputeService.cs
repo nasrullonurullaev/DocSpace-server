@@ -1,4 +1,4 @@
-﻿using System.Threading;
+using System.Threading;
 using System.Threading.Tasks;
 using OpenStack.Authentication;
 using OpenStack.Compute.v2_6.Serialization;

@@ -1,4 +1,4 @@
-﻿namespace net.openstack.Core
+namespace net.openstack.Core
 {
     /// <summary>
     /// This interface provides methods for encoding and decoding strings which are

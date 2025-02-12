@@ -1,4 +1,4 @@
-﻿using System.Diagnostics;
+using System.Diagnostics;
 using OpenStack.Serialization;
 using Xunit;
 using System.Threading.Tasks;

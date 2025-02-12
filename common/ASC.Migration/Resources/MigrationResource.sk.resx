@@ -118,96 +118,96 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="DataProcessingCompleted" xml:space="preserve">
-    <value>Spracovanie údajov dokončené</value>
+    <value>Spracovanie Ãºdajov dokonÄenÃ©</value>
   </data>
   <data name="DataProcessing" xml:space="preserve">
-    <value>Spracovanie údajov...</value>
+    <value>Spracovanie Ãºdajov...</value>
   </data>
   <data name="DumpParse" xml:space="preserve">
-    <value>Spracovanie databázy</value>
+    <value>Spracovanie databÃ¡zy</value>
   </data>
   <data name="GroupMigration" xml:space="preserve">
-    <value>Presun skupín {0} ({1}/{2})</value>
+    <value>Presun skupÃ­n {0} ({1}/{2})</value>
   </data>
   <data name="MigratingUserFiles" xml:space="preserve">
-    <value>Presun používateľských súborov {0} ({1}/{2})</value>
+    <value>Presun pouÅ¾Ã­vateÄ¾skÃ½ch sÃºborov {0} ({1}/{2})</value>
   </data>
   <data name="MigrationCompleted" xml:space="preserve">
-    <value>Presun dokončený</value>
+    <value>Presun dokonÄenÃ½</value>
   </data>
   <data name="PreparingForMigration" xml:space="preserve">
-    <value>Príprava na presun</value>
+    <value>PrÃ­prava na presun</value>
   </data>
   <data name="StartOfDataProcessing" xml:space="preserve">
-    <value>Spustenie spracovania údajov...</value>
+    <value>Spustenie spracovania Ãºdajov...</value>
   </data>
   <data name="UnzippingFinished" xml:space="preserve">
-    <value>Rozbaľovanie dokončené...</value>
+    <value>RozbaÄ¾ovanie dokonÄenÃ©...</value>
   </data>
   <data name="Unzipping" xml:space="preserve">
-    <value>Rozbaľovanie...</value>
+    <value>RozbaÄ¾ovanie...</value>
   </data>
   <data name="UserMigration" xml:space="preserve">
-    <value>Presun používateľov {0} ({1}/{2})</value>
+    <value>Presun pouÅ¾Ã­vateÄ¾ov {0} ({1}/{2})</value>
   </data>
   <data name="MigrationCommonFiles" xml:space="preserve">
-    <value>Migrácia spoločných súborov</value>
+    <value>MigrÃ¡cia spoloÄnÃ½ch sÃºborov</value>
   </data>
   <data name="MigrationNotFoundException" xml:space="preserve">
-    <value>Žiadny takýto poskytovateľ migrácie</value>
+    <value>Å½iadny takÃ½to poskytovateÄ¾ migrÃ¡cie</value>
   </data>
   <data name="MigrationProgressException" xml:space="preserve">
-    <value>Neprebieha žiadna migrácia</value>
+    <value>Neprebieha Å¾iadna migrÃ¡cia</value>
   </data>
   <data name="MigrationProjectFiles" xml:space="preserve">
-    <value>Súbory projektu migrácie</value>
+    <value>SÃºbory projektu migrÃ¡cie</value>
   </data>
   <data name="CanNotAddUserInGroup" xml:space="preserve">
-    <value>Nepodarilo sa pridať používateľa {0} do skupiny {1}</value>
+    <value>Nepodarilo sa pridaÅ¥ pouÅ¾Ã­vateÄ¾a {0} do skupiny {1}</value>
   </data>
   <data name="CanNotCreateFile" xml:space="preserve">
-    <value>Nepodarilo sa vytvoriť súbor {0}</value>
+    <value>Nepodarilo sa vytvoriÅ¥ sÃºbor {0}</value>
   </data>
   <data name="CanNotImportUser" xml:space="preserve">
-    <value>Nepodarilo sa importovať používateľa</value>
+    <value>Nepodarilo sa importovaÅ¥ pouÅ¾Ã­vateÄ¾a</value>
   </data>
   <data name="CanNotImportUserFiles" xml:space="preserve">
-    <value>Nepodarilo sa importovať súbory používateľov</value>
+    <value>Nepodarilo sa importovaÅ¥ sÃºbory pouÅ¾Ã­vateÄ¾ov</value>
   </data>
   <data name="CanNotParseArchive" xml:space="preserve">
-    <value>Nepodarilo sa parsovať archív {0}</value>
+    <value>Nepodarilo sa parsovaÅ¥ archÃ­v {0}</value>
   </data>
   <data name="CanNotParseArchives" xml:space="preserve">
-    <value>Nepodarilo sa parsovať archívy</value>
+    <value>Nepodarilo sa parsovaÅ¥ archÃ­vy</value>
   </data>
   <data name="CanNotParseUser" xml:space="preserve">
-    <value>Nepodarilo sa parsovať používateľa {0}</value>
+    <value>Nepodarilo sa parsovaÅ¥ pouÅ¾Ã­vateÄ¾a {0}</value>
   </data>
   <data name="CanNotReadInfoFile" xml:space="preserve">
-    <value>Nepodarilo sa prečítať informačný súbor z {0}</value>
+    <value>Nepodarilo sa preÄÃ­taÅ¥ informaÄnÃ½ sÃºbor z {0}</value>
   </data>
   <data name="CanNotShare" xml:space="preserve">
-    <value>Nepodarilo sa zdieľať záznam {0} do {1}</value>
+    <value>Nepodarilo sa zdieÄ¾aÅ¥ zÃ¡znam {0} do {1}</value>
   </data>
   <data name="CanNotToUnzip" xml:space="preserve">
-    <value>Nepodarilo sa rozbaliť {0}</value>
+    <value>Nepodarilo sa rozbaliÅ¥ {0}</value>
   </data>
   <data name="CreateFile" xml:space="preserve">
-    <value>Vytvoriť súbor {0}</value>
+    <value>VytvoriÅ¥ sÃºbor {0}</value>
   </data>
   <data name="CreateFolder" xml:space="preserve">
-    <value>Vytvoriť priečinok {0}</value>
+    <value>VytvoriÅ¥ prieÄinok {0}</value>
   </data>
   <data name="CreateShareRoom" xml:space="preserve">
-    <value>Vytvoriť zdieľanú miestnosť {0}</value>
+    <value>VytvoriÅ¥ zdieÄ¾anÃº miestnosÅ¥ {0}</value>
   </data>
-  <data name="СanNotImportCommonFiles" xml:space="preserve">
-    <value>Nepodarilo sa importovať spoločné súbory</value>
+  <data name="Ð¡anNotImportCommonFiles" xml:space="preserve">
+    <value>Nepodarilo sa importovaÅ¥ spoloÄnÃ© sÃºbory</value>
   </data>
-  <data name="СanNotImportProjectFiles" xml:space="preserve">
-    <value>Nepodarilo sa importovať súbory projektu</value>
+  <data name="Ð¡anNotImportProjectFiles" xml:space="preserve">
+    <value>Nepodarilo sa importovaÅ¥ sÃºbory projektu</value>
   </data>
-  <data name="СreateRootFolder" xml:space="preserve">
-    <value>Vytvoriť koreňový priečinok</value>
+  <data name="Ð¡reateRootFolder" xml:space="preserve">
+    <value>VytvoriÅ¥ koreÅˆovÃ½ prieÄinok</value>
   </data>
 </root>

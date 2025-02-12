@@ -118,27 +118,27 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ErrorEmptyUploadFileSelected" xml:space="preserve">
-    <value>Չհաջողվեց գտնել վերբեռնված ֆայլը</value>
+    <value>Õ‰Õ°Õ¡Õ»Õ¸Õ²Õ¾Õ¥Ö Õ£Õ¿Õ¶Õ¥Õ¬ Õ¾Õ¥Ö€Õ¢Õ¥Õ¼Õ¶Õ¾Õ¡Õ® Ö†Õ¡ÕµÕ¬Õ¨</value>
   </data>
   <data name="ErrorImageSizetLimit" xml:space="preserve">
-    <value>Պատկերի չափը չափազանց մեծ է</value>
+    <value>ÕŠÕ¡Õ¿Õ¯Õ¥Ö€Õ« Õ¹Õ¡ÖƒÕ¨ Õ¹Õ¡ÖƒÕ¡Õ¦Õ¡Õ¶Ö Õ´Õ¥Õ® Õ§</value>
   </data>
   <data name="ErrorImageWeightLimit" xml:space="preserve">
-    <value>Պատկերի ֆայլի չափը չափազանց մեծ է</value>
+    <value>ÕŠÕ¡Õ¿Õ¯Õ¥Ö€Õ« Ö†Õ¡ÕµÕ¬Õ« Õ¹Õ¡ÖƒÕ¨ Õ¹Õ¡ÖƒÕ¡Õ¦Õ¡Õ¶Ö Õ´Õ¥Õ® Õ§</value>
   </data>
   <data name="ErrorUnknownFileImageType" xml:space="preserve">
-    <value>Պատկերի ֆայլի անհայտ տեսակ</value>
+    <value>ÕŠÕ¡Õ¿Õ¯Õ¥Ö€Õ« Ö†Õ¡ÕµÕ¬Õ« Õ¡Õ¶Õ°Õ¡ÕµÕ¿ Õ¿Õ¥Õ½Õ¡Õ¯</value>
   </data>
   <data name="ProductAdminOpportunities" xml:space="preserve">
-    <value>Նույնն արեք որպես օգտատեր|Ստեղծել պրոֆիլներ և խմբեր|Ներմուծել պրոֆիլներ|Հրավիրել օգտվողներին</value>
+    <value>Õ†Õ¸Ö‚ÕµÕ¶Õ¶ Õ¡Ö€Õ¥Ö„ Õ¸Ö€ÕºÕ¥Õ½ Ö…Õ£Õ¿Õ¡Õ¿Õ¥Ö€|ÕÕ¿Õ¥Õ²Õ®Õ¥Õ¬ ÕºÖ€Õ¸Ö†Õ«Õ¬Õ¶Õ¥Ö€ Ö‡ Õ­Õ´Õ¢Õ¥Ö€|Õ†Õ¥Ö€Õ´Õ¸Ö‚Õ®Õ¥Õ¬ ÕºÖ€Õ¸Ö†Õ«Õ¬Õ¶Õ¥Ö€|Õ€Ö€Õ¡Õ¾Õ«Ö€Õ¥Õ¬ Ö…Õ£Õ¿Õ¾Õ¸Õ²Õ¶Õ¥Ö€Õ«Õ¶</value>
   </data>
   <data name="ProductDescription" xml:space="preserve">
-    <value>Ավելացրեք նոր օգտվողներ, հրավիրեք կամ ներմուծեք նրանց: Կառավարեք օգտվողներին և դիտեք նրանց մանրամասն տեղեկատվությունը.</value>
+    <value>Ô±Õ¾Õ¥Õ¬Õ¡ÖÖ€Õ¥Ö„ Õ¶Õ¸Ö€ Ö…Õ£Õ¿Õ¾Õ¸Õ²Õ¶Õ¥Ö€, Õ°Ö€Õ¡Õ¾Õ«Ö€Õ¥Ö„ Õ¯Õ¡Õ´ Õ¶Õ¥Ö€Õ´Õ¸Ö‚Õ®Õ¥Ö„ Õ¶Ö€Õ¡Õ¶Ö: Ô¿Õ¡Õ¼Õ¡Õ¾Õ¡Ö€Õ¥Ö„ Ö…Õ£Õ¿Õ¾Õ¸Õ²Õ¶Õ¥Ö€Õ«Õ¶ Ö‡ Õ¤Õ«Õ¿Õ¥Ö„ Õ¶Ö€Õ¡Õ¶Ö Õ´Õ¡Õ¶Ö€Õ¡Õ´Õ¡Õ½Õ¶ Õ¿Õ¥Õ²Õ¥Õ¯Õ¡Õ¿Õ¾Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶Õ¨.</value>
   </data>
   <data name="ProductName" xml:space="preserve">
-    <value>Մարդիկ</value>
+    <value>Õ„Õ¡Ö€Õ¤Õ«Õ¯</value>
   </data>
   <data name="ProductUserOpportunities" xml:space="preserve">
-    <value>Դիտեք պրոֆիլները և խմբերը</value>
+    <value>Ô´Õ«Õ¿Õ¥Ö„ ÕºÖ€Õ¸Ö†Õ«Õ¬Õ¶Õ¥Ö€Õ¨ Ö‡ Õ­Õ´Õ¢Õ¥Ö€Õ¨</value>
   </data>
 </root>

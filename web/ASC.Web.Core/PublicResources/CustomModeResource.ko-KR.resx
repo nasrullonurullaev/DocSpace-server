@@ -118,51 +118,51 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="pattern_enterprise_whitelabel_user_welcome_custom_mode_v1" xml:space="preserve">
-    <value>$UserName님, 안녕하세요!
+    <value>$UserNameë‹˜, ì•ˆë…•í•˜ì„¸ìš”!
 
-ONLYOFFICE DocSpace에 오신 것을 환영합니다! 고객님의 사용자 프로필이 "${__VirtualRootPath}":"${__VirtualRootPath}"에 성공적으로 추가되었으며 이제 다음과 같은 작업을 하실 수 있습니다.
+ONLYOFFICE DocSpaceì— ì˜¤ì‹  ê²ƒì„ í™˜ì˜í•©ë‹ˆë‹¤! ê³ ê°ë‹˜ì˜ ì‚¬ìš©ìž í”„ë¡œí•„ì´ "${__VirtualRootPath}":"${__VirtualRootPath}"ì— ì„±ê³µì ìœ¼ë¡œ ì¶”ê°€ë˜ì—ˆìœ¼ë©° ì´ì œ ë‹¤ìŒê³¼ ê°™ì€ ìž‘ì—…ì„ í•˜ì‹¤ ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
 
-* 초대 받은 방에서 다른 사용자와 작업하세요. *실시간 공동 저작을 위한 공동 작업실 또는 다양한 목적을 위해 유연한 설정이 가능한 사용자 지정 방에서 공동으로 작업하세요*.
+* ì´ˆëŒ€ ë°›ì€ ë°©ì—ì„œ ë‹¤ë¥¸ ì‚¬ìš©ìžì™€ ìž‘ì—…í•˜ì„¸ìš”. *ì‹¤ì‹œê°„ ê³µë™ ì €ìž‘ì„ ìœ„í•œ ê³µë™ ìž‘ì—…ì‹¤ ë˜ëŠ” ë‹¤ì–‘í•œ ëª©ì ì„ ìœ„í•´ ìœ ì—°í•œ ì„¤ì •ì´ ê°€ëŠ¥í•œ ì‚¬ìš©ìž ì§€ì • ë°©ì—ì„œ ê³µë™ìœ¼ë¡œ ìž‘ì—…í•˜ì„¸ìš”*.
 
-* *다양한 형식의 파일을 작업하세요.* 텍스트 문서, 스프레드시트, 프레젠테이션, 디지털 양식, PDF, 전자책, 멀티미디어 형식의 파일을 이용하세요.
+* *ë‹¤ì–‘í•œ í˜•ì‹ì˜ íŒŒì¼ì„ ìž‘ì—…í•˜ì„¸ìš”.* í…ìŠ¤íŠ¸ ë¬¸ì„œ, ìŠ¤í”„ë ˆë“œì‹œíŠ¸, í”„ë ˆì  í…Œì´ì…˜, ë””ì§€í„¸ ì–‘ì‹, PDF, ì „ìžì±…, ë©€í‹°ë¯¸ë””ì–´ í˜•ì‹ì˜ íŒŒì¼ì„ ì´ìš©í•˜ì„¸ìš”.
 
-* *문서를 공동으로 작업하세요.* 두 가지 공동 편집 모드(실시간 또는 단락 잠금)를 이용하고 변경 사항을 추적하며 내장된 채팅 또는 음성 및 영상 통화를 이용해 실시간으로 소통하세요.
+* *ë¬¸ì„œë¥¼ ê³µë™ìœ¼ë¡œ ìž‘ì—…í•˜ì„¸ìš”.* ë‘ ê°€ì§€ ê³µë™ íŽ¸ì§‘ ëª¨ë“œ(ì‹¤ì‹œê°„ ë˜ëŠ” ë‹¨ë½ ìž ê¸ˆ)ë¥¼ ì´ìš©í•˜ê³  ë³€ê²½ ì‚¬í•­ì„ ì¶”ì í•˜ë©° ë‚´ìž¥ëœ ì±„íŒ… ë˜ëŠ” ìŒì„± ë° ì˜ìƒ í†µí™”ë¥¼ ì´ìš©í•´ ì‹¤ì‹œê°„ìœ¼ë¡œ ì†Œí†µí•˜ì„¸ìš”.
 
-* *모든 클라우드 스토리지를 연결하세요.* 그리고 한 앱에서 편안하게 작업하세요.
+* *ëª¨ë“  í´ë¼ìš°ë“œ ìŠ¤í† ë¦¬ì§€ë¥¼ ì—°ê²°í•˜ì„¸ìš”.* ê·¸ë¦¬ê³  í•œ ì•±ì—ì„œ íŽ¸ì•ˆí•˜ê²Œ ìž‘ì—…í•˜ì„¸ìš”.
 
 $OrangeButton
 
-도움이 필요한 경우"Help Center":"${__HelpLink}"를 참고하시거나 저희"support team":"${__SupportLink}"에 문의하세요.
+ë„ì›€ì´ í•„ìš”í•œ ê²½ìš°"Help Center":"${__HelpLink}"ë¥¼ ì°¸ê³ í•˜ì‹œê±°ë‚˜ ì €í¬"support team":"${__SupportLink}"ì— ë¬¸ì˜í•˜ì„¸ìš”.
 
 $TrulyYours</value>
   </data>
   <data name="ProductUserOpportunitiesCustomMode" xml:space="preserve">
-    <value>적절한 액세스 권한으로 문서와 공유 문서를 생성 및 편집|다른 사용자에게 문서 및 폴더에 대한 읽기/편집 권한 부여|'내 문서' 섹션에서 Dropbox, Box 및 기타 계정 연결</value>
+    <value>ì ì ˆí•œ ì•¡ì„¸ìŠ¤ ê¶Œí•œìœ¼ë¡œ ë¬¸ì„œì™€ ê³µìœ  ë¬¸ì„œë¥¼ ìƒì„± ë° íŽ¸ì§‘|ë‹¤ë¥¸ ì‚¬ìš©ìžì—ê²Œ ë¬¸ì„œ ë° í´ë”ì— ëŒ€í•œ ì½ê¸°/íŽ¸ì§‘ ê¶Œí•œ ë¶€ì—¬|'ë‚´ ë¬¸ì„œ' ì„¹ì…˜ì—ì„œ Dropbox, Box ë° ê¸°íƒ€ ê³„ì • ì—°ê²°</value>
   </data>
   <data name="ProductAdminOpportunitiesCustomMode" xml:space="preserve">
-    <value>사용자와 동일한 작업|'공통' 섹션에서 Dropbox, Box 및 기타 계정 연결|'공통' 섹션에서 문서 및 폴더에 대한 액세스 권한 설정</value>
+    <value>ì‚¬ìš©ìžì™€ ë™ì¼í•œ ìž‘ì—…|'ê³µí†µ' ì„¹ì…˜ì—ì„œ Dropbox, Box ë° ê¸°íƒ€ ê³„ì • ì—°ê²°|'ê³µí†µ' ì„¹ì…˜ì—ì„œ ë¬¸ì„œ ë° í´ë”ì— ëŒ€í•œ ì•¡ì„¸ìŠ¤ ê¶Œí•œ ì„¤ì •</value>
   </data>
   <data name="subject_remove_user_data_completed_custom_mode" xml:space="preserve">
-    <value>${LetterLogoText}. 사용자 데이터 삭제가 완료되었습니다</value>
+    <value>${LetterLogoText}. ì‚¬ìš©ìž ë°ì´í„° ì‚­ì œê°€ ì™„ë£Œë˜ì—ˆìŠµë‹ˆë‹¤</value>
   </data>
   <data name="subject_saas_custom_mode_reg_data" xml:space="preserve">
-    <value>새로운 포털이 등록되었습니다</value>
+    <value>ìƒˆë¡œìš´ í¬í„¸ì´ ë“±ë¡ë˜ì—ˆìŠµë‹ˆë‹¤</value>
   </data>
   <data name="pattern_remove_user_data_completed_custom_mode" xml:space="preserve">
-    <value>$UserName님,
+    <value>$UserNameë‹˜,
 
-"$FromUserName":"$FromUserLink" 사용자의 데이터 삭제 프로세스가 성공적으로 완료되었습니다.
+"$FromUserName":"$FromUserLink" ì‚¬ìš©ìžì˜ ë°ì´í„° ì‚­ì œ í”„ë¡œì„¸ìŠ¤ê°€ ì„±ê³µì ìœ¼ë¡œ ì™„ë£Œë˜ì—ˆìŠµë‹ˆë‹¤.
 
-무료로 허용된 개인 데이터 삭제 $DocsSpace</value>
+ë¬´ë£Œë¡œ í—ˆìš©ëœ ê°œì¸ ë°ì´í„° ì‚­ì œ $DocsSpace</value>
   </data>
   <data name="pattern_saas_custom_mode_reg_data" xml:space="preserve">
-    <value>h3.새로운 포털이 등록되었습니다
+    <value>h3.ìƒˆë¡œìš´ í¬í„¸ì´ ë“±ë¡ë˜ì—ˆìŠµë‹ˆë‹¤
 
-# 포털 URL: "${__VirtualRootPath}":"${__VirtualRootPath}"
-# 이름: $UserName
-# 성: $UserLastName
-# 이메일: $UserEmail
-# 휴대폰: $Phone
-# 생성일: $Date</value>
+# í¬í„¸ URL: "${__VirtualRootPath}":"${__VirtualRootPath}"
+# ì´ë¦„: $UserName
+# ì„±: $UserLastName
+# ì´ë©”ì¼: $UserEmail
+# íœ´ëŒ€í°: $Phone
+# ìƒì„±ì¼: $Date</value>
   </data>
 </root>

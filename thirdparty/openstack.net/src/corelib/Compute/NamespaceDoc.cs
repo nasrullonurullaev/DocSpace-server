@@ -1,4 +1,4 @@
-﻿namespace OpenStack.Compute
+namespace OpenStack.Compute
 {
     using System.Runtime.CompilerServices;
 

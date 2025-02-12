@@ -1,4 +1,4 @@
-﻿using OpenStack.Serialization;
+using OpenStack.Serialization;
 
 namespace OpenStack.Networking.v2.Serialization
 {

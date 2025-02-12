@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Cors.Infrastructure;
+using Microsoft.AspNetCore.Cors.Infrastructure;
 
 namespace ASC.Api.Core.Cors.Services;
 internal interface IDynamicCorsPolicyService

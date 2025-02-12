@@ -1,4 +1,4 @@
-﻿using JSIStudios.SimpleRESTServices.Client.Json;
+using JSIStudios.SimpleRESTServices.Client.Json;
 
 namespace JSIStudios.SimpleRESTServices.Client
 {

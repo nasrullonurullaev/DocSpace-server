@@ -1,4 +1,4 @@
-﻿namespace Google.Authenticator
+namespace Google.Authenticator
 {
     public class SetupCode
     {

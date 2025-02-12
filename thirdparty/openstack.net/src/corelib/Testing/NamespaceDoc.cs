@@ -1,4 +1,4 @@
-﻿namespace OpenStack.Testing
+namespace OpenStack.Testing
 {
     using System.Runtime.CompilerServices;
 

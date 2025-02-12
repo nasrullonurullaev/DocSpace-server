@@ -1,4 +1,4 @@
-﻿namespace ICSharpCode.SharpZipLib.Core
+namespace ICSharpCode.SharpZipLib.Core
 {
 	/// <summary>
 	/// Scanning filters support filtering of names.

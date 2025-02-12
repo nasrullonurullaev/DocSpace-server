@@ -1,4 +1,4 @@
-﻿namespace OpenStack.Authentication
+namespace OpenStack.Authentication
 {
     using System.Runtime.CompilerServices;
 

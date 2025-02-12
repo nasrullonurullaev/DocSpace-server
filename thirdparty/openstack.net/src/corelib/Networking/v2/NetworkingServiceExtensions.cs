@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using OpenStack.Networking.v2;
 using OpenStack.Synchronous.Extensions;
 

@@ -1,4 +1,4 @@
-﻿namespace net.openstack.Providers.Rackspace.Objects.Mapping
+namespace net.openstack.Providers.Rackspace.Objects.Mapping
 {
     using System.Runtime.CompilerServices;
     using net.openstack.Core.Domain.Mapping;

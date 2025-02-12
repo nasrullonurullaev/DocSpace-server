@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using JSIStudios.SimpleRESTServices.Client;
 using net.openstack.Core.Exceptions.Response;
 

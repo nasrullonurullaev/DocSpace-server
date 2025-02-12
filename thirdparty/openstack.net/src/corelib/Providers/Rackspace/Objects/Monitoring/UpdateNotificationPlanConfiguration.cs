@@ -1,4 +1,4 @@
-﻿namespace net.openstack.Providers.Rackspace.Objects.Monitoring
+namespace net.openstack.Providers.Rackspace.Objects.Monitoring
 {
     using System;
     using System.Collections.Generic;

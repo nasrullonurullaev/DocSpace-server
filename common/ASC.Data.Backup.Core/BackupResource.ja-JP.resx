@@ -118,12 +118,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BackupNotFound" xml:space="preserve">
-    <value>バックアップファイルが無効です。同ポータルで作成したファイルをご利用ください。</value>
+    <value>ãƒãƒƒã‚¯ã‚¢ãƒƒãƒ—ãƒ•ã‚¡ã‚¤ãƒ«ãŒç„¡åŠ¹ã§ã™ã€‚åŒãƒãƒ¼ã‚¿ãƒ«ã§ä½œæˆã—ãŸãƒ•ã‚¡ã‚¤ãƒ«ã‚’ã”åˆ©ç”¨ãã ã•ã„ã€‚</value>
   </data>
   <data name="ButtonSetPassword" xml:space="preserve">
-    <value>パスワードを設定する</value>
+    <value>ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã‚’è¨­å®šã™ã‚‹</value>
   </data>
   <data name="LargeBackup" xml:space="preserve">
-    <value>バックアップがポータルの合計サイズより大きいです</value>
+    <value>ãƒãƒƒã‚¯ã‚¢ãƒƒãƒ—ãŒãƒãƒ¼ã‚¿ãƒ«ã®åˆè¨ˆã‚µã‚¤ã‚ºã‚ˆã‚Šå¤§ãã„ã§ã™</value>
   </data>
 </root>

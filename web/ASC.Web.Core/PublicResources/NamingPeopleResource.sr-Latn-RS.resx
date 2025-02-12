@@ -124,7 +124,7 @@
     <value>Grupa</value>
   </data>
   <data name="CommonGroupHead" xml:space="preserve">
-    <value>Vođa</value>
+    <value>VoÄ‘a</value>
   </data>
   <data name="CommonGroups" xml:space="preserve">
     <value>Grupe</value>
@@ -139,7 +139,7 @@
     <value>Datum registracije</value>
   </data>
   <data name="CommonSchemaName" xml:space="preserve">
-    <value>Zajedničko</value>
+    <value>ZajedniÄko</value>
   </data>
   <data name="CommonUser" xml:space="preserve">
     <value>Korisnik</value>
@@ -157,7 +157,7 @@
     <value>Odeljenje</value>
   </data>
   <data name="DefaultGroupHead" xml:space="preserve">
-    <value>Vođa</value>
+    <value>VoÄ‘a</value>
   </data>
   <data name="DefaultGroups" xml:space="preserve">
     <value>Odeljenja</value>
@@ -184,7 +184,7 @@
     <value>Pozicija</value>
   </data>
   <data name="EducationAddUsers" xml:space="preserve">
-    <value>Dodaj učitelje/studente</value>
+    <value>Dodaj uÄitelje/studente</value>
   </data>
   <data name="EducationGroup" xml:space="preserve">
     <value>Grupa</value>
@@ -208,10 +208,10 @@
     <value>Obrazovna institucija</value>
   </data>
   <data name="EducationUser" xml:space="preserve">
-    <value>Učitelj/Student</value>
+    <value>UÄitelj/Student</value>
   </data>
   <data name="EducationUsers" xml:space="preserve">
-    <value>Učitelji/Studenti</value>
+    <value>UÄitelji/Studenti</value>
   </data>
   <data name="EducationUserTitle" xml:space="preserve">
     <value>Zvanje</value>

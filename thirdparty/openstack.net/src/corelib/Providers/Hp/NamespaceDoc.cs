@@ -1,4 +1,4 @@
-﻿namespace net.openstack.Providers.Hp
+namespace net.openstack.Providers.Hp
 {
     using System.Runtime.CompilerServices;
 

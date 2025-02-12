@@ -118,121 +118,121 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="pattern_DocuSignComplete" xml:space="preserve">
-    <value>h1. العنوان الرئيسي. تم اكتمال المسجلين $DocumentTitle
+    <value>h1. Ø§Ù„Ø¹Ù†ÙˆØ§Ù† Ø§Ù„Ø±Ø¦ÙŠØ³ÙŠ. ØªÙ… Ø§ÙƒØªÙ…Ø§Ù„ Ø§Ù„Ù…Ø³Ø¬Ù„ÙŠÙ† $DocumentTitle
 
-تم ارسال هذا الاشعار البريدي لاعلامك أنه تم اكمال التوقيع للجميع ."$DocumentTitle":"$DocumentURL".</value>
+ØªÙ… Ø§Ø±Ø³Ø§Ù„ Ù‡Ø°Ø§ Ø§Ù„Ø§Ø´Ø¹Ø§Ø± Ø§Ù„Ø¨Ø±ÙŠØ¯ÙŠ Ù„Ø§Ø¹Ù„Ø§Ù…Ùƒ Ø£Ù†Ù‡ ØªÙ… Ø§ÙƒÙ…Ø§Ù„ Ø§Ù„ØªÙˆÙ‚ÙŠØ¹ Ù„Ù„Ø¬Ù…ÙŠØ¹ ."$DocumentTitle":"$DocumentURL".</value>
   </data>
   <data name="pattern_DocuSignStatus" xml:space="preserve">
-    <value>h1. العنوان الرئيسي. $Message: $DocumentTitle
+    <value>h1. Ø§Ù„Ø¹Ù†ÙˆØ§Ù† Ø§Ù„Ø±Ø¦ÙŠØ³ÙŠ. $Message: $DocumentTitle
 
-قم بتسجيل الدخول لحساب DocuSign لمزيد من المعلومات.</value>
+Ù‚Ù… Ø¨ØªØ³Ø¬ÙŠÙ„ Ø§Ù„Ø¯Ø®ÙˆÙ„ Ù„Ø­Ø³Ø§Ø¨ DocuSign Ù„Ù…Ø²ÙŠØ¯ Ù…Ù† Ø§Ù„Ù…Ø¹Ù„ÙˆÙ…Ø§Øª.</value>
   </data>
   <data name="pattern_EditorMentions" xml:space="preserve">
-    <value>h1. العنوان الرئيسي. $__AuthorName قام بذكرك في تعليق على المستند
+    <value>h1. Ø§Ù„Ø¹Ù†ÙˆØ§Ù† Ø§Ù„Ø±Ø¦ÙŠØ³ÙŠ. $__AuthorName Ù‚Ø§Ù… Ø¨Ø°ÙƒØ±Ùƒ ÙÙŠ ØªØ¹Ù„ÙŠÙ‚ Ø¹Ù„Ù‰ Ø§Ù„Ù…Ø³ØªÙ†Ø¯
 
-$__AuthorName قام بذكرك في تعليق في "$DocumentTitle":"$DocumentURL" في غرفة المستند "$RoomTitle":"$RoomURL":
+$__AuthorName Ù‚Ø§Ù… Ø¨Ø°ÙƒØ±Ùƒ ÙÙŠ ØªØ¹Ù„ÙŠÙ‚ ÙÙŠ "$DocumentTitle":"$DocumentURL" ÙÙŠ ØºØ±ÙØ© Ø§Ù„Ù…Ø³ØªÙ†Ø¯ "$RoomTitle":"$RoomURL":
 
 $Message</value>
   </data>
   <data name="pattern_MailMergeEnd" xml:space="preserve">
-    <value>h1. العنوان الرئيسي. تم ارسال البريد الالكتروني
+    <value>h1. Ø§Ù„Ø¹Ù†ÙˆØ§Ù† Ø§Ù„Ø±Ø¦ÙŠØ³ÙŠ. ØªÙ… Ø§Ø±Ø³Ø§Ù„ Ø§Ù„Ø¨Ø±ÙŠØ¯ Ø§Ù„Ø§Ù„ÙƒØªØ±ÙˆÙ†ÙŠ
 
-تم ارسال هذا الاشعار البريدي لاعلامك بأن طلبك بارسال بريد الكتروني بعدد $MailsCount رسالة قد اكتمل الآن. $Message
+ØªÙ… Ø§Ø±Ø³Ø§Ù„ Ù‡Ø°Ø§ Ø§Ù„Ø§Ø´Ø¹Ø§Ø± Ø§Ù„Ø¨Ø±ÙŠØ¯ÙŠ Ù„Ø§Ø¹Ù„Ø§Ù…Ùƒ Ø¨Ø£Ù† Ø·Ù„Ø¨Ùƒ Ø¨Ø§Ø±Ø³Ø§Ù„ Ø¨Ø±ÙŠØ¯ Ø§Ù„ÙƒØªØ±ÙˆÙ†ÙŠ Ø¨Ø¹Ø¯Ø¯ $MailsCount Ø±Ø³Ø§Ù„Ø© Ù‚Ø¯ Ø§ÙƒØªÙ…Ù„ Ø§Ù„Ø¢Ù†. $Message
 
-يمكنك إيجاد البريد الالكتروني المرسل بنجاح في مجلد "مرسل":"$__VirtualRootPath/addons/mail/#sent" في صندوق البريد.</value>
+ÙŠÙ…ÙƒÙ†Ùƒ Ø¥ÙŠØ¬Ø§Ø¯ Ø§Ù„Ø¨Ø±ÙŠØ¯ Ø§Ù„Ø§Ù„ÙƒØªØ±ÙˆÙ†ÙŠ Ø§Ù„Ù…Ø±Ø³Ù„ Ø¨Ù†Ø¬Ø§Ø­ ÙÙŠ Ù…Ø¬Ù„Ø¯ "Ù…Ø±Ø³Ù„":"$__VirtualRootPath/addons/mail/#sent" ÙÙŠ ØµÙ†Ø¯ÙˆÙ‚ Ø§Ù„Ø¨Ø±ÙŠØ¯.</value>
   </data>
   <data name="pattern_RoomRemoved" xml:space="preserve">
-    <value>h1. العنوان الرئيسي. $__AuthorName قام بحذف الغرفة
+    <value>h1. Ø§Ù„Ø¹Ù†ÙˆØ§Ù† Ø§Ù„Ø±Ø¦ÙŠØ³ÙŠ. $__AuthorName Ù‚Ø§Ù… Ø¨Ø­Ø°Ù Ø§Ù„ØºØ±ÙØ©
 
-$__AuthorName قام بحذف الغرفة: $RoomTitle</value>
+$__AuthorName Ù‚Ø§Ù… Ø¨Ø­Ø°Ù Ø§Ù„ØºØ±ÙØ©: $RoomTitle</value>
   </data>
   <data name="pattern_ShareDocument" xml:space="preserve">
-    <value>h1. العنوان الرئيسي. تم منح الأذونات للمستند: "$DocumentTitle":"$DocumentURL"
+    <value>h1. Ø§Ù„Ø¹Ù†ÙˆØ§Ù† Ø§Ù„Ø±Ø¦ÙŠØ³ÙŠ. ØªÙ… Ù…Ù†Ø­ Ø§Ù„Ø£Ø°ÙˆÙ†Ø§Øª Ù„Ù„Ù…Ø³ØªÙ†Ø¯: "$DocumentTitle":"$DocumentURL"
 
-$__DateTime "$__AuthorName":"$__AuthorUrl" قام بمنح الأذونات للوصول للمستند "$DocumentTitle":"$DocumentURL" تتمنع الآن بهذه الصلاحيات "$AccessRights".
+$__DateTime "$__AuthorName":"$__AuthorUrl" Ù‚Ø§Ù… Ø¨Ù…Ù†Ø­ Ø§Ù„Ø£Ø°ÙˆÙ†Ø§Øª Ù„Ù„ÙˆØµÙˆÙ„ Ù„Ù„Ù…Ø³ØªÙ†Ø¯ "$DocumentTitle":"$DocumentURL" ØªØªÙ…Ù†Ø¹ Ø§Ù„Ø¢Ù† Ø¨Ù‡Ø°Ù‡ Ø§Ù„ØµÙ„Ø§Ø­ÙŠØ§Øª "$AccessRights".
 
 $Message</value>
   </data>
   <data name="pattern_ShareFolder" xml:space="preserve">
-    <value>h1. العنوان الرئيسي. تم منح الأذونات للمستند: "$DocumentTitle":"$DocumentURL"
+    <value>h1. Ø§Ù„Ø¹Ù†ÙˆØ§Ù† Ø§Ù„Ø±Ø¦ÙŠØ³ÙŠ. ØªÙ… Ù…Ù†Ø­ Ø§Ù„Ø£Ø°ÙˆÙ†Ø§Øª Ù„Ù„Ù…Ø³ØªÙ†Ø¯: "$DocumentTitle":"$DocumentURL"
 
-$__DateTime "$__AuthorName":"$__AuthorUrl" قام بمنح الأذونات للوصول للمجلد "$DocumentTitle":"$DocumentURL" تتمنع الآن بهذه الصلاحيات "$AccessRights".
+$__DateTime "$__AuthorName":"$__AuthorUrl" Ù‚Ø§Ù… Ø¨Ù…Ù†Ø­ Ø§Ù„Ø£Ø°ÙˆÙ†Ø§Øª Ù„Ù„ÙˆØµÙˆÙ„ Ù„Ù„Ù…Ø¬Ù„Ø¯ "$DocumentTitle":"$DocumentURL" ØªØªÙ…Ù†Ø¹ Ø§Ù„Ø¢Ù† Ø¨Ù‡Ø°Ù‡ Ø§Ù„ØµÙ„Ø§Ø­ÙŠØ§Øª "$AccessRights".
 
 $Message</value>
   </data>
   <data name="subject_DocuSignComplete" xml:space="preserve">
-    <value>المستندات. تم اكتمال المسجلين $DocumentTitle</value>
+    <value>Ø§Ù„Ù…Ø³ØªÙ†Ø¯Ø§Øª. ØªÙ… Ø§ÙƒØªÙ…Ø§Ù„ Ø§Ù„Ù…Ø³Ø¬Ù„ÙŠÙ† $DocumentTitle</value>
   </data>
   <data name="subject_DocuSignComplete_push" xml:space="preserve">
-    <value>تم اكتمال المسجلين في $DocumentTitle</value>
+    <value>ØªÙ… Ø§ÙƒØªÙ…Ø§Ù„ Ø§Ù„Ù…Ø³Ø¬Ù„ÙŠÙ† ÙÙŠ $DocumentTitle</value>
   </data>
   <data name="subject_DocuSignComplete_tg" xml:space="preserve">
-    <value>المستندات. تم اكتمال المسجلين [$DocumentTitle]($DocumentURL)</value>
+    <value>Ø§Ù„Ù…Ø³ØªÙ†Ø¯Ø§Øª. ØªÙ… Ø§ÙƒØªÙ…Ø§Ù„ Ø§Ù„Ù…Ø³Ø¬Ù„ÙŠÙ† [$DocumentTitle]($DocumentURL)</value>
   </data>
   <data name="subject_DocuSignStatus" xml:space="preserve">
-    <value>المستندات. تم تغيير حالة التسجيل</value>
+    <value>Ø§Ù„Ù…Ø³ØªÙ†Ø¯Ø§Øª. ØªÙ… ØªØºÙŠÙŠØ± Ø­Ø§Ù„Ø© Ø§Ù„ØªØ³Ø¬ÙŠÙ„</value>
   </data>
   <data name="subject_DocuSignStatus_push" xml:space="preserve">
-    <value>تم تغيير حالة التسجيل</value>
+    <value>ØªÙ… ØªØºÙŠÙŠØ± Ø­Ø§Ù„Ø© Ø§Ù„ØªØ³Ø¬ÙŠÙ„</value>
   </data>
   <data name="subject_EditorMentions" xml:space="preserve">
-    <value>اشعار DocSpace. تم ذكرك في مستند</value>
+    <value>Ø§Ø´Ø¹Ø§Ø± DocSpace. ØªÙ… Ø°ÙƒØ±Ùƒ ÙÙŠ Ù…Ø³ØªÙ†Ø¯</value>
   </data>
   <data name="subject_MailMergeEnd" xml:space="preserve">
-    <value>المستندات. تم اكتمال ارسال البريد.</value>
+    <value>Ø§Ù„Ù…Ø³ØªÙ†Ø¯Ø§Øª. ØªÙ… Ø§ÙƒØªÙ…Ø§Ù„ Ø§Ø±Ø³Ø§Ù„ Ø§Ù„Ø¨Ø±ÙŠØ¯.</value>
   </data>
   <data name="subject_MailMergeEnd_push" xml:space="preserve">
-    <value>تم اكتمال ارسال البريد.</value>
+    <value>ØªÙ… Ø§ÙƒØªÙ…Ø§Ù„ Ø§Ø±Ø³Ø§Ù„ Ø§Ù„Ø¨Ø±ÙŠØ¯.</value>
   </data>
   <data name="subject_RoomRemoved" xml:space="preserve">
-    <value>اشعار DocSpace. تم حذف الغرفة</value>
+    <value>Ø§Ø´Ø¹Ø§Ø± DocSpace. ØªÙ… Ø­Ø°Ù Ø§Ù„ØºØ±ÙØ©</value>
   </data>
   <data name="subject_ShareDocument" xml:space="preserve">
-    <value>المستندات. تم منح الوصول للمستند: $DocumentTitle</value>
+    <value>Ø§Ù„Ù…Ø³ØªÙ†Ø¯Ø§Øª. ØªÙ… Ù…Ù†Ø­ Ø§Ù„ÙˆØµÙˆÙ„ Ù„Ù„Ù…Ø³ØªÙ†Ø¯: $DocumentTitle</value>
   </data>
   <data name="subject_ShareDocument_push" xml:space="preserve">
-    <value>تم منح الوصول للمستند: $DocumentTitle</value>
+    <value>ØªÙ… Ù…Ù†Ø­ Ø§Ù„ÙˆØµÙˆÙ„ Ù„Ù„Ù…Ø³ØªÙ†Ø¯: $DocumentTitle</value>
   </data>
   <data name="subject_ShareDocument_tg" xml:space="preserve">
-    <value>المستندات. تم منح الوصول للمستند: [$DocumentTitle]($DocumentURL)</value>
+    <value>Ø§Ù„Ù…Ø³ØªÙ†Ø¯Ø§Øª. ØªÙ… Ù…Ù†Ø­ Ø§Ù„ÙˆØµÙˆÙ„ Ù„Ù„Ù…Ø³ØªÙ†Ø¯: [$DocumentTitle]($DocumentURL)</value>
   </data>
   <data name="subject_ShareEncryptedDocument_push" xml:space="preserve">
-    <value>تم منح الوصول للمستند: $DocumentTitle</value>
+    <value>ØªÙ… Ù…Ù†Ø­ Ø§Ù„ÙˆØµÙˆÙ„ Ù„Ù„Ù…Ø³ØªÙ†Ø¯: $DocumentTitle</value>
   </data>
   <data name="subject_ShareFolder" xml:space="preserve">
-    <value>المستندات. تم منح الوصول للمجلد: $DocumentTitle</value>
+    <value>Ø§Ù„Ù…Ø³ØªÙ†Ø¯Ø§Øª. ØªÙ… Ù…Ù†Ø­ Ø§Ù„ÙˆØµÙˆÙ„ Ù„Ù„Ù…Ø¬Ù„Ø¯: $DocumentTitle</value>
   </data>
   <data name="subject_ShareFolder_push" xml:space="preserve">
-    <value>تم منح الوصول للمجلد: $DocumentTitle</value>
+    <value>ØªÙ… Ù…Ù†Ø­ Ø§Ù„ÙˆØµÙˆÙ„ Ù„Ù„Ù…Ø¬Ù„Ø¯: $DocumentTitle</value>
   </data>
   <data name="subject_ShareFolder_tg" xml:space="preserve">
-    <value>المستندات. تم منح الوصول للمجلد: [$DocumentTitle]($DocumentURL)</value>
+    <value>Ø§Ù„Ù…Ø³ØªÙ†Ø¯Ø§Øª. ØªÙ… Ù…Ù†Ø­ Ø§Ù„ÙˆØµÙˆÙ„ Ù„Ù„Ù…Ø¬Ù„Ø¯: [$DocumentTitle]($DocumentURL)</value>
   </data>
   <data name="button_CheckReadyForms" xml:space="preserve">
-    <value>فحص النماذج الجاهزة</value>
+    <value>ÙØ­Øµ Ø§Ù„Ù†Ù…Ø§Ø°Ø¬ Ø§Ù„Ø¬Ø§Ù‡Ø²Ø©</value>
   </data>
   <data name="pattern_FormReceived" xml:space="preserve">
-    <value>1h. النموذج $Message تم ملؤه
+    <value>1h. Ø§Ù„Ù†Ù…ÙˆØ°Ø¬ $Message ØªÙ… Ù…Ù„Ø¤Ù‡
 
-تم ملء نموذج جديد "$DocumentTitle":"$DocumentURL" في الغرفة "$RoomTitle":"$RoomURL"
+ØªÙ… Ù…Ù„Ø¡ Ù†Ù…ÙˆØ°Ø¬ Ø¬Ø¯ÙŠØ¯ "$DocumentTitle":"$DocumentURL" ÙÙŠ Ø§Ù„ØºØ±ÙØ© "$RoomTitle":"$RoomURL"
 
-مقدم النموذج: "$FromUserName":"$FromUserLink"
+Ù…Ù‚Ø¯Ù… Ø§Ù„Ù†Ù…ÙˆØ°Ø¬: "$FromUserName":"$FromUserLink"
 
 OrangeButton$</value>
   </data>
   <data name="pattern_FormSubmitted" xml:space="preserve">
-    <value>1h. لقد ملأت النموذج $Message
+    <value>1h. Ù„Ù‚Ø¯ Ù…Ù„Ø£Øª Ø§Ù„Ù†Ù…ÙˆØ°Ø¬ $Message
 
-لقد ملأت النموذج "$DocumentTitle":"$DocumentURL" في الغرفة "$RoomTitle":"$RoomURL"
+Ù„Ù‚Ø¯ Ù…Ù„Ø£Øª Ø§Ù„Ù†Ù…ÙˆØ°Ø¬ "$DocumentTitle":"$DocumentURL" ÙÙŠ Ø§Ù„ØºØ±ÙØ© "$RoomTitle":"$RoomURL"
 
-المدير: "$ToUserName":"$ToUserLink"
+Ø§Ù„Ù…Ø¯ÙŠØ±: "$ToUserName":"$ToUserLink"
 
 $OrangeButton</value>
   </data>
   <data name="subject_FormReceived" xml:space="preserve">
-    <value>إشعار DocSpace. تم تعبئة النموذج</value>
+    <value>Ø¥Ø´Ø¹Ø§Ø± DocSpace. ØªÙ… ØªØ¹Ø¨Ø¦Ø© Ø§Ù„Ù†Ù…ÙˆØ°Ø¬</value>
   </data>
   <data name="subject_FormSubmitted" xml:space="preserve">
-    <value>إشعار DocSpace. تم تعبئة النموذج</value>
+    <value>Ø¥Ø´Ø¹Ø§Ø± DocSpace. ØªÙ… ØªØ¹Ø¨Ø¦Ø© Ø§Ù„Ù†Ù…ÙˆØ°Ø¬</value>
   </data>
 </root>

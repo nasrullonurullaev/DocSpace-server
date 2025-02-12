@@ -37,7 +37,7 @@ namespace ASC.Common.Tests.Utils
         [Test]
         public void Encode()
         {
-            Assert.AreEqual("=?utf-8?B?0YrRitGK?=", MimeHeaderUtils.EncodeMime("ъъъ"));
+            Assert.AreEqual("=?utf-8?B?0YrRitGK?=", MimeHeaderUtils.EncodeMime("ÑŠÑŠÑŠ"));
             Assert.AreEqual("ddd", MimeHeaderUtils.EncodeMime("ddd"));
         }
     }

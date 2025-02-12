@@ -1,4 +1,4 @@
-﻿Imports net.openstack.Core.Domain
+Imports net.openstack.Core.Domain
 Imports net.openstack.Providers.Rackspace
 
 Public Class IdentityProviderExamples

@@ -118,12 +118,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ButtonSetPassword" xml:space="preserve">
-    <value>Uzstādīt paroli</value>
+    <value>UzstÄdÄ«t paroli</value>
   </data>
   <data name="BackupNotFound" xml:space="preserve">
-    <value>Dublējuma fails ir nederīgs. Izmantojiet failu, kas izveidots ONLYOFFICE v11.5 vai jaunākā versijā.</value>
+    <value>DublÄ“juma fails ir nederÄ«gs. Izmantojiet failu, kas izveidots ONLYOFFICE v11.5 vai jaunÄkÄ versijÄ.</value>
   </data>
   <data name="LargeBackup" xml:space="preserve">
-    <value>Dublējums ir lielāks par kopējo portāla izmēru</value>
+    <value>DublÄ“jums ir lielÄks par kopÄ“jo portÄla izmÄ“ru</value>
   </data>
 </root>

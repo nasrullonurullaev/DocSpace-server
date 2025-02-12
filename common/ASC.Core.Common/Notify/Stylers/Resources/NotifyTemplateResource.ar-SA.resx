@@ -131,19 +131,19 @@
             &lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr border="0" cellspacing="0" cellpadding="0"&gt;
-            &lt;td style="vertical-align: top; margin: 0; padding: 0; width: 210px; height: 16px; background: #f6f6f6;"&gt;هل تريد مساعدة تقنية؟&lt;/td&gt;
-            &lt;td style="vertical-align: top; margin: 0; padding: 0; width: 180px; height: 16px; background: #f6f6f6;"&gt;أسئلة المبيعات&lt;/td&gt;
-            &lt;td style="vertical-align: top; margin: 0; padding: 0; width: 210px; height: 16px; background: #f6f6f6;"&gt;طلب تجريبي&lt;/td&gt;
+            &lt;td style="vertical-align: top; margin: 0; padding: 0; width: 210px; height: 16px; background: #f6f6f6;"&gt;Ù‡Ù„ ØªØ±ÙŠØ¯ Ù…Ø³Ø§Ø¹Ø¯Ø© ØªÙ‚Ù†ÙŠØ©ØŸ&lt;/td&gt;
+            &lt;td style="vertical-align: top; margin: 0; padding: 0; width: 180px; height: 16px; background: #f6f6f6;"&gt;Ø£Ø³Ø¦Ù„Ø© Ø§Ù„Ù…Ø¨ÙŠØ¹Ø§Øª&lt;/td&gt;
+            &lt;td style="vertical-align: top; margin: 0; padding: 0; width: 210px; height: 16px; background: #f6f6f6;"&gt;Ø·Ù„Ø¨ ØªØ¬Ø±ÙŠØ¨ÙŠ&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr border="0" cellspacing="0" cellpadding="0"&gt;
             &lt;td style="vertical-align: top; margin: 0; padding: 0 0 30px; width: 210px; background: #f6f6f6;-moz-border-radius-bottomleft: 6px; -webkit-border-bottom-left-radius: 6px; border-bottom-left-radius: 6px;"&gt;
-              &lt;a href="%SUPPORTURL%" target="_blank" style="color: #333;"&gt;أرسل سؤالك&lt;/a&gt;
+              &lt;a href="%SUPPORTURL%" target="_blank" style="color: #333;"&gt;Ø£Ø±Ø³Ù„ Ø³Ø¤Ø§Ù„Ùƒ&lt;/a&gt;
             &lt;/td&gt;
             &lt;td style="vertical-align: top; margin: 0; padding: 0 0 30px; width: 180px; background: #f6f6f6;"&gt;
-              &lt;a href="mailto:%SALESEMAIL%" style="color: #333;"&gt;تواصل معنا عبر الايميل&lt;/a&gt;
+              &lt;a href="mailto:%SALESEMAIL%" style="color: #333;"&gt;ØªÙˆØ§ØµÙ„ Ù…Ø¹Ù†Ø§ Ø¹Ø¨Ø± Ø§Ù„Ø§ÙŠÙ…ÙŠÙ„&lt;/a&gt;
             &lt;/td&gt;
             &lt;td style="vertical-align: top; margin: 0; padding: 0 0 30px; width: 210px; background: #f6f6f6;-moz-border-radius-bottomright: 6px; -webkit-border-bottom-right-radius: 6px; border-bottom-right-radius: 6px;"&gt;
-              &lt;a href="%DEMOURL%" target="_blank" style="color: #333;"&gt; أرسل طلب&lt;/a&gt;
+              &lt;a href="%DEMOURL%" target="_blank" style="color: #333;"&gt; Ø£Ø±Ø³Ù„ Ø·Ù„Ø¨&lt;/a&gt;
             &lt;/td&gt;
         &lt;/tr&gt;</value>
   </data>
@@ -161,19 +161,19 @@
             &lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr border="0" cellspacing="0" cellpadding="0"&gt;
-            &lt;td style="vertical-align: top; margin: 0; padding: 0; width: 210px; height: 16px; background: #f6f6f6;"&gt;هل تريد مساعدة تقنية؟&lt;/td&gt;
-            &lt;td style="vertical-align: top; margin: 0; padding: 0; width: 180px; height: 16px; background: #f6f6f6;"&gt;أسئلة المبيعات&lt;/td&gt;
-            &lt;td style="vertical-align: top; margin: 0; padding: 0; width: 210px; height: 16px; background: #f6f6f6;"&gt;طلب تجريبي&lt;/td&gt;
+            &lt;td style="vertical-align: top; margin: 0; padding: 0; width: 210px; height: 16px; background: #f6f6f6;"&gt;Ù‡Ù„ ØªØ±ÙŠØ¯ Ù…Ø³Ø§Ø¹Ø¯Ø© ØªÙ‚Ù†ÙŠØ©ØŸ&lt;/td&gt;
+            &lt;td style="vertical-align: top; margin: 0; padding: 0; width: 180px; height: 16px; background: #f6f6f6;"&gt;Ø£Ø³Ø¦Ù„Ø© Ø§Ù„Ù…Ø¨ÙŠØ¹Ø§Øª&lt;/td&gt;
+            &lt;td style="vertical-align: top; margin: 0; padding: 0; width: 210px; height: 16px; background: #f6f6f6;"&gt;Ø·Ù„Ø¨ ØªØ¬Ø±ÙŠØ¨ÙŠ&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr border="0" cellspacing="0" cellpadding="0"&gt;
             &lt;td style="vertical-align: top; margin: 0; padding: 0 0 30px; width: 210px; background: #f6f6f6;-moz-border-radius-bottomleft: 6px; -webkit-border-bottom-left-radius: 6px; border-bottom-left-radius: 6px;"&gt;
-              &lt;a href="http://dev.onlyoffice.org/" target="_blank" style="color: #333;"&gt;اسأل المجتمع&lt;/a&gt;
+              &lt;a href="http://dev.onlyoffice.org/" target="_blank" style="color: #333;"&gt;Ø§Ø³Ø£Ù„ Ø§Ù„Ù…Ø¬ØªÙ…Ø¹&lt;/a&gt;
             &lt;/td&gt;
             &lt;td style="vertical-align: top; margin: 0; padding: 0 0 30px; width: 180px; background: #f6f6f6;"&gt;
-              &lt;a href="mailto:sales@onlyoffice.com" style="color: #333;"&gt;تواصل معنا عبر الايميل&lt;/a&gt;
+              &lt;a href="mailto:sales@onlyoffice.com" style="color: #333;"&gt;ØªÙˆØ§ØµÙ„ Ù…Ø¹Ù†Ø§ Ø¹Ø¨Ø± Ø§Ù„Ø§ÙŠÙ…ÙŠÙ„&lt;/a&gt;
             &lt;/td&gt;
             &lt;td style="vertical-align: top; margin: 0; padding: 0 0 30px; width: 210px; background: #f6f6f6;-moz-border-radius-bottomright: 6px; -webkit-border-bottom-right-radius: 6px; border-bottom-right-radius: 6px;"&gt;
-              &lt;a href="https://www.onlyoffice.com/demo-order.aspx" target="_blank" style="color: #333;"&gt;أرسل طلب&lt;/a&gt;
+              &lt;a href="https://www.onlyoffice.com/demo-order.aspx" target="_blank" style="color: #333;"&gt;Ø£Ø±Ø³Ù„ Ø·Ù„Ø¨&lt;/a&gt;
             &lt;/td&gt;
         &lt;/tr&gt;</value>
   </data>
@@ -248,16 +248,16 @@
   <data name="TextForFooterUnsubsribe" xml:space="preserve">
     <value>&lt;tr border="0" cellspacing="0" cellpadding="0"&gt;
     &lt;td class="fol" style="color: #666666; font-family: 'Open Sans', Helvetica, Arial, Tahoma, sans-serif; font-size: 13px; line-height: 20px; margin: 0; padding: 40px 0 8px; vertical-align: top;"&gt;
-        لأي استفسارات بخصوص الدفع، قم بمراسلتنا على &lt;a style="color: #FF6F3D; text-decoration: underline;" target="_blank" href="mailto:%SALESEMAIL%"&gt;%SALESEMAIL%&lt;/a&gt;.
+        Ù„Ø£ÙŠ Ø§Ø³ØªÙØ³Ø§Ø±Ø§Øª Ø¨Ø®ØµÙˆØµ Ø§Ù„Ø¯ÙØ¹ØŒ Ù‚Ù… Ø¨Ù…Ø±Ø§Ø³Ù„ØªÙ†Ø§ Ø¹Ù„Ù‰ &lt;a style="color: #FF6F3D; text-decoration: underline;" target="_blank" href="mailto:%SALESEMAIL%"&gt;%SALESEMAIL%&lt;/a&gt;.
     &lt;/td&gt;
 &lt;tr border="0" cellspacing="0" cellpadding="0"&gt;
     &lt;td class="fol" style="color: #666666; font-family: 'Open Sans', Helvetica, Arial, Tahoma, sans-serif; font-size: 13px; line-height: 20px; margin: 0; padding: 0; vertical-align: top;"&gt;
-        في حال واجهتك أي مشاكل تقنية تواصل مع &lt;a style="color: #FF6F3D; text-decoration: underline;" target="_blank" href="%SUPPORTURL%"&gt;فريق الدعم&lt;/a&gt;.
+        ÙÙŠ Ø­Ø§Ù„ ÙˆØ§Ø¬Ù‡ØªÙƒ Ø£ÙŠ Ù…Ø´Ø§ÙƒÙ„ ØªÙ‚Ù†ÙŠØ© ØªÙˆØ§ØµÙ„ Ù…Ø¹ &lt;a style="color: #FF6F3D; text-decoration: underline;" target="_blank" href="%SUPPORTURL%"&gt;ÙØ±ÙŠÙ‚ Ø§Ù„Ø¯Ø¹Ù…&lt;/a&gt;.
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr border="0" cellspacing="0" cellpadding="0"&gt;
     &lt;td class="fol" style="font-family: 'Open Sans', Helvetica, Arial, Tahoma, sans-serif; font-size: 13px; line-height: 20px; margin: 0; padding: 8px 0 0; vertical-align: top;"&gt;
-        &lt;a href="{1}" style="color: #FF6F3D; text-decoration: underline; white-space: nowrap;" target="_blank"&gt;اضغط هنا لإلغاء الاشتراك&lt;/a&gt;
+        &lt;a href="{1}" style="color: #FF6F3D; text-decoration: underline; white-space: nowrap;" target="_blank"&gt;Ø§Ø¶ØºØ· Ù‡Ù†Ø§ Ù„Ø¥Ù„ØºØ§Ø¡ Ø§Ù„Ø§Ø´ØªØ±Ø§Ùƒ&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;</value>
   </data>

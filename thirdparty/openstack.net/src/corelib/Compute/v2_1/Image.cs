@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Extensions;
 using System.Runtime.Serialization;
 using System.Threading;

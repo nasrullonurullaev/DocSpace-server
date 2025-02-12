@@ -118,32 +118,32 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="pattern_enterprise_whitelabel_user_welcome_custom_mode_v1" xml:space="preserve">
-    <value>Olá, $UserName!
+    <value>OlÃ¡, $UserName!
 
-Seja bem-vindo(a) ao DocSpace da ONLYOFFICE! O seu perfil de utilizador foi adicionado com êxito ao "${__VirtualRootPath}":"${__VirtualRootPath}". Agora pode:
+Seja bem-vindo(a) ao DocSpace da ONLYOFFICE! O seu perfil de utilizador foi adicionado com Ãªxito ao "${__VirtualRootPath}":"${__VirtualRootPath}". Agora pode:
 
-* Trabalhar com outros utilizadores na sala para onde o convidaram*: colaboração em tempo real para a coautoria ou salas personalizáveis com definições flexíveis para qualquer propósito*.
+* Trabalhar com outros utilizadores na sala para onde o convidaram*: colaboraÃ§Ã£o em tempo real para a coautoria ou salas personalizÃ¡veis com definiÃ§Ãµes flexÃ­veis para qualquer propÃ³sito*.
 
-* *Trabalhe com ficheiros com formatos diferentes*: documentos de texto, folhas de cálculo, apresentações, formulários digitais, PDFs, e-books, multimédia.
+* *Trabalhe com ficheiros com formatos diferentes*: documentos de texto, folhas de cÃ¡lculo, apresentaÃ§Ãµes, formulÃ¡rios digitais, PDFs, e-books, multimÃ©dia.
 
-* *Colabore em documentos* com dois modos de coedição: em tempo real ou com trancamento de parágrafos. Registe as alterações, comunique em tempo real utilizando o chat incorporado ou ao fazer uma chamada de áudio ou vídeo.
+* *Colabore em documentos* com dois modos de coediÃ§Ã£o: em tempo real ou com trancamento de parÃ¡grafos. Registe as alteraÃ§Ãµes, comunique em tempo real utilizando o chat incorporado ou ao fazer uma chamada de Ã¡udio ou vÃ­deo.
 
-* *Associe qualquer armazenamento em núvem* e trabalhe sem ter que estar a alternar entre aplicações.
+* *Associe qualquer armazenamento em nÃºvem* e trabalhe sem ter que estar a alternar entre aplicaÃ§Ãµes.
 
 $OrangeButton
 
-Se precisar de ajuda, navegue através do nosso "Centro de Ajuda":"${__HelpLink}" ou contacte a nossa "Equipa de suporte":"${__SupportLink}".
+Se precisar de ajuda, navegue atravÃ©s do nosso "Centro de Ajuda":"${__HelpLink}" ou contacte a nossa "Equipa de suporte":"${__SupportLink}".
 
 $TrulyYours</value>
   </data>
   <data name="ProductAdminOpportunitiesCustomMode" xml:space="preserve">
-    <value>Faça o mesmo como utilizador|Associe o Dropbox, Box e outras contas na Secção ‘comum’|Configure os direitos de acesso aos documentos e pastas na Secção ‘Comum’</value>
+    <value>FaÃ§a o mesmo como utilizador|Associe o Dropbox, Box e outras contas na SecÃ§Ã£o â€˜comumâ€™|Configure os direitos de acesso aos documentos e pastas na SecÃ§Ã£o â€˜Comumâ€™</value>
   </data>
   <data name="ProductUserOpportunitiesCustomMode" xml:space="preserve">
-    <value>Crie e edite os seus próprios documentos, bem como os documentos partilhados, com os direitos de acesso adequados|Conceder a outros utilizadores acesso de leitura/edição aos documentos e pastas|Ligar o Dropbox, Box e outras contas na secção 'Os meus documentos'</value>
+    <value>Crie e edite os seus prÃ³prios documentos, bem como os documentos partilhados, com os direitos de acesso adequados|Conceder a outros utilizadores acesso de leitura/ediÃ§Ã£o aos documentos e pastas|Ligar o Dropbox, Box e outras contas na secÃ§Ã£o 'Os meus documentos'</value>
   </data>
   <data name="subject_remove_user_data_completed_custom_mode" xml:space="preserve">
-    <value>${LetterLogoText}. A eliminação dos dados do utilizador foi concluída</value>
+    <value>${LetterLogoText}. A eliminaÃ§Ã£o dos dados do utilizador foi concluÃ­da</value>
   </data>
   <data name="subject_saas_custom_mode_reg_data" xml:space="preserve">
     <value>Um novo portal foi registado</value>
@@ -151,18 +151,18 @@ $TrulyYours</value>
   <data name="pattern_remove_user_data_completed_custom_mode" xml:space="preserve">
     <value>Caro $UserName,
 
-O processo de remover os dados de "$FromUserName":"$FromUserLink" foi concluído com êxito.
+O processo de remover os dados de "$FromUserName":"$FromUserLink" foi concluÃ­do com Ãªxito.
 
-A eliminação dos seus dados pessoais libertou $DocsSpace</value>
+A eliminaÃ§Ã£o dos seus dados pessoais libertou $DocsSpace</value>
   </data>
   <data name="pattern_saas_custom_mode_reg_data" xml:space="preserve">
     <value>h3.Um novo portal foi registado
 
 # Portal url: "${__VirtualRootPath}":"${__VirtualRootPath}"
 # Primeiro nome: $UserName
-# Último nome: $UserLastName
+# Ãšltimo nome: $UserLastName
 # E-mail: $UserEmail
-# Telemóvel: $Phone
-# Data da Criação: $Date</value>
+# TelemÃ³vel: $Phone
+# Data da CriaÃ§Ã£o: $Date</value>
   </data>
 </root>

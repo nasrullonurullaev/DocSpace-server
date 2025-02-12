@@ -1,4 +1,4 @@
-﻿namespace net.openstack.Core.Exceptions.Response
+namespace net.openstack.Core.Exceptions.Response
 {
     using System.Runtime.CompilerServices;
 

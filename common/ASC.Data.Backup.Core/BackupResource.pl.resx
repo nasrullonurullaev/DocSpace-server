@@ -118,12 +118,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ButtonSetPassword" xml:space="preserve">
-    <value>Ustaw hasło</value>
+    <value>Ustaw hasÅ‚o</value>
   </data>
   <data name="BackupNotFound" xml:space="preserve">
-    <value>Plik kopii zapasowej jest nieprawidłowy. Użyj pliku utworzonego w wersji 11.5 ONLYOFFICE lub nowszej.</value>
+    <value>Plik kopii zapasowej jest nieprawidÅ‚owy. UÅ¼yj pliku utworzonego w wersji 11.5 ONLYOFFICE lub nowszej.</value>
   </data>
   <data name="LargeBackup" xml:space="preserve">
-    <value>Kopia zapasowa jest większa od całkowitego rozmiaru portalu</value>
+    <value>Kopia zapasowa jest wiÄ™ksza od caÅ‚kowitego rozmiaru portalu</value>
   </data>
 </root>

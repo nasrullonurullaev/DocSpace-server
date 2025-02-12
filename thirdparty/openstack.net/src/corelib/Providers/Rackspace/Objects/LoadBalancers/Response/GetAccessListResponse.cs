@@ -1,4 +1,4 @@
-﻿namespace net.openstack.Providers.Rackspace.Objects.LoadBalancers.Response
+namespace net.openstack.Providers.Rackspace.Objects.LoadBalancers.Response
 {
     using System.Collections.ObjectModel;
     using Newtonsoft.Json;

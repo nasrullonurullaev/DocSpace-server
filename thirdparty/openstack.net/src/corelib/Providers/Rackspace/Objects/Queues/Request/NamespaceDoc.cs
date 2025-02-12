@@ -1,4 +1,4 @@
-﻿namespace net.openstack.Providers.Rackspace.Objects.Queues.Request
+namespace net.openstack.Providers.Rackspace.Objects.Queues.Request
 {
     using System.Runtime.CompilerServices;
 

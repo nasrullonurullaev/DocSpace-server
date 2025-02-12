@@ -1,4 +1,4 @@
-﻿namespace net.openstack.Core.Caching
+namespace net.openstack.Core.Caching
 {
     using System;
 

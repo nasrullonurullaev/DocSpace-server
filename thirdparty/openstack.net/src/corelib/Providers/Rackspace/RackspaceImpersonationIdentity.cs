@@ -1,4 +1,4 @@
-﻿using net.openstack.Providers.Rackspace.Objects;
+using net.openstack.Providers.Rackspace.Objects;
 
 namespace net.openstack.Providers.Rackspace
 {

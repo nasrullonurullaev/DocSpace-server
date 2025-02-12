@@ -118,21 +118,21 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="MyFiles" xml:space="preserve">
-    <value>ලේඛන</value>
+    <value>à¶½à·šà¶›à¶±</value>
   </data>
   <data name="SharedForMe" xml:space="preserve">
-    <value>මා සමඟ බෙදාගත්</value>
+    <value>à¶¸à· à·ƒà¶¸à¶Ÿ à¶¶à·™à¶¯à·à¶œà¶­à·Š</value>
   </data>
   <data name="VirtualRooms" xml:space="preserve">
-    <value>කාමර</value>
+    <value>à¶šà·à¶¸à¶»</value>
   </data>
   <data name="Archive" xml:space="preserve">
-    <value>සංරක්‍ෂණය</value>
+    <value>à·ƒà¶‚à¶»à¶šà·Šâ€à·‚à¶«à¶º</value>
   </data>
   <data name="CorporateFiles" xml:space="preserve">
-    <value>සාමාන්‍ය</value>
+    <value>à·ƒà·à¶¸à·à¶±à·Šâ€à¶º</value>
   </data>
   <data name="Trash" xml:space="preserve">
-    <value>කුණුකූඩයට</value>
+    <value>à¶šà·”à¶«à·”à¶šà·–à¶©à¶ºà¶§</value>
   </data>
 </root>

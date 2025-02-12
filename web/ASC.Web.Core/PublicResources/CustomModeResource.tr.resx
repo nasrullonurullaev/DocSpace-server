@@ -120,49 +120,49 @@
   <data name="pattern_enterprise_whitelabel_user_welcome_custom_mode_v1" xml:space="preserve">
     <value>Merhaba, $UserName!
 
-ONLYOFFICE DocSpace'e hoş geldiniz! Kullanıcı profiliniz "${__VirtualRootPath}":"${__VirtualRootPath}" konumuna başarıyla eklendi. Şimdi yapabilecekleriniz:
+ONLYOFFICE DocSpace'e hoÅŸ geldiniz! KullanÄ±cÄ± profiliniz "${__VirtualRootPath}":"${__VirtualRootPath}" konumuna baÅŸarÄ±yla eklendi. Åžimdi yapabilecekleriniz:
 
-* Davet edildiğiniz odadaki diğer kullanıcılarla birlikte çalışmak*: gerçek zamanlı birlikte yazma için ortak çalışma odaları veya herhangi bir amaç için esnek ayarlara sahip özel odalar*.
+* Davet edildiÄŸiniz odadaki diÄŸer kullanÄ±cÄ±larla birlikte Ã§alÄ±ÅŸmak*: gerÃ§ek zamanlÄ± birlikte yazma iÃ§in ortak Ã§alÄ±ÅŸma odalarÄ± veya herhangi bir amaÃ§ iÃ§in esnek ayarlara sahip Ã¶zel odalar*.
 
-* *Farklı biçimlerdeki dosyalarla çalışmak*: metin belgeleri, elektronik tablolar, sunumlar, dijital formlar, PDF'ler, e-kitaplar, multimedya.
+* *FarklÄ± biÃ§imlerdeki dosyalarla Ã§alÄ±ÅŸmak*: metin belgeleri, elektronik tablolar, sunumlar, dijital formlar, PDF'ler, e-kitaplar, multimedya.
 
-* *İki ortak düzenleme moduyla belgeler üzerinde iş birliği yapmak*: gerçek zamanlı veya paragraf kilitleme. Değişiklikleri takip edin, yerleşik sohbeti kullanarak veya sesli ve görüntülü aramalar yaparak gerçek zamanlı olarak iletişim kurun.
+* *Ä°ki ortak dÃ¼zenleme moduyla belgeler Ã¼zerinde iÅŸ birliÄŸi yapmak*: gerÃ§ek zamanlÄ± veya paragraf kilitleme. DeÄŸiÅŸiklikleri takip edin, yerleÅŸik sohbeti kullanarak veya sesli ve gÃ¶rÃ¼ntÃ¼lÃ¼ aramalar yaparak gerÃ§ek zamanlÄ± olarak iletiÅŸim kurun.
 
-* *Herhangi bir bulut depolama alanını bağlamak* ve uygulamalar arasında geçiş yapmadan çalışmak.
+* *Herhangi bir bulut depolama alanÄ±nÄ± baÄŸlamak* ve uygulamalar arasÄ±nda geÃ§iÅŸ yapmadan Ã§alÄ±ÅŸmak.
 
 $OrangeButton
 
-Yardıma ihtiyacınız varsa "Yardım Merkezimize":"${__HelpLink}" göz atın veya "destek ekibimize":"${__SupportLink}" sorun.
+YardÄ±ma ihtiyacÄ±nÄ±z varsa "YardÄ±m Merkezimize":"${__HelpLink}" gÃ¶z atÄ±n veya "destek ekibimize":"${__SupportLink}" sorun.
 
 $TrulyYours</value>
   </data>
   <data name="pattern_remove_user_data_completed_custom_mode" xml:space="preserve">
-    <value>Sayın $UserName,
+    <value>SayÄ±n $UserName,
 
-"$FromUserName":"$FromUserLink" kullanıcısından veri silme işlemi başarıyla tamamlandı.
+"$FromUserName":"$FromUserLink" kullanÄ±cÄ±sÄ±ndan veri silme iÅŸlemi baÅŸarÄ±yla tamamlandÄ±.
 
-Aşağıdakileri boşaltmak üzere kişisel veri silinmesine izin verilmiştir: $DocsSpace</value>
+AÅŸaÄŸÄ±dakileri boÅŸaltmak Ã¼zere kiÅŸisel veri silinmesine izin verilmiÅŸtir: $DocsSpace</value>
   </data>
   <data name="pattern_saas_custom_mode_reg_data" xml:space="preserve">
     <value>h3.Yeni portal kaydedildi
 
-#Portal url’si: "${__VirtualRootPath}":"${__VirtualRootPath}"
+#Portal urlâ€™si: "${__VirtualRootPath}":"${__VirtualRootPath}"
 # Ad: $UserName
 # Soyad: $UserLastName
 # E-posta: "$UserEmail"
 # Telefon: $Phone
-# Oluşturma tarihi: $Date</value>
+# OluÅŸturma tarihi: $Date</value>
   </data>
   <data name="ProductAdminOpportunitiesCustomMode" xml:space="preserve">
-    <value>Kullanıcı olarak aynı şeyi yapın|'Ortak' bölümünde Dropbox, Box ve diğer hesapları 'Ortak' bölümünde bağlayın|'Ortak' bölümünde belgelere ve klasörlere erişim haklarını ayarlayın</value>
+    <value>KullanÄ±cÄ± olarak aynÄ± ÅŸeyi yapÄ±n|'Ortak' bÃ¶lÃ¼mÃ¼nde Dropbox, Box ve diÄŸer hesaplarÄ± 'Ortak' bÃ¶lÃ¼mÃ¼nde baÄŸlayÄ±n|'Ortak' bÃ¶lÃ¼mÃ¼nde belgelere ve klasÃ¶rlere eriÅŸim haklarÄ±nÄ± ayarlayÄ±n</value>
   </data>
   <data name="ProductUserOpportunitiesCustomMode" xml:space="preserve">
-    <value>Kendi belgelerinizi ve uygun erişim hakları sayesinde paylaşılan belgeleri oluşturun ve düzenleyin|Diğer kullanıcılara belgeler ve klasörler için okuma/düzenleme erişimi verin|Dropbox, Box ve diğer hesapları 'Belgelerim' bölümünde bağlayın</value>
+    <value>Kendi belgelerinizi ve uygun eriÅŸim haklarÄ± sayesinde paylaÅŸÄ±lan belgeleri oluÅŸturun ve dÃ¼zenleyin|DiÄŸer kullanÄ±cÄ±lara belgeler ve klasÃ¶rler iÃ§in okuma/dÃ¼zenleme eriÅŸimi verin|Dropbox, Box ve diÄŸer hesaplarÄ± 'Belgelerim' bÃ¶lÃ¼mÃ¼nde baÄŸlayÄ±n</value>
   </data>
   <data name="subject_saas_custom_mode_reg_data" xml:space="preserve">
     <value>Yeni portal kaydedildi</value>
   </data>
   <data name="subject_remove_user_data_completed_custom_mode" xml:space="preserve">
-    <value>${LetterLogoText}. Kullanıcı verilerini kaldırma tamamlandı</value>
+    <value>${LetterLogoText}. KullanÄ±cÄ± verilerini kaldÄ±rma tamamlandÄ±</value>
   </data>
 </root>

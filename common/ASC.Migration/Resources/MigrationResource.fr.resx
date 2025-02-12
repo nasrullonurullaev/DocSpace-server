@@ -118,13 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="DataProcessing" xml:space="preserve">
-    <value>Traitement des données...</value>
+    <value>Traitement des donnÃ©es...</value>
   </data>
   <data name="DataProcessingCompleted" xml:space="preserve">
-    <value>Traitement des données terminé</value>
+    <value>Traitement des donnÃ©es terminÃ©</value>
   </data>
   <data name="DumpParse" xml:space="preserve">
-    <value>Analyse de la base de données</value>
+    <value>Analyse de la base de donnÃ©es</value>
   </data>
   <data name="GroupMigration" xml:space="preserve">
     <value>Migration de groupe {0} ({1}/{2})</value>
@@ -133,19 +133,19 @@
     <value>Migration des fichiers de l'utilisateur {0} ({1}/{2})</value>
   </data>
   <data name="MigrationCompleted" xml:space="preserve">
-    <value>Migration terminée</value>
+    <value>Migration terminÃ©e</value>
   </data>
   <data name="PreparingForMigration" xml:space="preserve">
-    <value>Préparation de la migration</value>
+    <value>PrÃ©paration de la migration</value>
   </data>
   <data name="StartOfDataProcessing" xml:space="preserve">
-    <value>Démarrage du traitement des données...</value>
+    <value>DÃ©marrage du traitement des donnÃ©es...</value>
   </data>
   <data name="Unzipping" xml:space="preserve">
-    <value>Dézippage...</value>
+    <value>DÃ©zippage...</value>
   </data>
   <data name="UnzippingFinished" xml:space="preserve">
-    <value>Dézippage terminé...</value>
+    <value>DÃ©zippage terminÃ©...</value>
   </data>
   <data name="UserMigration" xml:space="preserve">
     <value>Migration de l'utilisateur {0} ({1}/{2})</value>
@@ -157,19 +157,19 @@
     <value>Aucun fournisseur de services de migration</value>
   </data>
   <data name="MigrationProgressException" xml:space="preserve">
-    <value>Aucune migration en cours d'exécution</value>
+    <value>Aucune migration en cours d'exÃ©cution</value>
   </data>
   <data name="MigrationProjectFiles" xml:space="preserve">
     <value>Migration fichiers de projets</value>
   </data>
   <data name="CanNotShare" xml:space="preserve">
-    <value>Impossible de partager l'entrée {0} à {1}</value>
+    <value>Impossible de partager l'entrÃ©e {0} Ã  {1}</value>
   </data>
   <data name="CanNotAddUserInGroup" xml:space="preserve">
     <value>Impossible d'ajouter l'utilisateur {0} au groupe {1}</value>
   </data>
   <data name="CanNotCreateFile" xml:space="preserve">
-    <value>Impossible de créer le fichier {0}</value>
+    <value>Impossible de crÃ©er le fichier {0}</value>
   </data>
   <data name="CanNotImportUser" xml:space="preserve">
     <value>Impossible d'importer l'utilisateur</value>
@@ -187,27 +187,27 @@
     <value>Impossible d'analyser l'utilisateur {0}</value>
   </data>
   <data name="CanNotReadInfoFile" xml:space="preserve">
-    <value>Impossible de lire le fichier d'information à partir de {0}</value>
+    <value>Impossible de lire le fichier d'information Ã  partir de {0}</value>
   </data>
   <data name="CanNotToUnzip" xml:space="preserve">
-    <value>Impossible de décompresser {0}</value>
+    <value>Impossible de dÃ©compresser {0}</value>
   </data>
   <data name="CreateFile" xml:space="preserve">
-    <value>Créer le fichier {0}</value>
+    <value>CrÃ©er le fichier {0}</value>
   </data>
   <data name="CreateFolder" xml:space="preserve">
-    <value>Créer le dossier {0}</value>
+    <value>CrÃ©er le dossier {0}</value>
   </data>
   <data name="CreateShareRoom" xml:space="preserve">
-    <value>créer une salle partagée {0}</value>
+    <value>crÃ©er une salle partagÃ©e {0}</value>
   </data>
-  <data name="СanNotImportCommonFiles" xml:space="preserve">
+  <data name="Ð¡anNotImportCommonFiles" xml:space="preserve">
     <value>Impossible d'importer les fichiers communs</value>
   </data>
-  <data name="СanNotImportProjectFiles" xml:space="preserve">
+  <data name="Ð¡anNotImportProjectFiles" xml:space="preserve">
     <value>Impossible d'importer les fichiers de projet</value>
   </data>
-  <data name="СreateRootFolder" xml:space="preserve">
-    <value>Créer un dossier racine</value>
+  <data name="Ð¡reateRootFolder" xml:space="preserve">
+    <value>CrÃ©er un dossier racine</value>
   </data>
 </root>

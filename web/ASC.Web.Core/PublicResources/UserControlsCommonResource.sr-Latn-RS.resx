@@ -118,13 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="LicenseException" xml:space="preserve">
-    <value>Licenca istekla ili se korisnička kvota ne poklapa sa licencom</value>
+    <value>Licenca istekla ili se korisniÄka kvota ne poklapa sa licencom</value>
   </data>
   <data name="LicenseKeyNotCorrect" xml:space="preserve">
-    <value>Ključ licence nije ispravan</value>
+    <value>KljuÄ licence nije ispravan</value>
   </data>
   <data name="LicenseKeyNotFound" xml:space="preserve">
-    <value>Morate uneti ključ licence</value>
+    <value>Morate uneti kljuÄ licence</value>
   </data>
   <data name="NewDocument" xml:space="preserve">
     <value>Novi dokument</value>

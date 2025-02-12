@@ -1,4 +1,4 @@
-﻿using Xunit;
+using Xunit;
 
 namespace OpenStack.Compute.v2_2
 {

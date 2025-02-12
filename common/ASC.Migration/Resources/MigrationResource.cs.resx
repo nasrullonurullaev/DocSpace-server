@@ -118,96 +118,96 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="DataProcessing" xml:space="preserve">
-    <value>Zpracování dat ...</value>
+    <value>ZpracovÃ¡nÃ­ dat ...</value>
   </data>
   <data name="DataProcessingCompleted" xml:space="preserve">
-    <value>Zpracování dat dokončeno</value>
+    <value>ZpracovÃ¡nÃ­ dat dokonÄeno</value>
   </data>
   <data name="DumpParse" xml:space="preserve">
-    <value>Rozbor databáze</value>
+    <value>Rozbor databÃ¡ze</value>
   </data>
   <data name="GroupMigration" xml:space="preserve">
     <value>Migrace skupiny {0} ({1}/{2})</value>
   </data>
   <data name="MigratingUserFiles" xml:space="preserve">
-    <value>Migrace uživatelských souborů {0} ({1}/{2})</value>
+    <value>Migrace uÅ¾ivatelskÃ½ch souborÅ¯ {0} ({1}/{2})</value>
   </data>
   <data name="MigrationCompleted" xml:space="preserve">
-    <value>Migrace dokončena</value>
+    <value>Migrace dokonÄena</value>
   </data>
   <data name="PreparingForMigration" xml:space="preserve">
-    <value>Příprava na migraci</value>
+    <value>PÅ™Ã­prava na migraci</value>
   </data>
   <data name="StartOfDataProcessing" xml:space="preserve">
-    <value>Spuštění zpracování dat ...</value>
+    <value>SpuÅ¡tÄ›nÃ­ zpracovÃ¡nÃ­ dat ...</value>
   </data>
   <data name="Unzipping" xml:space="preserve">
-    <value>Rozbalení ...</value>
+    <value>RozbalenÃ­ ...</value>
   </data>
   <data name="UnzippingFinished" xml:space="preserve">
-    <value>Rozbalování dokončeno...</value>
+    <value>RozbalovÃ¡nÃ­ dokonÄeno...</value>
   </data>
   <data name="UserMigration" xml:space="preserve">
-    <value>Migrace uživatelů {0} ({1}/{2})</value>
+    <value>Migrace uÅ¾ivatelÅ¯ {0} ({1}/{2})</value>
   </data>
   <data name="MigrationCommonFiles" xml:space="preserve">
-    <value>Migrace společných souborů</value>
+    <value>Migrace spoleÄnÃ½ch souborÅ¯</value>
   </data>
   <data name="MigrationNotFoundException" xml:space="preserve">
-    <value>Žádný takový poskytovatel migrace</value>
+    <value>Å½Ã¡dnÃ½ takovÃ½ poskytovatel migrace</value>
   </data>
   <data name="MigrationProgressException" xml:space="preserve">
-    <value>Žádná migrace neprobíhá</value>
+    <value>Å½Ã¡dnÃ¡ migrace neprobÃ­hÃ¡</value>
   </data>
   <data name="MigrationProjectFiles" xml:space="preserve">
     <value>Soubory projektu migrace</value>
   </data>
   <data name="CanNotAddUserInGroup" xml:space="preserve">
-    <value>Nelze přidat uživatele {0} do skupiny {1}</value>
+    <value>Nelze pÅ™idat uÅ¾ivatele {0} do skupiny {1}</value>
   </data>
   <data name="CanNotCreateFile" xml:space="preserve">
-    <value>Nelze vytvořit soubor {0}</value>
+    <value>Nelze vytvoÅ™it soubor {0}</value>
   </data>
   <data name="CanNotImportUser" xml:space="preserve">
-    <value>Nelze importovat uživatele</value>
+    <value>Nelze importovat uÅ¾ivatele</value>
   </data>
   <data name="CanNotImportUserFiles" xml:space="preserve">
-    <value>Nelze importovat uživatelské soubory</value>
+    <value>Nelze importovat uÅ¾ivatelskÃ© soubory</value>
   </data>
   <data name="CanNotParseArchive" xml:space="preserve">
-    <value>Nebylo možné analyzovat archiv {0}</value>
+    <value>Nebylo moÅ¾nÃ© analyzovat archiv {0}</value>
   </data>
   <data name="CanNotParseArchives" xml:space="preserve">
     <value>Nelze analyzovat archivy</value>
   </data>
   <data name="CanNotParseUser" xml:space="preserve">
-    <value>Nelze analyzovat uživatele {0}</value>
+    <value>Nelze analyzovat uÅ¾ivatele {0}</value>
   </data>
   <data name="CanNotReadInfoFile" xml:space="preserve">
-    <value>Nelze přečíst informační soubor z {0}</value>
+    <value>Nelze pÅ™eÄÃ­st informaÄnÃ­ soubor z {0}</value>
   </data>
   <data name="CanNotShare" xml:space="preserve">
-    <value>Nelze sdílet záznam {0} do {1}</value>
+    <value>Nelze sdÃ­let zÃ¡znam {0} do {1}</value>
   </data>
   <data name="CanNotToUnzip" xml:space="preserve">
     <value>Nelze rozbalit {0}</value>
   </data>
   <data name="CreateFile" xml:space="preserve">
-    <value>Vytvořit soubor {0}</value>
+    <value>VytvoÅ™it soubor {0}</value>
   </data>
   <data name="CreateFolder" xml:space="preserve">
-    <value>Vytvořit složku {0}</value>
+    <value>VytvoÅ™it sloÅ¾ku {0}</value>
   </data>
   <data name="CreateShareRoom" xml:space="preserve">
-    <value>vytvořit sdílenou místnost {0}</value>
+    <value>vytvoÅ™it sdÃ­lenou mÃ­stnost {0}</value>
   </data>
-  <data name="СanNotImportCommonFiles" xml:space="preserve">
-    <value>Nelze importovat společné soubory</value>
+  <data name="Ð¡anNotImportCommonFiles" xml:space="preserve">
+    <value>Nelze importovat spoleÄnÃ© soubory</value>
   </data>
-  <data name="СanNotImportProjectFiles" xml:space="preserve">
+  <data name="Ð¡anNotImportProjectFiles" xml:space="preserve">
     <value>Nelze importovat soubory projektu</value>
   </data>
-  <data name="СreateRootFolder" xml:space="preserve">
-    <value>Vytvořit kořenovou složku</value>
+  <data name="Ð¡reateRootFolder" xml:space="preserve">
+    <value>VytvoÅ™it koÅ™enovou sloÅ¾ku</value>
   </data>
 </root>

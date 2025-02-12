@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using OpenStack.Synchronous;
 using Xunit;
 using Xunit.Abstractions;

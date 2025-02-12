@@ -1,4 +1,4 @@
-﻿using ASC.Api.Core.Cors.Services;
+using ASC.Api.Core.Cors.Services;
 
 using Microsoft.AspNetCore.Cors.Infrastructure;
 

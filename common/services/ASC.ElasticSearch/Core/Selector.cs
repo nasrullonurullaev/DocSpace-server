@@ -468,6 +468,6 @@ internal static class StringExtension
 
     public static string PrepareToSearch(this string value)
     {
-        return value.ReplaceBackslash().ToLowerInvariant().Replace('ё', 'е').Replace('Ё', 'Е');
+        return value.ReplaceBackslash().ToLowerInvariant().Replace('Ñ‘', 'Ðµ').Replace('Ð', 'Ð•');
     }
 }

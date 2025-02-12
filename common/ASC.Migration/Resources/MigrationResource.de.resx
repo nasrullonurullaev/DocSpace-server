@@ -136,7 +136,7 @@
     <value>Migration abgeschlossen</value>
   </data>
   <data name="PreparingForMigration" xml:space="preserve">
-    <value>Vorbereitungen für die Migration</value>
+    <value>Vorbereitungen fÃ¼r die Migration</value>
   </data>
   <data name="StartOfDataProcessing" xml:space="preserve">
     <value>Start der Datenverarbeitung...</value>
@@ -163,15 +163,15 @@
     <value>Migration von Projektdateien</value>
   </data>
   <data name="CanNotAddUserInGroup" xml:space="preserve">
-    <value>Benutzer {0} konnte nicht zur Gruppe {1} hinzugefügt werden</value>
+    <value>Benutzer {0} konnte nicht zur Gruppe {1} hinzugefÃ¼gt werden</value>
   </data>
   <data name="CanNotCreateFile" xml:space="preserve">
     <value>Die Datei {0} konnte nicht erstellt werden</value>
   </data>
-  <data name="СanNotImportCommonFiles" xml:space="preserve">
+  <data name="Ð¡anNotImportCommonFiles" xml:space="preserve">
     <value>Allgemeine Dateien konnten nicht importiert werden</value>
   </data>
-  <data name="СanNotImportProjectFiles" xml:space="preserve">
+  <data name="Ð¡anNotImportProjectFiles" xml:space="preserve">
     <value>Projektdateien konnten nicht importiert werden</value>
   </data>
   <data name="CanNotImportUser" xml:space="preserve">
@@ -201,13 +201,13 @@
   <data name="CreateFolder" xml:space="preserve">
     <value>Ordner {0} erstellen</value>
   </data>
-  <data name="СreateRootFolder" xml:space="preserve">
+  <data name="Ð¡reateRootFolder" xml:space="preserve">
     <value>Stammordner erstellen</value>
   </data>
   <data name="CreateShareRoom" xml:space="preserve">
     <value>gemeinsamen Raum {0} erstellen</value>
   </data>
   <data name="CanNotShare" xml:space="preserve">
-    <value>Eintrag {0} konnte nicht für {1} freigegeben werden</value>
+    <value>Eintrag {0} konnte nicht fÃ¼r {1} freigegeben werden</value>
   </data>
 </root>

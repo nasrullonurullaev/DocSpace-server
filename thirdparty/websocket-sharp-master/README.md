@@ -671,8 +671,8 @@ websocket-sharp supports **RFC 6455**, and it is based on the following referenc
 
 Thanks for translating to japanese.
 
-- [The WebSocket Protocol 日本語訳][rfc6455_ja]
-- [The WebSocket API 日本語訳][api_ja]
+- [The WebSocket Protocol æ—¥æœ¬èªžè¨³][rfc6455_ja]
+- [The WebSocket API æ—¥æœ¬èªžè¨³][api_ja]
 
 ## License ##
 

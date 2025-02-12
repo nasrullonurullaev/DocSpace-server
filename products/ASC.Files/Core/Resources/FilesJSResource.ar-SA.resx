@@ -118,12 +118,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="TitleNewFilePresentation" xml:space="preserve">
-    <value>عرض تقديمي جديد</value>
+    <value>Ø¹Ø±Ø¶ ØªÙ‚Ø¯ÙŠÙ…ÙŠ Ø¬Ø¯ÙŠØ¯</value>
   </data>
   <data name="TitleNewFileSpreadsheet" xml:space="preserve">
-    <value>جدول بيانات جديد</value>
+    <value>Ø¬Ø¯ÙˆÙ„ Ø¨ÙŠØ§Ù†Ø§Øª Ø¬Ø¯ÙŠØ¯</value>
   </data>
   <data name="TitleNewFileText" xml:space="preserve">
-    <value>مستند جديد</value>
+    <value>Ù…Ø³ØªÙ†Ø¯ Ø¬Ø¯ÙŠØ¯</value>
   </data>
 </root>

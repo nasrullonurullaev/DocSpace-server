@@ -120,26 +120,26 @@
   <data name="pattern_enterprise_whitelabel_user_welcome_custom_mode_v1" xml:space="preserve">
     <value>Pozdravljen, $UserName!
 
-Dobrodošli v ONLYOFFICE DocSpace! Vaš uporabniški profil je bil uspešno dodan "${__VirtualRootPath}":"${__VirtualRootPath}". Zdaj lahko:
+DobrodoÅ¡li v ONLYOFFICE DocSpace! VaÅ¡ uporabniÅ¡ki profil je bil uspeÅ¡no dodan "${__VirtualRootPath}":"${__VirtualRootPath}". Zdaj lahko:
 
-* Delate z drugimi uporabniki v sobi, v katero ste povabljeni*: sobe za sodelovanje za soavtorstvo v realnem času ali sobe po meri s prilagodljivimi nastavitvami za kateri koli namen*.
+* Delate z drugimi uporabniki v sobi, v katero ste povabljeni*: sobe za sodelovanje za soavtorstvo v realnem Äasu ali sobe po meri s prilagodljivimi nastavitvami za kateri koli namen*.
 
-* *Delate z datotekami različnih formatov*: besedilni dokumenti, preglednice, predstavitve, digitalni obrazci, PDF-ji, e-knjige, multimedija.
+* *Delate z datotekami razliÄnih formatov*: besedilni dokumenti, preglednice, predstavitve, digitalni obrazci, PDF-ji, e-knjige, multimedija.
 
-* *Sodelujete pri dokumentih* z dvema načinoma sourejanja: v realnem času ali z zaklepanjem odstavkov. Sledite spremembam, komunicirate v realnem času z uporabo vgrajenega klepeta ali z zvočnimi in video klici. 
+* *Sodelujete pri dokumentih* z dvema naÄinoma sourejanja: v realnem Äasu ali z zaklepanjem odstavkov. Sledite spremembam, komunicirate v realnem Äasu z uporabo vgrajenega klepeta ali z zvoÄnimi in video klici. 
 
-* *Povežete katero koli shrambo v oblaku* in delate brez preklapljanja med aplikacijami.
+* *PoveÅ¾ete katero koli shrambo v oblaku* in delate brez preklapljanja med aplikacijami.
 
 $OrangeButton
 
-Če potrebujete pomoč, pobrskajte v našem "Centru za pomoč":"${__HelpLink}" ali vprašajte našo "ekipo za podporo":"${__SupportLink}".
+ÄŒe potrebujete pomoÄ, pobrskajte v naÅ¡em "Centru za pomoÄ":"${__HelpLink}" ali vpraÅ¡ajte naÅ¡o "ekipo za podporo":"${__SupportLink}".
 
 $TrulyYours</value>
   </data>
   <data name="pattern_remove_user_data_completed_custom_mode" xml:space="preserve">
     <value>Dragi $UserName,
 
-Postopek odstranjevanja podatkov uporabnika "$FromUserName":"$FromUserLink" je bil uspešno zaključen.
+Postopek odstranjevanja podatkov uporabnika "$FromUserName":"$FromUserLink" je bil uspeÅ¡no zakljuÄen.
 
 Izbris osebnih podatkov je dovoljen za sprostitev $DocsSpace</value>
   </data>
@@ -154,13 +154,13 @@ Izbris osebnih podatkov je dovoljen za sprostitev $DocsSpace</value>
 # Datum nastanka: $Date</value>
   </data>
   <data name="ProductAdminOpportunitiesCustomMode" xml:space="preserve">
-    <value>Naredite enako kot uporabnik|Povežite Dropbox, Box in druge račune v razdelku 'Skupno' |Nastavite pravice dostopa do dokumentov in map v razdelku 'Skupno'</value>
+    <value>Naredite enako kot uporabnik|PoveÅ¾ite Dropbox, Box in druge raÄune v razdelku 'Skupno' |Nastavite pravice dostopa do dokumentov in map v razdelku 'Skupno'</value>
   </data>
   <data name="ProductUserOpportunitiesCustomMode" xml:space="preserve">
-    <value>Ustvarite in uredite lastne dokumente ter dokumente v skupni rabi z ustreznimi pravicami dostopa|Omogočite dostop za branje/urejanje drugim uporabnikom do dokumentov in map|Povežite Dropbox, Box in druge račune v razdelku 'Moji dokumenti'</value>
+    <value>Ustvarite in uredite lastne dokumente ter dokumente v skupni rabi z ustreznimi pravicami dostopa|OmogoÄite dostop za branje/urejanje drugim uporabnikom do dokumentov in map|PoveÅ¾ite Dropbox, Box in druge raÄune v razdelku 'Moji dokumenti'</value>
   </data>
   <data name="subject_remove_user_data_completed_custom_mode" xml:space="preserve">
-    <value>${LetterLogoText}. Odstranitev uporabniških podatkov je končana</value>
+    <value>${LetterLogoText}. Odstranitev uporabniÅ¡kih podatkov je konÄana</value>
   </data>
   <data name="subject_saas_custom_mode_reg_data" xml:space="preserve">
     <value>Nov portal je registriran</value>

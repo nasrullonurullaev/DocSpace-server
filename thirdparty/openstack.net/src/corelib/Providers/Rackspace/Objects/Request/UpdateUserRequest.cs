@@ -1,4 +1,4 @@
-﻿namespace net.openstack.Providers.Rackspace.Objects.Request
+namespace net.openstack.Providers.Rackspace.Objects.Request
 {
     using System;
     using net.openstack.Core.Domain;

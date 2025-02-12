@@ -118,12 +118,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ButtonSetPassword" xml:space="preserve">
-    <value>비밀번호 설정</value>
+    <value>ë¹„ë°€ë²ˆí˜¸ ì„¤ì •</value>
   </data>
   <data name="BackupNotFound" xml:space="preserve">
-    <value>백업 파일이 유효하지 않습니다. ONLYOFFICE v11.5 이상에서 생성된 파일을 사용해주세요.</value>
+    <value>ë°±ì—… íŒŒì¼ì´ ìœ íš¨í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤. ONLYOFFICE v11.5 ì´ìƒì—ì„œ ìƒì„±ëœ íŒŒì¼ì„ ì‚¬ìš©í•´ì£¼ì„¸ìš”.</value>
   </data>
   <data name="LargeBackup" xml:space="preserve">
-    <value>백업이 포털의 전체 크기보다 큽니다</value>
+    <value>ë°±ì—…ì´ í¬í„¸ì˜ ì „ì²´ í¬ê¸°ë³´ë‹¤ í½ë‹ˆë‹¤</value>
   </data>
 </root>

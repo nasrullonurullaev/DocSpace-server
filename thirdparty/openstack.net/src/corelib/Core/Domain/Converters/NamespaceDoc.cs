@@ -1,4 +1,4 @@
-﻿namespace net.openstack.Core.Domain.Converters
+namespace net.openstack.Core.Domain.Converters
 {
     using System.Net;
     using System.Net.NetworkInformation;

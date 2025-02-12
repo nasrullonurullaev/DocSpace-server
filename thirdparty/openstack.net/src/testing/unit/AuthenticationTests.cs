@@ -1,4 +1,4 @@
-﻿using System.Net;
+using System.Net;
 using System.Threading.Tasks;
 using Flurl.Http;
 using OpenStack.ContentDeliveryNetworks.v1;

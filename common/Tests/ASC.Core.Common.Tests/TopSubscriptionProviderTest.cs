@@ -68,7 +68,7 @@ namespace ASC.Core.Common.Tests
             objectId = "Task_5946_457";
             nAction = new NotifyAction(actionId, actionId);
             testRec = new DirectRecipient("ff0c4e13-1831-43c2-91ce-7b7beb56179b", null); //Oliver Khan
-            testRec2 = new DirectRecipient("0017794f-aeb7-49a5-8817-9e870e02bd3f", null); //Якутова Юлия
+            testRec2 = new DirectRecipient("0017794f-aeb7-49a5-8817-9e870e02bd3f", null); //Ð¯ÐºÑƒÑ‚Ð¾Ð²Ð° Ð®Ð»Ð¸Ñ
 
             var directSubProvider = new DirectSubscriptionProvider(sourceId, subscriptionManager, recProvider);
             subProvider = new TopSubscriptionProvider(recProvider, directSubProvider);
@@ -79,9 +79,9 @@ namespace ASC.Core.Common.Tests
         {
             try
             {
-                //0017794f-aeb7-49a5-8817-9e870e02bd3f - Якутова Юлия
+                //0017794f-aeb7-49a5-8817-9e870e02bd3f - Ð¯ÐºÑƒÑ‚Ð¾Ð²Ð° Ð®Ð»Ð¸Ñ
                 //ff0c4e13-1831-43c2-91ce-7b7beb56179b - Oliver Khan
-                //cc8eea30-1260-427e-83c4-ff9e9680edba - Отдел интернет-приложений!!!;)
+                //cc8eea30-1260-427e-83c4-ff9e9680edba - ÐžÑ‚Ð´ÐµÐ» Ð¸Ð½Ñ‚ÐµÑ€Ð½ÐµÑ‚-Ð¿Ñ€Ð¸Ð»Ð¾Ð¶ÐµÐ½Ð¸Ð¹!!!;)
 
                 IRecipient[] res;
 
@@ -103,13 +103,13 @@ namespace ASC.Core.Common.Tests
 
                 //GetSubscribtions
 
-                //Получаем подписки юзера
+                //ÐŸÐ¾Ð»ÑƒÑ‡Ð°ÐµÐ¼ Ð¿Ð¾Ð´Ð¿Ð¸ÑÐºÐ¸ ÑŽÐ·ÐµÑ€Ð°
                 //for (int i = 0; i < 6; i++) subProvider.Subscribe(nAction, new Random().Next().ToString(), testRec2);
                 objs = subProvider.GetSubscriptions(nAction, testRec2);
                 Assert.AreNotEqual(0, objs.Count());
                 CollectionAssert.AllItemsAreUnique(objs);
 
-                //Получаем список групп к которым он принадлежит
+                //ÐŸÐ¾Ð»ÑƒÑ‡Ð°ÐµÐ¼ ÑÐ¿Ð¸ÑÐ¾Ðº Ð³Ñ€ÑƒÐ¿Ð¿ Ðº ÐºÐ¾Ñ‚Ð¾Ñ€Ñ‹Ð¼ Ð¾Ð½ Ð¿Ñ€Ð¸Ð½Ð°Ð´Ð»ÐµÐ¶Ð¸Ñ‚
                 var parents = recProvider.GetGroups(testRec2);
                 Assert.AreNotEqual(0, parents.Count());
                 otdel = parents.First();
@@ -118,19 +118,19 @@ namespace ASC.Core.Common.Tests
                 var objsGroup = subProvider.GetSubscriptions(nAction, otdel);
                 CollectionAssert.AllItemsAreUnique(objsGroup);
 
-                //Подписываем весь отдел на объект
+                //ÐŸÐ¾Ð´Ð¿Ð¸ÑÑ‹Ð²Ð°ÐµÐ¼ Ð²ÐµÑÑŒ Ð¾Ñ‚Ð´ÐµÐ» Ð½Ð° Ð¾Ð±ÑŠÐµÐºÑ‚
                 rndObj = string.Concat("TestObject#", new Random().Next().ToString());
                 subProvider.Subscribe(nAction, rndObj, otdel);
-                //Проверяем подписался ли юзер вместе со всем отделом двумя способами.
+                //ÐŸÑ€Ð¾Ð²ÐµÑ€ÑÐµÐ¼ Ð¿Ð¾Ð´Ð¿Ð¸ÑÐ°Ð»ÑÑ Ð»Ð¸ ÑŽÐ·ÐµÑ€ Ð²Ð¼ÐµÑÑ‚Ðµ ÑÐ¾ Ð²ÑÐµÐ¼ Ð¾Ñ‚Ð´ÐµÐ»Ð¾Ð¼ Ð´Ð²ÑƒÐ¼Ñ ÑÐ¿Ð¾ÑÐ¾Ð±Ð°Ð¼Ð¸.
                 Assert.AreEqual(objsGroup.Count() + 1, subProvider.GetSubscriptions(nAction, otdel).Count());
                 Assert.AreEqual(objs.Count() + 1, subProvider.GetSubscriptions(nAction, testRec2).Count());
                 Assert.AreEqual(true, subProvider.IsSubscribed(null, nAction, testRec2, rndObj));
 
-                //Подписываем Everybody
+                //ÐŸÐ¾Ð´Ð¿Ð¸ÑÑ‹Ð²Ð°ÐµÐ¼ Everybody
                 rndObj2 = string.Concat("TestObject#", new Random().Next().ToString());
                 objs = subProvider.GetSubscriptions(nAction, testRec2);
                 subProvider.Subscribe(nAction, rndObj2, everyone);
-                //Проверяем подписался ли user двумя способами.
+                //ÐŸÑ€Ð¾Ð²ÐµÑ€ÑÐµÐ¼ Ð¿Ð¾Ð´Ð¿Ð¸ÑÐ°Ð»ÑÑ Ð»Ð¸ user Ð´Ð²ÑƒÐ¼Ñ ÑÐ¿Ð¾ÑÐ¾Ð±Ð°Ð¼Ð¸.
                 Assert.AreEqual(objs.Count() + 1, subProvider.GetSubscriptions(nAction, testRec2).Count());
                 Assert.AreEqual(true, subProvider.IsSubscribed(null, nAction, testRec2, rndObj2));
 

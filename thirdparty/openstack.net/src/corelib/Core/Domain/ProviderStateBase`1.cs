@@ -1,4 +1,4 @@
-﻿namespace net.openstack.Core.Domain
+namespace net.openstack.Core.Domain
 {
     /// <summary>
     /// Provides a base class for domain objects which require access to the

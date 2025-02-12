@@ -1,4 +1,4 @@
-﻿namespace net.openstack.Providers.Rackspace.Objects.Response
+namespace net.openstack.Providers.Rackspace.Objects.Response
 {
     using net.openstack.Providers.Rackspace.Objects.Request;
     using Newtonsoft.Json;

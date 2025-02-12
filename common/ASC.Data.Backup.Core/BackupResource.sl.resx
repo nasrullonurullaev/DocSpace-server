@@ -121,9 +121,9 @@
     <value>Nastavi geslo</value>
   </data>
   <data name="BackupNotFound" xml:space="preserve">
-    <value>Varnostna datoteka ni veljavna. Prosimo, uporabite datoteko, ustvarjeno z ONLYOFFICE v11.5 ali novejšo.</value>
+    <value>Varnostna datoteka ni veljavna. Prosimo, uporabite datoteko, ustvarjeno z ONLYOFFICE v11.5 ali novejÅ¡o.</value>
   </data>
   <data name="LargeBackup" xml:space="preserve">
-    <value>Varnostna kopija je večja od celotne velikosti portala</value>
+    <value>Varnostna kopija je veÄja od celotne velikosti portala</value>
   </data>
 </root>

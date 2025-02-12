@@ -77,7 +77,7 @@ function logErrorAndCheckStatus(ctx, error, method) {
     try {
         if (error.response && error.response.status == 401) {
             ctx.server.httpAuthentication.userManager.storeUser.deleteUser(ctx.user.username);
-            ctx.server.fileSystems['/'].manageResource.structСache.deleteStruct(ctx.user.uid);
+            ctx.server.fileSystems['/'].manageResource.structÐ¡ache.deleteStruct(ctx.user.uid);
             delete ctx.server.httpAuthentication.userManager.users[ctx.user.username];
             delete ctx.server.privilegeManager.rights[ctx.user.uid];
         }

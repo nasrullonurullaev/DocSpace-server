@@ -118,23 +118,23 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="pattern_DocuSignComplete" xml:space="preserve">
-    <value>h1. Svi potpisnici završili $DocumentTitle
+    <value>h1. Svi potpisnici zavrÅ¡ili $DocumentTitle
 
-Ovo je email notifikacija da vas obavesti da su svi potpisnici završili "$DocumentTitle":"$DocumentURL".</value>
+Ovo je email notifikacija da vas obavesti da su svi potpisnici zavrÅ¡ili "$DocumentTitle":"$DocumentURL".</value>
   </data>
   <data name="pattern_DocuSignStatus" xml:space="preserve">
     <value>h1. $Message: $DocumentTitle
 
-Prijavi se na svoj DocuSign nalog za više informacija.</value>
+Prijavi se na svoj DocuSign nalog za viÅ¡e informacija.</value>
   </data>
   <data name="subject_DocuSignComplete" xml:space="preserve">
-    <value>Dokumenti. Svi potpisnici završili $DocumentTitle</value>
+    <value>Dokumenti. Svi potpisnici zavrÅ¡ili $DocumentTitle</value>
   </data>
   <data name="subject_DocuSignComplete_push" xml:space="preserve">
-    <value>Svi potpisnici završili $DocumentTitle</value>
+    <value>Svi potpisnici zavrÅ¡ili $DocumentTitle</value>
   </data>
   <data name="subject_DocuSignComplete_tg" xml:space="preserve">
-    <value>Dokumenti. Svi potpisnici završili [$DocumentTitle]($DocumentURL)</value>
+    <value>Dokumenti. Svi potpisnici zavrÅ¡ili [$DocumentTitle]($DocumentURL)</value>
   </data>
   <data name="subject_DocuSignStatus" xml:space="preserve">
     <value>Dokumenti. Status potpisa promenjen</value>
@@ -146,10 +146,10 @@ Prijavi se na svoj DocuSign nalog za više informacija.</value>
     <value>DocSpace notifikacija. Spomenuto u dokumentu</value>
   </data>
   <data name="subject_MailMergeEnd" xml:space="preserve">
-    <value>Dokumenti. Slanje je završeno.</value>
+    <value>Dokumenti. Slanje je zavrÅ¡eno.</value>
   </data>
   <data name="subject_MailMergeEnd_push" xml:space="preserve">
-    <value>Slanje je završeno.</value>
+    <value>Slanje je zavrÅ¡eno.</value>
   </data>
   <data name="subject_RoomRemoved" xml:space="preserve">
     <value>DocSpace notifikacija. Soba obrisana</value>
@@ -183,23 +183,23 @@ $__AuthorName vas je pomenuo u komentaru "$DocumentTitle":"$DocumentURL" dokumen
 $Message</value>
   </data>
   <data name="pattern_MailMergeEnd" xml:space="preserve">
-    <value>h1. Slanje završeno
+    <value>h1. Slanje zavrÅ¡eno
 
-Ovo je email notifikacija da vas obavesti da ste tražili slanje $MailsCount poruka i proces je sada kompletan. $Message
+Ovo je email notifikacija da vas obavesti da ste traÅ¾ili slanje $MailsCount poruka i proces je sada kompletan. $Message
 
-Uspešno poslate mail poruke sada mogu biti pronađene u vašem "Poslato":"$__VirtualRootPath/addons/mail/#sent" folderu Mail modula.</value>
+UspeÅ¡no poslate mail poruke sada mogu biti pronaÄ‘ene u vaÅ¡em "Poslato":"$__VirtualRootPath/addons/mail/#sent" folderu Mail modula.</value>
   </data>
   <data name="pattern_ShareDocument" xml:space="preserve">
     <value>h1. Pristup dozvoljen dokumentu: "$DocumentTitle":"$DocumentURL"
 
-$__DateTime "$__AuthorName":"$__AuthorUrl" vam je dozvolio pristup "$DocumentTitle":"$DocumentURL" dokumentu sa sledećim pravima pristupa: "$AccessRights". 
+$__DateTime "$__AuthorName":"$__AuthorUrl" vam je dozvolio pristup "$DocumentTitle":"$DocumentURL" dokumentu sa sledeÄ‡im pravima pristupa: "$AccessRights". 
 
 $Message</value>
   </data>
   <data name="pattern_ShareFolder" xml:space="preserve">
     <value>h1. Pristup dozvoljen folderu: "$DocumentTitle":"$DocumentURL"
 
-$__DateTime "$__AuthorName":"$__AuthorUrl" vam je dozvolio pristup "$DocumentTitle":"$DocumentURL" folderu sa sledećim pravima pristupa: "$AccessRights". 
+$__DateTime "$__AuthorName":"$__AuthorUrl" vam je dozvolio pristup "$DocumentTitle":"$DocumentURL" folderu sa sledeÄ‡im pravima pristupa: "$AccessRights". 
 
 $Message</value>
   </data>
@@ -225,7 +225,7 @@ $OrangeButton</value>
  
 Popunili ste formular "$DocumentTitle":"$DocumentURL" u prostoriji "$RoomTitle":"$RoomURL"
  
-Menadžer: "$ToUserName":"$ToUserLink"
+MenadÅ¾er: "$ToUserName":"$ToUserLink"
  
 $OrangeButton</value>
   </data>

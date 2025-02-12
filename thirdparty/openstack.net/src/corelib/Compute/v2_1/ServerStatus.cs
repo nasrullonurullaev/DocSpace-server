@@ -1,4 +1,4 @@
-﻿using OpenStack.Compute.v2_1.Serialization;
+using OpenStack.Compute.v2_1.Serialization;
 
 namespace OpenStack.Compute.v2_1
 {

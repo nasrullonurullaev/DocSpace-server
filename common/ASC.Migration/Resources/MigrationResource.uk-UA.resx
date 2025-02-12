@@ -118,96 +118,96 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="DataProcessingCompleted" xml:space="preserve">
-    <value>Обробку даних виконано</value>
+    <value>ÐžÐ±Ñ€Ð¾Ð±ÐºÑƒ Ð´Ð°Ð½Ð¸Ñ… Ð²Ð¸ÐºÐ¾Ð½Ð°Ð½Ð¾</value>
   </data>
   <data name="DataProcessing" xml:space="preserve">
-    <value>Обробка даних...</value>
+    <value>ÐžÐ±Ñ€Ð¾Ð±ÐºÐ° Ð´Ð°Ð½Ð¸Ñ…...</value>
   </data>
   <data name="DumpParse" xml:space="preserve">
-    <value>Аналізування бази даних</value>
+    <value>ÐÐ½Ð°Ð»Ñ–Ð·ÑƒÐ²Ð°Ð½Ð½Ñ Ð±Ð°Ð·Ð¸ Ð´Ð°Ð½Ð¸Ñ…</value>
   </data>
   <data name="GroupMigration" xml:space="preserve">
-    <value>Перенесення групи {0} ({1}/{2})</value>
+    <value>ÐŸÐµÑ€ÐµÐ½ÐµÑÐµÐ½Ð½Ñ Ð³Ñ€ÑƒÐ¿Ð¸ {0} ({1}/{2})</value>
   </data>
   <data name="MigratingUserFiles" xml:space="preserve">
-    <value>Перенесення файлів користувача {0} ({1}/{2})</value>
+    <value>ÐŸÐµÑ€ÐµÐ½ÐµÑÐµÐ½Ð½Ñ Ñ„Ð°Ð¹Ð»Ñ–Ð² ÐºÐ¾Ñ€Ð¸ÑÑ‚ÑƒÐ²Ð°Ñ‡Ð° {0} ({1}/{2})</value>
   </data>
   <data name="MigrationCompleted" xml:space="preserve">
-    <value>Перенесення виконано</value>
+    <value>ÐŸÐµÑ€ÐµÐ½ÐµÑÐµÐ½Ð½Ñ Ð²Ð¸ÐºÐ¾Ð½Ð°Ð½Ð¾</value>
   </data>
   <data name="PreparingForMigration" xml:space="preserve">
-    <value>Підготовка до перенесення</value>
+    <value>ÐŸÑ–Ð´Ð³Ð¾Ñ‚Ð¾Ð²ÐºÐ° Ð´Ð¾ Ð¿ÐµÑ€ÐµÐ½ÐµÑÐµÐ½Ð½Ñ</value>
   </data>
   <data name="StartOfDataProcessing" xml:space="preserve">
-    <value>Початок обробки даних...</value>
+    <value>ÐŸÐ¾Ñ‡Ð°Ñ‚Ð¾Ðº Ð¾Ð±Ñ€Ð¾Ð±ÐºÐ¸ Ð´Ð°Ð½Ð¸Ñ…...</value>
   </data>
   <data name="UnzippingFinished" xml:space="preserve">
-    <value>Розпакування виконано...</value>
+    <value>Ð Ð¾Ð·Ð¿Ð°ÐºÑƒÐ²Ð°Ð½Ð½Ñ Ð²Ð¸ÐºÐ¾Ð½Ð°Ð½Ð¾...</value>
   </data>
   <data name="Unzipping" xml:space="preserve">
-    <value>Розпакування...</value>
+    <value>Ð Ð¾Ð·Ð¿Ð°ÐºÑƒÐ²Ð°Ð½Ð½Ñ...</value>
   </data>
   <data name="UserMigration" xml:space="preserve">
-    <value>Перенесення користувача {0} ({1}/{2})</value>
+    <value>ÐŸÐµÑ€ÐµÐ½ÐµÑÐµÐ½Ð½Ñ ÐºÐ¾Ñ€Ð¸ÑÑ‚ÑƒÐ²Ð°Ñ‡Ð° {0} ({1}/{2})</value>
   </data>
   <data name="MigrationCommonFiles" xml:space="preserve">
-    <value>Загальні файли перенесення</value>
+    <value>Ð—Ð°Ð³Ð°Ð»ÑŒÐ½Ñ– Ñ„Ð°Ð¹Ð»Ð¸ Ð¿ÐµÑ€ÐµÐ½ÐµÑÐµÐ½Ð½Ñ</value>
   </data>
   <data name="MigrationNotFoundException" xml:space="preserve">
-    <value>Немає такого постачальника перенесення</value>
+    <value>ÐÐµÐ¼Ð°Ñ” Ñ‚Ð°ÐºÐ¾Ð³Ð¾ Ð¿Ð¾ÑÑ‚Ð°Ñ‡Ð°Ð»ÑŒÐ½Ð¸ÐºÐ° Ð¿ÐµÑ€ÐµÐ½ÐµÑÐµÐ½Ð½Ñ</value>
   </data>
   <data name="MigrationProgressException" xml:space="preserve">
-    <value>Жодне перенесення не виконується</value>
+    <value>Ð–Ð¾Ð´Ð½Ðµ Ð¿ÐµÑ€ÐµÐ½ÐµÑÐµÐ½Ð½Ñ Ð½Ðµ Ð²Ð¸ÐºÐ¾Ð½ÑƒÑ”Ñ‚ÑŒÑÑ</value>
   </data>
   <data name="MigrationProjectFiles" xml:space="preserve">
-    <value>Файли проєкту перенесення</value>
+    <value>Ð¤Ð°Ð¹Ð»Ð¸ Ð¿Ñ€Ð¾Ñ”ÐºÑ‚Ñƒ Ð¿ÐµÑ€ÐµÐ½ÐµÑÐµÐ½Ð½Ñ</value>
   </data>
   <data name="CanNotAddUserInGroup" xml:space="preserve">
-    <value>Не вдалося додати користувача {0} до групи {1}</value>
+    <value>ÐÐµ Ð²Ð´Ð°Ð»Ð¾ÑÑ Ð´Ð¾Ð´Ð°Ñ‚Ð¸ ÐºÐ¾Ñ€Ð¸ÑÑ‚ÑƒÐ²Ð°Ñ‡Ð° {0} Ð´Ð¾ Ð³Ñ€ÑƒÐ¿Ð¸ {1}</value>
   </data>
   <data name="CanNotCreateFile" xml:space="preserve">
-    <value>Не вдалося створити файл {0}</value>
+    <value>ÐÐµ Ð²Ð´Ð°Ð»Ð¾ÑÑ ÑÑ‚Ð²Ð¾Ñ€Ð¸Ñ‚Ð¸ Ñ„Ð°Ð¹Ð» {0}</value>
   </data>
   <data name="CanNotImportUser" xml:space="preserve">
-    <value>Не вдалося імпортувати користувача</value>
+    <value>ÐÐµ Ð²Ð´Ð°Ð»Ð¾ÑÑ Ñ–Ð¼Ð¿Ð¾Ñ€Ñ‚ÑƒÐ²Ð°Ñ‚Ð¸ ÐºÐ¾Ñ€Ð¸ÑÑ‚ÑƒÐ²Ð°Ñ‡Ð°</value>
   </data>
   <data name="CanNotImportUserFiles" xml:space="preserve">
-    <value>Не вдалося імпортувати файли користувача</value>
+    <value>ÐÐµ Ð²Ð´Ð°Ð»Ð¾ÑÑ Ñ–Ð¼Ð¿Ð¾Ñ€Ñ‚ÑƒÐ²Ð°Ñ‚Ð¸ Ñ„Ð°Ð¹Ð»Ð¸ ÐºÐ¾Ñ€Ð¸ÑÑ‚ÑƒÐ²Ð°Ñ‡Ð°</value>
   </data>
   <data name="CanNotParseArchive" xml:space="preserve">
-    <value>Не вдалося проаналізувати архів {0}</value>
+    <value>ÐÐµ Ð²Ð´Ð°Ð»Ð¾ÑÑ Ð¿Ñ€Ð¾Ð°Ð½Ð°Ð»Ñ–Ð·ÑƒÐ²Ð°Ñ‚Ð¸ Ð°Ñ€Ñ…Ñ–Ð² {0}</value>
   </data>
   <data name="CanNotParseArchives" xml:space="preserve">
-    <value>Не вдалося проаналізувати архіви</value>
+    <value>ÐÐµ Ð²Ð´Ð°Ð»Ð¾ÑÑ Ð¿Ñ€Ð¾Ð°Ð½Ð°Ð»Ñ–Ð·ÑƒÐ²Ð°Ñ‚Ð¸ Ð°Ñ€Ñ…Ñ–Ð²Ð¸</value>
   </data>
   <data name="CanNotParseUser" xml:space="preserve">
-    <value>Не вдалося проаналізувати користувача {0}</value>
+    <value>ÐÐµ Ð²Ð´Ð°Ð»Ð¾ÑÑ Ð¿Ñ€Ð¾Ð°Ð½Ð°Ð»Ñ–Ð·ÑƒÐ²Ð°Ñ‚Ð¸ ÐºÐ¾Ñ€Ð¸ÑÑ‚ÑƒÐ²Ð°Ñ‡Ð° {0}</value>
   </data>
   <data name="CanNotReadInfoFile" xml:space="preserve">
-    <value>Не вдалося прочитати інформаційний файл з {0}</value>
+    <value>ÐÐµ Ð²Ð´Ð°Ð»Ð¾ÑÑ Ð¿Ñ€Ð¾Ñ‡Ð¸Ñ‚Ð°Ñ‚Ð¸ Ñ–Ð½Ñ„Ð¾Ñ€Ð¼Ð°Ñ†Ñ–Ð¹Ð½Ð¸Ð¹ Ñ„Ð°Ð¹Ð» Ð· {0}</value>
   </data>
   <data name="CanNotShare" xml:space="preserve">
-    <value>Не вдалося поділитися записом {0} з {1}</value>
+    <value>ÐÐµ Ð²Ð´Ð°Ð»Ð¾ÑÑ Ð¿Ð¾Ð´Ñ–Ð»Ð¸Ñ‚Ð¸ÑÑ Ð·Ð°Ð¿Ð¸ÑÐ¾Ð¼ {0} Ð· {1}</value>
   </data>
   <data name="CanNotToUnzip" xml:space="preserve">
-    <value>Не вдалося розархівувати {0}</value>
+    <value>ÐÐµ Ð²Ð´Ð°Ð»Ð¾ÑÑ Ñ€Ð¾Ð·Ð°Ñ€Ñ…Ñ–Ð²ÑƒÐ²Ð°Ñ‚Ð¸ {0}</value>
   </data>
   <data name="CreateFile" xml:space="preserve">
-    <value>Створити файл {0}</value>
+    <value>Ð¡Ñ‚Ð²Ð¾Ñ€Ð¸Ñ‚Ð¸ Ñ„Ð°Ð¹Ð» {0}</value>
   </data>
   <data name="CreateFolder" xml:space="preserve">
-    <value>Створити папку {0}</value>
+    <value>Ð¡Ñ‚Ð²Ð¾Ñ€Ð¸Ñ‚Ð¸ Ð¿Ð°Ð¿ÐºÑƒ {0}</value>
   </data>
   <data name="CreateShareRoom" xml:space="preserve">
-    <value>створити спільну кімнату {0}</value>
+    <value>ÑÑ‚Ð²Ð¾Ñ€Ð¸Ñ‚Ð¸ ÑÐ¿Ñ–Ð»ÑŒÐ½Ñƒ ÐºÑ–Ð¼Ð½Ð°Ñ‚Ñƒ {0}</value>
   </data>
-  <data name="СanNotImportCommonFiles" xml:space="preserve">
-    <value>Не вдалося імпортувати загальні файли</value>
+  <data name="Ð¡anNotImportCommonFiles" xml:space="preserve">
+    <value>ÐÐµ Ð²Ð´Ð°Ð»Ð¾ÑÑ Ñ–Ð¼Ð¿Ð¾Ñ€Ñ‚ÑƒÐ²Ð°Ñ‚Ð¸ Ð·Ð°Ð³Ð°Ð»ÑŒÐ½Ñ– Ñ„Ð°Ð¹Ð»Ð¸</value>
   </data>
-  <data name="СanNotImportProjectFiles" xml:space="preserve">
-    <value>Не вдалося імпортувати файли проєкту</value>
+  <data name="Ð¡anNotImportProjectFiles" xml:space="preserve">
+    <value>ÐÐµ Ð²Ð´Ð°Ð»Ð¾ÑÑ Ñ–Ð¼Ð¿Ð¾Ñ€Ñ‚ÑƒÐ²Ð°Ñ‚Ð¸ Ñ„Ð°Ð¹Ð»Ð¸ Ð¿Ñ€Ð¾Ñ”ÐºÑ‚Ñƒ</value>
   </data>
-  <data name="СreateRootFolder" xml:space="preserve">
-    <value>Створити кореневу папку</value>
+  <data name="Ð¡reateRootFolder" xml:space="preserve">
+    <value>Ð¡Ñ‚Ð²Ð¾Ñ€Ð¸Ñ‚Ð¸ ÐºÐ¾Ñ€ÐµÐ½ÐµÐ²Ñƒ Ð¿Ð°Ð¿ÐºÑƒ</value>
   </data>
 </root>
