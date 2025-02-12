@@ -8,7 +8,7 @@ EXCLUDED_FILES = {".json", ".p7s", ".cjs", ".po", ".license", ".xml", ".resx"}
 
 # Regex patterns
 COMMENT_REGEX = re.compile(r"(?://|#|<!--|/\*|\*).+")  # Matches comments in various languages
-NON_ASCII_REGEX = re.compile(r"[^\x20-\x7E]")  # Оставляет все печатные ASCII символы
+NON_ASCII_REGEX = re.compile(r"[^\p{Latin}\d\s\p{P}\p{S}]", re.UNICODE)  # Оставляет все печатные ASCII символы
 
 
 
