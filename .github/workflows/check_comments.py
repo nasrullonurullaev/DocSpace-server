@@ -8,7 +8,8 @@ EXCLUDED_FILES = {".json", ".p7s", ".cjs", ".po", ".license", ".xml", ".resx"}
 
 # Regex patterns
 COMMENT_REGEX = re.compile(r"(?://|#|<!--|/\*|\*).+")  # Matches comments in various languages
-NON_ASCII_REGEX = re.compile(r"[^\x00-\x7F\.,!?:;\"'()\[\]{}\-_=@#&*]")
+NON_ASCII_REGEX = re.compile(r"[^\x20-\x7E]")  # Оставляет все печатные ASCII символы
+
 
 
 def get_base_branch() -> str:
