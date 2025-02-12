@@ -3,7 +3,7 @@ import re
 import subprocess
 
 # File extensions to exclude (localization, config files, etc.)
-EXCLUDED_FILES = (".json", ".yaml", ".yml", ".po", ".mo", ".xml", ".resx")
+EXCLUDED_FILES = (".json", ".yaml", ".yml", ".po", ".license", ".xml", ".resx")
 
 # Regex to find comments (supports Python, C++, JavaScript, Rust, Go, etc.)
 COMMENT_REGEX = re.compile(r"(?://|#|<!--|/\*|\*).+")
