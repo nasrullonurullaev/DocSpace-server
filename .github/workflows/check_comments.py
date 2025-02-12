@@ -8,7 +8,7 @@ EXCLUDED_FILES = {".json", ".p7s", ".cjs", ".po", ".license", ".xml", ".resx"}
 
 # Regex patterns
 COMMENT_REGEX = re.compile(r"(?://|#|<!--|/\*|\*).+")  # Matches comments in various languages
-NON_ENGLISH_REGEX = re.compile(r"[^\x00-\x7F]")  # Matches non-ASCII characters
+NON_ASCII_REGEX = re.compile(r"[^\x00-\x7F]")  # Matches non-ASCII characters
 
 
 def get_base_branch() -> str:
@@ -84,11 +84,11 @@ def extract_comments(diff_output: str) -> List[str]:
     ]
 
 
-def detect_non_english_comments(comments: List[str]) -> List[str]:
+def detect_non_ascii_comments(comments: List[str]) -> List[str]:
     """
-    Identifies comments that contain non-English characters.
+    Identifies comments that contain non-ASCII characters.
     """
-    return [comment for comment in comments if NON_ENGLISH_REGEX.search(comment)]
+    return [comment for comment in comments if NON_ASCII_REGEX.search(comment)]
 
 
 def main():
@@ -105,14 +105,14 @@ def main():
         print("No comments found in changes.")
         return
 
-    non_english_comments = detect_non_english_comments(comments)
-    if non_english_comments:
-        print("Found comments with non-English characters in the following files:")
-        for comment in non_english_comments:
+    non_ascii_comments = detect_non_ascii_comments(comments)
+    if non_ascii_comments:
+        print("Found comments with non-ASCII characters in the following files:")
+        for comment in non_ascii_comments:
             print(f"- {comment}")
         exit(1)
 
-    print("All comments contain only English letters.")
+    print("All comments contain only ASCII characters.")
 
 
 if __name__ == "__main__":
