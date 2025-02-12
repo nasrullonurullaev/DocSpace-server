@@ -30,7 +30,7 @@ using Role = ASC.Common.Security.Authorizing.Role;
 namespace ASC.Api.Core.Auth;
 
 public class AuthHandler(
-    IOptionsMonitor<AuthenticationSchemeOptions> options,
+//    IOptionsMonitor<AuthenticationSchemeOptions> options,
     ILoggerFactory logger,
     UrlEncoder encoder,
     IConfiguration configuration,
