@@ -4,7 +4,6 @@ import subprocess
 
 # File extensions to exclude (localization, config files, etc.)
 EXCLUDED_FILES = (".json", ".yaml", ".yml", ".po", ".license", ".xml", ".resx")
-
 # Regex to find comments (supports Python, C++, JavaScript, Rust, Go, etc.)
 COMMENT_REGEX = re.compile(r"(?://|#|<!--|/\*|\*).+")
 
@@ -16,77 +15,65 @@ def get_base_branch():
     return os.getenv("GITHUB_BASE_REF", "main")  # Default to 'main' if not in CI
 
 def get_diff():
-    """Gets the diff of the current PR with the base branch, excluding specific file types"""
+    """Gets the diff of the current PR with the base branch"""
     base_branch = get_base_branch()
     print(f"🔍 Checking diff against: {base_branch}")
-    
+
     try:
         subprocess.run(["git", "fetch", "origin", base_branch], check=True)
 
-        # Get changed files
         result = subprocess.run(
-            ["git", "diff", "--name-only", f"origin/{base_branch}"],
+            ["git", "diff", "--unified=0", "--name-only", f"origin/{base_branch}"],
             capture_output=True,
             text=True,
-            check=True
+            check=False  # Allow failures but still capture output
         )
 
         changed_files = result.stdout.splitlines()
-        
-        # Filter out excluded files
-        included_files = [f for f in changed_files if not f.endswith(EXCLUDED_FILES)]
-        
-        if not included_files:
-            print("✅ No files to check (all excluded).")
-            return ""
-        
-        # Get diff only for included files
-        result = subprocess.run(
-            ["git", "diff", "--unified=0", f"origin/{base_branch}", "--"] + included_files,
-            capture_output=True,
-            text=True,
-            check=True
-        )
-        
-        return result.stdout if result.stdout else ""
+        return [f for f in changed_files if not f.endswith(EXCLUDED_FILES)]
 
     except subprocess.CalledProcessError as e:
         print(f"❌ Error running git diff: {e}")
-        return ""
+        return []
 
-def extract_comments(diff_output):
-    """Extracts comments from changed lines"""
-    comments = []
-    for line in diff_output.split("\n"):
-        if line.startswith("+") and not line.startswith("+++") and COMMENT_REGEX.search(line):
-            comments.append(line[1:].strip())  # Remove " +"
-    return comments
+def extract_comments_from_file(file_path):
+    """Extracts comments from a file"""
+    try:
+        with open(file_path, "r", encoding="utf-8") as file:
+            return [
+                (file_path, line.strip())  # Store file name along with comment
+                for line in file
+                if COMMENT_REGEX.search(line)
+            ]
+    except Exception as e:
+        print(f"⚠️ Error reading file {file_path}: {e}")
+        return []
 
 def contains_non_english(text):
     """Checks if a string contains non-English characters"""
     return bool(NON_ENGLISH_REGEX.search(text))
 
-def detect_non_english_comments(comments):
+def detect_non_english_comments(files):
     """Filters comments that contain non-English characters"""
-    non_english = [comment for comment in comments if contains_non_english(comment)]
+    non_english = []
+    for file in files:
+        comments = extract_comments_from_file(file)
+        for file_path, comment in comments:
+            if contains_non_english(comment):
+                non_english.append((file_path, comment))
     return non_english
 
 def main():
-    diff_output = get_diff()
-    if not diff_output:
-        print("✅ No changes to check.")
+    changed_files = get_diff()
+    if not changed_files:
+        print("✅ No relevant files changed.")
         return
 
-    comments = extract_comments(diff_output)
-    if not comments:
-        print("✅ No comments found in changes.")
-        return
-
-    non_english_comments = detect_non_english_comments(comments)
+    non_english_comments = detect_non_english_comments(changed_files)
     if non_english_comments:
         print("❌ Found comments with non-English characters:")
-        for comment in non_english_comments:
-            print(f"- {comment}")
+        for file, comment in non_english_comments:
+            print(f"- {file}: {comment}")
         exit(1)  # Fail the GitHub Action
 
     print("✅ All comments contain only English letters.")
