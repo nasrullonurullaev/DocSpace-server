@@ -89,7 +89,7 @@ def detect_non_ascii_comments(comments: List[str]) -> List[str]:
     """
     Identifies comments that contain non-ASCII characters.
     """
-    return [comment for comment in comments if NON_ASCII_REGEX.search(comment)]
+    return [comment for comment in comments if NON_ASCII_REGEX.search(comment) and not re.search(r"%[0-9A-Fa-f]{2}", comment)]
 
 
 def main():
