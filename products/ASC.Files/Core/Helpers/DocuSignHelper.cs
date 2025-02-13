@@ -150,7 +150,7 @@ public class DocuSignHelper(DocuSignToken docuSignToken,
 
         logger.DebugDocuSingUserInfo(userInfoString);
 
-        var userInfo = (DocuSignUserInfo)JsonConvert.DeserializeObject(userInfoString, typeof(DocuSignUserInfo));
+        var userInfo = JsonConvert.DeserializeObject<DocuSignUserInfo>(userInfoString);
 
         if (userInfo.Accounts == null || userInfo.Accounts.Count == 0)
         {
@@ -219,8 +219,8 @@ public class DocuSignHelper(DocuSignToken docuSignToken,
             DocumentBase64 = Convert.ToBase64String(fileBytes),
             DocumentFields =
             [
-                new() { Name = FilesLinkUtility.FolderId, Value = folderId },
-                new() { Name = FilesLinkUtility.FileTitle, Value = file.Title }
+                new NameValue { Name = FilesLinkUtility.FolderId, Value = folderId },
+                new NameValue { Name = FilesLinkUtility.FileTitle, Value = file.Title }
             ],
             DocumentId = "1", //file.ID.ToString(),
             FileExtension = FileUtility.GetFileExtension(file.Title),
@@ -236,9 +236,9 @@ public class DocuSignHelper(DocuSignToken docuSignToken,
         {
             EnvelopeEvents =
             [
-                new() { EnvelopeEventStatusCode = nameof(DocuSignStatus.Completed) },
-                new() { EnvelopeEventStatusCode = nameof(DocuSignStatus.Declined) },
-                new() { EnvelopeEventStatusCode = nameof(DocuSignStatus.Voided) }
+                new EnvelopeEvent { EnvelopeEventStatusCode = nameof(DocuSignStatus.Completed) },
+                new EnvelopeEvent { EnvelopeEventStatusCode = nameof(DocuSignStatus.Declined) },
+                new EnvelopeEvent { EnvelopeEventStatusCode = nameof(DocuSignStatus.Voided) }
             ],
             IncludeDocumentFields = "true",
             //RecipientEvents = new List<RecipientEvent>
@@ -279,7 +279,7 @@ public class DocuSignHelper(DocuSignToken docuSignToken,
         {
             CustomFields = new CustomFields
             {
-                TextCustomFields = [new() { Name = UserField, Value = authContext.CurrentAccount.ID.ToString() }]
+                TextCustomFields = [new TextCustomField { Name = UserField, Value = authContext.CurrentAccount.ID.ToString() }]
             },
             Documents = [document],
             EmailBlurb = docuSignData.Message,
@@ -298,10 +298,11 @@ public class DocuSignHelper(DocuSignToken docuSignToken,
         logger.DebugDocuSingCreatedEnvelope(envelopeSummary.EnvelopeId);
 
         var envelopeId = envelopeSummary.EnvelopeId;
-        var url = await envelopesApi.CreateSenderViewAsync(accountId, envelopeId, new ReturnUrlRequest
+        var url = await envelopesApi.CreateSenderViewAsync(accountId, envelopeId, new EnvelopeViewRequest
         {
             ReturnUrl = baseCommonLinkUtility.GetFullAbsolutePath(DocuSignHandlerService.Path(filesLinkUtility) + "?" + FilesLinkUtility.Action + "=redirect")
         });
+
         logger.DebugDocuSingSenderView(url.Url);
 
         return url.Url;

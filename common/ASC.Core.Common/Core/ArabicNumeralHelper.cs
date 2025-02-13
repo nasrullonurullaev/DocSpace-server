@@ -28,11 +28,13 @@ namespace ASC.Core.Common;
 
 public static class ArabicNumeralHelper
 {
-    public static string ConvertNumerals(this DateTime input, string format, bool invariantCulture = true)
+    private static readonly string[] _langs = ["ar-lb", "ar-SA"];
+
+    public static string ConvertNumerals(this DateTime input, string format)
     {
-        if (!new[] { "ar-lb", "ar-SA" }.Contains(Thread.CurrentThread.CurrentCulture.Name))
+        if (!_langs.Contains(Thread.CurrentThread.CurrentCulture.Name))
         {
-            return input.ToString(format, invariantCulture ? CultureInfo.InvariantCulture : Thread.CurrentThread.CurrentCulture);
+            return input.ToString(format, Thread.CurrentThread.CurrentCulture);
         }
         
         var result = input.ToString(format, new CultureInfo("ar"));

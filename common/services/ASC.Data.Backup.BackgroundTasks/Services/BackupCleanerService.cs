@@ -60,15 +60,11 @@ internal sealed class BackupCleanerService(
             if (schedule != null)
             {
                 var scheduledBackupsToRemove = scheduledBackups.OrderByDescending(r => r.CreatedOn).Skip(schedule.BackupsStored).ToList();
-                if (scheduledBackupsToRemove.Any())
+                if (scheduledBackupsToRemove.Count != 0)
                 {
                     logger.DebugOnlyLast(schedule.BackupsStored, schedule.TenantId, scheduledBackupsToRemove.Count);
                     backupsToRemove.AddRange(scheduledBackupsToRemove);
                 }
-            }
-            else
-            {
-                backupsToRemove.AddRange(scheduledBackups);
             }
         }
 

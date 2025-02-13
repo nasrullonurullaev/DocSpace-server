@@ -66,9 +66,9 @@ public class WebhookPublisher(
 
         var webhook = await dbWorker.WriteToJournal(webhooksLog);
 
-        eventBus.Publish(new WebhookRequestIntegrationEvent(
+        await eventBus.PublishAsync(new WebhookRequestIntegrationEvent(
             securityContext.CurrentAccount.ID,
-            (await tenantManager.GetCurrentTenantAsync()).Id)
+            (tenantManager.GetCurrentTenant()).Id)
         {
             WebhookId = webhook.Id
         });

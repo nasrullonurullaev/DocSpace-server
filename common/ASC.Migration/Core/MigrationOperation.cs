@@ -123,7 +123,7 @@ public class MigrationOperation(
             }
 
             var folder = await cache.GetStringAsync($"migration folder - {TenantId}");
-            await migrator.InitAsync(folder, CancellationToken, onlyParse ? OperationType.Parse : OperationType.Migration);
+            await migrator.InitAsync(folder, onlyParse ? OperationType.Parse : OperationType.Migration, CancellationToken);
 
             await migrator.ParseAsync(onlyParse);
             if (!onlyParse)
@@ -139,7 +139,7 @@ public class MigrationOperation(
         {
             Exception = e;
             logger.ErrorWithException(e);
-            if (migrator != null && migrator.MigrationInfo != null)
+            if (migrator is { MigrationInfo: not null })
             {
                 MigrationApiInfo = migrator.MigrationInfo.ToApiInfo();
             }
@@ -162,7 +162,7 @@ public class MigrationOperation(
         async Task Migrator_OnProgressUpdateAsync(double arg1, string arg2)
         {
             Percentage = arg1;
-            if (migrator != null && migrator.MigrationInfo != null)
+            if (migrator is { MigrationInfo: not null })
             {
                 MigrationApiInfo = migrator.MigrationInfo.ToApiInfo();
             }
