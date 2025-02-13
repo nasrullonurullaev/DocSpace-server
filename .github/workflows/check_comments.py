@@ -8,7 +8,7 @@ EXCLUDED_FILES = {".json", ".p7s", ".cjs", ".po", ".license", ".xml", ".resx"}
 
 # Regex patterns
 COMMENT_REGEX = re.compile(r"(?://|#|<!--|/\*|\*).+")  # Matches comments in various languages
-NON_ASCII_REGEX = re.compile(r"[^\p{Latin}\d\s\p{P}\p{S}\p{Cf}]", re.UNICODE)
+NON_ASCII_REGEX = re.compile(r"[^\p{Latin}\d\s\p{P}\p{S}\p{Cf}]", re.UNICODE)  # Оставляет все печатные ASCII символы
 
 
 
@@ -89,7 +89,7 @@ def detect_non_ascii_comments(comments: List[str]) -> List[str]:
     """
     Identifies comments that contain non-ASCII characters.
     """
-    return [comment for comment in comments if NON_ASCII_REGEX.search(comment) and not re.search(r"%[0-9A-Fa-f]{2}", comment)]
+    return [comment for comment in comments if NON_ASCII_REGEX.search(comment)]
 
 
 def main():
