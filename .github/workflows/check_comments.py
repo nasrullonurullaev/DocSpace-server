@@ -1,5 +1,5 @@
 import os
-import regex as re
+import re
 import subprocess
 from typing import List, Optional
 
@@ -8,7 +8,7 @@ EXCLUDED_FILES = {".json", ".p7s", ".cjs", ".po", ".license", ".xml", ".resx"}
 
 # Regex patterns
 COMMENT_REGEX = re.compile(r"(?://|#|<!--|/\*|\*).+")  # Matches comments in various languages
-NON_ASCII_REGEX = re.compile(r"[^\p{Latin}\d\s\p{P}\p{S}]", re.UNICODE)  # Detects non-Latin characters
+NON_ASCII_REGEX = re.compile(r"[^\x00-\x7F]")  # Matches non-ASCII characters
 
 
 def get_base_branch() -> str:
@@ -78,7 +78,7 @@ def extract_comments(diff_output: str) -> List[str]:
     Extracts comments from the diff output.
     """
     return [
-        line[1:].strip().lstrip("\ufeff")  # Remove BOM if present
+        line[1:].strip()
         for line in diff_output.split("\n")
         if line.startswith("+") and not line.startswith("+++") and COMMENT_REGEX.search(line)
     ]
@@ -86,7 +86,7 @@ def extract_comments(diff_output: str) -> List[str]:
 
 def detect_non_ascii_comments(comments: List[str]) -> List[str]:
     """
-    Identifies comments that contain non-Latin characters.
+    Identifies comments that contain non-ASCII characters.
     """
     return [comment for comment in comments if NON_ASCII_REGEX.search(comment)]
 
