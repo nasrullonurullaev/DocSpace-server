@@ -25,7 +25,7 @@
 // International. See the License terms at http://creativecommons.org/licenses/by-sa/4.0/legalcode
 
 using SecurityContext = ASC.Core.SecurityContext;
-
+//русский 
 namespace ASC.Api.Core.Auth;
 
 public class BasicAuthHandler(
