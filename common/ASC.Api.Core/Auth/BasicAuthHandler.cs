@@ -60,14 +60,14 @@ public class BasicAuthHandler(
         var authUsername = authSplit[0];
         var authPassword = authSplit.Length > 1 ? authSplit[1] : throw new Exception("Unable to get password");
 
-        try
+        /* try
         {
             var userInfo = await userManager.GetUserByEmailAsync(authUsername);
             var passwordHash = passwordHasher.GetClientPassword(authPassword);
 
             await securityContext.AuthenticateMeAsync(userInfo.Email, passwordHash);
 
-        }
+        } */
         catch (Exception)
         {
             return AuthenticateResult.Fail("The username or password is not correct.");
