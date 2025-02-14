@@ -48,7 +48,7 @@ public class BasicAuthHandler(
 
         // Get authorization key
         var authorizationHeader = Request.Headers["Authorization"].ToString();
-        var authHeaderRegex = new Regex(@"Basic (.*)");
+//        var authHeaderRegex = new Regex(@"Basic (.*)");
 
         if (!authHeaderRegex.IsMatch(authorizationHeader))
         {
