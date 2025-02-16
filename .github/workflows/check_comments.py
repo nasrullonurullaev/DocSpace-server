@@ -16,6 +16,7 @@ def get_base_branch() -> str:
     return os.getenv("GITHUB_BASE_REF", "main")
 
 
+
 def get_changed_files(base_branch: str) -> List[str]:
     """Fetches the list of changed files in the PR and filters out excluded files."""
     print(f"Checking diff against: {base_branch}")
