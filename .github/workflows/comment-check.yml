@@ -1,26 +1,41 @@
-name: Check Comments
+name: Check Comments for Non-English Characters
 
 on:
   pull_request:
-    branches:
-      - master
-      - develop
-      - release/*
-      - hotfix/*
+    branches: [ main, master ]
 
 jobs:
   check-comments:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 2
+          fetch-depth: 0
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.9'
+      - name: Check for non-English characters in comments
+        run: |
+          # Get base and head SHAs
+          BASE_SHA=${{ github.event.pull_request.base.sha }}
+          HEAD_SHA=${{ github.event.pull_request.head.sha }}
 
-      - name: Run comment checker
-        run: python .github/workflows/check_comments.py
+          # Get the diff between base and head
+          DIFF=$(git diff $BASE_SHA $HEAD_SHA)
+
+          # Pattern to match comment lines (customize this for your needs)
+          COMMENT_PATTERN='^\+\s*(\/\/|#|\/\*| \* |<!--|--)'
+
+          # Extract added comment lines from diff
+          COMMENTS=$(echo "$DIFF" | grep -E "$COMMENT_PATTERN")
+
+          # Check for non-ASCII characters (excluding English letters, numbers, and common symbols)
+          BAD_COMMENTS=$(echo "$COMMENTS" | perl -nle 'print if /[^\x00-\x7F]/')
+
+          if [ ! -z "$BAD_COMMENTS" ]; then
+            echo "❌ Error: Non-English characters detected in comments:"
+            echo "$BAD_COMMENTS"
+            echo "Please use only English characters in comments."
+            exit 1
+          else
+            echo "✅ All comments use English characters"
+          fi
