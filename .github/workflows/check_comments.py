@@ -91,6 +91,17 @@ def detect_non_ascii_comments(comments: List[str]) -> List[str]:
     return [comment for comment in comments if NON_ASCII_REGEX.search(comment)]
 
 
+def extract_non_ascii_lines(diff_output: str) -> List[str]:
+    """
+    Extracts lines (not only comments) that contain non-ASCII characters.
+    """
+    return [
+        line[1:].strip()
+        for line in diff_output.split("\n")
+        if line.startswith("+") and not line.startswith("+++") and NON_ASCII_REGEX.search(line)
+    ]
+
+
 def main():
     base_branch = get_base_branch()
     changed_files = get_changed_files(base_branch)
@@ -101,18 +112,26 @@ def main():
         return
 
     comments = extract_comments(diff_output)
-    if not comments:
-        print("No comments found in changes.")
-        return
-
     non_ascii_comments = detect_non_ascii_comments(comments)
-    if non_ascii_comments:
-        print("Found comments with non-ASCII characters in the following files:")
-        for comment in non_ascii_comments:
-            print(f"- {comment}")
+
+    non_ascii_lines = extract_non_ascii_lines(diff_output)
+
+    if non_ascii_comments or non_ascii_lines:
+        print("Found lines with non-ASCII characters:")
+
+        if non_ascii_comments:
+            print("\nNon-ASCII characters in comments:")
+            for comment in non_ascii_comments:
+                print(f"- {comment}")
+
+        if non_ascii_lines:
+            print("\nNon-ASCII characters in other lines:")
+            for line in non_ascii_lines:
+                print(f"- {line}")
+
         exit(1)
 
-    print("All comments contain only ASCII characters.")
+    print("All lines contain only ASCII characters.")
 
 
 if __name__ == "__main__":
