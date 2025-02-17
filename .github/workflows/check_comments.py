@@ -77,7 +77,10 @@ def extract_comments(diff_output: str) -> List[str]:
 
 def detect_non_ascii_comments(comments: List[str]) -> List[str]:
     """Identifies comments that contain non-ASCII characters."""
-    return [comment for comment in comments if NON_ASCII_REGEX.search(comment)]
+        return [
+        comment for comment in comments
+        if NON_ASCII_REGEX.search(''.join(re.findall(r'[a-zA-Z0-9\s]', comment)))
+    ]
 
 
 def main():
