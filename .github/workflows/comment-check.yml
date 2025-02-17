@@ -1,55 +1,29 @@
-name: Check Comments for Non-English Characters
+name: Check Comments
 
 on:
   pull_request:
-    paths:
-      - '**/*.sh'
-      - '**/*.py'
-      - '**/*.js'
-      - '**/*.ts'
-      - '**/*.java'
-      - '**/*.c'
-      - '**/*.cpp'
-      - '**/*.h'
-      - '**/*.hpp'
-      - '**/*.rb'
-      - '**/*.go'
-      - '**/*.rs'
+    branches:
+      - master
+      - develop
+      - release/*
+      - hotfix/*
 
 jobs:
   check-comments:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Code
+      - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
 
-      - name: Get Changed Files
-        id: changed-files
-        run: |
-          git fetch origin ${{ github.base_ref }} --depth=1
-          git diff --name-only origin/${{ github.base_ref }} ${{ github.head_ref }} > changed_files.txt
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.9'
 
-      - name: Run Comment Checker
-        run: |
-          EXCLUDE_FILES=("excluded_dir/" "ignore_this_file.py")
-          INVALID_FILES=()
+      - name: Install dependencies
+        run: pip install regex
 
-          while IFS= read -r file; do
-            # Skip excluded files
-            for exclude in "${EXCLUDE_FILES[@]}"; do
-              [[ "$file" == *"$exclude"* ]] && continue 2
-            done
-
-            # Extract comments and check for non-English characters
-            if grep -E '^[[:space:]]*([#\/]{1,2}|/\*|\*/)' "$file" | grep -P '[^\x00-\x7F]'; then
-              echo "❌ Non-English characters found in comments of $file"
-              INVALID_FILES+=("$file")
-            fi
-          done < changed_files.txt
-
-          if [[ ${#INVALID_FILES[@]} -gt 0 ]]; then
-            echo "❌ Non-English characters detected in comments. Fix them before merging."
-            exit 1
-          else
-            echo "✅ All comments are in English."
-          fi
+      - name: Run comment checker
+        run: python .github/workflows/check_comments.py
