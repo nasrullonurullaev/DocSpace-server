@@ -39,6 +39,11 @@ public class TenantExtraConfig(CoreBaseSettings coreBaseSettings, LicenseReaderC
         get { return coreBaseSettings.Standalone && !string.IsNullOrEmpty(licenseReaderConfig.LicensePath); }
     }
 
+    public bool Developer
+    {
+        get { return Enterprise && licenseReaderConfig.LicenseType == LicenseType.Developer; }
+    }
+
     public bool Opensource
     {
         get { return coreBaseSettings.Standalone && string.IsNullOrEmpty(licenseReaderConfig.LicensePath); }
@@ -208,12 +213,24 @@ public class TariffService(
 
                     await UpdateCacheAsync(tariff.Id);
                 }
+                catch (BillingNotFoundException billingNotFoundException)
+                {
+                    if (tariff.Id != 0 && tariff.State == TariffState.Paid)
+                    {
+                        LogError(billingNotFoundException, tenantId.ToString());
+
+                        tariff.DueDate = DateTime.Today.AddDays(-1);
+
+                        if (await SaveBillingInfoAsync(tenantId, tariff))
+                        {
+                            tariff = await CalculateTariffAsync(tenantId, tariff);
+                            await UpdateCacheAsync(tariff.Id);
+                        }
+                    }
+                }
                 catch (Exception error)
                 {
-                    if (error is not BillingNotFoundException)
-                    {
-                        LogError(error, tenantId.ToString());
-                    }
+                    LogError(error, tenantId.ToString());
                 }
 
                 if (tariff.Id == 0)
@@ -260,7 +277,7 @@ public class TariffService(
 
                 tariff = new Tariff
                 {
-                    Quotas = [new(quota.TenantId, 1)],
+                    Quotas = [new Quota(quota.TenantId, 1)],
                     DueDate = DateTime.UtcNow.AddDays(DefaultTrialPeriod)
                 };
 
@@ -283,7 +300,7 @@ public class TariffService(
 
     public async Task<bool> PaymentChangeAsync(int tenantId, Dictionary<string, int> quantity)
     {
-        if (quantity == null || !quantity.Any()
+        if (quantity == null || quantity.Count == 0
             || !billingClient.Configured)
         {
             return false;
@@ -462,7 +479,7 @@ public class TariffService(
             }
         }
 
-        var hasQuantity = quantity != null && quantity.Any();
+        var hasQuantity = quantity != null && quantity.Count != 0;
         var keyBuilder = new StringBuilder("shopingurl_");
         keyBuilder.Append(hasQuantity ? string.Join('_', quantity.Keys.ToArray()) : "all");
         if (!string.IsNullOrEmpty(affiliateId))
@@ -620,7 +637,7 @@ public class TariffService(
                     CreateOn = DateTime.UtcNow
                 };
 
-                if (efTariff.Id == default)
+                if (efTariff.Id == 0)
                 {
                     efTariff.Id = (-tenant);
                     tariffInfo.Id = efTariff.Id;
@@ -691,7 +708,24 @@ public class TariffService(
         }
 
         var delay = 0;
-        var setDelay = !coreBaseSettings.Standalone;
+        var setDelay = true;
+        var lifetime = false;
+
+        if (coreBaseSettings.Standalone)
+        {
+            foreach (var q in tariff.Quotas)
+            {
+                var quota = await quotaService.GetTenantQuotaAsync(q.Id);
+                if (quota.Lifetime)
+                {
+                    lifetime = true;
+                }
+                if (quota.Trial)
+                {
+                    setDelay = false;
+                }
+            }
+        }
 
         if (TrialEnabled)
         {
@@ -712,7 +746,7 @@ public class TariffService(
                             fromDate = DateTime.UtcNow.Date;
                         }
 
-                        tariff.DueDate = trialPeriod != default ? fromDate.Date.AddDays(trialPeriod) : DateTime.MaxValue;
+                        tariff.DueDate = trialPeriod != 0 ? fromDate.Date.AddDays(trialPeriod) : DateTime.MaxValue;
                     }
                     else
                     {
@@ -722,7 +756,7 @@ public class TariffService(
             }
         }
 
-        if (setDelay)
+        if (setDelay && !lifetime)
         {
             delay = PaymentDelay;
         }
@@ -736,38 +770,7 @@ public class TariffService(
         if (tariff.DueDate == DateTime.MinValue ||
             tariff.DueDate != DateTime.MaxValue && tariff.DueDate.Date < DateTime.UtcNow.Date.AddDays(-delay))
         {
-            tariff.State = TariffState.NotPaid;
-
-            if (coreBaseSettings.Standalone)
-            {
-                TenantQuota updatedQuota = null;
-
-                var tenantQuotas = await quotaService.GetTenantQuotasAsync();
-
-                foreach (var quota in tariff.Quotas)
-                {
-                    var tenantQuota = tenantQuotas.SingleOrDefault(q => q.TenantId == quota.Id);
-
-                    if (tenantQuota != null)
-                    {
-                        tenantQuota *= quota.Quantity;
-                        updatedQuota += tenantQuota;
-                    }
-                }
-
-                var defaultQuota = await quotaService.GetTenantQuotaAsync(Tenant.DefaultTenant);
-                defaultQuota.Name = "overdue";
-                defaultQuota.Features = updatedQuota?.Features;
-
-                await quotaService.SaveTenantQuotaAsync(defaultQuota);
-
-                var unlimTariff = await CreateDefaultAsync();
-                unlimTariff.LicenseDate = tariff.DueDate;
-                unlimTariff.DueDate = tariff.DueDate;
-                unlimTariff.Quotas = [new(defaultQuota.TenantId, 1)];
-
-                tariff = unlimTariff;
-            }
+            tariff.State = lifetime ? TariffState.Paid : TariffState.NotPaid;
         }
 
         return tariff;
@@ -845,17 +848,17 @@ public class TariffService(
         var maxTotalSize = updatedQuota.MaxTotalSize;
         var maxTotalSizeFeatureName = updatedQuota.GetFeature<MaxTotalSizeFeature>().Name;
 
-        _ = quotaSocketManager.ChangeQuotaFeatureValue(maxTotalSizeFeatureName, maxTotalSize);
+        _ = quotaSocketManager.ChangeQuotaFeatureValueAsync(maxTotalSizeFeatureName, maxTotalSize);
 
         var maxPaidUsers = updatedQuota.CountRoomAdmin;
         var maxPaidUsersFeatureName = updatedQuota.GetFeature<CountPaidUserFeature>().Name;
 
-        _ = quotaSocketManager.ChangeQuotaFeatureValue(maxPaidUsersFeatureName, maxPaidUsers);
+        _ = quotaSocketManager.ChangeQuotaFeatureValueAsync(maxPaidUsersFeatureName, maxPaidUsers);
 
         var maxRoomCount = updatedQuota.CountRoom == int.MaxValue ? -1 : updatedQuota.CountRoom;
         var maxRoomCountFeatureName = updatedQuota.GetFeature<CountRoomFeature>().Name;
 
-        _ = quotaSocketManager.ChangeQuotaFeatureValue(maxRoomCountFeatureName, maxRoomCount);
+        _ = quotaSocketManager.ChangeQuotaFeatureValueAsync(maxRoomCountFeatureName, maxRoomCount);
 
         if (currenTariff != null)
         {
@@ -866,7 +869,7 @@ public class TariffService(
             {
                 var freeFeatureName = updatedQuota.GetFeature<FreeFeature>().Name;
 
-                _ = quotaSocketManager.ChangeQuotaFeatureValue(freeFeatureName, free);
+                _ = quotaSocketManager.ChangeQuotaFeatureValueAsync(freeFeatureName, free);
             }
         }
     }

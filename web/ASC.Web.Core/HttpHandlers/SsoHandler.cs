@@ -60,7 +60,6 @@ public class SsoHandlerService
     private readonly TenantUtil _tenantUtil;
     private readonly Action<string> _signatureResolver;
     private readonly CountPaidUserChecker _countPaidUserChecker;
-    private readonly IDistributedLockProvider _distributedLockProvider;
     private const string MOB_PHONE = "mobphone";
     private const string EXT_MOB_PHONE = "extmobphone";
 
@@ -82,8 +81,7 @@ public class SsoHandlerService
         MessageService messageService,
         DisplayUserSettingsHelper displayUserSettingsHelper,
         TenantUtil tenantUtil,
-        CountPaidUserChecker countPaidUserChecker, 
-        IDistributedLockProvider distributedLockProvider)
+        CountPaidUserChecker countPaidUserChecker)
     {
         _log = log;
         _coreBaseSettings = coreBaseSettings;
@@ -100,7 +98,6 @@ public class SsoHandlerService
         _displayUserSettingsHelper = displayUserSettingsHelper;
         _tenantUtil = tenantUtil;
         _countPaidUserChecker = countPaidUserChecker;
-        _distributedLockProvider = distributedLockProvider;
         _signatureResolver = s =>
         {
             int.TryParse(s[^1..], out var lastSignChar);
@@ -118,12 +115,12 @@ public class SsoHandlerService
     {
         try
         {
-            if (!SetupInfo.IsVisibleSettings(ManagementType.SingleSignOnSettings.ToString()) && !_coreBaseSettings.Standalone)
+            if (!SetupInfo.IsVisibleSettings(ManagementType.SingleSignOnSettings.ToStringFast()) && !_coreBaseSettings.Standalone)
             {
                 throw new SSOException("Single sign-on settings are disabled", MessageKey.SsoSettingsDisabled);
             }
 
-            if (!(_coreBaseSettings.Standalone || (await _tenantManager.GetTenantQuotaAsync(await _tenantManager.GetCurrentTenantIdAsync())).Sso))
+            if (!(_coreBaseSettings.Standalone || (await _tenantManager.GetTenantQuotaAsync(_tenantManager.GetCurrentTenantId())).Sso))
             {
                 throw new SSOException("Single sign-on settings are not paid", MessageKey.ErrorNotAllowedOption);
             }
@@ -157,7 +154,7 @@ public class SsoHandlerService
 
                 if (userData == null)
                 {
-                    await _messageService.SendAsync(MessageAction.LoginFailViaSSO);
+                    _messageService.Send(MessageAction.LoginFailViaSSO);
                     throw new SSOException("SAML response is not valid", MessageKey.SsoSettingsNotValidToken);
                 }
 
@@ -180,7 +177,7 @@ public class SsoHandlerService
                     if (!Equals(userInfo, authenticatedUserInfo))
                     {
                         var loginName = authenticatedUserInfo.DisplayUserName(false, _displayUserSettingsHelper);
-                        await _messageService.SendAsync(loginName, MessageAction.Logout);
+                        _messageService.Send(loginName, MessageAction.Logout);
                         await _cookiesManager.ResetUserCookieAsync();
                         _securityContext.Logout();
                     }
@@ -191,7 +188,7 @@ public class SsoHandlerService
                 }
                 try
                 {
-                    userInfo = await AddUserAsync(userInfo);
+                    userInfo = await AddUserAsync(userInfo, (EmployeeType)settings.UsersType);
                 }
                 catch (Exception ex)
                 {
@@ -216,7 +213,7 @@ public class SsoHandlerService
 
                 if (Equals(userInfo, Constants.LostUser))
                 {
-                    await _messageService.SendAsync(MessageAction.LoginFailViaSSO);
+                    _messageService.Send(MessageAction.LoginFailViaSSO);
                     throw new SSOException("Can't logout userInfo using current SAML response", MessageKey.SsoSettingsNotValidToken);
                 }
 
@@ -228,7 +225,7 @@ public class SsoHandlerService
                 await _securityContext.AuthenticateMeWithoutCookieAsync(userInfo.Id);
 
                 var loginName = userInfo.DisplayUserName(false, _displayUserSettingsHelper);
-                await _messageService.SendAsync(loginName, MessageAction.Logout);
+                _messageService.Send(loginName, MessageAction.Logout);
 
                 await _cookiesManager.ResetUserCookieAsync();
                 _securityContext.Logout();
@@ -263,7 +260,7 @@ public class SsoHandlerService
         await context.Response.WriteAsync(((int)messageKey).ToString());
     }
 
-    private async Task<UserInfo> AddUserAsync(UserInfo userInfo)
+    private async Task<UserInfo> AddUserAsync(UserInfo userInfo, EmployeeType employeeType)
     {
         UserInfo newUserInfo;
 
@@ -282,8 +279,7 @@ public class SsoHandlerService
 
             if (string.IsNullOrEmpty(newUserInfo.UserName))
             {
-                var type = EmployeeType.RoomAdmin;
-                var tenantId = await _tenantManager.GetCurrentTenantIdAsync();
+                var type = employeeType is EmployeeType.User or EmployeeType.RoomAdmin or EmployeeType.DocSpaceAdmin ? employeeType : EmployeeType.User;
 
                 try
                 {
@@ -300,7 +296,7 @@ public class SsoHandlerService
             {
                 if (!_userFormatter.IsValidUserName(userInfo.FirstName, userInfo.LastName))
                 {
-                    throw new Exception(Resource.ErrorIncorrectUserName);
+                    throw new ArgumentException(Resource.ErrorIncorrectUserName);
                 }
 
                 await _userManager.UpdateUserInfoAsync(newUserInfo);
@@ -383,7 +379,7 @@ public class SsoHandlerService
             userInfo.Location = location;
             userInfo.Title = title;
 
-            var portalUserContacts = userInfo.ContactsList ?? new List<string>();
+            var portalUserContacts = userInfo.ContactsList ?? [];
 
             var newContacts = new List<string>();
             var phones = new List<string>();

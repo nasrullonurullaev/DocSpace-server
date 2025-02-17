@@ -36,7 +36,7 @@ public class DocumentServiceLicense(ICache cache,
     private static readonly TimeSpan _cacheExpiration = TimeSpan.FromMinutes(15);
 
 
-    private async Task<CommandResponse> GetDocumentServiceLicenseAsync()
+    private async Task<CommandResponse> GetDocumentServiceLicenseAsync(bool useCache)
     {
         if (!coreBaseSettings.Standalone)
         {
@@ -49,7 +49,7 @@ public class DocumentServiceLicense(ICache cache,
         }
 
         var cacheKey = "DocumentServiceLicense";
-        var commandResponse = cache.Get<CommandResponse>(cacheKey);
+        var commandResponse = useCache ? cache.Get<CommandResponse>(cacheKey) : null;
         if (commandResponse == null)
         {
             commandResponse = await CommandRequestAsync(
@@ -63,15 +63,51 @@ public class DocumentServiceLicense(ICache cache,
                    fileUtility.SignatureSecret,
                    clientFactory
                    );
-            cache.Insert(cacheKey, commandResponse, DateTime.UtcNow.Add(_cacheExpiration));
+
+            if (useCache)
+            {
+                cache.Insert(cacheKey, commandResponse, DateTime.UtcNow.Add(_cacheExpiration));
+            }
         }
 
         return commandResponse;
     }
 
+    public async Task<bool> ValidateLicense(License license)
+    {
+        var attempt = 0;
+
+        while (attempt < 3)
+        {
+            var commandResponse = await GetDocumentServiceLicenseAsync(false);
+
+            if (commandResponse == null)
+            {
+                return true;
+            }
+
+            if (commandResponse.Error != ErrorTypes.NoError)
+            {
+                return false;
+            }
+
+            if (commandResponse.License.ResourceKey == license.ResourceKey || commandResponse.License.CustomerId == license.CustomerId)
+            {
+                return commandResponse.Server is { ResultType: CommandResponse.ServerInfo.ResultTypes.Success or CommandResponse.ServerInfo.ResultTypes.SuccessLimit };
+            }
+            else
+            {
+                await Task.Delay(1000);
+                attempt += 1;
+            }
+        }
+
+        return false;
+    }
+
     public async Task<(Dictionary<string, DateTime>, License)> GetLicenseQuotaAsync()
     {
-        var commandResponse = await GetDocumentServiceLicenseAsync();
+        var commandResponse = await GetDocumentServiceLicenseAsync(true);
         return commandResponse == null ? 
             (null, null) : 
             (commandResponse.Quota?.Users?.ToDictionary(r=> r.UserId, r=> r.Expire), commandResponse.License);
