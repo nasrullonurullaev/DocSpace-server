@@ -1,7 +1,6 @@
 import os
 import re
 import subprocess
-import re
 from typing import List, Optional
 
 # File extensions to exclude (localization, config files, etc.)
@@ -9,7 +8,7 @@ EXCLUDED_FILES = {".json", ".p7s", ".cjs", ".po", ".license", ".xml", ".resx"}
 
 # Regex patterns
 COMMENT_REGEX = re.compile(r"(?://|#|<!--|/\*|\*).+")  # Matches comments in various languages
-NON_ASCII_REGEX = re.compile(r'[^\x00-\x7F\p{Cc}\p{Cf}]', re.UNICODE)  # Matches non-ASCII characters
+NON_ASCII_REGEX = re.compile(r"[^\x00-\x7F\uFEFF]")   # Matches non-ASCII characters
 
 
 def get_base_branch() -> str:
