@@ -23,7 +23,7 @@ jobs:
           python-version: '3.9'
 
       - name: Install dependencies
-        run: pip install regex
+        run: pip install re
 
       - name: Run comment checker
         run: python .github/workflows/check_comments.py
