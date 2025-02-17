@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2010-2022
+// (c) Copyright Ascensio System SIA 2010-2022
 //
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -34,9 +34,9 @@ global using ASC.Core.Common.Hosting.Extensions;
 global using ASC.Data.Backup.EF.Model;
 global using ASC.EventBus.Extensions.Logger;
 global using ASC.EventBus.Extensions.Logger.Extensions;
-global using ASC.Migrations;
 global using ASC.Files.Core.EF;
 global using ASC.MessagingSystem.EF.Model;
+global using ASC.Migrations.Core.Identity;
 global using ASC.Migrations.Core.Models;
 global using ASC.Migrations.Core.Utils;
 global using ASC.Webhooks.Core.EF.Model;

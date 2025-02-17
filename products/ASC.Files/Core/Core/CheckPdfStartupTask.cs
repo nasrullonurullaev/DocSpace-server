@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -31,7 +31,6 @@ public class CheckPdfStartupTask(IServiceProvider provider) : IStartupTask
     public async Task ExecuteAsync(CancellationToken cancellationToken = default)
     {
         var tenantService = provider.GetService<ITenantService>();
-        var checkPdfExecutor = provider.GetService<CheckPdfExecutor>();
 
         var tenants = await tenantService.GetTenantsAsync((DateTime)default);
         var t = Task.Run(async () =>

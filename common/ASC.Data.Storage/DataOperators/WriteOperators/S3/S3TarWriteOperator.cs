@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -34,7 +34,7 @@ public class S3TarWriteOperator : IDataWriteOperator
     private readonly string _domain;
     private readonly string _key;
     private const int Limit = 10;
-    private readonly List<Task> _tasks = new();
+    private readonly List<Task> _tasks = [];
     private readonly TaskScheduler _scheduler = new ConcurrentExclusiveSchedulerPair(TaskScheduler.Default, Limit).ConcurrentScheduler;
     private readonly ConcurrentQueue<int> _queue = new();
     private readonly CancellationTokenSource _cts = new();
@@ -188,6 +188,7 @@ public class S3TarWriteOperator : IDataWriteOperator
         }
 
         StoragePath = await _sessionHolder.FinalizeAsync(_chunkedUploadSession);
-        
+
+        _cts?.Dispose();
     }
 }

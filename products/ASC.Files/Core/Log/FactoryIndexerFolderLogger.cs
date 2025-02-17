@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -27,6 +27,6 @@
 namespace ASC.Files.Core.Log;
 internal static partial class FactoryIndexerFolderLogger
 {
-    [LoggerMessage(Level = LogLevel.Error, Message = "FactoryIndexerFolder")]
+    [LoggerMessage(LogLevel.Error, "FactoryIndexerFolder")]
     public static partial void ErrorFactoryIndexerFolder(this ILogger logger, Exception exception);
 }

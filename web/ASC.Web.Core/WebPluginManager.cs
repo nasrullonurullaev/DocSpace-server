@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -214,7 +214,7 @@ public class WebPluginManager(
             {
                 var ext = Path.GetExtension(zipEntry.Name);
 
-                if (webPluginConfigSettings.AssetExtensions.Any() && !webPluginConfigSettings.AssetExtensions.Contains(ext))
+                if (webPluginConfigSettings.AssetExtensions.Length != 0 && !webPluginConfigSettings.AssetExtensions.Contains(ext))
                 {
                     continue;
                 }
@@ -301,7 +301,10 @@ public class WebPluginManager(
         var webPlugins = new List<WebPlugin>();
 
         webPlugins.AddRange((await GetWebPluginsFromCacheAsync(Tenant.DefaultTenant)).Select(x => x.Clone()));
-        webPlugins.AddRange((await GetWebPluginsFromCacheAsync(tenantId)).Select(x => x.Clone()));
+
+        webPlugins.AddRange((await GetWebPluginsFromCacheAsync(tenantId))
+            .Where(tenantPlugin => webPlugins.All(systemPlugin => systemPlugin.Name != tenantPlugin.Name))
+            .Select(x => x.Clone()));
 
         if (webPlugins.Count == 0)
         {
@@ -436,7 +439,7 @@ public class WebPluginManager(
             enabledPlugins.Remove(webPlugin.Name);
         }
 
-        webPluginSettings.EnabledPlugins = enabledPlugins.Any() ? enabledPlugins : null;
+        webPluginSettings.EnabledPlugins = enabledPlugins.Count != 0 ? enabledPlugins : null;
 
         await settingsManager.SaveAsync(webPluginSettings);
 

@@ -1,4 +1,4 @@
-﻿using Xunit;
+using Xunit;
 using Shouldly;
 using System.Diagnostics;
 using System;

@@ -121,7 +121,7 @@
     <value>Przetwarzanie danych...</value>
   </data>
   <data name="DataProcessingCompleted" xml:space="preserve">
-    <value>Zakończono przetwarzanie danych</value>
+    <value>ZakoÅ„czono przetwarzanie danych</value>
   </data>
   <data name="DumpParse" xml:space="preserve">
     <value>Analizowanie bazy danych</value>
@@ -130,10 +130,10 @@
     <value>Migracja grupy {0} ({1}/{2})</value>
   </data>
   <data name="MigratingUserFiles" xml:space="preserve">
-    <value>Migrowanie plików użytkownika {0} ({1}/{2})</value>
+    <value>Migrowanie plikÃ³w uÅ¼ytkownika {0} ({1}/{2})</value>
   </data>
   <data name="MigrationCompleted" xml:space="preserve">
-    <value>Migracja została zakończona</value>
+    <value>Migracja zostaÅ‚a zakoÅ„czona</value>
   </data>
   <data name="PreparingForMigration" xml:space="preserve">
     <value>Przygotowanie do migracji</value>
@@ -145,13 +145,13 @@
     <value>Rozpakowywanie...</value>
   </data>
   <data name="UnzippingFinished" xml:space="preserve">
-    <value>Rozpakowywanie zakończone...</value>
+    <value>Rozpakowywanie zakoÅ„czone...</value>
   </data>
   <data name="UserMigration" xml:space="preserve">
-    <value>Migracja użytkownika {0} ({1}/{2})</value>
+    <value>Migracja uÅ¼ytkownika {0} ({1}/{2})</value>
   </data>
   <data name="MigrationCommonFiles" xml:space="preserve">
-    <value>Migracja wspólnych plików</value>
+    <value>Migracja wspÃ³lnych plikÃ³w</value>
   </data>
   <data name="MigrationNotFoundException" xml:space="preserve">
     <value>Nie ma takiego dostawcy migracji</value>
@@ -160,54 +160,54 @@
     <value>Brak migracji w toku</value>
   </data>
   <data name="MigrationProjectFiles" xml:space="preserve">
-    <value>Migracja plików z projektów</value>
+    <value>Migracja plikÃ³w z projektÃ³w</value>
   </data>
   <data name="CanNotAddUserInGroup" xml:space="preserve">
-    <value>Nie udało się dodać użytkownika {0} do grupy {1}</value>
+    <value>Nie udaÅ‚o siÄ™ dodaÄ‡ uÅ¼ytkownika {0} do grupy {1}</value>
   </data>
   <data name="CanNotCreateFile" xml:space="preserve">
-    <value>Nie udało się utworzyć pliku {0}</value>
+    <value>Nie udaÅ‚o siÄ™ utworzyÄ‡ pliku {0}</value>
   </data>
   <data name="CanNotImportUser" xml:space="preserve">
-    <value>Nie udało się zaimportować użytkownika</value>
+    <value>Nie udaÅ‚o siÄ™ zaimportowaÄ‡ uÅ¼ytkownika</value>
   </data>
   <data name="CanNotImportUserFiles" xml:space="preserve">
-    <value>Nie udało się zaimportować plików użytkownika</value>
+    <value>Nie udaÅ‚o siÄ™ zaimportowaÄ‡ plikÃ³w uÅ¼ytkownika</value>
   </data>
   <data name="CanNotParseArchive" xml:space="preserve">
-    <value>Nie udało się przeanalizować archiwum {0}</value>
+    <value>Nie udaÅ‚o siÄ™ przeanalizowaÄ‡ archiwum {0}</value>
   </data>
   <data name="CanNotParseArchives" xml:space="preserve">
-    <value>Nie udało się przeanalizować archiwów</value>
+    <value>Nie udaÅ‚o siÄ™ przeanalizowaÄ‡ archiwÃ³w</value>
   </data>
   <data name="CanNotParseUser" xml:space="preserve">
-    <value>Nie udało się się przeanalizować użytkownika {0}</value>
+    <value>Nie udaÅ‚o siÄ™ siÄ™ przeanalizowaÄ‡ uÅ¼ytkownika {0}</value>
   </data>
   <data name="CanNotReadInfoFile" xml:space="preserve">
-    <value>Nie udało się odczytać pliku danych z {0}</value>
+    <value>Nie udaÅ‚o siÄ™ odczytaÄ‡ pliku danych z {0}</value>
   </data>
   <data name="CanNotShare" xml:space="preserve">
-    <value>Nie udało się udostępnić wpisu {0} {1}</value>
+    <value>Nie udaÅ‚o siÄ™ udostÄ™pniÄ‡ wpisu {0} {1}</value>
   </data>
   <data name="CanNotToUnzip" xml:space="preserve">
-    <value>Nie udało się rozpakować {0}</value>
+    <value>Nie udaÅ‚o siÄ™ rozpakowaÄ‡ {0}</value>
   </data>
   <data name="CreateFile" xml:space="preserve">
-    <value>Utwórz plik {0}</value>
+    <value>UtwÃ³rz plik {0}</value>
   </data>
   <data name="CreateFolder" xml:space="preserve">
-    <value>Utwórz katalog {0}</value>
+    <value>UtwÃ³rz katalog {0}</value>
   </data>
   <data name="CreateShareRoom" xml:space="preserve">
-    <value>utwórz pokój współdzielony {0}</value>
+    <value>utwÃ³rz pokÃ³j wspÃ³Å‚dzielony {0}</value>
   </data>
-  <data name="СanNotImportCommonFiles" xml:space="preserve">
-    <value>Nie udało się zaimportować wspólnych plików</value>
+  <data name="Ð¡anNotImportCommonFiles" xml:space="preserve">
+    <value>Nie udaÅ‚o siÄ™ zaimportowaÄ‡ wspÃ³lnych plikÃ³w</value>
   </data>
-  <data name="СanNotImportProjectFiles" xml:space="preserve">
-    <value>Nie udało się zaimportować plików projektu</value>
+  <data name="Ð¡anNotImportProjectFiles" xml:space="preserve">
+    <value>Nie udaÅ‚o siÄ™ zaimportowaÄ‡ plikÃ³w projektu</value>
   </data>
-  <data name="СreateRootFolder" xml:space="preserve">
-    <value>Utwórz katalog główny</value>
+  <data name="Ð¡reateRootFolder" xml:space="preserve">
+    <value>UtwÃ³rz katalog gÅ‚Ã³wny</value>
   </data>
 </root>

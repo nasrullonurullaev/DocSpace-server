@@ -159,8 +159,8 @@ public class LoginProfile
     private string UniqueId => $"{Provider}/{Id}";
     public string HashId => HashHelper.MD5(UniqueId);
 
-    private const char KeyValueSeparator = '→';
-    private const char PairSeparator = '·';
+    private const char KeyValueSeparator = 'â†’';
+    private const char PairSeparator = 'Â·';
 
     private readonly Dictionary<string, string> _fields = new();
     
@@ -194,7 +194,7 @@ public class LoginProfileTransport(InstanceCrypto instanceCrypto, TenantManager 
 {
     public async Task<string> ToString(LoginProfile profile)
     {
-        var tenantId =  await tenantManager.GetCurrentTenantIdAsync();
+        var tenantId =  tenantManager.GetCurrentTenantId();
         var input =  await instanceCrypto.EncryptAsync(Encoding.UTF8.GetBytes(profile.ToString() + tenantId));
         return WebEncoders.Base64UrlEncode(input);
     }
@@ -202,7 +202,7 @@ public class LoginProfileTransport(InstanceCrypto instanceCrypto, TenantManager 
     public async Task<LoginProfile> FromTransport(string transportString)
     {
         var serialized = await instanceCrypto.DecryptAsync(WebEncoders.Base64UrlDecode(transportString));
-        var tenantId = await tenantManager.GetCurrentTenantIdAsync();
+        var tenantId = tenantManager.GetCurrentTenantId();
         return new LoginProfile(serialized.Substring(0, serialized.LastIndexOf(tenantId.ToString(), StringComparison.Ordinal)));
     }
 }

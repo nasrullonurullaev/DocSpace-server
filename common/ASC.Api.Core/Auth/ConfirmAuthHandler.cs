@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -61,9 +61,9 @@ public class ConfirmAuthHandler(
 
         var claims = new List<Claim>
         {
-                new(ClaimTypes.Role, emailValidationKeyModel.Type.ToString())
+            new(ClaimTypes.Role, emailValidationKeyModel.Type.Value.ToStringFast()),AuthConstants.Claim_ScopeRootWrite
         };
-
+        
         if (checkKeyResult == EmailValidationKeyProvider.ValidationResult.Ok)
         {
             Guid userId;

@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -29,8 +29,7 @@ namespace ASC.Api.Core.Middleware;
 // problem: https://github.com/aspnet/Logging/issues/677
 public class UnhandledExceptionMiddleware(RequestDelegate next)
 {
-    public async Task Invoke(HttpContext context,
-                            ILogger<UnhandledExceptionMiddleware> logger)
+    public async Task Invoke(HttpContext context, ILogger<UnhandledExceptionMiddleware> logger)
     {
         try
         {
@@ -43,8 +42,7 @@ public class UnhandledExceptionMiddleware(RequestDelegate next)
 
         bool LogError(Exception ex)
         {
-            logger.LogError(ex,
-                $"Request {context.Request?.Method}: {context.Request?.Path.Value} failed");
+            logger.LogError(ex, "Request {RequestMethod}: {PathValue} failed", context.Request?.Method, context.Request?.Path.Value);
 
             return true;
         }

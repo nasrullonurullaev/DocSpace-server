@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -27,12 +27,12 @@
 namespace ASC.MessagingSystem.Log;
 internal static partial class MessageFactoryLogger
 {
-    [LoggerMessage(Level = LogLevel.Error, Message = "Error while parse Http Request for {action} type of event")]
+    [LoggerMessage(LogLevel.Error, "Error while parse Http Request for {action} type of event")]
     public static partial void ErrorWhileParseHttpRequest(this ILogger<MessageFactory> logger, MessageAction action, Exception exception);
 
-    [LoggerMessage(Level = LogLevel.Error, Message = "Error while parse Http Message for \"{action}\" type of event")]
+    [LoggerMessage(LogLevel.Error, "Error while parse Http Message for \"{action}\" type of event")]
     public static partial void ErrorWhileParseHttpMessage(this ILogger<MessageFactory> logger, MessageAction action, Exception exception);
 
-    [LoggerMessage(Level = LogLevel.Error, Message = "Error while parse Initiator Message for \"{action}\" type of event")]
+    [LoggerMessage(LogLevel.Error, "Error while parse Initiator Message for \"{action}\" type of event")]
     public static partial void ErrorWhileParseInitiatorMessage(this ILogger<MessageFactory> logger, MessageAction action, Exception exception);
 }

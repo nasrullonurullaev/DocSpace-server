@@ -118,96 +118,96 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="DataProcessing" xml:space="preserve">
-    <value>Đang xử lý dữ liệu...</value>
+    <value>Äang xá»­ lÃ½ dá»¯ liá»‡u...</value>
   </data>
   <data name="DumpParse" xml:space="preserve">
-    <value>Đang phân tích cơ sở dữ liệu</value>
+    <value>Äang phÃ¢n tÃ­ch cÆ¡ sá»Ÿ dá»¯ liá»‡u</value>
   </data>
   <data name="DataProcessingCompleted" xml:space="preserve">
-    <value>Đã hoàn thành xử lý dữ liệu</value>
+    <value>ÄÃ£ hoÃ n thÃ nh xá»­ lÃ½ dá»¯ liá»‡u</value>
   </data>
   <data name="GroupMigration" xml:space="preserve">
-    <value>Di chuyển nhóm {0} ({1}/{2})</value>
+    <value>Di chuyá»ƒn nhÃ³m {0} ({1}/{2})</value>
   </data>
   <data name="Unzipping" xml:space="preserve">
-    <value>Đang giải nén...</value>
+    <value>Äang giáº£i nÃ©n...</value>
   </data>
   <data name="UnzippingFinished" xml:space="preserve">
-    <value>Đang bắt đầu xử lý dữ liệu...</value>
+    <value>Äang báº¯t Ä‘áº§u xá»­ lÃ½ dá»¯ liá»‡u...</value>
   </data>
   <data name="PreparingForMigration" xml:space="preserve">
-    <value>Chuẩn bị cho di chuyển</value>
+    <value>Chuáº©n bá»‹ cho di chuyá»ƒn</value>
   </data>
   <data name="StartOfDataProcessing" xml:space="preserve">
-    <value>Đang bắt đầu xử lý dữ liệu...</value>
+    <value>Äang báº¯t Ä‘áº§u xá»­ lÃ½ dá»¯ liá»‡u...</value>
   </data>
   <data name="UserMigration" xml:space="preserve">
-    <value>Di chuyển người dùng {0} ({1}/{2})</value>
+    <value>Di chuyá»ƒn ngÆ°á»i dÃ¹ng {0} ({1}/{2})</value>
   </data>
   <data name="MigrationCompleted" xml:space="preserve">
-    <value>Đã hoàn thành di chuyển</value>
+    <value>ÄÃ£ hoÃ n thÃ nh di chuyá»ƒn</value>
   </data>
   <data name="MigratingUserFiles" xml:space="preserve">
-    <value>Di chuyển tập tin người dùng {0} ({1}/{2})</value>
+    <value>Di chuyá»ƒn táº­p tin ngÆ°á»i dÃ¹ng {0} ({1}/{2})</value>
   </data>
   <data name="MigrationCommonFiles" xml:space="preserve">
-    <value>Di chuyển các tập tin phổ biến</value>
+    <value>Di chuyá»ƒn cÃ¡c táº­p tin phá»• biáº¿n</value>
   </data>
   <data name="MigrationNotFoundException" xml:space="preserve">
-    <value>Không có nhà cung cấp dịch vụ di chuyển</value>
+    <value>KhÃ´ng cÃ³ nhÃ  cung cáº¥p dá»‹ch vá»¥ di chuyá»ƒn</value>
   </data>
   <data name="MigrationProgressException" xml:space="preserve">
-    <value>Không có di chuyển nào đang được tiến hành</value>
+    <value>KhÃ´ng cÃ³ di chuyá»ƒn nÃ o Ä‘ang Ä‘Æ°á»£c tiáº¿n hÃ nh</value>
   </data>
   <data name="MigrationProjectFiles" xml:space="preserve">
-    <value>Di chuyển tập tin dự án</value>
+    <value>Di chuyá»ƒn táº­p tin dá»± Ã¡n</value>
   </data>
   <data name="CanNotAddUserInGroup" xml:space="preserve">
-    <value>Không thể thêm người dùng {0} vào nhóm {1}</value>
+    <value>KhÃ´ng thá»ƒ thÃªm ngÆ°á»i dÃ¹ng {0} vÃ o nhÃ³m {1}</value>
   </data>
   <data name="CanNotCreateFile" xml:space="preserve">
-    <value>Không thể tạo tập tin {0}</value>
+    <value>KhÃ´ng thá»ƒ táº¡o táº­p tin {0}</value>
   </data>
   <data name="CanNotImportUser" xml:space="preserve">
-    <value>Không thể nhập dữ liệu người dùng</value>
+    <value>KhÃ´ng thá»ƒ nháº­p dá»¯ liá»‡u ngÆ°á»i dÃ¹ng</value>
   </data>
   <data name="CanNotImportUserFiles" xml:space="preserve">
-    <value>Không thể nhập tập tin của người dùng</value>
+    <value>KhÃ´ng thá»ƒ nháº­p táº­p tin cá»§a ngÆ°á»i dÃ¹ng</value>
   </data>
   <data name="CanNotParseArchive" xml:space="preserve">
-    <value>Không thể phân tích lưu trữ {0}</value>
+    <value>KhÃ´ng thá»ƒ phÃ¢n tÃ­ch lÆ°u trá»¯ {0}</value>
   </data>
   <data name="CanNotParseArchives" xml:space="preserve">
-    <value>Không thể phân tích lưu trữ</value>
+    <value>KhÃ´ng thá»ƒ phÃ¢n tÃ­ch lÆ°u trá»¯</value>
   </data>
   <data name="CanNotParseUser" xml:space="preserve">
-    <value>Không thể phân tích người dùng {0}</value>
+    <value>KhÃ´ng thá»ƒ phÃ¢n tÃ­ch ngÆ°á»i dÃ¹ng {0}</value>
   </data>
   <data name="CanNotReadInfoFile" xml:space="preserve">
-    <value>Không thể đọc tập tin thông tin từ {0}</value>
+    <value>KhÃ´ng thá»ƒ Ä‘á»c táº­p tin thÃ´ng tin tá»« {0}</value>
   </data>
   <data name="CanNotShare" xml:space="preserve">
-    <value>Không thể chia sẻ mục {0} cho {1}</value>
+    <value>KhÃ´ng thá»ƒ chia sáº» má»¥c {0} cho {1}</value>
   </data>
   <data name="CanNotToUnzip" xml:space="preserve">
-    <value>Không thể giải nén {0}</value>
+    <value>KhÃ´ng thá»ƒ giáº£i nÃ©n {0}</value>
   </data>
   <data name="CreateFile" xml:space="preserve">
-    <value>Tạo tập tin {0}</value>
+    <value>Táº¡o táº­p tin {0}</value>
   </data>
   <data name="CreateFolder" xml:space="preserve">
-    <value>Tạo thư mục {0}</value>
+    <value>Táº¡o thÆ° má»¥c {0}</value>
   </data>
   <data name="CreateShareRoom" xml:space="preserve">
-    <value>tạo phòng chia sẻ {0}</value>
+    <value>táº¡o phÃ²ng chia sáº» {0}</value>
   </data>
-  <data name="СanNotImportCommonFiles" xml:space="preserve">
-    <value>Không thể nhập các tập tin chung</value>
+  <data name="Ð¡anNotImportCommonFiles" xml:space="preserve">
+    <value>KhÃ´ng thá»ƒ nháº­p cÃ¡c táº­p tin chung</value>
   </data>
-  <data name="СanNotImportProjectFiles" xml:space="preserve">
-    <value>Không thể nhập tập tin dự án</value>
+  <data name="Ð¡anNotImportProjectFiles" xml:space="preserve">
+    <value>KhÃ´ng thá»ƒ nháº­p táº­p tin dá»± Ã¡n</value>
   </data>
-  <data name="СreateRootFolder" xml:space="preserve">
-    <value>Tạo thư mục gốc</value>
+  <data name="Ð¡reateRootFolder" xml:space="preserve">
+    <value>Táº¡o thÆ° má»¥c gá»‘c</value>
   </data>
 </root>

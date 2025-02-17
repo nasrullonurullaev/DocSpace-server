@@ -118,19 +118,19 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ErrorEmptyUploadFileSelected" xml:space="preserve">
-    <value>Otpremljena datoteka ne može biti pronađena</value>
+    <value>Otpremljena datoteka ne moÅ¾e biti pronaÄ‘ena</value>
   </data>
   <data name="ErrorImageSizetLimit" xml:space="preserve">
-    <value>Veličina slike je prevelika</value>
+    <value>VeliÄina slike je prevelika</value>
   </data>
   <data name="ErrorImageWeightLimit" xml:space="preserve">
-    <value>Veličina datoteke slike je prevelika</value>
+    <value>VeliÄina datoteke slike je prevelika</value>
   </data>
   <data name="ErrorUnknownFileImageType" xml:space="preserve">
     <value>Nepoznati tip datoteke slike</value>
   </data>
   <data name="ProductAdminOpportunities" xml:space="preserve">
-    <value>Čini isto kao korisnik|Kreiraj profile i grupe|Uvezi profile|Pozivaj korisnike</value>
+    <value>ÄŒini isto kao korisnik|Kreiraj profile i grupe|Uvezi profile|Pozivaj korisnike</value>
   </data>
   <data name="ProductDescription" xml:space="preserve">
     <value>Dodaj nove korisnike, pozivaj ih ili uvezi. Upravljaj korisnicima i gledaj njihove detaljne informacije.</value>

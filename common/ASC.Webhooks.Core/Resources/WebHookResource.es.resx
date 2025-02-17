@@ -121,6 +121,6 @@
     <value>Empezar a editar</value>
   </data>
   <data name="POST|api/2.0/files/file/{fileId}/startedit_Description" xml:space="preserve">
-    <value>Empezar a editar la descripción</value>
+    <value>Empezar a editar la descripciÃ³n</value>
   </data>
 </root>

@@ -118,48 +118,48 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Archive" xml:space="preserve">
-    <value>Պահոց</value>
+    <value>ÕŠÕ¡Õ°Õ¸Ö</value>
   </data>
   <data name="CorporateFiles" xml:space="preserve">
-    <value>Ընդհանուր</value>
+    <value>Ô¸Õ¶Õ¤Õ°Õ¡Õ¶Õ¸Ö‚Ö€</value>
   </data>
   <data name="Favorites" xml:space="preserve">
-    <value>Ընտրյալներ</value>
+    <value>Ô¸Õ¶Õ¿Ö€ÕµÕ¡Õ¬Õ¶Õ¥Ö€</value>
   </data>
   <data name="FilesWillBeCompressedTarGz" xml:space="preserve">
-    <value>Ֆայլերը կսեղմվեն {0}.tar.gz ֆայլում{1}</value>
+    <value>Õ–Õ¡ÕµÕ¬Õ¥Ö€Õ¨ Õ¯Õ½Õ¥Õ²Õ´Õ¾Õ¥Õ¶ {0}.tar.gz Ö†Õ¡ÕµÕ¬Õ¸Ö‚Õ´{1}</value>
   </data>
   <data name="FilesWillBeCompressedZip" xml:space="preserve">
-    <value>Ֆայլերը կսեղմվեն {0}.zip ֆայլի մեջ{1}</value>
+    <value>Õ–Õ¡ÕµÕ¬Õ¥Ö€Õ¨ Õ¯Õ½Õ¥Õ²Õ´Õ¾Õ¥Õ¶ {0}.zip Ö†Õ¡ÕµÕ¬Õ« Õ´Õ¥Õ»{1}</value>
   </data>
   <data name="MyFiles" xml:space="preserve">
-    <value>Փաստաթղթեր</value>
+    <value>Õ“Õ¡Õ½Õ¿Õ¡Õ©Õ²Õ©Õ¥Ö€</value>
   </data>
   <data name="Personal" xml:space="preserve">
-    <value>Անձնական</value>
+    <value>Ô±Õ¶Õ±Õ¶Õ¡Õ¯Õ¡Õ¶</value>
   </data>
   <data name="PrivacyRoom" xml:space="preserve">
-    <value>Անձնական սենյակ</value>
+    <value>Ô±Õ¶Õ±Õ¶Õ¡Õ¯Õ¡Õ¶ Õ½Õ¥Õ¶ÕµÕ¡Õ¯</value>
   </data>
   <data name="ProjectFiles" xml:space="preserve">
-    <value>Նախագծերում</value>
+    <value>Õ†Õ¡Õ­Õ¡Õ£Õ®Õ¥Ö€Õ¸Ö‚Õ´</value>
   </data>
   <data name="Recent" xml:space="preserve">
-    <value>Վերջին</value>
+    <value>ÕŽÕ¥Ö€Õ»Õ«Õ¶</value>
   </data>
   <data name="SharedForMe" xml:space="preserve">
-    <value>Համօգտագործած ինձ հետ</value>
+    <value>Õ€Õ¡Õ´Ö…Õ£Õ¿Õ¡Õ£Õ¸Ö€Õ®Õ¡Õ® Õ«Õ¶Õ± Õ°Õ¥Õ¿</value>
   </data>
   <data name="Trash" xml:space="preserve">
-    <value>Աղբարկղ</value>
+    <value>Ô±Õ²Õ¢Õ¡Ö€Õ¯Õ²</value>
   </data>
   <data name="VirtualRooms" xml:space="preserve">
-    <value>Սենյակներ</value>
+    <value>ÕÕ¥Õ¶ÕµÕ¡Õ¯Õ¶Õ¥Ö€</value>
   </data>
   <data name="InProcessFormFolder" xml:space="preserve">
-    <value>Ընթացքի մեջ</value>
+    <value>Ô¸Õ¶Õ©Õ¡ÖÖ„Õ« Õ´Õ¥Õ»</value>
   </data>
   <data name="ReadyFormFolder" xml:space="preserve">
-    <value>Ամբողջական</value>
+    <value>Ô±Õ´Õ¢Õ¸Õ²Õ»Õ¡Õ¯Õ¡Õ¶</value>
   </data>
 </root>

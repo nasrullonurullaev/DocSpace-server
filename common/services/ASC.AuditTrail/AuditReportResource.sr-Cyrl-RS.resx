@@ -118,747 +118,816 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ActionCol" xml:space="preserve">
-    <value>Акција</value>
+    <value>ÐÐºÑ†Ð¸Ñ˜Ð°</value>
   </data>
   <data name="ActionIdCol" xml:space="preserve">
-    <value>ID акције</value>
+    <value>ID Ð°ÐºÑ†Ð¸Ñ˜Ðµ</value>
   </data>
   <data name="ActionTypeCol" xml:space="preserve">
-    <value>Тип акције</value>
+    <value>Ð¢Ð¸Ð¿ Ð°ÐºÑ†Ð¸Ñ˜Ðµ</value>
   </data>
   <data name="AdministratorAdded" xml:space="preserve">
-    <value>Администратор додат: {0}</value>
+    <value>ÐÐ´Ð¼Ð¸Ð½Ð¸ÑÑ‚Ñ€Ð°Ñ‚Ð¾Ñ€ Ð´Ð¾Ð´Ð°Ñ‚: {0}</value>
   </data>
   <data name="AdministratorDeleted" xml:space="preserve">
-    <value>Администратор обрисан: {0}</value>
+    <value>ÐÐ´Ð¼Ð¸Ð½Ð¸ÑÑ‚Ñ€Ð°Ñ‚Ð¾Ñ€ Ð¾Ð±Ñ€Ð¸ÑÐ°Ð½: {0}</value>
   </data>
   <data name="AdministratorMessageSettingsUpdated" xml:space="preserve">
-    <value>Подешавања порука Администратора ажурирана</value>
+    <value>ÐŸÐ¾Ð´ÐµÑˆÐ°Ð²Ð°ÑšÐ° Ð¿Ð¾Ñ€ÑƒÐºÐ° ÐÐ´Ð¼Ð¸Ð½Ð¸ÑÑ‚Ñ€Ð°Ñ‚Ð¾Ñ€Ð° Ð°Ð¶ÑƒÑ€Ð¸Ñ€Ð°Ð½Ð°</value>
   </data>
   <data name="AdministratorOpenedFullAccess" xml:space="preserve">
-    <value>Администратори [{0}]. Потпуни приступ отворен</value>
+    <value>ÐÐ´Ð¼Ð¸Ð½Ð¸ÑÑ‚Ñ€Ð°Ñ‚Ð¾Ñ€Ð¸ [{0}]. ÐŸÐ¾Ñ‚Ð¿ÑƒÐ½Ð¸ Ð¿Ñ€Ð¸ÑÑ‚ÑƒÐ¿ Ð¾Ñ‚Ð²Ð¾Ñ€ÐµÐ½</value>
   </data>
   <data name="AttachActionType" xml:space="preserve">
-    <value>Приложи</value>
+    <value>ÐŸÑ€Ð¸Ð»Ð¾Ð¶Ð¸</value>
   </data>
   <data name="AuditSettingsUpdated" xml:space="preserve">
-    <value>Ажуриране поставке трајања ревизије</value>
+    <value>ÐÐ¶ÑƒÑ€Ð¸Ñ€Ð°Ð½Ðµ Ð¿Ð¾ÑÑ‚Ð°Ð²ÐºÐµ Ñ‚Ñ€Ð°Ñ˜Ð°ÑšÐ° Ñ€ÐµÐ²Ð¸Ð·Ð¸Ñ˜Ðµ</value>
   </data>
   <data name="AuditTrailReportDownloaded" xml:space="preserve">
-    <value>Извештај о Трагу ревизије преузет</value>
+    <value>Ð˜Ð·Ð²ÐµÑˆÑ‚Ð°Ñ˜ Ð¾ Ð¢Ñ€Ð°Ð³Ñƒ Ñ€ÐµÐ²Ð¸Ð·Ð¸Ñ˜Ðµ Ð¿Ñ€ÐµÑƒÐ·ÐµÑ‚</value>
   </data>
   <data name="AuditTrailReportName" xml:space="preserve">
-    <value>Извештај о Трагу ревизије ({0}-{1})</value>
+    <value>Ð˜Ð·Ð²ÐµÑˆÑ‚Ð°Ñ˜ Ð¾ Ð¢Ñ€Ð°Ð³Ñƒ Ñ€ÐµÐ²Ð¸Ð·Ð¸Ñ˜Ðµ ({0}-{1})</value>
   </data>
   <data name="AuthorizationKeysSetting" xml:space="preserve">
-    <value>Кључеви за ауторизацију треће стране су ажурирани</value>
+    <value>ÐšÑ™ÑƒÑ‡ÐµÐ²Ð¸ Ð·Ð° Ð°ÑƒÑ‚Ð¾Ñ€Ð¸Ð·Ð°Ñ†Ð¸Ñ˜Ñƒ Ñ‚Ñ€ÐµÑ›Ðµ ÑÑ‚Ñ€Ð°Ð½Ðµ ÑÑƒ Ð°Ð¶ÑƒÑ€Ð¸Ñ€Ð°Ð½Ð¸</value>
   </data>
   <data name="BrowserCol" xml:space="preserve">
-    <value>Прегледач</value>
+    <value>ÐŸÑ€ÐµÐ³Ð»ÐµÐ´Ð°Ñ‡</value>
   </data>
   <data name="ColorThemeChanged" xml:space="preserve">
-    <value>Боја теме промењена</value>
+    <value>Ð‘Ð¾Ñ˜Ð° Ñ‚ÐµÐ¼Ðµ Ð¿Ñ€Ð¾Ð¼ÐµÑšÐµÐ½Ð°</value>
   </data>
   <data name="CookieSettingsUpdated" xml:space="preserve">
-    <value>Подешавања колачића ажурирана</value>
+    <value>ÐŸÐ¾Ð´ÐµÑˆÐ°Ð²Ð°ÑšÐ° ÐºÐ¾Ð»Ð°Ñ‡Ð¸Ñ›Ð° Ð°Ð¶ÑƒÑ€Ð¸Ñ€Ð°Ð½Ð°</value>
   </data>
   <data name="CopyActionType" xml:space="preserve">
-    <value>Копирај</value>
+    <value>ÐšÐ¾Ð¿Ð¸Ñ€Ð°Ñ˜</value>
   </data>
   <data name="CreateActionType" xml:space="preserve">
-    <value>Креирај</value>
+    <value>ÐšÑ€ÐµÐ¸Ñ€Ð°Ñ˜</value>
   </data>
   <data name="CustomNavigationSettingsUpdated" xml:space="preserve">
-    <value>Подешавања прилагођене навигације ажурирана</value>
+    <value>ÐŸÐ¾Ð´ÐµÑˆÐ°Ð²Ð°ÑšÐ° Ð¿Ñ€Ð¸Ð»Ð°Ð³Ð¾Ñ’ÐµÐ½Ðµ Ð½Ð°Ð²Ð¸Ð³Ð°Ñ†Ð¸Ñ˜Ðµ Ð°Ð¶ÑƒÑ€Ð¸Ñ€Ð°Ð½Ð°</value>
   </data>
   <data name="DateCol" xml:space="preserve">
-    <value>Датум</value>
+    <value>Ð”Ð°Ñ‚ÑƒÐ¼</value>
   </data>
   <data name="DefaultStartPageSettingsUpdated" xml:space="preserve">
-    <value>Подешавања подразумеване почетне странице ажурирана</value>
+    <value>ÐŸÐ¾Ð´ÐµÑˆÐ°Ð²Ð°ÑšÐ° Ð¿Ð¾Ð´Ñ€Ð°Ð·ÑƒÐ¼ÐµÐ²Ð°Ð½Ðµ Ð¿Ð¾Ñ‡ÐµÑ‚Ð½Ðµ ÑÑ‚Ñ€Ð°Ð½Ð¸Ñ†Ðµ Ð°Ð¶ÑƒÑ€Ð¸Ñ€Ð°Ð½Ð°</value>
   </data>
   <data name="DeleteActionType" xml:space="preserve">
-    <value>Обриши</value>
+    <value>ÐžÐ±Ñ€Ð¸ÑˆÐ¸</value>
   </data>
   <data name="DetachActionType" xml:space="preserve">
-    <value>Одвоји</value>
+    <value>ÐžÐ´Ð²Ð¾Ñ˜Ð¸</value>
   </data>
   <data name="DnsSettingsUpdated" xml:space="preserve">
-    <value>DNS подешавања ажурирана</value>
+    <value>DNS Ð¿Ð¾Ð´ÐµÑˆÐ°Ð²Ð°ÑšÐ° Ð°Ð¶ÑƒÑ€Ð¸Ñ€Ð°Ð½Ð°</value>
   </data>
   <data name="DocumentServiceLocationSetting" xml:space="preserve">
-    <value>Локација услуге докумената ажурирана</value>
+    <value>Ð›Ð¾ÐºÐ°Ñ†Ð¸Ñ˜Ð° ÑƒÑÐ»ÑƒÐ³Ðµ Ð´Ð¾ÐºÑƒÐ¼ÐµÐ½Ð°Ñ‚Ð° Ð°Ð¶ÑƒÑ€Ð¸Ñ€Ð°Ð½Ð°</value>
   </data>
   <data name="DocumentsForcesave" xml:space="preserve">
-    <value>Подешавања за обавезно чување ажурирана</value>
+    <value>ÐŸÐ¾Ð´ÐµÑˆÐ°Ð²Ð°ÑšÐ° Ð·Ð° Ð¾Ð±Ð°Ð²ÐµÐ·Ð½Ð¾ Ñ‡ÑƒÐ²Ð°ÑšÐµ Ð°Ð¶ÑƒÑ€Ð¸Ñ€Ð°Ð½Ð°</value>
   </data>
   <data name="DocumentsOverwritingSettingsUpdated" xml:space="preserve">
-    <value>Подешавања преписивања ажурирана</value>
+    <value>ÐŸÐ¾Ð´ÐµÑˆÐ°Ð²Ð°ÑšÐ° Ð¿Ñ€ÐµÐ¿Ð¸ÑÐ¸Ð²Ð°ÑšÐ° Ð°Ð¶ÑƒÑ€Ð¸Ñ€Ð°Ð½Ð°</value>
   </data>
   <data name="DocumentsProduct" xml:space="preserve">
-    <value>Документи</value>
+    <value>Ð”Ð¾ÐºÑƒÐ¼ÐµÐ½Ñ‚Ð¸</value>
   </data>
   <data name="DocumentsSettingsModule" xml:space="preserve">
-    <value>Подешавања</value>
+    <value>ÐŸÐ¾Ð´ÐµÑˆÐ°Ð²Ð°ÑšÐ°</value>
   </data>
   <data name="DocumentsStoreForcesave" xml:space="preserve">
-    <value>Подешавања за обавезно чување ажурирана и сачувана</value>
+    <value>ÐŸÐ¾Ð´ÐµÑˆÐ°Ð²Ð°ÑšÐ° Ð·Ð° Ð¾Ð±Ð°Ð²ÐµÐ·Ð½Ð¾ Ñ‡ÑƒÐ²Ð°ÑšÐµ Ð°Ð¶ÑƒÑ€Ð¸Ñ€Ð°Ð½Ð° Ð¸ ÑÐ°Ñ‡ÑƒÐ²Ð°Ð½Ð°</value>
   </data>
   <data name="DocumentsThirdPartySettingsUpdated" xml:space="preserve">
-    <value>Подешавања треће стране ажурирана</value>
+    <value>ÐŸÐ¾Ð´ÐµÑˆÐ°Ð²Ð°ÑšÐ° Ñ‚Ñ€ÐµÑ›Ðµ ÑÑ‚Ñ€Ð°Ð½Ðµ Ð°Ð¶ÑƒÑ€Ð¸Ñ€Ð°Ð½Ð°</value>
   </data>
   <data name="DocumentsUploadingFormatsSettingsUpdated" xml:space="preserve">
-    <value>Отпремање образаца подешавања ажурирана</value>
+    <value>ÐžÑ‚Ð¿Ñ€ÐµÐ¼Ð°ÑšÐµ Ð¾Ð±Ñ€Ð°Ð·Ð°Ñ†Ð° Ð¿Ð¾Ð´ÐµÑˆÐ°Ð²Ð°ÑšÐ° Ð°Ð¶ÑƒÑ€Ð¸Ñ€Ð°Ð½Ð°</value>
   </data>
   <data name="DownloadActionType" xml:space="preserve">
-    <value>Преузми</value>
+    <value>ÐŸÑ€ÐµÑƒÐ·Ð¼Ð¸</value>
   </data>
   <data name="ExportActionType" xml:space="preserve">
-    <value>Извоз</value>
+    <value>Ð˜Ð·Ð²Ð¾Ð·</value>
   </data>
   <data name="FileChangeOwner" xml:space="preserve">
-    <value>Постави власника од [{0}] на [{1}]</value>
+    <value>ÐŸÐ¾ÑÑ‚Ð°Ð²Ð¸ Ð²Ð»Ð°ÑÐ½Ð¸ÐºÐ° Ð¾Ð´ [{0}] Ð½Ð° [{1}]</value>
   </data>
   <data name="FileConverted" xml:space="preserve">
-    <value>Датотека конвертована на интерни формат: {0}</value>
+    <value>Ð”Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐ° ÐºÐ¾Ð½Ð²ÐµÑ€Ñ‚Ð¾Ð²Ð°Ð½Ð° Ð½Ð° Ð¸Ð½Ñ‚ÐµÑ€Ð½Ð¸ Ñ„Ð¾Ñ€Ð¼Ð°Ñ‚: {0}</value>
   </data>
   <data name="FileCopied" xml:space="preserve">
-    <value>Датотеке [{0}]. Копиране са фолдера "{1}" на фолдер: "{2}"</value>
+    <value>Ð”Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐµ [{0}]. ÐšÐ¾Ð¿Ð¸Ñ€Ð°Ð½Ðµ ÑÐ° Ñ„Ð¾Ð»Ð´ÐµÑ€Ð° "{1}" Ð½Ð° Ñ„Ð¾Ð»Ð´ÐµÑ€: "{2}"</value>
   </data>
   <data name="FileCopiedWithOverwriting" xml:space="preserve">
-    <value>Датотеке [{0}]. Копиране с преписивањем из фолдера "{1}" у фолдер: "{2}"</value>
+    <value>Ð”Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐµ [{0}]. ÐšÐ¾Ð¿Ð¸Ñ€Ð°Ð½Ðµ Ñ Ð¿Ñ€ÐµÐ¿Ð¸ÑÐ¸Ð²Ð°ÑšÐµÐ¼ Ð¸Ð· Ñ„Ð¾Ð»Ð´ÐµÑ€Ð° "{1}" Ñƒ Ñ„Ð¾Ð»Ð´ÐµÑ€: "{2}"</value>
   </data>
   <data name="FileCreated" xml:space="preserve">
-    <value>Датотека креирана: {0}</value>
+    <value>Ð”Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐ° ÐºÑ€ÐµÐ¸Ñ€Ð°Ð½Ð°: {0}</value>
   </data>
   <data name="FileCreatedVersion" xml:space="preserve">
-    <value>Датотеке [{0}]. Ревизија: {1}. Верзија креирана</value>
+    <value>Ð”Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐµ [{0}]. Ð ÐµÐ²Ð¸Ð·Ð¸Ñ˜Ð°: {1}. Ð’ÐµÑ€Ð·Ð¸Ñ˜Ð° ÐºÑ€ÐµÐ¸Ñ€Ð°Ð½Ð°</value>
   </data>
   <data name="FileDeleted" xml:space="preserve">
-    <value>Датотека обрисана: {0}</value>
+    <value>Ð”Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐ° Ð¾Ð±Ñ€Ð¸ÑÐ°Ð½Ð°: {0}</value>
   </data>
   <data name="FileDeletedVersion" xml:space="preserve">
-    <value>Датотеке [{0}]. Ревизија: {1}. Верзија обрисана</value>
+    <value>Ð”Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐµ [{0}]. Ð ÐµÐ²Ð¸Ð·Ð¸Ñ˜Ð°: {1}. Ð’ÐµÑ€Ð·Ð¸Ñ˜Ð° Ð¾Ð±Ñ€Ð¸ÑÐ°Ð½Ð°</value>
   </data>
   <data name="FileDownloaded" xml:space="preserve">
-    <value>Датотека преузета: {0}</value>
+    <value>Ð”Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐ° Ð¿Ñ€ÐµÑƒÐ·ÐµÑ‚Ð°: {0}</value>
   </data>
   <data name="FileDownloadedAs" xml:space="preserve">
-    <value>Датотеке [{0}]. Преузете као: {1}</value>
+    <value>Ð”Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐµ [{0}]. ÐŸÑ€ÐµÑƒÐ·ÐµÑ‚Ðµ ÐºÐ°Ð¾: {1}</value>
   </data>
   <data name="FileImported" xml:space="preserve">
-    <value>Фолдери [{0}]. Датотека увезена: {1}. Давалац: {2}</value>
+    <value>Ð¤Ð¾Ð»Ð´ÐµÑ€Ð¸ [{0}]. Ð”Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐ° ÑƒÐ²ÐµÐ·ÐµÐ½Ð°: {1}. Ð”Ð°Ð²Ð°Ð»Ð°Ñ†: {2}</value>
   </data>
   <data name="FileLocked" xml:space="preserve">
-    <value>Датотека закључана: {0}</value>
+    <value>Ð”Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐ° Ð·Ð°ÐºÑ™ÑƒÑ‡Ð°Ð½Ð°: {0}</value>
   </data>
   <data name="FileMoved" xml:space="preserve">
-    <value>Датотеке [{0}]. Померене са фолдера "{1}" на фолдер: "{2}"</value>
+    <value>Ð”Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐµ [{0}]. ÐŸÐ¾Ð¼ÐµÑ€ÐµÐ½Ðµ ÑÐ° Ñ„Ð¾Ð»Ð´ÐµÑ€Ð° "{1}" Ð½Ð° Ñ„Ð¾Ð»Ð´ÐµÑ€: "{2}"</value>
   </data>
   <data name="FileMovedToTrash" xml:space="preserve">
-    <value>Датотеке [{0}]. Померене у фолдер за отпад</value>
+    <value>Ð”Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐµ [{0}]. ÐŸÐ¾Ð¼ÐµÑ€ÐµÐ½Ðµ Ñƒ Ñ„Ð¾Ð»Ð´ÐµÑ€ Ð·Ð° Ð¾Ñ‚Ð¿Ð°Ð´</value>
   </data>
   <data name="FileMovedWithOverwriting" xml:space="preserve">
-    <value>Датотеке [{0}]. Померене са преписивањем са фолдера "{1}" на фолдер: "{2}"</value>
+    <value>Ð”Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐµ [{0}]. ÐŸÐ¾Ð¼ÐµÑ€ÐµÐ½Ðµ ÑÐ° Ð¿Ñ€ÐµÐ¿Ð¸ÑÐ¸Ð²Ð°ÑšÐµÐ¼ ÑÐ° Ñ„Ð¾Ð»Ð´ÐµÑ€Ð° "{1}" Ð½Ð° Ñ„Ð¾Ð»Ð´ÐµÑ€: "{2}"</value>
   </data>
   <data name="FileRenamed" xml:space="preserve">
-    <value>Датотека преименована: {0}</value>
+    <value>Ð”Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐ° Ð¿Ñ€ÐµÐ¸Ð¼ÐµÐ½Ð¾Ð²Ð°Ð½Ð°: {0}</value>
   </data>
   <data name="FileOpenedForChange" xml:space="preserve">
-    <value>Датотека отворена за промену: {0}</value>
+    <value>Ð”Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐ° Ð¾Ñ‚Ð²Ð¾Ñ€ÐµÐ½Ð° Ð·Ð° Ð¿Ñ€Ð¾Ð¼ÐµÐ½Ñƒ: {0}</value>
   </data>
   <data name="AddedRoomTags" xml:space="preserve">
-    <value>Додати тагови: [{1}]</value>
+    <value>Ð”Ð¾Ð´Ð°Ñ‚Ð¸ Ñ‚Ð°Ð³Ð¾Ð²Ð¸: [{1}]</value>
   </data>
   <data name="CityCol" xml:space="preserve">
-    <value>Град</value>
+    <value>Ð“Ñ€Ð°Ð´</value>
   </data>
   <data name="CountryCol" xml:space="preserve">
-    <value>Држава</value>
+    <value>Ð”Ñ€Ð¶Ð°Ð²Ð°</value>
   </data>
   <data name="DeletedRoomTags" xml:space="preserve">
-    <value>Обрисани тагови: [{1}]</value>
+    <value>ÐžÐ±Ñ€Ð¸ÑÐ°Ð½Ð¸ Ñ‚Ð°Ð³Ð¾Ð²Ð¸: [{1}]</value>
   </data>
   <data name="FileRestoreVersion" xml:space="preserve">
-    <value>Датотеке [{0}]. Ревизија: {1}. Верзија обновљена</value>
+    <value>Ð”Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐµ [{0}]. Ð ÐµÐ²Ð¸Ð·Ð¸Ñ˜Ð°: {1}. Ð’ÐµÑ€Ð·Ð¸Ñ˜Ð° Ð¾Ð±Ð½Ð¾Ð²Ñ™ÐµÐ½Ð°</value>
   </data>
   <data name="FilesDocumentSigned" xml:space="preserve">
-    <value>Документ {1} потписан путем {0}</value>
+    <value>Ð”Ð¾ÐºÑƒÐ¼ÐµÐ½Ñ‚ {1} Ð¿Ð¾Ñ‚Ð¿Ð¸ÑÐ°Ð½ Ð¿ÑƒÑ‚ÐµÐ¼ {0}</value>
   </data>
   <data name="FileSendAccessLink" xml:space="preserve">
-    <value>Послат дељени линк на [{0}] датотеку. Примаоци: [{1}]</value>
+    <value>ÐŸÐ¾ÑÐ»Ð°Ñ‚ Ð´ÐµÑ™ÐµÐ½Ð¸ Ð»Ð¸Ð½Ðº Ð½Ð° [{0}] Ð´Ð°Ñ‚Ð¾Ñ‚ÐµÐºÑƒ. ÐŸÑ€Ð¸Ð¼Ð°Ð¾Ñ†Ð¸: [{1}]</value>
   </data>
   <data name="FilesModule" xml:space="preserve">
-    <value>Датотеке</value>
+    <value>Ð”Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐµ</value>
   </data>
   <data name="FilesRequestSign" xml:space="preserve">
-    <value>Документ {1} послат на потписивање преко {0}</value>
+    <value>Ð”Ð¾ÐºÑƒÐ¼ÐµÐ½Ñ‚ {1} Ð¿Ð¾ÑÐ»Ð°Ñ‚ Ð½Ð° Ð¿Ð¾Ñ‚Ð¿Ð¸ÑÐ¸Ð²Ð°ÑšÐµ Ð¿Ñ€ÐµÐºÐ¾ {0}</value>
   </data>
   <data name="FileUnlocked" xml:space="preserve">
-    <value>Датотека откључана: {0}</value>
+    <value>Ð”Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐ° Ð¾Ñ‚ÐºÑ™ÑƒÑ‡Ð°Ð½Ð°: {0}</value>
   </data>
   <data name="FileUpdated" xml:space="preserve">
-    <value>Датотеке ажуриране: {0}</value>
+    <value>Ð”Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐµ Ð°Ð¶ÑƒÑ€Ð¸Ñ€Ð°Ð½Ðµ: {0}</value>
   </data>
   <data name="FileUpdatedAccess" xml:space="preserve">
-    <value>Датотеке [{0}]. Приступ ажуриран</value>
+    <value>Ð”Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐµ [{0}]. ÐŸÑ€Ð¸ÑÑ‚ÑƒÐ¿ Ð°Ð¶ÑƒÑ€Ð¸Ñ€Ð°Ð½</value>
   </data>
   <data name="FileUpdatedRevisionComment" xml:space="preserve">
-    <value>Датотеке [{0}]. Ревизија {1}. Коментар ажуриран</value>
+    <value>Ð”Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐµ [{0}]. Ð ÐµÐ²Ð¸Ð·Ð¸Ñ˜Ð° {1}. ÐšÐ¾Ð¼ÐµÐ½Ñ‚Ð°Ñ€ Ð°Ð¶ÑƒÑ€Ð¸Ñ€Ð°Ð½</value>
   </data>
   <data name="FileUploaded" xml:space="preserve">
-    <value>Датотека отпремљена: {0}</value>
+    <value>Ð”Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐ° Ð¾Ñ‚Ð¿Ñ€ÐµÐ¼Ñ™ÐµÐ½Ð°: {0}</value>
   </data>
   <data name="FolderCopied" xml:space="preserve">
-    <value>Фолдери [{0}]. Копирани у фолдер: {1}</value>
+    <value>Ð¤Ð¾Ð»Ð´ÐµÑ€Ð¸ [{0}]. ÐšÐ¾Ð¿Ð¸Ñ€Ð°Ð½Ð¸ Ñƒ Ñ„Ð¾Ð»Ð´ÐµÑ€: {1}</value>
   </data>
   <data name="FolderCopiedWithOverwriting" xml:space="preserve">
-    <value>Фолдери [{0}]. Копирани са преписивањем у фолдер: {1}</value>
+    <value>Ð¤Ð¾Ð»Ð´ÐµÑ€Ð¸ [{0}]. ÐšÐ¾Ð¿Ð¸Ñ€Ð°Ð½Ð¸ ÑÐ° Ð¿Ñ€ÐµÐ¿Ð¸ÑÐ¸Ð²Ð°ÑšÐµÐ¼ Ñƒ Ñ„Ð¾Ð»Ð´ÐµÑ€: {1}</value>
   </data>
   <data name="FolderCreated" xml:space="preserve">
-    <value>Фолдер креиран: {0}</value>
+    <value>Ð¤Ð¾Ð»Ð´ÐµÑ€ ÐºÑ€ÐµÐ¸Ñ€Ð°Ð½: {0}</value>
   </data>
   <data name="FolderDeleted" xml:space="preserve">
-    <value>Фолдер обрисан: {0}</value>
+    <value>Ð¤Ð¾Ð»Ð´ÐµÑ€ Ð¾Ð±Ñ€Ð¸ÑÐ°Ð½: {0}</value>
   </data>
   <data name="FolderMoved" xml:space="preserve">
-    <value>Фолдери [{0}]. Померен у фолдер: {1}</value>
+    <value>Ð¤Ð¾Ð»Ð´ÐµÑ€Ð¸ [{0}]. ÐŸÐ¾Ð¼ÐµÑ€ÐµÐ½ Ñƒ Ñ„Ð¾Ð»Ð´ÐµÑ€: {1}</value>
   </data>
   <data name="FolderMovedToTrash" xml:space="preserve">
-    <value>Фолдери [{0}]. Померен у отпад фолдер</value>
+    <value>Ð¤Ð¾Ð»Ð´ÐµÑ€Ð¸ [{0}]. ÐŸÐ¾Ð¼ÐµÑ€ÐµÐ½ Ñƒ Ð¾Ñ‚Ð¿Ð°Ð´ Ñ„Ð¾Ð»Ð´ÐµÑ€</value>
   </data>
   <data name="FolderMovedWithOverwriting" xml:space="preserve">
-    <value>Фолдери [{0}]. Помераниан са преписивањем у фолдер: {1}</value>
+    <value>Ð¤Ð¾Ð»Ð´ÐµÑ€Ð¸ [{0}]. ÐŸÐ¾Ð¼ÐµÑ€Ð°Ð½Ð¸Ð°Ð½ ÑÐ° Ð¿Ñ€ÐµÐ¿Ð¸ÑÐ¸Ð²Ð°ÑšÐµÐ¼ Ñƒ Ñ„Ð¾Ð»Ð´ÐµÑ€: {1}</value>
   </data>
   <data name="FolderRenamed" xml:space="preserve">
-    <value>Фолдер преименован: {0}</value>
+    <value>Ð¤Ð¾Ð»Ð´ÐµÑ€ Ð¿Ñ€ÐµÐ¸Ð¼ÐµÐ½Ð¾Ð²Ð°Ð½: {0}</value>
   </data>
   <data name="FoldersModule" xml:space="preserve">
-    <value>Фолдери</value>
+    <value>Ð¤Ð¾Ð»Ð´ÐµÑ€Ð¸</value>
   </data>
   <data name="FolderUpdatedAccess" xml:space="preserve">
-    <value>Фолдери [{0}]. Приступ ажуриран</value>
+    <value>Ð¤Ð¾Ð»Ð´ÐµÑ€Ð¸ [{0}]. ÐŸÑ€Ð¸ÑÑ‚ÑƒÐ¿ Ð°Ð¶ÑƒÑ€Ð¸Ñ€Ð°Ð½</value>
   </data>
   <data name="FollowActionType" xml:space="preserve">
-    <value>Прати</value>
+    <value>ÐŸÑ€Ð°Ñ‚Ð¸</value>
   </data>
   <data name="FullTextSearchSetting" xml:space="preserve">
-    <value>Подешавања Sphinx-а су ажурирана</value>
+    <value>ÐŸÐ¾Ð´ÐµÑˆÐ°Ð²Ð°ÑšÐ° Sphinx-Ð° ÑÑƒ Ð°Ð¶ÑƒÑ€Ð¸Ñ€Ð°Ð½Ð°</value>
   </data>
   <data name="GeneralModule" xml:space="preserve">
-    <value>Генерално</value>
+    <value>Ð“ÐµÐ½ÐµÑ€Ð°Ð»Ð½Ð¾</value>
   </data>
   <data name="GreetingSettingsUpdated" xml:space="preserve">
-    <value>Подешавања добродошли странице ажурирана</value>
+    <value>ÐŸÐ¾Ð´ÐµÑˆÐ°Ð²Ð°ÑšÐ° Ð´Ð¾Ð±Ñ€Ð¾Ð´Ð¾ÑˆÐ»Ð¸ ÑÑ‚Ñ€Ð°Ð½Ð¸Ñ†Ðµ Ð°Ð¶ÑƒÑ€Ð¸Ñ€Ð°Ð½Ð°</value>
   </data>
   <data name="GroupCreated" xml:space="preserve">
-    <value>Група креирана: {0}</value>
+    <value>Ð“Ñ€ÑƒÐ¿Ð° ÐºÑ€ÐµÐ¸Ñ€Ð°Ð½Ð°: {0}</value>
   </data>
   <data name="GroupDeleted" xml:space="preserve">
-    <value>Група обрисана: {0}</value>
+    <value>Ð“Ñ€ÑƒÐ¿Ð° Ð¾Ð±Ñ€Ð¸ÑÐ°Ð½Ð°: {0}</value>
   </data>
   <data name="GroupsModule" xml:space="preserve">
-    <value>Групе</value>
+    <value>Ð“Ñ€ÑƒÐ¿Ðµ</value>
   </data>
   <data name="GroupUpdated" xml:space="preserve">
-    <value>Групе ажуриране: {0}</value>
+    <value>Ð“Ñ€ÑƒÐ¿Ðµ Ð°Ð¶ÑƒÑ€Ð¸Ñ€Ð°Ð½Ðµ: {0}</value>
   </data>
   <data name="GuestAccount" xml:space="preserve">
-    <value>Анонимно</value>
+    <value>ÐÐ½Ð¾Ð½Ð¸Ð¼Ð½Ð¾</value>
   </data>
   <data name="GuestActivated" xml:space="preserve">
-    <value>Гост активиран: {0}</value>
+    <value>Ð“Ð¾ÑÑ‚ Ð°ÐºÑ‚Ð¸Ð²Ð¸Ñ€Ð°Ð½: {0}</value>
   </data>
   <data name="GuestCreated" xml:space="preserve">
-    <value>Гост креиран: {0}</value>
+    <value>Ð“Ð¾ÑÑ‚ ÐºÑ€ÐµÐ¸Ñ€Ð°Ð½: {0}</value>
   </data>
   <data name="GuestCreatedViaInvite" xml:space="preserve">
-    <value>Гост креиран путем позива: {0}</value>
+    <value>Ð“Ð¾ÑÑ‚ ÐºÑ€ÐµÐ¸Ñ€Ð°Ð½ Ð¿ÑƒÑ‚ÐµÐ¼ Ð¿Ð¾Ð·Ð¸Ð²Ð°: {0}</value>
   </data>
   <data name="GuestImported" xml:space="preserve">
-    <value>Гост увезен: {0}</value>
+    <value>Ð“Ð¾ÑÑ‚ ÑƒÐ²ÐµÐ·ÐµÐ½: {0}</value>
   </data>
   <data name="ImportActionType" xml:space="preserve">
-    <value>Увоз</value>
+    <value>Ð£Ð²Ð¾Ð·</value>
   </data>
   <data name="IpCol" xml:space="preserve">
     <value>IP</value>
   </data>
   <data name="LanguageSettingsUpdated" xml:space="preserve">
-    <value>Подешавања језика ажурирана</value>
+    <value>ÐŸÐ¾Ð´ÐµÑˆÐ°Ð²Ð°ÑšÐ° Ñ˜ÐµÐ·Ð¸ÐºÐ° Ð°Ð¶ÑƒÑ€Ð¸Ñ€Ð°Ð½Ð°</value>
   </data>
   <data name="LicenseKeyUploaded" xml:space="preserve">
-    <value>Лиценцни кључ отпремљен</value>
+    <value>Ð›Ð¸Ñ†ÐµÐ½Ñ†Ð½Ð¸ ÐºÑ™ÑƒÑ‡ Ð¾Ñ‚Ð¿Ñ€ÐµÐ¼Ñ™ÐµÐ½</value>
   </data>
   <data name="LinkActionType" xml:space="preserve">
-    <value>Линк</value>
+    <value>Ð›Ð¸Ð½Ðº</value>
   </data>
   <data name="LoginFail" xml:space="preserve">
-    <value>Пријава неуспешна</value>
+    <value>ÐŸÑ€Ð¸Ñ˜Ð°Ð²Ð° Ð½ÐµÑƒÑÐ¿ÐµÑˆÐ½Ð°</value>
   </data>
   <data name="LoginFailBruteForce" xml:space="preserve">
-    <value>Пријава неуспешна. Превише покушаја</value>
+    <value>ÐŸÑ€Ð¸Ñ˜Ð°Ð²Ð° Ð½ÐµÑƒÑÐ¿ÐµÑˆÐ½Ð°. ÐŸÑ€ÐµÐ²Ð¸ÑˆÐµ Ð¿Ð¾ÐºÑƒÑˆÐ°Ñ˜Ð°</value>
   </data>
   <data name="LoginFailDisabledProfile" xml:space="preserve">
-    <value>Пријава неуспешна. Профил искључен</value>
+    <value>ÐŸÑ€Ð¸Ñ˜Ð°Ð²Ð° Ð½ÐµÑƒÑÐ¿ÐµÑˆÐ½Ð°. ÐŸÑ€Ð¾Ñ„Ð¸Ð» Ð¸ÑÐºÑ™ÑƒÑ‡ÐµÐ½</value>
   </data>
   <data name="LoginFailInvalidCombination" xml:space="preserve">
-    <value>Пријава неуспешна. Неважеће корисничко име-лозинка комбинација</value>
+    <value>ÐŸÑ€Ð¸Ñ˜Ð°Ð²Ð° Ð½ÐµÑƒÑÐ¿ÐµÑˆÐ½Ð°. ÐÐµÐ²Ð°Ð¶ÐµÑ›Ðµ ÐºÐ¾Ñ€Ð¸ÑÐ½Ð¸Ñ‡ÐºÐ¾ Ð¸Ð¼Ðµ-Ð»Ð¾Ð·Ð¸Ð½ÐºÐ° ÐºÐ¾Ð¼Ð±Ð¸Ð½Ð°Ñ†Ð¸Ñ˜Ð°</value>
   </data>
   <data name="LoginFailIpSecurity" xml:space="preserve">
-    <value>IP безбедност: Пријава неуспешна</value>
+    <value>IP Ð±ÐµÐ·Ð±ÐµÐ´Ð½Ð¾ÑÑ‚: ÐŸÑ€Ð¸Ñ˜Ð°Ð²Ð° Ð½ÐµÑƒÑÐ¿ÐµÑˆÐ½Ð°</value>
   </data>
   <data name="LoginFailRecaptcha" xml:space="preserve">
-    <value>Пријава неуспешна. Recaptcha је неважећа</value>
+    <value>ÐŸÑ€Ð¸Ñ˜Ð°Ð²Ð° Ð½ÐµÑƒÑÐ¿ÐµÑˆÐ½Ð°. Recaptcha Ñ˜Ðµ Ð½ÐµÐ²Ð°Ð¶ÐµÑ›Ð°</value>
   </data>
   <data name="LoginFailSocialAccountNotFound" xml:space="preserve">
-    <value>Пријава неуспешна. Повезани друштвени налог није пронађен</value>
+    <value>ÐŸÑ€Ð¸Ñ˜Ð°Ð²Ð° Ð½ÐµÑƒÑÐ¿ÐµÑˆÐ½Ð°. ÐŸÐ¾Ð²ÐµÐ·Ð°Ð½Ð¸ Ð´Ñ€ÑƒÑˆÑ‚Ð²ÐµÐ½Ð¸ Ð½Ð°Ð»Ð¾Ð³ Ð½Ð¸Ñ˜Ðµ Ð¿Ñ€Ð¾Ð½Ð°Ñ’ÐµÐ½</value>
   </data>
   <data name="LoginFailViaApi" xml:space="preserve">
-    <value>Неуспешна пријава путем API</value>
+    <value>ÐÐµÑƒÑÐ¿ÐµÑˆÐ½Ð° Ð¿Ñ€Ð¸Ñ˜Ð°Ð²Ð° Ð¿ÑƒÑ‚ÐµÐ¼ API</value>
   </data>
   <data name="LoginFailViaApiSms" xml:space="preserve">
-    <value>Неуспешна пријава путем API и SMS кода</value>
+    <value>ÐÐµÑƒÑÐ¿ÐµÑˆÐ½Ð° Ð¿Ñ€Ð¸Ñ˜Ð°Ð²Ð° Ð¿ÑƒÑ‚ÐµÐ¼ API Ð¸ SMS ÐºÐ¾Ð´Ð°</value>
   </data>
   <data name="LoginFailViaApiSocialAccount" xml:space="preserve">
-    <value>Пријава путем API и друштвених медија није успела</value>
+    <value>ÐŸÑ€Ð¸Ñ˜Ð°Ð²Ð° Ð¿ÑƒÑ‚ÐµÐ¼ API Ð¸ Ð´Ñ€ÑƒÑˆÑ‚Ð²ÐµÐ½Ð¸Ñ… Ð¼ÐµÐ´Ð¸Ñ˜Ð° Ð½Ð¸Ñ˜Ðµ ÑƒÑÐ¿ÐµÐ»Ð°</value>
   </data>
   <data name="LoginFailViaApiTfa" xml:space="preserve">
-    <value>Неуспешна пријава путем API и аутентификатор апликација</value>
+    <value>ÐÐµÑƒÑÐ¿ÐµÑˆÐ½Ð° Ð¿Ñ€Ð¸Ñ˜Ð°Ð²Ð° Ð¿ÑƒÑ‚ÐµÐ¼ API Ð¸ Ð°ÑƒÑ‚ÐµÐ½Ñ‚Ð¸Ñ„Ð¸ÐºÐ°Ñ‚Ð¾Ñ€ Ð°Ð¿Ð»Ð¸ÐºÐ°Ñ†Ð¸Ñ˜Ð°</value>
   </data>
   <data name="LoginFailViaSms" xml:space="preserve">
-    <value>Пријава путем SMS није успела</value>
+    <value>ÐŸÑ€Ð¸Ñ˜Ð°Ð²Ð° Ð¿ÑƒÑ‚ÐµÐ¼ SMS Ð½Ð¸Ñ˜Ðµ ÑƒÑÐ¿ÐµÐ»Ð°</value>
   </data>
   <data name="LoginFailViaSSO" xml:space="preserve">
-    <value>Пријава путем SSO није успела</value>
+    <value>ÐŸÑ€Ð¸Ñ˜Ð°Ð²Ð° Ð¿ÑƒÑ‚ÐµÐ¼ SSO Ð½Ð¸Ñ˜Ðµ ÑƒÑÐ¿ÐµÐ»Ð°</value>
   </data>
   <data name="LoginFailViaTfaApp" xml:space="preserve">
-    <value>Пријава путем аутентификатор апликације није успела</value>
+    <value>ÐŸÑ€Ð¸Ñ˜Ð°Ð²Ð° Ð¿ÑƒÑ‚ÐµÐ¼ Ð°ÑƒÑ‚ÐµÐ½Ñ‚Ð¸Ñ„Ð¸ÐºÐ°Ñ‚Ð¾Ñ€ Ð°Ð¿Ð»Ð¸ÐºÐ°Ñ†Ð¸Ñ˜Ðµ Ð½Ð¸Ñ˜Ðµ ÑƒÑÐ¿ÐµÐ»Ð°</value>
   </data>
   <data name="LoginHistoryReportDownloaded" xml:space="preserve">
-    <value>Извештај историје пријава преузет</value>
+    <value>Ð˜Ð·Ð²ÐµÑˆÑ‚Ð°Ñ˜ Ð¸ÑÑ‚Ð¾Ñ€Ð¸Ñ˜Ðµ Ð¿Ñ€Ð¸Ñ˜Ð°Ð²Ð° Ð¿Ñ€ÐµÑƒÐ·ÐµÑ‚</value>
   </data>
   <data name="LoginHistoryReportName" xml:space="preserve">
-    <value>Извештај историје пријава ({0}-{1})</value>
+    <value>Ð˜Ð·Ð²ÐµÑˆÑ‚Ð°Ñ˜ Ð¸ÑÑ‚Ð¾Ñ€Ð¸Ñ˜Ðµ Ð¿Ñ€Ð¸Ñ˜Ð°Ð²Ð° ({0}-{1})</value>
   </data>
   <data name="LoginSuccess" xml:space="preserve">
-    <value>Пријава успешна</value>
+    <value>ÐŸÑ€Ð¸Ñ˜Ð°Ð²Ð° ÑƒÑÐ¿ÐµÑˆÐ½Ð°</value>
   </data>
   <data name="LoginSuccessSocialApp" xml:space="preserve">
-    <value>Успешна пријава путем друштвене апликације</value>
+    <value>Ð£ÑÐ¿ÐµÑˆÐ½Ð° Ð¿Ñ€Ð¸Ñ˜Ð°Ð²Ð° Ð¿ÑƒÑ‚ÐµÐ¼ Ð´Ñ€ÑƒÑˆÑ‚Ð²ÐµÐ½Ðµ Ð°Ð¿Ð»Ð¸ÐºÐ°Ñ†Ð¸Ñ˜Ðµ</value>
   </data>
   <data name="LoginSuccessViaApi" xml:space="preserve">
-    <value>Успешна пријава путем API</value>
+    <value>Ð£ÑÐ¿ÐµÑˆÐ½Ð° Ð¿Ñ€Ð¸Ñ˜Ð°Ð²Ð° Ð¿ÑƒÑ‚ÐµÐ¼ API</value>
   </data>
   <data name="LoginSuccessViaApiSms" xml:space="preserve">
-    <value>Успешна пријава путем API и SMS кода</value>
+    <value>Ð£ÑÐ¿ÐµÑˆÐ½Ð° Ð¿Ñ€Ð¸Ñ˜Ð°Ð²Ð° Ð¿ÑƒÑ‚ÐµÐ¼ API Ð¸ SMS ÐºÐ¾Ð´Ð°</value>
   </data>
   <data name="LoginSuccessViaApiTfa" xml:space="preserve">
-    <value>Успешна пријава путем API и аутентификатор апликације</value>
+    <value>Ð£ÑÐ¿ÐµÑˆÐ½Ð° Ð¿Ñ€Ð¸Ñ˜Ð°Ð²Ð° Ð¿ÑƒÑ‚ÐµÐ¼ API Ð¸ Ð°ÑƒÑ‚ÐµÐ½Ñ‚Ð¸Ñ„Ð¸ÐºÐ°Ñ‚Ð¾Ñ€ Ð°Ð¿Ð»Ð¸ÐºÐ°Ñ†Ð¸Ñ˜Ðµ</value>
   </data>
   <data name="LoginSuccessViaSms" xml:space="preserve">
-    <value>Пријава путем SMS-а успешна</value>
+    <value>ÐŸÑ€Ð¸Ñ˜Ð°Ð²Ð° Ð¿ÑƒÑ‚ÐµÐ¼ SMS-Ð° ÑƒÑÐ¿ÐµÑˆÐ½Ð°</value>
   </data>
   <data name="LoginSuccessViaSocialAccount" xml:space="preserve">
-    <value>Пријава путем API и друштвених медија успешна</value>
+    <value>ÐŸÑ€Ð¸Ñ˜Ð°Ð²Ð° Ð¿ÑƒÑ‚ÐµÐ¼ API Ð¸ Ð´Ñ€ÑƒÑˆÑ‚Ð²ÐµÐ½Ð¸Ñ… Ð¼ÐµÐ´Ð¸Ñ˜Ð° ÑƒÑÐ¿ÐµÑˆÐ½Ð°</value>
   </data>
   <data name="LoginSuccessViaApiSocialAccount" xml:space="preserve">
-    <value>Пријава путем друштвеног налога упешна</value>
+    <value>ÐŸÑ€Ð¸Ñ˜Ð°Ð²Ð° Ð¿ÑƒÑ‚ÐµÐ¼ Ð´Ñ€ÑƒÑˆÑ‚Ð²ÐµÐ½Ð¾Ð³ Ð½Ð°Ð»Ð¾Ð³Ð° ÑƒÐ¿ÐµÑˆÐ½Ð°</value>
   </data>
   <data name="LoginSuccessViaSSO" xml:space="preserve">
-    <value>Успешна пријава путем SSO</value>
+    <value>Ð£ÑÐ¿ÐµÑˆÐ½Ð° Ð¿Ñ€Ð¸Ñ˜Ð°Ð²Ð° Ð¿ÑƒÑ‚ÐµÐ¼ SSO</value>
   </data>
   <data name="LoginSuccesViaTfaApp" xml:space="preserve">
-    <value>Успешна пријава путем аутентификатор апликације</value>
+    <value>Ð£ÑÐ¿ÐµÑˆÐ½Ð° Ð¿Ñ€Ð¸Ñ˜Ð°Ð²Ð° Ð¿ÑƒÑ‚ÐµÐ¼ Ð°ÑƒÑ‚ÐµÐ½Ñ‚Ð¸Ñ„Ð¸ÐºÐ°Ñ‚Ð¾Ñ€ Ð°Ð¿Ð»Ð¸ÐºÐ°Ñ†Ð¸Ñ˜Ðµ</value>
   </data>
   <data name="Logout" xml:space="preserve">
-    <value>Одјава</value>
+    <value>ÐžÐ´Ñ˜Ð°Ð²Ð°</value>
   </data>
   <data name="MailServiceSettingsUpdated" xml:space="preserve">
-    <value>Подешавања Емаил-а ажурирана</value>
+    <value>ÐŸÐ¾Ð´ÐµÑˆÐ°Ð²Ð°ÑšÐ° Ð•Ð¼Ð°Ð¸Ð»-Ð° Ð°Ð¶ÑƒÑ€Ð¸Ñ€Ð°Ð½Ð°</value>
   </data>
   <data name="ModuleCol" xml:space="preserve">
-    <value>Модул</value>
+    <value>ÐœÐ¾Ð´ÑƒÐ»</value>
   </data>
   <data name="MoveActionType" xml:space="preserve">
-    <value>Помери</value>
+    <value>ÐŸÐ¾Ð¼ÐµÑ€Ð¸</value>
   </data>
   <data name="OthersProduct" xml:space="preserve">
-    <value>Други</value>
+    <value>Ð”Ñ€ÑƒÐ³Ð¸</value>
   </data>
   <data name="OwnerChanged" xml:space="preserve">
-    <value>Власник промењен: {0}</value>
+    <value>Ð’Ð»Ð°ÑÐ½Ð¸Ðº Ð¿Ñ€Ð¾Ð¼ÐµÑšÐµÐ½: {0}</value>
   </data>
   <data name="OwnerSentChangeOwnerInstructions" xml:space="preserve">
-    <value>Власник [{0}]. Послао упутства за промену власника</value>
+    <value>Ð’Ð»Ð°ÑÐ½Ð¸Ðº [{0}]. ÐŸÐ¾ÑÐ»Ð°Ð¾ ÑƒÐ¿ÑƒÑ‚ÑÑ‚Ð²Ð° Ð·Ð° Ð¿Ñ€Ð¾Ð¼ÐµÐ½Ñƒ Ð²Ð»Ð°ÑÐ½Ð¸ÐºÐ°</value>
   </data>
   <data name="OwnerSentPortalDeactivationInstructions" xml:space="preserve">
-    <value>Власник [{0}]. Послао упутства за деактивацију портала</value>
+    <value>Ð’Ð»Ð°ÑÐ½Ð¸Ðº [{0}]. ÐŸÐ¾ÑÐ»Ð°Ð¾ ÑƒÐ¿ÑƒÑ‚ÑÑ‚Ð²Ð° Ð·Ð° Ð´ÐµÐ°ÐºÑ‚Ð¸Ð²Ð°Ñ†Ð¸Ñ˜Ñƒ Ð¿Ð¾Ñ€Ñ‚Ð°Ð»Ð°</value>
   </data>
   <data name="OwnerSentPortalDeleteInstructions" xml:space="preserve">
-    <value>Власник [{0}]. Послао упутства за брисање портала</value>
+    <value>Ð’Ð»Ð°ÑÐ½Ð¸Ðº [{0}]. ÐŸÐ¾ÑÐ»Ð°Ð¾ ÑƒÐ¿ÑƒÑ‚ÑÑ‚Ð²Ð° Ð·Ð° Ð±Ñ€Ð¸ÑÐ°ÑšÐµ Ð¿Ð¾Ñ€Ñ‚Ð°Ð»Ð°</value>
   </data>
   <data name="PageCol" xml:space="preserve">
-    <value>Страница</value>
+    <value>Ð¡Ñ‚Ñ€Ð°Ð½Ð¸Ñ†Ð°</value>
   </data>
   <data name="PasswordStrengthSettingsUpdated" xml:space="preserve">
-    <value>Подешавања јачине лозинке ажурирана</value>
+    <value>ÐŸÐ¾Ð´ÐµÑˆÐ°Ð²Ð°ÑšÐ° Ñ˜Ð°Ñ‡Ð¸Ð½Ðµ Ð»Ð¾Ð·Ð¸Ð½ÐºÐµ Ð°Ð¶ÑƒÑ€Ð¸Ñ€Ð°Ð½Ð°</value>
   </data>
   <data name="PeopleProduct" xml:space="preserve">
-    <value>Људи</value>
+    <value>Ð‰ÑƒÐ´Ð¸</value>
   </data>
   <data name="PlatformCol" xml:space="preserve">
-    <value>Платформа</value>
+    <value>ÐŸÐ»Ð°Ñ‚Ñ„Ð¾Ñ€Ð¼Ð°</value>
   </data>
   <data name="PortalAccessSettingsUpdated" xml:space="preserve">
-    <value>Подешавања приступа порталу ажурирана</value>
+    <value>ÐŸÐ¾Ð´ÐµÑˆÐ°Ð²Ð°ÑšÐ° Ð¿Ñ€Ð¸ÑÑ‚ÑƒÐ¿Ð° Ð¿Ð¾Ñ€Ñ‚Ð°Ð»Ñƒ Ð°Ð¶ÑƒÑ€Ð¸Ñ€Ð°Ð½Ð°</value>
   </data>
   <data name="PortalDeactivated" xml:space="preserve">
-    <value>Портал деактивиран</value>
+    <value>ÐŸÐ¾Ñ€Ñ‚Ð°Ð» Ð´ÐµÐ°ÐºÑ‚Ð¸Ð²Ð¸Ñ€Ð°Ð½</value>
   </data>
   <data name="PortalDeleted" xml:space="preserve">
-    <value>Портал обрисан</value>
+    <value>ÐŸÐ¾Ñ€Ñ‚Ð°Ð» Ð¾Ð±Ñ€Ð¸ÑÐ°Ð½</value>
   </data>
   <data name="PortalRenamed" xml:space="preserve">
-    <value>Портал преименован</value>
+    <value>ÐŸÐ¾Ñ€Ñ‚Ð°Ð» Ð¿Ñ€ÐµÐ¸Ð¼ÐµÐ½Ð¾Ð²Ð°Ð½</value>
   </data>
   <data name="PrivacyRoomDisable" xml:space="preserve">
-    <value>Приватна соба је онемогућена</value>
+    <value>ÐŸÑ€Ð¸Ð²Ð°Ñ‚Ð½Ð° ÑÐ¾Ð±Ð° Ñ˜Ðµ Ð¾Ð½ÐµÐ¼Ð¾Ð³ÑƒÑ›ÐµÐ½Ð°</value>
   </data>
   <data name="PrivacyRoomEnable" xml:space="preserve">
-    <value>Приватна соба је омогућена</value>
+    <value>ÐŸÑ€Ð¸Ð²Ð°Ñ‚Ð½Ð° ÑÐ¾Ð±Ð° Ñ˜Ðµ Ð¾Ð¼Ð¾Ð³ÑƒÑ›ÐµÐ½Ð°</value>
   </data>
   <data name="ProductAccessOpened" xml:space="preserve">
-    <value>Производи [{0}]. Приступ отворен</value>
+    <value>ÐŸÑ€Ð¾Ð¸Ð·Ð²Ð¾Ð´Ð¸ [{0}]. ÐŸÑ€Ð¸ÑÑ‚ÑƒÐ¿ Ð¾Ñ‚Ð²Ð¾Ñ€ÐµÐ½</value>
   </data>
   <data name="ProductAccessOpenedForGroups" xml:space="preserve">
-    <value>Производи [{0}]. Групе [{1}]. Приступ отворен</value>
+    <value>ÐŸÑ€Ð¾Ð¸Ð·Ð²Ð¾Ð´Ð¸ [{0}]. Ð“Ñ€ÑƒÐ¿Ðµ [{1}]. ÐŸÑ€Ð¸ÑÑ‚ÑƒÐ¿ Ð¾Ñ‚Ð²Ð¾Ñ€ÐµÐ½</value>
   </data>
   <data name="ProductAccessOpenedForUsers" xml:space="preserve">
-    <value>Производи [{0}]. Корисници [{1}]. Приступ отворен</value>
+    <value>ÐŸÑ€Ð¾Ð¸Ð·Ð²Ð¾Ð´Ð¸ [{0}]. ÐšÐ¾Ñ€Ð¸ÑÐ½Ð¸Ñ†Ð¸ [{1}]. ÐŸÑ€Ð¸ÑÑ‚ÑƒÐ¿ Ð¾Ñ‚Ð²Ð¾Ñ€ÐµÐ½</value>
   </data>
   <data name="ProductAccessRestricted" xml:space="preserve">
-    <value>Производи [{0}]. Приступ ограничен</value>
+    <value>ÐŸÑ€Ð¾Ð¸Ð·Ð²Ð¾Ð´Ð¸ [{0}]. ÐŸÑ€Ð¸ÑÑ‚ÑƒÐ¿ Ð¾Ð³Ñ€Ð°Ð½Ð¸Ñ‡ÐµÐ½</value>
   </data>
   <data name="ProductAddedAdministrator" xml:space="preserve">
-    <value>Производи [{0}]. Администратор додат: {1}</value>
+    <value>ÐŸÑ€Ð¾Ð¸Ð·Ð²Ð¾Ð´Ð¸ [{0}]. ÐÐ´Ð¼Ð¸Ð½Ð¸ÑÑ‚Ñ€Ð°Ñ‚Ð¾Ñ€ Ð´Ð¾Ð´Ð°Ñ‚: {1}</value>
   </data>
   <data name="ProductCol" xml:space="preserve">
-    <value>Производ</value>
+    <value>ÐŸÑ€Ð¾Ð¸Ð·Ð²Ð¾Ð´</value>
   </data>
   <data name="ProductDeletedAdministrator" xml:space="preserve">
-    <value>Производи [{0}]. Администратор обрисан: {1}</value>
+    <value>ÐŸÑ€Ð¾Ð¸Ð·Ð²Ð¾Ð´Ð¸ [{0}]. ÐÐ´Ð¼Ð¸Ð½Ð¸ÑÑ‚Ñ€Ð°Ñ‚Ð¾Ñ€ Ð¾Ð±Ñ€Ð¸ÑÐ°Ð½: {1}</value>
   </data>
   <data name="ProductsListUpdated" xml:space="preserve">
-    <value>Листа производа ажурирана</value>
+    <value>Ð›Ð¸ÑÑ‚Ð° Ð¿Ñ€Ð¾Ð¸Ð·Ð²Ð¾Ð´Ð° Ð°Ð¶ÑƒÑ€Ð¸Ñ€Ð°Ð½Ð°</value>
   </data>
   <data name="ProductsModule" xml:space="preserve">
-    <value>Производи</value>
+    <value>ÐŸÑ€Ð¾Ð¸Ð·Ð²Ð¾Ð´Ð¸</value>
   </data>
   <data name="ReassignsActionType" xml:space="preserve">
-    <value>Поновна додела</value>
+    <value>ÐŸÐ¾Ð½Ð¾Ð²Ð½Ð° Ð´Ð¾Ð´ÐµÐ»Ð°</value>
   </data>
   <data name="SendActionType" xml:space="preserve">
-    <value>Пошаљи</value>
+    <value>ÐŸÐ¾ÑˆÐ°Ñ™Ð¸</value>
   </data>
   <data name="SentInviteInstructions" xml:space="preserve">
-    <value>Инструкције позива послате: {0}</value>
+    <value>Ð˜Ð½ÑÑ‚Ñ€ÑƒÐºÑ†Ð¸Ñ˜Ðµ Ð¿Ð¾Ð·Ð¸Ð²Ð° Ð¿Ð¾ÑÐ»Ð°Ñ‚Ðµ: {0}</value>
   </data>
   <data name="SessionCompleted" xml:space="preserve">
-    <value>Сесија завршена</value>
+    <value>Ð¡ÐµÑÐ¸Ñ˜Ð° Ð·Ð°Ð²Ñ€ÑˆÐµÐ½Ð°</value>
   </data>
   <data name="SessionStarted" xml:space="preserve">
-    <value>Сесија започета</value>
+    <value>Ð¡ÐµÑÐ¸Ñ˜Ð° Ð·Ð°Ð¿Ð¾Ñ‡ÐµÑ‚Ð°</value>
   </data>
   <data name="SettingsProduct" xml:space="preserve">
-    <value>Подешавања</value>
+    <value>ÐŸÐ¾Ð´ÐµÑˆÐ°Ð²Ð°ÑšÐ°</value>
   </data>
   <data name="SSODisabled" xml:space="preserve">
-    <value>SSO онемогућен</value>
+    <value>SSO Ð¾Ð½ÐµÐ¼Ð¾Ð³ÑƒÑ›ÐµÐ½</value>
   </data>
   <data name="SSOEnabled" xml:space="preserve">
-    <value>SSO омогућен</value>
+    <value>SSO Ð¾Ð¼Ð¾Ð³ÑƒÑ›ÐµÐ½</value>
   </data>
   <data name="StartBackupSetting" xml:space="preserve">
-    <value>Почни резервну копију</value>
+    <value>ÐŸÐ¾Ñ‡Ð½Ð¸ Ñ€ÐµÐ·ÐµÑ€Ð²Ð½Ñƒ ÐºÐ¾Ð¿Ð¸Ñ˜Ñƒ</value>
   </data>
   <data name="StartStorageDecryption" xml:space="preserve">
-    <value>Покрени дешифровање складишта</value>
+    <value>ÐŸÐ¾ÐºÑ€ÐµÐ½Ð¸ Ð´ÐµÑˆÐ¸Ñ„Ñ€Ð¾Ð²Ð°ÑšÐµ ÑÐºÐ»Ð°Ð´Ð¸ÑˆÑ‚Ð°</value>
   </data>
   <data name="StartStorageEncryption" xml:space="preserve">
-    <value>Покрени шифровање складишта</value>
+    <value>ÐŸÐ¾ÐºÑ€ÐµÐ½Ð¸ ÑˆÐ¸Ñ„Ñ€Ð¾Ð²Ð°ÑšÐµ ÑÐºÐ»Ð°Ð´Ð¸ÑˆÑ‚Ð°</value>
   </data>
   <data name="StartTransferSetting" xml:space="preserve">
-    <value>Започните миграцију региона портала</value>
+    <value>Ð—Ð°Ð¿Ð¾Ñ‡Ð½Ð¸Ñ‚Ðµ Ð¼Ð¸Ð³Ñ€Ð°Ñ†Ð¸Ñ˜Ñƒ Ñ€ÐµÐ³Ð¸Ð¾Ð½Ð° Ð¿Ð¾Ñ€Ñ‚Ð°Ð»Ð°</value>
   </data>
   <data name="SystemAccount" xml:space="preserve">
-    <value>Налог система</value>
+    <value>ÐÐ°Ð»Ð¾Ð³ ÑÐ¸ÑÑ‚ÐµÐ¼Ð°</value>
   </data>
   <data name="TargetIdCol" xml:space="preserve">
-    <value>Таргет ID</value>
+    <value>Ð¢Ð°Ñ€Ð³ÐµÑ‚ ID</value>
   </data>
   <data name="TeamTemplateChanged" xml:space="preserve">
-    <value>Шаблон тима промењен</value>
+    <value>Ð¨Ð°Ð±Ð»Ð¾Ð½ Ñ‚Ð¸Ð¼Ð° Ð¿Ñ€Ð¾Ð¼ÐµÑšÐµÐ½</value>
   </data>
   <data name="ThirdPartyCreated" xml:space="preserve">
-    <value>Трећа страна креирана: {0}. Провајдер: {1}</value>
+    <value>Ð¢Ñ€ÐµÑ›Ð° ÑÑ‚Ñ€Ð°Ð½Ð° ÐºÑ€ÐµÐ¸Ñ€Ð°Ð½Ð°: {0}. ÐŸÑ€Ð¾Ð²Ð°Ñ˜Ð´ÐµÑ€: {1}</value>
   </data>
   <data name="ThirdPartyDeleted" xml:space="preserve">
-    <value>Трећа страна обрисана: {0}. Провајдер: {1}</value>
+    <value>Ð¢Ñ€ÐµÑ›Ð° ÑÑ‚Ñ€Ð°Ð½Ð° Ð¾Ð±Ñ€Ð¸ÑÐ°Ð½Ð°: {0}. ÐŸÑ€Ð¾Ð²Ð°Ñ˜Ð´ÐµÑ€: {1}</value>
   </data>
   <data name="ThirdPartyUpdated" xml:space="preserve">
-    <value>Трећа страна ажурирана: {0}. Провајдер: {1}</value>
+    <value>Ð¢Ñ€ÐµÑ›Ð° ÑÑ‚Ñ€Ð°Ð½Ð° Ð°Ð¶ÑƒÑ€Ð¸Ñ€Ð°Ð½Ð°: {0}. ÐŸÑ€Ð¾Ð²Ð°Ñ˜Ð´ÐµÑ€: {1}</value>
   </data>
   <data name="TimeTrackingModule" xml:space="preserve">
-    <value>Праћење времена</value>
+    <value>ÐŸÑ€Ð°Ñ›ÐµÑšÐµ Ð²Ñ€ÐµÐ¼ÐµÐ½Ð°</value>
   </data>
   <data name="TimeZoneSettingsUpdated" xml:space="preserve">
-    <value>Подешавања временске зоне ажурирана</value>
+    <value>ÐŸÐ¾Ð´ÐµÑˆÐ°Ð²Ð°ÑšÐ° Ð²Ñ€ÐµÐ¼ÐµÐ½ÑÐºÐµ Ð·Ð¾Ð½Ðµ Ð°Ð¶ÑƒÑ€Ð¸Ñ€Ð°Ð½Ð°</value>
   </data>
   <data name="TrustedMailDomainSettingsUpdated" xml:space="preserve">
-    <value>Ажурирана су подешавања домена поуздане поште</value>
+    <value>ÐÐ¶ÑƒÑ€Ð¸Ñ€Ð°Ð½Ð° ÑÑƒ Ð¿Ð¾Ð´ÐµÑˆÐ°Ð²Ð°ÑšÐ° Ð´Ð¾Ð¼ÐµÐ½Ð° Ð¿Ð¾ÑƒÐ·Ð´Ð°Ð½Ðµ Ð¿Ð¾ÑˆÑ‚Ðµ</value>
   </data>
   <data name="TwoFactorAuthenticationSettingsDisabled" xml:space="preserve">
-    <value>Ажуриране поставке двофакторске аутентификације: двофакторска аутентификација је онемогућена</value>
+    <value>ÐÐ¶ÑƒÑ€Ð¸Ñ€Ð°Ð½Ðµ Ð¿Ð¾ÑÑ‚Ð°Ð²ÐºÐµ Ð´Ð²Ð¾Ñ„Ð°ÐºÑ‚Ð¾Ñ€ÑÐºÐµ Ð°ÑƒÑ‚ÐµÐ½Ñ‚Ð¸Ñ„Ð¸ÐºÐ°Ñ†Ð¸Ñ˜Ðµ: Ð´Ð²Ð¾Ñ„Ð°ÐºÑ‚Ð¾Ñ€ÑÐºÐ° Ð°ÑƒÑ‚ÐµÐ½Ñ‚Ð¸Ñ„Ð¸ÐºÐ°Ñ†Ð¸Ñ˜Ð° Ñ˜Ðµ Ð¾Ð½ÐµÐ¼Ð¾Ð³ÑƒÑ›ÐµÐ½Ð°</value>
   </data>
   <data name="TwoFactorAuthenticationSettingsEnabledBySms" xml:space="preserve">
-    <value>Ажуриране поставке двофакторске аутентификације: потврда путем SMS-а је омогућена</value>
+    <value>ÐÐ¶ÑƒÑ€Ð¸Ñ€Ð°Ð½Ðµ Ð¿Ð¾ÑÑ‚Ð°Ð²ÐºÐµ Ð´Ð²Ð¾Ñ„Ð°ÐºÑ‚Ð¾Ñ€ÑÐºÐµ Ð°ÑƒÑ‚ÐµÐ½Ñ‚Ð¸Ñ„Ð¸ÐºÐ°Ñ†Ð¸Ñ˜Ðµ: Ð¿Ð¾Ñ‚Ð²Ñ€Ð´Ð° Ð¿ÑƒÑ‚ÐµÐ¼ SMS-Ð° Ñ˜Ðµ Ð¾Ð¼Ð¾Ð³ÑƒÑ›ÐµÐ½Ð°</value>
   </data>
   <data name="TwoFactorAuthenticationSettingsEnabledByTfaApp" xml:space="preserve">
-    <value>Ажуриране поставке двофакторске аутентификације: апликација за аутентификацију је омогућена</value>
+    <value>ÐÐ¶ÑƒÑ€Ð¸Ñ€Ð°Ð½Ðµ Ð¿Ð¾ÑÑ‚Ð°Ð²ÐºÐµ Ð´Ð²Ð¾Ñ„Ð°ÐºÑ‚Ð¾Ñ€ÑÐºÐµ Ð°ÑƒÑ‚ÐµÐ½Ñ‚Ð¸Ñ„Ð¸ÐºÐ°Ñ†Ð¸Ñ˜Ðµ: Ð°Ð¿Ð»Ð¸ÐºÐ°Ñ†Ð¸Ñ˜Ð° Ð·Ð° Ð°ÑƒÑ‚ÐµÐ½Ñ‚Ð¸Ñ„Ð¸ÐºÐ°Ñ†Ð¸Ñ˜Ñƒ Ñ˜Ðµ Ð¾Ð¼Ð¾Ð³ÑƒÑ›ÐµÐ½Ð°</value>
   </data>
   <data name="TwoFactorAuthenticationSettingsUpdated" xml:space="preserve">
-    <value>Поставке двофакторске аутентификације ажуриране</value>
+    <value>ÐŸÐ¾ÑÑ‚Ð°Ð²ÐºÐµ Ð´Ð²Ð¾Ñ„Ð°ÐºÑ‚Ð¾Ñ€ÑÐºÐµ Ð°ÑƒÑ‚ÐµÐ½Ñ‚Ð¸Ñ„Ð¸ÐºÐ°Ñ†Ð¸Ñ˜Ðµ Ð°Ð¶ÑƒÑ€Ð¸Ñ€Ð°Ð½Ðµ</value>
   </data>
   <data name="UnfollowActionType" xml:space="preserve">
-    <value>Престани пратити</value>
+    <value>ÐŸÑ€ÐµÑÑ‚Ð°Ð½Ð¸ Ð¿Ñ€Ð°Ñ‚Ð¸Ñ‚Ð¸</value>
   </data>
   <data name="UnknownAccount" xml:space="preserve">
-    <value>Непознати налог</value>
+    <value>ÐÐµÐ¿Ð¾Ð·Ð½Ð°Ñ‚Ð¸ Ð½Ð°Ð»Ð¾Ð³</value>
   </data>
   <data name="UnlinkActionType" xml:space="preserve">
-    <value>Раскини везу</value>
+    <value>Ð Ð°ÑÐºÐ¸Ð½Ð¸ Ð²ÐµÐ·Ñƒ</value>
   </data>
   <data name="UpdateAccessActionType" xml:space="preserve">
-    <value>Ажуриран приступ</value>
+    <value>ÐÐ¶ÑƒÑ€Ð¸Ñ€Ð°Ð½ Ð¿Ñ€Ð¸ÑÑ‚ÑƒÐ¿</value>
   </data>
   <data name="UpdateActionType" xml:space="preserve">
-    <value>Ажурирај</value>
+    <value>ÐÐ¶ÑƒÑ€Ð¸Ñ€Ð°Ñ˜</value>
   </data>
   <data name="UploadActionType" xml:space="preserve">
-    <value>Отпреми</value>
+    <value>ÐžÑ‚Ð¿Ñ€ÐµÐ¼Ð¸</value>
   </data>
   <data name="UserActivated" xml:space="preserve">
-    <value>Корисник активиран: {0}</value>
+    <value>ÐšÐ¾Ñ€Ð¸ÑÐ½Ð¸Ðº Ð°ÐºÑ‚Ð¸Ð²Ð¸Ñ€Ð°Ð½: {0}</value>
   </data>
   <data name="UserAddedAvatar" xml:space="preserve">
-    <value>Корисници [{0}]. Аватар додат</value>
+    <value>ÐšÐ¾Ñ€Ð¸ÑÐ½Ð¸Ñ†Ð¸ [{0}]. ÐÐ²Ð°Ñ‚Ð°Ñ€ Ð´Ð¾Ð´Ð°Ñ‚</value>
   </data>
   <data name="UserCol" xml:space="preserve">
-    <value>Корисник</value>
+    <value>ÐšÐ¾Ñ€Ð¸ÑÐ½Ð¸Ðº</value>
   </data>
   <data name="UserCreated" xml:space="preserve">
-    <value>Корисник креиран: {0}</value>
+    <value>ÐšÐ¾Ñ€Ð¸ÑÐ½Ð¸Ðº ÐºÑ€ÐµÐ¸Ñ€Ð°Ð½: {0}</value>
   </data>
   <data name="UserCreatedViaInvite" xml:space="preserve">
-    <value>Корисник креиран путем позива: {0}</value>
+    <value>ÐšÐ¾Ñ€Ð¸ÑÐ½Ð¸Ðº ÐºÑ€ÐµÐ¸Ñ€Ð°Ð½ Ð¿ÑƒÑ‚ÐµÐ¼ Ð¿Ð¾Ð·Ð¸Ð²Ð°: {0}</value>
   </data>
   <data name="UserDataReassigns" xml:space="preserve">
-    <value>Подаци поново додељени: од корисника {0} до корисника {1}</value>
+    <value>ÐŸÐ¾Ð´Ð°Ñ†Ð¸ Ð¿Ð¾Ð½Ð¾Ð²Ð¾ Ð´Ð¾Ð´ÐµÑ™ÐµÐ½Ð¸: Ð¾Ð´ ÐºÐ¾Ñ€Ð¸ÑÐ½Ð¸ÐºÐ° {0} Ð´Ð¾ ÐºÐ¾Ñ€Ð¸ÑÐ½Ð¸ÐºÐ° {1}</value>
   </data>
   <data name="UserDataRemoving" xml:space="preserve">
-    <value>Кориснички подаци за {0} су обрисани</value>
+    <value>ÐšÐ¾Ñ€Ð¸ÑÐ½Ð¸Ñ‡ÐºÐ¸ Ð¿Ð¾Ð´Ð°Ñ†Ð¸ Ð·Ð° {0} ÑÑƒ Ð¾Ð±Ñ€Ð¸ÑÐ°Ð½Ð¸</value>
   </data>
   <data name="UserDeleted" xml:space="preserve">
-    <value>Корисник обрисан: {0}</value>
+    <value>ÐšÐ¾Ñ€Ð¸ÑÐ½Ð¸Ðº Ð¾Ð±Ñ€Ð¸ÑÐ°Ð½: {0}</value>
   </data>
   <data name="UserDeletedAvatar" xml:space="preserve">
-    <value>Корисници [{0}]. Аватар обрисан</value>
+    <value>ÐšÐ¾Ñ€Ð¸ÑÐ½Ð¸Ñ†Ð¸ [{0}]. ÐÐ²Ð°Ñ‚Ð°Ñ€ Ð¾Ð±Ñ€Ð¸ÑÐ°Ð½</value>
   </data>
   <data name="UserFileUpdated" xml:space="preserve">
-    <value>Корисници [{0}]. Датотека ажурирана: {1}</value>
+    <value>ÐšÐ¾Ñ€Ð¸ÑÐ½Ð¸Ñ†Ð¸ [{0}]. Ð”Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐ° Ð°Ð¶ÑƒÑ€Ð¸Ñ€Ð°Ð½Ð°: {1}</value>
   </data>
   <data name="UserImported" xml:space="preserve">
-    <value>Корисник увезен: {0}</value>
+    <value>ÐšÐ¾Ñ€Ð¸ÑÐ½Ð¸Ðº ÑƒÐ²ÐµÐ·ÐµÐ½: {0}</value>
   </data>
   <data name="UserLinkedSocialAccount" xml:space="preserve">
-    <value>Социјални налог повезан. Провајдер: {0}</value>
+    <value>Ð¡Ð¾Ñ†Ð¸Ñ˜Ð°Ð»Ð½Ð¸ Ð½Ð°Ð»Ð¾Ð³ Ð¿Ð¾Ð²ÐµÐ·Ð°Ð½. ÐŸÑ€Ð¾Ð²Ð°Ñ˜Ð´ÐµÑ€: {0}</value>
   </data>
   <data name="UsersDeleted" xml:space="preserve">
-    <value>Корисници обрисани: {0}</value>
+    <value>ÐšÐ¾Ñ€Ð¸ÑÐ½Ð¸Ñ†Ð¸ Ð¾Ð±Ñ€Ð¸ÑÐ°Ð½Ð¸: {0}</value>
   </data>
   <data name="UserSentActivationInstructions" xml:space="preserve">
-    <value>Корисницима [{0}]. Послате инструкције за активацију</value>
+    <value>ÐšÐ¾Ñ€Ð¸ÑÐ½Ð¸Ñ†Ð¸Ð¼Ð° [{0}]. ÐŸÐ¾ÑÐ»Ð°Ñ‚Ðµ Ð¸Ð½ÑÑ‚Ñ€ÑƒÐºÑ†Ð¸Ñ˜Ðµ Ð·Ð° Ð°ÐºÑ‚Ð¸Ð²Ð°Ñ†Ð¸Ñ˜Ñƒ</value>
   </data>
   <data name="UserSentDeleteInstructions" xml:space="preserve">
-    <value>Послате инструкције за брисање профила</value>
+    <value>ÐŸÐ¾ÑÐ»Ð°Ñ‚Ðµ Ð¸Ð½ÑÑ‚Ñ€ÑƒÐºÑ†Ð¸Ñ˜Ðµ Ð·Ð° Ð±Ñ€Ð¸ÑÐ°ÑšÐµ Ð¿Ñ€Ð¾Ñ„Ð¸Ð»Ð°</value>
   </data>
   <data name="UserSentEmailInstructions" xml:space="preserve">
-    <value>Корисницима [{0}]. Постулате инструкције за промену Емаил-а</value>
+    <value>ÐšÐ¾Ñ€Ð¸ÑÐ½Ð¸Ñ†Ð¸Ð¼Ð° [{0}]. ÐŸÐ¾ÑÑ‚ÑƒÐ»Ð°Ñ‚Ðµ Ð¸Ð½ÑÑ‚Ñ€ÑƒÐºÑ†Ð¸Ñ˜Ðµ Ð·Ð° Ð¿Ñ€Ð¾Ð¼ÐµÐ½Ñƒ Ð•Ð¼Ð°Ð¸Ð»-Ð°</value>
   </data>
   <data name="UserSentPasswordInstructions" xml:space="preserve">
-    <value>Корисницима [{0}]. Послата упутства за промену лозинке</value>
+    <value>ÐšÐ¾Ñ€Ð¸ÑÐ½Ð¸Ñ†Ð¸Ð¼Ð° [{0}]. ÐŸÐ¾ÑÐ»Ð°Ñ‚Ð° ÑƒÐ¿ÑƒÑ‚ÑÑ‚Ð²Ð° Ð·Ð° Ð¿Ñ€Ð¾Ð¼ÐµÐ½Ñƒ Ð»Ð¾Ð·Ð¸Ð½ÐºÐµ</value>
   </data>
   <data name="UsersModule" xml:space="preserve">
-    <value>Корисници</value>
+    <value>ÐšÐ¾Ñ€Ð¸ÑÐ½Ð¸Ñ†Ð¸</value>
   </data>
   <data name="UsersSentActivationInstructions" xml:space="preserve">
-    <value>Корисницима [{0}]. Послата упутства за активацију</value>
+    <value>ÐšÐ¾Ñ€Ð¸ÑÐ½Ð¸Ñ†Ð¸Ð¼Ð° [{0}]. ÐŸÐ¾ÑÐ»Ð°Ñ‚Ð° ÑƒÐ¿ÑƒÑ‚ÑÑ‚Ð²Ð° Ð·Ð° Ð°ÐºÑ‚Ð¸Ð²Ð°Ñ†Ð¸Ñ˜Ñƒ</value>
   </data>
   <data name="UsersUpdatedStatus" xml:space="preserve">
-    <value>Корисници [{0}]. Ажуриран статус</value>
+    <value>ÐšÐ¾Ñ€Ð¸ÑÐ½Ð¸Ñ†Ð¸ [{0}]. ÐÐ¶ÑƒÑ€Ð¸Ñ€Ð°Ð½ ÑÑ‚Ð°Ñ‚ÑƒÑ</value>
   </data>
   <data name="UsersUpdatedType" xml:space="preserve">
-    <value>Корисници [{0}]. Ажуриран тип</value>
+    <value>ÐšÐ¾Ñ€Ð¸ÑÐ½Ð¸Ñ†Ð¸ [{0}]. ÐÐ¶ÑƒÑ€Ð¸Ñ€Ð°Ð½ Ñ‚Ð¸Ð¿</value>
   </data>
   <data name="UserTfaDisconnected" xml:space="preserve">
-    <value>Веза са апликацијом Authenticator је прекинута: {0}</value>
+    <value>Ð’ÐµÐ·Ð° ÑÐ° Ð°Ð¿Ð»Ð¸ÐºÐ°Ñ†Ð¸Ñ˜Ð¾Ð¼ Authenticator Ñ˜Ðµ Ð¿Ñ€ÐµÐºÐ¸Ð½ÑƒÑ‚Ð°: {0}</value>
   </data>
   <data name="UserTfaGenerateCodes" xml:space="preserve">
-    <value>Нови резервни кодови су креирани</value>
+    <value>ÐÐ¾Ð²Ð¸ Ñ€ÐµÐ·ÐµÑ€Ð²Ð½Ð¸ ÐºÐ¾Ð´Ð¾Ð²Ð¸ ÑÑƒ ÐºÑ€ÐµÐ¸Ñ€Ð°Ð½Ð¸</value>
   </data>
   <data name="UserUnlinkedSocialAccount" xml:space="preserve">
-    <value>Друштвени налог раскинут. Провајдер: {0}</value>
+    <value>Ð”Ñ€ÑƒÑˆÑ‚Ð²ÐµÐ½Ð¸ Ð½Ð°Ð»Ð¾Ð³ Ñ€Ð°ÑÐºÐ¸Ð½ÑƒÑ‚. ÐŸÑ€Ð¾Ð²Ð°Ñ˜Ð´ÐµÑ€: {0}</value>
   </data>
   <data name="UserUpdated" xml:space="preserve">
-    <value>Корисник ажуриран: {0}</value>
+    <value>ÐšÐ¾Ñ€Ð¸ÑÐ½Ð¸Ðº Ð°Ð¶ÑƒÑ€Ð¸Ñ€Ð°Ð½: {0}</value>
   </data>
   <data name="UserUpdatedAvatarThumbnails" xml:space="preserve">
-    <value>Корисници [{0}]. Thumbnails аватара ажуриране</value>
+    <value>ÐšÐ¾Ñ€Ð¸ÑÐ½Ð¸Ñ†Ð¸ [{0}]. Thumbnails Ð°Ð²Ð°Ñ‚Ð°Ñ€Ð° Ð°Ð¶ÑƒÑ€Ð¸Ñ€Ð°Ð½Ðµ</value>
   </data>
   <data name="UserUpdatedEmail" xml:space="preserve">
-    <value>Емаил ажуриран</value>
+    <value>Ð•Ð¼Ð°Ð¸Ð» Ð°Ð¶ÑƒÑ€Ð¸Ñ€Ð°Ð½</value>
   </data>
   <data name="UserUpdatedLanguage" xml:space="preserve">
-    <value>Језик ажуриран</value>
+    <value>ÐˆÐµÐ·Ð¸Ðº Ð°Ð¶ÑƒÑ€Ð¸Ñ€Ð°Ð½</value>
   </data>
   <data name="UserUpdatedMobileNumber" xml:space="preserve">
-    <value>Корисници [{0}]. Број мобилног ажуриран: {1}</value>
+    <value>ÐšÐ¾Ñ€Ð¸ÑÐ½Ð¸Ñ†Ð¸ [{0}]. Ð‘Ñ€Ð¾Ñ˜ Ð¼Ð¾Ð±Ð¸Ð»Ð½Ð¾Ð³ Ð°Ð¶ÑƒÑ€Ð¸Ñ€Ð°Ð½: {1}</value>
   </data>
   <data name="UserUpdatedPassword" xml:space="preserve">
-    <value>Лозинка ажурирана</value>
+    <value>Ð›Ð¾Ð·Ð¸Ð½ÐºÐ° Ð°Ð¶ÑƒÑ€Ð¸Ñ€Ð°Ð½Ð°</value>
   </data>
   <data name="TrashEmptied" xml:space="preserve">
-    <value>Отпад испражњен</value>
+    <value>ÐžÑ‚Ð¿Ð°Ð´ Ð¸ÑÐ¿Ñ€Ð°Ð¶ÑšÐµÐ½</value>
   </data>
   <data name="TagCreated" xml:space="preserve">
-    <value>Таг креиран: {0}</value>
+    <value>Ð¢Ð°Ð³ ÐºÑ€ÐµÐ¸Ñ€Ð°Ð½: {0}</value>
   </data>
   <data name="TagsDeleted" xml:space="preserve">
-    <value>Тагови обрисани: {0}</value>
+    <value>Ð¢Ð°Ð³Ð¾Ð²Ð¸ Ð¾Ð±Ñ€Ð¸ÑÐ°Ð½Ð¸: {0}</value>
   </data>
   <data name="RoomArchived" xml:space="preserve">
-    <value>Соба архивирана</value>
+    <value>Ð¡Ð¾Ð±Ð° Ð°Ñ€Ñ…Ð¸Ð²Ð¸Ñ€Ð°Ð½Ð°</value>
   </data>
   <data name="RoomCreated" xml:space="preserve">
-    <value>Соба креирана</value>
+    <value>Ð¡Ð¾Ð±Ð° ÐºÑ€ÐµÐ¸Ñ€Ð°Ð½Ð°</value>
   </data>
   <data name="RoomCreateUser" xml:space="preserve">
-    <value>Додат корисник: {0}. Улога: {1}</value>
+    <value>Ð”Ð¾Ð´Ð°Ñ‚ ÐºÐ¾Ñ€Ð¸ÑÐ½Ð¸Ðº: {0}. Ð£Ð»Ð¾Ð³Ð°: {1}</value>
   </data>
   <data name="RoomDeleted" xml:space="preserve">
-    <value>Соба обрисана</value>
+    <value>Ð¡Ð¾Ð±Ð° Ð¾Ð±Ñ€Ð¸ÑÐ°Ð½Ð°</value>
   </data>
   <data name="RoomExternalLinkCreated" xml:space="preserve">
-    <value>Екстерни линк креиран: {0}. Улога: {1}</value>
+    <value>Ð•ÐºÑÑ‚ÐµÑ€Ð½Ð¸ Ð»Ð¸Ð½Ðº ÐºÑ€ÐµÐ¸Ñ€Ð°Ð½: {0}. Ð£Ð»Ð¾Ð³Ð°: {1}</value>
   </data>
   <data name="RoomExternalLinkDeleted" xml:space="preserve">
-    <value>Екстерни линк обрисан: {0}</value>
+    <value>Ð•ÐºÑÑ‚ÐµÑ€Ð½Ð¸ Ð»Ð¸Ð½Ðº Ð¾Ð±Ñ€Ð¸ÑÐ°Ð½: {0}</value>
   </data>
   <data name="RoomExternalLinkUpdated" xml:space="preserve">
-    <value>Екстерни линк ажуриран: {0}. Улога: {1}</value>
+    <value>Ð•ÐºÑÑ‚ÐµÑ€Ð½Ð¸ Ð»Ð¸Ð½Ðº Ð°Ð¶ÑƒÑ€Ð¸Ñ€Ð°Ð½: {0}. Ð£Ð»Ð¾Ð³Ð°: {1}</value>
   </data>
   <data name="RoomInvitationLinkCreated" xml:space="preserve">
-    <value>Линк креиран. Улога: {1}</value>
+    <value>Ð›Ð¸Ð½Ðº ÐºÑ€ÐµÐ¸Ñ€Ð°Ð½. Ð£Ð»Ð¾Ð³Ð°: {1}</value>
   </data>
   <data name="RoomInvitationLinkDeleted" xml:space="preserve">
-    <value>Линк обрисан</value>
+    <value>Ð›Ð¸Ð½Ðº Ð¾Ð±Ñ€Ð¸ÑÐ°Ð½</value>
   </data>
   <data name="RoomInvitationLinkUpdated" xml:space="preserve">
-    <value>Линк ажуриран. Улога: {1}</value>
+    <value>Ð›Ð¸Ð½Ðº Ð°Ð¶ÑƒÑ€Ð¸Ñ€Ð°Ð½. Ð£Ð»Ð¾Ð³Ð°: {1}</value>
   </data>
   <data name="RoomLogoCreated" xml:space="preserve">
-    <value>Лого креиран</value>
+    <value>Ð›Ð¾Ð³Ð¾ ÐºÑ€ÐµÐ¸Ñ€Ð°Ð½</value>
   </data>
   <data name="RoomLogoDeleted" xml:space="preserve">
-    <value>Лого обрисан</value>
+    <value>Ð›Ð¾Ð³Ð¾ Ð¾Ð±Ñ€Ð¸ÑÐ°Ð½</value>
   </data>
   <data name="RoomRemoveUser" xml:space="preserve">
-    <value>Обрисан корисник: {0}</value>
+    <value>ÐžÐ±Ñ€Ð¸ÑÐ°Ð½ ÐºÐ¾Ñ€Ð¸ÑÐ½Ð¸Ðº: {0}</value>
   </data>
   <data name="RoomRenamed" xml:space="preserve">
-    <value>Соба преименована: {0}</value>
+    <value>Ð¡Ð¾Ð±Ð° Ð¿Ñ€ÐµÐ¸Ð¼ÐµÐ½Ð¾Ð²Ð°Ð½Ð°: {0}</value>
   </data>
   <data name="RoomsModule" xml:space="preserve">
-    <value>Собе</value>
+    <value>Ð¡Ð¾Ð±Ðµ</value>
   </data>
   <data name="RoomUnarchived" xml:space="preserve">
-    <value>Соба дезархивирана</value>
+    <value>Ð¡Ð¾Ð±Ð° Ð´ÐµÐ·Ð°Ñ€Ñ…Ð¸Ð²Ð¸Ñ€Ð°Ð½Ð°</value>
   </data>
   <data name="RoomUpdateAccessForUser" xml:space="preserve">
-    <value>{0} именован: {1}</value>
+    <value>{0} Ð¸Ð¼ÐµÐ½Ð¾Ð²Ð°Ð½: {1}</value>
   </data>
   <data name="FileSizePostfix" xml:space="preserve">
-    <value>бајтови,КБ,МБ,ГБ,ТБ</value>
+    <value>Ð±Ð°Ñ˜Ñ‚Ð¾Ð²Ð¸,ÐšÐ‘,ÐœÐ‘,Ð“Ð‘,Ð¢Ð‘</value>
   </data>
   <data name="FileUploadedWithOverwriting" xml:space="preserve">
-    <value>Датотека отпремљена са преписивањем: {0}</value>
+    <value>Ð”Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐ° Ð¾Ñ‚Ð¿Ñ€ÐµÐ¼Ñ™ÐµÐ½Ð° ÑÐ° Ð¿Ñ€ÐµÐ¿Ð¸ÑÐ¸Ð²Ð°ÑšÐµÐ¼: {0}</value>
   </data>
   <data name="QuotaPerPortalChanged" xml:space="preserve">
-    <value>Постави подразумевану складишну квоту: {0}</value>
+    <value>ÐŸÐ¾ÑÑ‚Ð°Ð²Ð¸ Ð¿Ð¾Ð´Ñ€Ð°Ð·ÑƒÐ¼ÐµÐ²Ð°Ð½Ñƒ ÑÐºÐ»Ð°Ð´Ð¸ÑˆÐ½Ñƒ ÐºÐ²Ð¾Ñ‚Ñƒ: {0}</value>
   </data>
   <data name="QuotaPerPortalDisabled" xml:space="preserve">
-    <value>Онемогућена подразумевана складишна квота</value>
+    <value>ÐžÐ½ÐµÐ¼Ð¾Ð³ÑƒÑ›ÐµÐ½Ð° Ð¿Ð¾Ð´Ñ€Ð°Ð·ÑƒÐ¼ÐµÐ²Ð°Ð½Ð° ÑÐºÐ»Ð°Ð´Ð¸ÑˆÐ½Ð° ÐºÐ²Ð¾Ñ‚Ð°</value>
   </data>
   <data name="QuotaPerRoomChanged" xml:space="preserve">
-    <value>Постави подразумевану складишну квоту за просторије: {0}</value>
+    <value>ÐŸÐ¾ÑÑ‚Ð°Ð²Ð¸ Ð¿Ð¾Ð´Ñ€Ð°Ð·ÑƒÐ¼ÐµÐ²Ð°Ð½Ñƒ ÑÐºÐ»Ð°Ð´Ð¸ÑˆÐ½Ñƒ ÐºÐ²Ð¾Ñ‚Ñƒ Ð·Ð° Ð¿Ñ€Ð¾ÑÑ‚Ð¾Ñ€Ð¸Ñ˜Ðµ: {0}</value>
   </data>
   <data name="QuotaPerRoomDisabled" xml:space="preserve">
-    <value>Онемогућена подразумевана складишна квота за просторије</value>
+    <value>ÐžÐ½ÐµÐ¼Ð¾Ð³ÑƒÑ›ÐµÐ½Ð° Ð¿Ð¾Ð´Ñ€Ð°Ð·ÑƒÐ¼ÐµÐ²Ð°Ð½Ð° ÑÐºÐ»Ð°Ð´Ð¸ÑˆÐ½Ð° ÐºÐ²Ð¾Ñ‚Ð° Ð·Ð° Ð¿Ñ€Ð¾ÑÑ‚Ð¾Ñ€Ð¸Ñ˜Ðµ</value>
   </data>
   <data name="QuotaPerUserChanged" xml:space="preserve">
-    <value>Постави подразумевану складишну квоту за кориснике: {0}</value>
+    <value>ÐŸÐ¾ÑÑ‚Ð°Ð²Ð¸ Ð¿Ð¾Ð´Ñ€Ð°Ð·ÑƒÐ¼ÐµÐ²Ð°Ð½Ñƒ ÑÐºÐ»Ð°Ð´Ð¸ÑˆÐ½Ñƒ ÐºÐ²Ð¾Ñ‚Ñƒ Ð·Ð° ÐºÐ¾Ñ€Ð¸ÑÐ½Ð¸ÐºÐµ: {0}</value>
   </data>
   <data name="QuotaPerUserDisabled" xml:space="preserve">
-    <value>Онемогућена подразумевана складишна квота за кориснике</value>
+    <value>ÐžÐ½ÐµÐ¼Ð¾Ð³ÑƒÑ›ÐµÐ½Ð° Ð¿Ð¾Ð´Ñ€Ð°Ð·ÑƒÐ¼ÐµÐ²Ð°Ð½Ð° ÑÐºÐ»Ð°Ð´Ð¸ÑˆÐ½Ð° ÐºÐ²Ð¾Ñ‚Ð° Ð·Ð° ÐºÐ¾Ñ€Ð¸ÑÐ½Ð¸ÐºÐµ</value>
   </data>
   <data name="RoomCopied" xml:space="preserve">
-    <value>Соба је копирана: {0}</value>
+    <value>Ð¡Ð¾Ð±Ð° Ñ˜Ðµ ÐºÐ¾Ð¿Ð¸Ñ€Ð°Ð½Ð°: {0}</value>
   </data>
   <data name="RoomGroupAdded" xml:space="preserve">
-    <value>Додата група: {0}. Улога: {1}</value>
+    <value>Ð”Ð¾Ð´Ð°Ñ‚Ð° Ð³Ñ€ÑƒÐ¿Ð°: {0}. Ð£Ð»Ð¾Ð³Ð°: {1}</value>
   </data>
   <data name="RoomGroupRemove" xml:space="preserve">
-    <value>Обрисана група: {0}</value>
+    <value>ÐžÐ±Ñ€Ð¸ÑÐ°Ð½Ð° Ð³Ñ€ÑƒÐ¿Ð°: {0}</value>
   </data>
   <data name="RoomUpdateAccessForGroup" xml:space="preserve">
-    <value>{0} именован: {1}</value>
+    <value>{0} Ð¸Ð¼ÐµÐ½Ð¾Ð²Ð°Ð½: {1}</value>
   </data>
   <data name="SendJoinInvite" xml:space="preserve">
-    <value>Корисник {0} је послао позивницу {1} да се придружи овом DocSpace-у</value>
+    <value>ÐšÐ¾Ñ€Ð¸ÑÐ½Ð¸Ðº {0} Ñ˜Ðµ Ð¿Ð¾ÑÐ»Ð°Ð¾ Ð¿Ð¾Ð·Ð¸Ð²Ð½Ð¸Ñ†Ñƒ {1} Ð´Ð° ÑÐµ Ð¿Ñ€Ð¸Ð´Ñ€ÑƒÐ¶Ð¸ Ð¾Ð²Ð¾Ð¼ DocSpace-Ñƒ</value>
   </data>
   <data name="CustomQuotaPerRoomChanged" xml:space="preserve">
-    <value>Просторије [{0}]. Постави прилагођену складишну квоту за просторије: {1}</value>
+    <value>ÐŸÑ€Ð¾ÑÑ‚Ð¾Ñ€Ð¸Ñ˜Ðµ [{0}]. ÐŸÐ¾ÑÑ‚Ð°Ð²Ð¸ Ð¿Ñ€Ð¸Ð»Ð°Ð³Ð¾Ñ’ÐµÐ½Ñƒ ÑÐºÐ»Ð°Ð´Ð¸ÑˆÐ½Ñƒ ÐºÐ²Ð¾Ñ‚Ñƒ Ð·Ð° Ð¿Ñ€Ð¾ÑÑ‚Ð¾Ñ€Ð¸Ñ˜Ðµ: {1}</value>
   </data>
   <data name="CustomQuotaPerRoomDefault" xml:space="preserve">
-    <value>Просторије [{0}]. Постави подразумевану складишну квоту за просторије: {1}</value>
+    <value>ÐŸÑ€Ð¾ÑÑ‚Ð¾Ñ€Ð¸Ñ˜Ðµ [{0}]. ÐŸÐ¾ÑÑ‚Ð°Ð²Ð¸ Ð¿Ð¾Ð´Ñ€Ð°Ð·ÑƒÐ¼ÐµÐ²Ð°Ð½Ñƒ ÑÐºÐ»Ð°Ð´Ð¸ÑˆÐ½Ñƒ ÐºÐ²Ð¾Ñ‚Ñƒ Ð·Ð° Ð¿Ñ€Ð¾ÑÑ‚Ð¾Ñ€Ð¸Ñ˜Ðµ: {1}</value>
   </data>
   <data name="CustomQuotaPerRoomDisabled" xml:space="preserve">
-    <value>Просторије [{0}]. Онемогућена складишна квота за просторије</value>
+    <value>ÐŸÑ€Ð¾ÑÑ‚Ð¾Ñ€Ð¸Ñ˜Ðµ [{0}]. ÐžÐ½ÐµÐ¼Ð¾Ð³ÑƒÑ›ÐµÐ½Ð° ÑÐºÐ»Ð°Ð´Ð¸ÑˆÐ½Ð° ÐºÐ²Ð¾Ñ‚Ð° Ð·Ð° Ð¿Ñ€Ð¾ÑÑ‚Ð¾Ñ€Ð¸Ñ˜Ðµ</value>
   </data>
   <data name="CustomQuotaPerUserChanged" xml:space="preserve">
-    <value>Корисници [{0}]. Постави прилагођену складишну квоту за кориснике: {1}</value>
+    <value>ÐšÐ¾Ñ€Ð¸ÑÐ½Ð¸Ñ†Ð¸ [{0}]. ÐŸÐ¾ÑÑ‚Ð°Ð²Ð¸ Ð¿Ñ€Ð¸Ð»Ð°Ð³Ð¾Ñ’ÐµÐ½Ñƒ ÑÐºÐ»Ð°Ð´Ð¸ÑˆÐ½Ñƒ ÐºÐ²Ð¾Ñ‚Ñƒ Ð·Ð° ÐºÐ¾Ñ€Ð¸ÑÐ½Ð¸ÐºÐµ: {1}</value>
   </data>
   <data name="CustomQuotaPerUserDefault" xml:space="preserve">
-    <value>Корисници [{0}]. Постави подразумевану складишну квоту за кориснике: {1}</value>
+    <value>ÐšÐ¾Ñ€Ð¸ÑÐ½Ð¸Ñ†Ð¸ [{0}]. ÐŸÐ¾ÑÑ‚Ð°Ð²Ð¸ Ð¿Ð¾Ð´Ñ€Ð°Ð·ÑƒÐ¼ÐµÐ²Ð°Ð½Ñƒ ÑÐºÐ»Ð°Ð´Ð¸ÑˆÐ½Ñƒ ÐºÐ²Ð¾Ñ‚Ñƒ Ð·Ð° ÐºÐ¾Ñ€Ð¸ÑÐ½Ð¸ÐºÐµ: {1}</value>
   </data>
   <data name="CustomQuotaPerUserDisabled" xml:space="preserve">
-    <value>Корисници [{0}]. Онемогућена складишна квота за кориснике</value>
+    <value>ÐšÐ¾Ñ€Ð¸ÑÐ½Ð¸Ñ†Ð¸ [{0}]. ÐžÐ½ÐµÐ¼Ð¾Ð³ÑƒÑ›ÐµÐ½Ð° ÑÐºÐ»Ð°Ð´Ð¸ÑˆÐ½Ð° ÐºÐ²Ð¾Ñ‚Ð° Ð·Ð° ÐºÐ¾Ñ€Ð¸ÑÐ½Ð¸ÐºÐµ</value>
   </data>
   <data name="FormOpenedForFilling" xml:space="preserve">
-    <value>Датотека отворена за попуњавање: {0}</value>
+    <value>Ð”Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐ° Ð¾Ñ‚Ð²Ð¾Ñ€ÐµÐ½Ð° Ð·Ð° Ð¿Ð¾Ð¿ÑƒÑšÐ°Ð²Ð°ÑšÐµ: {0}</value>
   </data>
   <data name="FormSubmit" xml:space="preserve">
-    <value>Корисници [{0}]. Формулар достављен: {1}</value>
+    <value>ÐšÐ¾Ñ€Ð¸ÑÐ½Ð¸Ñ†Ð¸ [{0}]. Ð¤Ð¾Ñ€Ð¼ÑƒÐ»Ð°Ñ€ Ð´Ð¾ÑÑ‚Ð°Ð²Ñ™ÐµÐ½: {1}</value>
+  </data>
+  <data name="RoomIndexExportSaved" xml:space="preserve">
+    <value>Ð˜Ð·Ð²Ð¾Ð· Ð¸Ð½Ð´ÐµÐºÑÐ° ÑÐ¾Ð±Ðµ ÑÐ°Ñ‡ÑƒÐ²Ð°Ð½ Ñƒ Ð”Ð¾ÐºÑƒÐ¼ÐµÐ½Ñ‚Ð¸Ð¼Ð°</value>
+  </data>
+  <data name="RoomInviteResend" xml:space="preserve">
+    <value>ÐŸÐ¾Ð·Ð¸Ð²Ð½Ð¸Ñ†Ðµ Ð¿Ð¾Ð½Ð¾Ð²Ð¾ Ð¿Ð¾ÑÐ»Ð°Ñ‚Ðµ: {0}</value>
+  </data>
+  <data name="FileIndexChanged" xml:space="preserve">
+    <value>Ð”Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐ°: {0}. Ð˜Ð½Ð´ÐµÐºÑ Ð¿Ñ€Ð¾Ð¼ÐµÑšÐµÐ½ Ð¸Ð· {1} Ñƒ {2}</value>
+  </data>
+  <data name="FolderIndexChanged" xml:space="preserve">
+    <value>Ð¤Ð¾Ð»Ð´ÐµÑ€: {0}. Ð˜Ð½Ð´ÐµÐºÑ Ð¿Ñ€Ð¾Ð¼ÐµÑšÐµÐ½ Ð¸Ð· {1} Ñƒ {2}</value>
+  </data>
+  <data name="FolderIndexReordered" xml:space="preserve">
+    <value>Ð¤Ð¾Ð»Ð´ÐµÑ€: {0}. Ð˜Ð½Ð´ÐµÐºÑÐ¸ ÑÑƒ Ð¿Ñ€ÐµÑƒÑ€ÐµÑ’ÐµÐ½Ð¸</value>
+  </data>
+  <data name="OAuthModule" xml:space="preserve">
+    <value>OAuth</value>
+  </data>
+  <data name="RoomDenyDownloadDisabled" xml:space="preserve">
+    <value>Ð¡Ð¾Ð±Ð°: {0}. Ð—Ð°Ð±Ñ€Ð°Ð½Ð¸ Ð¿Ñ€ÐµÑƒÐ·Ð¸Ð¼Ð°ÑšÐµ Ð¾Ð½ÐµÐ¼Ð¾Ð³ÑƒÑ›ÐµÐ½Ð¾</value>
+  </data>
+  <data name="RoomDenyDownloadEnabled" xml:space="preserve">
+    <value>Ð¡Ð¾Ð±Ð°: {0}. Ð—Ð°Ð±Ñ€Ð°Ð½Ð¸ Ð¿Ñ€ÐµÑƒÐ·Ð¸Ð¼Ð°ÑšÐµ Ð¾Ð¼Ð¾Ð³ÑƒÑ›ÐµÐ½Ð¾</value>
+  </data>
+  <data name="RoomIndexingDisabled" xml:space="preserve">
+    <value>Ð˜Ð½Ð´ÐµÐºÑÐ¸Ñ€Ð°ÑšÐµ ÑÐ¾Ð±Ð° Ð¾Ð½ÐµÐ¼Ð¾Ð³ÑƒÑ›ÐµÐ½Ð¾</value>
+  </data>
+  <data name="RoomIndexingEnabled" xml:space="preserve">
+    <value>Ð˜Ð½Ð´ÐµÐºÑÐ¸Ñ€Ð°ÑšÐµ ÑÐ¾Ð±Ð° Ð¾Ð¼Ð¾Ð³ÑƒÑ›ÐµÐ½Ð¾</value>
+  </data>
+  <data name="RoomLifeTimeDisabled" xml:space="preserve">
+    <value>LifeTime Ð¾Ð½ÐµÐ¼Ð¾Ð³ÑƒÑ›ÐµÐ½</value>
+  </data>
+  <data name="RoomLifeTimeSet" xml:space="preserve">
+    <value>Ð–Ð¸Ð²Ð¾Ñ‚Ð½Ð¾ Ð²Ñ€ÐµÐ¼Ðµ Ñ˜Ðµ Ð¿Ð¾ÑÑ‚Ð°Ð²Ñ™ÐµÐ½Ð¾. Ð²Ñ€ÐµÐ´Ð½Ð¾ÑÑ‚ : {0}. ÐŸÐµÑ€Ð¸Ð¾Ð´: {1}. Ð¢Ñ€Ð°Ñ˜Ð½Ð¾ Ð¸Ð·Ð±Ñ€Ð¸ÑˆÐ¸: {2}</value>
+  </data>
+  <data name="RoomWatermarkSet" xml:space="preserve">
+    <value>Ð¡Ð¾Ð±Ð°: {0}. Ð’Ð¾Ð´ÐµÐ½Ð¸ Ð¶Ð¸Ð³ Ð¾Ð¼Ð¾Ð³ÑƒÑ›ÐµÐ½</value>
+  </data>
+  <data name="RoomWatermarkDisabled" xml:space="preserve">
+    <value>Ð¡Ð¾Ð±Ð°: {0}. Ð’Ð¾Ð´ÐµÐ½Ð¸ Ð¶Ð¸Ð³ Ð¾Ð½ÐµÐ¼Ð¾Ð³ÑƒÑ›ÐµÐ½</value>
+  </data>
+  <data name="UpdateClient" xml:space="preserve">
+    <value>ÐšÐ»Ð¸Ñ˜ÐµÐ½Ñ‚ {0} Ð°Ð¶ÑƒÑ€Ð¸Ñ€Ð°Ð½</value>
+  </data>
+  <data name="ChangeClientActivation" xml:space="preserve">
+    <value>ÐÐºÑ‚Ð¸Ð²Ð°Ñ†Ð¸Ñ˜Ð° {0} ÐºÐ»Ð¸Ñ˜ÐµÐ½Ñ‚Ð° Ñ˜Ðµ Ð¿Ñ€Ð¾Ð¼ÐµÑšÐµÐ½Ð°</value>
+  </data>
+  <data name="ChangeClientVisibility" xml:space="preserve">
+    <value>ÐŸÑ€Ð¾Ð¼ÐµÑšÐµÐ½Ð° {0} Ð²Ð¸Ð´Ñ™Ð¸Ð²Ð¾ÑÑ‚ ÐºÐ»Ð¸Ñ˜ÐµÐ½Ñ‚Ð°</value>
+  </data>
+  <data name="CreateClient" xml:space="preserve">
+    <value>ÐšÐ»Ð¸Ñ˜ÐµÐ½Ñ‚ Ñ˜Ðµ ÐºÑ€ÐµÐ¸Ñ€Ð°Ð½</value>
+  </data>
+  <data name="DeleteClient" xml:space="preserve">
+    <value>ÐšÐ»Ð¸Ñ˜ÐµÐ½Ñ‚ {0} Ð¸Ð·Ð±Ñ€Ð¸ÑÐ°Ð½</value>
+  </data>
+  <data name="GenerateAuthorizationCodeToken" xml:space="preserve">
+    <value>Ð“ÐµÐ½ÐµÑ€Ð¸ÑÐ°Ð½Ð¸ Ð°ÑƒÑ‚Ð¾Ñ€Ð¸Ð·Ð°Ñ†Ð¸Ð¾Ð½Ð¸ ÐºÐ¾Ð´ Ð·Ð° ÐºÐ»Ð¸Ñ˜ÐµÐ½Ñ‚Ð° {0}</value>
+  </data>
+  <data name="GeneratePersonalAccessToken" xml:space="preserve">
+    <value>Ð“ÐµÐ½ÐµÑ€Ð¸ÑÐ°Ð½Ð¸ Ð»Ð¸Ñ‡Ð½Ð¸ Ð¿Ñ€Ð¸ÑÑ‚ÑƒÐ¿Ð½Ð¸ Ñ‚Ð¾ÐºÐµÐ½ Ð·Ð° ÐºÐ»Ð¸Ñ˜ÐµÐ½Ñ‚Ð° {0}</value>
+  </data>
+  <data name="RegenerateSecret" xml:space="preserve">
+    <value>ÐšÐ»Ð¸Ñ˜ÐµÐ½Ñ‚Ð¾Ð²Ð° {0} Ñ‚Ð°Ñ˜Ð½Ð° Ñ€ÐµÐ³ÐµÐ½ÐµÑ€Ð¸ÑÐ°Ð½Ð°</value>
+  </data>
+  <data name="RevokeUserClient" xml:space="preserve">
+    <value>ÐžÐ´ÑƒÐ·ÐµÑ‚ ÐºÐ»Ð¸Ñ˜ÐµÐ½Ñ‚Ñƒ {0} Ð¿Ñ€Ð¸ÑÑ‚ÑƒÐ¿</value>
   </data>
 </root>

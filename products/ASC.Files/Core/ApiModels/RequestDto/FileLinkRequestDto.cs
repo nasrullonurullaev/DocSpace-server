@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -27,14 +27,36 @@
 namespace ASC.Files.Core.ApiModels.RequestDto;
 
 /// <summary>
+/// External link parameters
 /// </summary>
-public class FileLinkRequestDto : LinkRequestDtoBase
+public class FileLinkRequest : LinkRequestDtoBase
 {
-    /// <summary>Link scope</summary>
-    /// <type>System.Boolean, System</type>
+    /// <summary>
+    /// Link scope
+    /// </summary>
     public bool Internal { get; set; }
-    
-    /// <summary>Primary link flag</summary>
-    /// <type>System.Boolean, System</type>
+
+    /// <summary>
+    /// Primary link flag
+    /// </summary>
     public bool Primary { get; set; }
+}
+
+
+/// <summary>
+/// External link request parameters
+/// </summary>
+public class FileLinkRequestDto<T>
+{
+    /// <summary>
+    /// File ID
+    /// </summary>
+    [FromRoute(Name = "id")]
+    public T Id { get; set; }
+
+    /// <summary>
+    /// External link parameters
+    /// </summary>
+    [FromBody]
+    public FileLinkRequest File { get; set; }
 }

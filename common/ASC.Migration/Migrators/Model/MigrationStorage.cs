@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -27,9 +27,9 @@
 namespace ASC.Migration.Core.Migrators.Model;
 public class MigrationStorage
 {
-    public List<MigrationFolder> Folders { get; set; } = new List<MigrationFolder>();
-    public List<MigrationFile> Files { get; set; } = new List<MigrationFile>();
-    public List<MigrationSecurity> Securities { get; set; } = new List<MigrationSecurity>();
+    public List<MigrationFolder> Folders { get; set; } = [];
+    public List<MigrationFile> Files { get; set; } = [];
+    public List<MigrationSecurity> Securities { get; set; } = [];
     public long BytesTotal { get; set; }
     public FolderType Type { get; set; } = FolderType.USER;
     public string RootKey { get; set; }
@@ -38,7 +38,7 @@ public class MigrationStorage
     public bool ShouldImportSharedFiles { get; set; }
     public bool ShouldImportSharedFolders { get; set; }
 
-    public virtual MigratingApiFiles ToApiInfo()
+    public MigratingApiFiles ToApiInfo()
     {
         return new MigratingApiFiles
         {

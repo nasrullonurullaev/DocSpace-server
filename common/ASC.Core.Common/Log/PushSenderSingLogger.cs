@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -27,6 +27,6 @@
 namespace ASC.Core.Common.Log;
 internal static partial class PushSenderSingLogger
 {
-    [LoggerMessage(Level = LogLevel.Debug, Message = "push sender endpoint is not configured!")]
+    [LoggerMessage(LogLevel.Debug, "push sender endpoint is not configured!")]
     public static partial void DebugPushSender(this ILogger<PushSenderSink> logger);
 }

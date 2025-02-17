@@ -1,4 +1,4 @@
-﻿Imports net.openstack.Core.Providers
+Imports net.openstack.Core.Providers
 Imports net.openstack.Core.Domain
 
 Public Class ObjectStorageProviderExamples

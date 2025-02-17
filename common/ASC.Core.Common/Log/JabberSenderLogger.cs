@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -27,6 +27,6 @@
 namespace ASC.Core.Common.Log;
 internal static partial class JabberSenderLogger
 {
-    [LoggerMessage(Level = LogLevel.Debug, Message = "Unexpected error")]
+    [LoggerMessage(LogLevel.Debug, "Unexpected error")]
     public static partial void ErrorUnexpected(this ILogger logger, Exception exception);
 }

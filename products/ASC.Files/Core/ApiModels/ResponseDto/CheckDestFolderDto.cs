@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -28,13 +28,25 @@ namespace ASC.Files.Core.ApiModels.ResponseDto;
 
 public class CheckDestFolderDto
 {
+    /// <summary>
+    /// Result
+    /// </summary>
     public CheckDestFolderResult Result { get; set; }
+
+    /// <summary>
+    /// Files
+    /// </summary>
     public List<FileEntryDto> Files { get; set; }
 }
 
 public enum CheckDestFolderResult
 {
+    [SwaggerEnum(Description = "All allowed")]
     AllAllowed,
+
+    [SwaggerEnum(Description = "Part allowed")]
     PartAllowed,
+
+    [SwaggerEnum(Description = "None allowed")]
     NoneAllowed
 }

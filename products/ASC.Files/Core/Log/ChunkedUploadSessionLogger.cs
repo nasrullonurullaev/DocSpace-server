@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -27,6 +27,6 @@
 namespace ASC.Files.Core.Log;
 internal static partial class ChunkedUploadSessionLogger
 {
-    [LoggerMessage(Level = LogLevel.Error, Message = "GetBreadCrumbs {folderId} with null")]
+    [LoggerMessage(LogLevel.Error, "GetBreadCrumbs {folderId} with null")]
     public static partial void ErrorInUserInfoRequest(this ILogger<ChunkedUploadSessionHelper> logger, string folderId);
 }

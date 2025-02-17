@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -31,7 +31,7 @@ using NLog;
 var options = new WebApplicationOptions
 {
     Args = args,
-    ContentRootPath = WindowsServiceHelpers.IsWindowsService() ? AppContext.BaseDirectory : default
+    ContentRootPath = WindowsServiceHelpers.IsWindowsService() ? AppContext.BaseDirectory : null
 };
 
 var builder = WebApplication.CreateBuilder(options);
@@ -61,22 +61,28 @@ try
 
     var startup = new Startup(builder.Configuration, builder.Environment);
 
-    await startup.ConfigureServices(builder.Services);
+    await startup.ConfigureServices(builder);
 
     var app = builder.Build();
 
     startup.Configure(app);
 
-    var eventBus = ((IApplicationBuilder)app).ApplicationServices.GetRequiredService<IEventBus>();
+    var sp = ((IApplicationBuilder)app).ApplicationServices;
 
-    eventBus.Subscribe<ThumbnailRequestedIntegrationEvent, ThumbnailRequestedIntegrationEventHandler>();
-    eventBus.Subscribe<RoomIndexExportIntegrationEvent, RoomIndexExportIntegrationEventHandler>();
-    eventBus.Subscribe<DeleteIntegrationEvent, DeleteIntegrationEventHandler>();
-    eventBus.Subscribe<MoveOrCopyIntegrationEvent, MoveOrCopyIntegrationEventHandler>();
-    eventBus.Subscribe<DuplicateIntegrationEvent, DuplicateIntegrationEventHandler>();
-    eventBus.Subscribe<BulkDownloadIntegrationEvent, BulkDownloadIntegrationEventHandler>();
-    eventBus.Subscribe<MarkAsReadIntegrationEvent, MarkAsReadIntegrationEventHandler>();
-    eventBus.Subscribe<EmptyTrashIntegrationEvent, EmptyTrashIntegrationEventHandler>();
+    var eventBus = sp.GetRequiredService<IEventBus>();
+
+    await eventBus.SubscribeAsync<ThumbnailRequestedIntegrationEvent, ThumbnailRequestedIntegrationEventHandler>();
+    await eventBus.SubscribeAsync<RoomIndexExportIntegrationEvent, RoomIndexExportIntegrationEventHandler>();
+    await eventBus.SubscribeAsync<DeleteIntegrationEvent, DeleteIntegrationEventHandler>();
+    await eventBus.SubscribeAsync<MoveOrCopyIntegrationEvent, MoveOrCopyIntegrationEventHandler>();
+    await eventBus.SubscribeAsync<DuplicateIntegrationEvent, DuplicateIntegrationEventHandler>();
+    await eventBus.SubscribeAsync<BulkDownloadIntegrationEvent, BulkDownloadIntegrationEventHandler>();
+    await eventBus.SubscribeAsync<MarkAsReadIntegrationEvent, MarkAsReadIntegrationEventHandler>();
+    await eventBus.SubscribeAsync<EmptyTrashIntegrationEvent, EmptyTrashIntegrationEventHandler>();
+    await eventBus.SubscribeAsync<FormFillingReportIntegrationEvent, FormFillingReportIntegrationEventHandler>();
+    await eventBus.SubscribeAsync<RoomNotifyIntegrationEvent, RoomNotifyIntegrationEventHandler>();
+
+    sp.GetRequiredService<FileTrackerHelper>().Subscribe();
 
     logger.Info("Starting web host ({applicationContext})...", AppName);
     await app.RunWithTasksAsync();

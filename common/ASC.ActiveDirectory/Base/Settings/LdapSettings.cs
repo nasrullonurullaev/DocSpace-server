@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -393,7 +393,7 @@ public class LdapSettings : ISettings<LdapSettings>, ICloneable
     /// <type>System.String, System</type>
     public string AcceptCertificateHash { get; set; }
 
-    /// <summary>Users type (All, RoomAdmin, User, DocSpaceAdmin, Collaborator)</summary>
+    /// <summary>Users type (All, RoomAdmin, Guest, DocSpaceAdmin, User)</summary>
     /// <type>ASC.Core.Users.EmployeeType, ASC.Core.Common</type>
     public EmployeeType UsersType { get; set; }
 

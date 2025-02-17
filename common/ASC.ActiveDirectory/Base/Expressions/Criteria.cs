@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -31,8 +31,8 @@ namespace ASC.ActiveDirectory.Base.Expressions;
 public class Criteria : ICloneable
 {
     private readonly CriteriaType _type;
-    private readonly List<Expression> _expressions = new();
-    private readonly List<Criteria> _nestedCriteras = new();
+    private readonly List<Expression> _expressions = [];
+    private readonly List<Criteria> _nestedCriteras = [];
 
     /// <summary>
     /// Constructor

@@ -1,4 +1,4 @@
-﻿using OpenStack.Compute.v2_2;
+using OpenStack.Compute.v2_2;
 using OpenStack.Synchronous.Extensions;
 
 // ReSharper disable once CheckNamespace

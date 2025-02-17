@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <Description>Integrate the OneDrive API into your .NET App!</Description>
     <Copyright>Copyright 2016 Microsoft Corporation</Copyright>

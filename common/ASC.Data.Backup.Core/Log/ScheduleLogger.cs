@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -27,6 +27,6 @@
 namespace ASC.Data.Backup.Core.Log;
 public static partial class ScheduleLogger
 {
-    [LoggerMessage(Level = LogLevel.Error, Message = "Schedule {tenantId}")]
+    [LoggerMessage(LogLevel.Error, "Schedule {tenantId}")]
     public static partial void ErrorSchedule(this ILogger<Schedule> logger, int tenantId, Exception exception);
 }

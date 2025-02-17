@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -28,6 +28,13 @@ namespace ASC.People.ApiModels.RequestDto;
 
 public class TransferGroupMembersRequestDto
 {
+    /// <summary>
+    /// Group id
+    /// </summary>
     public Guid GroupId { get; set; }
+
+    /// <summary>
+    /// New group id
+    /// </summary>
     public Guid NewGroupId { get; set; }
 }

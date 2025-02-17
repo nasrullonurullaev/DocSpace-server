@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -28,6 +28,6 @@ namespace ASC.Files.Log;
 
 internal static partial class FilesControllerHelperLogger
 {
-    [LoggerMessage(Level = LogLevel.Error, Message = "CheckConversion")]
+    [LoggerMessage(LogLevel.Error, "CheckConversion")]
     public static partial void ErrorCheckConversion(this ILogger logger, Exception exception);
 }

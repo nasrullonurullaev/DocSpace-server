@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -27,6 +27,6 @@
 namespace ASC.Files.Core.Log;
 internal static partial class EditHistoryLogger
 {
-    [LoggerMessage(Level = LogLevel.Error, Message = "DeSerialize old scheme exception")]
+    [LoggerMessage(LogLevel.Error, "DeSerialize old scheme exception")]
     public static partial void ErrorDeSerializeOldScheme(this ILogger<EditHistory> logger, Exception exception);
 }

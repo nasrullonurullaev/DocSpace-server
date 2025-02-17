@@ -118,22 +118,22 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="DumpParse" xml:space="preserve">
-    <value>Análisis de la base de datos</value>
+    <value>AnÃ¡lisis de la base de datos</value>
   </data>
   <data name="GroupMigration" xml:space="preserve">
-    <value>Migración de grupo {0} ({1}/{2})</value>
+    <value>MigraciÃ³n de grupo {0} ({1}/{2})</value>
   </data>
   <data name="UserMigration" xml:space="preserve">
-    <value>Migración de usuarios {0} ({1}/{2})</value>
+    <value>MigraciÃ³n de usuarios {0} ({1}/{2})</value>
   </data>
   <data name="MigratingUserFiles" xml:space="preserve">
     <value>Migrando archivos de usuario {0} ({1}/{2})</value>
   </data>
   <data name="MigrationCompleted" xml:space="preserve">
-    <value>La migración se ha completado</value>
+    <value>La migraciÃ³n se ha completado</value>
   </data>
   <data name="PreparingForMigration" xml:space="preserve">
-    <value>Preparando la migración</value>
+    <value>Preparando la migraciÃ³n</value>
   </data>
   <data name="DataProcessingCompleted" xml:space="preserve">
     <value>El procesamiento de datos se ha completado</value>
@@ -145,33 +145,33 @@
     <value>Iniciando el procesamiento de datos...</value>
   </data>
   <data name="UnzippingFinished" xml:space="preserve">
-    <value>La descompresión se ha completado...</value>
+    <value>La descompresiÃ³n se ha completado...</value>
   </data>
   <data name="Unzipping" xml:space="preserve">
     <value>Descomprimiendo...</value>
   </data>
   <data name="MigrationCommonFiles" xml:space="preserve">
-    <value>Migración de archivos comunes</value>
+    <value>MigraciÃ³n de archivos comunes</value>
   </data>
   <data name="MigrationNotFoundException" xml:space="preserve">
-    <value>No existe tal proveedor de migración</value>
+    <value>No existe tal proveedor de migraciÃ³n</value>
   </data>
   <data name="MigrationProgressException" xml:space="preserve">
-    <value>No hay ninguna migración en curso</value>
+    <value>No hay ninguna migraciÃ³n en curso</value>
   </data>
   <data name="MigrationProjectFiles" xml:space="preserve">
-    <value>Migración de archivos de proyecto</value>
+    <value>MigraciÃ³n de archivos de proyecto</value>
   </data>
   <data name="CanNotAddUserInGroup" xml:space="preserve">
-    <value>No se ha podido añadir el usuario {0} al grupo {1}</value>
+    <value>No se ha podido aÃ±adir el usuario {0} al grupo {1}</value>
   </data>
   <data name="CanNotCreateFile" xml:space="preserve">
     <value>No se ha podido crear el archivo {0}</value>
   </data>
-  <data name="СanNotImportCommonFiles" xml:space="preserve">
+  <data name="Ð¡anNotImportCommonFiles" xml:space="preserve">
     <value>No se han podido importar archivos comunes</value>
   </data>
-  <data name="СanNotImportProjectFiles" xml:space="preserve">
+  <data name="Ð¡anNotImportProjectFiles" xml:space="preserve">
     <value>No se han podido importar archivos de proyecto</value>
   </data>
   <data name="CanNotImportUser" xml:space="preserve">
@@ -190,7 +190,7 @@
     <value>No se ha podido analizar el usuario {0}</value>
   </data>
   <data name="CanNotReadInfoFile" xml:space="preserve">
-    <value>No se ha podido leer el archivo de información de {0}</value>
+    <value>No se ha podido leer el archivo de informaciÃ³n de {0}</value>
   </data>
   <data name="CanNotToUnzip" xml:space="preserve">
     <value>No se ha podido descomprimir {0}</value>
@@ -201,8 +201,8 @@
   <data name="CreateFolder" xml:space="preserve">
     <value>Crear carpeta {0}</value>
   </data>
-  <data name="СreateRootFolder" xml:space="preserve">
-    <value>Crear carpeta raíz</value>
+  <data name="Ð¡reateRootFolder" xml:space="preserve">
+    <value>Crear carpeta raÃ­z</value>
   </data>
   <data name="CreateShareRoom" xml:space="preserve">
     <value>crear sala compartida {0}</value>

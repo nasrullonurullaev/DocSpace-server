@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using OpenStack.Serialization;
 
 namespace OpenStack.Networking.v2.Serialization

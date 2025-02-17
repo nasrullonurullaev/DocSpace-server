@@ -1,4 +1,4 @@
-﻿using OpenStack.Authentication;
+using OpenStack.Authentication;
 
 namespace net.openstack.Providers.Hp
 {

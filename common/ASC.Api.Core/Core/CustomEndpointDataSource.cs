@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -25,7 +25,6 @@
 // International. See the License terms at http://creativecommons.org/licenses/by-sa/4.0/legalcode
 
 namespace ASC.Api.Core.Core;
-
 public class CustomEndpointDataSource : EndpointDataSource
 {
     private readonly EndpointDataSource _source;
@@ -77,7 +76,8 @@ public static class EndpointExtension
 {
     public static async Task<IEndpointRouteBuilder> MapCustomAsync(this IEndpointRouteBuilder endpoints, bool webhooksEnabled = false, IServiceProvider serviceProvider = null)
     {
-        endpoints.MapControllers();
+        endpoints.MapControllers()
+                 .WithRequirementAuthorization();
 
         if (webhooksEnabled && serviceProvider != null)
         {

@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -81,7 +81,7 @@ public abstract class TfaSettingsHelperBase<T>(SettingsManager settingsManager,
             }
         }
 
-        if (settings.TrustedIps != null && settings.TrustedIps.Any())
+        if (settings.TrustedIps != null && settings.TrustedIps.Count != 0)
         {
             var requestIP = MessageSettings.GetIP(httpContextAccessor.HttpContext.Request);
             if (!string.IsNullOrWhiteSpace(requestIP) && settings.TrustedIps.Any(trustedIp => IPAddressRange.MatchIPs(requestIP, trustedIp)))

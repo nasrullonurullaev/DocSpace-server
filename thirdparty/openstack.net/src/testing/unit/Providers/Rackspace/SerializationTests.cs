@@ -1,4 +1,4 @@
-﻿namespace OpenStackNet.Testing.Unit.Providers.Rackspace
+namespace OpenStackNet.Testing.Unit.Providers.Rackspace
 {
     using System.Linq;
     using Microsoft.VisualStudio.TestTools.UnitTesting;

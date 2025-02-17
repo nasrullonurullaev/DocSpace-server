@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -173,12 +173,7 @@ public class Metadata(IConfiguration configuration)
             }
 
             readed = stream.Read(IV, 0, ivLength);
-            if (readed < ivLength)
-            {
-                return false;
-            }
-
-            return true;
+            return readed >= ivLength;
         }
         catch (Exception)
         {

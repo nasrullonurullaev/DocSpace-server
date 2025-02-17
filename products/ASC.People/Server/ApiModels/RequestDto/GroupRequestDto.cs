@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -27,10 +27,41 @@
 namespace ASC.People.ApiModels.RequestDto;
 
 /// <summary>
+/// Group request parameters
 /// </summary>
 public class GroupRequestDto : GroupRequestDtoBase
 {
-    /// <summary>List of group member IDs</summary>
-    /// <type>System.Collections.Generic.IEnumerable{System.Guid}, System.Collections.Generic</type>
+    /// <summary>
+    /// List of group member IDs
+    /// </summary>
     public IEnumerable<Guid> Members { get; init; }
+}
+
+/// <summary>
+/// Group request parameters
+/// </summary>
+public class MembersRequest
+{
+    /// <summary>
+    /// List of group member IDs
+    /// </summary>
+    public IEnumerable<Guid> Members { get; init; }
+}
+
+/// <summary>
+/// Group request parameters
+/// </summary>
+public class MembersRequestDto
+{
+    /// <summary>
+    /// Group ID
+    /// </summary>
+    [FromRoute(Name = "id")]
+    public Guid Id { get; set; }
+
+    /// <summary>
+    /// Members
+    /// </summary>
+    [FromBody]
+    public MembersRequest Members { get; set; }
 }

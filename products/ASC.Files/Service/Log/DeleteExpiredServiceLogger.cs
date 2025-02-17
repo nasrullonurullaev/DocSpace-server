@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -29,6 +29,6 @@ using ASC.Files.Service.Services;
 namespace ASC.Files.Service.Log;
 internal static partial class DeleteExpiredServiceLogger
 {
-    [LoggerMessage(Level = LogLevel.Error, Message = "DeleteExpired")]
+    [LoggerMessage(LogLevel.Error, "DeleteExpired")]
     public static partial void ErrorDeleteExpired(this ILogger<DeleteExpiredService> logger, Exception exception);
 }

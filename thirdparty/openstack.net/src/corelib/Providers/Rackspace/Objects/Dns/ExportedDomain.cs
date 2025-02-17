@@ -1,4 +1,4 @@
-﻿namespace net.openstack.Providers.Rackspace.Objects.Dns
+namespace net.openstack.Providers.Rackspace.Objects.Dns
 {
     using Newtonsoft.Json;
     using ProjectId = net.openstack.Core.Domain.ProjectId;

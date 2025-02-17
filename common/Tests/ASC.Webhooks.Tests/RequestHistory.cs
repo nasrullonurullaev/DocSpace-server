@@ -1,4 +1,4 @@
-﻿using ASC.Common;
+using ASC.Common;
 
 namespace ASC.Webhooks.Tests
 {

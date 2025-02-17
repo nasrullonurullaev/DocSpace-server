@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2010-2022
+// (c) Copyright Ascensio System SIA 2010-2022
 //
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -41,7 +41,7 @@ public class MigrationCreator
         {
             CreateMigration(options, typeof(MigrationContext), providerInfo);
         }
-        
+
         foreach (var providerInfo in options.TeamlabsiteProviders)
         {
             CreateMigration(options, typeof(TeamlabSiteContext), providerInfo);

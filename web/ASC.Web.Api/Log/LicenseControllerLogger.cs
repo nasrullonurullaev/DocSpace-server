@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -28,6 +28,6 @@ namespace ASC.Web.Api.Log;
 
 internal static partial class LicenseControllerLogger
 {
-    [LoggerMessage(Level = LogLevel.Error, Message = "License upload")]
+    [LoggerMessage(LogLevel.Error, "License upload")]
     public static partial void ErrorLicenseUpload(this ILogger logger, Exception exception);
 }

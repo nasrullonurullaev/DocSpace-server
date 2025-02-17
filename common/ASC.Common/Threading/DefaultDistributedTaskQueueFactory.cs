@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -40,7 +40,7 @@ public class DefaultDistributedTaskQueueFactory(IServiceProvider serviceProvider
         return CreateQueue(type.FullName, timeUntilUnregisterInSeconds);
     }
 
-    public DistributedTaskQueue CreateQueue(string name = default, int timeUntilUnregisterInSeconds = 60)
+    public DistributedTaskQueue CreateQueue(string name = null, int timeUntilUnregisterInSeconds = 60)
     {
         var option = options.Get(name);
         var queue = serviceProvider.GetRequiredService<DistributedTaskQueue>();

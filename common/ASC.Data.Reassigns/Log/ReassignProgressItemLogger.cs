@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -27,6 +27,6 @@
 namespace ASC.Data.Reassigns.Log;
 internal static partial class ReassignProgressItemLogger
 {
-    [LoggerMessage(Level = LogLevel.Error, Message = "RemoveProgressItem")]
+    [LoggerMessage(LogLevel.Error, "RemoveProgressItem")]
     public static partial void ErrorRemoveProgressItem(this ILogger logger, Exception exception);
 }

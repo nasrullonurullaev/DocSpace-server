@@ -1,4 +1,4 @@
-﻿namespace net.openstack.Core.Validators
+namespace net.openstack.Core.Validators
 {
     using System.Runtime.CompilerServices;
 

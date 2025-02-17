@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -34,12 +34,13 @@ public record RoomIndexExportIntegrationEvent : IntegrationEvent
 
     }
 
-    public RoomIndexExportIntegrationEvent(Guid createBy, int tenantId, int roomId, string baseUri, bool terminate = false)
+    public RoomIndexExportIntegrationEvent(Guid createBy, int tenantId, int roomId, string baseUri, bool terminate = false, IDictionary<string, string> headers = null)
     : base(createBy, tenantId)
     {
         RoomId = roomId;
         Terminate = terminate;
         BaseUri = baseUri;
+        Headers = headers;
     }
 
     [ProtoMember(1)]
@@ -50,4 +51,7 @@ public record RoomIndexExportIntegrationEvent : IntegrationEvent
 
     [ProtoMember(3)]
     public bool Terminate { get; set; }
+    
+    [ProtoMember(4)]
+    public IDictionary<string, string> Headers { get; set; }
 }

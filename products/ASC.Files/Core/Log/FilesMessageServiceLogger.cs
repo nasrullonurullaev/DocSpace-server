@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -27,9 +27,9 @@
 namespace ASC.Files.Core.Log;
 internal static partial class FilesMessageServiceLogger
 {
-    [LoggerMessage(Level = LogLevel.Debug, Message = "Empty Request Headers for \"{action}\" type of event")]
+    [LoggerMessage(LogLevel.Debug, "Empty Request Headers for \"{action}\" type of event")]
     public static partial void DebugEmptyRequestHeaders(this ILogger logger, MessageAction action);
 
-    [LoggerMessage(Level = LogLevel.Debug, Message = "Empty Http Request for \"{action}\" type of event")]
+    [LoggerMessage(LogLevel.Debug, "Empty Http Request for \"{action}\" type of event")]
     public static partial void DebugEmptyHttpRequest(this ILogger logger, MessageAction action);
 }

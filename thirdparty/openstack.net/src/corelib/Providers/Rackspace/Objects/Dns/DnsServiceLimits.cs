@@ -1,4 +1,4 @@
-﻿namespace net.openstack.Providers.Rackspace.Objects.Dns
+namespace net.openstack.Providers.Rackspace.Objects.Dns
 {
     using System.Collections.Generic;
     using System.Collections.ObjectModel;

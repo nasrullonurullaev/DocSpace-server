@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using net.openstack.Providers.Rackspace.Exceptions;
 using net.openstack.Providers.Rackspace.Validators;

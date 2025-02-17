@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using OpenStack.Synchronous.Extensions;
 using Rackspace.RackConnect.v3;
 

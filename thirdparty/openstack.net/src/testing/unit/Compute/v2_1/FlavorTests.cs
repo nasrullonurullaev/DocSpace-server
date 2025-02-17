@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Linq;
 using OpenStack.Compute.v2_1.Serialization;
 using OpenStack.Serialization;

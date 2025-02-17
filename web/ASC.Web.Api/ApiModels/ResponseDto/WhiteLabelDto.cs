@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -24,36 +24,37 @@
 // content are licensed under the terms of the Creative Commons Attribution-ShareAlike 4.0
 // International. See the License terms at http://creativecommons.org/licenses/by-sa/4.0/legalcode
 
-using SixLabors.ImageSharp;
+using ImageMagick;
 
 namespace ASC.Web.Api.ApiModels.ResponseDto;
 
-/// <summary>
-/// </summary>
 public class WhiteLabelItemDto
 {
-    /// <summary>File name</summary>
-    /// <type>System.String, System</type>
+    /// <summary>
+    /// File name
+    /// </summary>
     public string Name { get; set; }
 
-    /// <summary>Size</summary>
-    /// <type>SixLabors.ImageSharp.Size, SixLabors.ImageSharp</type>
-    public Size Size { get; set; }
+    /// <summary>
+    /// Size
+    /// </summary>
+    public IMagickGeometry Size { get; set; }
 
-    /// <summary>Path</summary>
-    /// <type>ASC.Web.Api.ApiModels.ResponseDto.WhiteLabelItemPathDto, ASC.Web.Api</type>
+    /// <summary>
+    /// Path
+    /// </summary>
     public WhiteLabelItemPathDto Path { get; set; }
 }
 
-/// <summary>
-/// </summary>
 public class WhiteLabelItemPathDto
 {
-    /// <summary>Path to the light theme logo</summary>
-    /// <type>System.String, System</type>
+    /// <summary>
+    /// Path to the light theme logo
+    /// </summary>
     public string Light { get; set; }
 
-    /// <summary>Path to the dark theme logo</summary>
-    /// <type>System.String, System</type>
+    /// <summary>
+    /// Path to the dark theme logo
+    /// </summary>
     public string Dark { get; set; }
 }

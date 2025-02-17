@@ -121,9 +121,9 @@
     <value>Definir senha</value>
   </data>
   <data name="BackupNotFound" xml:space="preserve">
-    <value>O arquivo de backup é inválido. Por favor, use um arquivo criado no ONLYOFFICE v11.5 ou posterior.</value>
+    <value>O arquivo de backup Ã© invÃ¡lido. Use o arquivo criado no mesmo portal.</value>
   </data>
   <data name="LargeBackup" xml:space="preserve">
-    <value>O backup é maior que o tamanho total do portal</value>
+    <value>O backup Ã© maior que o tamanho total do portal</value>
   </data>
 </root>

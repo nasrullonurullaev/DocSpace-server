@@ -1,4 +1,4 @@
-﻿namespace OpenStack.Networking
+namespace OpenStack.Networking
 {
     using System.Runtime.CompilerServices;
 

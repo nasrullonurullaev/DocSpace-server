@@ -120,18 +120,18 @@
   <data name="pattern_remove_user_data_completed_custom_mode" xml:space="preserve">
     <value>Dragi $UserName,
 
-Proces uklanjanja podata od korisnika "$FromUserName":"$FromUserLink" je uspešno završen.
+Proces uklanjanja podata od korisnika "$FromUserName":"$FromUserLink" je uspeÅ¡no zavrÅ¡en.
 
-Brisanje ličnih podataka je oslobodilo $DocsSpace</value>
+Brisanje liÄnih podataka je oslobodilo $DocsSpace</value>
   </data>
   <data name="ProductAdminOpportunitiesCustomMode" xml:space="preserve">
-    <value>Uradite isto kao korisnik|Povežite Dropbox, Box i druge naloge u 'Zajedničkom' odeljku|Podesite prava pristupa dokumentima i folderima u 'Zajedničkom' odeljku</value>
+    <value>Uradite isto kao korisnik|PoveÅ¾ite Dropbox, Box i druge naloge u 'ZajedniÄkom' odeljku|Podesite prava pristupa dokumentima i folderima u 'ZajedniÄkom' odeljku</value>
   </data>
   <data name="ProductUserOpportunitiesCustomMode" xml:space="preserve">
-    <value>Kreirajte i uređujte svoje dokumente, kao i deljene dokumente sa odgovarajućim pravima pristupa|Dajte pristup za čitanje/uređivanje drugim korisnicima za dokumente i foldere|Povežite Dropbox, Box i druge naloge u 'Dokumenti' odeljku</value>
+    <value>Kreirajte i ureÄ‘ujte svoje dokumente, kao i deljene dokumente sa odgovarajuÄ‡im pravima pristupa|Dajte pristup za Äitanje/ureÄ‘ivanje drugim korisnicima za dokumente i foldere|PoveÅ¾ite Dropbox, Box i druge naloge u 'Dokumenti' odeljku</value>
   </data>
   <data name="subject_remove_user_data_completed_custom_mode" xml:space="preserve">
-    <value>${LetterLogoText}. Uklanjanje korisničkih podataka je završeno</value>
+    <value>${LetterLogoText}. Uklanjanje korisniÄkih podataka je zavrÅ¡eno</value>
   </data>
   <data name="subject_saas_custom_mode_reg_data" xml:space="preserve">
     <value>Novi portal je registrovan</value>
@@ -139,19 +139,19 @@ Brisanje ličnih podataka je oslobodilo $DocsSpace</value>
   <data name="pattern_enterprise_whitelabel_user_welcome_custom_mode_v1" xml:space="preserve">
     <value>Zdravo, $UserName!
 
-Dobrodošli na ONLYOFFICE DocSpace! Vaš korisnički profil je uspešno dodat na "${__VirtualRootPath}":"${__VirtualRootPath}". Sada možete:
+DobrodoÅ¡li na ONLYOFFICE DocSpace! VaÅ¡ korisniÄki profil je uspeÅ¡no dodat na "${__VirtualRootPath}":"${__VirtualRootPath}". Sada moÅ¾ete:
 
-* Radite sa drugim korisnicima u sobi u koju ste pozvani: *sobe za saradnju za koautorstvo u realnom vremenu ili prilagođene sobe sa fleksibilnim postavkama za bilo koju svrhu*.
+* Radite sa drugim korisnicima u sobi u koju ste pozvani: *sobe za saradnju za koautorstvo u realnom vremenu ili prilagoÄ‘ene sobe sa fleksibilnim postavkama za bilo koju svrhu*.
 
-* *Radite sa datotekama različitih formata*: tekst dokumenti, proračunske tebele, prezentacije, digitalni obrasci, PDF-ovi, e-knjige, multimedija.
+* *Radite sa datotekama razliÄitih formata*: tekst dokumenti, proraÄunske tebele, prezentacije, digitalni obrasci, PDF-ovi, e-knjige, multimedija.
 
-* *Sarađujete na dokumentima* sa dva kouređivačka modela: u realnom vremenu ili zaključavanjem paragrafa. Pratite promene, komunicirajte u realnom vremenu koristeći ugrađeni čet ili obavljajte audio i video pozive.
+* *SaraÄ‘ujete na dokumentima* sa dva koureÄ‘ivaÄka modela: u realnom vremenu ili zakljuÄavanjem paragrafa. Pratite promene, komunicirajte u realnom vremenu koristeÄ‡i ugraÄ‘eni Äet ili obavljajte audio i video pozive.
 
-* *Povežite bilo koje oblak skladište* i radite bez menjanja između aplikacija.
+* *PoveÅ¾ite bilo koje oblak skladiÅ¡te* i radite bez menjanja izmeÄ‘u aplikacija.
 
 $OrangeButton
 
-Ako vam treba pomoć, pregledajte naš "Centar za Pomoć":"${__HelpLink}" ili pitajte naš "tim za podršku":"${__SupportLink}".
+Ako vam treba pomoÄ‡, pregledajte naÅ¡ "Centar za PomoÄ‡":"${__HelpLink}" ili pitajte naÅ¡ "tim za podrÅ¡ku":"${__SupportLink}".
 
 $TrulyYours</value>
   </data>

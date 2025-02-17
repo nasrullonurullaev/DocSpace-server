@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -27,9 +27,9 @@
 namespace ASC.Web.Core.Log;
 internal static partial class SsoHandlerLogger
 {
-    [LoggerMessage(Level = LogLevel.Debug, Message = "User {identity} already authenticated")]
+    [LoggerMessage(LogLevel.Debug, "User {identity} already authenticated")]
     public static partial void DebugUserAlreadyAuthenticated(this ILogger<SsoHandlerService> logger, IIdentity identity);
 
-    [LoggerMessage(Level = LogLevel.Debug, Message = "Adding or updating user in database, userId={id}")]
+    [LoggerMessage(LogLevel.Debug, "Adding or updating user in database, userId={id}")]
     public static partial void DebugAddingOrUpdatingUser(this ILogger<SsoHandlerService> logger, Guid id);
 }

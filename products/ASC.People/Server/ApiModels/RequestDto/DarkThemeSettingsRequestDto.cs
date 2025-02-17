@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -27,10 +27,12 @@
 namespace ASC.People.ApiModels.RequestDto;
 
 /// <summary>
+/// Theme settings request parameters
 /// </summary>
 public class DarkThemeSettingsRequestDto
 {
-    /// <summary>Portal theme (Base, System, or Dark)</summary>
-    /// <type>ASC.Web.Core.Users.DarkThemeSettingsType, ASC.Core.Common</type>
+    /// <summary>
+    /// Portal theme
+    /// </summary>
     public DarkThemeSettingsType Theme { get; set; }
 }

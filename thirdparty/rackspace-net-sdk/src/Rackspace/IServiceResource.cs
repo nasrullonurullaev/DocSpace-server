@@ -1,4 +1,4 @@
-﻿namespace Rackspace
+namespace Rackspace
 {
     /// <summary>
     /// Resources which want to expose service operations directly (e.g. resource.Delete())

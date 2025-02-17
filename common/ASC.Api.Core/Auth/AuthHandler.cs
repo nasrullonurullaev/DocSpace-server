@@ -30,7 +30,7 @@ using Role = ASC.Common.Security.Authorizing.Role;
 namespace ASC.Api.Core.Auth;
 
 public class AuthHandler(
-    IOptionsMonitor<AuthenticationSchemeOptions> options,
+//    IOptionsMonitor<AuthenticationSchemeOptions> options,
     ILoggerFactory logger,
     UrlEncoder encoder,
     IConfiguration configuration,
@@ -53,7 +53,7 @@ public class AuthHandler(
         {
             Context.Request.Headers.TryGetValue("Authorization", out var headers);
 
-            var header = headers.FirstOrDefault();
+            string header = headers;
 
             if (string.IsNullOrEmpty(header))
             {
@@ -81,7 +81,7 @@ public class AuthHandler(
 
                 log.LogDebug("Variant of correct auth: {AuthToken}", apiSystemHelper.CreateAuthToken(pkey));
 
-                if (!string.IsNullOrWhiteSpace(date))
+           /*     if (!string.IsNullOrWhiteSpace(date))
                 {
                     var timestamp = DateTime.ParseExact(date, "yyyyMMddHHmmss", CultureInfo.InvariantCulture);
 
@@ -93,7 +93,7 @@ public class AuthHandler(
 
                         return Task.FromResult(AuthenticateResult.Fail(new AuthenticationException(nameof(HttpStatusCode.Forbidden))));
                     }
-                }
+                } */
 
                 var sKey = machinePseudoKeys.GetMachineConstant();
                 using var hasher = new HMACSHA1(sKey);

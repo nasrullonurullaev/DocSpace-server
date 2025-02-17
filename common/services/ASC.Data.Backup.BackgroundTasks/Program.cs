@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -29,7 +29,7 @@ using NLog;
 var options = new WebApplicationOptions
 {
     Args = args,
-    ContentRootPath = WindowsServiceHelpers.IsWindowsService() ? AppContext.BaseDirectory : default
+    ContentRootPath = WindowsServiceHelpers.IsWindowsService() ? AppContext.BaseDirectory : null
 };
 
 var builder = WebApplication.CreateBuilder(options);
@@ -56,7 +56,7 @@ try
 
     var startup = new Startup(builder.Configuration);
 
-    await startup.ConfigureServices(builder.Services);
+    await startup.ConfigureServices(builder);
 
     builder.Host.ConfigureContainer<ContainerBuilder>(startup.ConfigureContainer);
 
@@ -66,9 +66,9 @@ try
 
     var eventBus = ((IApplicationBuilder)app).ApplicationServices.GetRequiredService<IEventBus>();
 
-    eventBus.Subscribe<BackupRequestIntegrationEvent, BackupRequestedIntegrationEventHandler>();
-    eventBus.Subscribe<BackupRestoreRequestIntegrationEvent, BackupRestoreRequestedIntegrationEventHandler>();
-    eventBus.Subscribe<IntegrationEvent, BackupDeleteScheldureRequestedIntegrationEventHandler>();
+    await eventBus.SubscribeAsync<BackupRequestIntegrationEvent, BackupRequestedIntegrationEventHandler>();
+    await eventBus.SubscribeAsync<BackupRestoreRequestIntegrationEvent, BackupRestoreRequestedIntegrationEventHandler>();
+    await eventBus.SubscribeAsync<IntegrationEvent, BackupDeleteScheldureRequestedIntegrationEventHandler>();
 
     logger.Info("Starting web host ({applicationContext})...", AppName);
     await app.RunWithTasksAsync();

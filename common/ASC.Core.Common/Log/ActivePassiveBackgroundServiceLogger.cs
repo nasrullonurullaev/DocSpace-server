@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -27,18 +27,18 @@
 namespace ASC.Core.Common.Hosting;
 internal static partial class ActivePassiveBackgroundServiceLogger
 {
-    [LoggerMessage(Level = LogLevel.Debug, Message = "{serviceName} is starting.")]
+    [LoggerMessage(LogLevel.Debug, "{serviceName} is starting.")]
     public static partial void DebugActivePassiveBackgroundServiceStarting(this ILogger logger, string serviceName);
 
-    [LoggerMessage(Level = LogLevel.Debug, Message = "{serviceName} is stopping.")]
+    [LoggerMessage(LogLevel.Debug, "{serviceName} is stopping.")]
     public static partial void DebugActivePassiveBackgroundServiceStopping(this ILogger logger, string serviceName);
 
-    [LoggerMessage(Level = LogLevel.Trace, Message = "{serviceName} is running.")]
+    [LoggerMessage(LogLevel.Trace, "{serviceName} is running.")]
     public static partial void TraceActivePassiveBackgroundServiceIsRunning(this ILogger logger, string serviceName);
 
-    [LoggerMessage(Level = LogLevel.Trace, Message = "{serviceName} is sleeping for {delay}.")]
+    [LoggerMessage(LogLevel.Trace, "{serviceName} is sleeping for {delay}.")]
     public static partial void TraceActivePassiveBackgroundServiceIsSleeping(this ILogger logger, string serviceName, TimeSpan delay);
 
-    [LoggerMessage(Level = LogLevel.Trace, Message = "{serviceName} with instance id {instanceId} is't active.")]
+    [LoggerMessage(LogLevel.Trace, "{serviceName} with instance id {instanceId} is't active.")]
     public static partial void TraceActivePassiveBackgroundServiceIsNotActive(this ILogger logger, string serviceName, string instanceId);
 }

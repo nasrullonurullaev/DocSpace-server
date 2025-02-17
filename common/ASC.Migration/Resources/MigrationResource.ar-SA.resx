@@ -118,96 +118,96 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="DataProcessing" xml:space="preserve">
-    <value>معالجة البيانات...</value>
+    <value>Ù…Ø¹Ø§Ù„Ø¬Ø© Ø§Ù„Ø¨ÙŠØ§Ù†Ø§Øª...</value>
   </data>
   <data name="DataProcessingCompleted" xml:space="preserve">
-    <value>تم اكتمال معالجة البيانات</value>
+    <value>ØªÙ… Ø§ÙƒØªÙ…Ø§Ù„ Ù…Ø¹Ø§Ù„Ø¬Ø© Ø§Ù„Ø¨ÙŠØ§Ù†Ø§Øª</value>
   </data>
   <data name="DumpParse" xml:space="preserve">
-    <value>تحليل قاعدة البيانات</value>
+    <value>ØªØ­Ù„ÙŠÙ„ Ù‚Ø§Ø¹Ø¯Ø© Ø§Ù„Ø¨ÙŠØ§Ù†Ø§Øª</value>
   </data>
   <data name="GroupMigration" xml:space="preserve">
-    <value>ترحيل مجموعة {0} ({1}/{2})</value>
+    <value>ØªØ±Ø­ÙŠÙ„ Ù…Ø¬Ù…ÙˆØ¹Ø© {0} ({1}/{2})</value>
   </data>
   <data name="MigratingUserFiles" xml:space="preserve">
-    <value>ترحيل ملفات المستخدم {0} ({1}/{2})</value>
+    <value>ØªØ±Ø­ÙŠÙ„ Ù…Ù„ÙØ§Øª Ø§Ù„Ù…Ø³ØªØ®Ø¯Ù… {0} ({1}/{2})</value>
   </data>
   <data name="MigrationCompleted" xml:space="preserve">
-    <value>تم اكتمال الترحيل</value>
+    <value>ØªÙ… Ø§ÙƒØªÙ…Ø§Ù„ Ø§Ù„ØªØ±Ø­ÙŠÙ„</value>
   </data>
   <data name="PreparingForMigration" xml:space="preserve">
-    <value>التجهيز للترحيل</value>
+    <value>Ø§Ù„ØªØ¬Ù‡ÙŠØ² Ù„Ù„ØªØ±Ø­ÙŠÙ„</value>
   </data>
   <data name="StartOfDataProcessing" xml:space="preserve">
-    <value>بدء معالجة البيانات...</value>
+    <value>Ø¨Ø¯Ø¡ Ù…Ø¹Ø§Ù„Ø¬Ø© Ø§Ù„Ø¨ÙŠØ§Ù†Ø§Øª...</value>
   </data>
   <data name="Unzipping" xml:space="preserve">
-    <value>فك الضغط...</value>
+    <value>ÙÙƒ Ø§Ù„Ø¶ØºØ·...</value>
   </data>
   <data name="UnzippingFinished" xml:space="preserve">
-    <value>تم اكتمال فك الضغط...</value>
+    <value>ØªÙ… Ø§ÙƒØªÙ…Ø§Ù„ ÙÙƒ Ø§Ù„Ø¶ØºØ·...</value>
   </data>
   <data name="UserMigration" xml:space="preserve">
-    <value>ترحيل المستخدم {0} ({1}/{2})</value>
+    <value>ØªØ±Ø­ÙŠÙ„ Ø§Ù„Ù…Ø³ØªØ®Ø¯Ù… {0} ({1}/{2})</value>
   </data>
   <data name="MigrationCommonFiles" xml:space="preserve">
-    <value>ترحيل الملفات الشائعة</value>
+    <value>ØªØ±Ø­ÙŠÙ„ Ø§Ù„Ù…Ù„ÙØ§Øª Ø§Ù„Ø´Ø§Ø¦Ø¹Ø©</value>
   </data>
   <data name="MigrationNotFoundException" xml:space="preserve">
-    <value>لا يوجد مزود ترحيل من هذا القبيل</value>
+    <value>Ù„Ø§ ÙŠÙˆØ¬Ø¯ Ù…Ø²ÙˆØ¯ ØªØ±Ø­ÙŠÙ„ Ù…Ù† Ù‡Ø°Ø§ Ø§Ù„Ù‚Ø¨ÙŠÙ„</value>
   </data>
   <data name="MigrationProgressException" xml:space="preserve">
-    <value>لا توجد عملية ترحيل قيد التقدم</value>
+    <value>Ù„Ø§ ØªÙˆØ¬Ø¯ Ø¹Ù…Ù„ÙŠØ© ØªØ±Ø­ÙŠÙ„ Ù‚ÙŠØ¯ Ø§Ù„ØªÙ‚Ø¯Ù…</value>
   </data>
   <data name="MigrationProjectFiles" xml:space="preserve">
-    <value>ترحيل ملفات المشروع</value>
+    <value>ØªØ±Ø­ÙŠÙ„ Ù…Ù„ÙØ§Øª Ø§Ù„Ù…Ø´Ø±ÙˆØ¹</value>
   </data>
   <data name="CanNotAddUserInGroup" xml:space="preserve">
-    <value>لم يتم إضافة مستخدم {0} للمجموعة {1}</value>
+    <value>Ù„Ù… ÙŠØªÙ… Ø¥Ø¶Ø§ÙØ© Ù…Ø³ØªØ®Ø¯Ù… {0} Ù„Ù„Ù…Ø¬Ù…ÙˆØ¹Ø© {1}</value>
   </data>
   <data name="CanNotCreateFile" xml:space="preserve">
-    <value>لم يتم إنشاء ملف {0}</value>
+    <value>Ù„Ù… ÙŠØªÙ… Ø¥Ù†Ø´Ø§Ø¡ Ù…Ù„Ù {0}</value>
   </data>
   <data name="CanNotImportUser" xml:space="preserve">
-    <value>لم يتم استيراد المستخدم</value>
+    <value>Ù„Ù… ÙŠØªÙ… Ø§Ø³ØªÙŠØ±Ø§Ø¯ Ø§Ù„Ù…Ø³ØªØ®Ø¯Ù…</value>
   </data>
   <data name="CanNotImportUserFiles" xml:space="preserve">
-    <value>لم يتم استيراد ملفات المستخدم</value>
+    <value>Ù„Ù… ÙŠØªÙ… Ø§Ø³ØªÙŠØ±Ø§Ø¯ Ù…Ù„ÙØ§Øª Ø§Ù„Ù…Ø³ØªØ®Ø¯Ù…</value>
   </data>
   <data name="CanNotParseArchive" xml:space="preserve">
-    <value>لم يتم تحليل {0} أرشيف</value>
+    <value>Ù„Ù… ÙŠØªÙ… ØªØ­Ù„ÙŠÙ„ {0} Ø£Ø±Ø´ÙŠÙ</value>
   </data>
   <data name="CanNotParseArchives" xml:space="preserve">
-    <value>لم يتم تحليل الأرشيفات</value>
+    <value>Ù„Ù… ÙŠØªÙ… ØªØ­Ù„ÙŠÙ„ Ø§Ù„Ø£Ø±Ø´ÙŠÙØ§Øª</value>
   </data>
   <data name="CanNotParseUser" xml:space="preserve">
-    <value>لم يتم تحليل المستخدم {0}</value>
+    <value>Ù„Ù… ÙŠØªÙ… ØªØ­Ù„ÙŠÙ„ Ø§Ù„Ù…Ø³ØªØ®Ø¯Ù… {0}</value>
   </data>
   <data name="CanNotReadInfoFile" xml:space="preserve">
-    <value>لم يتم قراءة ملف المعلومات من {0}</value>
+    <value>Ù„Ù… ÙŠØªÙ… Ù‚Ø±Ø§Ø¡Ø© Ù…Ù„Ù Ø§Ù„Ù…Ø¹Ù„ÙˆÙ…Ø§Øª Ù…Ù† {0}</value>
   </data>
   <data name="CanNotShare" xml:space="preserve">
-    <value>لم يتم مشاركة المدخل {0} مع {1}</value>
+    <value>Ù„Ù… ÙŠØªÙ… Ù…Ø´Ø§Ø±ÙƒØ© Ø§Ù„Ù…Ø¯Ø®Ù„ {0} Ù…Ø¹ {1}</value>
   </data>
   <data name="CanNotToUnzip" xml:space="preserve">
-    <value>لم يتم فك ضغط {0}</value>
+    <value>Ù„Ù… ÙŠØªÙ… ÙÙƒ Ø¶ØºØ· {0}</value>
   </data>
   <data name="CreateFile" xml:space="preserve">
-    <value>إنشاء ملف {0}</value>
+    <value>Ø¥Ù†Ø´Ø§Ø¡ Ù…Ù„Ù {0}</value>
   </data>
   <data name="CreateFolder" xml:space="preserve">
-    <value>إنشاء مجلد {0}</value>
+    <value>Ø¥Ù†Ø´Ø§Ø¡ Ù…Ø¬Ù„Ø¯ {0}</value>
   </data>
   <data name="CreateShareRoom" xml:space="preserve">
-    <value>إنشاء غرفة مشاركة {0}</value>
+    <value>Ø¥Ù†Ø´Ø§Ø¡ ØºØ±ÙØ© Ù…Ø´Ø§Ø±ÙƒØ© {0}</value>
   </data>
-  <data name="СanNotImportCommonFiles" xml:space="preserve">
-    <value>لم يتم استيراد الملفات المشتركة</value>
+  <data name="Ð¡anNotImportCommonFiles" xml:space="preserve">
+    <value>Ù„Ù… ÙŠØªÙ… Ø§Ø³ØªÙŠØ±Ø§Ø¯ Ø§Ù„Ù…Ù„ÙØ§Øª Ø§Ù„Ù…Ø´ØªØ±ÙƒØ©</value>
   </data>
-  <data name="СanNotImportProjectFiles" xml:space="preserve">
-    <value>لم يتم استيراد ملفات المشروع</value>
+  <data name="Ð¡anNotImportProjectFiles" xml:space="preserve">
+    <value>Ù„Ù… ÙŠØªÙ… Ø§Ø³ØªÙŠØ±Ø§Ø¯ Ù…Ù„ÙØ§Øª Ø§Ù„Ù…Ø´Ø±ÙˆØ¹</value>
   </data>
-  <data name="СreateRootFolder" xml:space="preserve">
-    <value>إنشاء مجلد الرئيسي</value>
+  <data name="Ð¡reateRootFolder" xml:space="preserve">
+    <value>Ø¥Ù†Ø´Ø§Ø¡ Ù…Ø¬Ù„Ø¯ Ø§Ù„Ø±Ø¦ÙŠØ³ÙŠ</value>
   </data>
 </root>

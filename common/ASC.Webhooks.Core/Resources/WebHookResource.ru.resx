@@ -118,9 +118,9 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="POST|api/2.0/files/file/{fileId}/startedit_Description" xml:space="preserve">
-    <value>Начать редактирование описания</value>
+    <value>ÐÐ°Ñ‡Ð°Ñ‚ÑŒ Ñ€ÐµÐ´Ð°ÐºÑ‚Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ðµ Ð¾Ð¿Ð¸ÑÐ°Ð½Ð¸Ñ</value>
   </data>
   <data name="POST|api/2.0/files/file/{fileId}/startedit" xml:space="preserve">
-    <value>Начать редактирование</value>
+    <value>ÐÐ°Ñ‡Ð°Ñ‚ÑŒ Ñ€ÐµÐ´Ð°ÐºÑ‚Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ðµ</value>
   </data>
 </root>

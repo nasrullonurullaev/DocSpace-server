@@ -1,4 +1,4 @@
-﻿using OpenStack.Synchronous.Extensions;
+using OpenStack.Synchronous.Extensions;
 using Rackspace.CloudNetworks.v2;
 
 // ReSharper disable once CheckNamespace

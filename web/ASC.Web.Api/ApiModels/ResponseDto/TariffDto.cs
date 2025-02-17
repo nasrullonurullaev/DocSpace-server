@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -28,6 +28,18 @@ namespace ASC.Web.Api.ApiModels.ResponseDto;
 
 public class TariffDto : Tariff
 {
+    /// <summary>
+    /// Open source
+    /// </summary>
     public bool? OpenSource { get; set; }
+
+    /// <summary>
+    /// Enterprise
+    /// </summary>
     public bool? Enterprise { get; set; }
+
+    /// <summary>
+    /// Developer
+    /// </summary>
+    public bool? Developer { get; set; }
 }

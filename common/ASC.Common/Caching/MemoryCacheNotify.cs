@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -45,8 +45,7 @@ public class MemoryCacheNotify<T> : ICacheNotify<T> where T : new()
     {
         if (onchange != null)
         {
-            _actions.GetOrAdd(GetKey(notifyAction), new List<Action<T>>())
-                    .Add(onchange);
+            _actions.GetOrAdd(GetKey(notifyAction), []).Add(onchange);
         }
     }
 

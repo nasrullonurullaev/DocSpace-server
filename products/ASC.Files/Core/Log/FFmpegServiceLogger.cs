@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -27,12 +27,12 @@
 namespace ASC.Files.Core.Log;
 internal static partial class FFmpegServiceLogger
 {
-    [LoggerMessage(Level = LogLevel.Error, Message = "FFmpeg/avconv was not found in PATH or 'files.ffmpeg' setting")]
+    [LoggerMessage(LogLevel.Error, "FFmpeg/avconv was not found in PATH or 'files.ffmpeg' setting")]
     public static partial void ErrorFFmpeg(this ILogger<FFmpegService> logger);
 
-    [LoggerMessage(Level = LogLevel.Error, Message = "File {file} not found")]
+    [LoggerMessage(LogLevel.Error, "File {file} not found")]
     public static partial void ErrorFileNotFound(this ILogger<FFmpegService> logger, string file);
 
-    [LoggerMessage(Level = LogLevel.Information, Message = "FFmpeg found in {path}")]
+    [LoggerMessage(LogLevel.Information, "FFmpeg found in {path}")]
     public static partial void InformationFFmpegFoundIn(this ILogger<FFmpegService> logger, string path);
 }

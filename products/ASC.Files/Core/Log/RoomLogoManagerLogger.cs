@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -28,9 +28,9 @@ namespace ASC.Files.Core.Log;
 
 public static partial class RoomLogoManagerLogger
 {
-    [LoggerMessage(Level = LogLevel.Error, Message = "RemoveRoomLogo")]
+    [LoggerMessage(LogLevel.Error, "RemoveRoomLogo")]
     public static partial void ErrorRemoveRoomLogo(this ILogger<RoomLogoManager> logger, Exception exception);
 
-    [LoggerMessage(Level = LogLevel.Error, Message = "RemoveTempPhoto")]
+    [LoggerMessage(LogLevel.Error, "RemoveTempPhoto")]
     public static partial void ErrorRemoveTempPhoto(this ILogger<RoomLogoManager> logger, Exception exception);
 }

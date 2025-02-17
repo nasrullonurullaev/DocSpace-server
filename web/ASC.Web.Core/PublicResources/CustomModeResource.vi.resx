@@ -118,51 +118,51 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="pattern_enterprise_whitelabel_user_welcome_custom_mode_v1" xml:space="preserve">
-    <value>Xin chào $UserName!
+    <value>Xin chÃ o $UserName!
 
-Chào mừng bạn đến với ONLYOFFICE DocSpace! Hồ sơ người dùng của bạn đã được thêm thành công vào "${__VirtualRootPath}":"${__VirtualRootPath}". Giờ đây bạn đã có thể:
+ChÃ o má»«ng báº¡n Ä‘áº¿n vá»›i ONLYOFFICE DocSpace! Há»“ sÆ¡ ngÆ°á»i dÃ¹ng cá»§a báº¡n Ä‘Ã£ Ä‘Æ°á»£c thÃªm thÃ nh cÃ´ng vÃ o "${__VirtualRootPath}":"${__VirtualRootPath}". Giá» Ä‘Ã¢y báº¡n Ä‘Ã£ cÃ³ thá»ƒ:
 
-* Làm việc với những người dùng khác trong phòng mà bạn được mời: *phòng cộng tác để cùng soạn thảo theo thời gian thực hoặc phòng tùy chỉnh với cài đặt linh hoạt cho mọi mục đích*.
+* LÃ m viá»‡c vá»›i nhá»¯ng ngÆ°á»i dÃ¹ng khÃ¡c trong phÃ²ng mÃ  báº¡n Ä‘Æ°á»£c má»i: *phÃ²ng cá»™ng tÃ¡c Ä‘á»ƒ cÃ¹ng soáº¡n tháº£o theo thá»i gian thá»±c hoáº·c phÃ²ng tÃ¹y chá»‰nh vá»›i cÃ i Ä‘áº·t linh hoáº¡t cho má»i má»¥c Ä‘Ã­ch*.
 
-* *Làm việc với các tập tin có định dạng khác nhau *: tài liệu văn bản, bảng tính, bản trình bày, biểu mẫu kỹ thuật số, PDF, sách điện tử, đa phương tiện.
+* *LÃ m viá»‡c vá»›i cÃ¡c táº­p tin cÃ³ Ä‘á»‹nh dáº¡ng khÃ¡c nhau *: tÃ i liá»‡u vÄƒn báº£n, báº£ng tÃ­nh, báº£n trÃ¬nh bÃ y, biá»ƒu máº«u ká»¹ thuáº­t sá»‘, PDF, sÃ¡ch Ä‘iá»‡n tá»­, Ä‘a phÆ°Æ¡ng tiá»‡n.
 
-* *Cộng tác trên tài liệu* với hai chế độ đồng chỉnh sửa: theo thời gian thực hoặc khóa đoạn văn. Theo dõi các thay đổi, trao đổi trong thời gian thực bằng cách sử dụng trò chuyện tích hợp hoặc thực hiện cuộc gọi âm thanh và video. 
+* *Cá»™ng tÃ¡c trÃªn tÃ i liá»‡u* vá»›i hai cháº¿ Ä‘á»™ Ä‘á»“ng chá»‰nh sá»­a: theo thá»i gian thá»±c hoáº·c khÃ³a Ä‘oáº¡n vÄƒn. Theo dÃµi cÃ¡c thay Ä‘á»•i, trao Ä‘á»•i trong thá»i gian thá»±c báº±ng cÃ¡ch sá»­ dá»¥ng trÃ² chuyá»‡n tÃ­ch há»£p hoáº·c thá»±c hiá»‡n cuá»™c gá»i Ã¢m thanh vÃ  video. 
 
-* *Kết nối với bất kỳ lưu trữ đám mây nào* và làm việc mà không cần chuyển đổi giữa các ứng dụng. 
+* *Káº¿t ná»‘i vá»›i báº¥t ká»³ lÆ°u trá»¯ Ä‘Ã¡m mÃ¢y nÃ o* vÃ  lÃ m viá»‡c mÃ  khÃ´ng cáº§n chuyá»ƒn Ä‘á»•i giá»¯a cÃ¡c á»©ng dá»¥ng. 
 
 $OrangeButton
 
-Nếu bạn cần hỗ trợ, hãy xem qua "Trung tâm Hỗ trợ":"${__HelpLink}" của chúng tôi hoặc hỏi "nhóm hỗ trợ":"${__SupportLink}" của chúng tôi.
+Náº¿u báº¡n cáº§n há»— trá»£, hÃ£y xem qua "Trung tÃ¢m Há»— trá»£":"${__HelpLink}" cá»§a chÃºng tÃ´i hoáº·c há»i "nhÃ³m há»— trá»£":"${__SupportLink}" cá»§a chÃºng tÃ´i.
 
 $TrulyYours</value>
   </data>
   <data name="pattern_remove_user_data_completed_custom_mode" xml:space="preserve">
-    <value>Kính gửi $UserName,
+    <value>KÃ­nh gá»­i $UserName,
 
-Quá trình xóa dữ liệu của người dùng "$FromUserName":"$FromUserLink" đã được hoàn thành.
+QuÃ¡ trÃ¬nh xÃ³a dá»¯ liá»‡u cá»§a ngÆ°á»i dÃ¹ng "$FromUserName":"$FromUserLink" Ä‘Ã£ Ä‘Æ°á»£c hoÃ n thÃ nh.
 
-Việc xóa dữ liệu cá nhân được phép cho các tính năng miễn phí $DocsSpace</value>
+Viá»‡c xÃ³a dá»¯ liá»‡u cÃ¡ nhÃ¢n Ä‘Æ°á»£c phÃ©p cho cÃ¡c tÃ­nh nÄƒng miá»…n phÃ­ $DocsSpace</value>
   </data>
   <data name="pattern_saas_custom_mode_reg_data" xml:space="preserve">
-    <value>h3.Cổng thông tin mới đã được đăng ký
+    <value>h3.Cá»•ng thÃ´ng tin má»›i Ä‘Ã£ Ä‘Æ°á»£c Ä‘Äƒng kÃ½
 
 # Portal url: "${__VirtualRootPath}":"${__VirtualRootPath}"
-# Tên: $UserName
-# Họ: $UserLastName
+# TÃªn: $UserName
+# Há»: $UserLastName
 # Email: $UserEmail
-# Số điện thoại: $Phone
-# Ngày tạo: $Date</value>
+# Sá»‘ Ä‘iá»‡n thoáº¡i: $Phone
+# NgÃ y táº¡o: $Date</value>
   </data>
   <data name="ProductAdminOpportunitiesCustomMode" xml:space="preserve">
-    <value>Làm tương tự như người dùng|Liên kết Dropbox, Box và các tài khoản khác trong phần 'Chung' |Thiết lập quyền truy cập vào các tài liệu và thư mục trong phần 'Chung'</value>
+    <value>LÃ m tÆ°Æ¡ng tá»± nhÆ° ngÆ°á»i dÃ¹ng|LiÃªn káº¿t Dropbox, Box vÃ  cÃ¡c tÃ i khoáº£n khÃ¡c trong pháº§n 'Chung' |Thiáº¿t láº­p quyá»n truy cáº­p vÃ o cÃ¡c tÃ i liá»‡u vÃ  thÆ° má»¥c trong pháº§n 'Chung'</value>
   </data>
   <data name="ProductUserOpportunitiesCustomMode" xml:space="preserve">
-    <value>Tạo và chỉnh sửa tài liệu riêng cũng như các tài liệu được chia sẻ với quyền truy cập thích hợp |Cho phép đọc/chỉnh sửa quyền truy cập cho người dùng khác vào tài liệu và thư mục|Liên kết Dropbox, Box và các tài khoản khác trong phần 'Tài liệu của tôi'</value>
+    <value>Táº¡o vÃ  chá»‰nh sá»­a tÃ i liá»‡u riÃªng cÅ©ng nhÆ° cÃ¡c tÃ i liá»‡u Ä‘Æ°á»£c chia sáº» vá»›i quyá»n truy cáº­p thÃ­ch há»£p |Cho phÃ©p Ä‘á»c/chá»‰nh sá»­a quyá»n truy cáº­p cho ngÆ°á»i dÃ¹ng khÃ¡c vÃ o tÃ i liá»‡u vÃ  thÆ° má»¥c|LiÃªn káº¿t Dropbox, Box vÃ  cÃ¡c tÃ i khoáº£n khÃ¡c trong pháº§n 'TÃ i liá»‡u cá»§a tÃ´i'</value>
   </data>
   <data name="subject_remove_user_data_completed_custom_mode" xml:space="preserve">
-    <value>${LetterLogoText}. Đã xóa dữ liệu người dùng</value>
+    <value>${LetterLogoText}. ÄÃ£ xÃ³a dá»¯ liá»‡u ngÆ°á»i dÃ¹ng</value>
   </data>
   <data name="subject_saas_custom_mode_reg_data" xml:space="preserve">
-    <value>Cổng thông tin mới đã được đăng ký</value>
+    <value>Cá»•ng thÃ´ng tin má»›i Ä‘Ã£ Ä‘Æ°á»£c Ä‘Äƒng kÃ½</value>
   </data>
 </root>

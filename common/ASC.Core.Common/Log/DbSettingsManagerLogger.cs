@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -27,9 +27,9 @@
 namespace ASC.Core.Common.Log;
 internal static partial class DbSettingsManagerLogger
 {
-    [LoggerMessage(Level = LogLevel.Error, Message = "SaveSettingsFor")]
+    [LoggerMessage(LogLevel.Error, "SaveSettingsFor")]
     public static partial void ErrorSaveSettingsFor(this ILogger<SettingsManager> logger, Exception exception);
 
-    [LoggerMessage(Level = LogLevel.Error, Message = "LoadSettingsFor")]
+    [LoggerMessage(LogLevel.Error, "LoadSettingsFor")]
     public static partial void ErrorLoadSettingsFor(this ILogger<SettingsManager> logger, Exception exception);
 }

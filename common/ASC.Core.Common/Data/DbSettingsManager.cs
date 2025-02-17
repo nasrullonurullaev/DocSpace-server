@@ -64,7 +64,7 @@ public class SettingsManager(
 
     public async Task ClearCacheAsync<T>() where T : class, ISettings<T>
     {
-        var tenantId = await tenantManager.GetCurrentTenantIdAsync();
+        var tenantId = tenantManager.GetCurrentTenantId();
         var settings = await LoadAsync<T>(tenantId, Guid.Empty);
         var key = $"{settings.ID}{tenantId}{Guid.Empty}";
 
@@ -79,19 +79,19 @@ public class SettingsManager(
 
     public async Task<T> LoadAsync<T>() where T : class, ISettings<T>
     {
-        var tenantId = await tenantManager.GetCurrentTenantIdAsync();
+        var tenantId = tenantManager.GetCurrentTenantId();
         return await LoadAsync<T>(tenantId, Guid.Empty);
     }
     
     public async Task<T> LoadAsync<T>(Guid userId) where T : class, ISettings<T>
     {
-        var tenantId = await tenantManager.GetCurrentTenantIdAsync();
+        var tenantId = tenantManager.GetCurrentTenantId();
         return await LoadAsync<T>(tenantId, userId);
     }
 
     public async Task<T> LoadAsync<T>(UserInfo user) where T : class, ISettings<T>
     {
-        var tenantId = await tenantManager.GetCurrentTenantIdAsync();
+        var tenantId = tenantManager.GetCurrentTenantId();
         return await LoadAsync<T>(tenantId, user.Id);
     }
 
@@ -112,19 +112,19 @@ public class SettingsManager(
 
     public async Task<bool> SaveAsync<T>(T data) where T : class, ISettings<T>
     {
-        var tenantId = await tenantManager.GetCurrentTenantIdAsync();
+        var tenantId = tenantManager.GetCurrentTenantId();
         return await SaveAsync(data, tenantId, Guid.Empty);
     }
     
     public async Task<bool> SaveAsync<T>(T data, Guid userId) where T : class, ISettings<T>
     {
-        var tenantId = await tenantManager.GetCurrentTenantIdAsync();
+        var tenantId = tenantManager.GetCurrentTenantId();
         return await SaveAsync(data, tenantId, userId);
     }
 
     public async Task<bool> SaveAsync<T>(T data, UserInfo user) where T : class, ISettings<T>
     {
-        var tenantId = await tenantManager.GetCurrentTenantIdAsync();
+        var tenantId = tenantManager.GetCurrentTenantId();
         return await SaveAsync(data, tenantId, user.Id);
     }
 
@@ -163,7 +163,7 @@ public class SettingsManager(
                 return Task.FromResult(settings);
             }
 
-            return LoadАFromDbAsync(tenantId, userId, def, key);
+            return LoadÐFromDbAsync(tenantId, userId, def, key);
         }
         catch (Exception ex)
         {
@@ -173,7 +173,7 @@ public class SettingsManager(
         return Task.FromResult(def);
     }
 
-    private async Task<T> LoadАFromDbAsync<T>(int tenantId, Guid userId, T def, string key) where T : class, ISettings<T>
+    private async Task<T> LoadÐFromDbAsync<T>(int tenantId, Guid userId, T def, string key) where T : class, ISettings<T>
     {
         await using var context = await dbContextFactory.CreateDbContextAsync();
         var result = await context.DataAsync(tenantId, def.ID, userId);
@@ -207,8 +207,6 @@ public class SettingsManager(
                 {
                     context.WebstudioSettings.Remove(s);
                 }
-
-                await context.SaveChangesAsync();
             }
             else
             {
@@ -221,9 +219,9 @@ public class SettingsManager(
                 };
 
                 await context.AddOrUpdateAsync(q => q.WebstudioSettings, s);
-
-                await context.SaveChangesAsync();
             }
+
+            await context.SaveChangesAsync();
 
             await dbSettingsManagerCache.RemoveAsync(key);
 

@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -27,10 +27,12 @@
 namespace ASC.Web.Api.ApiModel.RequestsDto;
 
 /// <summary>
+/// Request parameters for mail white label settings
 /// </summary>
 public class MailWhiteLabelSettingsRequestsDto
 {
-    /// <summary>Specifies if the mail footer will be enabled or note</summary>
-    /// <type>System.Boolean, System</type>
+    /// <summary>
+    /// Specifies if the mail footer will be enabled or note
+    /// </summary>
     public bool FooterEnabled { get; set; }
 }

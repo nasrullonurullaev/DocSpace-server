@@ -1,4 +1,4 @@
-﻿namespace net.openstack.Core.Exceptions
+namespace net.openstack.Core.Exceptions
 {
     using System;
     using System.Runtime.Serialization;

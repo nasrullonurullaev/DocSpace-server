@@ -118,96 +118,96 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="DataProcessing" xml:space="preserve">
-    <value>データ処理中...</value>
+    <value>ãƒ‡ãƒ¼ã‚¿å‡¦ç†ä¸­...</value>
   </data>
   <data name="DataProcessingCompleted" xml:space="preserve">
-    <value>データ処理完了</value>
+    <value>ãƒ‡ãƒ¼ã‚¿å‡¦ç†å®Œäº†</value>
   </data>
   <data name="DumpParse" xml:space="preserve">
-    <value>データベースの解析</value>
+    <value>ãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹ã®è§£æž</value>
   </data>
   <data name="GroupMigration" xml:space="preserve">
-    <value>グループ移行 {0} ({1}/{2})</value>
+    <value>ã‚°ãƒ«ãƒ¼ãƒ—ç§»è¡Œ {0} ({1}/{2})</value>
   </data>
   <data name="MigratingUserFiles" xml:space="preserve">
-    <value>ユーザーファイルの移行 {0} ({1}/{2})</value>
+    <value>ãƒ¦ãƒ¼ã‚¶ãƒ¼ãƒ•ã‚¡ã‚¤ãƒ«ã®ç§»è¡Œ {0} ({1}/{2})</value>
   </data>
   <data name="MigrationCompleted" xml:space="preserve">
-    <value>移行完了</value>
+    <value>ç§»è¡Œå®Œäº†</value>
   </data>
   <data name="PreparingForMigration" xml:space="preserve">
-    <value>移行準備</value>
+    <value>ç§»è¡Œæº–å‚™</value>
   </data>
   <data name="StartOfDataProcessing" xml:space="preserve">
-    <value>データ処理開始...</value>
+    <value>ãƒ‡ãƒ¼ã‚¿å‡¦ç†é–‹å§‹...</value>
   </data>
   <data name="Unzipping" xml:space="preserve">
-    <value>解凍中...</value>
+    <value>è§£å‡ä¸­...</value>
   </data>
   <data name="UnzippingFinished" xml:space="preserve">
-    <value>解凍完了...</value>
+    <value>è§£å‡å®Œäº†...</value>
   </data>
   <data name="UserMigration" xml:space="preserve">
-    <value>ユーザー移行 {0} ({1}/{2})</value>
+    <value>ãƒ¦ãƒ¼ã‚¶ãƒ¼ç§»è¡Œ {0} ({1}/{2})</value>
   </data>
   <data name="MigrationCommonFiles" xml:space="preserve">
-    <value>一般的な移行ファイル</value>
+    <value>ä¸€èˆ¬çš„ãªç§»è¡Œãƒ•ã‚¡ã‚¤ãƒ«</value>
   </data>
   <data name="MigrationNotFoundException" xml:space="preserve">
-    <value>このような移行プロバイダーはありません</value>
+    <value>ã“ã®ã‚ˆã†ãªç§»è¡Œãƒ—ãƒ­ãƒã‚¤ãƒ€ãƒ¼ã¯ã‚ã‚Šã¾ã›ã‚“</value>
   </data>
   <data name="MigrationProgressException" xml:space="preserve">
-    <value>進行中の移行はありません</value>
+    <value>é€²è¡Œä¸­ã®ç§»è¡Œã¯ã‚ã‚Šã¾ã›ã‚“</value>
   </data>
   <data name="MigrationProjectFiles" xml:space="preserve">
-    <value>移行プロジェクトファイル</value>
+    <value>ç§»è¡Œãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆãƒ•ã‚¡ã‚¤ãƒ«</value>
   </data>
   <data name="CanNotAddUserInGroup" xml:space="preserve">
-    <value>ユーザー {0} をグループ {1} に追加できませんでした</value>
+    <value>ãƒ¦ãƒ¼ã‚¶ãƒ¼ {0} ã‚’ã‚°ãƒ«ãƒ¼ãƒ— {1} ã«è¿½åŠ ã§ãã¾ã›ã‚“ã§ã—ãŸ</value>
   </data>
   <data name="CanNotCreateFile" xml:space="preserve">
-    <value>ファイル {0} を作成できませんでした</value>
+    <value>ãƒ•ã‚¡ã‚¤ãƒ« {0} ã‚’ä½œæˆã§ãã¾ã›ã‚“ã§ã—ãŸ</value>
   </data>
-  <data name="СanNotImportCommonFiles" xml:space="preserve">
-    <value>共通ファイルをインポートできませんでした</value>
+  <data name="Ð¡anNotImportCommonFiles" xml:space="preserve">
+    <value>å…±é€šãƒ•ã‚¡ã‚¤ãƒ«ã‚’ã‚¤ãƒ³ãƒãƒ¼ãƒˆã§ãã¾ã›ã‚“ã§ã—ãŸ</value>
   </data>
-  <data name="СanNotImportProjectFiles" xml:space="preserve">
-    <value>プロジェクト ファイルをインポートできませんでした</value>
+  <data name="Ð¡anNotImportProjectFiles" xml:space="preserve">
+    <value>ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆ ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ã‚¤ãƒ³ãƒãƒ¼ãƒˆã§ãã¾ã›ã‚“ã§ã—ãŸ</value>
   </data>
   <data name="CanNotImportUser" xml:space="preserve">
-    <value>ユーザーをインポートできませんでした</value>
+    <value>ãƒ¦ãƒ¼ã‚¶ãƒ¼ã‚’ã‚¤ãƒ³ãƒãƒ¼ãƒˆã§ãã¾ã›ã‚“ã§ã—ãŸ</value>
   </data>
   <data name="CanNotImportUserFiles" xml:space="preserve">
-    <value>ユーザーファイルをインポートできませんでした</value>
+    <value>ãƒ¦ãƒ¼ã‚¶ãƒ¼ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ã‚¤ãƒ³ãƒãƒ¼ãƒˆã§ãã¾ã›ã‚“ã§ã—ãŸ</value>
   </data>
   <data name="CanNotParseArchive" xml:space="preserve">
-    <value>{0} アーカイブを解析できませんでした</value>
+    <value>{0} ã‚¢ãƒ¼ã‚«ã‚¤ãƒ–ã‚’è§£æžã§ãã¾ã›ã‚“ã§ã—ãŸ</value>
   </data>
   <data name="CanNotParseArchives" xml:space="preserve">
-    <value>アーカイブを解析できませんでした</value>
+    <value>ã‚¢ãƒ¼ã‚«ã‚¤ãƒ–ã‚’è§£æžã§ãã¾ã›ã‚“ã§ã—ãŸ</value>
   </data>
   <data name="CanNotParseUser" xml:space="preserve">
-    <value>ユーザー {0} を解析できませんでした</value>
+    <value>ãƒ¦ãƒ¼ã‚¶ãƒ¼ {0} ã‚’è§£æžã§ãã¾ã›ã‚“ã§ã—ãŸ</value>
   </data>
   <data name="CanNotReadInfoFile" xml:space="preserve">
-    <value>{0} の info ファイルを読めませんでした</value>
+    <value>{0} ã® info ãƒ•ã‚¡ã‚¤ãƒ«ã‚’èª­ã‚ã¾ã›ã‚“ã§ã—ãŸ</value>
   </data>
   <data name="CanNotToUnzip" xml:space="preserve">
-    <value>{0} を解凍できませんでした</value>
+    <value>{0} ã‚’è§£å‡ã§ãã¾ã›ã‚“ã§ã—ãŸ</value>
   </data>
   <data name="CreateFile" xml:space="preserve">
-    <value>ファイル {0} の作成</value>
+    <value>ãƒ•ã‚¡ã‚¤ãƒ« {0} ã®ä½œæˆ</value>
   </data>
   <data name="CreateFolder" xml:space="preserve">
-    <value>フォルダ {0} の作成</value>
+    <value>ãƒ•ã‚©ãƒ«ãƒ€ {0} ã®ä½œæˆ</value>
   </data>
-  <data name="СreateRootFolder" xml:space="preserve">
-    <value>ルートフォルダの作成</value>
+  <data name="Ð¡reateRootFolder" xml:space="preserve">
+    <value>ãƒ«ãƒ¼ãƒˆãƒ•ã‚©ãƒ«ãƒ€ã®ä½œæˆ</value>
   </data>
   <data name="CreateShareRoom" xml:space="preserve">
-    <value>共有ルーム {0} の作成</value>
+    <value>å…±æœ‰ãƒ«ãƒ¼ãƒ  {0} ã®ä½œæˆ</value>
   </data>
   <data name="CanNotShare" xml:space="preserve">
-    <value>{0} から {1} までのエントリを共有できませんでした</value>
+    <value>{0} ã‹ã‚‰ {1} ã¾ã§ã®ã‚¨ãƒ³ãƒˆãƒªã‚’å…±æœ‰ã§ãã¾ã›ã‚“ã§ã—ãŸ</value>
   </data>
 </root>

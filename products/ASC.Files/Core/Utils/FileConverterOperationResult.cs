@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -56,4 +56,7 @@ public class FileConverterOperationResult : FileOperationResult
     
     [ProtoMember(9)]
     public IDictionary<string, string> Headers { get; set; }
+    
+    [ProtoMember(10)]
+    public string OutputType { get; set; }
 }

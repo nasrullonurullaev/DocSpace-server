@@ -118,12 +118,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ButtonSetPassword" xml:space="preserve">
-    <value>Nastaviť heslo</value>
+    <value>NastaviÅ¥ heslo</value>
   </data>
   <data name="BackupNotFound" xml:space="preserve">
-    <value>Záložný súbor je neplatný. Použite prosím súbor vytvorený vo verzii ONLYOFFICE v11.5 alebo novšej verzii.</value>
+    <value>ZÃ¡loÅ¾nÃ½ sÃºbor je neplatnÃ½. PouÅ¾ite prosÃ­m sÃºbor vytvorenÃ½ vo verzii ONLYOFFICE v11.5 alebo novÅ¡ej verzii.</value>
   </data>
   <data name="LargeBackup" xml:space="preserve">
-    <value>Záloha je väčšia ako celková veľkosť portálu</value>
+    <value>ZÃ¡loha je vÃ¤ÄÅ¡ia ako celkovÃ¡ veÄ¾kosÅ¥ portÃ¡lu</value>
   </data>
 </root>

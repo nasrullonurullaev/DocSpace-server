@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -27,6 +27,6 @@
 namespace ASC.AuditTrail.Log;
 internal static partial class AuditActionMapperLogger
 {
-    [LoggerMessage(Level = LogLevel.Error, Message = "There is no action text for \"{action}\" type of event")]
+    [LoggerMessage(LogLevel.Error, "There is no action text for \"{action}\" type of event")]
     public static partial void ErrorThereIsNoActionText(this ILogger<AuditActionMapper> logger, MessageMaps action);
 }

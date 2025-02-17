@@ -1,4 +1,4 @@
-﻿namespace OpenStack
+namespace OpenStack
 {
     using System.Runtime.CompilerServices;
 

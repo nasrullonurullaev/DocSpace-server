@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2010-2022
+// (c) Copyright Ascensio System SIA 2010-2022
 //
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -35,21 +35,16 @@ public class MigrationRunner
         _dbContextActivator = new DbContextActivator(serviceProvider);
     }
 
-    public void RunApplyMigrations(string path, ProviderInfo dbProvider, ProviderInfo teamlabsiteProvider, ConfigurationInfo configurationInfo, string targetMigration)
+    public void RunApplyMigrations(ProviderInfo dbProvider, ConfigurationInfo configurationInfo, Type type, string targetMigration)
     {
-
-        var migrationContext = _dbContextActivator.CreateInstance(typeof(MigrationContext), dbProvider);
+        var migrationContext = _dbContextActivator.CreateInstance(type, dbProvider);
         Migrate(migrationContext, targetMigration);
 
-        var teamlabContext = _dbContextActivator.CreateInstance(typeof(TeamlabSiteContext), teamlabsiteProvider);
-        Migrate(teamlabContext, targetMigration);
-
-        if (configurationInfo == ConfigurationInfo.Standalone)
+        if (type.Name == typeof(MigrationContext).Name && configurationInfo == ConfigurationInfo.Standalone)
         {
-            migrationContext = _dbContextActivator.CreateInstance(typeof(MigrationContext), dbProvider, ConfigurationInfo.Standalone);
+            migrationContext = _dbContextActivator.CreateInstance(type, dbProvider, ConfigurationInfo.Standalone);
             Migrate(migrationContext, targetMigration);
         }
-        Console.WriteLine("Migrations applied");
     }
 
     private void Migrate(DbContext migrationContext, string targetMigration)

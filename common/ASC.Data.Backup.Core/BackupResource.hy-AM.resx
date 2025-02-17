@@ -118,12 +118,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BackupNotFound" xml:space="preserve">
-    <value>Պահուստային ֆայլն անվավեր է. Խնդրում ենք օգտագործել ONLYOFFICE v11.5 կամ ավելի ուշ.</value>
+    <value>ÕŠÕ¡Õ°Õ¸Ö‚Õ½Õ¿Õ¡ÕµÕ«Õ¶ Ö†Õ¡ÕµÕ¬Õ¶ Õ¡Õ¶Õ¾Õ¡Õ¾Õ¥Ö€ Õ§. Ô½Õ¶Õ¤Ö€Õ¸Ö‚Õ´ Õ¥Õ¶Ö„ Ö…Õ£Õ¿Õ¡Õ£Õ¸Ö€Õ®Õ¥Õ¬ Õ¶Õ¸Ö‚ÕµÕ¶ ÕºÕ¸Ö€Õ¿Õ¡Õ¬Õ¸Ö‚Õ´ Õ½Õ¿Õ¥Õ²Õ®Õ¾Õ¡Õ® Ö†Õ¡ÕµÕ¬Õ¨:</value>
   </data>
   <data name="ButtonSetPassword" xml:space="preserve">
-    <value>Սահմանել գաղտնաբառ</value>
+    <value>ÕÕ¡Õ°Õ´Õ¡Õ¶Õ¥Õ¬ Õ£Õ¡Õ²Õ¿Õ¶Õ¡Õ¢Õ¡Õ¼</value>
   </data>
   <data name="LargeBackup" xml:space="preserve">
-    <value>Պահուստավորումն ավելի մեծ է, քան պորտալի ընդհանուր չափը</value>
+    <value>ÕŠÕ¡Õ°Õ¸Ö‚Õ½Õ¿Õ¡Õ¾Õ¸Ö€Õ¸Ö‚Õ´Õ¶ Õ¡Õ¾Õ¥Õ¬Õ« Õ´Õ¥Õ® Õ§, Ö„Õ¡Õ¶ ÕºÕ¸Ö€Õ¿Õ¡Õ¬Õ« Õ¨Õ¶Õ¤Õ°Õ¡Õ¶Õ¸Ö‚Ö€ Õ¹Õ¡ÖƒÕ¨</value>
   </data>
 </root>

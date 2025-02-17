@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -29,7 +29,7 @@ using ASC.Web.Studio.IntegrationEvents;
 var options = new WebApplicationOptions
 {
     Args = args,
-    ContentRootPath = WindowsServiceHelpers.IsWindowsService() ? AppContext.BaseDirectory : default
+    ContentRootPath = WindowsServiceHelpers.IsWindowsService() ? AppContext.BaseDirectory : null
 };
 
 var builder = WebApplication.CreateBuilder(options);
@@ -57,7 +57,7 @@ try
 
     var startup = new Startup(builder.Configuration, builder.Environment);
 
-    await startup.ConfigureServices(builder.Services);
+    await startup.ConfigureServices(builder);
 
     builder.Host.ConfigureContainer<ContainerBuilder>((context, containerBuilder) =>
     {
@@ -70,7 +70,7 @@ try
 
     var eventBus = ((IApplicationBuilder)app).ApplicationServices.GetRequiredService<IEventBus>();
 
-    eventBus.Subscribe<NotifyItemIntegrationEvent, NotifyItemIntegrationEventHandler>();
+    await eventBus.SubscribeAsync<NotifyItemIntegrationEvent, NotifyItemIntegrationEventHandler>();
 
     logger.Info("Starting web host ({applicationContext})...", AppName);
     await app.RunWithTasksAsync();

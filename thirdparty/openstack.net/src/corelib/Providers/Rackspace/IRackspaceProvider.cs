@@ -1,4 +1,4 @@
-﻿using net.openstack.Core.Domain;
+using net.openstack.Core.Domain;
 using net.openstack.Core.Providers;
 
 namespace net.openstack.Providers.Rackspace

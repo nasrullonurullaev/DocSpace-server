@@ -118,25 +118,25 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ErrorEmptyUploadFileSelected" xml:space="preserve">
-    <value>Yüklənən fayl tapılmadı</value>
+    <value>YÃ¼klÉ™nÉ™n fayl tapÄ±lmadÄ±</value>
   </data>
   <data name="ErrorImageSizetLimit" xml:space="preserve">
-    <value>Şəkil ölçüsü çox böyükdür</value>
+    <value>ÅžÉ™kil Ã¶lÃ§Ã¼sÃ¼ Ã§ox bÃ¶yÃ¼kdÃ¼r</value>
   </data>
   <data name="ErrorImageWeightLimit" xml:space="preserve">
-    <value>Təsvir faylının ölçüsü çox böyükdür</value>
+    <value>TÉ™svir faylÄ±nÄ±n Ã¶lÃ§Ã¼sÃ¼ Ã§ox bÃ¶yÃ¼kdÃ¼r</value>
   </data>
   <data name="ErrorUnknownFileImageType" xml:space="preserve">
-    <value>Naməlum şəkil faylı növü</value>
+    <value>NamÉ™lum ÅŸÉ™kil faylÄ± nÃ¶vÃ¼</value>
   </data>
   <data name="ProductAdminOpportunities" xml:space="preserve">
-    <value>İstifadəçinin etdiyini edin | Profillər və qruplar yaradın | Profilləri idxal edin | İstifadəçiləri dəvət edin</value>
+    <value>Ä°stifadÉ™Ã§inin etdiyini edin | ProfillÉ™r vÉ™ qruplar yaradÄ±n | ProfillÉ™ri idxal edin | Ä°stifadÉ™Ã§ilÉ™ri dÉ™vÉ™t edin</value>
   </data>
   <data name="ProductDescription" xml:space="preserve">
-    <value>Yeni istifadəçilər əlavə et, onları dəvət və ya import et. İstifadəçiləri idarə et və onlar haqqında ayrıntılı bilgiyə bax.</value>
+    <value>Yeni istifadÉ™Ã§ilÉ™r É™lavÉ™ et, onlarÄ± dÉ™vÉ™t vÉ™ ya import et. Ä°stifadÉ™Ã§ilÉ™ri idarÉ™ et vÉ™ onlar haqqÄ±nda ayrÄ±ntÄ±lÄ± bilgiyÉ™ bax.</value>
   </data>
   <data name="ProductUserOpportunities" xml:space="preserve">
-    <value>Profil və qruplara baxın</value>
+    <value>Profil vÉ™ qruplara baxÄ±n</value>
   </data>
   <data name="ProductName" xml:space="preserve">
     <value>Adamlar</value>

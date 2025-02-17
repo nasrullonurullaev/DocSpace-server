@@ -133,7 +133,7 @@
     <value>Administrator obrisan: {0}</value>
   </data>
   <data name="AdministratorMessageSettingsUpdated" xml:space="preserve">
-    <value>Podešavanja poruka Administratora ažurirana</value>
+    <value>PodeÅ¡avanja poruka Administratora aÅ¾urirana</value>
   </data>
   <data name="AdministratorOpenedFullAccess" xml:space="preserve">
     <value>Administratori [{0}]. Potpuni pristup otvoren</value>
@@ -142,22 +142,22 @@
     <value>Dodati tagovi: [{1}]</value>
   </data>
   <data name="AttachActionType" xml:space="preserve">
-    <value>Priloži</value>
+    <value>PriloÅ¾i</value>
   </data>
   <data name="AuditSettingsUpdated" xml:space="preserve">
-    <value>Ažurirane postavke trajanja revizije</value>
+    <value>AÅ¾urirane postavke trajanja revizije</value>
   </data>
   <data name="AuditTrailReportDownloaded" xml:space="preserve">
-    <value>Izveštaj o Tragu revizije preuzet</value>
+    <value>IzveÅ¡taj o Tragu revizije preuzet</value>
   </data>
   <data name="AuditTrailReportName" xml:space="preserve">
-    <value>Izveštaj o Tragu revizije ({0}-{1})</value>
+    <value>IzveÅ¡taj o Tragu revizije ({0}-{1})</value>
   </data>
   <data name="AuthorizationKeysSetting" xml:space="preserve">
-    <value>Ključevi za autorizaciju treće strane su ažurirani</value>
+    <value>KljuÄevi za autorizaciju treÄ‡e strane su aÅ¾urirani</value>
   </data>
   <data name="BrowserCol" xml:space="preserve">
-    <value>Pregledač</value>
+    <value>PregledaÄ</value>
   </data>
   <data name="CityCol" xml:space="preserve">
     <value>Grad</value>
@@ -166,7 +166,7 @@
     <value>Boja teme promenjena</value>
   </data>
   <data name="CookieSettingsUpdated" xml:space="preserve">
-    <value>Podešavanja kolačića ažurirana</value>
+    <value>PodeÅ¡avanja kolaÄiÄ‡a aÅ¾urirana</value>
   </data>
   <data name="CopyActionType" xml:space="preserve">
     <value>Kopiraj</value>
@@ -175,19 +175,19 @@
     <value>Kreiraj</value>
   </data>
   <data name="CountryCol" xml:space="preserve">
-    <value>Država</value>
+    <value>DrÅ¾ava</value>
   </data>
   <data name="CustomNavigationSettingsUpdated" xml:space="preserve">
-    <value>Podešavanja prilagođene navigacije ažurirana</value>
+    <value>PodeÅ¡avanja prilagoÄ‘ene navigacije aÅ¾urirana</value>
   </data>
   <data name="DateCol" xml:space="preserve">
     <value>Datum</value>
   </data>
   <data name="DefaultStartPageSettingsUpdated" xml:space="preserve">
-    <value>Podešavanja podrazumevane početne stranice ažurirana</value>
+    <value>PodeÅ¡avanja podrazumevane poÄetne stranice aÅ¾urirana</value>
   </data>
   <data name="DeleteActionType" xml:space="preserve">
-    <value>Obriši</value>
+    <value>ObriÅ¡i</value>
   </data>
   <data name="DetachActionType" xml:space="preserve">
     <value>Odvoji</value>
@@ -196,31 +196,31 @@
     <value>Obrisani tagovi: [{1}]</value>
   </data>
   <data name="DnsSettingsUpdated" xml:space="preserve">
-    <value>DNS podešavanja ažurirana</value>
+    <value>DNS podeÅ¡avanja aÅ¾urirana</value>
   </data>
   <data name="DocumentServiceLocationSetting" xml:space="preserve">
-    <value>Lokacija usluge dokumenata ažurirana</value>
+    <value>Lokacija usluge dokumenata aÅ¾urirana</value>
   </data>
   <data name="DocumentsForcesave" xml:space="preserve">
-    <value>Podešavanja za obavezno čuvanje ažurirana</value>
+    <value>PodeÅ¡avanja za obavezno Äuvanje aÅ¾urirana</value>
   </data>
   <data name="DocumentsOverwritingSettingsUpdated" xml:space="preserve">
-    <value>Podešavanja prepisivanja ažurirana</value>
+    <value>PodeÅ¡avanja prepisivanja aÅ¾urirana</value>
   </data>
   <data name="DocumentsProduct" xml:space="preserve">
     <value>Dokumenti</value>
   </data>
   <data name="DocumentsSettingsModule" xml:space="preserve">
-    <value>Podešavanja</value>
+    <value>PodeÅ¡avanja</value>
   </data>
   <data name="DocumentsStoreForcesave" xml:space="preserve">
-    <value>Podešavanja za obavezno čuvanje ažurirana i sačuvana</value>
+    <value>PodeÅ¡avanja za obavezno Äuvanje aÅ¾urirana i saÄuvana</value>
   </data>
   <data name="DocumentsThirdPartySettingsUpdated" xml:space="preserve">
-    <value>Podešavanja treće strane ažurirana</value>
+    <value>PodeÅ¡avanja treÄ‡e strane aÅ¾urirana</value>
   </data>
   <data name="DocumentsUploadingFormatsSettingsUpdated" xml:space="preserve">
-    <value>Otpremanje obrazaca podešavanja ažurirana</value>
+    <value>Otpremanje obrazaca podeÅ¡avanja aÅ¾urirana</value>
   </data>
   <data name="DownloadActionType" xml:space="preserve">
     <value>Preuzmi</value>
@@ -262,7 +262,7 @@
     <value>Folderi [{0}]. Datoteka uvezena: {1}. Davalac: {2}</value>
   </data>
   <data name="FileLocked" xml:space="preserve">
-    <value>Datoteka zaključana: {0}</value>
+    <value>Datoteka zakljuÄana: {0}</value>
   </data>
   <data name="FileMoved" xml:space="preserve">
     <value>Datoteke [{0}]. Pomerene sa foldera "{1}" na folder: "{2}"</value>
@@ -295,16 +295,16 @@
     <value>Dokument {1} poslat na potpisivanje preko {0}</value>
   </data>
   <data name="FileUnlocked" xml:space="preserve">
-    <value>Datoteka otključana: {0}</value>
+    <value>Datoteka otkljuÄana: {0}</value>
   </data>
   <data name="FileUpdated" xml:space="preserve">
-    <value>Datoteke ažurirane: {0}</value>
+    <value>Datoteke aÅ¾urirane: {0}</value>
   </data>
   <data name="FileUpdatedAccess" xml:space="preserve">
-    <value>Datoteke [{0}]. Pristup ažuriran</value>
+    <value>Datoteke [{0}]. Pristup aÅ¾uriran</value>
   </data>
   <data name="FileUpdatedRevisionComment" xml:space="preserve">
-    <value>Datoteke [{0}]. Revizija {1}. Komentar ažuriran</value>
+    <value>Datoteke [{0}]. Revizija {1}. Komentar aÅ¾uriran</value>
   </data>
   <data name="FileUploaded" xml:space="preserve">
     <value>Datoteka otpremljena: {0}</value>
@@ -337,19 +337,19 @@
     <value>Folderi</value>
   </data>
   <data name="FolderUpdatedAccess" xml:space="preserve">
-    <value>Folderi [{0}]. Pristup ažuriran</value>
+    <value>Folderi [{0}]. Pristup aÅ¾uriran</value>
   </data>
   <data name="FollowActionType" xml:space="preserve">
     <value>Prati</value>
   </data>
   <data name="FullTextSearchSetting" xml:space="preserve">
-    <value>Podešavanja Sphinx-a su ažurirana</value>
+    <value>PodeÅ¡avanja Sphinx-a su aÅ¾urirana</value>
   </data>
   <data name="GeneralModule" xml:space="preserve">
     <value>Generalno</value>
   </data>
   <data name="GreetingSettingsUpdated" xml:space="preserve">
-    <value>Podešavanja dobrodošli stranice ažurirana</value>
+    <value>PodeÅ¡avanja dobrodoÅ¡li stranice aÅ¾urirana</value>
   </data>
   <data name="GroupCreated" xml:space="preserve">
     <value>Grupa kreirana: {0}</value>
@@ -361,7 +361,7 @@
     <value>Grupe</value>
   </data>
   <data name="GroupUpdated" xml:space="preserve">
-    <value>Grupe ažurirane: {0}</value>
+    <value>Grupe aÅ¾urirane: {0}</value>
   </data>
   <data name="GuestAccount" xml:space="preserve">
     <value>Anonimno</value>
@@ -385,46 +385,46 @@
     <value>IP</value>
   </data>
   <data name="LanguageSettingsUpdated" xml:space="preserve">
-    <value>Podešavanja jezika ažurirana</value>
+    <value>PodeÅ¡avanja jezika aÅ¾urirana</value>
   </data>
   <data name="LicenseKeyUploaded" xml:space="preserve">
-    <value>Licencni ključ otpremljen</value>
+    <value>Licencni kljuÄ otpremljen</value>
   </data>
   <data name="LinkActionType" xml:space="preserve">
     <value>Link</value>
   </data>
   <data name="LoginFail" xml:space="preserve">
-    <value>Prijava neuspešna</value>
+    <value>Prijava neuspeÅ¡na</value>
   </data>
   <data name="LoginFailBruteForce" xml:space="preserve">
-    <value>Prijava neuspešna. Previše pokušaja</value>
+    <value>Prijava neuspeÅ¡na. PreviÅ¡e pokuÅ¡aja</value>
   </data>
   <data name="LoginFailDisabledProfile" xml:space="preserve">
-    <value>Prijava neuspešna. Profil isključen</value>
+    <value>Prijava neuspeÅ¡na. Profil iskljuÄen</value>
   </data>
   <data name="LoginFailInvalidCombination" xml:space="preserve">
-    <value>Prijava neuspešna. Nevažeće korisničko ime-lozinka kombinacija</value>
+    <value>Prijava neuspeÅ¡na. NevaÅ¾eÄ‡e korisniÄko ime-lozinka kombinacija</value>
   </data>
   <data name="LoginFailIpSecurity" xml:space="preserve">
-    <value>IP bezbednost: Prijava neuspešna</value>
+    <value>IP bezbednost: Prijava neuspeÅ¡na</value>
   </data>
   <data name="LoginFailRecaptcha" xml:space="preserve">
-    <value>Prijava neuspešna. Recaptcha je nevažeća</value>
+    <value>Prijava neuspeÅ¡na. Recaptcha je nevaÅ¾eÄ‡a</value>
   </data>
   <data name="LoginFailSocialAccountNotFound" xml:space="preserve">
-    <value>Prijava neuspešna. Povezani društveni nalog nije pronađen</value>
+    <value>Prijava neuspeÅ¡na. Povezani druÅ¡tveni nalog nije pronaÄ‘en</value>
   </data>
   <data name="LoginFailViaApi" xml:space="preserve">
-    <value>Neuspešna prijava putem API</value>
+    <value>NeuspeÅ¡na prijava putem API</value>
   </data>
   <data name="LoginFailViaApiSms" xml:space="preserve">
-    <value>Neuspešna prijava putem API i SMS koda</value>
+    <value>NeuspeÅ¡na prijava putem API i SMS koda</value>
   </data>
   <data name="LoginFailViaApiSocialAccount" xml:space="preserve">
-    <value>Prijava putem API i društvenih medija nije uspela</value>
+    <value>Prijava putem API i druÅ¡tvenih medija nije uspela</value>
   </data>
   <data name="LoginFailViaApiTfa" xml:space="preserve">
-    <value>Neuspešna prijava putem API i autentifikator aplikacija</value>
+    <value>NeuspeÅ¡na prijava putem API i autentifikator aplikacija</value>
   </data>
   <data name="LoginFailViaSms" xml:space="preserve">
     <value>Prijava putem SMS nije uspela</value>
@@ -436,46 +436,46 @@
     <value>Prijava putem autentifikator aplikacije nije uspela</value>
   </data>
   <data name="LoginHistoryReportDownloaded" xml:space="preserve">
-    <value>Izveštaj istorije prijava preuzet</value>
+    <value>IzveÅ¡taj istorije prijava preuzet</value>
   </data>
   <data name="LoginHistoryReportName" xml:space="preserve">
-    <value>Izveštaj istorije prijava ({0}-{1})</value>
+    <value>IzveÅ¡taj istorije prijava ({0}-{1})</value>
   </data>
   <data name="LoginSuccess" xml:space="preserve">
-    <value>Prijava uspešna</value>
+    <value>Prijava uspeÅ¡na</value>
   </data>
   <data name="LoginSuccessSocialApp" xml:space="preserve">
-    <value>Prijava putem društvenog naloga upešna</value>
+    <value>Prijava putem druÅ¡tvenog naloga upeÅ¡na</value>
   </data>
   <data name="LoginSuccessViaApi" xml:space="preserve">
-    <value>Uspešna prijava putem API</value>
+    <value>UspeÅ¡na prijava putem API</value>
   </data>
   <data name="LoginSuccessViaApiSms" xml:space="preserve">
-    <value>Uspešna prijava putem API i SMS koda</value>
+    <value>UspeÅ¡na prijava putem API i SMS koda</value>
   </data>
   <data name="LoginSuccessViaApiSocialAccount" xml:space="preserve">
-    <value>Prijava putem društvenog naloga upešna</value>
+    <value>Prijava putem druÅ¡tvenog naloga upeÅ¡na</value>
   </data>
   <data name="LoginSuccessViaApiTfa" xml:space="preserve">
-    <value>Uspešna prijava putem API i autentifikator aplikacije</value>
+    <value>UspeÅ¡na prijava putem API i autentifikator aplikacije</value>
   </data>
   <data name="LoginSuccessViaSms" xml:space="preserve">
-    <value>Prijava putem SMS-a uspešna</value>
+    <value>Prijava putem SMS-a uspeÅ¡na</value>
   </data>
   <data name="LoginSuccessViaSocialAccount" xml:space="preserve">
-    <value>Prijava putem API i društvenih medija uspešna</value>
+    <value>Prijava putem API i druÅ¡tvenih medija uspeÅ¡na</value>
   </data>
   <data name="LoginSuccessViaSSO" xml:space="preserve">
-    <value>Uspešna prijava putem SSO</value>
+    <value>UspeÅ¡na prijava putem SSO</value>
   </data>
   <data name="LoginSuccesViaTfaApp" xml:space="preserve">
-    <value>Uspešna prijava putem autentifikator aplikacije</value>
+    <value>UspeÅ¡na prijava putem autentifikator aplikacije</value>
   </data>
   <data name="Logout" xml:space="preserve">
     <value>Odjava</value>
   </data>
   <data name="MailServiceSettingsUpdated" xml:space="preserve">
-    <value>Podešavanja Email-a ažurirana</value>
+    <value>PodeÅ¡avanja Email-a aÅ¾urirana</value>
   </data>
   <data name="ModuleCol" xml:space="preserve">
     <value>Modul</value>
@@ -502,7 +502,7 @@
     <value>Stranica</value>
   </data>
   <data name="PasswordStrengthSettingsUpdated" xml:space="preserve">
-    <value>Podešavanja jačine lozinke ažurirana</value>
+    <value>PodeÅ¡avanja jaÄine lozinke aÅ¾urirana</value>
   </data>
   <data name="PeopleProduct" xml:space="preserve">
     <value>Ljudi</value>
@@ -511,7 +511,7 @@
     <value>Platforma</value>
   </data>
   <data name="PortalAccessSettingsUpdated" xml:space="preserve">
-    <value>Podešavanja pristupa portalu ažurirana</value>
+    <value>PodeÅ¡avanja pristupa portalu aÅ¾urirana</value>
   </data>
   <data name="PortalDeactivated" xml:space="preserve">
     <value>Portal deaktiviran</value>
@@ -520,13 +520,13 @@
     <value>Portal obrisan</value>
   </data>
   <data name="PrivacyRoomDisable" xml:space="preserve">
-    <value>Privatna soba je onemogućena</value>
+    <value>Privatna soba je onemoguÄ‡ena</value>
   </data>
   <data name="PortalRenamed" xml:space="preserve">
     <value>Portal preimenovan</value>
   </data>
   <data name="PrivacyRoomEnable" xml:space="preserve">
-    <value>Privatna soba je omogućena</value>
+    <value>Privatna soba je omoguÄ‡ena</value>
   </data>
   <data name="ProductAccessOpened" xml:space="preserve">
     <value>Proizvodi [{0}]. Pristup otvoren</value>
@@ -538,7 +538,7 @@
     <value>Proizvodi [{0}]. Korisnici [{1}]. Pristup otvoren</value>
   </data>
   <data name="ProductAccessRestricted" xml:space="preserve">
-    <value>Proizvodi [{0}]. Pristup ograničen</value>
+    <value>Proizvodi [{0}]. Pristup ograniÄen</value>
   </data>
   <data name="ProductAddedAdministrator" xml:space="preserve">
     <value>Proizvodi [{0}]. Administrator dodat: {1}</value>
@@ -550,7 +550,7 @@
     <value>Proizvodi [{0}]. Administrator obrisan: {1}</value>
   </data>
   <data name="ProductsListUpdated" xml:space="preserve">
-    <value>Lista proizvoda ažurirana</value>
+    <value>Lista proizvoda aÅ¾urirana</value>
   </data>
   <data name="ProductsModule" xml:space="preserve">
     <value>Proizvodi</value>
@@ -559,7 +559,7 @@
     <value>Ponovna dodela</value>
   </data>
   <data name="SendActionType" xml:space="preserve">
-    <value>Pošalji</value>
+    <value>PoÅ¡alji</value>
   </data>
   <data name="SentInviteInstructions" xml:space="preserve">
     <value>Instrukcije poziva poslate: {0}</value>
@@ -586,7 +586,7 @@
     <value>Eksterni link obrisan: {0}</value>
   </data>
   <data name="RoomExternalLinkUpdated" xml:space="preserve">
-    <value>Eksterni link ažuriran: {0}. Uloga: {1}</value>
+    <value>Eksterni link aÅ¾uriran: {0}. Uloga: {1}</value>
   </data>
   <data name="RoomInvitationLinkCreated" xml:space="preserve">
     <value>Link kreiran. Uloga: {1}</value>
@@ -595,7 +595,7 @@
     <value>Link obrisan</value>
   </data>
   <data name="RoomInvitationLinkUpdated" xml:space="preserve">
-    <value>Link ažuriran. Uloga: {1}</value>
+    <value>Link aÅ¾uriran. Uloga: {1}</value>
   </data>
   <data name="RoomLogoCreated" xml:space="preserve">
     <value>Logo kreiran</value>
@@ -616,31 +616,31 @@
     <value>{0} imenovan: {1}</value>
   </data>
   <data name="SessionCompleted" xml:space="preserve">
-    <value>Sesija završena</value>
+    <value>Sesija zavrÅ¡ena</value>
   </data>
   <data name="SessionStarted" xml:space="preserve">
-    <value>Sesija započeta</value>
+    <value>Sesija zapoÄeta</value>
   </data>
   <data name="SettingsProduct" xml:space="preserve">
-    <value>Podešavanja</value>
+    <value>PodeÅ¡avanja</value>
   </data>
   <data name="SSODisabled" xml:space="preserve">
-    <value>SSO onemogućen</value>
+    <value>SSO onemoguÄ‡en</value>
   </data>
   <data name="SSOEnabled" xml:space="preserve">
-    <value>SSO omogućen</value>
+    <value>SSO omoguÄ‡en</value>
   </data>
   <data name="StartBackupSetting" xml:space="preserve">
-    <value>Počni rezervnu kopiju</value>
+    <value>PoÄni rezervnu kopiju</value>
   </data>
   <data name="StartStorageDecryption" xml:space="preserve">
-    <value>Pokreni dešifrovanje skladišta</value>
+    <value>Pokreni deÅ¡ifrovanje skladiÅ¡ta</value>
   </data>
   <data name="StartStorageEncryption" xml:space="preserve">
-    <value>Pokreni šifrovanje skladišta</value>
+    <value>Pokreni Å¡ifrovanje skladiÅ¡ta</value>
   </data>
   <data name="StartTransferSetting" xml:space="preserve">
-    <value>Započnite migraciju regiona portala</value>
+    <value>ZapoÄnite migraciju regiona portala</value>
   </data>
   <data name="SystemAccount" xml:space="preserve">
     <value>Nalog sistema</value>
@@ -655,40 +655,40 @@
     <value>Tagovi obrisani: {0}</value>
   </data>
   <data name="TeamTemplateChanged" xml:space="preserve">
-    <value>Šablon tima promenjen</value>
+    <value>Å ablon tima promenjen</value>
   </data>
   <data name="ThirdPartyCreated" xml:space="preserve">
-    <value>Treća strana kreirana: {0}. Provajder: {1}</value>
+    <value>TreÄ‡a strana kreirana: {0}. Provajder: {1}</value>
   </data>
   <data name="ThirdPartyDeleted" xml:space="preserve">
-    <value>Treća strana obrisana: {0}. Provajder: {1}</value>
+    <value>TreÄ‡a strana obrisana: {0}. Provajder: {1}</value>
   </data>
   <data name="ThirdPartyUpdated" xml:space="preserve">
-    <value>Treća strana ažurirana: {0}. Provajder: {1}</value>
+    <value>TreÄ‡a strana aÅ¾urirana: {0}. Provajder: {1}</value>
   </data>
   <data name="TimeTrackingModule" xml:space="preserve">
-    <value>Praćenje vremena</value>
+    <value>PraÄ‡enje vremena</value>
   </data>
   <data name="TimeZoneSettingsUpdated" xml:space="preserve">
-    <value>Podešavanja vremenske zone ažurirana</value>
+    <value>PodeÅ¡avanja vremenske zone aÅ¾urirana</value>
   </data>
   <data name="TrashEmptied" xml:space="preserve">
-    <value>Otpad ispražnjen</value>
+    <value>Otpad ispraÅ¾njen</value>
   </data>
   <data name="TrustedMailDomainSettingsUpdated" xml:space="preserve">
-    <value>Ažurirana su podešavanja domena pouzdane pošte</value>
+    <value>AÅ¾urirana su podeÅ¡avanja domena pouzdane poÅ¡te</value>
   </data>
   <data name="TwoFactorAuthenticationSettingsDisabled" xml:space="preserve">
-    <value>Ažurirane postavke dvofaktorske autentifikacije: dvofaktorska autentifikacija je onemogućena</value>
+    <value>AÅ¾urirane postavke dvofaktorske autentifikacije: dvofaktorska autentifikacija je onemoguÄ‡ena</value>
   </data>
   <data name="TwoFactorAuthenticationSettingsEnabledBySms" xml:space="preserve">
-    <value>Ažurirane postavke dvofaktorske autentifikacije: potvrda putem SMS-a je omogućena</value>
+    <value>AÅ¾urirane postavke dvofaktorske autentifikacije: potvrda putem SMS-a je omoguÄ‡ena</value>
   </data>
   <data name="TwoFactorAuthenticationSettingsEnabledByTfaApp" xml:space="preserve">
-    <value>Ažurirane postavke dvofaktorske autentifikacije: aplikacija za autentifikaciju je omogućena</value>
+    <value>AÅ¾urirane postavke dvofaktorske autentifikacije: aplikacija za autentifikaciju je omoguÄ‡ena</value>
   </data>
   <data name="TwoFactorAuthenticationSettingsUpdated" xml:space="preserve">
-    <value>Postavke dvofaktorske autentifikacije ažurirane</value>
+    <value>Postavke dvofaktorske autentifikacije aÅ¾urirane</value>
   </data>
   <data name="UnfollowActionType" xml:space="preserve">
     <value>Prestani pratiti</value>
@@ -700,10 +700,10 @@
     <value>Raskini vezu</value>
   </data>
   <data name="UpdateAccessActionType" xml:space="preserve">
-    <value>Ažuriran pristup</value>
+    <value>AÅ¾uriran pristup</value>
   </data>
   <data name="UpdateActionType" xml:space="preserve">
-    <value>Ažuriraj</value>
+    <value>AÅ¾uriraj</value>
   </data>
   <data name="UploadActionType" xml:space="preserve">
     <value>Otpremi</value>
@@ -727,7 +727,7 @@
     <value>Podaci ponovo dodeljeni: od korisnika {0} do korisnika {1}</value>
   </data>
   <data name="UserDataRemoving" xml:space="preserve">
-    <value>Korisnički podaci za {0} su obrisani</value>
+    <value>KorisniÄki podaci za {0} su obrisani</value>
   </data>
   <data name="UserDeleted" xml:space="preserve">
     <value>Korisnik obrisan: {0}</value>
@@ -736,7 +736,7 @@
     <value>Korisnici [{0}]. Avatar obrisan</value>
   </data>
   <data name="UserFileUpdated" xml:space="preserve">
-    <value>Korisnici [{0}]. Datoteka ažurirana: {1}</value>
+    <value>Korisnici [{0}]. Datoteka aÅ¾urirana: {1}</value>
   </data>
   <data name="UserImported" xml:space="preserve">
     <value>Korisnik uvezen: {0}</value>
@@ -766,10 +766,10 @@
     <value>Korisnicima [{0}]. Poslata uputstva za aktivaciju</value>
   </data>
   <data name="UsersUpdatedStatus" xml:space="preserve">
-    <value>Korisnici [{0}]. Ažuriran status</value>
+    <value>Korisnici [{0}]. AÅ¾uriran status</value>
   </data>
   <data name="UsersUpdatedType" xml:space="preserve">
-    <value>Korisnici [{0}]. Ažuriran tip</value>
+    <value>Korisnici [{0}]. AÅ¾uriran tip</value>
   </data>
   <data name="UserTfaDisconnected" xml:space="preserve">
     <value>Veza sa aplikacijom Authenticator je prekinuta: {0}</value>
@@ -778,25 +778,25 @@
     <value>Novi rezervni kodovi su kreirani</value>
   </data>
   <data name="UserUnlinkedSocialAccount" xml:space="preserve">
-    <value>Društveni nalog raskinut. Provajder: {0}</value>
+    <value>DruÅ¡tveni nalog raskinut. Provajder: {0}</value>
   </data>
   <data name="UserUpdated" xml:space="preserve">
-    <value>Korisnik ažuriran: {0}</value>
+    <value>Korisnik aÅ¾uriran: {0}</value>
   </data>
   <data name="UserUpdatedAvatarThumbnails" xml:space="preserve">
-    <value>Korisnici [{0}]. Thumbnails avatara ažurirane</value>
+    <value>Korisnici [{0}]. Thumbnails avatara aÅ¾urirane</value>
   </data>
   <data name="UserUpdatedEmail" xml:space="preserve">
-    <value>Email ažuriran</value>
+    <value>Email aÅ¾uriran</value>
   </data>
   <data name="UserUpdatedLanguage" xml:space="preserve">
-    <value>Jezik ažuriran</value>
+    <value>Jezik aÅ¾uriran</value>
   </data>
   <data name="UserUpdatedMobileNumber" xml:space="preserve">
-    <value>Korisnici [{0}]. Broj mobilnog ažuriran: {1}</value>
+    <value>Korisnici [{0}]. Broj mobilnog aÅ¾uriran: {1}</value>
   </data>
   <data name="UserUpdatedPassword" xml:space="preserve">
-    <value>Lozinka ažurirana</value>
+    <value>Lozinka aÅ¾urirana</value>
   </data>
   <data name="FileSizePostfix" xml:space="preserve">
     <value>bajtovi,KB,MB,GB,TB</value>
@@ -817,48 +817,117 @@
     <value>{0} imenovan: {1}</value>
   </data>
   <data name="SendJoinInvite" xml:space="preserve">
-    <value>Korisnik {0} je poslao pozivnicu {1} da se pridruži ovom DocSpace-u</value>
+    <value>Korisnik {0} je poslao pozivnicu {1} da se pridruÅ¾i ovom DocSpace-u</value>
   </data>
   <data name="QuotaPerPortalChanged" xml:space="preserve">
-    <value>Postavi podrazumevanu skladišnu kvotu: {0}</value>
+    <value>Postavi podrazumevanu skladiÅ¡nu kvotu: {0}</value>
   </data>
   <data name="QuotaPerPortalDisabled" xml:space="preserve">
-    <value>Onemogućena podrazumevana skladišna kvota</value>
+    <value>OnemoguÄ‡ena podrazumevana skladiÅ¡na kvota</value>
   </data>
   <data name="QuotaPerRoomChanged" xml:space="preserve">
-    <value>Postavi podrazumevanu skladišnu kvotu za prostorije: {0}</value>
+    <value>Postavi podrazumevanu skladiÅ¡nu kvotu za prostorije: {0}</value>
   </data>
   <data name="QuotaPerRoomDisabled" xml:space="preserve">
-    <value>Onemogućena podrazumevana skladišna kvota za prostorije</value>
+    <value>OnemoguÄ‡ena podrazumevana skladiÅ¡na kvota za prostorije</value>
   </data>
   <data name="QuotaPerUserChanged" xml:space="preserve">
-    <value>Postavi podrazumevanu skladišnu kvotu za korisnike: {0}</value>
+    <value>Postavi podrazumevanu skladiÅ¡nu kvotu za korisnike: {0}</value>
   </data>
   <data name="QuotaPerUserDisabled" xml:space="preserve">
-    <value>Onemogućena podrazumevana skladišna kvota za korisnike</value>
+    <value>OnemoguÄ‡ena podrazumevana skladiÅ¡na kvota za korisnike</value>
   </data>
   <data name="CustomQuotaPerRoomChanged" xml:space="preserve">
-    <value>Prostorije [{0}]. Postavi prilagođenu skladišnu kvotu za prostorije: {1}</value>
+    <value>Prostorije [{0}]. Postavi prilagoÄ‘enu skladiÅ¡nu kvotu za prostorije: {1}</value>
   </data>
   <data name="CustomQuotaPerRoomDefault" xml:space="preserve">
-    <value>Prostorije [{0}]. Postavi podrazumevanu skladišnu kvotu za prostorije: {1}</value>
+    <value>Prostorije [{0}]. Postavi podrazumevanu skladiÅ¡nu kvotu za prostorije: {1}</value>
   </data>
   <data name="CustomQuotaPerRoomDisabled" xml:space="preserve">
-    <value>Prostorije [{0}]. Onemogućena skladišna kvota za prostorije</value>
+    <value>Prostorije [{0}]. OnemoguÄ‡ena skladiÅ¡na kvota za prostorije</value>
   </data>
   <data name="CustomQuotaPerUserChanged" xml:space="preserve">
-    <value>Korisnici [{0}]. Postavi prilagođenu skladišnu kvotu za korisnike: {1}</value>
+    <value>Korisnici [{0}]. Postavi prilagoÄ‘enu skladiÅ¡nu kvotu za korisnike: {1}</value>
   </data>
   <data name="CustomQuotaPerUserDefault" xml:space="preserve">
-    <value>Korisnici [{0}]. Postavi podrazumevanu skladišnu kvotu za korisnike: {1}</value>
+    <value>Korisnici [{0}]. Postavi podrazumevanu skladiÅ¡nu kvotu za korisnike: {1}</value>
   </data>
   <data name="CustomQuotaPerUserDisabled" xml:space="preserve">
-    <value>Korisnici [{0}]. Onemogućena skladišna kvota za korisnike</value>
+    <value>Korisnici [{0}]. OnemoguÄ‡ena skladiÅ¡na kvota za korisnike</value>
   </data>
   <data name="FormOpenedForFilling" xml:space="preserve">
     <value>Datoteka otvorena za popunjavanje: {0}</value>
   </data>
   <data name="FormSubmit" xml:space="preserve">
     <value>Korisnici [{0}]. Formular dostavljen: {1}</value>
+  </data>
+  <data name="RoomIndexExportSaved" xml:space="preserve">
+    <value>Izvoz indeksa sobe saÄuvan u Dokumentima</value>
+  </data>
+  <data name="RoomInviteResend" xml:space="preserve">
+    <value>Pozivnice ponovo poslate: {0}</value>
+  </data>
+  <data name="FileIndexChanged" xml:space="preserve">
+    <value>Datoteka: {0}. Indeks promenjen iz {1} u {2}</value>
+  </data>
+  <data name="FolderIndexChanged" xml:space="preserve">
+    <value>Folder: {0}. Indeks promenjen iz {1} u {2}</value>
+  </data>
+  <data name="FolderIndexReordered" xml:space="preserve">
+    <value>Folder: {0}. Indeksi su preureÄ‘eni</value>
+  </data>
+  <data name="OAuthModule" xml:space="preserve">
+    <value>OAuth</value>
+  </data>
+  <data name="RoomDenyDownloadDisabled" xml:space="preserve">
+    <value>Soba: {0}. Zabrani preuzimanje onemoguÄ‡eno</value>
+  </data>
+  <data name="RoomDenyDownloadEnabled" xml:space="preserve">
+    <value>Soba: {0}. Zabrani preuzimanje omoguÄ‡eno</value>
+  </data>
+  <data name="RoomIndexingDisabled" xml:space="preserve">
+    <value>Indeksiranje soba onemoguÄ‡eno</value>
+  </data>
+  <data name="RoomIndexingEnabled" xml:space="preserve">
+    <value>Indeksiranje soba omoguÄ‡eno</value>
+  </data>
+  <data name="RoomLifeTimeDisabled" xml:space="preserve">
+    <value>LifeTime onemoguÄ‡en</value>
+  </data>
+  <data name="RoomLifeTimeSet" xml:space="preserve">
+    <value>Å½ivotno vreme je postavljeno. vrednost: {0}. Period: {1}. Trajno izbriÅ¡i: {2}</value>
+  </data>
+  <data name="RoomWatermarkDisabled" xml:space="preserve">
+    <value>Soba: {0}. Vodeni Å¾ig onemoguÄ‡en</value>
+  </data>
+  <data name="RoomWatermarkSet" xml:space="preserve">
+    <value>Soba: {0}. Vodeni Å¾ig omoguÄ‡en</value>
+  </data>
+  <data name="ChangeClientActivation" xml:space="preserve">
+    <value>Aktivacija {0} klijenta je promenjena</value>
+  </data>
+  <data name="ChangeClientVisibility" xml:space="preserve">
+    <value>Promenjena {0} vidljivost klijenta</value>
+  </data>
+  <data name="CreateClient" xml:space="preserve">
+    <value>Klijent je kreiran</value>
+  </data>
+  <data name="DeleteClient" xml:space="preserve">
+    <value>Klijent {0} izbrisan</value>
+  </data>
+  <data name="GenerateAuthorizationCodeToken" xml:space="preserve">
+    <value>Generisani autorizacioni kod za klijenta {0}</value>
+  </data>
+  <data name="GeneratePersonalAccessToken" xml:space="preserve">
+    <value>Generisani liÄni pristupni token za klijenta {0}</value>
+  </data>
+  <data name="RegenerateSecret" xml:space="preserve">
+    <value>Klijentova {0} tajna regenerisana</value>
+  </data>
+  <data name="RevokeUserClient" xml:space="preserve">
+    <value>Oduzet klijentu {0} pristup</value>
+  </data>
+  <data name="UpdateClient" xml:space="preserve">
+    <value>Klijent {0} aÅ¾uriran</value>
   </data>
 </root>

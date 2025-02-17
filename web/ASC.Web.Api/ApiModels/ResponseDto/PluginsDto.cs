@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -26,19 +26,20 @@
 
 namespace ASC.Web.Api.ApiModel.ResponseDto;
 
-/// <summary>
-/// </summary>
 public class PluginsDto
 {
-    /// <summary>Specifies if the plugins are enabled or not</summary>
-    /// <type>System.Boolean, System</type>
+    /// <summary>
+    /// Specifies if the plugins are enabled or not
+    /// </summary>
     public bool Enabled { get; set; }
 
-    /// <summary>Specifies if the plugins can be uploaded or not</summary>
-    /// <type>System.Boolean, System</type>
+    /// <summary>
+    /// Specifies if the plugins can be uploaded or not
+    /// </summary>
     public bool Upload { get; set; }
 
-    /// <summary>Specifies if the plugins can be deleted or not</summary>
-    /// <type>System.Boolean, System</type>
+    /// <summary>
+    /// Specifies if the plugins can be deleted or not
+    /// </summary>
     public bool Delete { get; set; }
 }

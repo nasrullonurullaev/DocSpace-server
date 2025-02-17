@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -27,9 +27,9 @@
 namespace ASC.Web.Core.Log;
 internal static partial class TenantWhiteLabelSettingsHelperLogger
 {
-    [LoggerMessage(Level = LogLevel.Error, Message = "TenantWhiteLabelSettingsHelper RestoreDefault")]
+    [LoggerMessage(LogLevel.Error, "TenantWhiteLabelSettingsHelper RestoreDefault")]
     public static partial void ErrorRestoreDefault(this ILogger<TenantWhiteLabelSettingsHelper> logger, Exception exception);
 
-    [LoggerMessage(Level = LogLevel.Error, Message = "TenantWhiteLabelSettingsHelper SetLogo")]
+    [LoggerMessage(LogLevel.Error, "TenantWhiteLabelSettingsHelper SetLogo")]
     public static partial void ErrorSetLogo(this ILogger<TenantWhiteLabelSettingsHelper> logger, Exception exception);
 }

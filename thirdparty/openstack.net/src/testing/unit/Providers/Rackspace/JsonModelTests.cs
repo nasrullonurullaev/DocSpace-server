@@ -1,4 +1,4 @@
-﻿namespace OpenStackNet.Testing.Unit.Providers.Rackspace
+namespace OpenStackNet.Testing.Unit.Providers.Rackspace
 {
     using System;
     using System.Net;

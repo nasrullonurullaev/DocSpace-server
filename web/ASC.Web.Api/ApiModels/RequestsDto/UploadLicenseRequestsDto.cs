@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -27,10 +27,12 @@
 namespace ASC.Web.Api.ApiModel.RequestsDto;
 
 /// <summary>
+/// Request parameters to upload a license
 /// </summary>
 public class UploadLicenseRequestsDto
 {
-    /// <summary>License attachments</summary>
-    /// <type>System.Collections.Generic.IEnumerable{Microsoft.AspNetCore.Http.IFormFile}, System.Collections.Generic</type>
+    /// <summary>
+    /// License attachments
+    /// </summary>
     public IEnumerable<IFormFile> Files { get; set; }
 }

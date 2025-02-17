@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -27,6 +27,6 @@
 namespace ASC.Api.Core.Log;
 internal static partial class ProductSecurityFilterLogger
 {
-    [LoggerMessage(Level = LogLevel.Warning, Message = "Product {name} denied for user {userId}")]
+    [LoggerMessage(LogLevel.Warning, "Product {name} denied for user {userId}")]
     public static partial void WarningPaymentRequired(this ILogger<ProductSecurityFilter> logger, string name, Guid userId);
 }

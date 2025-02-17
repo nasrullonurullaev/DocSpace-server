@@ -120,53 +120,53 @@
   <data name="pattern_enterprise_whitelabel_user_welcome_custom_mode_v1" xml:space="preserve">
     <value>Stimate, $UserName!
 
-Bun venit în spaţiu ONLYOFFICE DocSpace! Profilul dvs. de utilizator a fost adăugat cu succes la "${__VirtualRootPath}":"${__VirtualRootPath}". Acum puteți să:
+Bun venit Ã®n spaÅ£iu ONLYOFFICE DocSpace! Profilul dvs. de utilizator a fost adÄƒugat cu succes la "${__VirtualRootPath}":"${__VirtualRootPath}". Acum puteÈ›i sÄƒ:
 
-* Colaborați cu alți utilizatori din sala în care sunteți invitat*: săli de colaborare pentru elaborare prin colaborare în timp real sau săli personalizate cu setări flexibile pentru orice scop*.
+* ColaboraÈ›i cu alÈ›i utilizatori din sala Ã®n care sunteÈ›i invitat*: sÄƒli de colaborare pentru elaborare prin colaborare Ã®n timp real sau sÄƒli personalizate cu setÄƒri flexibile pentru orice scop*.
 
-* *Lucrați cu diferite formate de fișier*: documente text, foi de calcul, prezentări, formulare digitale, PDF-uri, e-book-uri, multimedia.
+* *LucraÈ›i cu diferite formate de fiÈ™ier*: documente text, foi de calcul, prezentÄƒri, formulare digitale, PDF-uri, e-book-uri, multimedia.
 
-* *Colaborați la documente* în două moduri de co-editare: în timp real sau prin blocare de paragrafe. Urmăriți modificări, comunicați în timp real cu ajutorul chat-ului încorporat sau prin apeluri audio și video. 
+* *ColaboraÈ›i la documente* Ã®n douÄƒ moduri de co-editare: Ã®n timp real sau prin blocare de paragrafe. UrmÄƒriÈ›i modificÄƒri, comunicaÈ›i Ã®n timp real cu ajutorul chat-ului Ã®ncorporat sau prin apeluri audio È™i video. 
 
-* *Conectați orice serviciu de stocare în cloud* și să lucrați fără a comuta între aplicații. 
+* *ConectaÈ›i orice serviciu de stocare Ã®n cloud* È™i sÄƒ lucraÈ›i fÄƒrÄƒ a comuta Ã®ntre aplicaÈ›ii. 
 
 $OrangeButton
 
-Dacă aveți nevoie de ajutor, navigați la "Centru de ajutor":"${__HelpLink}" sau contactați echipa "noastră de asistență":"${__SupportLink}".
+DacÄƒ aveÈ›i nevoie de ajutor, navigaÈ›i la "Centru de ajutor":"${__HelpLink}" sau contactaÈ›i echipa "noastrÄƒ de asistenÈ›Äƒ":"${__SupportLink}".
 
 $TrulyYours</value>
   </data>
   <data name="subject_remove_user_data_completed_custom_mode" xml:space="preserve">
-    <value>&gt;${LetterLogoText}. Eliminarea datelor de utilizator finalizată</value>
+    <value>&gt;${LetterLogoText}. Eliminarea datelor de utilizator finalizatÄƒ</value>
   </data>
   <data name="ProductUserOpportunitiesCustomMode" xml:space="preserve">
-    <value>Creați și editați documentele dumneavoastră sau cele partajate cu drepturi de acces corespunzătoare|Acordați altor utilizatori permisiuni de citire/editare a documentelor și dosarelor|Conectați Dropbox, Box și alte conturi în secțiunea "Documentele mele"</value>
+    <value>CreaÈ›i È™i editaÈ›i documentele dumneavoastrÄƒ sau cele partajate cu drepturi de acces corespunzÄƒtoare|AcordaÈ›i altor utilizatori permisiuni de citire/editare a documentelor È™i dosarelor|ConectaÈ›i Dropbox, Box È™i alte conturi Ã®n secÈ›iunea "Documentele mele"</value>
   </data>
   <data name="pattern_remove_user_data_completed_custom_mode" xml:space="preserve">
-    <value>Stimată/Stimate $UserName!
+    <value>StimatÄƒ/Stimate $UserName!
  
 Datele utilizatorului "$FromUserName":"$FromUserLink" au fost eliminate cu succes.
  
-După eliminarea datelor personale s-a eliberat:
+DupÄƒ eliminarea datelor personale s-a eliberat:
  
 # Documente - $DocsSpace
 # Mail - $MailSpace
 # Talk - $TalkSpace</value>
   </data>
   <data name="ProductAdminOpportunitiesCustomMode" xml:space="preserve">
-    <value>Faceţi aceleaşi lucruri în calitate de utilizator|Conectați Dropbox, Box și alte conturi în secțiunea Comun |Configurați drepturi de acces la documente și dosare în secțiunea Comun</value>
+    <value>FaceÅ£i aceleaÅŸi lucruri Ã®n calitate de utilizator|ConectaÈ›i Dropbox, Box È™i alte conturi Ã®n secÈ›iunea Comun |ConfiguraÈ›i drepturi de acces la documente È™i dosare Ã®n secÈ›iunea Comun</value>
   </data>
   <data name="pattern_saas_custom_mode_reg_data" xml:space="preserve">
-    <value>h3.A fost înregistrat un portal nou
+    <value>h3.A fost Ã®nregistrat un portal nou
 
 # URL Portal: "${__VirtualRootPath}":"${__VirtualRootPath}"
 # Prenume: $UserName
 # Nume: $UserLastName
 # E-mail: $UserEmail
 # Telefon: $Phone
-# Data creării: $Date</value>
+# Data creÄƒrii: $Date</value>
   </data>
   <data name="subject_saas_custom_mode_reg_data" xml:space="preserve">
-    <value>A fost înregistrat un portal nou</value>
+    <value>A fost Ã®nregistrat un portal nou</value>
   </data>
 </root>

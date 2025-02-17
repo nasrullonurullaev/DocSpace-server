@@ -1,4 +1,4 @@
-﻿namespace net.openstack.Providers.Rackspace.Objects.LoadBalancers.Request
+namespace net.openstack.Providers.Rackspace.Objects.LoadBalancers.Request
 {
     using System.Runtime.CompilerServices;
 

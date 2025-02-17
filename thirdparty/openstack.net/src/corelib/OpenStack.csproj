@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <Description>An OpenStack SDK for Microsoft .NET</Description>
     <AssemblyTitle>Openstack.net</AssemblyTitle>

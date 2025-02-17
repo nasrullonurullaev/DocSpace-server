@@ -120,49 +120,49 @@
   <data name="pattern_enterprise_whitelabel_user_welcome_custom_mode_v1" xml:space="preserve">
     <value>Sveiki, $UserName!
 
-Laipni lūdzam ONLYOFFICE DocSpace! Jūsu lietotāja profils ir veiksmīgi pievienots "${__VirtualRootPath}":"${__VirtualRootPath}". Tagad jūs varat:
+Laipni lÅ«dzam ONLYOFFICE DocSpace! JÅ«su lietotÄja profils ir veiksmÄ«gi pievienots "${__VirtualRootPath}":"${__VirtualRootPath}". Tagad jÅ«s varat:
 
-* Strādāt ar citiem lietotājiem telpā, kurā esat uzaicināts*: sadarbības telpas reāllaika koprediģēšanai vai pielāgotas telpas ar elastīgiem iestatījumiem jebkuram mērķim*.
+* StrÄdÄt ar citiem lietotÄjiem telpÄ, kurÄ esat uzaicinÄts*: sadarbÄ«bas telpas reÄllaika koprediÄ£Ä“Å¡anai vai pielÄgotas telpas ar elastÄ«giem iestatÄ«jumiem jebkuram mÄ“rÄ·im*.
 
-* *Strādāt ar dažādu formātu failiem*: teksta dokumenti, izklājlapas, prezentācijas, digitālās veidlapas, PDF, e-grāmatas, multivide.
+* *StrÄdÄt ar daÅ¾Ädu formÄtu failiem*: teksta dokumenti, izklÄjlapas, prezentÄcijas, digitÄlÄs veidlapas, PDF, e-grÄmatas, multivide.
 
-* *Sadarboties ar dokumentiem*, izmantojot divus koprediģēšanas režīmus: reāllaika vai rindkopu bloķēšanu. Izsekojiet izmaiņas, sazinieties reāllaikā, izmantojot iebūvēto tērzēšanu vai veicot audio un video zvanus. 
+* *Sadarboties ar dokumentiem*, izmantojot divus koprediÄ£Ä“Å¡anas reÅ¾Ä«mus: reÄllaika vai rindkopu bloÄ·Ä“Å¡anu. Izsekojiet izmaiÅ†as, sazinieties reÄllaikÄ, izmantojot iebÅ«vÄ“to tÄ“rzÄ“Å¡anu vai veicot audio un video zvanus. 
 
-* *Pievienojiet jebkuru mākoņkrātuvi* un strādājiet, nepārslēdzoties starp lietotnēm. 
+* *Pievienojiet jebkuru mÄkoÅ†krÄtuvi* un strÄdÄjiet, nepÄrslÄ“dzoties starp lietotnÄ“m. 
 
 $OrangeButton
 
-Ja nepieciešama palīdzība, pārlūkojiet mūsu "Palīdzības centru":"${__HelpLink}" vai jautājiet mūsu "atbalsta komandai":"${__SupportLink}".
+Ja nepiecieÅ¡ama palÄ«dzÄ«ba, pÄrlÅ«kojiet mÅ«su "PalÄ«dzÄ«bas centru":"${__HelpLink}" vai jautÄjiet mÅ«su "atbalsta komandai":"${__SupportLink}".
 
 $TrulyYours</value>
   </data>
   <data name="pattern_remove_user_data_completed_custom_mode" xml:space="preserve">
     <value>Cien $UserName,
 
-Datu noņemšanas no lietotāja "$FromUserName":"$FromUserLink" process ir veiksmīgi pabeigts.
+Datu noÅ†emÅ¡anas no lietotÄja "$FromUserName":"$FromUserLink" process ir veiksmÄ«gi pabeigts.
 
-Personas datu izdzēšana ļāva atbrīvot $DocsSpace</value>
+Personas datu izdzÄ“Å¡ana Ä¼Äva atbrÄ«vot $DocsSpace</value>
   </data>
   <data name="pattern_saas_custom_mode_reg_data" xml:space="preserve">
-    <value>h3.Ir reģistrēts jauns portāls
+    <value>h3.Ir reÄ£istrÄ“ts jauns portÄls
 
-# Portāla vietrādis URL: "${__VirtualRootPath}":"${__VirtualRootPath}"
-# Vārds: $UserName
-# Uzvārds: $UserLastName
+# PortÄla vietrÄdis URL: "${__VirtualRootPath}":"${__VirtualRootPath}"
+# VÄrds: $UserName
+# UzvÄrds: $UserLastName
 # E-pasts: $UserEmail
-# Tālrunis: $Phone
+# TÄlrunis: $Phone
 # Izveides datums: $Date</value>
   </data>
   <data name="ProductAdminOpportunitiesCustomMode" xml:space="preserve">
-    <value>Rīkojieties kā lietotājs|Piesaistiet Dropbox, Box un citus kontus sadaļā Kopīgs |Iestatiet piekļuves tiesības dokumentiem un mapēm sadaļā Kopīgs</value>
+    <value>RÄ«kojieties kÄ lietotÄjs|Piesaistiet Dropbox, Box un citus kontus sadaÄ¼Ä KopÄ«gs |Iestatiet piekÄ¼uves tiesÄ«bas dokumentiem un mapÄ“m sadaÄ¼Ä KopÄ«gs</value>
   </data>
   <data name="ProductUserOpportunitiesCustomMode" xml:space="preserve">
-    <value>Izveidojiet un rediģējiet savus dokumentus, kā arī kopīgotos dokumentus ar atbilstošām piekļuves tiesībām|Piešķiriet citiem lietotājiem lasīšanas/rediģēšanas piekļuvi dokumentiem un mapēm| Sadaļā Mani dokumenti saistiet Dropbox, Box un citus kontus</value>
+    <value>Izveidojiet un rediÄ£Ä“jiet savus dokumentus, kÄ arÄ« kopÄ«gotos dokumentus ar atbilstoÅ¡Äm piekÄ¼uves tiesÄ«bÄm|PieÅ¡Ä·iriet citiem lietotÄjiem lasÄ«Å¡anas/rediÄ£Ä“Å¡anas piekÄ¼uvi dokumentiem un mapÄ“m| SadaÄ¼Ä Mani dokumenti saistiet Dropbox, Box un citus kontus</value>
   </data>
   <data name="subject_remove_user_data_completed_custom_mode" xml:space="preserve">
-    <value>${LetterLogoText}. Lietotāja datu noņemšana ir pabeigta</value>
+    <value>${LetterLogoText}. LietotÄja datu noÅ†emÅ¡ana ir pabeigta</value>
   </data>
   <data name="subject_saas_custom_mode_reg_data" xml:space="preserve">
-    <value>Ir reģistrēts jauns portāls</value>
+    <value>Ir reÄ£istrÄ“ts jauns portÄls</value>
   </data>
 </root>

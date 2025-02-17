@@ -1,4 +1,4 @@
-﻿namespace net.openstack.Providers.Rackspace.Objects.AutoScale
+namespace net.openstack.Providers.Rackspace.Objects.AutoScale
 {
     using System;
     using Newtonsoft.Json;

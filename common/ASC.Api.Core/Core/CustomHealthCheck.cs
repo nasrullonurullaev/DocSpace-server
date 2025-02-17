@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -57,7 +57,7 @@ public static class CustomHealthCheck
         {
             hcBuilder.AddRedis(x => x.GetRequiredService<RedisPersistentConnection>().GetConnection(),
                                name: "redis",
-                               tags: new[] { "redis", "services" },
+                               tags: ["redis", "services"],
                                timeout: new TimeSpan(0, 0, 15));
         }
 
@@ -75,15 +75,15 @@ public static class CustomHealthCheck
         {
             hcBuilder.AddMySql(connectionString.ConnectionString,
                                name: "mysqldb",
-                               tags: new[] { "mysqldb", "services" },
-                               timeout: new TimeSpan(0, 0, 15));
+                               tags: ["mysqldb", "services"],
+                               timeout: new TimeSpan(0, 0, 30));
         }
         else if (string.Equals(connectionString.ProviderName, "Npgsql"))
         {
             hcBuilder.AddNpgSql(connectionString.ConnectionString,
                                name: "postgredb",
-                               tags: new[] { "postgredb", "services" },
-                               timeout: new TimeSpan(0, 0, 15));
+                               tags: ["postgredb", "services"],
+                               timeout: new TimeSpan(0, 0, 30));
         }
 
         return hcBuilder;
@@ -96,10 +96,14 @@ public static class CustomHealthCheck
 
         if (rabbitMQConfiguration != null)
         {
-            hcBuilder.AddRabbitMQ(x => x.ConnectionFactory = rabbitMQConfiguration.GetConnectionFactory(),
-                              name: "rabbitMQ",
-                              tags: new[] { "rabbitMQ", "services" },
-                              timeout: new TimeSpan(0, 0, 15));
+            hcBuilder.AddRabbitMQ(async sp => {
+                                        var rabbitMqPersistentConnection = sp.GetRequiredService<IRabbitMQPersistentConnection>();
+
+                                        return await rabbitMqPersistentConnection.GetConnection();
+                                },
+                                name: "rabbitMQ",
+                                tags: new[] { "rabbitMQ", "services" },
+                                timeout: new TimeSpan(0, 0, 30));
         }
         else
         {
@@ -111,7 +115,7 @@ public static class CustomHealthCheck
 
                 hcBuilder.AddKafka(new ProducerConfig(clientConfig),
                                name: "kafka",
-                               tags: new[] { "kafka", "services" },
+                               tags: ["kafka", "services"],
                                timeout: new TimeSpan(0, 0, 15)
                                );
 

@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -28,7 +28,18 @@ namespace ASC.Files.Core.ApiModels.RequestDto;
 
 public class InviteUsersByEmailRequestDto
 {
+    /// <summary>
+    /// Emails
+    /// </summary>
     public IEnumerable<string> Emails { get; set; }
+
+    /// <summary>
+    /// Employee type
+    /// </summary>
     public EmployeeType EmployeeType { get; set; }
+
+    /// <summary>
+    /// Access
+    /// </summary>
     public FileShare Access { get; set; }
 }

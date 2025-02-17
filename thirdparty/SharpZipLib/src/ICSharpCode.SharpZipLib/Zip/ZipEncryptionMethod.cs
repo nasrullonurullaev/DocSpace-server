@@ -1,4 +1,4 @@
-﻿namespace ICSharpCode.SharpZipLib.Zip
+namespace ICSharpCode.SharpZipLib.Zip
 {
 	/// <summary>
 	/// The method of encrypting entries when creating zip archives.

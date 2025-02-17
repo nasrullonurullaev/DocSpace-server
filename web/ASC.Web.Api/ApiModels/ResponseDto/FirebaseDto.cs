@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -26,39 +26,45 @@
 
 namespace ASC.Web.Api.ApiModel.ResponseDto;
 
-/// <summary>
-/// </summary>
 public class FirebaseDto
 {
-    /// <summary>API key</summary>
-    /// <type>System.String, System</type>
+    /// <summary>
+    /// API key
+    /// </summary>
     public string ApiKey { get; set; }
 
-    /// <summary>Authentication domain</summary>
-    /// <type>System.String, System</type>
+    /// <summary>
+    /// Authentication domain
+    /// </summary>
     public string AuthDomain { get; set; }
 
-    /// <summary>Project ID</summary>
-    /// <type>System.String, System</type>
+    /// <summary>
+    /// Project ID
+    /// </summary>
     public string ProjectId { get; set; }
 
-    /// <summary>Storage bucket</summary>
-    /// <type>System.String, System</type>
+    /// <summary>
+    /// Storage bucket
+    /// </summary>
     public string StorageBucket { get; set; }
 
-    /// <summary>Message sender ID</summary>
-    /// <type>System.String, System</type>
+    /// <summary>
+    /// Message sender ID
+    /// </summary>
     public string MessagingSenderId { get; set; }
 
-    /// <summary>Application ID</summary>
-    /// <type>System.String, System</type>
+    /// <summary>
+    /// Application ID
+    /// </summary>
     public string AppId { get; set; }
 
-    /// <summary>Measurement ID</summary>
-    /// <type>System.String, System</type>
+    /// <summary>
+    /// Measurement ID
+    /// </summary>
     public string MeasurementId { get; set; }
 
-    /// <summary>Database URL</summary>
-    /// <type>System.String, System</type>
+    /// <summary>
+    /// Database URL
+    /// </summary>
     public string DatabaseURL { get; set; }
 }

@@ -1,4 +1,4 @@
-﻿namespace Rackspace.RackConnect.v3
+namespace Rackspace.RackConnect.v3
 {
     /// <summary>
     /// Defines filters which can be applied when listing Public IPs.

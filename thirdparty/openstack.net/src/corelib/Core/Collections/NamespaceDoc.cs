@@ -1,4 +1,4 @@
-﻿namespace net.openstack.Core.Collections
+namespace net.openstack.Core.Collections
 {
     using System.Runtime.CompilerServices;
 

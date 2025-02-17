@@ -118,96 +118,96 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="DataProcessing" xml:space="preserve">
-    <value>Տվյալների մշակում...</value>
+    <value>ÕÕ¾ÕµÕ¡Õ¬Õ¶Õ¥Ö€Õ« Õ´Õ·Õ¡Õ¯Õ¸Ö‚Õ´...</value>
   </data>
   <data name="DataProcessingCompleted" xml:space="preserve">
-    <value>Տվյալների մշակումն ավարտված է</value>
+    <value>ÕÕ¾ÕµÕ¡Õ¬Õ¶Õ¥Ö€Õ« Õ´Õ·Õ¡Õ¯Õ¸Ö‚Õ´Õ¶ Õ¡Õ¾Õ¡Ö€Õ¿Õ¾Õ¡Õ® Õ§</value>
   </data>
   <data name="DumpParse" xml:space="preserve">
-    <value>Տվյալների բազայի վերլուծություն</value>
+    <value>ÕÕ¾ÕµÕ¡Õ¬Õ¶Õ¥Ö€Õ« Õ¢Õ¡Õ¦Õ¡ÕµÕ« Õ¾Õ¥Ö€Õ¬Õ¸Ö‚Õ®Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶</value>
   </data>
   <data name="GroupMigration" xml:space="preserve">
-    <value>Խմբային միգրացիա {0} ({1}/{2})</value>
+    <value>Ô½Õ´Õ¢Õ¡ÕµÕ«Õ¶ Õ´Õ«Õ£Ö€Õ¡ÖÕ«Õ¡ {0} ({1}/{2})</value>
   </data>
   <data name="MigratingUserFiles" xml:space="preserve">
-    <value>Օգտվողի ֆայլերի տեղափոխում {0} ({1}/{2})</value>
+    <value>Õ•Õ£Õ¿Õ¾Õ¸Õ²Õ« Ö†Õ¡ÕµÕ¬Õ¥Ö€Õ« Õ¿Õ¥Õ²Õ¡ÖƒÕ¸Õ­Õ¸Ö‚Õ´ {0} ({1}/{2})</value>
   </data>
   <data name="MigrationCompleted" xml:space="preserve">
-    <value>Միգրացիան ավարտված է</value>
+    <value>Õ„Õ«Õ£Ö€Õ¡ÖÕ«Õ¡Õ¶ Õ¡Õ¾Õ¡Ö€Õ¿Õ¾Õ¡Õ® Õ§</value>
   </data>
   <data name="PreparingForMigration" xml:space="preserve">
-    <value>Պատրաստվում է միգրացիայի</value>
+    <value>ÕŠÕ¡Õ¿Ö€Õ¡Õ½Õ¿Õ¾Õ¸Ö‚Õ´ Õ§ Õ´Õ«Õ£Ö€Õ¡ÖÕ«Õ¡ÕµÕ«</value>
   </data>
   <data name="StartOfDataProcessing" xml:space="preserve">
-    <value>Սկսվում է տվյալների մշակումը...</value>
+    <value>ÕÕ¯Õ½Õ¾Õ¸Ö‚Õ´ Õ§ Õ¿Õ¾ÕµÕ¡Õ¬Õ¶Õ¥Ö€Õ« Õ´Õ·Õ¡Õ¯Õ¸Ö‚Õ´Õ¨...</value>
   </data>
   <data name="Unzipping" xml:space="preserve">
-    <value>Ապանեղմում...</value>
+    <value>Ô±ÕºÕ¡Õ¶Õ¥Õ²Õ´Õ¸Ö‚Õ´...</value>
   </data>
   <data name="UnzippingFinished" xml:space="preserve">
-    <value>Ապանեղմումը ավարտված է...</value>
+    <value>Ô±ÕºÕ¡Õ¶Õ¥Õ²Õ´Õ¸Ö‚Õ´Õ¨ Õ¡Õ¾Õ¡Ö€Õ¿Õ¾Õ¡Õ® Õ§...</value>
   </data>
   <data name="UserMigration" xml:space="preserve">
-    <value>Օգտվողների միգրացիա {0} ({1}/{2})</value>
+    <value>Õ•Õ£Õ¿Õ¾Õ¸Õ²Õ¶Õ¥Ö€Õ« Õ´Õ«Õ£Ö€Õ¡ÖÕ«Õ¡ {0} ({1}/{2})</value>
   </data>
   <data name="MigrationCommonFiles" xml:space="preserve">
-    <value>Ընդհանուր ֆայլերի միգրացիա</value>
+    <value>Ô¸Õ¶Õ¤Õ°Õ¡Õ¶Õ¸Ö‚Ö€ Ö†Õ¡ÕµÕ¬Õ¥Ö€Õ« Õ´Õ«Õ£Ö€Õ¡ÖÕ«Õ¡</value>
   </data>
   <data name="MigrationNotFoundException" xml:space="preserve">
-    <value>Նման միգրացիոն մատակարար չկա</value>
+    <value>Õ†Õ´Õ¡Õ¶ Õ´Õ«Õ£Ö€Õ¡ÖÕ«Õ¸Õ¶ Õ´Õ¡Õ¿Õ¡Õ¯Õ¡Ö€Õ¡Ö€ Õ¹Õ¯Õ¡</value>
   </data>
   <data name="MigrationProgressException" xml:space="preserve">
-    <value>Ոչ մի միգրացիա չի ընթանում</value>
+    <value>ÕˆÕ¹ Õ´Õ« Õ´Õ«Õ£Ö€Õ¡ÖÕ«Õ¡ Õ¹Õ« Õ¨Õ¶Õ©Õ¡Õ¶Õ¸Ö‚Õ´</value>
   </data>
   <data name="MigrationProjectFiles" xml:space="preserve">
-    <value>Միգրացիոն նախագծի ֆայլեր</value>
+    <value>Õ„Õ«Õ£Ö€Õ¡ÖÕ«Õ¸Õ¶ Õ¶Õ¡Õ­Õ¡Õ£Õ®Õ« Ö†Õ¡ÕµÕ¬Õ¥Ö€</value>
   </data>
   <data name="CanNotShare" xml:space="preserve">
-    <value>Չհաջողվեց կիսվել {0} գրառումով {1}-ի հետ</value>
+    <value>Õ‰Õ°Õ¡Õ»Õ¸Õ²Õ¾Õ¥Ö Õ¯Õ«Õ½Õ¾Õ¥Õ¬ {0} Õ£Ö€Õ¡Õ¼Õ¸Ö‚Õ´Õ¸Õ¾ {1}-Õ« Õ°Õ¥Õ¿</value>
   </data>
   <data name="CanNotAddUserInGroup" xml:space="preserve">
-    <value>Չհաջողվեց օգտվողին ավելացնել {0}  խմբին {1}</value>
+    <value>Õ‰Õ°Õ¡Õ»Õ¸Õ²Õ¾Õ¥Ö Ö…Õ£Õ¿Õ¾Õ¸Õ²Õ«Õ¶ Õ¡Õ¾Õ¥Õ¬Õ¡ÖÕ¶Õ¥Õ¬ {0}  Õ­Õ´Õ¢Õ«Õ¶ {1}</value>
   </data>
   <data name="CanNotCreateFile" xml:space="preserve">
-    <value>Չհաջողվեց ֆայլ ստեղծել {0}</value>
+    <value>Õ‰Õ°Õ¡Õ»Õ¸Õ²Õ¾Õ¥Ö Ö†Õ¡ÕµÕ¬ Õ½Õ¿Õ¥Õ²Õ®Õ¥Õ¬ {0}</value>
   </data>
   <data name="CanNotImportUser" xml:space="preserve">
-    <value>Չհաջողվեց ներմուծել օգտվողին</value>
+    <value>Õ‰Õ°Õ¡Õ»Õ¸Õ²Õ¾Õ¥Ö Õ¶Õ¥Ö€Õ´Õ¸Ö‚Õ®Õ¥Õ¬ Ö…Õ£Õ¿Õ¾Õ¸Õ²Õ«Õ¶</value>
   </data>
   <data name="CanNotImportUserFiles" xml:space="preserve">
-    <value>Չհաջողվեց ներմուծել օգտվողի ֆայլերը</value>
+    <value>Õ‰Õ°Õ¡Õ»Õ¸Õ²Õ¾Õ¥Ö Õ¶Õ¥Ö€Õ´Õ¸Ö‚Õ®Õ¥Õ¬ Ö…Õ£Õ¿Õ¾Õ¸Õ²Õ« Ö†Õ¡ÕµÕ¬Õ¥Ö€Õ¨</value>
   </data>
   <data name="CanNotParseArchive" xml:space="preserve">
-    <value>Չհաջողվեց վերլուծել {0} արխիվը</value>
+    <value>Õ‰Õ°Õ¡Õ»Õ¸Õ²Õ¾Õ¥Ö Õ¾Õ¥Ö€Õ¬Õ¸Ö‚Õ®Õ¥Õ¬ {0} Õ¡Ö€Õ­Õ«Õ¾Õ¨</value>
   </data>
   <data name="CanNotParseArchives" xml:space="preserve">
-    <value>Չհաջողվեց վերլուծել արխիվները</value>
+    <value>Õ‰Õ°Õ¡Õ»Õ¸Õ²Õ¾Õ¥Ö Õ¾Õ¥Ö€Õ¬Õ¸Ö‚Õ®Õ¥Õ¬ Õ¡Ö€Õ­Õ«Õ¾Õ¶Õ¥Ö€Õ¨</value>
   </data>
   <data name="CanNotParseUser" xml:space="preserve">
-    <value>Չհաջողվեց վերլուծել օգտվողին {0}</value>
+    <value>Õ‰Õ°Õ¡Õ»Õ¸Õ²Õ¾Õ¥Ö Õ¾Õ¥Ö€Õ¬Õ¸Ö‚Õ®Õ¥Õ¬ Ö…Õ£Õ¿Õ¾Õ¸Õ²Õ«Õ¶ {0}</value>
   </data>
   <data name="CanNotReadInfoFile" xml:space="preserve">
-    <value>Չհաջողվեց կարդալ ֆայլի տեղեկատվությունը {0}</value>
+    <value>Õ‰Õ°Õ¡Õ»Õ¸Õ²Õ¾Õ¥Ö Õ¯Õ¡Ö€Õ¤Õ¡Õ¬ Ö†Õ¡ÕµÕ¬Õ« Õ¿Õ¥Õ²Õ¥Õ¯Õ¡Õ¿Õ¾Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶Õ¨ {0}</value>
   </data>
   <data name="CanNotToUnzip" xml:space="preserve">
-    <value>Չհաջողվեց բացել {0}</value>
+    <value>Õ‰Õ°Õ¡Õ»Õ¸Õ²Õ¾Õ¥Ö Õ¢Õ¡ÖÕ¥Õ¬ {0}</value>
   </data>
   <data name="CreateFile" xml:space="preserve">
-    <value>Ստեղծել ֆայլ {0}</value>
+    <value>ÕÕ¿Õ¥Õ²Õ®Õ¥Õ¬ Ö†Õ¡ÕµÕ¬ {0}</value>
   </data>
   <data name="CreateFolder" xml:space="preserve">
-    <value>Ստեղծել պանակ {0}</value>
+    <value>ÕÕ¿Õ¥Õ²Õ®Õ¥Õ¬ ÕºÕ¡Õ¶Õ¡Õ¯ {0}</value>
   </data>
   <data name="CreateShareRoom" xml:space="preserve">
-    <value>ստեղծել ընդհանուր սենյակ {0}</value>
+    <value>Õ½Õ¿Õ¥Õ²Õ®Õ¥Õ¬ Õ¨Õ¶Õ¤Õ°Õ¡Õ¶Õ¸Ö‚Ö€ Õ½Õ¥Õ¶ÕµÕ¡Õ¯ {0}</value>
   </data>
-  <data name="СanNotImportCommonFiles" xml:space="preserve">
-    <value>Չհաջողվեց ներմուծել ընդհանուր ֆայլերը</value>
+  <data name="Ð¡anNotImportCommonFiles" xml:space="preserve">
+    <value>Õ‰Õ°Õ¡Õ»Õ¸Õ²Õ¾Õ¥Ö Õ¶Õ¥Ö€Õ´Õ¸Ö‚Õ®Õ¥Õ¬ Õ¨Õ¶Õ¤Õ°Õ¡Õ¶Õ¸Ö‚Ö€ Ö†Õ¡ÕµÕ¬Õ¥Ö€Õ¨</value>
   </data>
-  <data name="СanNotImportProjectFiles" xml:space="preserve">
-    <value>Չհաջողվեց ներմուծել նախագծի ֆայլերը</value>
+  <data name="Ð¡anNotImportProjectFiles" xml:space="preserve">
+    <value>Õ‰Õ°Õ¡Õ»Õ¸Õ²Õ¾Õ¥Ö Õ¶Õ¥Ö€Õ´Õ¸Ö‚Õ®Õ¥Õ¬ Õ¶Õ¡Õ­Õ¡Õ£Õ®Õ« Ö†Õ¡ÕµÕ¬Õ¥Ö€Õ¨</value>
   </data>
-  <data name="СreateRootFolder" xml:space="preserve">
-    <value>Ստեղծել արմատական թղթապանակ</value>
+  <data name="Ð¡reateRootFolder" xml:space="preserve">
+    <value>ÕÕ¿Õ¥Õ²Õ®Õ¥Õ¬ Õ¡Ö€Õ´Õ¡Õ¿Õ¡Õ¯Õ¡Õ¶ Õ©Õ²Õ©Õ¡ÕºÕ¡Õ¶Õ¡Õ¯</value>
   </data>
 </root>

@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -34,8 +34,8 @@ public class DataRowInfo(string tableName)
     public object this[int index] => _values[index];
     public object this[string columnName] => _values[GetIndex(columnName)];
 
-    private readonly List<string> _columnNames = new();
-    private readonly List<object> _values = new();
+    private readonly List<string> _columnNames = [];
+    private readonly List<object> _values = [];
 
     public void SetValue(string columnName, object item)
     {

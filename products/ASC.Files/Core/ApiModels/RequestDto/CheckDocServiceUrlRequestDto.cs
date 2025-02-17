@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -27,18 +27,22 @@
 namespace ASC.Files.Core.ApiModels.RequestDto;
 
 /// <summary>
+/// Request parameters for checking the document service location
 /// </summary>
 public class CheckDocServiceUrlRequestDto
 {
-    /// <summary>The Document Server address</summary>
-    /// <type>System.String, System</type>
+    /// <summary>
+    /// The Document Server address
+    /// </summary>
     public string DocServiceUrl { get; set; }
 
-    /// <summary>The Document Server address in the local private network</summary>
-    /// <type>System.String, System</type>
+    /// <summary>
+    /// The Document Server address in the local private network
+    /// </summary>
     public string DocServiceUrlInternal { get; set; }
 
-    /// <summary>The Community Server address</summary>
-    /// <type>System.String, System</type>
+    /// <summary>
+    /// The Community Server address
+    /// </summary>
     public string DocServiceUrlPortal { get; set; }
 }

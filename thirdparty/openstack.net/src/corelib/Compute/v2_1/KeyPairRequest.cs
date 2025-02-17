@@ -1,4 +1,4 @@
-﻿using Newtonsoft.Json;
+using Newtonsoft.Json;
 using OpenStack.Compute.v2_1.Serialization;
 
 namespace OpenStack.Compute.v2_1

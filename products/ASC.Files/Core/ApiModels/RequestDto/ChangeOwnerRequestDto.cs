@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -27,10 +27,12 @@
 namespace ASC.Files.Core.ApiModels.RequestDto;
 
 /// <summary>
+/// Request parameters for changing the file owner
 /// </summary>
 public class ChangeOwnerRequestDto : BaseBatchRequestDto
 {
-    /// <summary>New file owner ID</summary>
-    /// <type>System.Guid, System</type>
+    /// <summary>
+    /// New file owner ID
+    /// </summary>
     public Guid UserId { get; set; }
 }

@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -28,10 +28,7 @@ namespace ASC.Core.Common.Notify.Push.Dao;
 
 public class NotifyFolderData
 {
-    [JsonProperty("id")]
     public string Id { get; set; }
-    [JsonProperty("parentId")]
     public string ParentId { get; set; }
-    [JsonProperty("rootFolderType")]
     public int RootFolderType { get; set; }
 }

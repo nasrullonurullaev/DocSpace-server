@@ -1,4 +1,4 @@
-﻿namespace JSIStudios.SimpleRESTServices.Client
+namespace JSIStudios.SimpleRESTServices.Client
 {
     /// <summary>
     /// Represents the types of HTTP protocol methods that can be used with a REST request.

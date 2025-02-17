@@ -1,4 +1,4 @@
-﻿namespace JSIStudios.SimpleRESTServices.Client.Json
+namespace JSIStudios.SimpleRESTServices.Client.Json
 {
     /// <summary>
     /// Extends <see cref="RequestSettings"/> by setting the default <see cref="RequestSettings.ContentType"/>

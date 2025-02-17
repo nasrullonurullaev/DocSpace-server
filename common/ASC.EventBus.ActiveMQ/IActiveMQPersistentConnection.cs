@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -29,7 +29,7 @@ namespace ASC.EventBus.ActiveMQ;
 public interface IActiveMQPersistentConnection
 {
     bool IsConnected { get; }
-    bool TryConnect();
-    ISession CreateSession(AcknowledgementMode acknowledgementMode);
-    ISession CreateSession();
+    Task<bool> TryConnectAsync();
+    Task<ISession> CreateSessionAsync(AcknowledgementMode acknowledgementMode);
+    Task<ISession> CreateSessionAsync();
 }

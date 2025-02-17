@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -44,6 +44,15 @@ public class LoginSettings : ISettings<LoginSettings>
             BlockTime = 60,
             CheckPeriod = 60
         };
+    }
+
+    public bool IsDefault
+    {
+        get
+        {
+            var def = GetDefault();
+            return def.AttemptCount == AttemptCount && def.BlockTime == BlockTime && def.CheckPeriod == CheckPeriod;
+        }
     }
 }
 

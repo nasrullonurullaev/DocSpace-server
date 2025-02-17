@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -26,12 +26,11 @@
 
 namespace ASC.Web.Api.ApiModels.ResponseDto;
 
-/// <summary>
-/// </summary>
 public class LdapCronSettingsDto : IMapFrom<LdapCronSettings>
 {
-    /// <summary>Cron expression</summary>
-    /// <type>System.String, System</type>
+    /// <summary>
+    /// Cron expression
+    /// </summary>
     public string Cron { get; set; }
     public void Mapping(Profile profile)
     {

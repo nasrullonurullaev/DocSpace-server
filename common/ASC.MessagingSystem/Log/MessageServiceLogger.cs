@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -27,6 +27,6 @@
 namespace ASC.MessagingSystem.Log;
 internal static partial class MessageServiceLogger
 {
-    [LoggerMessage(Level = LogLevel.Debug, Message = "Empty Http Request for \"{action}\" type of event")]
+    [LoggerMessage(LogLevel.Debug, "Empty Http Request for \"{action}\" type of event")]
     public static partial void DebugEmptyHttpRequest(this ILogger<MessageService> logger, MessageAction action);
 }

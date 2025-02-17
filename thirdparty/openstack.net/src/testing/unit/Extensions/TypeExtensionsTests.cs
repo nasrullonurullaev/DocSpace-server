@@ -1,4 +1,4 @@
-﻿using System.Extensions;
+using System.Extensions;
 using Xunit;
 
 namespace OpenStack.Extensions

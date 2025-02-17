@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -27,10 +27,12 @@
 namespace ASC.Web.Api.ApiModels.RequestsDto;
 
 /// <summary>
+/// Request parameters for portal renaming
 /// </summary>
 public class PortalRenameRequestsDto
 {
-    /// <summary>Portal name</summary>
-    /// <type>System.String, System</type>
+    /// <summary>
+    /// Portal name
+    /// </summary>
     public string Alias { get; set; }
 }

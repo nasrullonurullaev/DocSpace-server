@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -27,9 +27,9 @@
 namespace ASC.Data.Backup.Core.Log;
 internal static partial class FilesModuleSpecificsLogger
 {
-    [LoggerMessage(Level = LogLevel.Error, Message = "Can not prepare data {data}")]
+    [LoggerMessage(LogLevel.Error, "Can not prepare data {data}")]
     public static partial void ErrorCanNotPrepareData(this ILogger<ModuleProvider> logger, string data, Exception exception);
 
-    [LoggerMessage(Level = LogLevel.Error, Message = "Can not prepare value {value}")]
+    [LoggerMessage(LogLevel.Error, "Can not prepare value {value}")]
     public static partial void ErrorCanNotPrepareValue(this ILogger<ModuleProvider> logger, object value, Exception exception);
 }

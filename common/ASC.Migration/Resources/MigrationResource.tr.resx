@@ -118,96 +118,96 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="DumpParse" xml:space="preserve">
-    <value>Veritabanı ayrıştırma</value>
+    <value>VeritabanÄ± ayrÄ±ÅŸtÄ±rma</value>
   </data>
   <data name="GroupMigration" xml:space="preserve">
-    <value>Grup taşıma {0} ({1}/{2})</value>
+    <value>Grup taÅŸÄ±ma {0} ({1}/{2})</value>
   </data>
   <data name="MigratingUserFiles" xml:space="preserve">
-    <value>Kullanıcı dosyaları taşınıyor {0} ({1}/{2})</value>
+    <value>KullanÄ±cÄ± dosyalarÄ± taÅŸÄ±nÄ±yor {0} ({1}/{2})</value>
   </data>
   <data name="MigrationCompleted" xml:space="preserve">
-    <value>Taşıma tamamlandı</value>
+    <value>TaÅŸÄ±ma tamamlandÄ±</value>
   </data>
   <data name="DataProcessingCompleted" xml:space="preserve">
-    <value>Veri işleme tamamlandı</value>
+    <value>Veri iÅŸleme tamamlandÄ±</value>
   </data>
   <data name="DataProcessing" xml:space="preserve">
-    <value>Veri işleniyor...</value>
+    <value>Veri iÅŸleniyor...</value>
   </data>
   <data name="PreparingForMigration" xml:space="preserve">
-    <value>Geçiş için hazırlanıyor</value>
+    <value>GeÃ§iÅŸ iÃ§in hazÄ±rlanÄ±yor</value>
   </data>
   <data name="StartOfDataProcessing" xml:space="preserve">
-    <value>Veri işleme başlatılıyor...</value>
+    <value>Veri iÅŸleme baÅŸlatÄ±lÄ±yor...</value>
   </data>
   <data name="UnzippingFinished" xml:space="preserve">
-    <value>Sıkıştırılmış dosya açma tamamlandı...</value>
+    <value>SÄ±kÄ±ÅŸtÄ±rÄ±lmÄ±ÅŸ dosya aÃ§ma tamamlandÄ±...</value>
   </data>
   <data name="Unzipping" xml:space="preserve">
-    <value>Sıkıştırılmış dosyalar açılıyor...</value>
+    <value>SÄ±kÄ±ÅŸtÄ±rÄ±lmÄ±ÅŸ dosyalar aÃ§Ä±lÄ±yor...</value>
   </data>
   <data name="UserMigration" xml:space="preserve">
-    <value>Kullanıcı taşıma {0} ({1}/{2})</value>
+    <value>KullanÄ±cÄ± taÅŸÄ±ma {0} ({1}/{2})</value>
   </data>
   <data name="MigrationCommonFiles" xml:space="preserve">
-    <value>Migrasyon ortak dosyaları</value>
+    <value>Migrasyon ortak dosyalarÄ±</value>
   </data>
   <data name="MigrationNotFoundException" xml:space="preserve">
-    <value>Böyle bir migrasyon sağlayıcısı yok</value>
+    <value>BÃ¶yle bir migrasyon saÄŸlayÄ±cÄ±sÄ± yok</value>
   </data>
   <data name="MigrationProgressException" xml:space="preserve">
-    <value>Devam eden bir migrasyon işlemi yok</value>
+    <value>Devam eden bir migrasyon iÅŸlemi yok</value>
   </data>
   <data name="MigrationProjectFiles" xml:space="preserve">
-    <value>Migrasyon projesi dosyaları</value>
+    <value>Migrasyon projesi dosyalarÄ±</value>
   </data>
   <data name="CanNotAddUserInGroup" xml:space="preserve">
-    <value>{0} kullanıcısı {1} grubuna eklenemedi</value>
+    <value>{0} kullanÄ±cÄ±sÄ± {1} grubuna eklenemedi</value>
   </data>
   <data name="CanNotCreateFile" xml:space="preserve">
-    <value>{0} dosyası oluşturulamadı</value>
+    <value>{0} dosyasÄ± oluÅŸturulamadÄ±</value>
   </data>
   <data name="CanNotImportUser" xml:space="preserve">
-    <value>Kullanıcı içe aktarılamadı</value>
+    <value>KullanÄ±cÄ± iÃ§e aktarÄ±lamadÄ±</value>
   </data>
   <data name="CanNotImportUserFiles" xml:space="preserve">
-    <value>Kullanıcı dosyaları içe aktarılamadı</value>
+    <value>KullanÄ±cÄ± dosyalarÄ± iÃ§e aktarÄ±lamadÄ±</value>
   </data>
   <data name="CanNotParseArchive" xml:space="preserve">
-    <value>{0} arşivi çözümlenemedi</value>
+    <value>{0} arÅŸivi Ã§Ã¶zÃ¼mlenemedi</value>
   </data>
   <data name="CanNotParseArchives" xml:space="preserve">
-    <value>Arşivler çözümlenemedi</value>
+    <value>ArÅŸivler Ã§Ã¶zÃ¼mlenemedi</value>
   </data>
   <data name="CanNotParseUser" xml:space="preserve">
-    <value>Kullanıcı {0} çözümlenemedi</value>
+    <value>KullanÄ±cÄ± {0} Ã§Ã¶zÃ¼mlenemedi</value>
   </data>
   <data name="CanNotReadInfoFile" xml:space="preserve">
-    <value>{0} konumundan bilgi dosyası okunamadı</value>
+    <value>{0} konumundan bilgi dosyasÄ± okunamadÄ±</value>
   </data>
   <data name="CanNotShare" xml:space="preserve">
-    <value>{0} girdisi {1} ile paylaşılamadı</value>
+    <value>{0} girdisi {1} ile paylaÅŸÄ±lamadÄ±</value>
   </data>
   <data name="CanNotToUnzip" xml:space="preserve">
-    <value>{0} açılamadı</value>
+    <value>{0} aÃ§Ä±lamadÄ±</value>
   </data>
   <data name="CreateFile" xml:space="preserve">
-    <value>{0} dosyasını oluştur</value>
+    <value>{0} dosyasÄ±nÄ± oluÅŸtur</value>
   </data>
   <data name="CreateFolder" xml:space="preserve">
-    <value>{0} klasörünü oluştur</value>
+    <value>{0} klasÃ¶rÃ¼nÃ¼ oluÅŸtur</value>
   </data>
   <data name="CreateShareRoom" xml:space="preserve">
-    <value>{0} ortak odasını oluştur</value>
+    <value>{0} ortak odasÄ±nÄ± oluÅŸtur</value>
   </data>
-  <data name="СanNotImportCommonFiles" xml:space="preserve">
-    <value>Ortak dosyalar içe aktarılamadı</value>
+  <data name="Ð¡anNotImportCommonFiles" xml:space="preserve">
+    <value>Ortak dosyalar iÃ§e aktarÄ±lamadÄ±</value>
   </data>
-  <data name="СanNotImportProjectFiles" xml:space="preserve">
-    <value>Proje dosyaları içe aktarılamadı</value>
+  <data name="Ð¡anNotImportProjectFiles" xml:space="preserve">
+    <value>Proje dosyalarÄ± iÃ§e aktarÄ±lamadÄ±</value>
   </data>
-  <data name="СreateRootFolder" xml:space="preserve">
-    <value>Kök klasör oluştur</value>
+  <data name="Ð¡reateRootFolder" xml:space="preserve">
+    <value>KÃ¶k klasÃ¶r oluÅŸtur</value>
   </data>
 </root>

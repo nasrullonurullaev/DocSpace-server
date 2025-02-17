@@ -118,12 +118,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BackupNotFound" xml:space="preserve">
-    <value>Файл резервної копії недійсний. Використайте файл, створений в ONLYOFFICE v11.5 або пізнішої версії.</value>
+    <value>Ð¤Ð°Ð¹Ð» Ñ€ÐµÐ·ÐµÑ€Ð²Ð½Ð¾Ñ— ÐºÐ¾Ð¿Ñ–Ñ— Ð½ÐµÐ´Ñ–Ð¹ÑÐ½Ð¸Ð¹. Ð’Ð¸ÐºÐ¾Ñ€Ð¸ÑÑ‚Ð°Ð¹Ñ‚Ðµ Ñ„Ð°Ð¹Ð», ÑÑ‚Ð²Ð¾Ñ€ÐµÐ½Ð¸Ð¹ Ð² ONLYOFFICE v11.5 Ð°Ð±Ð¾ Ð¿Ñ–Ð·Ð½Ñ–ÑˆÐ¾Ñ— Ð²ÐµÑ€ÑÑ–Ñ—.</value>
   </data>
   <data name="ButtonSetPassword" xml:space="preserve">
-    <value>Встановити пароль</value>
+    <value>Ð’ÑÑ‚Ð°Ð½Ð¾Ð²Ð¸Ñ‚Ð¸ Ð¿Ð°Ñ€Ð¾Ð»ÑŒ</value>
   </data>
   <data name="LargeBackup" xml:space="preserve">
-    <value>Резервна копія перевищує загальний розмір порталу</value>
+    <value>Ð ÐµÐ·ÐµÑ€Ð²Ð½Ð° ÐºÐ¾Ð¿Ñ–Ñ Ð¿ÐµÑ€ÐµÐ²Ð¸Ñ‰ÑƒÑ” Ð·Ð°Ð³Ð°Ð»ÑŒÐ½Ð¸Ð¹ Ñ€Ð¾Ð·Ð¼Ñ–Ñ€ Ð¿Ð¾Ñ€Ñ‚Ð°Ð»Ñƒ</value>
   </data>
 </root>

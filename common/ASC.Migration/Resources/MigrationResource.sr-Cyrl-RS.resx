@@ -118,96 +118,96 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="DataProcessing" xml:space="preserve">
-    <value>Обрада података...</value>
+    <value>ÐžÐ±Ñ€Ð°Ð´Ð° Ð¿Ð¾Ð´Ð°Ñ‚Ð°ÐºÐ°...</value>
   </data>
   <data name="DataProcessingCompleted" xml:space="preserve">
-    <value>Обрада података завршена</value>
+    <value>ÐžÐ±Ñ€Ð°Ð´Ð° Ð¿Ð¾Ð´Ð°Ñ‚Ð°ÐºÐ° Ð·Ð°Ð²Ñ€ÑˆÐµÐ½Ð°</value>
   </data>
   <data name="DumpParse" xml:space="preserve">
-    <value>Рашчлањивање базе података</value>
+    <value>Ð Ð°ÑˆÑ‡Ð»Ð°ÑšÐ¸Ð²Ð°ÑšÐµ Ð±Ð°Ð·Ðµ Ð¿Ð¾Ð´Ð°Ñ‚Ð°ÐºÐ°</value>
   </data>
   <data name="GroupMigration" xml:space="preserve">
-    <value>Миграција групе {0} ({1}/{2})</value>
+    <value>ÐœÐ¸Ð³Ñ€Ð°Ñ†Ð¸Ñ˜Ð° Ð³Ñ€ÑƒÐ¿Ðµ {0} ({1}/{2})</value>
   </data>
   <data name="MigratingUserFiles" xml:space="preserve">
-    <value>Миграција корисничких датотека {0} ({1}/{2})</value>
+    <value>ÐœÐ¸Ð³Ñ€Ð°Ñ†Ð¸Ñ˜Ð° ÐºÐ¾Ñ€Ð¸ÑÐ½Ð¸Ñ‡ÐºÐ¸Ñ… Ð´Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐ° {0} ({1}/{2})</value>
   </data>
   <data name="MigrationCommonFiles" xml:space="preserve">
-    <value>Миграција заједничких датотека</value>
+    <value>ÐœÐ¸Ð³Ñ€Ð°Ñ†Ð¸Ñ˜Ð° Ð·Ð°Ñ˜ÐµÐ´Ð½Ð¸Ñ‡ÐºÐ¸Ñ… Ð´Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐ°</value>
   </data>
   <data name="MigrationCompleted" xml:space="preserve">
-    <value>Миграција завршена</value>
+    <value>ÐœÐ¸Ð³Ñ€Ð°Ñ†Ð¸Ñ˜Ð° Ð·Ð°Ð²Ñ€ÑˆÐµÐ½Ð°</value>
   </data>
   <data name="MigrationNotFoundException" xml:space="preserve">
-    <value>Не постоји такав провајдер миграције</value>
+    <value>ÐÐµ Ð¿Ð¾ÑÑ‚Ð¾Ñ˜Ð¸ Ñ‚Ð°ÐºÐ°Ð² Ð¿Ñ€Ð¾Ð²Ð°Ñ˜Ð´ÐµÑ€ Ð¼Ð¸Ð³Ñ€Ð°Ñ†Ð¸Ñ˜Ðµ</value>
   </data>
   <data name="MigrationProgressException" xml:space="preserve">
-    <value>Нема миграције у прогресу</value>
+    <value>ÐÐµÐ¼Ð° Ð¼Ð¸Ð³Ñ€Ð°Ñ†Ð¸Ñ˜Ðµ Ñƒ Ð¿Ñ€Ð¾Ð³Ñ€ÐµÑÑƒ</value>
   </data>
   <data name="MigrationProjectFiles" xml:space="preserve">
-    <value>Миграција пројектних датотека</value>
+    <value>ÐœÐ¸Ð³Ñ€Ð°Ñ†Ð¸Ñ˜Ð° Ð¿Ñ€Ð¾Ñ˜ÐµÐºÑ‚Ð½Ð¸Ñ… Ð´Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐ°</value>
   </data>
   <data name="PreparingForMigration" xml:space="preserve">
-    <value>Припрема за миграцију</value>
+    <value>ÐŸÑ€Ð¸Ð¿Ñ€ÐµÐ¼Ð° Ð·Ð° Ð¼Ð¸Ð³Ñ€Ð°Ñ†Ð¸Ñ˜Ñƒ</value>
   </data>
   <data name="StartOfDataProcessing" xml:space="preserve">
-    <value>Почетак обраде података...</value>
+    <value>ÐŸÐ¾Ñ‡ÐµÑ‚Ð°Ðº Ð¾Ð±Ñ€Ð°Ð´Ðµ Ð¿Ð¾Ð´Ð°Ñ‚Ð°ÐºÐ°...</value>
   </data>
   <data name="Unzipping" xml:space="preserve">
-    <value>Разрешавање (декомпресовање)...</value>
+    <value>Ð Ð°Ð·Ñ€ÐµÑˆÐ°Ð²Ð°ÑšÐµ (Ð´ÐµÐºÐ¾Ð¼Ð¿Ñ€ÐµÑÐ¾Ð²Ð°ÑšÐµ)...</value>
   </data>
   <data name="UnzippingFinished" xml:space="preserve">
-    <value>Разрешавање (декомпресовање) завршено...</value>
+    <value>Ð Ð°Ð·Ñ€ÐµÑˆÐ°Ð²Ð°ÑšÐµ (Ð´ÐµÐºÐ¾Ð¼Ð¿Ñ€ÐµÑÐ¾Ð²Ð°ÑšÐµ) Ð·Ð°Ð²Ñ€ÑˆÐµÐ½Ð¾...</value>
   </data>
   <data name="UserMigration" xml:space="preserve">
-    <value>Миграција корисника {0} ({1}/{2})</value>
+    <value>ÐœÐ¸Ð³Ñ€Ð°Ñ†Ð¸Ñ˜Ð° ÐºÐ¾Ñ€Ð¸ÑÐ½Ð¸ÐºÐ° {0} ({1}/{2})</value>
   </data>
   <data name="CanNotAddUserInGroup" xml:space="preserve">
-    <value>Није могуће додати корисника {0} у групу {1}</value>
+    <value>ÐÐ¸Ñ˜Ðµ Ð¼Ð¾Ð³ÑƒÑ›Ðµ Ð´Ð¾Ð´Ð°Ñ‚Ð¸ ÐºÐ¾Ñ€Ð¸ÑÐ½Ð¸ÐºÐ° {0} Ñƒ Ð³Ñ€ÑƒÐ¿Ñƒ {1}</value>
   </data>
   <data name="CanNotCreateFile" xml:space="preserve">
-    <value>Није могуће креирати датотеку {0}</value>
+    <value>ÐÐ¸Ñ˜Ðµ Ð¼Ð¾Ð³ÑƒÑ›Ðµ ÐºÑ€ÐµÐ¸Ñ€Ð°Ñ‚Ð¸ Ð´Ð°Ñ‚Ð¾Ñ‚ÐµÐºÑƒ {0}</value>
   </data>
   <data name="CanNotImportUser" xml:space="preserve">
-    <value>Није могуће увести корисника</value>
+    <value>ÐÐ¸Ñ˜Ðµ Ð¼Ð¾Ð³ÑƒÑ›Ðµ ÑƒÐ²ÐµÑÑ‚Ð¸ ÐºÐ¾Ñ€Ð¸ÑÐ½Ð¸ÐºÐ°</value>
   </data>
   <data name="CanNotImportUserFiles" xml:space="preserve">
-    <value>Није могуће увести корисничке датотеке</value>
+    <value>ÐÐ¸Ñ˜Ðµ Ð¼Ð¾Ð³ÑƒÑ›Ðµ ÑƒÐ²ÐµÑÑ‚Ð¸ ÐºÐ¾Ñ€Ð¸ÑÐ½Ð¸Ñ‡ÐºÐµ Ð´Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐµ</value>
   </data>
   <data name="CanNotParseArchive" xml:space="preserve">
-    <value>Није могуће обрадити {0} архиву</value>
+    <value>ÐÐ¸Ñ˜Ðµ Ð¼Ð¾Ð³ÑƒÑ›Ðµ Ð¾Ð±Ñ€Ð°Ð´Ð¸Ñ‚Ð¸ {0} Ð°Ñ€Ñ…Ð¸Ð²Ñƒ</value>
   </data>
   <data name="CanNotParseArchives" xml:space="preserve">
-    <value>Није могуће обрадити архиве</value>
+    <value>ÐÐ¸Ñ˜Ðµ Ð¼Ð¾Ð³ÑƒÑ›Ðµ Ð¾Ð±Ñ€Ð°Ð´Ð¸Ñ‚Ð¸ Ð°Ñ€Ñ…Ð¸Ð²Ðµ</value>
   </data>
   <data name="CanNotParseUser" xml:space="preserve">
-    <value>Није могуће обрадити корисника {0}</value>
+    <value>ÐÐ¸Ñ˜Ðµ Ð¼Ð¾Ð³ÑƒÑ›Ðµ Ð¾Ð±Ñ€Ð°Ð´Ð¸Ñ‚Ð¸ ÐºÐ¾Ñ€Ð¸ÑÐ½Ð¸ÐºÐ° {0}</value>
   </data>
   <data name="CanNotReadInfoFile" xml:space="preserve">
-    <value>Није могуће читати информативну датотеку са {0}</value>
+    <value>ÐÐ¸Ñ˜Ðµ Ð¼Ð¾Ð³ÑƒÑ›Ðµ Ñ‡Ð¸Ñ‚Ð°Ñ‚Ð¸ Ð¸Ð½Ñ„Ð¾Ñ€Ð¼Ð°Ñ‚Ð¸Ð²Ð½Ñƒ Ð´Ð°Ñ‚Ð¾Ñ‚ÐµÐºÑƒ ÑÐ° {0}</value>
   </data>
   <data name="CanNotShare" xml:space="preserve">
-    <value>Није могуће поделити унос {0} на {1}</value>
+    <value>ÐÐ¸Ñ˜Ðµ Ð¼Ð¾Ð³ÑƒÑ›Ðµ Ð¿Ð¾Ð´ÐµÐ»Ð¸Ñ‚Ð¸ ÑƒÐ½Ð¾Ñ {0} Ð½Ð° {1}</value>
   </data>
   <data name="CanNotToUnzip" xml:space="preserve">
-    <value>Није могуће распаковати {0}</value>
+    <value>ÐÐ¸Ñ˜Ðµ Ð¼Ð¾Ð³ÑƒÑ›Ðµ Ñ€Ð°ÑÐ¿Ð°ÐºÐ¾Ð²Ð°Ñ‚Ð¸ {0}</value>
   </data>
   <data name="CreateFile" xml:space="preserve">
-    <value>Креирај датотеку {0}</value>
+    <value>ÐšÑ€ÐµÐ¸Ñ€Ð°Ñ˜ Ð´Ð°Ñ‚Ð¾Ñ‚ÐµÐºÑƒ {0}</value>
   </data>
   <data name="CreateFolder" xml:space="preserve">
-    <value>Креирај фолдер {0}</value>
+    <value>ÐšÑ€ÐµÐ¸Ñ€Ð°Ñ˜ Ñ„Ð¾Ð»Ð´ÐµÑ€ {0}</value>
   </data>
   <data name="CreateShareRoom" xml:space="preserve">
-    <value>креирај заједничку просторију {0}</value>
+    <value>ÐºÑ€ÐµÐ¸Ñ€Ð°Ñ˜ Ð·Ð°Ñ˜ÐµÐ´Ð½Ð¸Ñ‡ÐºÑƒ Ð¿Ñ€Ð¾ÑÑ‚Ð¾Ñ€Ð¸Ñ˜Ñƒ {0}</value>
   </data>
-  <data name="СanNotImportCommonFiles" xml:space="preserve">
-    <value>Није могуће увести заједничке датотеке</value>
+  <data name="Ð¡anNotImportCommonFiles" xml:space="preserve">
+    <value>ÐÐ¸Ñ˜Ðµ Ð¼Ð¾Ð³ÑƒÑ›Ðµ ÑƒÐ²ÐµÑÑ‚Ð¸ Ð·Ð°Ñ˜ÐµÐ´Ð½Ð¸Ñ‡ÐºÐµ Ð´Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐµ</value>
   </data>
-  <data name="СanNotImportProjectFiles" xml:space="preserve">
-    <value>Није могуће увести датотеке пројекта</value>
+  <data name="Ð¡anNotImportProjectFiles" xml:space="preserve">
+    <value>ÐÐ¸Ñ˜Ðµ Ð¼Ð¾Ð³ÑƒÑ›Ðµ ÑƒÐ²ÐµÑÑ‚Ð¸ Ð´Ð°Ñ‚Ð¾Ñ‚ÐµÐºÐµ Ð¿Ñ€Ð¾Ñ˜ÐµÐºÑ‚Ð°</value>
   </data>
-  <data name="СreateRootFolder" xml:space="preserve">
-    <value>Креирај роот фолдер</value>
+  <data name="Ð¡reateRootFolder" xml:space="preserve">
+    <value>ÐšÑ€ÐµÐ¸Ñ€Ð°Ñ˜ Ñ€Ð¾Ð¾Ñ‚ Ñ„Ð¾Ð»Ð´ÐµÑ€</value>
   </data>
 </root>

@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -109,6 +109,26 @@ module.exports = (files) => {
 
   router.post("/logout-session", (req, res) => {
     files.logoutSession(req.body);
+    res.end();
+  });
+
+  router.post("/backup-progress", (req, res) => {
+    files.backupProgress(req.body);
+    res.end();
+  });
+
+  router.post("/restore-progress", (req, res) => {
+    files.restoreProgress(req.body);
+    res.end();
+  });
+
+  router.post("/end-backup", (req, res) => {
+    files.endBackup(req.body);
+    res.end();
+  });
+
+  router.post("/end-restore", (req, res) => {
+    files.endRestore(req.body);
     res.end();
   });
 

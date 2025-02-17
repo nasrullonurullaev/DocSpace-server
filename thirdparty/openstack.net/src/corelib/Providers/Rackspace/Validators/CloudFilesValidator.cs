@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using net.openstack.Core;
 using net.openstack.Core.Exceptions;
 using net.openstack.Core.Validators;

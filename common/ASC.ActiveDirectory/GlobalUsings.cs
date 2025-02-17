@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -85,5 +85,3 @@ global using Novell.Directory.Ldap;
 global using Novell.Directory.Ldap.Controls;
 global using Novell.Directory.Ldap.Rfc2251;
 global using Novell.Directory.Ldap.Utilclass;
-
-global using ByteConverter = ASC.Core.Common.ByteConverter;

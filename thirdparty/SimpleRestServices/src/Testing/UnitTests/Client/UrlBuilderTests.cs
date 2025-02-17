@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using JSIStudios.SimpleRESTServices.Client;
 using Microsoft.VisualStudio.TestTools.UnitTesting;

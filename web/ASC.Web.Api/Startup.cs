@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -40,9 +40,10 @@ public class Startup : BaseStartup
         }
     }
 
-    public override async Task ConfigureServices(IServiceCollection services)
+    public override async Task ConfigureServices(WebApplicationBuilder builder)
     {
-        await base.ConfigureServices(services);
+        var services = builder.Services;
+        await base.ConfigureServices(builder);
 
         if (!_configuration.GetValue<bool>("disableLdapNotifyService"))
         {

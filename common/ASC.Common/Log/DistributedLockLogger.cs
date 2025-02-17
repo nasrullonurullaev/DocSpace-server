@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -28,9 +28,9 @@ namespace ASC.Common.Log;
 
 internal static partial class DistributedLockLogger
 {
-    [LoggerMessage(Level = LogLevel.Debug, Message = "Distributed lock acquired. Resource: '{resource}'. Elapsed: {elapsedMilliseconds} ms")]
+    [LoggerMessage(LogLevel.Debug, "Distributed lock acquired. Resource: '{resource}'. Elapsed: {elapsedMilliseconds} ms")]
     public static partial void DebugTryAcquireLock(this ILogger logger, string resource, long elapsedMilliseconds);
     
-    [LoggerMessage(Level = LogLevel.Error, Message = "Distributed lock not acquired. Resource: '{resource}'. Elapsed: {elapsedMilliseconds} ms")]
+    [LoggerMessage(LogLevel.Error, "Distributed lock not acquired. Resource: '{resource}'. Elapsed: {elapsedMilliseconds} ms")]
     public static partial void ErrorTryAcquireLock(this ILogger logger, string resource, long elapsedMilliseconds);
 }

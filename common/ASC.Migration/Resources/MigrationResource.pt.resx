@@ -124,73 +124,73 @@
     <value>A processar os dados...</value>
   </data>
   <data name="DumpParse" xml:space="preserve">
-    <value>Análise da base de dados</value>
+    <value>AnÃ¡lise da base de dados</value>
   </data>
   <data name="GroupMigration" xml:space="preserve">
-    <value>Migração do grupo {0} ({1}/{2})</value>
+    <value>MigraÃ§Ã£o do grupo {0} ({1}/{2})</value>
   </data>
   <data name="MigratingUserFiles" xml:space="preserve">
     <value>A migrar os ficheiros do utilizador {0} ({1}/{2})</value>
   </data>
   <data name="MigrationCompleted" xml:space="preserve">
-    <value>Migração completada</value>
+    <value>MigraÃ§Ã£o completada</value>
   </data>
   <data name="PreparingForMigration" xml:space="preserve">
-    <value>A preparar a migração</value>
+    <value>A preparar a migraÃ§Ã£o</value>
   </data>
   <data name="StartOfDataProcessing" xml:space="preserve">
     <value>A iniciar o processamento de dados...</value>
   </data>
   <data name="UnzippingFinished" xml:space="preserve">
-    <value>Descompactação completa...</value>
+    <value>DescompactaÃ§Ã£o completa...</value>
   </data>
   <data name="Unzipping" xml:space="preserve">
     <value>A Descompactar...</value>
   </data>
   <data name="UserMigration" xml:space="preserve">
-    <value>Migração do Utilizador {0} ({1}/{2})</value>
+    <value>MigraÃ§Ã£o do Utilizador {0} ({1}/{2})</value>
   </data>
   <data name="MigrationCommonFiles" xml:space="preserve">
-    <value>Arquivos comuns de migração</value>
+    <value>Arquivos comuns de migraÃ§Ã£o</value>
   </data>
   <data name="MigrationNotFoundException" xml:space="preserve">
-    <value>Nenhum provedor de migração</value>
+    <value>Nenhum provedor de migraÃ§Ã£o</value>
   </data>
   <data name="MigrationProgressException" xml:space="preserve">
-    <value>Nenhuma migração está em andamento</value>
+    <value>Nenhuma migraÃ§Ã£o estÃ¡ em andamento</value>
   </data>
   <data name="MigrationProjectFiles" xml:space="preserve">
-    <value>Arquivos de projeto de migração</value>
+    <value>Arquivos de projeto de migraÃ§Ã£o</value>
   </data>
   <data name="CanNotAddUserInGroup" xml:space="preserve">
-    <value>Não foi possível adicionar o usuário {0} ao grupo {1}</value>
+    <value>NÃ£o foi possÃ­vel adicionar o usuÃ¡rio {0} ao grupo {1}</value>
   </data>
   <data name="CanNotCreateFile" xml:space="preserve">
-    <value>Não foi possível criar o arquivo {0}</value>
+    <value>NÃ£o foi possÃ­vel criar o arquivo {0}</value>
   </data>
   <data name="CanNotImportUser" xml:space="preserve">
-    <value>Não foi possível importar o usuário</value>
+    <value>NÃ£o foi possÃ­vel importar o usuÃ¡rio</value>
   </data>
   <data name="CanNotImportUserFiles" xml:space="preserve">
-    <value>Não foi possível importar os arquivos do usuário</value>
+    <value>NÃ£o foi possÃ­vel importar os arquivos do usuÃ¡rio</value>
   </data>
   <data name="CanNotParseArchive" xml:space="preserve">
-    <value>Não foi possível analisar o arquivo {0}</value>
+    <value>NÃ£o foi possÃ­vel analisar o arquivo {0}</value>
   </data>
   <data name="CanNotParseArchives" xml:space="preserve">
-    <value>Não foi possível analisar os arquivos</value>
+    <value>NÃ£o foi possÃ­vel analisar os arquivos</value>
   </data>
   <data name="CanNotParseUser" xml:space="preserve">
-    <value>Não foi possível analisar o usuário {0}</value>
+    <value>NÃ£o foi possÃ­vel analisar o usuÃ¡rio {0}</value>
   </data>
   <data name="CanNotReadInfoFile" xml:space="preserve">
-    <value>Não foi possível ler o arquivo de informações de {0}</value>
+    <value>NÃ£o foi possÃ­vel ler o arquivo de informaÃ§Ãµes de {0}</value>
   </data>
   <data name="CanNotShare" xml:space="preserve">
-    <value>Não foi possível compartilhar a entrada {0} com {1}</value>
+    <value>NÃ£o foi possÃ­vel compartilhar a entrada {0} com {1}</value>
   </data>
   <data name="CanNotToUnzip" xml:space="preserve">
-    <value>Não foi possível descompactar {0}</value>
+    <value>NÃ£o foi possÃ­vel descompactar {0}</value>
   </data>
   <data name="CreateFile" xml:space="preserve">
     <value>Criar arquivo {0}</value>
@@ -201,13 +201,13 @@
   <data name="CreateShareRoom" xml:space="preserve">
     <value>criar sala compartilhada {0}</value>
   </data>
-  <data name="СanNotImportCommonFiles" xml:space="preserve">
-    <value>Não foi possível importar arquivos comuns</value>
+  <data name="Ð¡anNotImportCommonFiles" xml:space="preserve">
+    <value>NÃ£o foi possÃ­vel importar arquivos comuns</value>
   </data>
-  <data name="СanNotImportProjectFiles" xml:space="preserve">
-    <value>Não foi possível importar os arquivos do projeto</value>
+  <data name="Ð¡anNotImportProjectFiles" xml:space="preserve">
+    <value>NÃ£o foi possÃ­vel importar os arquivos do projeto</value>
   </data>
-  <data name="СreateRootFolder" xml:space="preserve">
+  <data name="Ð¡reateRootFolder" xml:space="preserve">
     <value>Criar pasta raiz</value>
   </data>
 </root>

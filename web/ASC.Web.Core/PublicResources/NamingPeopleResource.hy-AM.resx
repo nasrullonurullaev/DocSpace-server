@@ -118,102 +118,102 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="CommonAddUsers" xml:space="preserve">
-    <value>Ավելացնել օգտվողներ</value>
+    <value>Ô±Õ¾Õ¥Õ¬Õ¡ÖÕ¶Õ¥Õ¬ Ö…Õ£Õ¿Õ¾Õ¸Õ²Õ¶Õ¥Ö€</value>
   </data>
   <data name="CommonGroup" xml:space="preserve">
-    <value>Խումբ</value>
+    <value>Ô½Õ¸Ö‚Õ´Õ¢</value>
   </data>
   <data name="CommonGroupHead" xml:space="preserve">
-    <value>Գլուխ</value>
+    <value>Ô³Õ¬Õ¸Ö‚Õ­</value>
   </data>
   <data name="CommonGroups" xml:space="preserve">
-    <value>Խմբեր</value>
+    <value>Ô½Õ´Õ¢Õ¥Ö€</value>
   </data>
   <data name="CommonGuest" xml:space="preserve">
-    <value>Հյուր</value>
+    <value>Õ€ÕµÕ¸Ö‚Ö€</value>
   </data>
   <data name="CommonGuests" xml:space="preserve">
-    <value>Հյուրեր</value>
+    <value>Õ€ÕµÕ¸Ö‚Ö€Õ¥Ö€</value>
   </data>
   <data name="CommonRegDate" xml:space="preserve">
-    <value>Գրանցման ամսաթիվ</value>
+    <value>Ô³Ö€Õ¡Õ¶ÖÕ´Õ¡Õ¶ Õ¡Õ´Õ½Õ¡Õ©Õ«Õ¾</value>
   </data>
   <data name="CommonSchemaName" xml:space="preserve">
-    <value>Ընդհանուր</value>
+    <value>Ô¸Õ¶Õ¤Õ°Õ¡Õ¶Õ¸Ö‚Ö€</value>
   </data>
   <data name="CommonUser" xml:space="preserve">
-    <value>Օգտվող</value>
+    <value>Õ•Õ£Õ¿Õ¾Õ¸Õ²</value>
   </data>
   <data name="CommonUsers" xml:space="preserve">
-    <value>Օգտվողներ</value>
+    <value>Õ•Õ£Õ¿Õ¾Õ¸Õ²Õ¶Õ¥Ö€</value>
   </data>
   <data name="CommonUserTitle" xml:space="preserve">
-    <value>Անվանում</value>
+    <value>Ô±Õ¶Õ¾Õ¡Õ¶Õ¸Ö‚Õ´</value>
   </data>
   <data name="DefaultAddUsers" xml:space="preserve">
-    <value>Աշխատակիցների ավելացում</value>
+    <value>Ô±Õ·Õ­Õ¡Õ¿Õ¡Õ¯Õ«ÖÕ¶Õ¥Ö€Õ« Õ¡Õ¾Õ¥Õ¬Õ¡ÖÕ¸Ö‚Õ´</value>
   </data>
   <data name="DefaultGroup" xml:space="preserve">
-    <value>Բաժանմունք</value>
+    <value>Ô²Õ¡ÕªÕ¡Õ¶Õ´Õ¸Ö‚Õ¶Ö„</value>
   </data>
   <data name="DefaultGroupHead" xml:space="preserve">
-    <value>Գլուխ</value>
+    <value>Ô³Õ¬Õ¸Ö‚Õ­</value>
   </data>
   <data name="DefaultGroups" xml:space="preserve">
-    <value>Բաժանմունքներ</value>
+    <value>Ô²Õ¡ÕªÕ¡Õ¶Õ´Õ¸Ö‚Õ¶Ö„Õ¶Õ¥Ö€</value>
   </data>
   <data name="DefaultGuest" xml:space="preserve">
-    <value>Հյուր</value>
+    <value>Õ€ÕµÕ¸Ö‚Ö€</value>
   </data>
   <data name="DefaultGuests" xml:space="preserve">
-    <value>Հյուրեր</value>
+    <value>Õ€ÕµÕ¸Ö‚Ö€Õ¥Ö€</value>
   </data>
   <data name="DefaultRegDate" xml:space="preserve">
-    <value>Աշխատում է սկսած</value>
+    <value>Ô±Õ·Õ­Õ¡Õ¿Õ¸Ö‚Õ´ Õ§ Õ½Õ¯Õ½Õ¡Õ®</value>
   </data>
   <data name="DefaultSchemaName" xml:space="preserve">
-    <value>Միավորել</value>
+    <value>Õ„Õ«Õ¡Õ¾Õ¸Ö€Õ¥Õ¬</value>
   </data>
   <data name="DefaultUser" xml:space="preserve">
-    <value>Աշխատակից</value>
+    <value>Ô±Õ·Õ­Õ¡Õ¿Õ¡Õ¯Õ«Ö</value>
   </data>
   <data name="DefaultUsers" xml:space="preserve">
-    <value>Աշխատակիցներ</value>
+    <value>Ô±Õ·Õ­Õ¡Õ¿Õ¡Õ¯Õ«ÖÕ¶Õ¥Ö€</value>
   </data>
   <data name="DefaultUserTitle" xml:space="preserve">
-    <value>Դիրք</value>
+    <value>Ô´Õ«Ö€Ö„</value>
   </data>
   <data name="EducationAddUsers" xml:space="preserve">
-    <value>Ավելացնել ուսուցիչներ / ուսանողներ</value>
+    <value>Ô±Õ¾Õ¥Õ¬Õ¡ÖÕ¶Õ¥Õ¬ Õ¸Ö‚Õ½Õ¸Ö‚ÖÕ«Õ¹Õ¶Õ¥Ö€ / Õ¸Ö‚Õ½Õ¡Õ¶Õ¸Õ²Õ¶Õ¥Ö€</value>
   </data>
   <data name="EducationGroup" xml:space="preserve">
-    <value>Խումբ</value>
+    <value>Ô½Õ¸Ö‚Õ´Õ¢</value>
   </data>
   <data name="EducationGroupHead" xml:space="preserve">
-    <value>Խմբի առաջատար</value>
+    <value>Ô½Õ´Õ¢Õ« Õ¡Õ¼Õ¡Õ»Õ¡Õ¿Õ¡Ö€</value>
   </data>
   <data name="EducationGroups" xml:space="preserve">
-    <value>Խմբեր</value>
+    <value>Ô½Õ´Õ¢Õ¥Ö€</value>
   </data>
   <data name="EducationGuest" xml:space="preserve">
-    <value>Հյուր</value>
+    <value>Õ€ÕµÕ¸Ö‚Ö€</value>
   </data>
   <data name="EducationGuests" xml:space="preserve">
-    <value>Հյուրեր</value>
+    <value>Õ€ÕµÕ¸Ö‚Ö€Õ¥Ö€</value>
   </data>
   <data name="EducationRegDate" xml:space="preserve">
-    <value>Գրանցման ամսաթիվ</value>
+    <value>Ô³Ö€Õ¡Õ¶ÖÕ´Õ¡Õ¶ Õ¡Õ´Õ½Õ¡Õ©Õ«Õ¾</value>
   </data>
   <data name="EducationSchemaName" xml:space="preserve">
-    <value>Ուսումնական հաստատություն</value>
+    <value>ÕˆÖ‚Õ½Õ¸Ö‚Õ´Õ¶Õ¡Õ¯Õ¡Õ¶ Õ°Õ¡Õ½Õ¿Õ¡Õ¿Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶</value>
   </data>
   <data name="EducationUser" xml:space="preserve">
-    <value>Ուսուցիչ/Աշակերտ</value>
+    <value>ÕˆÖ‚Õ½Õ¸Ö‚ÖÕ«Õ¹/Ô±Õ·Õ¡Õ¯Õ¥Ö€Õ¿</value>
   </data>
   <data name="EducationUsers" xml:space="preserve">
-    <value>Ուսուցիչներ/Աշակերտնե</value>
+    <value>ÕˆÖ‚Õ½Õ¸Ö‚ÖÕ«Õ¹Õ¶Õ¥Ö€/Ô±Õ·Õ¡Õ¯Õ¥Ö€Õ¿Õ¶Õ¥</value>
   </data>
   <data name="EducationUserTitle" xml:space="preserve">
-    <value>Անվանում</value>
+    <value>Ô±Õ¶Õ¾Õ¡Õ¶Õ¸Ö‚Õ´</value>
   </data>
 </root>

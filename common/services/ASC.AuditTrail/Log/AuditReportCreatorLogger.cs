@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -27,6 +27,6 @@
 namespace ASC.AuditTrail.Log;
 internal static partial class AuditReportCreatorLogger
 {
-    [LoggerMessage(Level = LogLevel.Error, Message = "Error while creating login report:")]
+    [LoggerMessage(LogLevel.Error, "Error while creating login report:")]
     public static partial void ErrorWhileCreating(this ILogger<AuditReportCreator> logger, Exception exception);
 }

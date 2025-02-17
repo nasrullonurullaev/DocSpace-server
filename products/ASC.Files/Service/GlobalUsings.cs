@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -53,6 +53,7 @@ global using ASC.Files.Core.Log;
 global using ASC.Files.Core.Resources;
 global using ASC.Files.Core.Security;
 global using ASC.Files.Core.Services.DocumentBuilderService;
+global using ASC.Files.Core.VirtualRooms;
 global using ASC.Files.Service;
 global using ASC.Files.Service.Extension;
 global using ASC.Files.Service.Log;
@@ -61,17 +62,17 @@ global using ASC.Web.Core;
 global using ASC.Web.Files.Classes;
 global using ASC.Web.Files.Services.DocumentService;
 global using ASC.Web.Files.Services.FFmpegService;
+global using ASC.Web.Files.Services.WCFService.FileOperations;
 global using ASC.Web.Files.Utils;
 global using ASC.Web.Studio.Utility;
 
 global using Autofac;
 
+global using AutoMapper;
+
 global using Microsoft.AspNetCore.Builder;
 global using Microsoft.EntityFrameworkCore;
 global using Microsoft.Extensions.Hosting.WindowsServices;
 global using Microsoft.Extensions.Logging;
-
-global using SixLabors.ImageSharp;
-global using SixLabors.ImageSharp.Processing;
 
 global using static ASC.Files.Core.Helpers.DocumentService;

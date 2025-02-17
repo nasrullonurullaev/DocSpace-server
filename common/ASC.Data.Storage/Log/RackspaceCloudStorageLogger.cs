@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -27,6 +27,6 @@
 namespace ASC.Data.Storage.Log;
 internal static partial class RackspaceCloudStorageLogger
 {
-    [LoggerMessage(Level = LogLevel.Error, Message = "The invalidation {path} failed")]
+    [LoggerMessage(LogLevel.Error, "The invalidation {path} failed")]
     public static partial void ErrorInvalidationFailed(this ILogger<RackspaceCloudStorage> logger, string path, Exception exception);
 }

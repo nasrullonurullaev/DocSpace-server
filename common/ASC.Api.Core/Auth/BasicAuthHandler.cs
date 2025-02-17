@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -28,7 +28,7 @@ using SecurityContext = ASC.Core.SecurityContext;
 
 namespace ASC.Api.Core.Auth;
 
-public class BasicAuthHandler(
+public partial class BasicAuthHandler(
     IOptionsMonitor<AuthenticationSchemeOptions> options,
     ILoggerFactory logger,
     UrlEncoder encoder,
@@ -47,8 +47,8 @@ public class BasicAuthHandler(
         }
 
         // Get authorization key
-        var authorizationHeader = Request.Headers["Authorization"].ToString();
-        var authHeaderRegex = new Regex(@"Basic (.*)");
+        var authorizationHeader = Request.Headers.Authorization.ToString();
+        var authHeaderRegex = BasicRegex();
 
         if (!authHeaderRegex.IsMatch(authorizationHeader))
         {
@@ -65,8 +65,12 @@ public class BasicAuthHandler(
             var userInfo = await userManager.GetUserByEmailAsync(authUsername);
             var passwordHash = passwordHasher.GetClientPassword(authPassword);
 
-            await securityContext.AuthenticateMeAsync(userInfo.Email, passwordHash);
+            var claims = new List<Claim>
+            {
+                AuthConstants.Claim_ScopeRootWrite
+            };
 
+            await securityContext.AuthenticateMeAsync(userInfo.Email, passwordHash, null, claims);
         }
         catch (Exception)
         {
@@ -75,4 +79,7 @@ public class BasicAuthHandler(
 
         return AuthenticateResult.Success(new AuthenticationTicket(Context.User, Scheme.Name));
     }
+
+    [GeneratedRegex(@"Basic (.*)")]
+    private static partial Regex BasicRegex();
 }

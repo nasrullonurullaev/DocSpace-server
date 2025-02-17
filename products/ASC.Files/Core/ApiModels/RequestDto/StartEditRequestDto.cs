@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -27,10 +27,30 @@
 namespace ASC.Files.Core.ApiModels.RequestDto;
 
 /// <summary>
+/// Parameters for starting file editing
 /// </summary>
-public class StartEditRequestDto
+public class StartEdit
 {
-    /// <summary>Specifies whether to share a file with other users for editing or not</summary>
-    /// <type>System.Boolean, System</type>
+    /// <summary>
+    /// Specifies whether to share a file with other users for editing or not
+    /// </summary>
     public bool EditingAlone { get; set; }
+}
+
+/// <summary>
+/// Request parameters for starting file editing
+/// </summary>
+public class StartEditRequestDto<T>
+{
+    /// <summary>
+    /// File ID
+    /// </summary>
+    [FromRoute(Name = "fileId")]
+    public T FileId { get; set; }
+
+    /// <summary>
+    /// Parameters for starting file editing
+    /// </summary>
+    [FromBody]
+    public StartEdit File { get; set; }
 }

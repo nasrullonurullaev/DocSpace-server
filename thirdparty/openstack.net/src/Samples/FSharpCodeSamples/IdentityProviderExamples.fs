@@ -1,4 +1,4 @@
-﻿module IdentityProviderExamples
+module IdentityProviderExamples
 
 open System
 open net.openstack.Core.Domain

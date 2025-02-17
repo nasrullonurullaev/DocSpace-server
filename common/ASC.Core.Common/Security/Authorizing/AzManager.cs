@@ -37,7 +37,7 @@ public class AzManager(IRoleProvider roleProvider, IPermissionProvider permissio
         ArgumentNullException.ThrowIfNull(action);
         ArgumentNullException.ThrowIfNull(subject);
         
-        if (action.AdministratorAlwaysAllow && (Constants.DocSpaceAdmin.ID == subject.ID || await _roleProvider.IsSubjectInRoleAsync(subject, Constants.DocSpaceAdmin) 
+        if (action.AdministratorAlwaysAllow && (AuthConstants.DocSpaceAdmin.ID == subject.ID || await _roleProvider.IsSubjectInRoleAsync(subject, AuthConstants.DocSpaceAdmin) 
             || (objectId is SecurityObject obj && await obj.IsMatchDefaultRulesAsync(subject, action, _roleProvider))))
         {
             return AzManagerAcl.Allow;
@@ -87,7 +87,7 @@ public class AzManager(IRoleProvider roleProvider, IPermissionProvider permissio
             {
                 subject
             };
-        subjects.AddRange((await _roleProvider.GetRolesAsync(subject)).ConvertAll(r => (ISubject)r));
+        subjects.AddRange((await _roleProvider.GetRolesAsync(subject)).ConvertAll(ISubject (r) => r));
         if (objectId != null)
         {
             var secObjProviderHelper = new AzObjectSecurityProviderHelper(objectId, securityObjProvider);

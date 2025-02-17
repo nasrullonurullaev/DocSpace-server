@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -59,7 +59,7 @@ public class BruteForceLoginManager(
 
             var historyCacheKey = GetHistoryCacheKey(key, requestIp);
             var settings = new LoginSettingsWrapper(await settingsManager.LoadAsync<LoginSettings>());
-            var history = await GetFromCache<List<DateTime>>(historyCacheKey) ?? new List<DateTime>();
+            var history = await GetFromCache<List<DateTime>>(historyCacheKey) ?? [];
 
             var now = DateTime.UtcNow;
             var checkTime = now.Subtract(settings.CheckPeriod);
@@ -94,7 +94,7 @@ public class BruteForceLoginManager(
         {
             var settings = new LoginSettingsWrapper(await settingsManager.LoadAsync<LoginSettings>());
             var historyCacheKey = GetHistoryCacheKey(key, requestIp);
-            var history = await GetFromCache<List<DateTime>>(historyCacheKey) ?? new List<DateTime>();
+            var history = await GetFromCache<List<DateTime>>(historyCacheKey) ?? [];
 
             if (history.Count > 0)
             {
@@ -138,7 +138,7 @@ public class BruteForceLoginManager(
                 settings = new LoginSettingsWrapper(await settingsManager.LoadAsync<LoginSettings>());
                 var checkTime = now.Subtract(settings.CheckPeriod);
 
-                history = await GetFromCache<List<DateTime>>(historyCacheKey) ?? new List<DateTime>();
+                history = await GetFromCache<List<DateTime>>(historyCacheKey) ?? [];
                 history = history.Where(item => item > checkTime).ToList();
                 history.Add(now);
 
@@ -154,7 +154,7 @@ public class BruteForceLoginManager(
 
             if (user == null || !userManager.UserExists(user))
             {
-                throw new Exception("user not found");
+                throw new AuthenticationException("user not found");
             }
 
             if (recaptchaPassed)

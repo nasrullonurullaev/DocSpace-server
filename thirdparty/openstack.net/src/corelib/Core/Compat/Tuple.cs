@@ -1,4 +1,4 @@
-﻿//
+//
 // Tuple.cs
 //
 // Authors:

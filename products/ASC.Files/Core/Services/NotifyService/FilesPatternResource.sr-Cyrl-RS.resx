@@ -118,124 +118,121 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="pattern_DocuSignComplete" xml:space="preserve">
-    <value>h1. Сви потписници завршили $DocumentTitle
+    <value>h1. Ð¡Ð²Ð¸ Ð¿Ð¾Ñ‚Ð¿Ð¸ÑÐ½Ð¸Ñ†Ð¸ Ð·Ð°Ð²Ñ€ÑˆÐ¸Ð»Ð¸ $DocumentTitle
 
-Ово је емаил нотификација да вас обавести да су сви потписници завршили "$DocumentTitle":"$DocumentURL".</value>
+ÐžÐ²Ð¾ Ñ˜Ðµ ÐµÐ¼Ð°Ð¸Ð» Ð½Ð¾Ñ‚Ð¸Ñ„Ð¸ÐºÐ°Ñ†Ð¸Ñ˜Ð° Ð´Ð° Ð²Ð°Ñ Ð¾Ð±Ð°Ð²ÐµÑÑ‚Ð¸ Ð´Ð° ÑÑƒ ÑÐ²Ð¸ Ð¿Ð¾Ñ‚Ð¿Ð¸ÑÐ½Ð¸Ñ†Ð¸ Ð·Ð°Ð²Ñ€ÑˆÐ¸Ð»Ð¸ "$DocumentTitle":"$DocumentURL".</value>
   </data>
   <data name="pattern_DocuSignStatus" xml:space="preserve">
     <value>h1. $Message: $DocumentTitle
 
-Пријави се на свој DocuSign налог за више информација.</value>
+ÐŸÑ€Ð¸Ñ˜Ð°Ð²Ð¸ ÑÐµ Ð½Ð° ÑÐ²Ð¾Ñ˜ DocuSign Ð½Ð°Ð»Ð¾Ð³ Ð·Ð° Ð²Ð¸ÑˆÐµ Ð¸Ð½Ñ„Ð¾Ñ€Ð¼Ð°Ñ†Ð¸Ñ˜Ð°.</value>
   </data>
   <data name="pattern_EditorMentions" xml:space="preserve">
-    <value>h1. $__AuthorName вас је поменуо у коментару документа
+    <value>h1. $__AuthorName Ð²Ð°Ñ Ñ˜Ðµ Ð¿Ð¾Ð¼ÐµÐ½ÑƒÐ¾ Ñƒ ÐºÐ¾Ð¼ÐµÐ½Ñ‚Ð°Ñ€Ñƒ Ð´Ð¾ÐºÑƒÐ¼ÐµÐ½Ñ‚Ð°
 
-$__AuthorName вас је поменуо у коментару "$DocumentTitle":"$DocumentURL" документа у соби "$RoomTitle":"$RoomURL":
+$__AuthorName Ð²Ð°Ñ Ñ˜Ðµ Ð¿Ð¾Ð¼ÐµÐ½ÑƒÐ¾ Ñƒ ÐºÐ¾Ð¼ÐµÐ½Ñ‚Ð°Ñ€Ñƒ "$DocumentTitle":"$DocumentURL" Ð´Ð¾ÐºÑƒÐ¼ÐµÐ½Ñ‚Ð° Ñƒ ÑÐ¾Ð±Ð¸ "$RoomTitle":"$RoomURL":
 
 $Message</value>
   </data>
   <data name="pattern_MailMergeEnd" xml:space="preserve">
-    <value>h1. Слање завршено
+    <value>h1. Ð¡Ð»Ð°ÑšÐµ Ð·Ð°Ð²Ñ€ÑˆÐµÐ½Ð¾
 
-Ово је емаил нотификација да вас обавести да сте тражили слање $MailsCount порука и процес је сада комплетан. $Message
+ÐžÐ²Ð¾ Ñ˜Ðµ ÐµÐ¼Ð°Ð¸Ð» Ð½Ð¾Ñ‚Ð¸Ñ„Ð¸ÐºÐ°Ñ†Ð¸Ñ˜Ð° Ð´Ð° Ð²Ð°Ñ Ð¾Ð±Ð°Ð²ÐµÑÑ‚Ð¸ Ð´Ð° ÑÑ‚Ðµ Ñ‚Ñ€Ð°Ð¶Ð¸Ð»Ð¸ ÑÐ»Ð°ÑšÐµ $MailsCount Ð¿Ð¾Ñ€ÑƒÐºÐ° Ð¸ Ð¿Ñ€Ð¾Ñ†ÐµÑ Ñ˜Ðµ ÑÐ°Ð´Ð° ÐºÐ¾Ð¼Ð¿Ð»ÐµÑ‚Ð°Ð½. $Message
 
-Успешно послате маил поруке сада могу бити пронађене у вашем "Послато":"$__VirtualRootPath/addons/mail/#sent " фолдеру Маил модула.</value>
+Ð£ÑÐ¿ÐµÑˆÐ½Ð¾ Ð¿Ð¾ÑÐ»Ð°Ñ‚Ðµ Ð¼Ð°Ð¸Ð» Ð¿Ð¾Ñ€ÑƒÐºÐµ ÑÐ°Ð´Ð° Ð¼Ð¾Ð³Ñƒ Ð±Ð¸Ñ‚Ð¸ Ð¿Ñ€Ð¾Ð½Ð°Ñ’ÐµÐ½Ðµ Ñƒ Ð²Ð°ÑˆÐµÐ¼ "ÐŸÐ¾ÑÐ»Ð°Ñ‚Ð¾":"$__VirtualRootPath/addons/mail/#sent " Ñ„Ð¾Ð»Ð´ÐµÑ€Ñƒ ÐœÐ°Ð¸Ð» Ð¼Ð¾Ð´ÑƒÐ»Ð°.</value>
   </data>
   <data name="pattern_RoomRemoved" xml:space="preserve">
-    <value>h1. $__AuthorName је избрисао собу
+    <value>h1. $__AuthorName Ñ˜Ðµ Ð¸Ð·Ð±Ñ€Ð¸ÑÐ°Ð¾ ÑÐ¾Ð±Ñƒ
 
-$__AuthorName је избрисао собу: $RoomTitle</value>
+$__AuthorName Ñ˜Ðµ Ð¸Ð·Ð±Ñ€Ð¸ÑÐ°Ð¾ ÑÐ¾Ð±Ñƒ: $RoomTitle</value>
   </data>
   <data name="pattern_ShareDocument" xml:space="preserve">
-    <value>h1. Приступ дозвољен документу:"$DocumentTitle":"$DocumentURL"
+    <value>h1. ÐŸÑ€Ð¸ÑÑ‚ÑƒÐ¿ Ð´Ð¾Ð·Ð²Ð¾Ñ™ÐµÐ½ Ð´Ð¾ÐºÑƒÐ¼ÐµÐ½Ñ‚Ñƒ:"$DocumentTitle":"$DocumentURL"
 
-$__DateTime "$__AuthorName":"$__AuthorUrl" вам је дозволио приступ "$DocumentTitle":"$DocumentURL" документу са следећим правима приступа: "$AccessRights". 
+$__DateTime "$__AuthorName":"$__AuthorUrl" Ð²Ð°Ð¼ Ñ˜Ðµ Ð´Ð¾Ð·Ð²Ð¾Ð»Ð¸Ð¾ Ð¿Ñ€Ð¸ÑÑ‚ÑƒÐ¿ "$DocumentTitle":"$DocumentURL" Ð´Ð¾ÐºÑƒÐ¼ÐµÐ½Ñ‚Ñƒ ÑÐ° ÑÐ»ÐµÐ´ÐµÑ›Ð¸Ð¼ Ð¿Ñ€Ð°Ð²Ð¸Ð¼Ð° Ð¿Ñ€Ð¸ÑÑ‚ÑƒÐ¿Ð°: "$AccessRights". 
 
 $Message</value>
   </data>
   <data name="pattern_ShareFolder" xml:space="preserve">
-    <value>h1. Приступ дозвољен фолдеру:"$DocumentTitle":"$DocumentURL"
+    <value>h1. ÐŸÑ€Ð¸ÑÑ‚ÑƒÐ¿ Ð´Ð¾Ð·Ð²Ð¾Ñ™ÐµÐ½ Ñ„Ð¾Ð»Ð´ÐµÑ€Ñƒ:"$DocumentTitle":"$DocumentURL"
 
-$__DateTime "$__AuthorName":"$__AuthorUrl " вам је дозволио приступ "$DocumentTitle":"$DocumentURL" фолдеру са следећим правима приступа: "$AccessRights".
+$__DateTime "$__AuthorName":"$__AuthorUrl " Ð²Ð°Ð¼ Ñ˜Ðµ Ð´Ð¾Ð·Ð²Ð¾Ð»Ð¸Ð¾ Ð¿Ñ€Ð¸ÑÑ‚ÑƒÐ¿ "$DocumentTitle":"$DocumentURL" Ñ„Ð¾Ð»Ð´ÐµÑ€Ñƒ ÑÐ° ÑÐ»ÐµÐ´ÐµÑ›Ð¸Ð¼ Ð¿Ñ€Ð°Ð²Ð¸Ð¼Ð° Ð¿Ñ€Ð¸ÑÑ‚ÑƒÐ¿Ð°: "$AccessRights".
 
 $Message</value>
   </data>
   <data name="subject_DocuSignComplete" xml:space="preserve">
-    <value>Документи. Сви потписници завршили $DocumentTitle</value>
+    <value>Ð”Ð¾ÐºÑƒÐ¼ÐµÐ½Ñ‚Ð¸. Ð¡Ð²Ð¸ Ð¿Ð¾Ñ‚Ð¿Ð¸ÑÐ½Ð¸Ñ†Ð¸ Ð·Ð°Ð²Ñ€ÑˆÐ¸Ð»Ð¸ $DocumentTitle</value>
   </data>
   <data name="subject_DocuSignComplete_push" xml:space="preserve">
-    <value>Сви потписници завршили $DocumentTitle</value>
+    <value>Ð¡Ð²Ð¸ Ð¿Ð¾Ñ‚Ð¿Ð¸ÑÐ½Ð¸Ñ†Ð¸ Ð·Ð°Ð²Ñ€ÑˆÐ¸Ð»Ð¸ $DocumentTitle</value>
   </data>
   <data name="subject_DocuSignComplete_tg" xml:space="preserve">
-    <value>Документи. Сви потписници завршили [$DocumentTitle]($DocumentURL)</value>
+    <value>Ð”Ð¾ÐºÑƒÐ¼ÐµÐ½Ñ‚Ð¸. Ð¡Ð²Ð¸ Ð¿Ð¾Ñ‚Ð¿Ð¸ÑÐ½Ð¸Ñ†Ð¸ Ð·Ð°Ð²Ñ€ÑˆÐ¸Ð»Ð¸ [$DocumentTitle]($DocumentURL)</value>
   </data>
   <data name="subject_DocuSignStatus" xml:space="preserve">
-    <value>Документи. Статус потписа промењен</value>
+    <value>Ð”Ð¾ÐºÑƒÐ¼ÐµÐ½Ñ‚Ð¸. Ð¡Ñ‚Ð°Ñ‚ÑƒÑ Ð¿Ð¾Ñ‚Ð¿Ð¸ÑÐ° Ð¿Ñ€Ð¾Ð¼ÐµÑšÐµÐ½</value>
   </data>
   <data name="subject_DocuSignStatus_push" xml:space="preserve">
-    <value>Статус потписа промењен</value>
+    <value>Ð¡Ñ‚Ð°Ñ‚ÑƒÑ Ð¿Ð¾Ñ‚Ð¿Ð¸ÑÐ° Ð¿Ñ€Ð¾Ð¼ÐµÑšÐµÐ½</value>
   </data>
   <data name="subject_EditorMentions" xml:space="preserve">
-    <value>DocSpace нотификација. Споменуто у документу</value>
-  </data>
-  <data name="subject_EditorMentions_push" xml:space="preserve">
-    <value>Споменуто у документу</value>
+    <value>DocSpace Ð½Ð¾Ñ‚Ð¸Ñ„Ð¸ÐºÐ°Ñ†Ð¸Ñ˜Ð°. Ð¡Ð¿Ð¾Ð¼ÐµÐ½ÑƒÑ‚Ð¾ Ñƒ Ð´Ð¾ÐºÑƒÐ¼ÐµÐ½Ñ‚Ñƒ</value>
   </data>
   <data name="subject_MailMergeEnd" xml:space="preserve">
-    <value>Документи. Слање је завршено.</value>
+    <value>Ð”Ð¾ÐºÑƒÐ¼ÐµÐ½Ñ‚Ð¸. Ð¡Ð»Ð°ÑšÐµ Ñ˜Ðµ Ð·Ð°Ð²Ñ€ÑˆÐµÐ½Ð¾.</value>
   </data>
   <data name="subject_MailMergeEnd_push" xml:space="preserve">
-    <value>Слање је завршено.</value>
+    <value>Ð¡Ð»Ð°ÑšÐµ Ñ˜Ðµ Ð·Ð°Ð²Ñ€ÑˆÐµÐ½Ð¾.</value>
   </data>
   <data name="subject_RoomRemoved" xml:space="preserve">
-    <value>DocSpace нотификација. Соба обрисана</value>
+    <value>DocSpace Ð½Ð¾Ñ‚Ð¸Ñ„Ð¸ÐºÐ°Ñ†Ð¸Ñ˜Ð°. Ð¡Ð¾Ð±Ð° Ð¾Ð±Ñ€Ð¸ÑÐ°Ð½Ð°</value>
   </data>
   <data name="subject_ShareDocument" xml:space="preserve">
-    <value>Документи. Приступ дозвољен документу: $DocumentTitle</value>
+    <value>Ð”Ð¾ÐºÑƒÐ¼ÐµÐ½Ñ‚Ð¸. ÐŸÑ€Ð¸ÑÑ‚ÑƒÐ¿ Ð´Ð¾Ð·Ð²Ð¾Ñ™ÐµÐ½ Ð´Ð¾ÐºÑƒÐ¼ÐµÐ½Ñ‚Ñƒ: $DocumentTitle</value>
   </data>
   <data name="subject_ShareDocument_push" xml:space="preserve">
-    <value>Приступ дозвољен документу: $DocumentTitle</value>
+    <value>ÐŸÑ€Ð¸ÑÑ‚ÑƒÐ¿ Ð´Ð¾Ð·Ð²Ð¾Ñ™ÐµÐ½ Ð´Ð¾ÐºÑƒÐ¼ÐµÐ½Ñ‚Ñƒ: $DocumentTitle</value>
   </data>
   <data name="subject_ShareDocument_tg" xml:space="preserve">
-    <value>Документи. Приступ дозвољен документу: [$DocumentTitle]($DocumentURL)</value>
+    <value>Ð”Ð¾ÐºÑƒÐ¼ÐµÐ½Ñ‚Ð¸. ÐŸÑ€Ð¸ÑÑ‚ÑƒÐ¿ Ð´Ð¾Ð·Ð²Ð¾Ñ™ÐµÐ½ Ð´Ð¾ÐºÑƒÐ¼ÐµÐ½Ñ‚Ñƒ: [$DocumentTitle]($DocumentURL)</value>
   </data>
   <data name="subject_ShareEncryptedDocument_push" xml:space="preserve">
-    <value>Приступ дозвољен документу: $DocumentTitle</value>
+    <value>ÐŸÑ€Ð¸ÑÑ‚ÑƒÐ¿ Ð´Ð¾Ð·Ð²Ð¾Ñ™ÐµÐ½ Ð´Ð¾ÐºÑƒÐ¼ÐµÐ½Ñ‚Ñƒ: $DocumentTitle</value>
   </data>
   <data name="subject_ShareFolder" xml:space="preserve">
-    <value>Документи. Приступ дозвољен фолдеру: $DocumentTitle</value>
+    <value>Ð”Ð¾ÐºÑƒÐ¼ÐµÐ½Ñ‚Ð¸. ÐŸÑ€Ð¸ÑÑ‚ÑƒÐ¿ Ð´Ð¾Ð·Ð²Ð¾Ñ™ÐµÐ½ Ñ„Ð¾Ð»Ð´ÐµÑ€Ñƒ: $DocumentTitle</value>
   </data>
   <data name="subject_ShareFolder_push" xml:space="preserve">
-    <value>Приступ дозвољен фолдеру: $DocumentTitle</value>
+    <value>ÐŸÑ€Ð¸ÑÑ‚ÑƒÐ¿ Ð´Ð¾Ð·Ð²Ð¾Ñ™ÐµÐ½ Ñ„Ð¾Ð»Ð´ÐµÑ€Ñƒ: $DocumentTitle</value>
   </data>
   <data name="subject_ShareFolder_tg" xml:space="preserve">
-    <value>Документи. Приступ дозвољен фолдеру: [$DocumentTitle]($DocumentURL)</value>
+    <value>Ð”Ð¾ÐºÑƒÐ¼ÐµÐ½Ñ‚Ð¸. ÐŸÑ€Ð¸ÑÑ‚ÑƒÐ¿ Ð´Ð¾Ð·Ð²Ð¾Ñ™ÐµÐ½ Ñ„Ð¾Ð»Ð´ÐµÑ€Ñƒ: [$DocumentTitle]($DocumentURL)</value>
   </data>
   <data name="button_CheckReadyForms" xml:space="preserve">
-    <value>Провери спремне формуларе</value>
+    <value>ÐŸÑ€Ð¾Ð²ÐµÑ€Ð¸ ÑÐ¿Ñ€ÐµÐ¼Ð½Ðµ Ñ„Ð¾Ñ€Ð¼ÑƒÐ»Ð°Ñ€Ðµ</value>
   </data>
   <data name="pattern_FormReceived" xml:space="preserve">
-    <value>h1. Формулар $Message је попуњен
+    <value>h1. Ð¤Ð¾Ñ€Ð¼ÑƒÐ»Ð°Ñ€ $Message Ñ˜Ðµ Ð¿Ð¾Ð¿ÑƒÑšÐµÐ½
 
-Нови формулар "$DocumentTitle":"$DocumentURL" је попуњен у просторији "$RoomTitle":"$RoomURL"
+ÐÐ¾Ð²Ð¸ Ñ„Ð¾Ñ€Ð¼ÑƒÐ»Ð°Ñ€ "$DocumentTitle":"$DocumentURL" Ñ˜Ðµ Ð¿Ð¾Ð¿ÑƒÑšÐµÐ½ Ñƒ Ð¿Ñ€Ð¾ÑÑ‚Ð¾Ñ€Ð¸Ñ˜Ð¸ "$RoomTitle":"$RoomURL"
 
-Подносилац формулара: "$FromUserName":"$FromUserLink"
+ÐŸÐ¾Ð´Ð½Ð¾ÑÐ¸Ð»Ð°Ñ† Ñ„Ð¾Ñ€Ð¼ÑƒÐ»Ð°Ñ€Ð°: "$FromUserName":"$FromUserLink"
 
 $OrangeButton</value>
   </data>
   <data name="pattern_FormSubmitted" xml:space="preserve">
-    <value>h1. Попунили сте формулар $Message
+    <value>h1. ÐŸÐ¾Ð¿ÑƒÐ½Ð¸Ð»Ð¸ ÑÑ‚Ðµ Ñ„Ð¾Ñ€Ð¼ÑƒÐ»Ð°Ñ€ $Message
 
-Попунили сте формулар "$DocumentTitle":"$DocumentURL" у просторији "$RoomTitle":"$RoomURL"
+ÐŸÐ¾Ð¿ÑƒÐ½Ð¸Ð»Ð¸ ÑÑ‚Ðµ Ñ„Ð¾Ñ€Ð¼ÑƒÐ»Ð°Ñ€ "$DocumentTitle":"$DocumentURL" Ñƒ Ð¿Ñ€Ð¾ÑÑ‚Ð¾Ñ€Ð¸Ñ˜Ð¸ "$RoomTitle":"$RoomURL"
 
-Менаџер: "$ToUserName":"$ToUserLink"
+ÐœÐµÐ½Ð°ÑŸÐµÑ€: "$ToUserName":"$ToUserLink"
  
 $OrangeButton</value>
   </data>
   <data name="subject_FormReceived" xml:space="preserve">
-    <value>DocSpace нотификација. Формулар је попуњен</value>
+    <value>DocSpace Ð½Ð¾Ñ‚Ð¸Ñ„Ð¸ÐºÐ°Ñ†Ð¸Ñ˜Ð°. Ð¤Ð¾Ñ€Ð¼ÑƒÐ»Ð°Ñ€ Ñ˜Ðµ Ð¿Ð¾Ð¿ÑƒÑšÐµÐ½</value>
   </data>
   <data name="subject_FormSubmitted" xml:space="preserve">
-    <value>DocSpace нотификација. Формулар је попуњен</value>
+    <value>DocSpace Ð½Ð¾Ñ‚Ð¸Ñ„Ð¸ÐºÐ°Ñ†Ð¸Ñ˜Ð°. Ð¤Ð¾Ñ€Ð¼ÑƒÐ»Ð°Ñ€ Ñ˜Ðµ Ð¿Ð¾Ð¿ÑƒÑšÐµÐ½</value>
   </data>
 </root>

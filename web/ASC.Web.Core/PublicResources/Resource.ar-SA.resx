@@ -118,196 +118,196 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ActivateMobilePhoneEmptyCode" xml:space="preserve">
-    <value>لا يمكن ترك حقل رمز التحقق فارغ</value>
+    <value>Ù„Ø§ ÙŠÙ…ÙƒÙ† ØªØ±Ùƒ Ø­Ù‚Ù„ Ø±Ù…Ø² Ø§Ù„ØªØ­Ù‚Ù‚ ÙØ§Ø±Øº</value>
   </data>
   <data name="ActivateMobilePhoneEmptyPhoneNumber" xml:space="preserve">
-    <value>قم بإدخال رقم الهاتف الخاص بك</value>
+    <value>Ù‚Ù… Ø¨Ø¥Ø¯Ø®Ø§Ù„ Ø±Ù‚Ù… Ø§Ù„Ù‡Ø§ØªÙ Ø§Ù„Ø®Ø§Øµ Ø¨Ùƒ</value>
   </data>
   <data name="ActivateTfaAppEmptyCode" xml:space="preserve">
-    <value>لا يمكن ترك حقل رمز التحقق فارغ</value>
+    <value>Ù„Ø§ ÙŠÙ…ÙƒÙ† ØªØ±Ùƒ Ø­Ù‚Ù„ Ø±Ù…Ø² Ø§Ù„ØªØ­Ù‚Ù‚ ÙØ§Ø±Øº</value>
   </data>
   <data name="AdministratorNotifySenderTypeName" xml:space="preserve">
-    <value>اشعار للمسئولين</value>
+    <value>Ø§Ø´Ø¹Ø§Ø± Ù„Ù„Ù…Ø³Ø¦ÙˆÙ„ÙŠÙ†</value>
   </data>
   <data name="AdminMessageSent" xml:space="preserve">
-    <value>تم ارسال الرسالة بنجاح. سيتم التواصل معك من قبل مسئول البوابة.</value>
+    <value>ØªÙ… Ø§Ø±Ø³Ø§Ù„ Ø§Ù„Ø±Ø³Ø§Ù„Ø© Ø¨Ù†Ø¬Ø§Ø­. Ø³ÙŠØªÙ… Ø§Ù„ØªÙˆØ§ØµÙ„ Ù…Ø¹Ùƒ Ù…Ù† Ù‚Ø¨Ù„ Ù…Ø³Ø¦ÙˆÙ„ Ø§Ù„Ø¨ÙˆØ§Ø¨Ø©.</value>
   </data>
   <data name="ButtonSmsEnable" xml:space="preserve">
-    <value>بواسطة الرسائل القصيرة</value>
+    <value>Ø¨ÙˆØ§Ø³Ø·Ø© Ø§Ù„Ø±Ø³Ø§Ø¦Ù„ Ø§Ù„Ù‚ØµÙŠØ±Ø©</value>
   </data>
   <data name="ButtonTfaAppEnable" xml:space="preserve">
-    <value>بواسطة تطبيق المصادقة</value>
+    <value>Ø¨ÙˆØ§Ø³Ø·Ø© ØªØ·Ø¨ÙŠÙ‚ Ø§Ù„Ù…ØµØ§Ø¯Ù‚Ø©</value>
   </data>
   <data name="Consumersacesskey" xml:space="preserve">
-    <value>مفتاح الوصول S3</value>
+    <value>Ù…ÙØªØ§Ø­ Ø§Ù„ÙˆØµÙˆÙ„ S3</value>
   </data>
   <data name="ConsumersapiKey" xml:space="preserve">
-    <value>مفتاح api لـ Rackspace</value>
+    <value>Ù…ÙØªØ§Ø­ api Ù„Ù€ Rackspace</value>
   </data>
   <data name="ConsumersAppleId" xml:space="preserve">
-    <value>معرف Apple</value>
+    <value>Ù…Ø¹Ø±Ù Apple</value>
   </data>
   <data name="ConsumersappleIdClientId" xml:space="preserve">
-    <value>معرف طلب العميل</value>
+    <value>Ù…Ø¹Ø±Ù Ø·Ù„Ø¨ Ø§Ù„Ø¹Ù…ÙŠÙ„</value>
   </data>
   <data name="ConsumersAppleIdDescription" xml:space="preserve">
-    <value>قم بتفعيل التطبيق لتسجيل الدخول للبوابة باستخدام حساب معرف Apple.</value>
+    <value>Ù‚Ù… Ø¨ØªÙØ¹ÙŠÙ„ Ø§Ù„ØªØ·Ø¨ÙŠÙ‚ Ù„ØªØ³Ø¬ÙŠÙ„ Ø§Ù„Ø¯Ø®ÙˆÙ„ Ù„Ù„Ø¨ÙˆØ§Ø¨Ø© Ø¨Ø§Ø³ØªØ®Ø¯Ø§Ù… Ø­Ø³Ø§Ø¨ Ù…Ø¹Ø±Ù Apple.</value>
   </data>
   <data name="ConsumersAppleIdInstruction" xml:space="preserve">
-    <value>قم بتفعيل هذا التطبيق للسماح للمستخدمين بتسجيل الدخول إلى ONLYOFFICE بواسطة معرف Apple. {0} إذهب لبوابة مطورين Apple وقم بانشاء تطبيق ONLYOFFICE جديد. وقم بادراج البيانات المستلمة بالأسفل:</value>
+    <value>Ù‚Ù… Ø¨ØªÙØ¹ÙŠÙ„ Ù‡Ø°Ø§ Ø§Ù„ØªØ·Ø¨ÙŠÙ‚ Ù„Ù„Ø³Ù…Ø§Ø­ Ù„Ù„Ù…Ø³ØªØ®Ø¯Ù…ÙŠÙ† Ø¨ØªØ³Ø¬ÙŠÙ„ Ø§Ù„Ø¯Ø®ÙˆÙ„ Ø¥Ù„Ù‰ ONLYOFFICE Ø¨ÙˆØ§Ø³Ø·Ø© Ù…Ø¹Ø±Ù Apple. {0} Ø¥Ø°Ù‡Ø¨ Ù„Ø¨ÙˆØ§Ø¨Ø© Ù…Ø·ÙˆØ±ÙŠÙ† Apple ÙˆÙ‚Ù… Ø¨Ø§Ù†Ø´Ø§Ø¡ ØªØ·Ø¨ÙŠÙ‚ ONLYOFFICE Ø¬Ø¯ÙŠØ¯. ÙˆÙ‚Ù… Ø¨Ø§Ø¯Ø±Ø§Ø¬ Ø§Ù„Ø¨ÙŠØ§Ù†Ø§Øª Ø§Ù„Ù…Ø³ØªÙ„Ù…Ø© Ø¨Ø§Ù„Ø£Ø³ÙÙ„:</value>
   </data>
   <data name="ConsumersappleIdKeyId" xml:space="preserve">
-    <value>تم انشاء معرف رئيسي مكون من 10 أحرف لتسجيل الدخول بواسطة مفتاح Apple الخاص</value>
+    <value>ØªÙ… Ø§Ù†Ø´Ø§Ø¡ Ù…Ø¹Ø±Ù Ø±Ø¦ÙŠØ³ÙŠ Ù…ÙƒÙˆÙ† Ù…Ù† 10 Ø£Ø­Ø±Ù Ù„ØªØ³Ø¬ÙŠÙ„ Ø§Ù„Ø¯Ø®ÙˆÙ„ Ø¨ÙˆØ§Ø³Ø·Ø© Ù…ÙØªØ§Ø­ Apple Ø§Ù„Ø®Ø§Øµ</value>
   </data>
   <data name="ConsumersappleIdPrivateKey" xml:space="preserve">
-    <value>تم تحميل الرمز الخاص من Apple Developer</value>
+    <value>ØªÙ… ØªØ­Ù…ÙŠÙ„ Ø§Ù„Ø±Ù…Ø² Ø§Ù„Ø®Ø§Øµ Ù…Ù† Apple Developer</value>
   </data>
   <data name="ConsumersappleIdTeamId" xml:space="preserve">
-    <value>معرف حساب فريق المطور المكون من 10 أحرف</value>
+    <value>Ù…Ø¹Ø±Ù Ø­Ø³Ø§Ø¨ ÙØ±ÙŠÙ‚ Ø§Ù„Ù…Ø·ÙˆØ± Ø§Ù„Ù…ÙƒÙˆÙ† Ù…Ù† 10 Ø£Ø­Ø±Ù</value>
   </data>
   <data name="ConsumersauthPwd" xml:space="preserve">
-    <value>تحديد كلمة مرور المصادقة</value>
+    <value>ØªØ­Ø¯ÙŠØ¯ ÙƒÙ„Ù…Ø© Ù…Ø±ÙˆØ± Ø§Ù„Ù…ØµØ§Ø¯Ù‚Ø©</value>
   </data>
   <data name="ConsumersauthUser" xml:space="preserve">
-    <value>تحديد مستخدم المصادقة</value>
+    <value>ØªØ­Ø¯ÙŠØ¯ Ù…Ø³ØªØ®Ø¯Ù… Ø§Ù„Ù…ØµØ§Ø¯Ù‚Ø©</value>
   </data>
   <data name="ConsumersBitly" xml:space="preserve">
     <value>Bitly</value>
   </data>
   <data name="ConsumersbitlyClientId" xml:space="preserve">
-    <value>تسجيل الدخول</value>
+    <value>ØªØ³Ø¬ÙŠÙ„ Ø§Ù„Ø¯Ø®ÙˆÙ„</value>
   </data>
   <data name="ConsumersbitlyClientSecret" xml:space="preserve">
-    <value>رمز api</value>
+    <value>Ø±Ù…Ø² api</value>
   </data>
   <data name="ConsumersBitlyDescription" xml:space="preserve">
-    <value>قم بالسماح لهذا التطبيق لتقصير روابط دعوة البوابة وروابطة المشاركة في المستندات باستخدام خدمة Bitly.</value>
+    <value>Ù‚Ù… Ø¨Ø§Ù„Ø³Ù…Ø§Ø­ Ù„Ù‡Ø°Ø§ Ø§Ù„ØªØ·Ø¨ÙŠÙ‚ Ù„ØªÙ‚ØµÙŠØ± Ø±ÙˆØ§Ø¨Ø· Ø¯Ø¹ÙˆØ© Ø§Ù„Ø¨ÙˆØ§Ø¨Ø© ÙˆØ±ÙˆØ§Ø¨Ø·Ø© Ø§Ù„Ù…Ø´Ø§Ø±ÙƒØ© ÙÙŠ Ø§Ù„Ù…Ø³ØªÙ†Ø¯Ø§Øª Ø¨Ø§Ø³ØªØ®Ø¯Ø§Ù… Ø®Ø¯Ù…Ø© Bitly.</value>
   </data>
   <data name="ConsumersBitlyInstruction" xml:space="preserve">
-    <value>فم بالسماح لهذا التطبيق لتقصير روابط الدعوة وروابط الدعوة. {0} قم بإدخال مفتاح تسجيل الدخول إلى Bitly و API في الأسفل:</value>
+    <value>ÙÙ… Ø¨Ø§Ù„Ø³Ù…Ø§Ø­ Ù„Ù‡Ø°Ø§ Ø§Ù„ØªØ·Ø¨ÙŠÙ‚ Ù„ØªÙ‚ØµÙŠØ± Ø±ÙˆØ§Ø¨Ø· Ø§Ù„Ø¯Ø¹ÙˆØ© ÙˆØ±ÙˆØ§Ø¨Ø· Ø§Ù„Ø¯Ø¹ÙˆØ©. {0} Ù‚Ù… Ø¨Ø¥Ø¯Ø®Ø§Ù„ Ù…ÙØªØ§Ø­ ØªØ³Ø¬ÙŠÙ„ Ø§Ù„Ø¯Ø®ÙˆÙ„ Ø¥Ù„Ù‰ Bitly Ùˆ API ÙÙŠ Ø§Ù„Ø£Ø³ÙÙ„:</value>
   </data>
   <data name="ConsumersBox" xml:space="preserve">
     <value>Box</value>
   </data>
   <data name="ConsumersboxClientId" xml:space="preserve">
-    <value>معرف Box</value>
+    <value>Ù…Ø¹Ø±Ù Box</value>
   </data>
   <data name="ConsumersboxClientSecret" xml:space="preserve">
-    <value>رمز Box</value>
+    <value>Ø±Ù…Ø² Box</value>
   </data>
   <data name="ConsumersBoxDescription" xml:space="preserve">
-    <value>قم بالسماح للتطبيق بالتحكم بملفات ومجلدات Box.</value>
+    <value>Ù‚Ù… Ø¨Ø§Ù„Ø³Ù…Ø§Ø­ Ù„Ù„ØªØ·Ø¨ÙŠÙ‚ Ø¨Ø§Ù„ØªØ­ÙƒÙ… Ø¨Ù…Ù„ÙØ§Øª ÙˆÙ…Ø¬Ù„Ø¯Ø§Øª Box.</value>
   </data>
   <data name="ConsumersBoxInstruction" xml:space="preserve">
-    <value>قم بالسماح لهذا التطبيق بتوصيل حساب BOX الخاص بك بوحدة المستندات. ستتمكن من إدارة الملفات وتعديلها ومشاركتها من Box مع مستخدمين ONLYOFFICE. {0} سجل الدخول إلى حسابك في صفحة مطوري Box وأنشئ تطبيقاً جديداً لتكامل ONLYOFFICE. أدخل البيانات المستلمة في الأسفل:</value>
+    <value>Ù‚Ù… Ø¨Ø§Ù„Ø³Ù…Ø§Ø­ Ù„Ù‡Ø°Ø§ Ø§Ù„ØªØ·Ø¨ÙŠÙ‚ Ø¨ØªÙˆØµÙŠÙ„ Ø­Ø³Ø§Ø¨ BOX Ø§Ù„Ø®Ø§Øµ Ø¨Ùƒ Ø¨ÙˆØ­Ø¯Ø© Ø§Ù„Ù…Ø³ØªÙ†Ø¯Ø§Øª. Ø³ØªØªÙ…ÙƒÙ† Ù…Ù† Ø¥Ø¯Ø§Ø±Ø© Ø§Ù„Ù…Ù„ÙØ§Øª ÙˆØªØ¹Ø¯ÙŠÙ„Ù‡Ø§ ÙˆÙ…Ø´Ø§Ø±ÙƒØªÙ‡Ø§ Ù…Ù† Box Ù…Ø¹ Ù…Ø³ØªØ®Ø¯Ù…ÙŠÙ† ONLYOFFICE. {0} Ø³Ø¬Ù„ Ø§Ù„Ø¯Ø®ÙˆÙ„ Ø¥Ù„Ù‰ Ø­Ø³Ø§Ø¨Ùƒ ÙÙŠ ØµÙØ­Ø© Ù…Ø·ÙˆØ±ÙŠ Box ÙˆØ£Ù†Ø´Ø¦ ØªØ·Ø¨ÙŠÙ‚Ø§Ù‹ Ø¬Ø¯ÙŠØ¯Ø§Ù‹ Ù„ØªÙƒØ§Ù…Ù„ ONLYOFFICE. Ø£Ø¯Ø®Ù„ Ø§Ù„Ø¨ÙŠØ§Ù†Ø§Øª Ø§Ù„Ù…Ø³ØªÙ„Ù…Ø© ÙÙŠ Ø§Ù„Ø£Ø³ÙÙ„:</value>
   </data>
   <data name="ConsumersClickatell" xml:space="preserve">
     <value>Clickatell</value>
   </data>
   <data name="ConsumersclickatellapiKey" xml:space="preserve">
-    <value>رمز api</value>
+    <value>Ø±Ù…Ø² api</value>
   </data>
   <data name="ConsumersClickatellDescription" xml:space="preserve">
-    <value>قم بالسماح للتطبيق بالمصادقة الثنائية عبر Clickatell.</value>
+    <value>Ù‚Ù… Ø¨Ø§Ù„Ø³Ù…Ø§Ø­ Ù„Ù„ØªØ·Ø¨ÙŠÙ‚ Ø¨Ø§Ù„Ù…ØµØ§Ø¯Ù‚Ø© Ø§Ù„Ø«Ù†Ø§Ø¦ÙŠØ© Ø¹Ø¨Ø± Clickatell.</value>
   </data>
   <data name="ConsumersClickatellInstruction" xml:space="preserve">
-    <value>استخدم هذا التطبيق لتمكين المصادقة الثنائية مع خدمة Clickatell. {0} سجل الدخول إلى حساس الرسائل القصيري في المنصة وأنشئ تكاملاً جديداً لـ ONLYOFFICE. انسخ مفتاح api وأدخله أدناه:</value>
+    <value>Ø§Ø³ØªØ®Ø¯Ù… Ù‡Ø°Ø§ Ø§Ù„ØªØ·Ø¨ÙŠÙ‚ Ù„ØªÙ…ÙƒÙŠÙ† Ø§Ù„Ù…ØµØ§Ø¯Ù‚Ø© Ø§Ù„Ø«Ù†Ø§Ø¦ÙŠØ© Ù…Ø¹ Ø®Ø¯Ù…Ø© Clickatell. {0} Ø³Ø¬Ù„ Ø§Ù„Ø¯Ø®ÙˆÙ„ Ø¥Ù„Ù‰ Ø­Ø³Ø§Ø³ Ø§Ù„Ø±Ø³Ø§Ø¦Ù„ Ø§Ù„Ù‚ØµÙŠØ±ÙŠ ÙÙŠ Ø§Ù„Ù…Ù†ØµØ© ÙˆØ£Ù†Ø´Ø¦ ØªÙƒØ§Ù…Ù„Ø§Ù‹ Ø¬Ø¯ÙŠØ¯Ø§Ù‹ Ù„Ù€ ONLYOFFICE. Ø§Ù†Ø³Ø® Ù…ÙØªØ§Ø­ api ÙˆØ£Ø¯Ø®Ù„Ù‡ Ø£Ø¯Ù†Ø§Ù‡:</value>
   </data>
   <data name="ConsumersDocuSign" xml:space="preserve">
     <value>DocuSign</value>
   </data>
   <data name="ConsumersdocuSignClientId" xml:space="preserve">
-    <value>مفتاح DocuSign</value>
+    <value>Ù…ÙØªØ§Ø­ DocuSign</value>
   </data>
   <data name="ConsumersdocuSignClientSecret" xml:space="preserve">
     <value>DocuSign Secret</value>
   </data>
   <data name="ConsumersDocuSignDescription" xml:space="preserve">
-    <value>قم بالسماح بالتطبيق بالتوقيع رقمياً على مستنداتك باستخدام DocuSign.</value>
+    <value>Ù‚Ù… Ø¨Ø§Ù„Ø³Ù…Ø§Ø­ Ø¨Ø§Ù„ØªØ·Ø¨ÙŠÙ‚ Ø¨Ø§Ù„ØªÙˆÙ‚ÙŠØ¹ Ø±Ù‚Ù…ÙŠØ§Ù‹ Ø¹Ù„Ù‰ Ù…Ø³ØªÙ†Ø¯Ø§ØªÙƒ Ø¨Ø§Ø³ØªØ®Ø¯Ø§Ù… DocuSign.</value>
   </data>
   <data name="ConsumersdocuSignHost" xml:space="preserve">
-    <value>نقطة نهاية مصادقة DocuSign</value>
+    <value>Ù†Ù‚Ø·Ø© Ù†Ù‡Ø§ÙŠØ© Ù…ØµØ§Ø¯Ù‚Ø© DocuSign</value>
   </data>
   <data name="ConsumersDocuSignInstruction" xml:space="preserve">
-    <value>قم بالسماح لهذا التطبيق بتوقيع المستندات رقمياً باستخدام DocuSign. {0} انتقل إلى وحدة  تحكم المسئول في DocuSign وأضف تكاملاً لـ ONLYOFFICE. أدخل البيانات التي تلقيتها أدناه:</value>
+    <value>Ù‚Ù… Ø¨Ø§Ù„Ø³Ù…Ø§Ø­ Ù„Ù‡Ø°Ø§ Ø§Ù„ØªØ·Ø¨ÙŠÙ‚ Ø¨ØªÙˆÙ‚ÙŠØ¹ Ø§Ù„Ù…Ø³ØªÙ†Ø¯Ø§Øª Ø±Ù‚Ù…ÙŠØ§Ù‹ Ø¨Ø§Ø³ØªØ®Ø¯Ø§Ù… DocuSign. {0} Ø§Ù†ØªÙ‚Ù„ Ø¥Ù„Ù‰ ÙˆØ­Ø¯Ø©  ØªØ­ÙƒÙ… Ø§Ù„Ù…Ø³Ø¦ÙˆÙ„ ÙÙŠ DocuSign ÙˆØ£Ø¶Ù ØªÙƒØ§Ù…Ù„Ø§Ù‹ Ù„Ù€ ONLYOFFICE. Ø£Ø¯Ø®Ù„ Ø§Ù„Ø¨ÙŠØ§Ù†Ø§Øª Ø§Ù„ØªÙŠ ØªÙ„Ù‚ÙŠØªÙ‡Ø§ Ø£Ø¯Ù†Ø§Ù‡:</value>
   </data>
   <data name="ConsumersDropBox" xml:space="preserve">
     <value>DropBox</value>
   </data>
   <data name="ConsumersDropBoxDescription" xml:space="preserve">
-    <value>قم بالسماح للتطبيق بإدارة ملفات ومجلدات DropBox.</value>
+    <value>Ù‚Ù… Ø¨Ø§Ù„Ø³Ù…Ø§Ø­ Ù„Ù„ØªØ·Ø¨ÙŠÙ‚ Ø¨Ø¥Ø¯Ø§Ø±Ø© Ù…Ù„ÙØ§Øª ÙˆÙ…Ø¬Ù„Ø¯Ø§Øª DropBox.</value>
   </data>
   <data name="ConsumersDropBoxInstruction" xml:space="preserve">
-    <value>قم بالسماح لهذا التطبيق بربط حساب DropBox الخاص بك بوحدة المستندات. ستتمكن نم إدارة الملفات وتحريرها ومشاركتها من DropBox مع مستخدمين ONLYOFFICE. {0} سجل الدخول إلى حسابك على موقع Dropbox Developers وأنشئ تطبيقاً جديداً لتكامل ONLYOFFICE. أدخل البيانات التي تلقيتها أدناه:</value>
+    <value>Ù‚Ù… Ø¨Ø§Ù„Ø³Ù…Ø§Ø­ Ù„Ù‡Ø°Ø§ Ø§Ù„ØªØ·Ø¨ÙŠÙ‚ Ø¨Ø±Ø¨Ø· Ø­Ø³Ø§Ø¨ DropBox Ø§Ù„Ø®Ø§Øµ Ø¨Ùƒ Ø¨ÙˆØ­Ø¯Ø© Ø§Ù„Ù…Ø³ØªÙ†Ø¯Ø§Øª. Ø³ØªØªÙ…ÙƒÙ† Ù†Ù… Ø¥Ø¯Ø§Ø±Ø© Ø§Ù„Ù…Ù„ÙØ§Øª ÙˆØªØ­Ø±ÙŠØ±Ù‡Ø§ ÙˆÙ…Ø´Ø§Ø±ÙƒØªÙ‡Ø§ Ù…Ù† DropBox Ù…Ø¹ Ù…Ø³ØªØ®Ø¯Ù…ÙŠÙ† ONLYOFFICE. {0} Ø³Ø¬Ù„ Ø§Ù„Ø¯Ø®ÙˆÙ„ Ø¥Ù„Ù‰ Ø­Ø³Ø§Ø¨Ùƒ Ø¹Ù„Ù‰ Ù…ÙˆÙ‚Ø¹ Dropbox Developers ÙˆØ£Ù†Ø´Ø¦ ØªØ·Ø¨ÙŠÙ‚Ø§Ù‹ Ø¬Ø¯ÙŠØ¯Ø§Ù‹ Ù„ØªÙƒØ§Ù…Ù„ ONLYOFFICE. Ø£Ø¯Ø®Ù„ Ø§Ù„Ø¨ÙŠØ§Ù†Ø§Øª Ø§Ù„ØªÙŠ ØªÙ„Ù‚ÙŠØªÙ‡Ø§ Ø£Ø¯Ù†Ø§Ù‡:</value>
   </data>
   <data name="ConsumersDropBoxKey" xml:space="preserve">
-    <value>عرف DropBox</value>
+    <value>Ø¹Ø±Ù DropBox</value>
   </data>
   <data name="ConsumersDropBoxSecret" xml:space="preserve">
-    <value>مفتاح DropBox</value>
+    <value>Ù…ÙØªØ§Ø­ DropBox</value>
   </data>
   <data name="ConsumersEasyBib" xml:space="preserve">
     <value>EasyBib</value>
   </data>
   <data name="ConsumerseasyBibappkey" xml:space="preserve">
-    <value>رمز التطبيق</value>
+    <value>Ø±Ù…Ø² Ø§Ù„ØªØ·Ø¨ÙŠÙ‚</value>
   </data>
   <data name="ConsumersEasyBibDescription" xml:space="preserve">
-    <value>قم بتمكين هذا التطبيق لإنشاء قوائم ببليوغرافية في المستندات باستخدام EasyBib.</value>
+    <value>Ù‚Ù… Ø¨ØªÙ…ÙƒÙŠÙ† Ù‡Ø°Ø§ Ø§Ù„ØªØ·Ø¨ÙŠÙ‚ Ù„Ø¥Ù†Ø´Ø§Ø¡ Ù‚ÙˆØ§Ø¦Ù… Ø¨Ø¨Ù„ÙŠÙˆØºØ±Ø§ÙÙŠØ© ÙÙŠ Ø§Ù„Ù…Ø³ØªÙ†Ø¯Ø§Øª Ø¨Ø§Ø³ØªØ®Ø¯Ø§Ù… EasyBib.</value>
   </data>
   <data name="ConsumersEasyBibInstruction" xml:space="preserve">
-    <value>قم بتمكين هذا التطبيق لإنشاء قوائم المراجع في محرري ONLYOFFICE.  {0} انتقل إلى صفحة الاشتراك في EasyBib واملأ النموذج لإضافة تكامل ONLYOFFICE بعد الحصول على مفتاح التطبيق قم بلصقه أدناه:</value>
+    <value>Ù‚Ù… Ø¨ØªÙ…ÙƒÙŠÙ† Ù‡Ø°Ø§ Ø§Ù„ØªØ·Ø¨ÙŠÙ‚ Ù„Ø¥Ù†Ø´Ø§Ø¡ Ù‚ÙˆØ§Ø¦Ù… Ø§Ù„Ù…Ø±Ø§Ø¬Ø¹ ÙÙŠ Ù…Ø­Ø±Ø±ÙŠ ONLYOFFICE.  {0} Ø§Ù†ØªÙ‚Ù„ Ø¥Ù„Ù‰ ØµÙØ­Ø© Ø§Ù„Ø§Ø´ØªØ±Ø§Ùƒ ÙÙŠ EasyBib ÙˆØ§Ù…Ù„Ø£ Ø§Ù„Ù†Ù…ÙˆØ°Ø¬ Ù„Ø¥Ø¶Ø§ÙØ© ØªÙƒØ§Ù…Ù„ ONLYOFFICE Ø¨Ø¹Ø¯ Ø§Ù„Ø­ØµÙˆÙ„ Ø¹Ù„Ù‰ Ù…ÙØªØ§Ø­ Ø§Ù„ØªØ·Ø¨ÙŠÙ‚ Ù‚Ù… Ø¨Ù„ØµÙ‚Ù‡ Ø£Ø¯Ù†Ø§Ù‡:</value>
   </data>
   <data name="ConsumersFacebook" xml:space="preserve">
-    <value>فيسبوك</value>
+    <value>ÙÙŠØ³Ø¨ÙˆÙƒ</value>
   </data>
   <data name="ConsumersfacebookAccessToken_Default" xml:space="preserve">
-    <value>رمز التطبيق</value>
+    <value>Ø±Ù…Ø² Ø§Ù„ØªØ·Ø¨ÙŠÙ‚</value>
   </data>
   <data name="ConsumersfacebookClientId" xml:space="preserve">
-    <value>معرف فيسبوك</value>
+    <value>Ù…Ø¹Ø±Ù ÙÙŠØ³Ø¨ÙˆÙƒ</value>
   </data>
   <data name="ConsumersfacebookClientSecret" xml:space="preserve">
-    <value>مفتاح فيسبوك</value>
+    <value>Ù…ÙØªØ§Ø­ ÙÙŠØ³Ø¨ÙˆÙƒ</value>
   </data>
   <data name="ConsumersFacebookDescription" xml:space="preserve">
-    <value>قم بتفعيل التطبيق لتسجيل الدخول للبوابة من خلال حساب فيسبوك.</value>
+    <value>Ù‚Ù… Ø¨ØªÙØ¹ÙŠÙ„ Ø§Ù„ØªØ·Ø¨ÙŠÙ‚ Ù„ØªØ³Ø¬ÙŠÙ„ Ø§Ù„Ø¯Ø®ÙˆÙ„ Ù„Ù„Ø¨ÙˆØ§Ø¨Ø© Ù…Ù† Ø®Ù„Ø§Ù„ Ø­Ø³Ø§Ø¨ ÙÙŠØ³Ø¨ÙˆÙƒ.</value>
   </data>
   <data name="ConsumersFacebookInstruction" xml:space="preserve">
-    <value>قم بتمكين هذا التطبيق للسماح للمستخدمين بتسجيل الدخول إلى ONLYOFFICE باستخدام فيسبوك وربط حسابات زبائن الفيسبوك بوحدة الـ CRM. {0} انتقل إلى بوابة مطورين فيسبوك وأنشئ تكامل تطبيقاً جديداً ONLYOFFICE. أدخل البيانات التي تلقيتها أدناه:</value>
+    <value>Ù‚Ù… Ø¨ØªÙ…ÙƒÙŠÙ† Ù‡Ø°Ø§ Ø§Ù„ØªØ·Ø¨ÙŠÙ‚ Ù„Ù„Ø³Ù…Ø§Ø­ Ù„Ù„Ù…Ø³ØªØ®Ø¯Ù…ÙŠÙ† Ø¨ØªØ³Ø¬ÙŠÙ„ Ø§Ù„Ø¯Ø®ÙˆÙ„ Ø¥Ù„Ù‰ ONLYOFFICE Ø¨Ø§Ø³ØªØ®Ø¯Ø§Ù… ÙÙŠØ³Ø¨ÙˆÙƒ ÙˆØ±Ø¨Ø· Ø­Ø³Ø§Ø¨Ø§Øª Ø²Ø¨Ø§Ø¦Ù† Ø§Ù„ÙÙŠØ³Ø¨ÙˆÙƒ Ø¨ÙˆØ­Ø¯Ø© Ø§Ù„Ù€ CRM. {0} Ø§Ù†ØªÙ‚Ù„ Ø¥Ù„Ù‰ Ø¨ÙˆØ§Ø¨Ø© Ù…Ø·ÙˆØ±ÙŠÙ† ÙÙŠØ³Ø¨ÙˆÙƒ ÙˆØ£Ù†Ø´Ø¦ ØªÙƒØ§Ù…Ù„ ØªØ·Ø¨ÙŠÙ‚Ø§Ù‹ Ø¬Ø¯ÙŠØ¯Ø§Ù‹ ONLYOFFICE. Ø£Ø¯Ø®Ù„ Ø§Ù„Ø¨ÙŠØ§Ù†Ø§Øª Ø§Ù„ØªÙŠ ØªÙ„Ù‚ÙŠØªÙ‡Ø§ Ø£Ø¯Ù†Ø§Ù‡:</value>
   </data>
   <data name="ConsumersFirebase" xml:space="preserve">
     <value>Firebase</value>
   </data>
   <data name="Consumersfirebase_apiKey" xml:space="preserve">
-    <value>مفتاح Web API</value>
+    <value>Ù…ÙØªØ§Ø­ Web API</value>
   </data>
   <data name="Consumersfirebase_authorization" xml:space="preserve">
-    <value>مفتاح الخادم</value>
+    <value>Ù…ÙØªØ§Ø­ Ø§Ù„Ø®Ø§Ø¯Ù…</value>
   </data>
   <data name="Consumersfirebase_messagingSenderId" xml:space="preserve">
-    <value>معرف المرسل</value>
+    <value>Ù…Ø¹Ø±Ù Ø§Ù„Ù…Ø±Ø³Ù„</value>
   </data>
   <data name="Consumersfirebase_projectId" xml:space="preserve">
-    <value>معرف المشروع</value>
+    <value>Ù…Ø¹Ø±Ù Ø§Ù„Ù…Ø´Ø±ÙˆØ¹</value>
   </data>
   <data name="ConsumersFirebaseDescription" xml:space="preserve">
-    <value>قم بتمكين هذا التطبيق لاستلام اشعارات عن المستلمة من المراسلة السحابية من Firebase.</value>
+    <value>Ù‚Ù… Ø¨ØªÙ…ÙƒÙŠÙ† Ù‡Ø°Ø§ Ø§Ù„ØªØ·Ø¨ÙŠÙ‚ Ù„Ø§Ø³ØªÙ„Ø§Ù… Ø§Ø´Ø¹Ø§Ø±Ø§Øª Ø¹Ù† Ø§Ù„Ù…Ø³ØªÙ„Ù…Ø© Ù…Ù† Ø§Ù„Ù…Ø±Ø§Ø³Ù„Ø© Ø§Ù„Ø³Ø­Ø§Ø¨ÙŠØ© Ù…Ù† Firebase.</value>
   </data>
   <data name="ConsumersFirebaseInstruction" xml:space="preserve">
-    <value>قم بتمكين هذا التطبيق للسماح للمستخدمين بتلقي إشعارات حول الرسائل حتى في وضع عدم الاتصال. {0} انتقل إلى وحدة تحكم Firebase وأضف مشروعاً جديداً لتكامل ONLYOFFICE. أدخل البيانات التي تلقيتها أدناه:</value>
+    <value>Ù‚Ù… Ø¨ØªÙ…ÙƒÙŠÙ† Ù‡Ø°Ø§ Ø§Ù„ØªØ·Ø¨ÙŠÙ‚ Ù„Ù„Ø³Ù…Ø§Ø­ Ù„Ù„Ù…Ø³ØªØ®Ø¯Ù…ÙŠÙ† Ø¨ØªÙ„Ù‚ÙŠ Ø¥Ø´Ø¹Ø§Ø±Ø§Øª Ø­ÙˆÙ„ Ø§Ù„Ø±Ø³Ø§Ø¦Ù„ Ø­ØªÙ‰ ÙÙŠ ÙˆØ¶Ø¹ Ø¹Ø¯Ù… Ø§Ù„Ø§ØªØµØ§Ù„. {0} Ø§Ù†ØªÙ‚Ù„ Ø¥Ù„Ù‰ ÙˆØ­Ø¯Ø© ØªØ­ÙƒÙ… Firebase ÙˆØ£Ø¶Ù Ù…Ø´Ø±ÙˆØ¹Ø§Ù‹ Ø¬Ø¯ÙŠØ¯Ø§Ù‹ Ù„ØªÙƒØ§Ù…Ù„ ONLYOFFICE. Ø£Ø¯Ø®Ù„ Ø§Ù„Ø¨ÙŠØ§Ù†Ø§Øª Ø§Ù„ØªÙŠ ØªÙ„Ù‚ÙŠØªÙ‡Ø§ Ø£Ø¯Ù†Ø§Ù‡:</value>
   </data>
   <data name="ConsumersGoogle" xml:space="preserve">
-    <value>جوجل</value>
+    <value>Ø¬ÙˆØ¬Ù„</value>
   </data>
   <data name="ConsumersgoogleClientId" xml:space="preserve">
-    <value>معرف جوجل</value>
+    <value>Ù…Ø¹Ø±Ù Ø¬ÙˆØ¬Ù„</value>
   </data>
   <data name="ConsumersgoogleClientSecret" xml:space="preserve">
-    <value>مفتاح جوجل</value>
+    <value>Ù…ÙØªØ§Ø­ Ø¬ÙˆØ¬Ù„</value>
   </data>
   <data name="ConsumersGoogleCloud" xml:space="preserve">
-    <value>ذاكرة جوجل السحابية</value>
+    <value>Ø°Ø§ÙƒØ±Ø© Ø¬ÙˆØ¬Ù„ Ø§Ù„Ø³Ø­Ø§Ø¨ÙŠØ©</value>
   </data>
   <data name="ConsumersGoogleCloudbucket" xml:space="preserve">
     <value>Bucket</value>
@@ -316,804 +316,822 @@
     <value>Bucket</value>
   </data>
   <data name="ConsumersGoogleCloudbucketDescription" xml:space="preserve">
-    <value>أدخل اسم حاوية سحابة جوجل لتخزين النسخ الاحتياطية.</value>
+    <value>Ø£Ø¯Ø®Ù„ Ø§Ø³Ù… Ø­Ø§ÙˆÙŠØ© Ø³Ø­Ø§Ø¨Ø© Ø¬ÙˆØ¬Ù„ Ù„ØªØ®Ø²ÙŠÙ† Ø§Ù„Ù†Ø³Ø® Ø§Ù„Ø§Ø­ØªÙŠØ§Ø·ÙŠØ©.</value>
   </data>
   <data name="ConsumersGoogleCloudDescription" xml:space="preserve">
-    <value>قم بتوصيل خدمة ذاكرة سحابة جوجل للنسخ الاحتياطي وتخزين البيانات من البوابة الالكترونية.</value>
+    <value>Ù‚Ù… Ø¨ØªÙˆØµÙŠÙ„ Ø®Ø¯Ù…Ø© Ø°Ø§ÙƒØ±Ø© Ø³Ø­Ø§Ø¨Ø© Ø¬ÙˆØ¬Ù„ Ù„Ù„Ù†Ø³Ø® Ø§Ù„Ø§Ø­ØªÙŠØ§Ø·ÙŠ ÙˆØªØ®Ø²ÙŠÙ† Ø§Ù„Ø¨ÙŠØ§Ù†Ø§Øª Ù…Ù† Ø§Ù„Ø¨ÙˆØ§Ø¨Ø© Ø§Ù„Ø§Ù„ÙƒØªØ±ÙˆÙ†ÙŠØ©.</value>
   </data>
   <data name="ConsumersGoogleCloudInstruction" xml:space="preserve">
-    <value>قم بتوصيل خدمة ذاكرة سحابة جوجل للنسخ الاجتياطي وتخزين البيانات من البوابة الالكترونية. {0} انتقل إلى منصة سحابة جوجل وقم بإنشاء حساب خدمة جديد لـ ONLYOFFIC. الق البيانات التي تلقيتها هنا:</value>
+    <value>Ù‚Ù… Ø¨ØªÙˆØµÙŠÙ„ Ø®Ø¯Ù…Ø© Ø°Ø§ÙƒØ±Ø© Ø³Ø­Ø§Ø¨Ø© Ø¬ÙˆØ¬Ù„ Ù„Ù„Ù†Ø³Ø® Ø§Ù„Ø§Ø¬ØªÙŠØ§Ø·ÙŠ ÙˆØªØ®Ø²ÙŠÙ† Ø§Ù„Ø¨ÙŠØ§Ù†Ø§Øª Ù…Ù† Ø§Ù„Ø¨ÙˆØ§Ø¨Ø© Ø§Ù„Ø§Ù„ÙƒØªØ±ÙˆÙ†ÙŠØ©. {0} Ø§Ù†ØªÙ‚Ù„ Ø¥Ù„Ù‰ Ù…Ù†ØµØ© Ø³Ø­Ø§Ø¨Ø© Ø¬ÙˆØ¬Ù„ ÙˆÙ‚Ù… Ø¨Ø¥Ù†Ø´Ø§Ø¡ Ø­Ø³Ø§Ø¨ Ø®Ø¯Ù…Ø© Ø¬Ø¯ÙŠØ¯ Ù„Ù€ ONLYOFFIC. Ø§Ù„Ù‚ Ø§Ù„Ø¨ÙŠØ§Ù†Ø§Øª Ø§Ù„ØªÙŠ ØªÙ„Ù‚ÙŠØªÙ‡Ø§ Ù‡Ù†Ø§:</value>
   </data>
   <data name="ConsumersGoogleCloudjson" xml:space="preserve">
     <value>GoogleCloud json</value>
   </data>
   <data name="ConsumersGoogleDescription" xml:space="preserve">
-    <value>قم بتوصيل المشروع لتسجيل الدخول إلى البوابة باستخدام حساب جوجل و قم بإدارة ملفات و مجلدات جوجل درايف.</value>
+    <value>Ù‚Ù… Ø¨ØªÙˆØµÙŠÙ„ Ø§Ù„Ù…Ø´Ø±ÙˆØ¹ Ù„ØªØ³Ø¬ÙŠÙ„ Ø§Ù„Ø¯Ø®ÙˆÙ„ Ø¥Ù„Ù‰ Ø§Ù„Ø¨ÙˆØ§Ø¨Ø© Ø¨Ø§Ø³ØªØ®Ø¯Ø§Ù… Ø­Ø³Ø§Ø¨ Ø¬ÙˆØ¬Ù„ Ùˆ Ù‚Ù… Ø¨Ø¥Ø¯Ø§Ø±Ø© Ù…Ù„ÙØ§Øª Ùˆ Ù…Ø¬Ù„Ø¯Ø§Øª Ø¬ÙˆØ¬Ù„ Ø¯Ø±Ø§ÙŠÙ.</value>
   </data>
   <data name="ConsumersGoogleInstruction" xml:space="preserve">
-    <value>قم بتمكين هذا التطبيق لتوصيل حساب جوجل درايف الخاص بك بوحدة المستندات. ستتمكن من إدارة الملفات وتعديلها ومشاركتها من جوجل درايف مع مستخدمين ONLYOFFICE. {0} انتقل إلى وحدة تحكم Google APIs وأنشئ مشروعاً جديداً لتكامل ONLYOFFICE. أدخل البيانات التي تلقيتها أدناه:</value>
+    <value>Ù‚Ù… Ø¨ØªÙ…ÙƒÙŠÙ† Ù‡Ø°Ø§ Ø§Ù„ØªØ·Ø¨ÙŠÙ‚ Ù„ØªÙˆØµÙŠÙ„ Ø­Ø³Ø§Ø¨ Ø¬ÙˆØ¬Ù„ Ø¯Ø±Ø§ÙŠÙ Ø§Ù„Ø®Ø§Øµ Ø¨Ùƒ Ø¨ÙˆØ­Ø¯Ø© Ø§Ù„Ù…Ø³ØªÙ†Ø¯Ø§Øª. Ø³ØªØªÙ…ÙƒÙ† Ù…Ù† Ø¥Ø¯Ø§Ø±Ø© Ø§Ù„Ù…Ù„ÙØ§Øª ÙˆØªØ¹Ø¯ÙŠÙ„Ù‡Ø§ ÙˆÙ…Ø´Ø§Ø±ÙƒØªÙ‡Ø§ Ù…Ù† Ø¬ÙˆØ¬Ù„ Ø¯Ø±Ø§ÙŠÙ Ù…Ø¹ Ù…Ø³ØªØ®Ø¯Ù…ÙŠÙ† ONLYOFFICE. {0} Ø§Ù†ØªÙ‚Ù„ Ø¥Ù„Ù‰ ÙˆØ­Ø¯Ø© ØªØ­ÙƒÙ… Google APIs ÙˆØ£Ù†Ø´Ø¦ Ù…Ø´Ø±ÙˆØ¹Ø§Ù‹ Ø¬Ø¯ÙŠØ¯Ø§Ù‹ Ù„ØªÙƒØ§Ù…Ù„ ONLYOFFICE. Ø£Ø¯Ø®Ù„ Ø§Ù„Ø¨ÙŠØ§Ù†Ø§Øª Ø§Ù„ØªÙŠ ØªÙ„Ù‚ÙŠØªÙ‡Ø§ Ø£Ø¯Ù†Ø§Ù‡:</value>
   </data>
   <data name="ConsumersLinkedIn" xml:space="preserve">
-    <value>لينكدان</value>
+    <value>Ù„ÙŠÙ†ÙƒØ¯Ø§Ù†</value>
   </data>
   <data name="ConsumersLinkedInDescription" xml:space="preserve">
-    <value>قم بتفعيل التطبيق لتسجيل الدخول للبوابة من خلال حساب لينكدان.</value>
+    <value>Ù‚Ù… Ø¨ØªÙØ¹ÙŠÙ„ Ø§Ù„ØªØ·Ø¨ÙŠÙ‚ Ù„ØªØ³Ø¬ÙŠÙ„ Ø§Ù„Ø¯Ø®ÙˆÙ„ Ù„Ù„Ø¨ÙˆØ§Ø¨Ø© Ù…Ù† Ø®Ù„Ø§Ù„ Ø­Ø³Ø§Ø¨ Ù„ÙŠÙ†ÙƒØ¯Ø§Ù†.</value>
   </data>
   <data name="ConsumersLinkedInInstruction" xml:space="preserve">
-    <value>قم بتمكين هذا التطبيق للسماح للمستخدمين بتسجيل الدخول إلى ONLYOFFICE باستخدام حسابات لينكدان. {0} انتقل إلى موقع مطورين لينكدان وأنشئ تطبيق جديد لتكامل ONLYOFFICE. أدخل البيانات التي تلقيتها أدناه:</value>
+    <value>Ù‚Ù… Ø¨ØªÙ…ÙƒÙŠÙ† Ù‡Ø°Ø§ Ø§Ù„ØªØ·Ø¨ÙŠÙ‚ Ù„Ù„Ø³Ù…Ø§Ø­ Ù„Ù„Ù…Ø³ØªØ®Ø¯Ù…ÙŠÙ† Ø¨ØªØ³Ø¬ÙŠÙ„ Ø§Ù„Ø¯Ø®ÙˆÙ„ Ø¥Ù„Ù‰ ONLYOFFICE Ø¨Ø§Ø³ØªØ®Ø¯Ø§Ù… Ø­Ø³Ø§Ø¨Ø§Øª Ù„ÙŠÙ†ÙƒØ¯Ø§Ù†. {0} Ø§Ù†ØªÙ‚Ù„ Ø¥Ù„Ù‰ Ù…ÙˆÙ‚Ø¹ Ù…Ø·ÙˆØ±ÙŠÙ† Ù„ÙŠÙ†ÙƒØ¯Ø§Ù† ÙˆØ£Ù†Ø´Ø¦ ØªØ·Ø¨ÙŠÙ‚ Ø¬Ø¯ÙŠØ¯ Ù„ØªÙƒØ§Ù…Ù„ ONLYOFFICE. Ø£Ø¯Ø®Ù„ Ø§Ù„Ø¨ÙŠØ§Ù†Ø§Øª Ø§Ù„ØªÙŠ ØªÙ„Ù‚ÙŠØªÙ‡Ø§ Ø£Ø¯Ù†Ø§Ù‡:</value>
   </data>
   <data name="ConsumersLinkedInKey" xml:space="preserve">
-    <value>معرف لينكدان</value>
+    <value>Ù…Ø¹Ø±Ù Ù„ÙŠÙ†ÙƒØ¯Ø§Ù†</value>
   </data>
   <data name="ConsumersLinkedInSecret" xml:space="preserve">
-    <value>مفتاح لينكدان</value>
+    <value>Ù…ÙØªØ§Ø­ Ù„ÙŠÙ†ÙƒØ¯Ø§Ù†</value>
   </data>
   <data name="ConsumersMailru" xml:space="preserve">
     <value>Mail.ru</value>
   </data>
   <data name="ConsumersMailruClientId" xml:space="preserve">
-    <value>معرف</value>
+    <value>Ù…Ø¹Ø±Ù</value>
   </data>
   <data name="ConsumersMailruClientSecret" xml:space="preserve">
-    <value>المفتاح السري</value>
+    <value>Ø§Ù„Ù…ÙØªØ§Ø­ Ø§Ù„Ø³Ø±ÙŠ</value>
   </data>
   <data name="ConsumersMailruDescription" xml:space="preserve">
-    <value>قم بتفعيل التطبيق لتسجيل الدخول للبوابة من خلال حساب Mail.ru.</value>
+    <value>Ù‚Ù… Ø¨ØªÙØ¹ÙŠÙ„ Ø§Ù„ØªØ·Ø¨ÙŠÙ‚ Ù„ØªØ³Ø¬ÙŠÙ„ Ø§Ù„Ø¯Ø®ÙˆÙ„ Ù„Ù„Ø¨ÙˆØ§Ø¨Ø© Ù…Ù† Ø®Ù„Ø§Ù„ Ø­Ø³Ø§Ø¨ Mail.ru.</value>
   </data>
   <data name="ConsumersMailruInstruction" xml:space="preserve">
-    <value>عند إضافة تطبيق Mail.ru، يمكنك تمكين تسجيل الدخول إلى البوابة باستخدام حساب Mail.ru في صفحة ملفك الشخصي.</value>
+    <value>Ø¹Ù†Ø¯ Ø¥Ø¶Ø§ÙØ© ØªØ·Ø¨ÙŠÙ‚ Mail.ruØŒ ÙŠÙ…ÙƒÙ†Ùƒ ØªÙ…ÙƒÙŠÙ† ØªØ³Ø¬ÙŠÙ„ Ø§Ù„Ø¯Ø®ÙˆÙ„ Ø¥Ù„Ù‰ Ø§Ù„Ø¨ÙˆØ§Ø¨Ø© Ø¨Ø§Ø³ØªØ®Ø¯Ø§Ù… Ø­Ø³Ø§Ø¨ Mail.ru ÙÙŠ ØµÙØ­Ø© Ù…Ù„ÙÙƒ Ø§Ù„Ø´Ø®ØµÙŠ.</value>
   </data>
   <data name="ConsumersMicrosoft" xml:space="preserve">
-    <value>مايكروسوفت</value>
+    <value>Ù…Ø§ÙŠÙƒØ±ÙˆØ³ÙˆÙØª</value>
   </data>
   <data name="ConsumersmicrosoftClientId" xml:space="preserve">
-    <value>معرف مستخدم التطبيق</value>
+    <value>Ù…Ø¹Ø±Ù Ù…Ø³ØªØ®Ø¯Ù… Ø§Ù„ØªØ·Ø¨ÙŠÙ‚</value>
   </data>
   <data name="ConsumersmicrosoftClientSecret" xml:space="preserve">
-    <value>خصوصية المستخدم</value>
+    <value>Ø®ØµÙˆØµÙŠØ© Ø§Ù„Ù…Ø³ØªØ®Ø¯Ù…</value>
   </data>
   <data name="ConsumersMicrosoftDescription" xml:space="preserve">
-    <value>قم بتفعيل التطبيق لتسجيل الدخول للبوابة من خلال حساب مايكروسوفت.</value>
+    <value>Ù‚Ù… Ø¨ØªÙØ¹ÙŠÙ„ Ø§Ù„ØªØ·Ø¨ÙŠÙ‚ Ù„ØªØ³Ø¬ÙŠÙ„ Ø§Ù„Ø¯Ø®ÙˆÙ„ Ù„Ù„Ø¨ÙˆØ§Ø¨Ø© Ù…Ù† Ø®Ù„Ø§Ù„ Ø­Ø³Ø§Ø¨ Ù…Ø§ÙŠÙƒØ±ÙˆØ³ÙˆÙØª.</value>
   </data>
   <data name="ConsumersMicrosoftInstruction" xml:space="preserve">
-    <value>قم بتمكين هذا التطبيق للسماح للمستخدمين بتسجيل الدخول إلى ONLYOFFICE باستخدام مايكروسوفت. {0} انتقل إلى Microsoft Azure وأنشئ تطبيق كامل لتكامل ONLYOFFICE. أدخل البيانات التي تلقيتها أدناه:</value>
+    <value>Ù‚Ù… Ø¨ØªÙ…ÙƒÙŠÙ† Ù‡Ø°Ø§ Ø§Ù„ØªØ·Ø¨ÙŠÙ‚ Ù„Ù„Ø³Ù…Ø§Ø­ Ù„Ù„Ù…Ø³ØªØ®Ø¯Ù…ÙŠÙ† Ø¨ØªØ³Ø¬ÙŠÙ„ Ø§Ù„Ø¯Ø®ÙˆÙ„ Ø¥Ù„Ù‰ ONLYOFFICE Ø¨Ø§Ø³ØªØ®Ø¯Ø§Ù… Ù…Ø§ÙŠÙƒØ±ÙˆØ³ÙˆÙØª. {0} Ø§Ù†ØªÙ‚Ù„ Ø¥Ù„Ù‰ Microsoft Azure ÙˆØ£Ù†Ø´Ø¦ ØªØ·Ø¨ÙŠÙ‚ ÙƒØ§Ù…Ù„ Ù„ØªÙƒØ§Ù…Ù„ ONLYOFFICE. Ø£Ø¯Ø®Ù„ Ø§Ù„Ø¨ÙŠØ§Ù†Ø§Øª Ø§Ù„ØªÙŠ ØªÙ„Ù‚ÙŠØªÙ‡Ø§ Ø£Ø¯Ù†Ø§Ù‡:</value>
   </data>
   <data name="ConsumersRackspace" xml:space="preserve">
-    <value>ذاكرة السحابة في Rackspace</value>
+    <value>Ø°Ø§ÙƒØ±Ø© Ø§Ù„Ø³Ø­Ø§Ø¨Ø© ÙÙŠ Rackspace</value>
   </data>
   <data name="ConsumersRackspaceDescription" xml:space="preserve">
-    <value>قم بتوصيل خدمة ذاكرة سحابة Rackspace  للنسخ الاحتياطي وتخزين البيانات من البوابة الالكترونية.</value>
+    <value>Ù‚Ù… Ø¨ØªÙˆØµÙŠÙ„ Ø®Ø¯Ù…Ø© Ø°Ø§ÙƒØ±Ø© Ø³Ø­Ø§Ø¨Ø© Rackspace  Ù„Ù„Ù†Ø³Ø® Ø§Ù„Ø§Ø­ØªÙŠØ§Ø·ÙŠ ÙˆØªØ®Ø²ÙŠÙ† Ø§Ù„Ø¨ÙŠØ§Ù†Ø§Øª Ù…Ù† Ø§Ù„Ø¨ÙˆØ§Ø¨Ø© Ø§Ù„Ø§Ù„ÙƒØªØ±ÙˆÙ†ÙŠØ©.</value>
   </data>
   <data name="ConsumersRackspaceInstruction" xml:space="preserve">
-    <value>قم بتوصيل خدمة Rackspace Cloud Storage للنسخ الاحتياطي وتخزين البيانات من البوابة الإلكترونية. {0}من خلال إعدادات الأمان الخاصة بلوحة تحكم Rackspace Cloud ثم انقر على الرابط إظهار بجوار مفتاح Rackspace API . الصق البيانات التي تلقيتها أدناه:</value>
+    <value>Ù‚Ù… Ø¨ØªÙˆØµÙŠÙ„ Ø®Ø¯Ù…Ø© Rackspace Cloud Storage Ù„Ù„Ù†Ø³Ø® Ø§Ù„Ø§Ø­ØªÙŠØ§Ø·ÙŠ ÙˆØªØ®Ø²ÙŠÙ† Ø§Ù„Ø¨ÙŠØ§Ù†Ø§Øª Ù…Ù† Ø§Ù„Ø¨ÙˆØ§Ø¨Ø© Ø§Ù„Ø¥Ù„ÙƒØªØ±ÙˆÙ†ÙŠØ©. {0}Ù…Ù† Ø®Ù„Ø§Ù„ Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª Ø§Ù„Ø£Ù…Ø§Ù† Ø§Ù„Ø®Ø§ØµØ© Ø¨Ù„ÙˆØ­Ø© ØªØ­ÙƒÙ… Rackspace Cloud Ø«Ù… Ø§Ù†Ù‚Ø± Ø¹Ù„Ù‰ Ø§Ù„Ø±Ø§Ø¨Ø· Ø¥Ø¸Ù‡Ø§Ø± Ø¨Ø¬ÙˆØ§Ø± Ù…ÙØªØ§Ø­ Rackspace API . Ø§Ù„ØµÙ‚ Ø§Ù„Ø¨ÙŠØ§Ù†Ø§Øª Ø§Ù„ØªÙŠ ØªÙ„Ù‚ÙŠØªÙ‡Ø§ Ø£Ø¯Ù†Ø§Ù‡:</value>
   </data>
   <data name="ConsumersRackspaceprivate_container" xml:space="preserve">
-    <value>حاوية خاصة</value>
+    <value>Ø­Ø§ÙˆÙŠØ© Ø®Ø§ØµØ©</value>
   </data>
   <data name="ConsumersRackspaceprivate_containerDescription" xml:space="preserve">
-    <value>أدخل عنوان URL للحاوية الخاصة Rackspace لتخزين النسخ الاحتياطية.</value>
+    <value>Ø£Ø¯Ø®Ù„ Ø¹Ù†ÙˆØ§Ù† URL Ù„Ù„Ø­Ø§ÙˆÙŠØ© Ø§Ù„Ø®Ø§ØµØ© Rackspace Ù„ØªØ®Ø²ÙŠÙ† Ø§Ù„Ù†Ø³Ø® Ø§Ù„Ø§Ø­ØªÙŠØ§Ø·ÙŠØ©.</value>
   </data>
   <data name="ConsumersRackspacepublic_container" xml:space="preserve">
-    <value>حاوية عامة</value>
+    <value>Ø­Ø§ÙˆÙŠØ© Ø¹Ø§Ù…Ø©</value>
   </data>
   <data name="ConsumersSelectelpublic_container" xml:space="preserve">
-    <value>حاوية عامة</value>
+    <value>Ø­Ø§ÙˆÙŠØ© Ø¹Ø§Ù…Ø©</value>
   </data>
   <data name="ConsumersSelectelprivate_container" xml:space="preserve">
-    <value>حاوية خاصة</value>
+    <value>Ø­Ø§ÙˆÙŠØ© Ø®Ø§ØµØ©</value>
   </data>
   <data name="ConsumersRackspacepublic_containerDescription" xml:space="preserve">
-    <value>أدخل عنوان URL للحاوية العامة Rackspace لتخزين النسخ الاحتياطية.</value>
+    <value>Ø£Ø¯Ø®Ù„ Ø¹Ù†ÙˆØ§Ù† URL Ù„Ù„Ø­Ø§ÙˆÙŠØ© Ø§Ù„Ø¹Ø§Ù…Ø© Rackspace Ù„ØªØ®Ø²ÙŠÙ† Ø§Ù„Ù†Ø³Ø® Ø§Ù„Ø§Ø­ØªÙŠØ§Ø·ÙŠØ©.</value>
   </data>
   <data name="ConsumersRackspaceregion" xml:space="preserve">
-    <value>المنطقة</value>
+    <value>Ø§Ù„Ù…Ù†Ø·Ù‚Ø©</value>
   </data>
   <data name="ConsumersRackspaceregionDescription" xml:space="preserve">
-    <value>أدخل المنطقة التي توجد بها حاويات Rackspace الخاصة بك.</value>
+    <value>Ø£Ø¯Ø®Ù„ Ø§Ù„Ù…Ù†Ø·Ù‚Ø© Ø§Ù„ØªÙŠ ØªÙˆØ¬Ø¯ Ø¨Ù‡Ø§ Ø­Ø§ÙˆÙŠØ§Øª Rackspace Ø§Ù„Ø®Ø§ØµØ© Ø¨Ùƒ.</value>
   </data>
   <data name="ConsumersS3" xml:space="preserve">
-    <value>أمازون AWS S3</value>
+    <value>Ø£Ù…Ø§Ø²ÙˆÙ† AWS S3</value>
   </data>
   <data name="ConsumersS3bucketDescription" xml:space="preserve">
-    <value>أدخل الاسم الفريد لحاوية أمازون لتخزين النسخ الاحتياطية.</value>
+    <value>Ø£Ø¯Ø®Ù„ Ø§Ù„Ø§Ø³Ù… Ø§Ù„ÙØ±ÙŠØ¯ Ù„Ø­Ø§ÙˆÙŠØ© Ø£Ù…Ø§Ø²ÙˆÙ† Ù„ØªØ®Ø²ÙŠÙ† Ø§Ù„Ù†Ø³Ø® Ø§Ù„Ø§Ø­ØªÙŠØ§Ø·ÙŠØ©.</value>
   </data>
   <data name="ConsumersS3Description" xml:space="preserve">
-    <value>قم بتوصيل أمازون  AWS S3 بالنسخ الاحتياطي وتخزين البيانات من بوابتك الإلكترونية.</value>
+    <value>Ù‚Ù… Ø¨ØªÙˆØµÙŠÙ„ Ø£Ù…Ø§Ø²ÙˆÙ†  AWS S3 Ø¨Ø§Ù„Ù†Ø³Ø® Ø§Ù„Ø§Ø­ØªÙŠØ§Ø·ÙŠ ÙˆØªØ®Ø²ÙŠÙ† Ø§Ù„Ø¨ÙŠØ§Ù†Ø§Øª Ù…Ù† Ø¨ÙˆØ§Ø¨ØªÙƒ Ø§Ù„Ø¥Ù„ÙƒØªØ±ÙˆÙ†ÙŠØ©.</value>
   </data>
   <data name="ConsumersS3Instruction" xml:space="preserve">
-    <value>قم بتوصيل Amazon AWS S3 بالنسخ الاحتياطي وتخزين البيانات من بوابتك الإلكترونية. {0} انتقل إلى وحدة إدارة AWS وأنشئ مفاتيح وصول لـ ONLYOFFICE. الصق البيانات التي تلقيتها أدناه:</value>
+    <value>Ù‚Ù… Ø¨ØªÙˆØµÙŠÙ„ Amazon AWS S3 Ø¨Ø§Ù„Ù†Ø³Ø® Ø§Ù„Ø§Ø­ØªÙŠØ§Ø·ÙŠ ÙˆØªØ®Ø²ÙŠÙ† Ø§Ù„Ø¨ÙŠØ§Ù†Ø§Øª Ù…Ù† Ø¨ÙˆØ§Ø¨ØªÙƒ Ø§Ù„Ø¥Ù„ÙƒØªØ±ÙˆÙ†ÙŠØ©. {0} Ø§Ù†ØªÙ‚Ù„ Ø¥Ù„Ù‰ ÙˆØ­Ø¯Ø© Ø¥Ø¯Ø§Ø±Ø© AWS ÙˆØ£Ù†Ø´Ø¦ Ù…ÙØ§ØªÙŠØ­ ÙˆØµÙˆÙ„ Ù„Ù€ ONLYOFFICE. Ø§Ù„ØµÙ‚ Ø§Ù„Ø¨ÙŠØ§Ù†Ø§Øª Ø§Ù„ØªÙŠ ØªÙ„Ù‚ÙŠØªÙ‡Ø§ Ø£Ø¯Ù†Ø§Ù‡:</value>
   </data>
   <data name="ConsumersS3region" xml:space="preserve">
-    <value>المنطقة</value>
+    <value>Ø§Ù„Ù…Ù†Ø·Ù‚Ø©</value>
   </data>
   <data name="ConsumersS3regionDescription" xml:space="preserve">
-    <value>أدخل منطقة AWS حيث يوجد bucket Amazon الخاص بك.</value>
+    <value>Ø£Ø¯Ø®Ù„ Ù…Ù†Ø·Ù‚Ø© AWS Ø­ÙŠØ« ÙŠÙˆØ¬Ø¯ bucket Amazon Ø§Ù„Ø®Ø§Øµ Ø¨Ùƒ.</value>
   </data>
   <data name="Consumerssecretaccesskey" xml:space="preserve">
-    <value>مفتاح الوصول السري S3</value>
+    <value>Ù…ÙØªØ§Ø­ Ø§Ù„ÙˆØµÙˆÙ„ Ø§Ù„Ø³Ø±ÙŠ S3</value>
   </data>
   <data name="ConsumersSelectel" xml:space="preserve">
-    <value>الذاكرة السحابية لـ Selectel</value>
+    <value>Ø§Ù„Ø°Ø§ÙƒØ±Ø© Ø§Ù„Ø³Ø­Ø§Ø¨ÙŠØ© Ù„Ù€ Selectel</value>
   </data>
   <data name="ConsumersSelectelauthPwd" xml:space="preserve">
-    <value>كلمة السر للوصول إلى التخزين</value>
+    <value>ÙƒÙ„Ù…Ø© Ø§Ù„Ø³Ø± Ù„Ù„ÙˆØµÙˆÙ„ Ø¥Ù„Ù‰ Ø§Ù„ØªØ®Ø²ÙŠÙ†</value>
   </data>
   <data name="ConsumersSelectelauthUser" xml:space="preserve">
-    <value>مستخدم المصادقة</value>
+    <value>Ù…Ø³ØªØ®Ø¯Ù… Ø§Ù„Ù…ØµØ§Ø¯Ù‚Ø©</value>
   </data>
   <data name="ConsumersSelectelDescription" xml:space="preserve">
-    <value>قم بتوصيل خدمة التخزين السحابي Selectel للنسخ الاحتياطي وتخزين البيانات من البوابة الإلكترونية.</value>
+    <value>Ù‚Ù… Ø¨ØªÙˆØµÙŠÙ„ Ø®Ø¯Ù…Ø© Ø§Ù„ØªØ®Ø²ÙŠÙ† Ø§Ù„Ø³Ø­Ø§Ø¨ÙŠ Selectel Ù„Ù„Ù†Ø³Ø® Ø§Ù„Ø§Ø­ØªÙŠØ§Ø·ÙŠ ÙˆØªØ®Ø²ÙŠÙ† Ø§Ù„Ø¨ÙŠØ§Ù†Ø§Øª Ù…Ù† Ø§Ù„Ø¨ÙˆØ§Ø¨Ø© Ø§Ù„Ø¥Ù„ÙƒØªØ±ÙˆÙ†ÙŠØ©.</value>
   </data>
   <data name="ConsumersSelectelInstruction" xml:space="preserve">
-    <value>قم بتوصيل خدمة التخزين السحابي Selectel للنسخ الاحتياطي وتخزين البيانات من البوابة الإلكترونية. {0} احصل على بيانات الوصول لمستخدم لديه حقوق القراءة أو الكتابة للحاويات التي تخطط لتخزين نسخك الاحتياطية الخاصة بها وثم إلصقها أدناه:</value>
+    <value>Ù‚Ù… Ø¨ØªÙˆØµÙŠÙ„ Ø®Ø¯Ù…Ø© Ø§Ù„ØªØ®Ø²ÙŠÙ† Ø§Ù„Ø³Ø­Ø§Ø¨ÙŠ Selectel Ù„Ù„Ù†Ø³Ø® Ø§Ù„Ø§Ø­ØªÙŠØ§Ø·ÙŠ ÙˆØªØ®Ø²ÙŠÙ† Ø§Ù„Ø¨ÙŠØ§Ù†Ø§Øª Ù…Ù† Ø§Ù„Ø¨ÙˆØ§Ø¨Ø© Ø§Ù„Ø¥Ù„ÙƒØªØ±ÙˆÙ†ÙŠØ©. {0} Ø§Ø­ØµÙ„ Ø¹Ù„Ù‰ Ø¨ÙŠØ§Ù†Ø§Øª Ø§Ù„ÙˆØµÙˆÙ„ Ù„Ù…Ø³ØªØ®Ø¯Ù… Ù„Ø¯ÙŠÙ‡ Ø­Ù‚ÙˆÙ‚ Ø§Ù„Ù‚Ø±Ø§Ø¡Ø© Ø£Ùˆ Ø§Ù„ÙƒØªØ§Ø¨Ø© Ù„Ù„Ø­Ø§ÙˆÙŠØ§Øª Ø§Ù„ØªÙŠ ØªØ®Ø·Ø· Ù„ØªØ®Ø²ÙŠÙ† Ù†Ø³Ø®Ùƒ Ø§Ù„Ø§Ø­ØªÙŠØ§Ø·ÙŠØ© Ø§Ù„Ø®Ø§ØµØ© Ø¨Ù‡Ø§ ÙˆØ«Ù… Ø¥Ù„ØµÙ‚Ù‡Ø§ Ø£Ø¯Ù†Ø§Ù‡:</value>
   </data>
   <data name="ConsumersSelectelprivate_containerDescription" xml:space="preserve">
-    <value>أدخل اسم حاوية Selectel الخاصة لتخزين النسخ الاحتياطية.</value>
+    <value>Ø£Ø¯Ø®Ù„ Ø§Ø³Ù… Ø­Ø§ÙˆÙŠØ© Selectel Ø§Ù„Ø®Ø§ØµØ© Ù„ØªØ®Ø²ÙŠÙ† Ø§Ù„Ù†Ø³Ø® Ø§Ù„Ø§Ø­ØªÙŠØ§Ø·ÙŠØ©.</value>
   </data>
   <data name="ConsumersSelectelpublic_containerDescription" xml:space="preserve">
-    <value>أدخل اسم حاوية Selectel العامة لتخزين النسخ الاحتياطية.</value>
+    <value>Ø£Ø¯Ø®Ù„ Ø§Ø³Ù… Ø­Ø§ÙˆÙŠØ© Selectel Ø§Ù„Ø¹Ø§Ù…Ø© Ù„ØªØ®Ø²ÙŠÙ† Ø§Ù„Ù†Ø³Ø® Ø§Ù„Ø§Ø­ØªÙŠØ§Ø·ÙŠØ©.</value>
   </data>
   <data name="ConsumersSkyDrive" xml:space="preserve">
     <value>OneDrive</value>
   </data>
   <data name="Consumersskydriveappkey" xml:space="preserve">
-    <value>معرف التطبيق</value>
+    <value>Ù…Ø¹Ø±Ù Ø§Ù„ØªØ·Ø¨ÙŠÙ‚</value>
   </data>
   <data name="Consumersskydriveappsecret" xml:space="preserve">
-    <value>خصوصية العميل</value>
+    <value>Ø®ØµÙˆØµÙŠØ© Ø§Ù„Ø¹Ù…ÙŠÙ„</value>
   </data>
   <data name="ConsumersSkyDriveDescription" xml:space="preserve">
-    <value>تمكين التطبيق لإدارة ملفات ومجلدات OneDrive.</value>
+    <value>ØªÙ…ÙƒÙŠÙ† Ø§Ù„ØªØ·Ø¨ÙŠÙ‚ Ù„Ø¥Ø¯Ø§Ø±Ø© Ù…Ù„ÙØ§Øª ÙˆÙ…Ø¬Ù„Ø¯Ø§Øª OneDrive.</value>
   </data>
   <data name="ConsumersSkyDriveInstruction" xml:space="preserve">
-    <value>قم بتمكين هذا التطبيق لتوصيل حساب OneDrive الخاص بك بوحدة المستندات. ستتمكن من إدارة الملفات وتحريرها ومشاركتها من OneDrive مع مستخدمين ONLYOFFICE. {0}قم بتسجيل الدخول إلى حساب Microsoft Azure الخاص بك وإنشاء تطبيق جديد لتكامل ONLYOFFICE. ثم قم بإدراج البيانات التي تلقيتها أدناه:</value>
+    <value>Ù‚Ù… Ø¨ØªÙ…ÙƒÙŠÙ† Ù‡Ø°Ø§ Ø§Ù„ØªØ·Ø¨ÙŠÙ‚ Ù„ØªÙˆØµÙŠÙ„ Ø­Ø³Ø§Ø¨ OneDrive Ø§Ù„Ø®Ø§Øµ Ø¨Ùƒ Ø¨ÙˆØ­Ø¯Ø© Ø§Ù„Ù…Ø³ØªÙ†Ø¯Ø§Øª. Ø³ØªØªÙ…ÙƒÙ† Ù…Ù† Ø¥Ø¯Ø§Ø±Ø© Ø§Ù„Ù…Ù„ÙØ§Øª ÙˆØªØ­Ø±ÙŠØ±Ù‡Ø§ ÙˆÙ…Ø´Ø§Ø±ÙƒØªÙ‡Ø§ Ù…Ù† OneDrive Ù…Ø¹ Ù…Ø³ØªØ®Ø¯Ù…ÙŠÙ† ONLYOFFICE. {0}Ù‚Ù… Ø¨ØªØ³Ø¬ÙŠÙ„ Ø§Ù„Ø¯Ø®ÙˆÙ„ Ø¥Ù„Ù‰ Ø­Ø³Ø§Ø¨ Microsoft Azure Ø§Ù„Ø®Ø§Øµ Ø¨Ùƒ ÙˆØ¥Ù†Ø´Ø§Ø¡ ØªØ·Ø¨ÙŠÙ‚ Ø¬Ø¯ÙŠØ¯ Ù„ØªÙƒØ§Ù…Ù„ ONLYOFFICE. Ø«Ù… Ù‚Ù… Ø¨Ø¥Ø¯Ø±Ø§Ø¬ Ø§Ù„Ø¨ÙŠØ§Ù†Ø§Øª Ø§Ù„ØªÙŠ ØªÙ„Ù‚ÙŠØªÙ‡Ø§ Ø£Ø¯Ù†Ø§Ù‡:</value>
   </data>
   <data name="ConsumersSmsc" xml:space="preserve">
-    <value>مركز الرسائل القصيرة</value>
+    <value>Ù…Ø±ÙƒØ² Ø§Ù„Ø±Ø³Ø§Ø¦Ù„ Ø§Ù„Ù‚ØµÙŠØ±Ø©</value>
   </data>
   <data name="ConsumersSmscDescription" xml:space="preserve">
-    <value>قم بتمكين تطبيق المصادقة ثنائية العامل عبر مركز الرسائل القصيرة.</value>
+    <value>Ù‚Ù… Ø¨ØªÙ…ÙƒÙŠÙ† ØªØ·Ø¨ÙŠÙ‚ Ø§Ù„Ù…ØµØ§Ø¯Ù‚Ø© Ø«Ù†Ø§Ø¦ÙŠØ© Ø§Ù„Ø¹Ø§Ù…Ù„ Ø¹Ø¨Ø± Ù…Ø±ÙƒØ² Ø§Ù„Ø±Ø³Ø§Ø¦Ù„ Ø§Ù„Ù‚ØµÙŠØ±Ø©.</value>
   </data>
   <data name="ConsumersSmscInstruction" xml:space="preserve">
-    <value>استخدم هذا التطبيق لتمكين المصادقة الثنائية مع خدمة مركز الرسائل القصيرة. {0} أدخل معلومات تسجيل الدخول إلى حساب smsc وكلمة المرور (أو تجزئة #MD5 لكلمة المرور) بأحرف صغيرة:</value>
+    <value>Ø§Ø³ØªØ®Ø¯Ù… Ù‡Ø°Ø§ Ø§Ù„ØªØ·Ø¨ÙŠÙ‚ Ù„ØªÙ…ÙƒÙŠÙ† Ø§Ù„Ù…ØµØ§Ø¯Ù‚Ø© Ø§Ù„Ø«Ù†Ø§Ø¦ÙŠØ© Ù…Ø¹ Ø®Ø¯Ù…Ø© Ù…Ø±ÙƒØ² Ø§Ù„Ø±Ø³Ø§Ø¦Ù„ Ø§Ù„Ù‚ØµÙŠØ±Ø©. {0} Ø£Ø¯Ø®Ù„ Ù…Ø¹Ù„ÙˆÙ…Ø§Øª ØªØ³Ø¬ÙŠÙ„ Ø§Ù„Ø¯Ø®ÙˆÙ„ Ø¥Ù„Ù‰ Ø­Ø³Ø§Ø¨ smsc ÙˆÙƒÙ„Ù…Ø© Ø§Ù„Ù…Ø±ÙˆØ± (Ø£Ùˆ ØªØ¬Ø²Ø¦Ø© #MD5 Ù„ÙƒÙ„Ù…Ø© Ø§Ù„Ù…Ø±ÙˆØ±) Ø¨Ø£Ø­Ø±Ù ØµØºÙŠØ±Ø©:</value>
   </data>
   <data name="Consumerssmsclogin" xml:space="preserve">
-    <value>تسجيل الدخول</value>
+    <value>ØªØ³Ø¬ÙŠÙ„ Ø§Ù„Ø¯Ø®ÙˆÙ„</value>
   </data>
   <data name="Consumerssmscpsw" xml:space="preserve">
-    <value>كلمة المرور أو كلمة المرور #MD5 بأحرف صغيرة</value>
+    <value>ÙƒÙ„Ù…Ø© Ø§Ù„Ù…Ø±ÙˆØ± Ø£Ùˆ ÙƒÙ„Ù…Ø© Ø§Ù„Ù…Ø±ÙˆØ± #MD5 Ø¨Ø£Ø­Ø±Ù ØµØºÙŠØ±Ø©</value>
   </data>
   <data name="ConsumersTelegram" xml:space="preserve">
-    <value>تليجرام</value>
+    <value>ØªÙ„ÙŠØ¬Ø±Ø§Ù…</value>
   </data>
   <data name="ConsumersTelegramBotName" xml:space="preserve">
-    <value>اسم البوت</value>
+    <value>Ø§Ø³Ù… Ø§Ù„Ø¨ÙˆØª</value>
   </data>
   <data name="ConsumersTelegramBotToken" xml:space="preserve">
-    <value>رمز البوت</value>
+    <value>Ø±Ù…Ø² Ø§Ù„Ø¨ÙˆØª</value>
   </data>
   <data name="ConsumersTelegramDescription" xml:space="preserve">
-    <value>قم بتوصيل حساب تلجرام لتلقي إشعارات البوابة عبر تلجرام.</value>
+    <value>Ù‚Ù… Ø¨ØªÙˆØµÙŠÙ„ Ø­Ø³Ø§Ø¨ ØªÙ„Ø¬Ø±Ø§Ù… Ù„ØªÙ„Ù‚ÙŠ Ø¥Ø´Ø¹Ø§Ø±Ø§Øª Ø§Ù„Ø¨ÙˆØ§Ø¨Ø© Ø¹Ø¨Ø± ØªÙ„Ø¬Ø±Ø§Ù….</value>
   </data>
   <data name="ConsumersTelegramInstruction" xml:space="preserve">
-    <value>قم بتمكين Telegram bot لتلقي إشعارات البوابة عبر تلجرام، يمكنك إنشاء روبوت جديد باستخدام BotFather في Telegram Desktop. لاستخدام هذا الروبوت، يحتاج مستخدمو البوابة إلى تمكين إشعارات تلجرام على صفحة الملف الشخصي الخاصة بهم. {0} قم بلصق اسم مستخدم البوت والرمز الذي تلقيته في الحقول أدناه.</value>
+    <value>Ù‚Ù… Ø¨ØªÙ…ÙƒÙŠÙ† Telegram bot Ù„ØªÙ„Ù‚ÙŠ Ø¥Ø´Ø¹Ø§Ø±Ø§Øª Ø§Ù„Ø¨ÙˆØ§Ø¨Ø© Ø¹Ø¨Ø± ØªÙ„Ø¬Ø±Ø§Ù…ØŒ ÙŠÙ…ÙƒÙ†Ùƒ Ø¥Ù†Ø´Ø§Ø¡ Ø±ÙˆØ¨ÙˆØª Ø¬Ø¯ÙŠØ¯ Ø¨Ø§Ø³ØªØ®Ø¯Ø§Ù… BotFather ÙÙŠ Telegram Desktop. Ù„Ø§Ø³ØªØ®Ø¯Ø§Ù… Ù‡Ø°Ø§ Ø§Ù„Ø±ÙˆØ¨ÙˆØªØŒ ÙŠØ­ØªØ§Ø¬ Ù…Ø³ØªØ®Ø¯Ù…Ùˆ Ø§Ù„Ø¨ÙˆØ§Ø¨Ø© Ø¥Ù„Ù‰ ØªÙ…ÙƒÙŠÙ† Ø¥Ø´Ø¹Ø§Ø±Ø§Øª ØªÙ„Ø¬Ø±Ø§Ù… Ø¹Ù„Ù‰ ØµÙØ­Ø© Ø§Ù„Ù…Ù„Ù Ø§Ù„Ø´Ø®ØµÙŠ Ø§Ù„Ø®Ø§ØµØ© Ø¨Ù‡Ù…. {0} Ù‚Ù… Ø¨Ù„ØµÙ‚ Ø§Ø³Ù… Ù…Ø³ØªØ®Ø¯Ù… Ø§Ù„Ø¨ÙˆØª ÙˆØ§Ù„Ø±Ù…Ø² Ø§Ù„Ø°ÙŠ ØªÙ„Ù‚ÙŠØªÙ‡ ÙÙŠ Ø§Ù„Ø­Ù‚ÙˆÙ„ Ø£Ø¯Ù†Ø§Ù‡.</value>
   </data>
   <data name="ConsumersTwilio" xml:space="preserve">
     <value>Twilio</value>
   </data>
   <data name="ConsumerstwilioAccountSid" xml:space="preserve">
-    <value>معرف حماية الحساب</value>
+    <value>Ù…Ø¹Ø±Ù Ø­Ù…Ø§ÙŠØ© Ø§Ù„Ø­Ø³Ø§Ø¨</value>
   </data>
   <data name="ConsumerstwilioAuthToken" xml:space="preserve">
-    <value>رمز المصادقة</value>
+    <value>Ø±Ù…Ø² Ø§Ù„Ù…ØµØ§Ø¯Ù‚Ø©</value>
   </data>
   <data name="ConsumersTwilioDescription" xml:space="preserve">
-    <value>قم بتمكين هذا التطبيق للاتصال بجهات اتصال CRM في Twilio.</value>
+    <value>Ù‚Ù… Ø¨ØªÙ…ÙƒÙŠÙ† Ù‡Ø°Ø§ Ø§Ù„ØªØ·Ø¨ÙŠÙ‚ Ù„Ù„Ø§ØªØµØ§Ù„ Ø¨Ø¬Ù‡Ø§Øª Ø§ØªØµØ§Ù„ CRM ÙÙŠ Twilio.</value>
   </data>
   <data name="ConsumersTwilioInstruction" xml:space="preserve">
-    <value>قم بتمكين هذا التطبيق للسماح للمستخدمين بالاتصال بجهات الاتصال الخاصة بهم من وحدة CRM باستخدام Twilio. {0} انتقل إلى Twilio Console ثم ألصق البيانات التالية أدناه:</value>
+    <value>Ù‚Ù… Ø¨ØªÙ…ÙƒÙŠÙ† Ù‡Ø°Ø§ Ø§Ù„ØªØ·Ø¨ÙŠÙ‚ Ù„Ù„Ø³Ù…Ø§Ø­ Ù„Ù„Ù…Ø³ØªØ®Ø¯Ù…ÙŠÙ† Ø¨Ø§Ù„Ø§ØªØµØ§Ù„ Ø¨Ø¬Ù‡Ø§Øª Ø§Ù„Ø§ØªØµØ§Ù„ Ø§Ù„Ø®Ø§ØµØ© Ø¨Ù‡Ù… Ù…Ù† ÙˆØ­Ø¯Ø© CRM Ø¨Ø§Ø³ØªØ®Ø¯Ø§Ù… Twilio. {0} Ø§Ù†ØªÙ‚Ù„ Ø¥Ù„Ù‰ Twilio Console Ø«Ù… Ø£Ù„ØµÙ‚ Ø§Ù„Ø¨ÙŠØ§Ù†Ø§Øª Ø§Ù„ØªØ§Ù„ÙŠØ© Ø£Ø¯Ù†Ø§Ù‡:</value>
   </data>
   <data name="Consumerstwiliosender" xml:space="preserve">
-    <value>رقم هاتف من Twilio (مطلوب لمصادقة الرسائل القصيرة)</value>
+    <value>Ø±Ù‚Ù… Ù‡Ø§ØªÙ Ù…Ù† Twilio (Ù…Ø·Ù„ÙˆØ¨ Ù„Ù…ØµØ§Ø¯Ù‚Ø© Ø§Ù„Ø±Ø³Ø§Ø¦Ù„ Ø§Ù„Ù‚ØµÙŠØ±Ø©)</value>
   </data>
   <data name="ConsumersTwitter" xml:space="preserve">
-    <value>تويتر</value>
+    <value>ØªÙˆÙŠØªØ±</value>
   </data>
   <data name="ConsumerstwitterAccessToken_Default" xml:space="preserve">
-    <value>معرف العميل</value>
+    <value>Ù…Ø¹Ø±Ù Ø§Ù„Ø¹Ù…ÙŠÙ„</value>
   </data>
   <data name="ConsumerstwitterAccessTokenSecret_Default" xml:space="preserve">
-    <value>خصوصية العميل</value>
+    <value>Ø®ØµÙˆØµÙŠØ© Ø§Ù„Ø¹Ù…ÙŠÙ„</value>
   </data>
   <data name="ConsumersTwitterDescription" xml:space="preserve">
-    <value>قم بتمكين التطبيق لتسجيل الدخول إلى البوابة باستخدام حساب تويتر والبحث عن جهات الاتصال.</value>
+    <value>Ù‚Ù… Ø¨ØªÙ…ÙƒÙŠÙ† Ø§Ù„ØªØ·Ø¨ÙŠÙ‚ Ù„ØªØ³Ø¬ÙŠÙ„ Ø§Ù„Ø¯Ø®ÙˆÙ„ Ø¥Ù„Ù‰ Ø§Ù„Ø¨ÙˆØ§Ø¨Ø© Ø¨Ø§Ø³ØªØ®Ø¯Ø§Ù… Ø­Ø³Ø§Ø¨ ØªÙˆÙŠØªØ± ÙˆØ§Ù„Ø¨Ø­Ø« Ø¹Ù† Ø¬Ù‡Ø§Øª Ø§Ù„Ø§ØªØµØ§Ù„.</value>
   </data>
   <data name="ConsumersTwitterInstruction" xml:space="preserve">
-    <value>قم بتمكين هذا التطبيق للسماح للمستخدمين بالاتصال بجهات الاتصال الخاصة بهم من وحدة CRM باستخدام Twilio. {0}انتقل إلى Twilio Console ثم ألصق البيانات التالية أدناه:</value>
+    <value>Ù‚Ù… Ø¨ØªÙ…ÙƒÙŠÙ† Ù‡Ø°Ø§ Ø§Ù„ØªØ·Ø¨ÙŠÙ‚ Ù„Ù„Ø³Ù…Ø§Ø­ Ù„Ù„Ù…Ø³ØªØ®Ø¯Ù…ÙŠÙ† Ø¨Ø§Ù„Ø§ØªØµØ§Ù„ Ø¨Ø¬Ù‡Ø§Øª Ø§Ù„Ø§ØªØµØ§Ù„ Ø§Ù„Ø®Ø§ØµØ© Ø¨Ù‡Ù… Ù…Ù† ÙˆØ­Ø¯Ø© CRM Ø¨Ø§Ø³ØªØ®Ø¯Ø§Ù… Twilio. {0}Ø§Ù†ØªÙ‚Ù„ Ø¥Ù„Ù‰ Twilio Console Ø«Ù… Ø£Ù„ØµÙ‚ Ø§Ù„Ø¨ÙŠØ§Ù†Ø§Øª Ø§Ù„ØªØ§Ù„ÙŠØ© Ø£Ø¯Ù†Ø§Ù‡:</value>
   </data>
   <data name="ConsumersTwitterKey" xml:space="preserve">
-    <value>مفتاح API</value>
+    <value>Ù…ÙØªØ§Ø­ API</value>
   </data>
   <data name="ConsumersTwitterSecret" xml:space="preserve">
-    <value>مفتاح API السري</value>
+    <value>Ù…ÙØªØ§Ø­ API Ø§Ù„Ø³Ø±ÙŠ</value>
   </data>
   <data name="Consumersusername" xml:space="preserve">
-    <value>اسم مستخدم Rackspace</value>
+    <value>Ø§Ø³Ù… Ù…Ø³ØªØ®Ø¯Ù… Rackspace</value>
   </data>
   <data name="ConsumersVk" xml:space="preserve">
     <value>VK</value>
   </data>
   <data name="ConsumersVkClientId" xml:space="preserve">
-    <value>معرف التطبيق</value>
+    <value>Ù…Ø¹Ø±Ù Ø§Ù„ØªØ·Ø¨ÙŠÙ‚</value>
   </data>
   <data name="ConsumersVkClientSecret" xml:space="preserve">
-    <value>المفتاح الآمن</value>
+    <value>Ø§Ù„Ù…ÙØªØ§Ø­ Ø§Ù„Ø¢Ù…Ù†</value>
   </data>
   <data name="ConsumersVkDescription" xml:space="preserve">
-    <value>قم بتمكين التطبيق لتسجيل الدخول إلى البوابة الإلكترونية باستخدام حساب VK.</value>
+    <value>Ù‚Ù… Ø¨ØªÙ…ÙƒÙŠÙ† Ø§Ù„ØªØ·Ø¨ÙŠÙ‚ Ù„ØªØ³Ø¬ÙŠÙ„ Ø§Ù„Ø¯Ø®ÙˆÙ„ Ø¥Ù„Ù‰ Ø§Ù„Ø¨ÙˆØ§Ø¨Ø© Ø§Ù„Ø¥Ù„ÙƒØªØ±ÙˆÙ†ÙŠØ© Ø¨Ø§Ø³ØªØ®Ø¯Ø§Ù… Ø­Ø³Ø§Ø¨ VK.</value>
   </data>
   <data name="ConsumersVkInstruction" xml:space="preserve">
-    <value>عند إضافة تطبيق VK، يمكنك تمكين تسجيل الدخول إلى البوابة باستخدام حساب VK في صفحة ملفك الشخصي.</value>
+    <value>Ø¹Ù†Ø¯ Ø¥Ø¶Ø§ÙØ© ØªØ·Ø¨ÙŠÙ‚ VKØŒ ÙŠÙ…ÙƒÙ†Ùƒ ØªÙ…ÙƒÙŠÙ† ØªØ³Ø¬ÙŠÙ„ Ø§Ù„Ø¯Ø®ÙˆÙ„ Ø¥Ù„Ù‰ Ø§Ù„Ø¨ÙˆØ§Ø¨Ø© Ø¨Ø§Ø³ØªØ®Ø¯Ø§Ù… Ø­Ø³Ø§Ø¨ VK ÙÙŠ ØµÙØ­Ø© Ù…Ù„ÙÙƒ Ø§Ù„Ø´Ø®ØµÙŠ.</value>
   </data>
   <data name="ConsumersWordpress" xml:space="preserve">
     <value>WordPress</value>
   </data>
   <data name="ConsumersWordpressDescription" xml:space="preserve">
-    <value>قم بالسماح للتطبيق بنشر المستندات مباشرة في WordPress.</value>
+    <value>Ù‚Ù… Ø¨Ø§Ù„Ø³Ù…Ø§Ø­ Ù„Ù„ØªØ·Ø¨ÙŠÙ‚ Ø¨Ù†Ø´Ø± Ø§Ù„Ù…Ø³ØªÙ†Ø¯Ø§Øª Ù…Ø¨Ø§Ø´Ø±Ø© ÙÙŠ WordPress.</value>
   </data>
   <data name="ConsumersWordpressInstruction" xml:space="preserve">
-    <value>قم بتمكين التطبيق لنشر المستندات بسهولة على موقع WordPress الخاص بك. {0}أنشئ تطبيقًا جديدًا لتكامل ONLYOFFICE في صفحة مطوري ONLYOFFICE. ثم الصق البيانات التي تلقيتها أدناه:</value>
+    <value>Ù‚Ù… Ø¨ØªÙ…ÙƒÙŠÙ† Ø§Ù„ØªØ·Ø¨ÙŠÙ‚ Ù„Ù†Ø´Ø± Ø§Ù„Ù…Ø³ØªÙ†Ø¯Ø§Øª Ø¨Ø³Ù‡ÙˆÙ„Ø© Ø¹Ù„Ù‰ Ù…ÙˆÙ‚Ø¹ WordPress Ø§Ù„Ø®Ø§Øµ Ø¨Ùƒ. {0}Ø£Ù†Ø´Ø¦ ØªØ·Ø¨ÙŠÙ‚Ù‹Ø§ Ø¬Ø¯ÙŠØ¯Ù‹Ø§ Ù„ØªÙƒØ§Ù…Ù„ ONLYOFFICE ÙÙŠ ØµÙØ­Ø© Ù…Ø·ÙˆØ±ÙŠ ONLYOFFICE. Ø«Ù… Ø§Ù„ØµÙ‚ Ø§Ù„Ø¨ÙŠØ§Ù†Ø§Øª Ø§Ù„ØªÙŠ ØªÙ„Ù‚ÙŠØªÙ‡Ø§ Ø£Ø¯Ù†Ø§Ù‡:</value>
   </data>
   <data name="ConsumerswpClientId" xml:space="preserve">
-    <value>مفتاح WordPress</value>
+    <value>Ù…ÙØªØ§Ø­ WordPress</value>
   </data>
   <data name="ConsumerswpClientSecret" xml:space="preserve">
-    <value>خصوصية WordPress</value>
+    <value>Ø®ØµÙˆØµÙŠØ© WordPress</value>
   </data>
   <data name="ConsumersYahoo" xml:space="preserve">
     <value>Yahoo</value>
   </data>
   <data name="ConsumersyahooClientId" xml:space="preserve">
-    <value>معرف العميل</value>
+    <value>Ù…Ø¹Ø±Ù Ø§Ù„Ø¹Ù…ÙŠÙ„</value>
   </data>
   <data name="ConsumersyahooClientSecret" xml:space="preserve">
-    <value>خصوصية العميل</value>
+    <value>Ø®ØµÙˆØµÙŠØ© Ø§Ù„Ø¹Ù…ÙŠÙ„</value>
   </data>
   <data name="ConsumersYahooDescription" xml:space="preserve">
-    <value>قم بتمكين التطبيق لاستيراد المستخدمين من خدمة Yahoo.</value>
+    <value>Ù‚Ù… Ø¨ØªÙ…ÙƒÙŠÙ† Ø§Ù„ØªØ·Ø¨ÙŠÙ‚ Ù„Ø§Ø³ØªÙŠØ±Ø§Ø¯ Ø§Ù„Ù…Ø³ØªØ®Ø¯Ù…ÙŠÙ† Ù…Ù† Ø®Ø¯Ù…Ø© Yahoo.</value>
   </data>
   <data name="ConsumersYahooInstruction" xml:space="preserve">
-    <value>قم بتمكين هذا التطبيق لإضافة مستخدمي البوابة الجديدة من قائمة جهات اتصال في .Yahoo {0}انتقل إلى صفحة إنشاء تطبيق في شبكة مطوري Yahoo وأنشئ تطبيقًا جديدًا لتكامل ONLYOFFICE. ثم قم بإدراج البيانات المتلقاة:</value>
+    <value>Ù‚Ù… Ø¨ØªÙ…ÙƒÙŠÙ† Ù‡Ø°Ø§ Ø§Ù„ØªØ·Ø¨ÙŠÙ‚ Ù„Ø¥Ø¶Ø§ÙØ© Ù…Ø³ØªØ®Ø¯Ù…ÙŠ Ø§Ù„Ø¨ÙˆØ§Ø¨Ø© Ø§Ù„Ø¬Ø¯ÙŠØ¯Ø© Ù…Ù† Ù‚Ø§Ø¦Ù…Ø© Ø¬Ù‡Ø§Øª Ø§ØªØµØ§Ù„ ÙÙŠ .Yahoo {0}Ø§Ù†ØªÙ‚Ù„ Ø¥Ù„Ù‰ ØµÙØ­Ø© Ø¥Ù†Ø´Ø§Ø¡ ØªØ·Ø¨ÙŠÙ‚ ÙÙŠ Ø´Ø¨ÙƒØ© Ù…Ø·ÙˆØ±ÙŠ Yahoo ÙˆØ£Ù†Ø´Ø¦ ØªØ·Ø¨ÙŠÙ‚Ù‹Ø§ Ø¬Ø¯ÙŠØ¯Ù‹Ø§ Ù„ØªÙƒØ§Ù…Ù„ ONLYOFFICE. Ø«Ù… Ù‚Ù… Ø¨Ø¥Ø¯Ø±Ø§Ø¬ Ø§Ù„Ø¨ÙŠØ§Ù†Ø§Øª Ø§Ù„Ù…ØªÙ„Ù‚Ø§Ø©:</value>
   </data>
   <data name="ConsumersYandex" xml:space="preserve">
     <value>Yandex</value>
   </data>
   <data name="ConsumersYandexClientId" xml:space="preserve">
-    <value>المعرف</value>
+    <value>Ø§Ù„Ù…Ø¹Ø±Ù</value>
   </data>
   <data name="ConsumersYandexClientSecret" xml:space="preserve">
-    <value>كلمة المرور</value>
+    <value>ÙƒÙ„Ù…Ø© Ø§Ù„Ù…Ø±ÙˆØ±</value>
   </data>
   <data name="ConsumersYandexDescription" xml:space="preserve">
-    <value>تمكين التطبيق من تسجيل الدخول إلى البوابة باستخدام حساب Yandex.</value>
+    <value>ØªÙ…ÙƒÙŠÙ† Ø§Ù„ØªØ·Ø¨ÙŠÙ‚ Ù…Ù† ØªØ³Ø¬ÙŠÙ„ Ø§Ù„Ø¯Ø®ÙˆÙ„ Ø¥Ù„Ù‰ Ø§Ù„Ø¨ÙˆØ§Ø¨Ø© Ø¨Ø§Ø³ØªØ®Ø¯Ø§Ù… Ø­Ø³Ø§Ø¨ Yandex.</value>
   </data>
   <data name="ConsumersYandexInstruction" xml:space="preserve">
-    <value>يمكنك تمكين تسجيل الدخول إلى البوابة باستخدام حساب Yandex عند إضافة تطبيق Yandex في صفحة ملفك الشخصي.</value>
+    <value>ÙŠÙ…ÙƒÙ†Ùƒ ØªÙ…ÙƒÙŠÙ† ØªØ³Ø¬ÙŠÙ„ Ø§Ù„Ø¯Ø®ÙˆÙ„ Ø¥Ù„Ù‰ Ø§Ù„Ø¨ÙˆØ§Ø¨Ø© Ø¨Ø§Ø³ØªØ®Ø¯Ø§Ù… Ø­Ø³Ø§Ø¨ Yandex Ø¹Ù†Ø¯ Ø¥Ø¶Ø§ÙØ© ØªØ·Ø¨ÙŠÙ‚ Yandex ÙÙŠ ØµÙØ­Ø© Ù…Ù„ÙÙƒ Ø§Ù„Ø´Ø®ØµÙŠ.</value>
   </data>
   <data name="ConsumersZoom" xml:space="preserve">
     <value>Zoom</value>
   </data>
   <data name="CouldNotRecoverPasswordForLdapUser" xml:space="preserve">
-    <value>عملية استرداد كلمة المرور ممنوعة لمستخدم LDAP</value>
+    <value>Ø¹Ù…Ù„ÙŠØ© Ø§Ø³ØªØ±Ø¯Ø§Ø¯ ÙƒÙ„Ù…Ø© Ø§Ù„Ù…Ø±ÙˆØ± Ù…Ù…Ù†ÙˆØ¹Ø© Ù„Ù…Ø³ØªØ®Ø¯Ù… LDAP</value>
   </data>
   <data name="CouldNotRecoverPasswordForSsoUser" xml:space="preserve">
-    <value>عملية استرداد كلمة المرور ممنوعة لمستخدمين بوابة الدخول الموحد</value>
+    <value>Ø¹Ù…Ù„ÙŠØ© Ø§Ø³ØªØ±Ø¯Ø§Ø¯ ÙƒÙ„Ù…Ø© Ø§Ù„Ù…Ø±ÙˆØ± Ù…Ù…Ù†ÙˆØ¹Ø© Ù„Ù…Ø³ØªØ®Ø¯Ù…ÙŠÙ† Ø¨ÙˆØ§Ø¨Ø© Ø§Ù„Ø¯Ø®ÙˆÙ„ Ø§Ù„Ù…ÙˆØ­Ø¯</value>
   </data>
   <data name="CustomNamingPeopleSchema" xml:space="preserve">
-    <value>تخصيص</value>
+    <value>ØªØ®ØµÙŠØµ</value>
   </data>
   <data name="EmailAndPasswordIncorrectAmiId" xml:space="preserve">
-    <value>هوية غير صحيحة.</value>
+    <value>Ù‡ÙˆÙŠØ© ØºÙŠØ± ØµØ­ÙŠØ­Ø©.</value>
   </data>
   <data name="EmailAndPasswordIncorrectEmail" xml:space="preserve">
-    <value>بريد الكتروني غير صحيح</value>
+    <value>Ø¨Ø±ÙŠØ¯ Ø§Ù„ÙƒØªØ±ÙˆÙ†ÙŠ ØºÙŠØ± ØµØ­ÙŠØ­</value>
   </data>
   <data name="ErrorAccessDenied" xml:space="preserve">
-    <value>لا توجد أذونات للقيام بهذا الإجراء</value>
+    <value>Ù„Ø§ ØªÙˆØ¬Ø¯ Ø£Ø°ÙˆÙ†Ø§Øª Ù„Ù„Ù‚ÙŠØ§Ù… Ø¨Ù‡Ø°Ø§ Ø§Ù„Ø¥Ø¬Ø±Ø§Ø¡</value>
   </data>
   <data name="ErrorAccessRestricted" xml:space="preserve">
-    <value>الوصول إلى البوابة مقيد.</value>
+    <value>Ø§Ù„ÙˆØµÙˆÙ„ Ø¥Ù„Ù‰ Ø§Ù„Ø¨ÙˆØ§Ø¨Ø© Ù…Ù‚ÙŠØ¯.</value>
   </data>
   <data name="ErrorBadKeys" xml:space="preserve">
-    <value>المفتاح غير فعّال</value>
+    <value>Ø§Ù„Ù…ÙØªØ§Ø­ ØºÙŠØ± ÙØ¹Ù‘Ø§Ù„</value>
   </data>
   <data name="ErrorDisabledProfile" xml:space="preserve">
-    <value>تم تعليق ملفك الشخصي</value>
+    <value>ØªÙ… ØªØ¹Ù„ÙŠÙ‚ Ù…Ù„ÙÙƒ Ø§Ù„Ø´Ø®ØµÙŠ</value>
   </data>
   <data name="ErrorEmailAlreadyExists" xml:space="preserve">
-    <value>{!المستخدم} صاحب هذا البريد الإلكتروني مسجل بالفعل</value>
+    <value>{!Ø§Ù„Ù…Ø³ØªØ®Ø¯Ù…} ØµØ§Ø­Ø¨ Ù‡Ø°Ø§ Ø§Ù„Ø¨Ø±ÙŠØ¯ Ø§Ù„Ø¥Ù„ÙƒØªØ±ÙˆÙ†ÙŠ Ù…Ø³Ø¬Ù„ Ø¨Ø§Ù„ÙØ¹Ù„</value>
   </data>
   <data name="ErrorEmailDomainNotAllowed" xml:space="preserve">
-    <value>رسائل البريد الإلكتروني من هذا المجال غير مسموح لها التسجيل</value>
+    <value>Ø±Ø³Ø§Ø¦Ù„ Ø§Ù„Ø¨Ø±ÙŠØ¯ Ø§Ù„Ø¥Ù„ÙƒØªØ±ÙˆÙ†ÙŠ Ù…Ù† Ù‡Ø°Ø§ Ø§Ù„Ù…Ø¬Ø§Ù„ ØºÙŠØ± Ù…Ø³Ù…ÙˆØ­ Ù„Ù‡Ø§ Ø§Ù„ØªØ³Ø¬ÙŠÙ„</value>
   </data>
   <data name="ErrorEmailEmpty" xml:space="preserve">
-    <value>الحقل الخاص بالبريد الالكتروني فارغ</value>
+    <value>Ø§Ù„Ø­Ù‚Ù„ Ø§Ù„Ø®Ø§Øµ Ø¨Ø§Ù„Ø¨Ø±ÙŠØ¯ Ø§Ù„Ø§Ù„ÙƒØªØ±ÙˆÙ†ÙŠ ÙØ§Ø±Øº</value>
   </data>
   <data name="ErrorEmailsAreTheSame" xml:space="preserve">
-    <value>البريد الإلكتروني الحالي والبريد الإلكتروني الجديد متماثلان</value>
+    <value>Ø§Ù„Ø¨Ø±ÙŠØ¯ Ø§Ù„Ø¥Ù„ÙƒØªØ±ÙˆÙ†ÙŠ Ø§Ù„Ø­Ø§Ù„ÙŠ ÙˆØ§Ù„Ø¨Ø±ÙŠØ¯ Ø§Ù„Ø¥Ù„ÙƒØªØ±ÙˆÙ†ÙŠ Ø§Ù„Ø¬Ø¯ÙŠØ¯ Ù…ØªÙ…Ø§Ø«Ù„Ø§Ù†</value>
   </data>
   <data name="ErrorEmptyFields" xml:space="preserve">
-    <value>الرجاء ملء جميع الحقول</value>
+    <value>Ø§Ù„Ø±Ø¬Ø§Ø¡ Ù…Ù„Ø¡ Ø¬Ù…ÙŠØ¹ Ø§Ù„Ø­Ù‚ÙˆÙ„</value>
   </data>
   <data name="ErrorEmptyMessage" xml:space="preserve">
-    <value>نص الرسالة فارغ</value>
+    <value>Ù†Øµ Ø§Ù„Ø±Ø³Ø§Ù„Ø© ÙØ§Ø±Øº</value>
   </data>
   <data name="ErrorEmptyUploadFileSelected" xml:space="preserve">
-    <value>تعذر العثور على الملف الذي تم تحميله</value>
+    <value>ØªØ¹Ø°Ø± Ø§Ù„Ø¹Ø«ÙˆØ± Ø¹Ù„Ù‰ Ø§Ù„Ù…Ù„Ù Ø§Ù„Ø°ÙŠ ØªÙ… ØªØ­Ù…ÙŠÙ„Ù‡</value>
   </data>
   <data name="ErrorFileNotImage" xml:space="preserve">
-    <value>نوع ملف صورة غير معروف</value>
+    <value>Ù†ÙˆØ¹ Ù…Ù„Ù ØµÙˆØ±Ø© ØºÙŠØ± Ù…Ø¹Ø±ÙˆÙ</value>
   </data>
   <data name="ErrorImageSize" xml:space="preserve">
-    <value>حجم الصورة يتجاوز المقاييس المسموح بها</value>
+    <value>Ø­Ø¬Ù… Ø§Ù„ØµÙˆØ±Ø© ÙŠØªØ¬Ø§ÙˆØ² Ø§Ù„Ù…Ù‚Ø§ÙŠÙŠØ³ Ø§Ù„Ù…Ø³Ù…ÙˆØ­ Ø¨Ù‡Ø§</value>
   </data>
   <data name="ErrorImageWeightLimit" xml:space="preserve">
-    <value>حجم ملف الصورة كبير جدًا</value>
+    <value>Ø­Ø¬Ù… Ù…Ù„Ù Ø§Ù„ØµÙˆØ±Ø© ÙƒØ¨ÙŠØ± Ø¬Ø¯Ù‹Ø§</value>
   </data>
   <data name="ErrorIncorrectUserName" xml:space="preserve">
-    <value>الاسم الأول أو الأخير غير صحيح</value>
+    <value>Ø§Ù„Ø§Ø³Ù… Ø§Ù„Ø£ÙˆÙ„ Ø£Ùˆ Ø§Ù„Ø£Ø®ÙŠØ± ØºÙŠØ± ØµØ­ÙŠØ­</value>
   </data>
   <data name="ErrorIpSecurity" xml:space="preserve">
-    <value>الوصول إلى البوابة مقيد</value>
+    <value>Ø§Ù„ÙˆØµÙˆÙ„ Ø¥Ù„Ù‰ Ø§Ù„Ø¨ÙˆØ§Ø¨Ø© Ù…Ù‚ÙŠØ¯</value>
   </data>
   <data name="ErrorNotAllowedOption" xml:space="preserve">
-    <value>الخطة الخاصة بك الخاصة بك لا تدعم هذا الخيار</value>
+    <value>Ø§Ù„Ø®Ø·Ø© Ø§Ù„Ø®Ø§ØµØ© Ø¨Ùƒ Ø§Ù„Ø®Ø§ØµØ© Ø¨Ùƒ Ù„Ø§ ØªØ¯Ø¹Ù… Ù‡Ø°Ø§ Ø§Ù„Ø®ÙŠØ§Ø±</value>
   </data>
   <data name="ErrorNotCorrectEmail" xml:space="preserve">
-    <value>بريد الكتروني غير صحيح</value>
+    <value>Ø¨Ø±ÙŠØ¯ Ø§Ù„ÙƒØªØ±ÙˆÙ†ÙŠ ØºÙŠØ± ØµØ­ÙŠØ­</value>
   </data>
   <data name="ErrorNotCorrectTrustedDomain" xml:space="preserve">
-    <value>اسم النطاق غير صالح</value>
+    <value>Ø§Ø³Ù… Ø§Ù„Ù†Ø·Ø§Ù‚ ØºÙŠØ± ØµØ§Ù„Ø­</value>
   </data>
   <data name="ErrorPasswordEmpty" xml:space="preserve">
-    <value>حقل كلمة المرور فارغ.</value>
+    <value>Ø­Ù‚Ù„ ÙƒÙ„Ù…Ø© Ø§Ù„Ù…Ø±ÙˆØ± ÙØ§Ø±Øº.</value>
   </data>
   <data name="ErrorPasswordLength" xml:space="preserve">
-    <value>من {0} إلى {1} حرف</value>
+    <value>Ù…Ù† {0} Ø¥Ù„Ù‰ {1} Ø­Ø±Ù</value>
   </data>
   <data name="ErrorPasswordMessage" xml:space="preserve">
-    <value>يجب أن تحتوي كلمة المرور على</value>
+    <value>ÙŠØ¬Ø¨ Ø£Ù† ØªØ­ØªÙˆÙŠ ÙƒÙ„Ù…Ø© Ø§Ù„Ù…Ø±ÙˆØ± Ø¹Ù„Ù‰</value>
   </data>
   <data name="ErrorPasswordNoDigits" xml:space="preserve">
-    <value>أرقام</value>
+    <value>Ø£Ø±Ù‚Ø§Ù…</value>
   </data>
   <data name="ErrorPasswordNoSpaces" xml:space="preserve">
-    <value>عدم وجود مسافات</value>
+    <value>Ø¹Ø¯Ù… ÙˆØ¬ÙˆØ¯ Ù…Ø³Ø§ÙØ§Øª</value>
   </data>
   <data name="ErrorPasswordNoSpecialSymbols" xml:space="preserve">
-    <value>رموز خاصة</value>
+    <value>Ø±Ù…ÙˆØ² Ø®Ø§ØµØ©</value>
   </data>
   <data name="ErrorPasswordNoUpperCase" xml:space="preserve">
-    <value>حروف كبيرة</value>
+    <value>Ø­Ø±ÙˆÙ ÙƒØ¨ÙŠØ±Ø©</value>
   </data>
   <data name="ErrorPasswordOnlyLatinLetters" xml:space="preserve">
-    <value>أحرف لاتينية فقط</value>
+    <value>Ø£Ø­Ø±Ù Ù„Ø§ØªÙŠÙ†ÙŠØ© ÙÙ‚Ø·</value>
   </data>
   <data name="ErrorRequestLimitExceeded" xml:space="preserve">
-    <value>تم تجاوز حد الطلب</value>
+    <value>ØªÙ… ØªØ¬Ø§ÙˆØ² Ø­Ø¯ Ø§Ù„Ø·Ù„Ø¨</value>
   </data>
   <data name="ErrorTenantTooShort" xml:space="preserve">
-    <value>لا يمكن أن يكون مجال المستأجر فارغًا.</value>
+    <value>Ù„Ø§ ÙŠÙ…ÙƒÙ† Ø£Ù† ÙŠÙƒÙˆÙ† Ù…Ø¬Ø§Ù„ Ø§Ù„Ù…Ø³ØªØ£Ø¬Ø± ÙØ§Ø±ØºÙ‹Ø§.</value>
   </data>
   <data name="ErrorTenantTooShortFormat" xml:space="preserve">
-    <value>يجب أن يكون طول اسم المجال بين {0} و {1} حرف.</value>
+    <value>ÙŠØ¬Ø¨ Ø£Ù† ÙŠÙƒÙˆÙ† Ø·ÙˆÙ„ Ø§Ø³Ù… Ø§Ù„Ù…Ø¬Ø§Ù„ Ø¨ÙŠÙ† {0} Ùˆ {1} Ø­Ø±Ù.</value>
   </data>
   <data name="ErrorUserNotFound" xml:space="preserve">
-    <value>لا يمكن العثور على اسم المستخدم</value>
+    <value>Ù„Ø§ ÙŠÙ…ÙƒÙ† Ø§Ù„Ø¹Ø«ÙˆØ± Ø¹Ù„Ù‰ Ø§Ø³Ù… Ø§Ù„Ù…Ø³ØªØ®Ø¯Ù…</value>
   </data>
   <data name="ErrorUserNotFoundByEmail" xml:space="preserve">
-    <value>لا يمكن العثور على المستخدم صاحب البريد الالكتروني "{0}"</value>
+    <value>Ù„Ø§ ÙŠÙ…ÙƒÙ† Ø§Ù„Ø¹Ø«ÙˆØ± Ø¹Ù„Ù‰ Ø§Ù„Ù…Ø³ØªØ®Ø¯Ù… ØµØ§Ø­Ø¨ Ø§Ù„Ø¨Ø±ÙŠØ¯ Ø§Ù„Ø§Ù„ÙƒØªØ±ÙˆÙ†ÙŠ "{0}"</value>
   </data>
   <data name="EuServerRegion" xml:space="preserve">
-    <value>منطقة أوروبا (فرانكفورت)</value>
+    <value>Ù…Ù†Ø·Ù‚Ø© Ø£ÙˆØ±ÙˆØ¨Ø§ (ÙØ±Ø§Ù†ÙƒÙÙˆØ±Øª)</value>
   </data>
   <data name="FileSizeMaxExceed" xml:space="preserve">
-    <value>تم تجاوز الحد الأقصى لحجم الملف</value>
+    <value>ØªÙ… ØªØ¬Ø§ÙˆØ² Ø§Ù„Ø­Ø¯ Ø§Ù„Ø£Ù‚ØµÙ‰ Ù„Ø­Ø¬Ù… Ø§Ù„Ù…Ù„Ù</value>
   </data>
   <data name="FileSizeNote" xml:space="preserve">
-    <value>ملاحظة: لا يمكن أن يتجاوز حجم الملف {1} {0} {2}</value>
+    <value>Ù…Ù„Ø§Ø­Ø¸Ø©: Ù„Ø§ ÙŠÙ…ÙƒÙ† Ø£Ù† ÙŠØªØ¬Ø§ÙˆØ² Ø­Ø¬Ù… Ø§Ù„Ù…Ù„Ù {1} {0} {2}</value>
   </data>
   <data name="FileSizePostfix" xml:space="preserve">
-    <value>بايت، كيلوبايت، ميجابايت، جيجابايت، تيرابايت</value>
+    <value>Ø¨Ø§ÙŠØªØŒ ÙƒÙŠÙ„ÙˆØ¨Ø§ÙŠØªØŒ Ù…ÙŠØ¬Ø§Ø¨Ø§ÙŠØªØŒ Ø¬ÙŠØ¬Ø§Ø¨Ø§ÙŠØªØŒ ØªÙŠØ±Ø§Ø¨Ø§ÙŠØª</value>
   </data>
   <data name="FinishInviteJoinEmailMessage" xml:space="preserve">
-    <value>تم إرسال الرابط لتأكيد حسابك إلى البريد الإلكتروني المحدد</value>
+    <value>ØªÙ… Ø¥Ø±Ø³Ø§Ù„ Ø§Ù„Ø±Ø§Ø¨Ø· Ù„ØªØ£ÙƒÙŠØ¯ Ø­Ø³Ø§Ø¨Ùƒ Ø¥Ù„Ù‰ Ø§Ù„Ø¨Ø±ÙŠØ¯ Ø§Ù„Ø¥Ù„ÙƒØªØ±ÙˆÙ†ÙŠ Ø§Ù„Ù…Ø­Ø¯Ø¯</value>
   </data>
   <data name="FirstName" xml:space="preserve">
-    <value>الاسم الأول</value>
+    <value>Ø§Ù„Ø§Ø³Ù… Ø§Ù„Ø£ÙˆÙ„</value>
   </data>
   <data name="LastName" xml:space="preserve">
-    <value>اسم العائلة</value>
+    <value>Ø§Ø³Ù… Ø§Ù„Ø¹Ø§Ø¦Ù„Ø©</value>
   </data>
   <data name="LdapSettingsConnectError" xml:space="preserve">
-    <value>خطأ في الاتصال</value>
+    <value>Ø®Ø·Ø£ ÙÙŠ Ø§Ù„Ø§ØªØµØ§Ù„</value>
   </data>
   <data name="LdapSettingsErrorCantCreateUsers" xml:space="preserve">
-    <value>لا يمكن إنشاء المستخدمين، البيانات الواردة غير صحيحة.</value>
+    <value>Ù„Ø§ ÙŠÙ…ÙƒÙ† Ø¥Ù†Ø´Ø§Ø¡ Ø§Ù„Ù…Ø³ØªØ®Ø¯Ù…ÙŠÙ†ØŒ Ø§Ù„Ø¨ÙŠØ§Ù†Ø§Øª Ø§Ù„ÙˆØ§Ø±Ø¯Ø© ØºÙŠØ± ØµØ­ÙŠØ­Ø©.</value>
   </data>
   <data name="LdapSettingsErrorCantGetLdapSettings" xml:space="preserve">
-    <value>لم يتمكن الخادم من الحصول على إعدادات.</value>
+    <value>Ù„Ù… ÙŠØªÙ…ÙƒÙ† Ø§Ù„Ø®Ø§Ø¯Ù… Ù…Ù† Ø§Ù„Ø­ØµÙˆÙ„ Ø¹Ù„Ù‰ Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª.</value>
   </data>
   <data name="LdapSettingsErrorCantSaveLdapSettings" xml:space="preserve">
-    <value>لم يتمكن الخادم من حفظ الإعدادات.</value>
+    <value>Ù„Ù… ÙŠØªÙ…ÙƒÙ† Ø§Ù„Ø®Ø§Ø¯Ù… Ù…Ù† Ø­ÙØ¸ Ø§Ù„Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª.</value>
   </data>
   <data name="LdapSettingsErrorCredentialsNotValid" xml:space="preserve">
-    <value>خطأ في اسم المستخدم أو كلمة المرور.</value>
+    <value>Ø®Ø·Ø£ ÙÙŠ Ø§Ø³Ù… Ø§Ù„Ù…Ø³ØªØ®Ø¯Ù… Ø£Ùˆ ÙƒÙ„Ù…Ø© Ø§Ù„Ù…Ø±ÙˆØ±.</value>
   </data>
   <data name="LdapSettingsErrorDomainNotFound" xml:space="preserve">
-    <value>مجال LDAP غير موجود.</value>
+    <value>Ù…Ø¬Ø§Ù„ LDAP ØºÙŠØ± Ù…ÙˆØ¬ÙˆØ¯.</value>
   </data>
   <data name="LdapSettingsErrorGroupsNotFound" xml:space="preserve">
-    <value>لا يمكن العثور على مجموعات.</value>
+    <value>Ù„Ø§ ÙŠÙ…ÙƒÙ† Ø§Ù„Ø¹Ø«ÙˆØ± Ø¹Ù„Ù‰ Ù…Ø¬Ù…ÙˆØ¹Ø§Øª.</value>
   </data>
   <data name="LdapSettingsErrorIncorrectLdapFilter" xml:space="preserve">
-    <value>قيمة الفلتر المستخدم غير صالحة.</value>
+    <value>Ù‚ÙŠÙ…Ø© Ø§Ù„ÙÙ„ØªØ± Ø§Ù„Ù…Ø³ØªØ®Ø¯Ù… ØºÙŠØ± ØµØ§Ù„Ø­Ø©.</value>
   </data>
   <data name="LdapSettingsErrorLostRights" xml:space="preserve">
-    <value>حاولت سحب حقوق الإدارة من نفسك. لم تتأثر حقوقك الإدارية.</value>
+    <value>Ø­Ø§ÙˆÙ„Øª Ø³Ø­Ø¨ Ø­Ù‚ÙˆÙ‚ Ø§Ù„Ø¥Ø¯Ø§Ø±Ø© Ù…Ù† Ù†ÙØ³Ùƒ. Ù„Ù… ØªØªØ£Ø«Ø± Ø­Ù‚ÙˆÙ‚Ùƒ Ø§Ù„Ø¥Ø¯Ø§Ø±ÙŠØ©.</value>
   </data>
   <data name="LdapSettingsErrorRemovedYourself" xml:space="preserve">
-    <value>لم يعد حسابك مرتبطًا بدليل LDAP ولم تعد كلمة مرور LDAP الخاصة بك نشطة. يرجى تغيير أو ضبط كلمة المرور على حسابك من خلال صفحة إعدادات الملف الشخصي.</value>
+    <value>Ù„Ù… ÙŠØ¹Ø¯ Ø­Ø³Ø§Ø¨Ùƒ Ù…Ø±ØªØ¨Ø·Ù‹Ø§ Ø¨Ø¯Ù„ÙŠÙ„ LDAP ÙˆÙ„Ù… ØªØ¹Ø¯ ÙƒÙ„Ù…Ø© Ù…Ø±ÙˆØ± LDAP Ø§Ù„Ø®Ø§ØµØ© Ø¨Ùƒ Ù†Ø´Ø·Ø©. ÙŠØ±Ø¬Ù‰ ØªØºÙŠÙŠØ± Ø£Ùˆ Ø¶Ø¨Ø· ÙƒÙ„Ù…Ø© Ø§Ù„Ù…Ø±ÙˆØ± Ø¹Ù„Ù‰ Ø­Ø³Ø§Ø¨Ùƒ Ù…Ù† Ø®Ù„Ø§Ù„ ØµÙØ­Ø© Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª Ø§Ù„Ù…Ù„Ù Ø§Ù„Ø´Ø®ØµÙŠ.</value>
   </data>
   <data name="LdapSettingsErrorUnknownError" xml:space="preserve">
-    <value>خطأ غير معروف.</value>
+    <value>Ø®Ø·Ø£ ØºÙŠØ± Ù…Ø¹Ø±ÙˆÙ.</value>
   </data>
   <data name="LdapSettingsErrorUsersNotFound" xml:space="preserve">
-    <value>لا يمكن العثور على مستخدمين.</value>
+    <value>Ù„Ø§ ÙŠÙ…ÙƒÙ† Ø§Ù„Ø¹Ø«ÙˆØ± Ø¹Ù„Ù‰ Ù…Ø³ØªØ®Ø¯Ù…ÙŠÙ†.</value>
   </data>
   <data name="LdapSettingsErrorWrongGroupAttribute" xml:space="preserve">
-    <value>لا يمكن الحصول على رمزلمجموعة واحدة أو عدة مجموعات.</value>
+    <value>Ù„Ø§ ÙŠÙ…ÙƒÙ† Ø§Ù„Ø­ØµÙˆÙ„ Ø¹Ù„Ù‰ Ø±Ù…Ø²Ù„Ù…Ø¬Ù…ÙˆØ¹Ø© ÙˆØ§Ø­Ø¯Ø© Ø£Ùˆ Ø¹Ø¯Ø© Ù…Ø¬Ù…ÙˆØ¹Ø§Øª.</value>
   </data>
   <data name="LdapSettingsErrorWrongGroupFilter" xml:space="preserve">
-    <value>فلتر مجموعة غير صحيح.</value>
+    <value>ÙÙ„ØªØ± Ù…Ø¬Ù…ÙˆØ¹Ø© ØºÙŠØ± ØµØ­ÙŠØ­.</value>
   </data>
   <data name="LdapSettingsErrorWrongGroupNameAttribute" xml:space="preserve">
-    <value>لم يتمكن من الحصول على رمز اسم مجموعة واحدة أو عدة مجموعات.</value>
+    <value>Ù„Ù… ÙŠØªÙ…ÙƒÙ† Ù…Ù† Ø§Ù„Ø­ØµÙˆÙ„ Ø¹Ù„Ù‰ Ø±Ù…Ø² Ø§Ø³Ù… Ù…Ø¬Ù…ÙˆØ¹Ø© ÙˆØ§Ø­Ø¯Ø© Ø£Ùˆ Ø¹Ø¯Ø© Ù…Ø¬Ù…ÙˆØ¹Ø§Øª.</value>
   </data>
   <data name="LdapSettingsErrorWrongLoginAttribute" xml:space="preserve">
-    <value>لم يتم الحصول على رمز تسجيل الدخول لمستخدم واحد أو عدة مستخدمين.</value>
+    <value>Ù„Ù… ÙŠØªÙ… Ø§Ù„Ø­ØµÙˆÙ„ Ø¹Ù„Ù‰ Ø±Ù…Ø² ØªØ³Ø¬ÙŠÙ„ Ø§Ù„Ø¯Ø®ÙˆÙ„ Ù„Ù…Ø³ØªØ®Ø¯Ù… ÙˆØ§Ø­Ø¯ Ø£Ùˆ Ø¹Ø¯Ø© Ù…Ø³ØªØ®Ø¯Ù…ÙŠÙ†.</value>
   </data>
   <data name="LdapSettingsErrorWrongServerOrPort" xml:space="preserve">
-    <value>تعذر الاتصال بخادم LDAP. يرجى التحقق من صحة عنوان الخادم ورقم المنفذ.</value>
+    <value>ØªØ¹Ø°Ø± Ø§Ù„Ø§ØªØµØ§Ù„ Ø¨Ø®Ø§Ø¯Ù… LDAP. ÙŠØ±Ø¬Ù‰ Ø§Ù„ØªØ­Ù‚Ù‚ Ù…Ù† ØµØ­Ø© Ø¹Ù†ÙˆØ§Ù† Ø§Ù„Ø®Ø§Ø¯Ù… ÙˆØ±Ù‚Ù… Ø§Ù„Ù…Ù†ÙØ°.</value>
   </data>
   <data name="LdapSettingsErrorWrongUserAttribute" xml:space="preserve">
-    <value>تعذر الحصول على رمز المستخدم لمستخدم واحد أو عدة مستخدمين.</value>
+    <value>ØªØ¹Ø°Ø± Ø§Ù„Ø­ØµÙˆÙ„ Ø¹Ù„Ù‰ Ø±Ù…Ø² Ø§Ù„Ù…Ø³ØªØ®Ø¯Ù… Ù„Ù…Ø³ØªØ®Ø¯Ù… ÙˆØ§Ø­Ø¯ Ø£Ùˆ Ø¹Ø¯Ø© Ù…Ø³ØªØ®Ø¯Ù…ÙŠÙ†.</value>
   </data>
   <data name="LdapSettingsInternalServerError" xml:space="preserve">
-    <value>خطأ داخلي في النظام.</value>
+    <value>Ø®Ø·Ø£ Ø¯Ø§Ø®Ù„ÙŠ ÙÙŠ Ø§Ù„Ù†Ø¸Ø§Ù….</value>
   </data>
   <data name="LdapSettingsModifyLdapUsers" xml:space="preserve">
-    <value>تعديل مستخدمي LDAP على مستخدمي البوابة العادية</value>
+    <value>ØªØ¹Ø¯ÙŠÙ„ Ù…Ø³ØªØ®Ø¯Ù…ÙŠ LDAP Ø¹Ù„Ù‰ Ù…Ø³ØªØ®Ø¯Ù…ÙŠ Ø§Ù„Ø¨ÙˆØ§Ø¨Ø© Ø§Ù„Ø¹Ø§Ø¯ÙŠØ©</value>
   </data>
   <data name="LdapSettingsStatusAddingGroupUser" xml:space="preserve">
-    <value>إضافة مستخدم</value>
+    <value>Ø¥Ø¶Ø§ÙØ© Ù…Ø³ØªØ®Ø¯Ù…</value>
   </data>
   <data name="LdapSettingsStatusCertificateVerification" xml:space="preserve">
-    <value>التحقق من الشهادات</value>
+    <value>Ø§Ù„ØªØ­Ù‚Ù‚ Ù…Ù† Ø§Ù„Ø´Ù‡Ø§Ø¯Ø§Øª</value>
   </data>
   <data name="LdapSettingsStatusCheckingLdapSettings" xml:space="preserve">
-    <value>التحقق من إعدادات دعم LDAP</value>
+    <value>Ø§Ù„ØªØ­Ù‚Ù‚ Ù…Ù† Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª Ø¯Ø¹Ù… LDAP</value>
   </data>
   <data name="LdapSettingsStatusDisconnecting" xml:space="preserve">
-    <value>قطع اتصال LDAP</value>
+    <value>Ù‚Ø·Ø¹ Ø§ØªØµØ§Ù„ LDAP</value>
   </data>
   <data name="LdapSettingsStatusGettingGroupsFromLdap" xml:space="preserve">
-    <value>استرجاع قائمة المجموعة من خادم LDAP</value>
+    <value>Ø§Ø³ØªØ±Ø¬Ø§Ø¹ Ù‚Ø§Ø¦Ù…Ø© Ø§Ù„Ù…Ø¬Ù…ÙˆØ¹Ø© Ù…Ù† Ø®Ø§Ø¯Ù… LDAP</value>
   </data>
   <data name="LdapSettingsStatusGettingUsersFromLdap" xml:space="preserve">
-    <value>استرجاع قائمة المستخدمين من خادم LDAP</value>
+    <value>Ø§Ø³ØªØ±Ø¬Ø§Ø¹ Ù‚Ø§Ø¦Ù…Ø© Ø§Ù„Ù…Ø³ØªØ®Ø¯Ù…ÙŠÙ† Ù…Ù† Ø®Ø§Ø¯Ù… LDAP</value>
   </data>
   <data name="LdapSettingsStatusGivingRights" xml:space="preserve">
-    <value>تعيين المستخدم {0} كمسئول {1}</value>
+    <value>ØªØ¹ÙŠÙŠÙ† Ø§Ù„Ù…Ø³ØªØ®Ø¯Ù… {0} ÙƒÙ…Ø³Ø¦ÙˆÙ„ {1}</value>
   </data>
   <data name="LdapSettingsStatusLoadingBaseInfo" xml:space="preserve">
-    <value>تحميل معلومات قاعدة LDAP</value>
+    <value>ØªØ­Ù…ÙŠÙ„ Ù…Ø¹Ù„ÙˆÙ…Ø§Øª Ù‚Ø§Ø¹Ø¯Ø© LDAP</value>
   </data>
   <data name="LdapSettingsStatusRemovingGroupUser" xml:space="preserve">
-    <value>إزالة مستخدم</value>
+    <value>Ø¥Ø²Ø§Ù„Ø© Ù…Ø³ØªØ®Ø¯Ù…</value>
   </data>
   <data name="LdapSettingsStatusRemovingOldGroups" xml:space="preserve">
-    <value>إزالة المجموعات القديمة التي تم تحميلها عبر LDAP في وقت سابق</value>
+    <value>Ø¥Ø²Ø§Ù„Ø© Ø§Ù„Ù…Ø¬Ù…ÙˆØ¹Ø§Øª Ø§Ù„Ù‚Ø¯ÙŠÙ…Ø© Ø§Ù„ØªÙŠ ØªÙ… ØªØ­Ù…ÙŠÙ„Ù‡Ø§ Ø¹Ø¨Ø± LDAP ÙÙŠ ÙˆÙ‚Øª Ø³Ø§Ø¨Ù‚</value>
   </data>
   <data name="LdapSettingsStatusRemovingOldRights" xml:space="preserve">
-    <value>إزالة حقوق الوصول القديمة التي تم تحميلها عبر LDAP في وقت سابق</value>
+    <value>Ø¥Ø²Ø§Ù„Ø© Ø­Ù‚ÙˆÙ‚ Ø§Ù„ÙˆØµÙˆÙ„ Ø§Ù„Ù‚Ø¯ÙŠÙ…Ø© Ø§Ù„ØªÙŠ ØªÙ… ØªØ­Ù…ÙŠÙ„Ù‡Ø§ Ø¹Ø¨Ø± LDAP ÙÙŠ ÙˆÙ‚Øª Ø³Ø§Ø¨Ù‚</value>
   </data>
   <data name="LdapSettingsStatusRemovingOldUsers" xml:space="preserve">
-    <value>تعطيل ملفات تعريف المستخدم القديمة التي تم تحميلها عبر LDAP في وقت سابق</value>
+    <value>ØªØ¹Ø·ÙŠÙ„ Ù…Ù„ÙØ§Øª ØªØ¹Ø±ÙŠÙ Ø§Ù„Ù…Ø³ØªØ®Ø¯Ù… Ø§Ù„Ù‚Ø¯ÙŠÙ…Ø© Ø§Ù„ØªÙŠ ØªÙ… ØªØ­Ù…ÙŠÙ„Ù‡Ø§ Ø¹Ø¨Ø± LDAP ÙÙŠ ÙˆÙ‚Øª Ø³Ø§Ø¨Ù‚</value>
   </data>
   <data name="LdapSettingsStatusSavingGroups" xml:space="preserve">
-    <value>حفظ المجموعات</value>
+    <value>Ø­ÙØ¸ Ø§Ù„Ù…Ø¬Ù…ÙˆØ¹Ø§Øª</value>
   </data>
   <data name="LdapSettingsStatusSavingSettings" xml:space="preserve">
-    <value>حفظ الاعدادات</value>
+    <value>Ø­ÙØ¸ Ø§Ù„Ø§Ø¹Ø¯Ø§Ø¯Ø§Øª</value>
   </data>
   <data name="LdapSettingsStatusSavingUserPhoto" xml:space="preserve">
-    <value>حفظ الصورة</value>
+    <value>Ø­ÙØ¸ Ø§Ù„ØµÙˆØ±Ø©</value>
   </data>
   <data name="LdapSettingsStatusSavingUsers" xml:space="preserve">
-    <value>حفظ المستخدمين</value>
+    <value>Ø­ÙØ¸ Ø§Ù„Ù…Ø³ØªØ®Ø¯Ù…ÙŠÙ†</value>
   </data>
   <data name="LdapSettingsStatusSyncingUsers" xml:space="preserve">
-    <value>مزامنة المستخدمين</value>
+    <value>Ù…Ø²Ø§Ù…Ù†Ø© Ø§Ù„Ù…Ø³ØªØ®Ø¯Ù…ÙŠÙ†</value>
   </data>
   <data name="LdapSettingsStatusUpdatingAccessRights" xml:space="preserve">
-    <value>تحديث حقوق وصول المستخدمين</value>
+    <value>ØªØ­Ø¯ÙŠØ« Ø­Ù‚ÙˆÙ‚ ÙˆØµÙˆÙ„ Ø§Ù„Ù…Ø³ØªØ®Ø¯Ù…ÙŠÙ†</value>
   </data>
   <data name="LdapSettingsStatusUpdatingUserPhotos" xml:space="preserve">
-    <value>تحديث صور المستخدم</value>
+    <value>ØªØ­Ø¯ÙŠØ« ØµÙˆØ± Ø§Ù„Ù…Ø³ØªØ®Ø¯Ù…</value>
   </data>
   <data name="LdapSettingsStrongAuthRequired" xml:space="preserve">
-    <value>مطلوب نوع توثيق أكثر أمانًا. الرجاء استخدام اتصال مشفر أو تمكين المصادقة البسيطة على الخادم.</value>
+    <value>Ù…Ø·Ù„ÙˆØ¨ Ù†ÙˆØ¹ ØªÙˆØ«ÙŠÙ‚ Ø£ÙƒØ«Ø± Ø£Ù…Ø§Ù†Ù‹Ø§. Ø§Ù„Ø±Ø¬Ø§Ø¡ Ø§Ø³ØªØ®Ø¯Ø§Ù… Ø§ØªØµØ§Ù„ Ù…Ø´ÙØ± Ø£Ùˆ ØªÙ…ÙƒÙŠÙ† Ø§Ù„Ù…ØµØ§Ø¯Ù‚Ø© Ø§Ù„Ø¨Ø³ÙŠØ·Ø© Ø¹Ù„Ù‰ Ø§Ù„Ø®Ø§Ø¯Ù….</value>
   </data>
   <data name="LdapSettingsTenantQuotaSettled" xml:space="preserve">
-    <value>تم الوصول إلى الحد الأقصى للمستخدم في خطة التسعير الحالية</value>
+    <value>ØªÙ… Ø§Ù„ÙˆØµÙˆÙ„ Ø¥Ù„Ù‰ Ø§Ù„Ø­Ø¯ Ø§Ù„Ø£Ù‚ØµÙ‰ Ù„Ù„Ù…Ø³ØªØ®Ø¯Ù… ÙÙŠ Ø®Ø·Ø© Ø§Ù„ØªØ³Ø¹ÙŠØ± Ø§Ù„Ø­Ø§Ù„ÙŠØ©</value>
   </data>
   <data name="LdapSettingsTlsNotSupported" xml:space="preserve">
-    <value>StartTLS غير مدعوم لخادم LDAP الحالي.</value>
+    <value>StartTLS ØºÙŠØ± Ù…Ø¯Ø¹ÙˆÙ… Ù„Ø®Ø§Ø¯Ù… LDAP Ø§Ù„Ø­Ø§Ù„ÙŠ.</value>
   </data>
   <data name="LdapSettingsTooManyOperations" xml:space="preserve">
-    <value>عدد كبير من عمليات LDAP.</value>
+    <value>Ø¹Ø¯Ø¯ ÙƒØ¨ÙŠØ± Ù…Ù† Ø¹Ù…Ù„ÙŠØ§Øª LDAP.</value>
   </data>
   <data name="LdapSettingsWrongSidAttribute" xml:space="preserve">
-    <value>تعذر الحصول على بطاقة هوية فريدة للمستخدم/المجموعة. سيحاول النظام افتراضيًا مطابقة أحد المعرفات التالية: entryUUID أو nsuniqueid أو GUID أو  objectSid. إذا لم تتطابق أي من الرموز مع خادم LDAP الخاص بك، فيرجى تحديد الرموز اللازمة في الإعداد ldap.unique.id لملف web.appsettings.config.</value>
+    <value>ØªØ¹Ø°Ø± Ø§Ù„Ø­ØµÙˆÙ„ Ø¹Ù„Ù‰ Ø¨Ø·Ø§Ù‚Ø© Ù‡ÙˆÙŠØ© ÙØ±ÙŠØ¯Ø© Ù„Ù„Ù…Ø³ØªØ®Ø¯Ù…/Ø§Ù„Ù…Ø¬Ù…ÙˆØ¹Ø©. Ø³ÙŠØ­Ø§ÙˆÙ„ Ø§Ù„Ù†Ø¸Ø§Ù… Ø§ÙØªØ±Ø§Ø¶ÙŠÙ‹Ø§ Ù…Ø·Ø§Ø¨Ù‚Ø© Ø£Ø­Ø¯ Ø§Ù„Ù…Ø¹Ø±ÙØ§Øª Ø§Ù„ØªØ§Ù„ÙŠØ©: entryUUID Ø£Ùˆ nsuniqueid Ø£Ùˆ GUID Ø£Ùˆ  objectSid. Ø¥Ø°Ø§ Ù„Ù… ØªØªØ·Ø§Ø¨Ù‚ Ø£ÙŠ Ù…Ù† Ø§Ù„Ø±Ù…ÙˆØ² Ù…Ø¹ Ø®Ø§Ø¯Ù… LDAP Ø§Ù„Ø®Ø§Øµ Ø¨ÙƒØŒ ÙÙŠØ±Ø¬Ù‰ ØªØ­Ø¯ÙŠØ¯ Ø§Ù„Ø±Ù…ÙˆØ² Ø§Ù„Ù„Ø§Ø²Ù…Ø© ÙÙŠ Ø§Ù„Ø¥Ø¹Ø¯Ø§Ø¯ ldap.unique.id Ù„Ù…Ù„Ù web.appsettings.config.</value>
   </data>
   <data name="LicenseError" xml:space="preserve">
-    <value>الرخصة ليست صحيحة</value>
+    <value>Ø§Ù„Ø±Ø®ØµØ© Ù„ÙŠØ³Øª ØµØ­ÙŠØ­Ø©</value>
   </data>
   <data name="LicenseErrorExpired" xml:space="preserve">
-    <value>الترخيص غير صالح لنسخة البوابة هذه.</value>
+    <value>Ø§Ù„ØªØ±Ø®ÙŠØµ ØºÙŠØ± ØµØ§Ù„Ø­ Ù„Ù†Ø³Ø®Ø© Ø§Ù„Ø¨ÙˆØ§Ø¨Ø© Ù‡Ø°Ù‡.</value>
   </data>
   <data name="LicenseErrorPortal" xml:space="preserve">
-    <value>يتجاوز عدد البوابات العدد المسموح به بموجب الترخيص</value>
+    <value>ÙŠØªØ¬Ø§ÙˆØ² Ø¹Ø¯Ø¯ Ø§Ù„Ø¨ÙˆØ§Ø¨Ø§Øª Ø§Ù„Ø¹Ø¯Ø¯ Ø§Ù„Ù…Ø³Ù…ÙˆØ­ Ø¨Ù‡ Ø¨Ù…ÙˆØ¬Ø¨ Ø§Ù„ØªØ±Ø®ÙŠØµ</value>
   </data>
   <data name="LicenseErrorQuota" xml:space="preserve">
-    <value>يتجاوز عدد المستخدمين العدد المسموح به بموجب الترخيص</value>
+    <value>ÙŠØªØ¬Ø§ÙˆØ² Ø¹Ø¯Ø¯ Ø§Ù„Ù…Ø³ØªØ®Ø¯Ù…ÙŠÙ† Ø§Ù„Ø¹Ø¯Ø¯ Ø§Ù„Ù…Ø³Ù…ÙˆØ­ Ø¨Ù‡ Ø¨Ù…ÙˆØ¬Ø¨ Ø§Ù„ØªØ±Ø®ÙŠØµ</value>
   </data>
   <data name="LicenseUploaded" xml:space="preserve">
-    <value>تم التحميل بنجاح</value>
+    <value>ØªÙ… Ø§Ù„ØªØ­Ù…ÙŠÙ„ Ø¨Ù†Ø¬Ø§Ø­</value>
   </data>
   <data name="LicenseUploadedOverdue" xml:space="preserve">
-    <value>{0} لا يتوفر الدعم والتحديثات لهذه الرخصة منذ {2}.{1}</value>
+    <value>{0} Ù„Ø§ ÙŠØªÙˆÙØ± Ø§Ù„Ø¯Ø¹Ù… ÙˆØ§Ù„ØªØ­Ø¯ÙŠØ«Ø§Øª Ù„Ù‡Ø°Ù‡ Ø§Ù„Ø±Ø®ØµØ© Ù…Ù†Ø° {2}.{1}</value>
   </data>
   <data name="LicenseUploadedOverdueSupport" xml:space="preserve">
-    <value>تم الرفع بنجاح. {0} الدعم والتحديثات غير متوفرة لهذا الترخيص منذ {2}.{1}</value>
+    <value>ØªÙ… Ø§Ù„Ø±ÙØ¹ Ø¨Ù†Ø¬Ø§Ø­. {0} Ø§Ù„Ø¯Ø¹Ù… ÙˆØ§Ù„ØªØ­Ø¯ÙŠØ«Ø§Øª ØºÙŠØ± Ù…ØªÙˆÙØ±Ø© Ù„Ù‡Ø°Ø§ Ø§Ù„ØªØ±Ø®ÙŠØµ Ù…Ù†Ø° {2}.{1}</value>
   </data>
   <data name="MessageEmailChangeInstuctionsSentOnEmail" xml:space="preserve">
-    <value>تم إرسال تعليمات تغيير البريد الإلكتروني بنجاح</value>
+    <value>ØªÙ… Ø¥Ø±Ø³Ø§Ù„ ØªØ¹Ù„ÙŠÙ…Ø§Øª ØªØºÙŠÙŠØ± Ø§Ù„Ø¨Ø±ÙŠØ¯ Ø§Ù„Ø¥Ù„ÙƒØªØ±ÙˆÙ†ÙŠ Ø¨Ù†Ø¬Ø§Ø­</value>
   </data>
   <data name="MessageYourPasswordSendedToEmail" xml:space="preserve">
-    <value>إذا كان هناك مستخدم يحمل البريد الإلكتروني {0}، فقد تم إرسال تعليمات تغيير كلمة المرور إلى عنوان البريد الإلكتروني هذا.</value>
+    <value>Ø¥Ø°Ø§ ÙƒØ§Ù† Ù‡Ù†Ø§Ùƒ Ù…Ø³ØªØ®Ø¯Ù… ÙŠØ­Ù…Ù„ Ø§Ù„Ø¨Ø±ÙŠØ¯ Ø§Ù„Ø¥Ù„ÙƒØªØ±ÙˆÙ†ÙŠ {0}ØŒ ÙÙ‚Ø¯ ØªÙ… Ø¥Ø±Ø³Ø§Ù„ ØªØ¹Ù„ÙŠÙ…Ø§Øª ØªØºÙŠÙŠØ± ÙƒÙ„Ù…Ø© Ø§Ù„Ù…Ø±ÙˆØ± Ø¥Ù„Ù‰ Ø¹Ù†ÙˆØ§Ù† Ø§Ù„Ø¨Ø±ÙŠØ¯ Ø§Ù„Ø¥Ù„ÙƒØªØ±ÙˆÙ†ÙŠ Ù‡Ø°Ø§.</value>
   </data>
   <data name="MobilePhoneMustErase" xml:space="preserve">
-    <value>تحتاج إلى حذف رقم هاتفك الحالي لتغيير الرقم</value>
+    <value>ØªØ­ØªØ§Ø¬ Ø¥Ù„Ù‰ Ø­Ø°Ù Ø±Ù‚Ù… Ù‡Ø§ØªÙÙƒ Ø§Ù„Ø­Ø§Ù„ÙŠ Ù„ØªØºÙŠÙŠØ± Ø§Ù„Ø±Ù‚Ù…</value>
   </data>
   <data name="OrgServerRegion" xml:space="preserve">
-    <value>منطقة ORG</value>
+    <value>Ù…Ù†Ø·Ù‚Ø© ORG</value>
   </data>
   <data name="Owner" xml:space="preserve">
-    <value>المالك</value>
+    <value>Ø§Ù„Ù…Ø§Ù„Ùƒ</value>
   </data>
   <data name="PortalName" xml:space="preserve">
-    <value>مساحة سحابية لمستندات مكتبك</value>
+    <value>Ù…Ø³Ø§Ø­Ø© Ø³Ø­Ø§Ø¨ÙŠØ© Ù„Ù…Ø³ØªÙ†Ø¯Ø§Øª Ù…ÙƒØªØ¨Ùƒ</value>
   </data>
   <data name="PortalSecurity" xml:space="preserve">
-    <value>الوصول للبوابة</value>
+    <value>Ø§Ù„ÙˆØµÙˆÙ„ Ù„Ù„Ø¨ÙˆØ§Ø¨Ø©</value>
   </data>
   <data name="ReassignDataRemoveUserError" xml:space="preserve">
-    <value>لم تكتمل عملية إعادة تخصيص البيانات لـ {0}.</value>
+    <value>Ù„Ù… ØªÙƒØªÙ…Ù„ Ø¹Ù…Ù„ÙŠØ© Ø¥Ø¹Ø§Ø¯Ø© ØªØ®ØµÙŠØµ Ø§Ù„Ø¨ÙŠØ§Ù†Ø§Øª Ù„Ù€ {0}.</value>
   </data>
   <data name="RecaptchaInvalid" xml:space="preserve">
-    <value>تحقق غير صالح</value>
+    <value>ØªØ­Ù‚Ù‚ ØºÙŠØ± ØµØ§Ù„Ø­</value>
   </data>
   <data name="SgServerRegion" xml:space="preserve">
-    <value>آسيا والمحيط الهادئ (سنغافورة)</value>
+    <value>Ø¢Ø³ÙŠØ§ ÙˆØ§Ù„Ù…Ø­ÙŠØ· Ø§Ù„Ù‡Ø§Ø¯Ø¦ (Ø³Ù†ØºØ§ÙÙˆØ±Ø©)</value>
   </data>
   <data name="SmsAuthenticationMessageError" xml:space="preserve">
-    <value>رمز غير صحيح</value>
+    <value>Ø±Ù…Ø² ØºÙŠØ± ØµØ­ÙŠØ­</value>
   </data>
   <data name="SmsAuthenticationMessageToUser" xml:space="preserve">
-    <value>رمز: {0}</value>
+    <value>Ø±Ù…Ø²: {0}</value>
   </data>
   <data name="SmsAuthenticationTimeout" xml:space="preserve">
-    <value>انتهى وقت استخدام الرمز. يرجى طلب رسالة نصية جديدة.</value>
+    <value>Ø§Ù†ØªÙ‡Ù‰ ÙˆÙ‚Øª Ø§Ø³ØªØ®Ø¯Ø§Ù… Ø§Ù„Ø±Ù…Ø². ÙŠØ±Ø¬Ù‰ Ø·Ù„Ø¨ Ø±Ø³Ø§Ù„Ø© Ù†ØµÙŠØ© Ø¬Ø¯ÙŠØ¯Ø©.</value>
   </data>
   <data name="SmsNotAvailable" xml:space="preserve">
-    <value>إعدادات الرسائل القصيرة غير متوفرة</value>
+    <value>Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª Ø§Ù„Ø±Ø³Ø§Ø¦Ù„ Ø§Ù„Ù‚ØµÙŠØ±Ø© ØºÙŠØ± Ù…ØªÙˆÙØ±Ø©</value>
   </data>
   <data name="SmsTooMuchError" xml:space="preserve">
-    <value>لقد أرسلت الكثير من الرسائل النصية. الرجاء معاودة المحاولة في وقت لاحق.</value>
+    <value>Ù„Ù‚Ø¯ Ø£Ø±Ø³Ù„Øª Ø§Ù„ÙƒØ«ÙŠØ± Ù…Ù† Ø§Ù„Ø±Ø³Ø§Ø¦Ù„ Ø§Ù„Ù†ØµÙŠØ©. Ø§Ù„Ø±Ø¬Ø§Ø¡ Ù…Ø¹Ø§ÙˆØ¯Ø© Ø§Ù„Ù…Ø­Ø§ÙˆÙ„Ø© ÙÙŠ ÙˆÙ‚Øª Ù„Ø§Ø­Ù‚.</value>
   </data>
   <data name="SsoSettingsCantSaveSettings" xml:space="preserve">
-    <value>لا يمكن حفظ الإعدادات</value>
+    <value>Ù„Ø§ ÙŠÙ…ÙƒÙ† Ø­ÙØ¸ Ø§Ù„Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª</value>
   </data>
   <data name="SsoSettingsCouldNotBeNull" xml:space="preserve">
-    <value>الإعدادات لا يمكن أن تكون فارغة</value>
+    <value>Ø§Ù„Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª Ù„Ø§ ÙŠÙ…ÙƒÙ† Ø£Ù† ØªÙƒÙˆÙ† ÙØ§Ø±ØºØ©</value>
   </data>
   <data name="SsoSettingsInvalidBinding" xml:space="preserve">
-    <value>ربط غير صالح: {0}</value>
+    <value>Ø±Ø¨Ø· ØºÙŠØ± ØµØ§Ù„Ø­: {0}</value>
   </data>
   <data name="SsoSettingsInvalidEntityId" xml:space="preserve">
-    <value>كيان غير صالح</value>
+    <value>ÙƒÙŠØ§Ù† ØºÙŠØ± ØµØ§Ù„Ø­</value>
   </data>
   <data name="SsoSettingsInvalidMapping" xml:space="preserve">
-    <value>رسم خرائط الحقول غير الصالحة</value>
+    <value>Ø±Ø³Ù… Ø®Ø±Ø§Ø¦Ø· Ø§Ù„Ø­Ù‚ÙˆÙ„ ØºÙŠØ± Ø§Ù„ØµØ§Ù„Ø­Ø©</value>
   </data>
   <data name="SuccessfullySaveGreetingSettingsMessage" xml:space="preserve">
-    <value>تم حفظ إعدادات الصفحة الترحيبية بنجاح</value>
+    <value>ØªÙ… Ø­ÙØ¸ Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª Ø§Ù„ØµÙØ­Ø© Ø§Ù„ØªØ±Ø­ÙŠØ¨ÙŠØ© Ø¨Ù†Ø¬Ø§Ø­</value>
   </data>
   <data name="SuccessfullySaveSettingsMessage" xml:space="preserve">
-    <value>تم تحديث الإعدادات بنجاح</value>
+    <value>ØªÙ… ØªØ­Ø¯ÙŠØ« Ø§Ù„Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª Ø¨Ù†Ø¬Ø§Ø­</value>
   </data>
   <data name="SuccessfullySentNotificationDeleteUserInfoMessage" xml:space="preserve">
-    <value>تم إرسال تعليمات بحذف ملفك الشخصي إلى عنوان البريد الإلكتروني {0}</value>
+    <value>ØªÙ… Ø¥Ø±Ø³Ø§Ù„ ØªØ¹Ù„ÙŠÙ…Ø§Øª Ø¨Ø­Ø°Ù Ù…Ù„ÙÙƒ Ø§Ù„Ø´Ø®ØµÙŠ Ø¥Ù„Ù‰ Ø¹Ù†ÙˆØ§Ù† Ø§Ù„Ø¨Ø±ÙŠØ¯ Ø§Ù„Ø¥Ù„ÙƒØªØ±ÙˆÙ†ÙŠ {0}</value>
   </data>
   <data name="Tariffs_admin" xml:space="preserve">
-    <value>تجاري</value>
+    <value>ØªØ¬Ø§Ø±ÙŠ</value>
   </data>
   <data name="Tariffs_startup" xml:space="preserve">
-    <value>شركة ناشئة</value>
+    <value>Ø´Ø±ÙƒØ© Ù†Ø§Ø´Ø¦Ø©</value>
   </data>
   <data name="TariffsFeature_audit" xml:space="preserve">
-    <value>تتبع تسجيل دخول المستخدم والإجراء</value>
+    <value>ØªØªØ¨Ø¹ ØªØ³Ø¬ÙŠÙ„ Ø¯Ø®ÙˆÙ„ Ø§Ù„Ù…Ø³ØªØ®Ø¯Ù… ÙˆØ§Ù„Ø¥Ø¬Ø±Ø§Ø¡</value>
   </data>
   <data name="TariffsFeature_file_size" xml:space="preserve">
-    <value>الحد الأقصى لحجم الملف</value>
+    <value>Ø§Ù„Ø­Ø¯ Ø§Ù„Ø£Ù‚ØµÙ‰ Ù„Ø­Ø¬Ù… Ø§Ù„Ù…Ù„Ù</value>
   </data>
   <data name="TariffsFeature_file_size_exception" xml:space="preserve">
-    <value>لا ينبغي أن يتجاوز حجم الملف {0}</value>
+    <value>Ù„Ø§ ÙŠÙ†Ø¨ØºÙŠ Ø£Ù† ÙŠØªØ¬Ø§ÙˆØ² Ø­Ø¬Ù… Ø§Ù„Ù…Ù„Ù {0}</value>
   </data>
   <data name="TariffsFeature_manager_exception" xml:space="preserve">
-    <value>لا ينبغي أن يتجاوز عدد المسؤولين {0}</value>
+    <value>Ù„Ø§ ÙŠÙ†Ø¨ØºÙŠ Ø£Ù† ÙŠØªØ¬Ø§ÙˆØ² Ø¹Ø¯Ø¯ Ø§Ù„Ù…Ø³Ø¤ÙˆÙ„ÙŠÙ† {0}</value>
   </data>
   <data name="TariffsFeature_manager_price_count" xml:space="preserve">
-    <value>عدد الإداريين/مستخدمي الطاقة</value>
+    <value>Ø¹Ø¯Ø¯ Ø§Ù„Ø¥Ø¯Ø§Ø±ÙŠÙŠÙ†</value>
   </data>
   <data name="TariffsFeature_restore" xml:space="preserve">
-    <value>النسخ الاحتياطي التلقائي والاسترداد</value>
+    <value>Ø§Ù„Ù†Ø³Ø® Ø§Ù„Ø§Ø­ØªÙŠØ§Ø·ÙŠ Ø§Ù„ØªÙ„Ù‚Ø§Ø¦ÙŠ ÙˆØ§Ù„Ø§Ø³ØªØ±Ø¯Ø§Ø¯</value>
   </data>
   <data name="TariffsFeature_room" xml:space="preserve">
-    <value>عدد غير محدود من الغرف النشطة</value>
+    <value>Ø¹Ø¯Ø¯ ØºÙŠØ± Ù…Ø­Ø¯ÙˆØ¯ Ù…Ù† Ø§Ù„ØºØ±Ù Ø§Ù„Ù†Ø´Ø·Ø©</value>
   </data>
   <data name="TariffsFeature_room_exception" xml:space="preserve">
-    <value>لا ينبغي أن يتجاوز عدد الغرف {0}</value>
+    <value>Ù„Ø§ ÙŠÙ†Ø¨ØºÙŠ Ø£Ù† ÙŠØªØ¬Ø§ÙˆØ² Ø¹Ø¯Ø¯ Ø§Ù„ØºØ±Ù {0}</value>
   </data>
   <data name="TariffsFeature_sso" xml:space="preserve">
-    <value>بوابة الدخول الموحد</value>
+    <value>Ø¨ÙˆØ§Ø¨Ø© Ø§Ù„Ø¯Ø®ÙˆÙ„ Ø§Ù„Ù…ÙˆØ­Ø¯</value>
   </data>
   <data name="TariffsFeature_total_size_exception" xml:space="preserve">
-    <value>لا ينبغي أن يتجاوز حجم التخزين المستخدم {0}</value>
+    <value>Ù„Ø§ ÙŠÙ†Ø¨ØºÙŠ Ø£Ù† ÙŠØªØ¬Ø§ÙˆØ² Ø­Ø¬Ù… Ø§Ù„ØªØ®Ø²ÙŠÙ† Ø§Ù„Ù…Ø³ØªØ®Ø¯Ù… {0}</value>
   </data>
   <data name="TariffsFeature_total_size_price_count" xml:space="preserve">
-    <value>مساحة التخزين</value>
+    <value>Ù…Ø³Ø§Ø­Ø© Ø§Ù„ØªØ®Ø²ÙŠÙ†</value>
   </data>
   <data name="TariffsFeature_used_room" xml:space="preserve">
-    <value>الغرف:</value>
+    <value>Ø§Ù„ØºØ±Ù:</value>
   </data>
   <data name="TariffsFeature_used_total_size" xml:space="preserve">
-    <value>مساحة التخزين المستخدمة:</value>
+    <value>Ù…Ø³Ø§Ø­Ø© Ø§Ù„ØªØ®Ø²ÙŠÙ† Ø§Ù„Ù…Ø³ØªØ®Ø¯Ù…Ø©:</value>
   </data>
   <data name="TariffsFeature_used_usersInRoom" xml:space="preserve">
-    <value>عدد المستخدمين في الغرفة:</value>
+    <value>Ø¹Ø¯Ø¯ Ø§Ù„Ù…Ø³ØªØ®Ø¯Ù…ÙŠÙ† ÙÙŠ Ø§Ù„ØºØ±ÙØ©:</value>
   </data>
   <data name="TariffsFeature_users" xml:space="preserve">
-    <value>عدد غير محدود من المستخدمين</value>
+    <value>Ø¹Ø¯Ø¯ ØºÙŠØ± Ù…Ø­Ø¯ÙˆØ¯ Ù…Ù† Ø§Ù„Ù…Ø³ØªØ®Ø¯Ù…ÙŠÙ†</value>
   </data>
   <data name="TariffsFeature_users_exception" xml:space="preserve">
-    <value>يجب ألا يتجاوز عدد المستخدمين {0}</value>
+    <value>ÙŠØ¬Ø¨ Ø£Ù„Ø§ ÙŠØªØ¬Ø§ÙˆØ² Ø¹Ø¯Ø¯ Ø§Ù„Ù…Ø³ØªØ®Ø¯Ù…ÙŠÙ† {0}</value>
   </data>
   <data name="TariffsFeature_usersInRoom" xml:space="preserve">
-    <value>مستخدمون في الغرفة</value>
+    <value>Ù…Ø³ØªØ®Ø¯Ù…ÙˆÙ† ÙÙŠ Ø§Ù„ØºØ±ÙØ©</value>
   </data>
   <data name="TariffsFeature_usersInRoom_exception" xml:space="preserve">
-    <value>يجب ألا يتجاوز عدد المستخدمين في الغرفة {0}</value>
+    <value>ÙŠØ¬Ø¨ Ø£Ù„Ø§ ÙŠØªØ¬Ø§ÙˆØ² Ø¹Ø¯Ø¯ Ø§Ù„Ù…Ø³ØªØ®Ø¯Ù…ÙŠÙ† ÙÙŠ Ø§Ù„ØºØ±ÙØ© {0}</value>
   </data>
-  <data name="TariffsFeature_whitelabel" xml:space="preserve">
-    <value>العلامة التجارية والتخصيص</value>
+  <data name="TariffsFeature_customization" xml:space="preserve">
+    <value>Ø§Ù„Ø¹Ù„Ø§Ù…Ø© Ø§Ù„ØªØ¬Ø§Ø±ÙŠØ© ÙˆØ§Ù„ØªØ®ØµÙŠØµ</value>
   </data>
   <data name="TfaAppAuthMessageError" xml:space="preserve">
-    <value>رمز غير صحيح</value>
+    <value>Ø±Ù…Ø² ØºÙŠØ± ØµØ­ÙŠØ­</value>
   </data>
   <data name="TfaAppNotAvailable" xml:space="preserve">
-    <value>إعدادات تطبيق TFA غير متوفرة</value>
+    <value>Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª ØªØ·Ø¨ÙŠÙ‚ TFA ØºÙŠØ± Ù…ØªÙˆÙØ±Ø©</value>
   </data>
   <data name="TfaTooMuchError" xml:space="preserve">
-    <value>لقد أرسلت الكثير من الرسائل النصية. الرجاء معاودة المحاولة في وقت لاحق.</value>
+    <value>Ù„Ù‚Ø¯ Ø£Ø±Ø³Ù„Øª Ø§Ù„ÙƒØ«ÙŠØ± Ù…Ù† Ø§Ù„Ø±Ø³Ø§Ø¦Ù„ Ø§Ù„Ù†ØµÙŠØ©. Ø§Ù„Ø±Ø¬Ø§Ø¡ Ù…Ø¹Ø§ÙˆØ¯Ø© Ø§Ù„Ù…Ø­Ø§ÙˆÙ„Ø© ÙÙŠ ÙˆÙ‚Øª Ù„Ø§Ø­Ù‚.</value>
   </data>
   <data name="UsServerRegion" xml:space="preserve">
-    <value>منطقة غرب الولايات المتحدة (أوريغون)</value>
+    <value>Ù…Ù†Ø·Ù‚Ø© ØºØ±Ø¨ Ø§Ù„ÙˆÙ„Ø§ÙŠØ§Øª Ø§Ù„Ù…ØªØ­Ø¯Ø© (Ø£ÙˆØ±ÙŠØºÙˆÙ†)</value>
   </data>
   <data name="WhatsNewSubscriptionName" xml:space="preserve">
-    <value>جديدنا</value>
+    <value>Ø¬Ø¯ÙŠØ¯Ù†Ø§</value>
   </data>
   <data name="TariffsFeature_thirdparty" xml:space="preserve">
-    <value>عمليات دمج الجهات الخارجية</value>
+    <value>Ø¹Ù…Ù„ÙŠØ§Øª Ø¯Ù…Ø¬ Ø§Ù„Ø¬Ù‡Ø§Øª Ø§Ù„Ø®Ø§Ø±Ø¬ÙŠØ©</value>
   </data>
   <data name="ChangePortalOwnerMsg" xml:space="preserve">
-    <value>تم ارسال رابط لتأكيد العملية إلى: البريد(عنوان بريد مالك البوابة).</value>
+    <value>ØªÙ… Ø§Ø±Ø³Ø§Ù„ Ø±Ø§Ø¨Ø· Ù„ØªØ£ÙƒÙŠØ¯ Ø§Ù„Ø¹Ù…Ù„ÙŠØ© Ø¥Ù„Ù‰: Ø§Ù„Ø¨Ø±ÙŠØ¯(Ø¹Ù†ÙˆØ§Ù† Ø¨Ø±ÙŠØ¯ Ù…Ø§Ù„Ùƒ Ø§Ù„Ø¨ÙˆØ§Ø¨Ø©).</value>
   </data>
   <data name="ConsumersZoomClientId" xml:space="preserve">
-    <value>معرف مستخدم الزووم</value>
+    <value>Ù…Ø¹Ø±Ù Ù…Ø³ØªØ®Ø¯Ù… Ø§Ù„Ø²ÙˆÙˆÙ…</value>
   </data>
   <data name="ConsumersZoomClientSecret" xml:space="preserve">
-    <value>الرمز السري لمستخدم الزووم</value>
+    <value>Ø§Ù„Ø±Ù…Ø² Ø§Ù„Ø³Ø±ÙŠ Ù„Ù…Ø³ØªØ®Ø¯Ù… Ø§Ù„Ø²ÙˆÙˆÙ…</value>
   </data>
   <data name="ConsumersZoomDescription" xml:space="preserve">
-    <value>تفعيل التطبيق لتسجيل الدخول للبوابة باستخدام حساب الزووم.</value>
+    <value>ØªÙØ¹ÙŠÙ„ Ø§Ù„ØªØ·Ø¨ÙŠÙ‚ Ù„ØªØ³Ø¬ÙŠÙ„ Ø§Ù„Ø¯Ø®ÙˆÙ„ Ù„Ù„Ø¨ÙˆØ§Ø¨Ø© Ø¨Ø§Ø³ØªØ®Ø¯Ø§Ù… Ø­Ø³Ø§Ø¨ Ø§Ù„Ø²ÙˆÙˆÙ….</value>
   </data>
   <data name="ConsumersZoomInstruction" xml:space="preserve">
-    <value>قم بتمكين هذا التطبيق للسماح للمستخدمين بتسجيل الدخول إلى ONLYOFFICE باستخدام حسابات الزووم الخاصة بهم.  {0}انتقل إلى موقع ويب Zoom Developers وأنشئ تطبيقًا جديدًا متكاملاً مع ONLYOFFICE. أدخل البيانات التي تلقيتها أدناه:</value>
+    <value>Ù‚Ù… Ø¨ØªÙ…ÙƒÙŠÙ† Ù‡Ø°Ø§ Ø§Ù„ØªØ·Ø¨ÙŠÙ‚ Ù„Ù„Ø³Ù…Ø§Ø­ Ù„Ù„Ù…Ø³ØªØ®Ø¯Ù…ÙŠÙ† Ø¨ØªØ³Ø¬ÙŠÙ„ Ø§Ù„Ø¯Ø®ÙˆÙ„ Ø¥Ù„Ù‰ ONLYOFFICE Ø¨Ø§Ø³ØªØ®Ø¯Ø§Ù… Ø­Ø³Ø§Ø¨Ø§Øª Ø§Ù„Ø²ÙˆÙˆÙ… Ø§Ù„Ø®Ø§ØµØ© Ø¨Ù‡Ù….  {0}Ø§Ù†ØªÙ‚Ù„ Ø¥Ù„Ù‰ Ù…ÙˆÙ‚Ø¹ ÙˆÙŠØ¨ Zoom Developers ÙˆØ£Ù†Ø´Ø¦ ØªØ·Ø¨ÙŠÙ‚Ù‹Ø§ Ø¬Ø¯ÙŠØ¯Ù‹Ø§ Ù…ØªÙƒØ§Ù…Ù„Ø§Ù‹ Ù…Ø¹ ONLYOFFICE. Ø£Ø¯Ø®Ù„ Ø§Ù„Ø¨ÙŠØ§Ù†Ø§Øª Ø§Ù„ØªÙŠ ØªÙ„Ù‚ÙŠØªÙ‡Ø§ Ø£Ø¯Ù†Ø§Ù‡:</value>
   </data>
   <data name="ErrorTooManyLoginAttempts" xml:space="preserve">
-    <value>فشلت محاولات تسجيل الدخول. يرحى المحاولة لاحقاً</value>
+    <value>ÙØ´Ù„Øª Ù…Ø­Ø§ÙˆÙ„Ø§Øª ØªØ³Ø¬ÙŠÙ„ Ø§Ù„Ø¯Ø®ÙˆÙ„. ÙŠØ±Ø­Ù‰ Ø§Ù„Ù…Ø­Ø§ÙˆÙ„Ø© Ù„Ø§Ø­Ù‚Ø§Ù‹</value>
   </data>
   <data name="ErrorCannotDeleteLastSpace" xml:space="preserve">
-    <value>لا يمكن حذف آخر مساحة وصول كاملة</value>
+    <value>Ù„Ø§ ÙŠÙ…ÙƒÙ† Ø­Ø°Ù Ø¢Ø®Ø± Ù…Ø³Ø§Ø­Ø© ÙˆØµÙˆÙ„ ÙƒØ§Ù…Ù„Ø©</value>
   </data>
   <data name="ErrorWebPluginArchive" xml:space="preserve">
-    <value>أرشيف الاضافة خاطئ</value>
+    <value>Ø£Ø±Ø´ÙŠÙ Ø§Ù„Ø§Ø¶Ø§ÙØ© Ø®Ø§Ø·Ø¦</value>
   </data>
   <data name="ErrorWebPluginExist" xml:space="preserve">
-    <value>الاضافة موجودة بالفعل</value>
+    <value>Ø§Ù„Ø§Ø¶Ø§ÙØ© Ù…ÙˆØ¬ÙˆØ¯Ø© Ø¨Ø§Ù„ÙØ¹Ù„</value>
   </data>
   <data name="ErrorWebPluginFileExtension" xml:space="preserve">
-    <value>ملحق الملف خاطئ</value>
+    <value>Ù…Ù„Ø­Ù‚ Ø§Ù„Ù…Ù„Ù Ø®Ø§Ø·Ø¦</value>
   </data>
   <data name="ErrorWebPluginFileSize" xml:space="preserve">
-    <value>حجم الملف يتجاوز الحد</value>
+    <value>Ø­Ø¬Ù… Ø§Ù„Ù…Ù„Ù ÙŠØªØ¬Ø§ÙˆØ² Ø§Ù„Ø­Ø¯</value>
   </data>
   <data name="ErrorWebPluginForbiddenSystem" xml:space="preserve">
-    <value>يحظر استخدام المكونات الإضافية للنظام</value>
+    <value>ÙŠØ­Ø¸Ø± Ø§Ø³ØªØ®Ø¯Ø§Ù… Ø§Ù„Ù…ÙƒÙˆÙ†Ø§Øª Ø§Ù„Ø¥Ø¶Ø§ÙÙŠØ© Ù„Ù„Ù†Ø¸Ø§Ù…</value>
   </data>
   <data name="ErrorWebPluginName" xml:space="preserve">
-    <value>اسم الاضافة غير صحيح</value>
+    <value>Ø§Ø³Ù… Ø§Ù„Ø§Ø¶Ø§ÙØ© ØºÙŠØ± ØµØ­ÙŠØ­</value>
   </data>
   <data name="ErrorWebPluginNoInputFile" xml:space="preserve">
-    <value>لا يوجد ملف إدخال</value>
+    <value>Ù„Ø§ ÙŠÙˆØ¬Ø¯ Ù…Ù„Ù Ø¥Ø¯Ø®Ø§Ù„</value>
   </data>
   <data name="ErrorWebPluginNotFound" xml:space="preserve">
-    <value>لم يتم العثور على الاضافة</value>
+    <value>Ù„Ù… ÙŠØªÙ… Ø§Ù„Ø¹Ø«ÙˆØ± Ø¹Ù„Ù‰ Ø§Ù„Ø§Ø¶Ø§ÙØ©</value>
   </data>
   <data name="ErrorWebPluginToManyInputFiles" xml:space="preserve">
-    <value>إلى العديد من ملفات الإدخال</value>
+    <value>Ø¥Ù„Ù‰ Ø§Ù„Ø¹Ø¯ÙŠØ¯ Ù…Ù† Ù…Ù„ÙØ§Øª Ø§Ù„Ø¥Ø¯Ø®Ø§Ù„</value>
   </data>
   <data name="QuotaGreaterPortalError" xml:space="preserve">
-    <value>فشل تعيين الحصة النسبية للذاكرة - الحصة النسبية للذاكرة التي قمت بتعيينها أكبر من حصة المداخل.</value>
+    <value>ÙØ´Ù„ ØªØ¹ÙŠÙŠÙ† Ø§Ù„Ø­ØµØ© Ø§Ù„Ù†Ø³Ø¨ÙŠØ© Ù„Ù„Ø°Ø§ÙƒØ±Ø© - Ø§Ù„Ø­ØµØ© Ø§Ù„Ù†Ø³Ø¨ÙŠØ© Ù„Ù„Ø°Ø§ÙƒØ±Ø© Ø§Ù„ØªÙŠ Ù‚Ù…Øª Ø¨ØªØ¹ÙŠÙŠÙ†Ù‡Ø§ Ø£ÙƒØ¨Ø± Ù…Ù† Ø­ØµØ© Ø§Ù„Ù…Ø¯Ø§Ø®Ù„.</value>
   </data>
   <data name="RoomFreeSpaceException" xml:space="preserve">
-    <value>تم تجاوز حصة مساحة الغرفة</value>
+    <value>ØªÙ… ØªØ¬Ø§ÙˆØ² Ø­ØµØ© Ù…Ø³Ø§Ø­Ø© Ø§Ù„ØºØ±ÙØ©</value>
   </data>
   <data name="UserFreeSpaceException" xml:space="preserve">
-    <value>تم تجاوز حصة مساحة المستخدم</value>
+    <value>ØªÙ… ØªØ¬Ø§ÙˆØ² Ø­ØµØ© Ù…Ø³Ø§Ø­Ø© Ø§Ù„Ù…Ø³ØªØ®Ø¯Ù…</value>
   </data>
   <data name="TariffsFeature_used_manager" xml:space="preserve">
-    <value>تمت إضافة المشرفين/المستخدمين المتميزين:</value>
+    <value>ØªÙ…Øª Ø¥Ø¶Ø§ÙØ© Ø§Ù„Ù…Ø´Ø±ÙÙŠÙ†:</value>
   </data>
   <data name="ErrorInvitationLimitExceeded" xml:space="preserve">
-    <value>لقد تجاوزت حد الدعوات المسموح به</value>
+    <value>Ù„Ù‚Ø¯ ØªØ¬Ø§ÙˆØ²Øª Ø­Ø¯ Ø§Ù„Ø¯Ø¹ÙˆØ§Øª Ø§Ù„Ù…Ø³Ù…ÙˆØ­ Ø¨Ù‡</value>
   </data>
   <data name="ErrorUserDisabled" xml:space="preserve">
-    <value>تعطيل المستخدم</value>
+    <value>ØªØ¹Ø·ÙŠÙ„ Ø§Ù„Ù…Ø³ØªØ®Ø¯Ù…</value>
   </data>
   <data name="MessagePasswordSendedToEmail" xml:space="preserve">
-    <value>تم إرسال تعليمات تغيير كلمة المرور إلى عنوان البريد الإلكتروني {0}.</value>
+    <value>ØªÙ… Ø¥Ø±Ø³Ø§Ù„ ØªØ¹Ù„ÙŠÙ…Ø§Øª ØªØºÙŠÙŠØ± ÙƒÙ„Ù…Ø© Ø§Ù„Ù…Ø±ÙˆØ± Ø¥Ù„Ù‰ Ø¹Ù†ÙˆØ§Ù† Ø§Ù„Ø¨Ø±ÙŠØ¯ Ø§Ù„Ø¥Ù„ÙƒØªØ±ÙˆÙ†ÙŠ {0}.</value>
   </data>
   <data name="ErrorEmailLinked" xml:space="preserve">
-    <value>تم إرفاق هذا البريد الإلكتروني للمستخدم {0} كمزود طرف ثالث</value>
+    <value>ØªÙ… Ø¥Ø±ÙØ§Ù‚ Ù‡Ø°Ø§ Ø§Ù„Ø¨Ø±ÙŠØ¯ Ø§Ù„Ø¥Ù„ÙƒØªØ±ÙˆÙ†ÙŠ Ù„Ù„Ù…Ø³ØªØ®Ø¯Ù… {0} ÙƒÙ…Ø²ÙˆØ¯ Ø·Ø±Ù Ø«Ø§Ù„Ø«</value>
   </data>
   <data name="TariffsFeature_statistic" xml:space="preserve">
-    <value>حصص التخزين والإحصائيات</value>
+    <value>Ø­ØµØµ Ø§Ù„ØªØ®Ø²ÙŠÙ† ÙˆØ§Ù„Ø¥Ø­ØµØ§Ø¦ÙŠØ§Øª</value>
   </data>
   <data name="TariffsFeature_total_size" xml:space="preserve">
-    <value>{0} لكل مسؤول/مستخدم مميز إمكانية إضافة مساحة عند الطلب</value>
+    <value>{0} Ù„ÙƒÙ„ Ù…Ø³Ø¤ÙˆÙ„ Ø¥Ù…ÙƒØ§Ù†ÙŠØ© Ø¥Ø¶Ø§ÙØ© Ù…Ø³Ø§Ø­Ø© Ø¹Ù†Ø¯ Ø§Ù„Ø·Ù„Ø¨</value>
+  </data>
+  <data name="RoomQuotaGreaterPortalError" xml:space="preserve">
+    <value>ÙØ´Ù„ ÙÙŠ ØªØ­Ø¯ÙŠØ¯ Ø­ØµØ© Ù„ÙƒÙ„ ØºØ±ÙØ©. Ø§Ù„Ù‚ÙŠÙ…Ø© Ø§Ù„Ù…Ø¯Ø®Ù„Ø© ØªØªØ¬Ø§ÙˆØ² Ø§Ù„Ø³Ø¹Ø© Ø§Ù„Ø¥Ø¬Ù…Ø§Ù„ÙŠØ© Ù„Ù€ "DocSpace".</value>
+  </data>
+  <data name="UserQuotaGreaterPortalError" xml:space="preserve">
+    <value>ÙØ´Ù„ ÙÙŠ ØªØ­Ø¯ÙŠØ¯ Ø­ØµØ© Ù„ÙƒÙ„ Ù…Ø³ØªØ®Ø¯Ù…. Ø§Ù„Ù‚ÙŠÙ…Ø© Ø§Ù„Ù…Ø¯Ø®Ù„Ø© ØªØªØ¬Ø§ÙˆØ² Ø§Ù„Ø³Ø¹Ø© Ø§Ù„Ø¥Ø¬Ù…Ø§Ù„ÙŠØ© Ù„Ù€ "DocSpace".</value>
+  </data>
+  <data name="ErrorTrustedMailDomain" xml:space="preserve">
+    <value>Ø£Ø¶Ù Ø¹Ù„Ù‰ Ø§Ù„Ø£Ù‚Ù„ Ù†Ø·Ø§Ù‚Ù‹Ø§ Ù…ÙˆØ«ÙˆÙ‚Ù‹Ø§ ÙˆØ§Ø­Ø¯Ù‹Ø§.</value>
+  </data>
+  <data name="TariffsFeature_usersQuotaExceeds_exception" xml:space="preserve">
+    <value>Ø¹Ø¯Ø¯ Ø§Ù„Ù…Ø³Ø¤ÙˆÙ„ÙŠÙ† ÙŠØªØ¬Ø§ÙˆØ² Ø§Ù„Ø­Ø¯ Ø§Ù„Ù…Ø³Ù…ÙˆØ­ Ø¨Ù‡: {0}/{1}.</value>
+  </data>
+  <data name="ErrorIpRestriction" xml:space="preserve">
+    <value>Ù‚Ù… Ø¨Ø¥Ø¶Ø§ÙØ© Ø¹Ù†ÙˆØ§Ù† IP ÙˆØ§Ø­Ø¯ Ù…Ø³Ù…ÙˆØ­ Ø¨Ù‡ Ø¹Ù„Ù‰ Ø§Ù„Ø£Ù‚Ù„.</value>
+  </data>
+  <data name="Tariffs_nonprofit" xml:space="preserve">
+    <value>ØºÙŠØ± Ø±Ø¨Ø­ÙŠØ©</value>
   </data>
 </root>

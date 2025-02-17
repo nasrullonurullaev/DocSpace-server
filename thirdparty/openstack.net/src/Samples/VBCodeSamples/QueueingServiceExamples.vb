@@ -1,4 +1,4 @@
-﻿Imports net.openstack.Core
+Imports net.openstack.Core
 Imports net.openstack.Core.Domain
 Imports net.openstack.Core.Providers
 Imports net.openstack.Core.Domain.Queues

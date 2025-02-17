@@ -1,4 +1,4 @@
-﻿namespace Google.Authenticator.WinTest
+namespace Google.Authenticator.WinTest
 {
     partial class Form1
     {

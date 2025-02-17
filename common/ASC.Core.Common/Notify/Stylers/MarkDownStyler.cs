@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -61,8 +61,8 @@ public class MarkDownStyler : IPatternStyler
             lines[i] = _velocityArguments.Replace(lines[i], ArgMatchReplace);
             body += _linkReplacer.Replace(lines[i], EvalLink) + Environment.NewLine;
         }
-        lines[lines.Length - 1] = _velocityArguments.Replace(lines[lines.Length - 1], ArgMatchReplace);
-        body += _linkReplacer.Replace(lines[lines.Length - 1], EvalLink);
+        lines[^1] = _velocityArguments.Replace(lines[^1], ArgMatchReplace);
+        body += _linkReplacer.Replace(lines[^1], EvalLink);
         body = _divPTagReplacer.Replace(body, "");
         body = _hTMLLinkReplacer.Replace(body, @"[$2]($1)");
         body = HttpUtility.HtmlDecode(body);

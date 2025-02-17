@@ -118,24 +118,24 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="LicenseException" xml:space="preserve">
-    <value>انتهى الترخيص أو حصة المستخدم لا تتطابق مع الترخيص</value>
+    <value>Ø§Ù†ØªÙ‡Ù‰ Ø§Ù„ØªØ±Ø®ÙŠØµ Ø£Ùˆ Ø­ØµØ© Ø§Ù„Ù…Ø³ØªØ®Ø¯Ù… Ù„Ø§ ØªØªØ·Ø§Ø¨Ù‚ Ù…Ø¹ Ø§Ù„ØªØ±Ø®ÙŠØµ</value>
   </data>
   <data name="LicenseKeyNotCorrect" xml:space="preserve">
-    <value>مفتاح الترخيص غير صحيح</value>
+    <value>Ù…ÙØªØ§Ø­ Ø§Ù„ØªØ±Ø®ÙŠØµ ØºÙŠØ± ØµØ­ÙŠØ­</value>
   </data>
   <data name="NewDocument" xml:space="preserve">
-    <value>مستند جديد</value>
+    <value>Ù…Ø³ØªÙ†Ø¯ Ø¬Ø¯ÙŠØ¯</value>
   </data>
   <data name="LicenseKeyNotFound" xml:space="preserve">
-    <value>يجب عليك إدخال مفتاح الترخيص</value>
+    <value>ÙŠØ¬Ø¨ Ø¹Ù„ÙŠÙƒ Ø¥Ø¯Ø®Ø§Ù„ Ù…ÙØªØ§Ø­ Ø§Ù„ØªØ±Ø®ÙŠØµ</value>
   </data>
   <data name="TariffPerMonth" xml:space="preserve">
-    <value>شهر</value>
+    <value>Ø´Ù‡Ø±</value>
   </data>
   <data name="UnknownFirstName" xml:space="preserve">
-    <value>الاسم الأول</value>
+    <value>Ø§Ù„Ø§Ø³Ù… Ø§Ù„Ø£ÙˆÙ„</value>
   </data>
   <data name="UnknownLastName" xml:space="preserve">
-    <value>الاسم الأخير</value>
+    <value>Ø§Ù„Ø§Ø³Ù… Ø§Ù„Ø£Ø®ÙŠØ±</value>
   </data>
 </root>

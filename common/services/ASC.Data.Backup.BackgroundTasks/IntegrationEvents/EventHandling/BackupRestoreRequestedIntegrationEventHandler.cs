@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -54,7 +54,10 @@ public class BackupRestoreRequestedIntegrationEventHandler(
                                             @event.StorageType,
                                             @event.StorageParams,
                                             @event.Notify,
-                                            @event.ServerBaseUri);
+                                            @event.ServerBaseUri,
+                                            @event.Dump,
+                                            true,
+                                            @event.TaskId);
 
             await Task.CompletedTask;
         }

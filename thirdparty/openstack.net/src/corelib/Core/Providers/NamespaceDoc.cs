@@ -1,4 +1,4 @@
-﻿namespace net.openstack.Core.Providers
+namespace net.openstack.Core.Providers
 {
     using System.Runtime.CompilerServices;
 

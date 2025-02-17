@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -27,12 +27,12 @@
 namespace ASC.Core.Common.Log;
 internal static partial class DBResourceManagerLogger
 {
-    [LoggerMessage(Level = LogLevel.Error, Message = "SetNewText")]
+    [LoggerMessage(LogLevel.Error, "SetNewText")]
     public static partial void ErrorSetNewText(this ILogger logger, Exception exception);
 
-    [LoggerMessage(Level = LogLevel.Error, Message = "RestoreOldText")]
+    [LoggerMessage(LogLevel.Error, "RestoreOldText")]
     public static partial void ErrorRestoreOldText(this ILogger logger, Exception exception);
 
-    [LoggerMessage(Level = LogLevel.Error, Message = "ReplaceLogo")]
+    [LoggerMessage(LogLevel.Error, "ReplaceLogo")]
     public static partial void ErrorReplaceLogo(this ILogger logger, Exception exception);
 }

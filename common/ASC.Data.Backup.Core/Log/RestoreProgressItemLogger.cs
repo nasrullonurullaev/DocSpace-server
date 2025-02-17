@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -27,9 +27,9 @@
 namespace ASC.Data.Backup.Core.Log;
 internal static partial class RestoreProgressItemLogger
 {
-    [LoggerMessage(Level = LogLevel.Error, Message = "RestoreProgressItem")]
+    [LoggerMessage(LogLevel.Error, "RestoreProgressItem")]
     public static partial void ErrorRestoreProgressItem(this ILogger<RestoreProgressItem> logger, Exception exception);
 
-    [LoggerMessage(Level = LogLevel.Error, Message = "publish")]
+    [LoggerMessage(LogLevel.Error, "publish")]
     public static partial void ErrorPublish(this ILogger<RestoreProgressItem> logger, Exception exception);
 }

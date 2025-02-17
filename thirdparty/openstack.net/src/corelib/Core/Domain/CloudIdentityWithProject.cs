@@ -1,4 +1,4 @@
-﻿namespace net.openstack.Core.Domain
+namespace net.openstack.Core.Domain
 {
     /// <summary>
     /// This class extends <see cref="CloudIdentity"/> with the addition of the

@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -27,9 +27,9 @@
 namespace ASC.Files.Core.Log;
 internal static partial class TokenLogger
 {
-    [LoggerMessage(Level = LogLevel.Debug, Message = "Refresh token for app: {app}")]
+    [LoggerMessage(LogLevel.Debug, "Refresh token for app: {app}")]
     public static partial void DebugRefreshToken(this ILogger<TokenHelper> logger, string app);
 
-    [LoggerMessage(Level = LogLevel.Error, Message = "Refresh token for app: {app}")]
+    [LoggerMessage(LogLevel.Error, "Refresh token for app: {app}")]
     public static partial void ErrorRefreshToken(this ILogger<TokenHelper> logger, string app, Exception exception);
 }

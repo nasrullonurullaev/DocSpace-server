@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -36,10 +36,8 @@ global using ASC.Core.Common.EF.Model;
 global using ASC.Core.Common.Settings;
 global using ASC.Core.Tenants;
 global using ASC.IPSecurity.Log;
-
 global using AutoMapper;
 global using AutoMapper.QueryableExtensions;
-
 global using Microsoft.AspNetCore.Http;
 global using Microsoft.AspNetCore.Http.Extensions;
 global using Microsoft.EntityFrameworkCore;

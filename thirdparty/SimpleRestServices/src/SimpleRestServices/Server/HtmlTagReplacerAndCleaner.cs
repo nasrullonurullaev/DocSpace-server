@@ -1,4 +1,4 @@
-﻿using System.Web;
+using System.Web;
 using JSIStudios.SimpleRESTServices.Core;
 
 namespace JSIStudios.SimpleRESTServices.Server

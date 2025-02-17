@@ -118,12 +118,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="LargeBackup" xml:space="preserve">
-    <value>Copia de rezervă este mai mare decât spațiul de stocare total disponibil pe portal</value>
+    <value>Copia de rezervÄƒ este mai mare decÃ¢t spaÈ›iul de stocare total disponibil pe portal</value>
   </data>
   <data name="ButtonSetPassword" xml:space="preserve">
-    <value>Setare parolă</value>
+    <value>Setare parolÄƒ</value>
   </data>
   <data name="BackupNotFound" xml:space="preserve">
-    <value>Fișierul de rezervă nevalid. Utilizați fișierul, care a fost creat cu ONLYOFFICE v11.5 sau cu o versiune ulterioară.</value>
+    <value>FiÈ™ierul de rezervÄƒ nevalid. UtilizaÈ›i fiÈ™ierul, care a fost creat cu ONLYOFFICE v11.5 sau cu o versiune ulterioarÄƒ.</value>
   </data>
 </root>

@@ -118,12 +118,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BackupNotFound" xml:space="preserve">
-    <value>Архивният файл е невалиден. Моля, използвайте файл, създаден в ONLYOFFICE v11.5 или по-нова версия.</value>
+    <value>ÐÑ€Ñ…Ð¸Ð²Ð½Ð¸ÑÑ‚ Ñ„Ð°Ð¹Ð» Ðµ Ð½ÐµÐ²Ð°Ð»Ð¸Ð´ÐµÐ½. ÐœÐ¾Ð»Ñ, Ð¸Ð·Ð¿Ð¾Ð»Ð·Ð²Ð°Ð¹Ñ‚Ðµ Ñ„Ð°Ð¹Ð», ÑÑŠÐ·Ð´Ð°Ð´ÐµÐ½ Ð² ONLYOFFICE v11.5 Ð¸Ð»Ð¸ Ð¿Ð¾-Ð½Ð¾Ð²Ð° Ð²ÐµÑ€ÑÐ¸Ñ.</value>
   </data>
   <data name="ButtonSetPassword" xml:space="preserve">
-    <value>Задайте парола</value>
+    <value>Ð—Ð°Ð´Ð°Ð¹Ñ‚Ðµ Ð¿Ð°Ñ€Ð¾Ð»Ð°</value>
   </data>
   <data name="LargeBackup" xml:space="preserve">
-    <value>Резервното копие е по-голямо от общия размер на портала</value>
+    <value>Ð ÐµÐ·ÐµÑ€Ð²Ð½Ð¾Ñ‚Ð¾ ÐºÐ¾Ð¿Ð¸Ðµ Ðµ Ð¿Ð¾-Ð³Ð¾Ð»ÑÐ¼Ð¾ Ð¾Ñ‚ Ð¾Ð±Ñ‰Ð¸Ñ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ð½Ð° Ð¿Ð¾Ñ€Ñ‚Ð°Ð»Ð°</value>
   </data>
 </root>

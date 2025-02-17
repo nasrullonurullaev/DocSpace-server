@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -28,6 +28,6 @@ namespace ASC.Files.Log;
 
 internal static partial class PrivacyRoomControllerLogger
 {
-    [LoggerMessage(Level = LogLevel.Information, Message = "User {userId} updates address")]
+    [LoggerMessage(LogLevel.Information, "User {userId} updates address")]
     public static partial void InformationUpdateAddress(this ILogger logger, Guid userId);
 }

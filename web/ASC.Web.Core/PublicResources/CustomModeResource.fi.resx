@@ -120,49 +120,49 @@
   <data name="pattern_enterprise_whitelabel_user_welcome_custom_mode_v1" xml:space="preserve">
     <value>Hei, $UserName!
 
-Tervetuloa ONLYOFFICE DocSpaceen! Käyttäjäprofiilisi on lisätty onnistuneesti "${__VirtualRootPath }":"${__VirtualRootPath }". Nyt voit:
+Tervetuloa ONLYOFFICE DocSpaceen! KÃ¤yttÃ¤jÃ¤profiilisi on lisÃ¤tty onnistuneesti "${__VirtualRootPath }":"${__VirtualRootPath }". Nyt voit:
 
-* Työskentele muiden käyttäjien kanssa huoneessa, johon sinut on kutsuttu: *yhteistyöhuoneet reaaliaikaiseen yhdessäkirjoittamiseen tai mukautetut huoneet joustavin asetuksin mihin tahansa tarkoitukseen*.
+* TyÃ¶skentele muiden kÃ¤yttÃ¤jien kanssa huoneessa, johon sinut on kutsuttu: *yhteistyÃ¶huoneet reaaliaikaiseen yhdessÃ¤kirjoittamiseen tai mukautetut huoneet joustavin asetuksin mihin tahansa tarkoitukseen*.
 
-* *Työstä eri tiedostomuotoja*: tekstiasiakirjoja, laskentataulukoita, esityksiä, digitaalisia lomakkeita, PDF:ä, e-kirjoja, multimediaa.
+* *TyÃ¶stÃ¤ eri tiedostomuotoja*: tekstiasiakirjoja, laskentataulukoita, esityksiÃ¤, digitaalisia lomakkeita, PDF:Ã¤, e-kirjoja, multimediaa.
 
-* *Tee yhteistyötä dokumenteilla* kahdessa eri yhteismuokkaustilassa: reaaliajassa tai lukittamalla kappaleita. Jäljitä muutoksia, kommunikoi reaaliajassa käyttäen sisäänrakennettua chatia tai tehden audio- tai videopuheluita.
+* *Tee yhteistyÃ¶tÃ¤ dokumenteilla* kahdessa eri yhteismuokkaustilassa: reaaliajassa tai lukittamalla kappaleita. JÃ¤ljitÃ¤ muutoksia, kommunikoi reaaliajassa kÃ¤yttÃ¤en sisÃ¤Ã¤nrakennettua chatia tai tehden audio- tai videopuheluita.
 
-* *Yhdistä mihin tahansa pilvitallennustilaan* ja työskentele vaihtelematta sovellusten välillä.
+* *YhdistÃ¤ mihin tahansa pilvitallennustilaan* ja tyÃ¶skentele vaihtelematta sovellusten vÃ¤lillÃ¤.
 
 $OrangeButton
 
-Jos tarvitset apua, selaa "Apukeskusta"Help Center":"${__HelpLink}" tai kysy "tukitiimiltämme":"${__SupportLink}".
+Jos tarvitset apua, selaa "Apukeskusta"Help Center":"${__HelpLink}" tai kysy "tukitiimiltÃ¤mme":"${__SupportLink}".
 
 $TrulyYours</value>
   </data>
   <data name="pattern_remove_user_data_completed_custom_mode" xml:space="preserve">
-    <value>Hyvä $UserName,
+    <value>HyvÃ¤ $UserName,
 
-Tietojen siirtäminen käyttäjältä "$FromUserName":"$FromUserLink" on onnistunut.
+Tietojen siirtÃ¤minen kÃ¤yttÃ¤jÃ¤ltÃ¤ "$FromUserName":"$FromUserLink" on onnistunut.
 
-Henkilötietojen poistaminen salli $DocsSpace-n vapauttamisen</value>
+HenkilÃ¶tietojen poistaminen salli $DocsSpace-n vapauttamisen</value>
   </data>
   <data name="pattern_saas_custom_mode_reg_data" xml:space="preserve">
-    <value>h3.Uusi portaali on rekisteröity
+    <value>h3.Uusi portaali on rekisterÃ¶ity
 
 # Portaalin url: "${__VirtualRootPath}":"${__VirtualRootPath}"
 # Etunimi: $UserName
 # Sukunimi: $UserLastName
-# Sähköposti: $UserEmail
+# SÃ¤hkÃ¶posti: $UserEmail
 # Puhelin: $Phone
-# Luontipäivä: $Date</value>
+# LuontipÃ¤ivÃ¤: $Date</value>
   </data>
   <data name="ProductAdminOpportunitiesCustomMode" xml:space="preserve">
-    <value>Tee samoin kuin käyttäjä |Linkitä Dropbox, Box ja muut tilit ‘Yleistä’-osiossa | Aseta pääsyoikeudet asiakirjoille ja kansioille ‘Yleistä’-osiossa</value>
+    <value>Tee samoin kuin kÃ¤yttÃ¤jÃ¤ |LinkitÃ¤ Dropbox, Box ja muut tilit â€˜YleistÃ¤â€™-osiossa | Aseta pÃ¤Ã¤syoikeudet asiakirjoille ja kansioille â€˜YleistÃ¤â€™-osiossa</value>
   </data>
   <data name="ProductUserOpportunitiesCustomMode" xml:space="preserve">
-    <value>Luo ja muokkaa omia asiakirjoja sekä jaa asiakirjoja pääsyoikeuksien kera | Anna asiakirjojen ja kansioiden luku/muokkausoikeuksia muille käyttäjille |Linkitä Dropboxiin, Boxiin ja muihin tileihin ‘Asiakirjani’-osiossa</value>
+    <value>Luo ja muokkaa omia asiakirjoja sekÃ¤ jaa asiakirjoja pÃ¤Ã¤syoikeuksien kera | Anna asiakirjojen ja kansioiden luku/muokkausoikeuksia muille kÃ¤yttÃ¤jille |LinkitÃ¤ Dropboxiin, Boxiin ja muihin tileihin â€˜Asiakirjaniâ€™-osiossa</value>
   </data>
   <data name="subject_remove_user_data_completed_custom_mode" xml:space="preserve">
-    <value>${LetterLogoText}. Käyttäjätiedot on poistettu</value>
+    <value>${LetterLogoText}. KÃ¤yttÃ¤jÃ¤tiedot on poistettu</value>
   </data>
   <data name="subject_saas_custom_mode_reg_data" xml:space="preserve">
-    <value>Uusi portaali on rekisteröity</value>
+    <value>Uusi portaali on rekisterÃ¶ity</value>
   </data>
 </root>

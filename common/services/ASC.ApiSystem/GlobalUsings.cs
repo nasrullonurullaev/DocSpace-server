@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -34,7 +34,6 @@ global using System.Text;
 global using System.Text.Encodings.Web;
 global using System.Text.Json.Serialization;
 global using System.Text.RegularExpressions;
-global using System.Web;
 global using System.Web.Http.Filters;
 
 global using ASC.Api.Core;
@@ -46,7 +45,6 @@ global using ASC.ApiSystem.Classes;
 global using ASC.ApiSystem.Interfaces;
 global using ASC.ApiSystem.Models;
 global using ASC.Common;
-global using ASC.Common.Caching;
 global using ASC.Common.Logging;
 global using ASC.Common.Utils;
 global using ASC.Core;
@@ -82,6 +80,5 @@ global using Microsoft.Extensions.DependencyInjection.Extensions;
 global using Microsoft.Extensions.Hosting.WindowsServices;
 global using Microsoft.Extensions.Options;
 
-global using Newtonsoft.Json.Linq;
-
 global using NLog;
+global using Swashbuckle.AspNetCore.Annotations;

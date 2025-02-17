@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -24,7 +24,7 @@
 // content are licensed under the terms of the Creative Commons Attribution-ShareAlike 4.0
 // International. See the License terms at http://creativecommons.org/licenses/by-sa/4.0/legalcode
 
-using AuthConstants = ASC.Common.Security.Authorizing.Constants;
+using AuthConstants = ASC.Common.Security.Authorizing.AuthConstants;
 using Constants = ASC.Core.Users.Constants;
 
 namespace ASC.Core.Common.Security;
@@ -45,17 +45,17 @@ public class UserGroupObject : SecurityObject
     {
         if (_groupId == Constants.GroupAdmin.ID)
         { 
-            return new[] { AuthConstants.DocSpaceAdmin };
+            return [AuthConstants.DocSpaceAdmin];
+        }
+
+        if (_groupId == Constants.GroupGuest.ID)
+        {
+            return [AuthConstants.Guest];
         }
 
         if (_groupId == Constants.GroupUser.ID)
         {
-            return new[] { AuthConstants.User };
-        }
-
-        if (_groupId == Constants.GroupCollaborator.ID)
-        {
-            return new[] { AuthConstants.Collaborator };
+            return [AuthConstants.User];
         }
 
         return Array.Empty<IRole>();

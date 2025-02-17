@@ -1,4 +1,4 @@
-﻿#if NET35
+#if NET35
 
 namespace System.Runtime.Serialization
 {

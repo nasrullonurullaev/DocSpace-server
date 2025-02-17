@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -28,6 +28,13 @@ namespace ASC.Web.Api.ApiModels.ResponseDto;
 
 public class CspDto
 {
+    /// <summary>
+    /// Domains
+    /// </summary>
     public IEnumerable<string> Domains { get; set; }
+
+    /// <summary>
+    /// Header
+    /// </summary>
     public string Header { get; set; }
 }

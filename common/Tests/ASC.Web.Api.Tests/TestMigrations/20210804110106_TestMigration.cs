@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2010-2022
+// (c) Copyright Ascensio System SIA 2010-2022
 //
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -28,7 +28,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace ASC.Core.Common.Migrations;
 
-public partial class TestMigration : Migration
+public partial class TestMigration : Microsoft.EntityFrameworkCore.Migrations.Migration
 {
     protected override void Up(MigrationBuilder migrationBuilder)
     {

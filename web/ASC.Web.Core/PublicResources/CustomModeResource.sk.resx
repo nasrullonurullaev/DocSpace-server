@@ -118,51 +118,51 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="pattern_enterprise_whitelabel_user_welcome_custom_mode_v1" xml:space="preserve">
-    <value>Dobrý deň, $UserName!
+    <value>DobrÃ½ deÅˆ, $UserName!
 
-Vitajte v ONLYOFFICE DocSpace! Váš používateľský profil bol úspešne pridaný do "${__VirtualRootPath}":"${__VirtualRootPath}". Teraz môžete:
+Vitajte v ONLYOFFICE DocSpace! VÃ¡Å¡ pouÅ¾Ã­vateÄ¾skÃ½ profil bol ÃºspeÅ¡ne pridanÃ½ do "${__VirtualRootPath}":"${__VirtualRootPath}". Teraz mÃ´Å¾ete:
 
-* Pracovať s ostatnými používateľmi v miestnosti, do ktorej ste pozvaní: *miestnosti na spoluprácu pre spoluautorstvo v reálnom čase alebo vlastné miestnosti s flexibilnými nastaveniami na akýkoľvek účel*.
+* PracovaÅ¥ s ostatnÃ½mi pouÅ¾Ã­vateÄ¾mi v miestnosti, do ktorej ste pozvanÃ­: *miestnosti na spoluprÃ¡cu pre spoluautorstvo v reÃ¡lnom Äase alebo vlastnÃ© miestnosti s flexibilnÃ½mi nastaveniami na akÃ½koÄ¾vek ÃºÄel*.
 
-* *Pracovať so súbormi rôznych formátov*: textové dokumenty, tabuľky, prezentácie, digitálne formuláre, PDF, elektronické knihy, multimédiá.
+* *PracovaÅ¥ so sÃºbormi rÃ´znych formÃ¡tov*: textovÃ© dokumenty, tabuÄ¾ky, prezentÃ¡cie, digitÃ¡lne formulÃ¡re, PDF, elektronickÃ© knihy, multimÃ©diÃ¡.
 
-* *Spolupracujte na dokumentoch* s dvoma režimami spoluautorstva: v reálnom čase alebo s uzamykaním paragrafov. Sledujte zmeny, komunikujte v reálnom čase pomocou zabudovaného chatu alebo uskutočňujte audio- a videohovory. 
+* *Spolupracujte na dokumentoch* s dvoma reÅ¾imami spoluautorstva: v reÃ¡lnom Äase alebo s uzamykanÃ­m paragrafov. Sledujte zmeny, komunikujte v reÃ¡lnom Äase pomocou zabudovanÃ©ho chatu alebo uskutoÄÅˆujte audio- a videohovory. 
 
-* *Pripojte akékoľvek cloudové úložisko* a pracujte bez prepínania medzi aplikáciami. 
+* *Pripojte akÃ©koÄ¾vek cloudovÃ© ÃºloÅ¾isko* a pracujte bez prepÃ­nania medzi aplikÃ¡ciami. 
 
 $OrangeButton
 
-Ak potrebujete pomoc, prezrite si naše "Centrum pomoci":"${__HelpLink}" alebo sa opýtajte nášho "tímu podpory":"${__SupportLink}".
+Ak potrebujete pomoc, prezrite si naÅ¡e "Centrum pomoci":"${__HelpLink}" alebo sa opÃ½tajte nÃ¡Å¡ho "tÃ­mu podpory":"${__SupportLink}".
 
 $TrulyYours</value>
   </data>
   <data name="subject_saas_custom_mode_reg_data" xml:space="preserve">
-    <value>Bol zaregistrovaný nový portál</value>
+    <value>Bol zaregistrovanÃ½ novÃ½ portÃ¡l</value>
   </data>
   <data name="pattern_saas_custom_mode_reg_data" xml:space="preserve">
-    <value>h3.Bol zaregistrovaný nový portál
+    <value>h3.Bol zaregistrovanÃ½ novÃ½ portÃ¡l
 
-# URL adresa portálu: "${__VirtualRootPath}":"${__VirtualRootPath}"
+# URL adresa portÃ¡lu: "${__VirtualRootPath}":"${__VirtualRootPath}"
 # Meno: $UserName
 # Priezvisko: $UserLastName
 # E-mail: $UserEmail
-# Telefón: $Phone
-# Dátum vytvorenia: $Date</value>
+# TelefÃ³n: $Phone
+# DÃ¡tum vytvorenia: $Date</value>
   </data>
   <data name="pattern_remove_user_data_completed_custom_mode" xml:space="preserve">
-    <value>Vážený/Vážená $UserName,
+    <value>VÃ¡Å¾enÃ½/VÃ¡Å¾enÃ¡ $UserName,
 
-Proces vymazania údajov používateľa "$FromUserName":"$FromUserLink" bol úspešne dokončený.
+Proces vymazania Ãºdajov pouÅ¾Ã­vateÄ¾a "$FromUserName":"$FromUserLink" bol ÃºspeÅ¡ne dokonÄenÃ½.
 
-Vymazanie osobných údajov umožnilo uvoľniť $DocsSpace</value>
+Vymazanie osobnÃ½ch Ãºdajov umoÅ¾nilo uvoÄ¾niÅ¥ $DocsSpace</value>
   </data>
   <data name="ProductAdminOpportunitiesCustomMode" xml:space="preserve">
-    <value>Urobte to isté ako používateľ|Pripojte Dropbox, Box a ďalšie účty v časti "Spoločné"|Nastavte prístupové práva k dokumentom a priečinkom v časti "Spoločné"</value>
+    <value>Urobte to istÃ© ako pouÅ¾Ã­vateÄ¾|Pripojte Dropbox, Box a ÄalÅ¡ie ÃºÄty v Äasti "SpoloÄnÃ©"|Nastavte prÃ­stupovÃ© prÃ¡va k dokumentom a prieÄinkom v Äasti "SpoloÄnÃ©"</value>
   </data>
   <data name="ProductUserOpportunitiesCustomMode" xml:space="preserve">
-    <value>Vytvárajte a upravujte vlastné a zdieľané dokumenty so zodpovedajúcimi prístupovými právami|Dávajte ostatným používateľom prístup na čítanie/úpravu dokumentov a priečinkov|Pripojte Dropbox, Box a iné účty v časti "Moje dokumenty"</value>
+    <value>VytvÃ¡rajte a upravujte vlastnÃ© a zdieÄ¾anÃ© dokumenty so zodpovedajÃºcimi prÃ­stupovÃ½mi prÃ¡vami|DÃ¡vajte ostatnÃ½m pouÅ¾Ã­vateÄ¾om prÃ­stup na ÄÃ­tanie/Ãºpravu dokumentov a prieÄinkov|Pripojte Dropbox, Box a inÃ© ÃºÄty v Äasti "Moje dokumenty"</value>
   </data>
   <data name="subject_remove_user_data_completed_custom_mode" xml:space="preserve">
-    <value>${LetterLogoText}. Odstránenie údajov používateľa ukončené</value>
+    <value>${LetterLogoText}. OdstrÃ¡nenie Ãºdajov pouÅ¾Ã­vateÄ¾a ukonÄenÃ©</value>
   </data>
 </root>

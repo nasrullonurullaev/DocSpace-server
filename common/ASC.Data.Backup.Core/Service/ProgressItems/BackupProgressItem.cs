@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -24,6 +24,8 @@
 // content are licensed under the terms of the Creative Commons Attribution-ShareAlike 4.0
 // International. See the License terms at http://creativecommons.org/licenses/by-sa/4.0/legalcode
 
+using System.Text.Json;
+
 namespace ASC.Data.Backup.Services;
 
 [Transient]
@@ -47,11 +49,12 @@ public class BackupProgressItem(ILogger<BackupProgressItem> logger,
     public void Init(BackupSchedule schedule, bool isScheduled, string tempFolder, int limit)
     {
         Init();
+        BackupProgressItemType = BackupProgressItemType.Backup;
         _userId = Guid.Empty;
         TenantId = schedule.TenantId;
         _storageType = schedule.StorageType;
         _storageBasePath = schedule.StorageBasePath;
-        _storageParams = JsonConvert.DeserializeObject<Dictionary<string, string>>(schedule.StorageParams);
+        _storageParams = JsonSerializer.Deserialize<Dictionary<string, string>>(schedule.StorageParams);
         _isScheduled = isScheduled;
         _tempFolder = tempFolder;
         _limit = limit;
@@ -61,6 +64,7 @@ public class BackupProgressItem(ILogger<BackupProgressItem> logger,
     public void Init(StartBackupRequest request, bool isScheduled, string tempFolder, int limit)
     {
         Init();
+        BackupProgressItemType = BackupProgressItemType.Backup;
         _userId = request.UserId;
         TenantId = request.TenantId;
         _storageType = request.StorageType;
@@ -82,6 +86,9 @@ public class BackupProgressItem(ILogger<BackupProgressItem> logger,
         var backupRepository = scope.ServiceProvider.GetService<BackupRepository>();
         var backupPortalTask = scope.ServiceProvider.GetService<BackupPortalTask>();
         var tempStream = scope.ServiceProvider.GetService<TempStream>();
+        var socketManager = scope.ServiceProvider.GetService<SocketManager>();
+        await tenantManager.SetCurrentTenantAsync(TenantId);
+        await socketManager.BackupProgressAsync(0);
 
         var dateTime = coreBaseSettings.Standalone ? DateTime.Now : DateTime.UtcNow;
         var tempFile = "";
@@ -102,9 +109,10 @@ public class BackupProgressItem(ILogger<BackupProgressItem> logger,
 
             backupPortalTask.Init(TenantId, tempFile, _limit, writer, _dump);
 
-            backupPortalTask.ProgressChanged = async (args) =>
+            backupPortalTask.ProgressChanged = async args =>
             {
                 Percentage = 0.9 * args.Progress;
+                await socketManager.BackupProgressAsync((int)Percentage);
                 await PublishChanges();
             };
 
@@ -135,7 +143,7 @@ public class BackupProgressItem(ILogger<BackupProgressItem> logger,
                     StoragePath = storagePath,
                     CreatedOn = DateTime.UtcNow,
                     ExpiresOn = _storageType == BackupStorageType.DataStore ? DateTime.UtcNow.AddDays(1) : DateTime.MinValue,
-                    StorageParams = JsonConvert.SerializeObject(_storageParams),
+                    StorageParams = JsonSerializer.Serialize(_storageParams),
                     Hash = hash,
                     Removed = false
                 });
@@ -163,6 +171,7 @@ public class BackupProgressItem(ILogger<BackupProgressItem> logger,
         {
             try
             {
+                await socketManager.EndBackupAsync(ToBackupProgress());
                 await PublishChanges();
             }
             catch (Exception error)

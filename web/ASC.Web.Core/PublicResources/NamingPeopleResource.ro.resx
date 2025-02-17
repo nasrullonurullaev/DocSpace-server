@@ -118,13 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="DefaultAddUsers" xml:space="preserve">
-    <value>Adăugare angajați</value>
+    <value>AdÄƒugare angajaÈ›i</value>
   </data>
   <data name="EducationAddUsers" xml:space="preserve">
-    <value>Adăugare Profesori/Studenți</value>
+    <value>AdÄƒugare Profesori/StudenÈ›i</value>
   </data>
   <data name="CommonAddUsers" xml:space="preserve">
-    <value>Adăugare utilizatori</value>
+    <value>AdÄƒugare utilizatori</value>
   </data>
   <data name="CommonSchemaName" xml:space="preserve">
     <value>Comun</value>
@@ -139,7 +139,7 @@
     <value>Departamente</value>
   </data>
   <data name="EducationSchemaName" xml:space="preserve">
-    <value>Instituția de învățământ</value>
+    <value>InstituÈ›ia de Ã®nvÄƒÈ›ÄƒmÃ¢nt</value>
   </data>
   <data name="DefaultRegDate" xml:space="preserve">
     <value>Angajat de la</value>
@@ -148,7 +148,7 @@
     <value>Angajat</value>
   </data>
   <data name="DefaultUsers" xml:space="preserve">
-    <value>Angajați</value>
+    <value>AngajaÈ›i</value>
   </data>
   <data name="EducationGroup" xml:space="preserve">
     <value>Grup</value>
@@ -157,7 +157,7 @@
     <value>Grup</value>
   </data>
   <data name="EducationGroupHead" xml:space="preserve">
-    <value>Șef de grup</value>
+    <value>È˜ef de grup</value>
   </data>
   <data name="EducationGroups" xml:space="preserve">
     <value>Grupuri</value>
@@ -175,34 +175,34 @@
     <value>Invitat</value>
   </data>
   <data name="EducationGuests" xml:space="preserve">
-    <value>Invitaţi</value>
+    <value>InvitaÅ£i</value>
   </data>
   <data name="DefaultGuests" xml:space="preserve">
-    <value>Invitaţi</value>
+    <value>InvitaÅ£i</value>
   </data>
   <data name="CommonGuests" xml:space="preserve">
-    <value>Invitaţi</value>
+    <value>InvitaÅ£i</value>
   </data>
   <data name="DefaultGroupHead" xml:space="preserve">
-    <value>Șef</value>
+    <value>È˜ef</value>
   </data>
   <data name="CommonGroupHead" xml:space="preserve">
-    <value>Șef</value>
+    <value>È˜ef</value>
   </data>
   <data name="DefaultUserTitle" xml:space="preserve">
-    <value>Funcția</value>
+    <value>FuncÈ›ia</value>
   </data>
   <data name="EducationRegDate" xml:space="preserve">
-    <value>Înregistrat în data de</value>
+    <value>ÃŽnregistrat Ã®n data de</value>
   </data>
   <data name="CommonRegDate" xml:space="preserve">
-    <value>Înregistrat în data de</value>
+    <value>ÃŽnregistrat Ã®n data de</value>
   </data>
   <data name="EducationUser" xml:space="preserve">
     <value>Profesor/Student</value>
   </data>
   <data name="EducationUsers" xml:space="preserve">
-    <value>Profesori/Studenți</value>
+    <value>Profesori/StudenÈ›i</value>
   </data>
   <data name="EducationUserTitle" xml:space="preserve">
     <value>Titlu</value>

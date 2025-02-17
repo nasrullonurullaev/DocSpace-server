@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -49,9 +49,9 @@ public class TelegramHelper(ConsumerFactory consumerFactory,
         return GetLink(token);
     }
 
-    public void SendMessage(NotifyMessage msg)
+    public async Task SendMessageAsync(NotifyMessage msg)
     {
-        telegramServiceClient.SendMessage(msg);
+        await telegramServiceClient.SendMessage(msg);
     }
 
     public async Task<bool> CreateClientAsync(int tenantId, string token, int tokenLifespan, string proxy)
@@ -130,7 +130,7 @@ public class TelegramHelper(ConsumerFactory consumerFactory,
     {
         try
         {
-            if (!telegramBotClient.TestApiAsync().GetAwaiter().GetResult())
+            if (!telegramBotClient.TestApi().GetAwaiter().GetResult())
             {
                 return false;
             }

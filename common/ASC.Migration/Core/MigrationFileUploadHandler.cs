@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -49,7 +49,7 @@ public class MigrationFileUploadHandler
                 throw new System.Security.SecurityException("Access denied.");
             }
 
-            var tenantId = await tenantManager.GetCurrentTenantIdAsync();
+            var tenantId = tenantManager.GetCurrentTenantId();
             var key = $"migration folder - {tenantId}";
             if (context.Request.Query["Init"].ToString() == "true")
             {

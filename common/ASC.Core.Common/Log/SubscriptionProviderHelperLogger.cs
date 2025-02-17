@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -28,6 +28,6 @@ namespace ASC.Core.Common.Log;
 public static partial class SubscriptionProviderHelperLogger
 {
 
-    [LoggerMessage(Level = LogLevel.Error, Message = "IsSubscribed")]
+    [LoggerMessage(LogLevel.Error, "IsSubscribed")]
     public static partial void ErrorIsSubscribed(this ILogger logger, Exception exception);
 }

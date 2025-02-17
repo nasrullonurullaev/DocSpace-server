@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
@@ -145,9 +145,6 @@ $__AuthorName vymazal(a) miestnosť: $RoomTitle</value>
   </data>
   <data name="subject_DocuSignStatus_push" xml:space="preserve">
     <value>Stav podpisu zmenený</value>
-  </data>
-  <data name="subject_EditorMentions_push" xml:space="preserve">
-    <value>Uvedené v dokumente</value>
   </data>
   <data name="subject_MailMergeEnd_push" xml:space="preserve">
     <value>Odosielanie je ukončené.</value>

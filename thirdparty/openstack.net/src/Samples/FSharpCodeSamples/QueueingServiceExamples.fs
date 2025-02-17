@@ -1,4 +1,4 @@
-﻿module QueueingServiceExamples
+module QueueingServiceExamples
 
 open System
 open System.Threading

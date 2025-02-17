@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -26,15 +26,15 @@
 
 namespace ASC.Files.Core.ApiModels.ResponseDto;
 
-/// <summary>
-/// </summary>
 public class RoomSecurityDto
 {
-    /// <summary>List of room members</summary>
-    /// <type>System.Collections.Generic.IEnumerable{ASC.Files.Core.ApiModels.ResponseDto.FileShareDto}, System.Collections.Generic</type>
+    /// <summary>
+    /// List of room members
+    /// </summary>
     public IEnumerable<FileShareDto> Members { get; set; }
 
-    /// <summary>Warning</summary>
-    /// <type>System.String, System</type>
+    /// <summary>
+    /// Warning
+    /// </summary>
     public string Warning { get; set; }
 }

@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -65,7 +65,7 @@ public class DocumentBuilderTaskManager
         }
     }
 
-    public async Task<DistributedTaskProgress> StartTask<T>(DocumentBuilderTask<T> newTask, bool enqueueTask = true)
+    public async Task<DistributedTaskProgress> StartTask<T, TData>(DocumentBuilderTask<T, TData> newTask, bool enqueueTask = true)
     {
         try
         {

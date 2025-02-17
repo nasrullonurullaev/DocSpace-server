@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -27,6 +27,6 @@
 namespace ASC.Notify.Log;
 internal static partial class NotifyCleanerServiceLogger
 {        
-    [LoggerMessage(Level = LogLevel.Error, Message = "Clear")]
+    [LoggerMessage(LogLevel.Error, "Clear")]
     public static partial void ErrorClear(this ILogger<NotifyCleanerService> logger, Exception exception);
 }

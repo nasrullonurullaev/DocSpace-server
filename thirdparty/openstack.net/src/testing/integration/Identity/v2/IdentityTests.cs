@@ -1,4 +1,4 @@
-﻿using System.Diagnostics;
+using System.Diagnostics;
 using net.openstack.Core.Providers;
 using Xunit;
 using Xunit.Abstractions;

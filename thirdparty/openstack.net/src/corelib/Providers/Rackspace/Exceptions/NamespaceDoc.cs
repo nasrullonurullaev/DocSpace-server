@@ -1,4 +1,4 @@
-﻿namespace net.openstack.Providers.Rackspace.Exceptions
+namespace net.openstack.Providers.Rackspace.Exceptions
 {
     using System.Runtime.CompilerServices;
 

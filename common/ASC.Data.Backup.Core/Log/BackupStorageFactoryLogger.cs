@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+// (c) Copyright Ascensio System SIA 2009-2024
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -27,6 +27,6 @@
 namespace ASC.Data.Backup.Core.Log;
 internal static partial class BackupStorageFactoryLogger
 {
-    [LoggerMessage(Level = LogLevel.Error, Message = "can't get backup storage for record {id}")]
+    [LoggerMessage(LogLevel.Error, "can't get backup storage for record {id}")]
     public static partial void ErrorCantGetBackupStorage(this ILogger<BackupStorageFactory> logger, Guid id, Exception exception);
 }

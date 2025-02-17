@@ -1,4 +1,4 @@
-﻿namespace net.openstack.Providers.Rackspace.Objects.Databases
+namespace net.openstack.Providers.Rackspace.Objects.Databases
 {
     using Newtonsoft.Json;
     using ExtensibleJsonObject = net.openstack.Core.Domain.ExtensibleJsonObject;
