@@ -16,7 +16,6 @@ def get_base_branch() -> str:
     return os.getenv("GITHUB_BASE_REF", "main")
 
 
-
 def get_changed_files(base_branch: str) -> List[str]:
     """Fetches the list of changed files in the PR and filters out excluded files."""
     print(f"Checking diff against: {base_branch}")
@@ -76,10 +75,10 @@ def extract_comments(diff_output: str) -> List[str]:
 
 
 def detect_non_ascii_comments(comments: List[str]) -> List[str]:
-    """Identifies comments that contain non-ASCII characters."""
-        return [
+    """Identifies comments that contain non-ASCII characters, ignoring non-alphabetic symbols."""
+    return [
         comment for comment in comments
-        if NON_ASCII_REGEX.search(''.join(re.findall(r'[a-zA-Z0-9\s]', comment)))
+        if NON_ASCII_REGEX.search(''.join(re.findall(r'[a-zA-Z\s]', comment)))  # Оставляем только буквы и пробелы
     ]
 
 
