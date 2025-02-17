@@ -8,22 +8,16 @@ EXCLUDED_FILES = {".json", ".p7s", ".cjs", ".po", ".license", ".xml", ".resx"}
 
 # Regex patterns
 COMMENT_REGEX = re.compile(r"(?://|#|<!--|/\*|\*).+")  # Matches comments in various languages
-NON_ASCII_REGEX = re.compile(r"[^\x80-\xFF]")  # Matches non-ASCII characters
+NON_ASCII_REGEX = re.compile(r"[^\x00-\x7F]")  # Matches non-ASCII characters
 
 
 def get_base_branch() -> str:
-    """
-    Retrieves the base branch for the pull request.
-    Defaults to 'main' if running outside a CI environment.
-    """
+    """Retrieves the base branch for the pull request."""
     return os.getenv("GITHUB_BASE_REF", "main")
 
 
 def get_changed_files(base_branch: str) -> List[str]:
-    """
-    Fetches the list of changed files in the PR.
-    Filters out files with extensions in EXCLUDED_FILES.
-    """
+    """Fetches the list of changed files in the PR and filters out excluded files."""
     print(f"Checking diff against: {base_branch}")
 
     try:
@@ -53,9 +47,7 @@ def get_changed_files(base_branch: str) -> List[str]:
 
 
 def get_diff(included_files: List[str], base_branch: str) -> Optional[str]:
-    """
-    Retrieves the Git diff of the included files.
-    """
+    """Retrieves the Git diff of the included files."""
     if not included_files:
         return None
 
@@ -74,9 +66,7 @@ def get_diff(included_files: List[str], base_branch: str) -> Optional[str]:
 
 
 def extract_comments(diff_output: str) -> List[str]:
-    """
-    Extracts comments from the diff output.
-    """
+    """Extracts comments from the diff output."""
     return [
         line[1:].strip()
         for line in diff_output.split("\n")
@@ -85,10 +75,11 @@ def extract_comments(diff_output: str) -> List[str]:
 
 
 def detect_non_ascii_comments(comments: List[str]) -> List[str]:
-    """
-    Identifies comments that contain non-ASCII characters.
-    """
-    return [comment for comment in comments if NON_ASCII_REGEX.search(comment)]
+    """Identifies comments that contain non-ASCII characters, ignoring non-alphabetic symbols."""
+    return [
+        comment for comment in comments
+        if NON_ASCII_REGEX.search(''.join(re.findall(r'[a-zA-Z\s]', comment)))  # Оставляем только буквы и пробелы
+    ]
 
 
 def main():
@@ -101,13 +92,10 @@ def main():
         return
 
     comments = extract_comments(diff_output)
-    if not comments:
-        print("No comments found in changes.")
-        return
-
     non_ascii_comments = detect_non_ascii_comments(comments)
+
     if non_ascii_comments:
-        print("Found comments with non-ASCII characters in the following files:")
+        print("Found comments with non-ASCII characters:")
         for comment in non_ascii_comments:
             print(f"- {comment}")
         exit(1)
