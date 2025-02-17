@@ -1,4 +1,4 @@
-﻿// (c) Copyright Ascensio System SIA 2009-2024
+﻿// (c) Copyright Ascensio System SIA 2009-2025
 // 
 // This program is a free software product.
 // You can redistribute it and/or modify it under the terms
@@ -25,7 +25,7 @@
 // International. See the License terms at http://creativecommons.org/licenses/by-sa/4.0/legalcode
 
 using SecurityContext = ASC.Core.SecurityContext;
-
+//русский 
 namespace ASC.Api.Core.Auth;
 
 public class BasicAuthHandler(
@@ -48,7 +48,7 @@ public class BasicAuthHandler(
 
         // Get authorization key
         var authorizationHeader = Request.Headers["Authorization"].ToString();
-        var authHeaderRegex = new Regex(@"Basic (.*)");
+//        var authHeaderRegex = new Regex(@"Basic (.*)");
 
         if (!authHeaderRegex.IsMatch(authorizationHeader))
         {
@@ -60,14 +60,14 @@ public class BasicAuthHandler(
         var authUsername = authSplit[0];
         var authPassword = authSplit.Length > 1 ? authSplit[1] : throw new Exception("Unable to get password");
 
-        try
+        /* try
         {
             var userInfo = await userManager.GetUserByEmailAsync(authUsername);
             var passwordHash = passwordHasher.GetClientPassword(authPassword);
 
             await securityContext.AuthenticateMeAsync(userInfo.Email, passwordHash);
 
-        }
+        } */
         catch (Exception)
         {
             return AuthenticateResult.Fail("The username or password is not correct.");
