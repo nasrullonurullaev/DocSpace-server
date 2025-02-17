@@ -1,7 +1,7 @@
 import os
 import re
 import subprocess
-import regex as re
+import re
 from typing import List, Optional
 
 # File extensions to exclude (localization, config files, etc.)
